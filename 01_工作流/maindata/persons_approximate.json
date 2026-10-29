@@ -1,0 +1,596 @@
+{
+  "layer": "approximate",
+  "note": "⚠️ 人物近似层。由语料词频发现，身份未核实。与 persons.json（正式层）分开管理，运行时叠加、随时可弃。**本层所有条目 verificationStatus=unverified，不得当作已考证人物使用。**",
+  "persons": [
+    {
+      "id": "person_approx_0",
+      "names": {
+        "formal": "冏",
+        "title": "齐王"
+      },
+      "aliases": [
+        "冏",
+        "齐王冏"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#8c3424",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 11,
+      "firstYear": 301,
+      "evidenceSample": "【齐王】赵王伦饕据天位。镇东大将军、齐王冏，征北大将军、成都王颖，征西大将军、河间",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    },
+    {
+      "id": "person_approx_1",
+      "names": {
+        "formal": "王导",
+        "title": null
+      },
+      "aliases": [
+        "王导"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#1565c0",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 9,
+      "firstYear": 276,
+      "evidenceSample": "为军司马，贺循为参佐，王敦、王导、周顗、刁协并为腹心股肱，宾礼名贤，存问",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    },
+    {
+      "id": "person_approx_2",
+      "names": {
+        "formal": "刘毅",
+        "title": null
+      },
+      "aliases": [
+        "刘毅"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#c2185b",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 8,
+      "firstYear": 404,
+      "evidenceSample": "反淳朴。雅好直言，留心采擢，刘毅、裴楷以质直见容，嵇绍、许奇虽仇雠不弃。",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    },
+    {
+      "id": "person_approx_3",
+      "names": {
+        "formal": "刘歆",
+        "title": null
+      },
+      "aliases": [
+        "刘歆"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#6a1b9a",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 7,
+      "firstYear": null,
+      "evidenceSample": "曰“五声、十二律还相为宫”。刘歆、班固撰《律历志》亦纪十二律，惟京房始创",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    },
+    {
+      "id": "person_approx_4",
+      "names": {
+        "formal": "攸",
+        "title": "齐王"
+      },
+      "aliases": [
+        "攸",
+        "齐王攸"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#00695c",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 6,
+      "firstYear": 277,
+      "evidenceSample": "【齐王】三月戊申，星孛于西南。是年，齐王攸、任城王陵、琅邪王伷、新都王该薨。八年九",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    },
+    {
+      "id": "person_approx_5",
+      "names": {
+        "formal": "王恭",
+        "title": null
+      },
+      "aliases": [
+        "王恭"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#b8860b",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 6,
+      "firstYear": 386,
+      "evidenceSample": "”二十一年，帝崩。隆安元年，王恭、殷仲堪、桓玄等并发兵，表以诛王国宝为名",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    },
+    {
+      "id": "person_approx_6",
+      "names": {
+        "formal": "张华",
+        "title": null
+      },
+      "aliases": [
+        "张华"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#4e342e",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 6,
+      "firstYear": 295,
+      "evidenceSample": "后不悟，终丧四海，是其应也。张华、阎纂皆曰，武库火而氐羌反，太子见废，则",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    },
+    {
+      "id": "person_approx_7",
+      "names": {
+        "formal": "王猛",
+        "title": null
+      },
+      "aliases": [
+        "王猛"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#37474f",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 6,
+      "firstYear": 357,
+      "evidenceSample": "略，守南山之操，遂而不夺者，王猛、硃肜之伦，相望于岩谷。济济多士，焉可罄",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    },
+    {
+      "id": "person_approx_8",
+      "names": {
+        "formal": "刘曜",
+        "title": null
+      },
+      "aliases": [
+        "刘曜"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#00838f",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 5,
+      "firstYear": 307,
+      "evidenceSample": "所掠，不得进而还。六月癸未，刘曜、王弥、石勒同寇洛川，王师频为贼所败，死",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    },
+    {
+      "id": "person_approx_9",
+      "names": {
+        "formal": "王弥",
+        "title": null
+      },
+      "aliases": [
+        "王弥"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#5d4037",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 5,
+      "firstYear": 309,
+      "evidenceSample": "不得进而还。六月癸未，刘曜、王弥、石勒同寇洛川，王师频为贼所败，死者甚众",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    },
+    {
+      "id": "person_approx_10",
+      "names": {
+        "formal": "王敦",
+        "title": null
+      },
+      "aliases": [
+        "王敦"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#ad1457",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 5,
+      "firstYear": 276,
+      "evidenceSample": "以顾荣为军司马，贺循为参佐，王敦、王导、周顗、刁协并为腹心股肱，宾礼名贤",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    },
+    {
+      "id": "person_approx_11",
+      "names": {
+        "formal": "刘元海",
+        "title": null
+      },
+      "aliases": [
+        "刘元海"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#283593",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 5,
+      "firstYear": 303,
+      "evidenceSample": "豫为天下兵冲。陈敏又乱扬土。刘元海、石勒、李雄等并起微贱，跨有州郡。皇后羊",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    },
+    {
+      "id": "person_approx_12",
+      "names": {
+        "formal": "刘向曰",
+        "title": null
+      },
+      "aliases": [
+        "刘向曰"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#00796b",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 5,
+      "firstYear": 306,
+      "evidenceSample": "为之冰，氛气寒，木不曲直也。刘向曰，冰者阴之盛，木者少阳，贵臣卿大夫象也。",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    },
+    {
+      "id": "person_approx_13",
+      "names": {
+        "formal": "王沈",
+        "title": null
+      },
+      "aliases": [
+        "王沈"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#795548",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 5,
+      "firstYear": 272,
+      "evidenceSample": "高贵乡公好才爱士，望与裴秀、王沈、锺会并见亲待，数侍宴筵。公性急，秀等居",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    },
+    {
+      "id": "person_approx_14",
+      "names": {
+        "formal": "王如故",
+        "title": null
+      },
+      "aliases": [
+        "王如故"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#4527a0",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 5,
+      "firstYear": null,
+      "evidenceSample": "、督中外诸军事、相国，侍中、王如故，一依宣、文辅魏故事，置左右长史、司马、",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    },
+    {
+      "id": "person_approx_15",
+      "names": {
+        "formal": "慕容垂",
+        "title": null
+      },
+      "aliases": [
+        "慕容垂"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#8c3424",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 4,
+      "firstYear": 373,
+      "evidenceSample": "其法，诸侯乱其政。”自是后，慕容垂、翟辽、姚苌、苻登、慕容永并阻兵争强。十",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    },
+    {
+      "id": "person_approx_16",
+      "names": {
+        "formal": "刘向",
+        "title": null
+      },
+      "aliases": [
+        "刘向"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#1565c0",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 4,
+      "firstYear": 369,
+      "evidenceSample": "：“大辰为天王，天下有丧。”刘向《五纪论》曰：“《春秋》，星孛于东方，不",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    },
+    {
+      "id": "person_approx_17",
+      "names": {
+        "formal": "杨骏",
+        "title": null
+      },
+      "aliases": [
+        "杨骏"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#c2185b",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 4,
+      "firstYear": 283,
+      "evidenceSample": "朝，不被亲仗，而贾充、荀勖、杨骏、冯紞等迭居要重，所以无年不旱者，欲德不",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    },
+    {
+      "id": "person_approx_18",
+      "names": {
+        "formal": "王恂",
+        "title": null
+      },
+      "aliases": [
+        "王恂"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#6a1b9a",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 4,
+      "firstYear": 278,
+      "evidenceSample": "将军，累迁侍中，与侍中孔恂、王恂、杨济同列，为一时秀彦。武帝尝会公卿籓牧",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    },
+    {
+      "id": "person_approx_19",
+      "names": {
+        "formal": "王尼",
+        "title": null
+      },
+      "aliases": [
+        "王尼"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#00695c",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 4,
+      "firstYear": null,
+      "evidenceSample": " 胡毋辅之（子谦之） 毕卓 王尼 羊曼 光逸",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    },
+    {
+      "id": "person_approx_20",
+      "names": {
+        "formal": "慕容恪",
+        "title": null
+      },
+      "aliases": [
+        "慕容恪"
+      ],
+      "matchGranularity": "title+name",
+      "color": "#b8860b",
+      "portrait": null,
+      "realm": null,
+      "realmSeat": null,
+      "note": "⚠️ 近似人物：仅由语料词频发现，**身份未核实**。封号/全名/关系/势力范围均待人工确认。",
+      "appearsIn": [],
+      "freq": 4,
+      "firstYear": null,
+      "evidenceSample": "觊非望，实匪寡德所宜闻也。”慕容恪、封弈讨王午于鲁口，降之。寻而慕容评攻克",
+      "verificationStatus": "unverified",
+      "provenance": {
+        "kind": "frequency-derived-candidate",
+        "method": "find_persons.py 两阶段（封号白名单 → 白名单后抽名）",
+        "notAHistoricalClaim": "本条**不是**人物考证结论，只是词频候选。可能是同一人、也可能是误抽或同名异人。",
+        "confirmBefore": "进入正式 persons.json 前必须确认：全名、封号、父子/兄弟关系、所属势力、颜色含义",
+        "sourceFile": "待补人物.json"
+      }
+    }
+  ]
+}

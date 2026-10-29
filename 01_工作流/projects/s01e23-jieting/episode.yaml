@@ -1,0 +1,313 @@
+# 快节奏版（2026-10-14，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第23集：出师表、一出祁山、街亭之败、自贬三等、石亭之战、孙权称帝（227–229）
+# 本地语料核对：
+# 马谡传（马良传附）"先主临薨谓亮曰：马谡言过其实，不可大用，君其察之！亮犹谓不然…时有宿将魏延、吴壹等，论者皆言以为宜令为先锋，而亮违众拔谡…谡下狱物故，亮为之流涕"；
+# 诸葛亮传 出师表"先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也…亲贤臣，远小人，此先汉所以兴隆也；亲小人，远贤臣，此后汉所以倾颓也…临表涕零，不知所言"；
+#   "六年春，扬声由斜谷道取郿，使赵云、邓芝为疑军，据箕谷，魏大将军曹真举众拒之。亮身率诸军攻祁山，戎陈整齐，赏罚肃而号令明，南安、天水、安定三郡叛魏应亮，关中响震。魏明帝西镇长安，命张郃拒亮…谡违亮节度，举动失宜，大为张郃所破。亮拔西县千余家，还于汉中，戮谡以谢众…至有街亭违命之阙，箕谷不戒之失，咎皆在臣授任无方…请自贬三等"；
+# 张郃传"谡依阻南山，不下据城。郃绝其汲道，击，大破之"；王平传"谡舍水上山，举措烦扰，平连规谏谡，谡不能用…众尽星散，惟平所领千人鸣鼓自持，魏将张郃疑其伏兵，不往逼也。于是平徐徐收合诸营遗迸，率将士而还"；
+# 吴主传"鄱阳太守周鲂伪叛，诱魏将曹休…使将军陆逊督诸将大破休于石亭"；周鲂传"休果信鲂，帅步骑十万…休幅裂瓦解"；"黄龙元年…夏四月…丙申，南郊即皇帝位"。
+# 不用：空城计（注引郭冲三事，裴松之已驳）；"挥泪斩马谡"四字（襄阳记注文）——片中如实说两种记载。
+
+id: s01e23-jieting
+title: 街亭
+series: 三国 · 第23集
+year: 228
+
+notes:
+  - 主线问题：准备了五年的第一次北伐，怎么一下就输了？——输在一个刘备说过"不可大用"的人身上；诸葛亮自己的回答是：错在我用人不当。
+  - 反差：三郡响应、关中震动，形势一片大好；一个先锋上了山，全盘皆输。
+  - 细节：刘备临终"言过其实，不可大用"；马谡舍水上山，张郃断了汲水的路；王平千人敲鼓不动，张郃不敢逼；"请自贬三等"。
+  - 动机：诸葛亮"违众拔谡"——他太欣赏马谡，常常和他从白天谈到深夜。
+  - 演义对照：空城计出自注引《郭冲三事》，裴松之当时就驳了；马谡是被斩还是死在狱中，史书说法不一。
+
+map:
+  center: [106.0, 33.5]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-17 史图风
+  river_rank: 4
+  palette: warm          # 2026-10-25 第18集起统一新样式（第27集试样通过）
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 刘备说这个人不可大用，诸葛亮没听
+  big: [失街亭]
+  hero: 诸葛亮
+  at: 30
+  summary: |
+    诸葛亮上《出师表》："此诚危急存亡之秋也。"228 年春，他让赵云在箕谷佯动，自己率主力出祁山，南安、天水、安定三郡叛魏应蜀，关中震动。可他力排众议，让刘备说过"言过其实，不可大用"的马谡当先锋守街亭。
+    马谡舍水上山，张郃断了蜀军的汲水之路，一战大破；只有王平千人鸣鼓自持，收拢散兵而还。诸葛亮退回汉中，上书"咎皆在臣授任无方，请自贬三等"。同年陆逊石亭大破曹休，第二年孙权称帝，天下有了三个皇帝。
+  tags: [街亭, 马谡, 诸葛亮, 出师表, 王平]
+  next: 五丈原，诸葛亮病逝
+
+sources_local:
+  - {id: sgz-17, work: 三国志, volume: 卷十七·张郃传, url: 'https://zh.wikisource.org/wiki/三國志/卷17'}
+  - {id: sgz-35, work: 三国志, volume: 卷三十五·诸葛亮传, url: 'https://zh.wikisource.org/wiki/三國志/卷35'}
+  - {id: sgz-39, work: 三国志, volume: 卷三十九·马良传（附马谡）, url: 'https://zh.wikisource.org/wiki/三國志/卷39'}
+  - {id: sgz-43, work: 三国志, volume: 卷四十三·王平传, url: 'https://zh.wikisource.org/wiki/三國志/卷43'}
+  - {id: sgz-47, work: 三国志, volume: 卷四十七·吴主传, url: 'https://zh.wikisource.org/wiki/三國志/卷47'}
+  - {id: sgz-60, work: 三国志, volume: 卷六十·周鲂传, url: 'https://zh.wikisource.org/wiki/三國志/卷60'}
+
+factions: {魏: '#2f5d3a', 蜀汉: '#5f8f3a', 吴: '#b0841f'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    魏: {slot: jade, main: true, label_at: 长安}
+    蜀汉: {slot: pink, label_at: 成都}
+    吴: {slot: lemon, label_at: 武昌}
+
+people:
+  诸葛亮: {image: 03_素材/人物立绘/zhuge_liang.png, title: 丞相, role: 一出祁山, faction: 蜀汉}
+  刘禅: {image: 03_素材/人物立绘/liu_shan.png, title: 汉后主, role: 受出师表, faction: 蜀汉}
+  马谡: {image: 03_素材/人物立绘/ma_su.png, title: 参军, role: 失街亭, faction: 蜀汉}
+  王平: {image: 03_素材/人物立绘/wang_ping.png, title: 裨将军, role: 鸣鼓自持, faction: 蜀汉}
+  赵云: {image: 03_素材/人物立绘/zhao_yun.png, title: 镇东将军, role: 箕谷疑兵, faction: 蜀汉}
+  曹真: {image: 03_素材/人物立绘/cao_zhen.png, title: 大将军, role: 拒箕谷, faction: 魏}
+  曹叡: {image: 03_素材/人物立绘/cao_rui.png, title: 魏明帝, role: 西镇长安, faction: 魏}
+  张郃: {image: 03_素材/人物立绘/zhang_he.png, title: 左将军, role: 破马谡, faction: 魏}
+  曹休: {image: 03_素材/人物立绘/cao_xiu.png, title: 大司马, role: 石亭大败, faction: 魏}
+  陆逊: {image: 03_素材/人物立绘/lu_xun.png, title: 大都督, role: 石亭破休, faction: 吴}
+  孙权: {image: 03_素材/人物立绘/sun_quan.png, title: 吴大帝, role: 南郊即位, faction: 吴}
+
+places:
+  成都: {id: chengdu_city, label: left, tier: capital}
+  汉中: {id: nanzheng, name: 汉中, label: right}
+  沔阳: {id: mianyang_han, label: left}
+  箕谷: {id: jigu, label: right}
+  郿: {id: mei, label: right}
+  长安: {id: changan_han_city, label: right, tier: capital}
+  祁山: {id: qishan, label: left}
+  街亭: {id: jieting, label: above}
+  冀: {id: ji_tianshui, name: 天水, label: left}
+  皖: {id: wan_qianshan, label: right}
+  石亭: {id: shiting, label: left}
+  武昌: {id: wuchang_e, label: right}
+  洛阳: {id: luoyang_han_wei, label: right}
+
+camera:
+  focus: [汉中, 祁山, 长安]
+  zoom: 2.0
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 刘备临死前，特意叮嘱诸葛亮：有个人言过其实，不能大用。
+    map: '225-09'
+    year: 228
+    phase: 不可大用
+    sources: [sgz-39]
+    show:
+      - sfx: 重拍转场
+      - quote: {text: 马谡言过其实，不可大用, source: 三国志·马良传, era: 章武三年, cue: 言过其实, for: 4.4}
+
+  - say: 诸葛亮没听。五年后，这个人丢了街亭。
+    sources: [sgz-39]
+    camera: {focus: [汉中, 街亭, 祁山], zoom: fit, move: 1.6}
+    show:
+      - enter: {who: 马谡, side: right, cue: 这个人, for: 4}
+
+  # ---------------- 第一章 出师表 ----------------
+  - say: 二二七年，诸葛亮率大军北上汉中。临走前，他给刘禅上了一道奏章。
+    map: '226-12'
+    phase: 出师表
+    year: 227
+    sources: [sgz-35]
+    camera: {focus: [成都, 汉中], zoom: fit, move: 1.6}
+    tells: [e01]
+    show:
+      - title_bar: {text: 街亭, sub: 三国 · 第23集, for: 3.2}
+      - sfx: 片头鼓
+      - army: {head: 诸葛亮, from: 成都, to: 汉中, faction: 蜀汉, banner: 汉, troops: infantry, size: 2.8, label: 北驻汉中, cue: 北上, grow: 2.0}
+
+  - say: 开头就说：先帝创业还没一半，就中途去世了。如今天下三分，益州疲弊，这真是危急存亡的时候。
+    scene: 书房
+    sources: [sgz-35]
+    show:
+      - quote: {text: 此诚危急存亡之秋也, source: 三国志·诸葛亮传·出师表, era: 建兴五年, cue: 危急存亡, for: 4.4}
+
+  - say: 他叮嘱刘禅：亲近贤臣，远离小人，西汉因此兴隆；亲近小人，远离贤臣，东汉因此衰败。
+    scene: 书房
+    sources: [sgz-35]
+
+  - say: 最后一句：如今要远行了，对着这道奏表，泪流满面，不知道该说什么。
+    scene: 书房
+    sources: [sgz-35]
+    show:
+      - quote: {text: 临表涕零，不知所言, source: 三国志·诸葛亮传·出师表, era: 建兴五年, cue: 泪流满面, for: 4}
+
+  # ---------------- 第二章 祁山 ----------------
+  - say: 二二八年春，诸葛亮放出风声：要走斜谷，去取郿县。让赵云、邓芝带一支疑兵，占住箕谷。
+    phase: 祁山
+    year: 228
+    sources: [sgz-35]
+    camera: {focus: [汉中, 箕谷, 郿, 长安], zoom: fit, move: 1.4}
+    tells: [e02]
+    show:
+      - enter: {who: 赵云, side: left, cue: 赵云, for: 3}
+      - march: {from: 汉中, to: 箕谷, faction: 蜀汉, label: 疑军, cue: 箕谷, grow: 1.6}
+
+  - say: 魏国大将军曹真，赶紧带主力去堵。
+    audit_ok: [遗忘]
+    sources: [sgz-35]
+    tells: [e03]
+    show:
+      - enter: {who: 曹真, side: right, cue: 曹真, for: 3}
+      - army: {head: 曹真, from: 长安, to: 郿, faction: 魏, banner: 曹, troops: infantry, size: 2.8, cue: 主力, grow: 1.6}
+
+  - say: 可诸葛亮自己，带着主力扑向了西边的祁山。
+    sources: [sgz-35]
+    camera: {focus: [汉中, 祁山, 冀], zoom: fit, move: 1.4}
+    tells: [e04]
+    show:
+      - army: {head: 诸葛亮, from: 汉中, to: 祁山, faction: 蜀汉, banner: 汉, troops: infantry, size: 3.0, cue: 祁山, grow: 2.0}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 蜀军军容整齐，号令严明。南安、天水、安定三郡，一起背魏投蜀，关中震动。
+    map: '228-02'
+    owners_cue: 背魏投蜀
+    sources: [sgz-35]
+    tells: [e05, e05b]
+    show:
+      - quote: {text: 三郡叛魏应亮，关中响震, source: 三国志·诸葛亮传, era: 建兴六年, cue: 关中震动, for: 4}
+      - sfx: {name: 疆域易手, cue: 背魏投蜀}
+
+  - say: 魏明帝曹叡亲自坐镇长安，派老将张郃迎战。
+    sources: [sgz-35]
+    camera: {focus: [长安, 街亭, 祁山], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 曹叡, at: 长安, side: right, cue: 曹叡, for: 3}
+      - army: {head: 张郃, from: 长安, to: 街亭, faction: 魏, banner: 张, troops: cavalry, size: 2.8, cue: 张郃, grow: 2.0}
+
+  # ---------------- 第三章 街亭 ----------------
+  - say: 最要紧的街亭，派谁去守？军中有魏延、吴懿这样的老将，大家都觉得该让他们当先锋。
+    phase: 街亭
+    sources: [sgz-39]
+    camera: {focus: [祁山, 街亭], zoom: 10, move: 1.2}
+
+  - say: 诸葛亮偏偏选了马谡。
+    sources: [sgz-39]
+    tells: [e06]
+    show:
+      - enter: {who: 马谡, side: left, cue: 马谡, for: 3.4}
+      - march: {from: 祁山, to: 街亭, faction: 蜀汉, label: 马谡先锋, cue: 马谡, grow: 1.4}
+
+  - say: 到了街亭，马谡不守城、不靠水，把军队拉上了南山。副将王平一次次劝，马谡不听。
+    sources: [sgz-43, sgz-17]
+    show:
+      - enter: {who: 王平, side: right, cue: 王平, for: 3.6}
+      - flag: {at: 街亭, name: 马谡, sub: 舍水上山, faction: 蜀汉, cue: 南山, guest: true}
+
+  - say: 张郃一到，先断了山上取水的路，然后发起猛攻。
+    sources: [sgz-17]
+    tells: [e08]
+    show:
+      - enter: {who: 张郃, side: right, cue: 张郃, for: 3}
+      - campaign:
+          at: 街亭
+          title: 街亭之战
+          clash: 猛攻
+          sides:
+            - {from: 长安, faction: 魏, banner: 张, troops: cavalry, size: 2.8}
+            - {from: 祁山, faction: 蜀汉, banner: 马, troops: infantry, size: 2.2}
+      - sfx: {name: 古风擂鼓, cue: 猛攻}
+
+  - say: 蜀军大乱，四散奔逃。只有王平那一千人，敲着鼓原地不动。张郃怀疑有伏兵，不敢逼近。
+    audit_ok: [遗忘]
+    sources: [sgz-43]
+    show:
+      - quote: {text: 惟平所领千人鸣鼓自持, source: 三国志·王平传, era: 建兴六年, cue: 敲着鼓, for: 4}
+
+  - say: 王平慢慢收拢各营的散兵，带着大家撤了回来。
+    sources: [sgz-43]
+
+  - say: 街亭一丢，诸葛亮前面没了落脚的地方，只好带着西县一千多户百姓，退回汉中。
+    map: '228-05'
+    owners_cue: 退回汉中
+    sources: [sgz-35]
+    camera: {focus: [街亭, 祁山, 汉中], zoom: fit, move: 1.4}
+    tells: [e12, e13, e13b]
+    show:
+      - army: {head: 诸葛亮, from: 祁山, to: 汉中, faction: 蜀汉, banner: 汉, troops: infantry, size: 2.4, label: 拔西县千余家, cue: 退回, grow: 2.0}   # 2026-10-25 整军而还，不画溃逃
+
+  # ---------------- 第四章 自贬 ----------------
+  - say: 马谡被关进大牢。一说被处死，一说死在狱中。诸葛亮为他流了泪。
+    phase: 自贬
+    sources: [sgz-35, sgz-39]
+    show:
+      - exit: {who: 马谡, at: 汉中, verb: 卒, portrait: true, cue: 大牢}
+      - card: {title: 两种记载, body: 诸葛亮传"戮谡以谢众"；马良传"谡下狱物故，亮为之流涕", cue: 流了泪}
+
+  - say: 诸葛亮上书刘禅：
+    scene: 书房
+    sources: [sgz-35]
+
+  - say: 街亭违命，箕谷失利，错都在我用人不当。请把我降三级！
+    speaker: 诸葛亮
+    style: 沉痛自责，一字一顿，毫不推诿
+    scene: 书房
+    to: 刘禅
+    sources: [sgz-35]
+    show:
+      - quote: {text: 咎皆在臣授任无方…请自贬三等, source: 三国志·诸葛亮传, era: 建兴六年, for: 4.4}
+
+  - say: 刘禅降他为右将军，代理丞相，权力照旧。
+    sources: [sgz-35]
+
+  - say: 同一年秋天，东吴的周鲂假装投降，骗来了魏国大司马曹休的十万大军。
+    sources: [sgz-47, sgz-60]
+    camera: {focus: [皖, 石亭, 武昌], zoom: fit, move: 1.4}
+    tells: [e15]
+    show:
+      - enter: {who: 曹休, side: right, cue: 曹休, for: 3}
+      - army: {head: 曹休, from: 洛阳, to: 皖, faction: 魏, banner: 曹, troops: infantry, size: 3.0, cue: 十万, grow: 1.8}
+
+  - say: 陆逊在石亭截住曹休，把他打得大败。
+    sources: [sgz-47, sgz-60]
+    tells: [e17]
+    show:
+      - enter: {who: 陆逊, side: left, cue: 陆逊, for: 3}
+      - battle: {at: 石亭, text: 大破休于石亭, cue: 大败}
+
+  - say: 第二年四月，孙权在武昌南郊登坛称帝。天下，有了三个皇帝。
+    year: 229
+    map: '228-12'   # 故意停在 228-12：229-03 蜀取武都留给第 24 集开场讲（史实审读 2026-10-24 复核）
+    scene: 祭坛
+    sources: [sgz-47]
+    show:
+      - enter: {who: 孙权, side: right, cue: 孙权, for: 4}
+      - headline: {text: 三帝并立, sub: 公元二二九年, cue: 三个皇帝, for: 3.2}
+
+  - say: 准备了五年的北伐，为什么一下就输了？输在一个刘备说过不能大用的人身上。
+    sources: [sgz-39]
+    camera: {focus: [汉中, 街亭, 长安, 成都], zoom: fit, move: 1.6}
+
+  - say: 而诸葛亮的回答只有一句：错，在我。
+    sources: [sgz-35]
+    show:
+      - card: {title: 演义 vs 正史, body: 空城计出自注引《郭冲三事》，裴松之已驳其不可信, cue: 错}
+
+  - say: 街亭这一仗，你觉得该让魏延去守吗？
+    sources: [sgz-39]
+
+  - say: 诸葛亮没有停下。这一年冬天，他又出兵了。
+    sources: [sgz-35]
+    show:
+      - title_bar: {text: 下集, sub: 五丈原, cue: 出兵, delay: 0.4, for: 3.0}

@@ -1,0 +1,299 @@
+# 快节奏版（2026-10-14，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第25集：司马懿平辽东、受遗诏辅政、装病、高平陵之变（238–249）
+# 本地语料核对（晋书·宣帝纪为主）：
+# "天子曰：往还几时？对曰：往百日，还百日，攻百日，以六十日为休息，一年足矣"；"景初二年，帅牛金、胡遵等步骑四万发自京都"；公孙度传附渊"壬午，渊众溃…斩渊父子"；明帝纪"渊自俭还，遂自立为燕王"；
+# 明帝纪"太尉宣王还至河内，帝驿马召到，引入卧内，执其手谓曰：吾疾甚，以后事属君，君其与爽辅少子。吾得见君，无所恨！宣王顿首流涕。即日，帝崩于嘉福殿，时年三十六"；
+# 宣帝纪"曹爽用何晏、邓扬、丁谧之谋，迁太后于永宁宫，专擅朝政，兄弟并典禁兵，多树亲党…五月，帝称疾不与政事"；
+#   "会河南尹李胜将莅荆州，来候帝。帝诈疾笃，使两婢侍，持衣衣落，指口言渴，婢进粥，帝不持杯饮，粥皆流出霑胸…胜曰：当还忝本州，非并州。帝乃错乱其辞"；
+#   "嘉平元年春正月甲午，天子谒高平陵，爽兄弟皆从…帝于是奏永宁太后，废爽兄弟。时景帝为中护军，将兵屯司马门…大司农桓范出赴爽，蒋济言于帝曰：智囊往矣。帝曰：爽与范内疏而智不及，驽马恋栈豆，必不能用也…帝亲帅太尉蒋济等勒兵出迎天子，屯于洛水浮桥"；
+#   "桓范劝爽车驾幸许昌，移檄征天下兵。爽不能用…帝又遣爽所信殿中校尉尹大目谕爽，指洛水为誓，爽意信之…乃曰：司马公正当欲夺吾权耳。吾得以侯还第，不失为富家翁。范拊膺曰：坐卿，灭吾族矣！…乃收爽兄弟及其党与何晏、丁谧、邓扬、毕轨、李胜、桓范等诛之"；三少帝纪"夷三族"；
+#   宣帝纪 制曰（唐太宗）"天子在外，内起甲兵，陵土未乾，遽相诛戮"。
+# 注文：曹芳"年八岁"（明帝纪注引魏氏春秋）。
+# 不用：李胜说"司马公尸居余气"（魏末传，注文）。
+
+id: s01e25-gaopingling
+title: 高平陵之变
+series: 三国 · 第25集
+year: 249
+
+notes:
+  - 主线问题：一个七十岁、"病得快死"的老人，怎么一天之内夺了魏国大权？——装两年病让对手放下戒心；趁他们全出了城，关城门、夺禁军；最后一句洛水之誓，骗曹爽自己交出兵权。
+  - 反差：喝粥都流一胸口的老人，几个月后指挥了一场政变；曹爽手握皇帝，却只想回家当富家翁。
+  - 细节：往百日、还百日、攻百日；曹叡拉着他的手托孤；粥流到胸口、故意把荆州听成并州；"驽马恋栈豆"；桓范捶胸"灭吾族矣"。
+  - 动机：曹爽架空司马懿、迁太后、把禁军都交给自己兄弟；司马懿称病，是在等对方犯错。
+  - 史评：唐太宗在《晋书》里批他"天子在外，内起甲兵，陵土未乾，遽相诛戮"。
+
+map:
+  center: [116.0, 36.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-17 史图风
+  river_rank: 4
+  palette: warm          # 2026-10-25 第18集起统一新样式（第27集试样通过）
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 喝粥都流一胸口的老人，一天夺了魏国
+  big: [高平陵之变]
+  hero: 司马懿
+  at: 30
+  summary: |
+    238 年，司马懿说"往百日，还百日，攻百日"，一年平定辽东。魏明帝临终拉着他的手托孤，让他和曹爽一起辅佐八岁的曹芳。曹爽很快架空了他，司马懿干脆称病不出；李胜来探病，他喝粥流了一胸口，还故意把荆州听成并州。
+    249 年正月，曹爽兄弟陪皇帝出城拜高平陵。"快死"的司马懿当天关闭城门、夺下禁军，屯兵洛水浮桥。桓范劝曹爽挟天子去许昌，曹爽却信了司马懿的洛水之誓："我回家当个富家翁。"几天后，曹爽三族被诛。
+  tags: [高平陵之变, 司马懿, 曹爽, 装病, 三国]
+  next: 淮南三叛，司马昭之心
+
+sources_local:
+  - {id: js-01, work: 晋书, volume: 卷一·宣帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷001'}
+  - {id: sgz-03, work: 三国志, volume: 卷三·明帝纪, url: 'https://zh.wikisource.org/wiki/三國志/卷03'}
+  - {id: sgz-04, work: 三国志, volume: 卷四·三少帝纪, url: 'https://zh.wikisource.org/wiki/三國志/卷04'}
+  - {id: sgz-08, work: 三国志, volume: 卷八·公孙度传（附渊）, url: 'https://zh.wikisource.org/wiki/三國志/卷08'}
+
+factions: {魏: '#2f5d3a', 蜀汉: '#5f8f3a', 吴: '#b0841f', 公孙渊: '#3f5a8f'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    魏: {slot: jade, main: true, label_at: 洛阳}
+    蜀汉: {slot: pink, label_at: 成都}
+    吴: {slot: lemon, label_at: 建业}
+    公孙渊: {slot: blue, label_at: 襄平}
+
+people:
+  司马懿: {image: 03_素材/人物立绘/sima_yi.png, title: 太傅, role: 高平陵之变, faction: 魏}
+  曹叡: {image: 03_素材/人物立绘/cao_rui.png, title: 魏明帝, role: 临终托孤, faction: 魏}
+  曹爽: {image: 03_素材/人物立绘/cao_shuang.png, title: 大将军, role: 专权被诛, faction: 魏}
+  司马师: {image: 03_素材/人物立绘/sima_shi.png, title: 中护军, role: 屯司马门, faction: 魏}
+  公孙渊: {image: 03_素材/人物立绘/gongsun_yuan.png, title: 燕王, role: 据辽东, faction: 公孙渊}
+  曹芳: {image: 03_素材/人物立绘/cao_fang.png, title: 魏少帝, role: 八岁即位, faction: 魏}
+  桓范: {image: 03_素材/人物立绘/huan_fan.png, title: 大司农, role: 曹爽智囊, faction: 魏}
+
+places:
+  碣石: {id: jieshi, label: below, show: false}   # 2026-10-25 战事账：经孤竹、越碣石、次于辽水
+  孤竹: {id: guzhu, label: above, show: false}
+  温: {id: wenxian, label: left, show: false}
+  洛阳: {id: luoyang_han_wei, label: right, tier: capital}
+  高平陵: {id: gaoping, label: below}
+  许昌: {id: xuchang_approx, name: 许昌, label: right}
+  襄平: {id: xiangping_c, label: right}
+  成都: {id: chengdu_city, label: left}
+
+camera:
+  focus: [洛阳, 高平陵]
+  zoom: 2.0
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 一个老人病得话都说不利索。侍女喂他喝粥，粥顺着嘴角，流了一胸口。
+    map: '229-03'
+    year: 248
+    phase: 装病
+    scene: 病榻
+    sources: [js-01]
+    show:
+      - sfx: 重拍转场
+      - enter: {who: 司马懿, side: left, cue: 老人, for: 5}
+
+  - say: 来探病的人回去报告：司马公快不行了。
+    scene: 病榻
+    sources: [js-01]
+
+  - say: 几个月后，这个快死的人，一天之内，夺了整个魏国的大权。
+    sources: [js-01, sgz-04]
+    camera: {focus: [洛阳, 高平陵], zoom: 8, move: 1.6}
+    show:
+      - headline: {text: 高平陵之变, sub: 嘉平元年, cue: 大权, for: 3.4}
+
+  # ---------------- 第一章 一年 ----------------
+  - say: 时间倒回十年。二三八年，辽东的公孙渊叛魏，自立为燕王。
+    phase: 一年
+    year: 238
+    sources: [sgz-03]
+    camera: {focus: [洛阳, 襄平], zoom: fit, move: 1.6}
+    show:
+      - enter: {who: 公孙渊, side: right, cue: 公孙渊, for: 3.4}
+      - title_bar: {text: 高平陵之变, sub: 三国 · 第25集, for: 3.2}
+      - sfx: 片头鼓
+      - flag: {at: 襄平, name: 公孙渊, sub: 自立为燕王, faction: 公孙渊, cue: 燕王}
+
+  - say: 魏明帝问司马懿：一来一回，要多久？司马懿说：
+    sources: [js-01]
+
+  - say: 去一百天，回一百天，打一百天，再歇六十天。一年，足够了！
+    speaker: 司马懿
+    style: 胸有成竹，不紧不慢，一笔一笔算账
+    sources: [js-01]
+    show:
+      - quote: {text: 往百日，还百日，攻百日，以六十日为休息，一年足矣, source: 晋书·宣帝纪, era: 景初二年, for: 5}
+
+  - say: 他带着四万步骑北上，渡过辽水，围住襄平。八月城破，公孙渊父子被斩。
+    map: '238-08'
+    owners_cue: 城破
+    sources: [js-01, sgz-08]
+    tells: [e01, e10, e11, e12, e13, e14, e15, e16]
+    show:
+      - army: {head: 司马懿, from: 洛阳, via: [温, 孤竹, 碣石], to: 襄平, faction: 魏, banner: 司马, troops: cavalry, size: 2.8, cue: 四万, grow: 2.4}
+      - battle: {at: 襄平, text: 斩渊父子, cue: 城破}
+      - sfx: {name: 疆域易手, cue: 城破}
+      - exit: {who: 公孙渊, at: 襄平, verb: 诛, portrait: true, cue: 被斩}
+
+  # ---------------- 第二章 托孤 ----------------
+  - say: 就在这时，魏明帝曹叡病危，派驿马连夜召司马懿回京。
+    phase: 托孤
+    year: 239
+    sources: [sgz-03]
+    camera: {focus: [襄平, 洛阳], zoom: fit, move: 1.4}
+    show:
+      - act: {act: courier, places: [洛阳, 襄平], text: 驿马召到, cue: 驿马, grow: 1.8, for: 3.4}
+      - army: {head: 司马懿, from: 襄平, via: [碣石], to: 洛阳, faction: 魏, banner: 司马, troops: cavalry, size: 2.4, cue: 连夜, grow: 2.6}   # 2026-10-25 补回京：不然司马懿一直留在襄平
+
+  - say: 曹叡把他拉到床前，握着他的手：
+    scene: 病榻
+    sources: [sgz-03]
+
+  - say: 我病得很重，后事就托付给你了。你和曹爽一起，辅佐我的小儿子。见到你，我就没有遗憾了！
+    speaker: 曹叡
+    style: 气息微弱，紧握对方的手，恳切托付
+    scene: 病榻
+    to: 司马懿
+    sources: [sgz-03]
+
+  - say: 当天，曹叡去世，只有三十六岁。八岁的曹芳即位，大将军曹爽和太尉司马懿，一起辅政。
+    sources: [sgz-03]
+    camera: {focus: 洛阳, zoom: 6, move: 1.2}
+    show:
+      - person_card: {who: 曹芳, cue: 曹芳, for: 3}
+      - exit: {who: 曹叡, at: 洛阳, verb: 卒, portrait: true, cue: 去世}
+      - versus: {left: 曹爽, right: 司马懿, label: 共辅少主, cue: 曹爽, for: 4}
+
+  # ---------------- 第三章 称病 ----------------
+  - say: 曹爽很快架空了司马懿。他把太后迁走，让兄弟们掌管禁军，到处安插亲信。
+    phase: 称病
+    sources: [js-01]
+    show:
+      - enter: {who: 曹爽, side: left, cue: 曹爽, for: 3.4}
+
+  - say: 二四七年五月，司马懿称病，不再上朝。
+    year: 247
+    sources: [js-01]
+
+  - say: 第二年冬天，曹爽的亲信李胜要去荆州上任，借着辞行，来探虚实。
+    year: 248
+    scene: 病榻
+    sources: [js-01]
+
+  - say: 司马懿让两个侍女扶着，衣服都拿不住，指着嘴说渴。侍女端来粥，他不接杯子，粥全流到了胸口。
+    scene: 病榻
+    sources: [js-01]
+    show:
+      - quote: {text: 婢进粥，帝不持杯饮，粥皆流出霑胸, source: 晋书·宣帝纪, era: 正始九年, for: 5}
+
+  - say: 李胜说：我是回本州荆州。司马懿故意听成并州，翻来覆去地说错。
+    scene: 病榻
+    sources: [js-01]
+
+  - say: 李胜回去告诉曹爽：司马公只剩一口气了，不用再担心。
+    sources: [js-01]
+
+  # ---------------- 第四章 高平陵 ----------------
+  - say: 二四九年正月，小皇帝出城，去拜祭明帝的高平陵。曹爽兄弟，全都跟着去了。
+    phase: 高平陵
+    year: 249
+    sources: [js-01, sgz-04]
+    camera: {focus: [洛阳, 高平陵], zoom: 10, move: 1.4}
+    tells: [e18]
+    show:
+      - march: {from: 洛阳, to: 高平陵, faction: 魏, label: 谒高平陵, cue: 出城, grow: 2.0}
+
+  - say: 就在这一天，快死的司马懿，站了起来。
+    sources: [js-01]
+    show:
+      - enter: {who: 司马懿, side: right, cue: 站了起来, for: 3.6}
+      - sfx: {name: 碎玻璃, cue: 站了起来}
+
+  - say: 他奏请太后，罢免曹爽兄弟；儿子司马师带兵守住宫门。
+    sources: [js-01]
+    show:
+      - enter: {who: 司马师, side: left, cue: 司马师, for: 3}
+
+  - say: 他自己领兵屯在洛水浮桥，堵住曹爽回城的路。
+    sources: [js-01]
+    show:
+      - flag: {at: 洛阳, name: 司马懿, sub: 屯洛水浮桥, faction: 魏, cue: 洛水浮桥}
+      - sfx: {name: 古风擂鼓, cue: 领兵}
+
+  - say: 曹爽的智囊桓范逃出城去找曹爽。蒋济急了：智囊跑了！司马懿却说：
+    sources: [js-01]
+    show:
+      - enter: {who: 桓范, side: left, cue: 桓范, for: 3.4}
+
+  - say: 曹爽就像一匹劣马，舍不得槽里那点豆子。他用不了桓范的计策。
+    speaker: 司马懿
+    style: 不屑冷笑，笃定从容，慢条斯理
+    sources: [js-01]
+    show:
+      - quote: {text: 驽马恋栈豆，必不能用也, source: 晋书·宣帝纪, era: 嘉平元年, for: 4.4}
+
+  - say: 桓范劝曹爽：带着皇帝去许昌，调集天下兵马。曹爽犹豫了一整夜。
+    sources: [js-01]
+    camera: {focus: [高平陵, 洛阳, 许昌], zoom: fit, move: 1.4}
+    show:
+      - arrow: {from: 高平陵, to: 许昌, kind: direction, faction: 魏, cue: 许昌, grow: 1.4}
+
+  - say: 司马懿派人传话：只是罢官。还指着洛水，发了誓。曹爽信了：
+    audit_ok: [遗忘]
+    sources: [js-01]
+    show:
+      - vignette: {image: illus_luoshui_oath, cue: 指着洛水, for: 5, text: 指洛水为誓}
+
+  - say: 司马公不过是要夺我的权。我回家当个侯爷，照样是个富家翁。
+    speaker: 曹爽
+    style: 疲惫松懈，自我安慰，带着侥幸
+    sources: [js-01]
+
+  - say: 桓范捶着胸口大哭：我的全族，要被你连累死了！
+    audit_ok: [死亡]
+    sources: [js-01]
+
+  - say: 几天后，曹爽兄弟和何晏、桓范等人，以谋反罪被杀，诛灭三族。
+    audit_ok: [死亡]
+    sources: [sgz-04, js-01]
+    camera: {focus: 洛阳, zoom: 6, move: 1.2}
+    show:
+      - exit: {who: 曹爽, at: 洛阳, verb: 诛, portrait: true, cue: 被杀}
+      - sfx: {name: 退场钟, cue: 被杀}
+
+  - say: 一个七十岁的病人，怎么一天夺了魏国？装两年病，让对手放下戒心；趁他们全出了城，关城门、夺禁军。
+    sources: [js-01]
+    camera: {focus: [洛阳, 高平陵], zoom: 8, move: 1.4}
+
+  - say: 最后一句洛水之誓，骗曹爽自己交出了兵权。
+    sources: [js-01]
+    show:
+      - card: {title: 唐太宗评, body: 天子在外，内起甲兵，陵土未乾，遽相诛戮——《晋书·宣帝纪》, cue: 洛水}
+
+  - say: 曹爽要是听了桓范的话，去许昌调兵，结局会不一样吗？
+    sources: [js-01]
+
+  - say: 从这一天起，魏国的大权，姓了司马。
+    sources: [sgz-04]
+    show:
+      - title_bar: {text: 下集, sub: 淮南三叛, cue: 司马, delay: 0.4, for: 3.0}

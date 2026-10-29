@@ -1,0 +1,852 @@
+episode: s01e29-taikang
+armies:
+  司马伷军:
+    faction: 晋
+    head: 司马伷
+    size: 未核（晋军诸路合计二十余万）
+    evidence:
+    - quote: 遣镇军将军、琅邪王伷出涂中
+      para: 晋书-p00073
+    - quote: 冬，晋命镇东大将军司马伷向涂中
+      para: 三国志-p02301
+  王浑军:
+    faction: 晋
+    head: 王浑
+    size: 未核（晋军诸路合计二十余万）
+    evidence:
+    - quote: 安东将军王浑出江西
+      para: 晋书-p00073
+    - quote: 浑率师出横江
+      para: 晋书-p03680
+  王戎军:
+    faction: 晋
+    head: 王戎
+    size: 未核（晋军诸路合计二十余万）
+    evidence:
+    - quote: 建威将军王戎出武昌
+      para: 晋书-p00073
+  胡奋军:
+    faction: 晋
+    head: 胡奋
+    size: 未核（晋军诸路合计二十余万）
+    evidence:
+    - quote: 平南将军胡奋出夏口
+      para: 晋书-p00073
+  杜预军:
+    faction: 晋
+    head: 杜预
+    size: 未核（晋军诸路合计二十余万）
+    evidence:
+    - quote: 镇南大将军杜预出江陵
+      para: 晋书-p00073
+    - quote: 预以太康元年正月，陈兵于江陵
+      para: 晋书-p03257
+  王濬军:
+    faction: 晋
+    head: 王濬
+    size: 未核（晋军诸路合计二十余万）
+    evidence:
+    - quote: 龙骧将军王浚
+      para: 晋书-p00073
+    - quote: 浚、彬东下
+      para: 晋书-p00074
+  唐彬军:
+    faction: 晋
+    head: 唐彬
+    size: 未核（晋军诸路合计二十余万）
+    evidence:
+    - quote: 广武将军唐彬率巴蜀之卒浮江而下
+      para: 晋书-p00073
+  吴中军:
+    faction: 吴
+    head: 张悌、孙震、沈莹
+    size: 数万
+    evidence:
+    - quote: 吴丞相张悌、大将军孙震等率众数万指城阳
+      para: 晋书-p03680
+    - quote: 王浑、周浚与吴丞相张悌战于版桥
+      para: 晋书-p00074
+  吴西陵军:
+    faction: 吴
+    head: 留宪、成璩、郑广
+    size: 未核
+    evidence:
+    - quote: 杀西陵都督、镇军将军留宪，征南将军成璩，西陵监郑广
+      para: 晋书-p00074
+  吴夷道军:
+    faction: 吴
+    head: 陆晏、陆景
+    size: 未核
+    evidence:
+    - quote: 杀夷道监陆晏、水军都督陆景
+      para: 晋书-p00074
+  陶浚水军:
+    faction: 吴
+    head: 陶浚
+    size: 二万人（陶浚所称可用兵数）
+    evidence:
+    - quote: 今得二万兵，乘大船战，自足击之
+      para: 三国志-p02304
+    - quote: 其夜众悉逃走
+      para: 三国志-p02304
+  杨骏卫士:
+    faction: 晋
+    head: 杨骏
+    size: 一百人
+    evidence:
+    - quote: 杨骏住进太极殿，带着一百个卫士
+      para: 未核
+events:
+- id: e01
+  army: 司马伷军
+  kind: 出发
+  place: 涂中
+  from: null
+  via: []
+  date: 279-11
+  territory: null
+  note: 伐吴部署之一；史书只记出兵方向为涂中，未载其具体出发城、沿途节点及逐日行程。
+  evidence:
+  - quote: 遣镇军将军、琅邪王伷出涂中
+    para: 晋书-p00073
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e02
+  army: 王浑军
+  kind: 出发
+  place: 江西
+  from: null
+  via: []
+  date: 279-11
+  territory: null
+  note: 此处“江西”为长江战区方向称谓，非今江西省；具体集结点和路线未核。
+  evidence:
+  - quote: 安东将军王浑出江西
+    para: 晋书-p00073
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e03
+  army: 王戎军
+  kind: 出发
+  place: 武昌
+  from: null
+  via: []
+  date: 279-11
+  territory: null
+  note: 史书记出兵方向为武昌，未载该军集结前的出发地。
+  evidence:
+  - quote: 建威将军王戎出武昌
+    para: 晋书-p00073
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e04
+  army: 胡奋军
+  kind: 出发
+  place: 夏口
+  from: null
+  via: []
+  date: 279-11
+  territory: null
+  note: 史书记出兵方向为夏口，未载该军集结前的出发地。
+  evidence:
+  - quote: 平南将军胡奋出夏口
+    para: 晋书-p00073
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e05
+  army: 杜预军
+  kind: 出发
+  place: 江陵
+  from: null
+  via: []
+  date: 279-11
+  territory: null
+  note: 杜预军以江陵为进军方向；次年正月记其在江陵陈兵。
+  evidence:
+  - quote: 镇南大将军杜预出江陵
+    para: 晋书-p00073
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e06
+  army: 王濬军
+  kind: 出发
+  place: 巴蜀
+  from: null
+  via: []
+  date: 279-11
+  territory: null
+  note: 王濬与唐彬率巴蜀之卒浮江东下；史文未列巴蜀境内起航城及逐站路线。
+  evidence:
+  - quote: 龙骧将军王浚、广武将军唐彬率巴蜀之卒浮江而下
+    para: 晋书-p00073
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e07
+  army: 唐彬军
+  kind: 出发
+  place: 巴蜀
+  from: null
+  via: []
+  date: 279-11
+  territory: null
+  note: 与王濬军同为巴蜀水军东下；起航城及分合节点未核。
+  evidence:
+  - quote: 龙骧将军王浚、广武将军唐彬率巴蜀之卒浮江而下
+    para: 晋书-p00073
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e08
+  army: 王浑军
+  kind: 行军
+  place: 寻阳濑乡
+  from: 江西
+  via: []
+  date: 280-01
+  territory: null
+  note: 王浑遣陈慎、张乔攻寻阳濑乡，另遣李纯据高望城；濑乡、寻阳的具体古址及两军先后路线未核。
+  evidence:
+  - quote: 遣参军陈慎、都尉张乔攻寻阳濑乡
+    para: 晋书-p03680
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e09
+  army: 王浑军
+  kind: 交战
+  place: 寻阳濑乡
+  from: null
+  via: []
+  date: 280-01
+  territory:
+    jun: 庐江郡
+    to: 争夺
+  note: 正月癸丑克寻阳、赖乡诸城；这里只记据点失守，不据此判断庐江全郡已经易手。
+  evidence:
+  - quote: 王浑克吴寻阳赖乡诸城，获吴武威将军周兴
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: 王浑高望城
+  army: 王浑军
+  kind: 交战
+  place: 高望城
+  from: null
+  via: []
+  date: 280-01
+  territory:
+    jun: 庐江郡
+    to: 争夺
+  note: 李纯据高望城并破吴将俞恭；城址未核。
+  evidence:
+  - quote: 又遣殄吴护军李纯据高望城，讨吴将俞恭，破之
+    para: 晋书-p03680
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e11
+  army: 王濬军
+  kind: 交战
+  place: 丹阳城
+  from: null
+  via: []
+  date: 280-02
+  territory:
+    jun: 南郡
+    to: 争夺
+  note: 晋书称二月戊午克丹阳城。该“丹阳城”并非丹阳郡，古城确址及所在县属未核，暂按上游战区据点记争夺。
+  evidence:
+  - quote: 王浚、唐棼等克丹阳城
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e12
+  army: 王濬军
+  kind: 交战
+  place: 西陵
+  from: 丹阳城
+  via: []
+  date: 280-02
+  territory:
+    jun: 南郡
+    to: 晋
+  note: 庚申克西陵，守将留宪、成璩、郑广战死；此处为西陵城失守。
+  evidence:
+  - quote: 庚申，又克西陵，杀西陵都督、镇军将军留宪，征南将军成璩，西陵监郑广
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e13
+  army: 吴西陵军
+  kind: 撤退
+  place: 西陵
+  from: null
+  via: []
+  date: 280-02
+  territory: null
+  note: 西陵守军败亡，城池由晋军攻克；史料未记吴军余部撤退路线。
+  evidence:
+  - quote: 又克西陵，杀西陵都督、镇军将军留宪
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e14
+  army: 王濬军
+  kind: 行军
+  place: 夷道乐乡
+  from: 西陵
+  via: []
+  date: 280-02
+  territory: null
+  note: 壬戌克夷道乐乡城；地名用史书“夷道乐乡城”，具体城址范围待考。
+  evidence:
+  - quote: 浚又克夷道乐乡城
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e15
+  army: 王濬军
+  kind: 交战
+  place: 夷道乐乡
+  from: null
+  via: []
+  date: 280-02
+  territory:
+    jun: 南郡
+    to: 晋
+  note: 夷道乐乡城失守，陆晏、陆景被杀；不把城池失守重复解释成南郡以外郡域变化。
+  evidence:
+  - quote: 壬戌，浚又克夷道乐乡城，杀夷道监陆晏、水军都督陆景
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e16
+  army: 杜预军
+  kind: 屯驻
+  place: 江陵
+  from: null
+  via: []
+  date: 280-01
+  territory: null
+  note: 正月陈兵江陵，随后遣部队沿江西上。
+  evidence:
+  - quote: 预以太康元年正月，陈兵于江陵
+    para: 晋书-p03257
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e17
+  army: 杜预军
+  kind: 行军
+  place: 江西沿线城邑
+  from: 江陵
+  via: []
+  date: 280-01
+  territory: null
+  note: 樊显、尹林、邓圭、周奇等率众循江西上，十日间连续攻克城邑；原文未逐一列城名，路线节点未核。
+  evidence:
+  - quote: 遣参军樊显、尹林、邓圭、襄阳太守周奇等率众循江西上，授以节度，旬日之间，累克城邑
+    para: 晋书-p03257
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e18
+  army: 杜预军
+  kind: 行军
+  place: 乐乡
+  from: 江陵
+  via:
+  - 长江
+  date: 280-01
+  territory: null
+  note: 管定、周旨、伍巢率奇兵八百泛舟夜渡袭乐乡；史文没有给出渡口名。
+  evidence:
+  - quote: 又遣牙门管定、周旨、伍巢等率奇兵八百，泛舟夜渡，以袭乐乡
+    para: 晋书-p03257
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e19
+  army: 吴西陵军
+  kind: 交战
+  place: 乐乡
+  from: null
+  via: []
+  date: 280-01
+  territory:
+    jun: 南郡
+    to: 争夺
+  note: 孙歆遣军出击王濬，败退后晋军伏兵入城并擒孙歆；乐乡城精确地望未核。
+  evidence:
+  - quote: 歆遣军出距王浚，大败而还。旨等发伏兵，随歆军而入，歆不觉，直至帐下，虏歆而还
+    para: 晋书-p03257
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e20
+  army: 杜预军
+  kind: 攻占
+  place: 江陵
+  from: null
+  via: []
+  date: 280-02
+  territory:
+    jun: 南郡
+    to: 晋
+  note: 甲戌克江陵，吴江陵督王延被斩；疆域变更据此记录。
+  evidence:
+  - quote: 甲戌，杜预克江陵，斩吴江陵督王延
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e21
+  army: 吴夷道军
+  kind: 投降
+  place: 江陵
+  from: null
+  via: []
+  date: 280-02
+  territory: null
+  note: 江陵失守后，吴督将伍延伪请降而仍登陴列兵，后被杜预攻克；此处不重复写成投降。
+  evidence:
+  - quote: 吴督将伍延伪请降而列兵登陴，预攻克之
+    para: 晋书-p03257
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e22
+  army: 胡奋军
+  kind: 攻占
+  place: 江安
+  from: 夏口方向
+  via: []
+  date: 280-02
+  territory:
+    jun: 南郡
+    to: 晋
+  note: 同月胡奋克江安。江安古城地望未核；疆域归属变化按荆州战区记。
+  evidence:
+  - quote: 平南将军胡奋克江安
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e23
+  army: 吴西陵军
+  kind: 投降
+  place: 荆门诸戍
+  from: null
+  via: []
+  date: 280-02
+  territory:
+    jun: 南郡
+    to: 晋
+  note: 江陵失守后乐乡、荆门等沿线守戍相继来降；原文未逐一列明据点及降日。
+  evidence:
+  - quote: 于是诸军并进，乐乡、荆门诸戍相次来降
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e24
+  army: 王浑军
+  kind: 行军
+  place: 横江
+  from: 江西
+  via: []
+  date: 280-01
+  territory: null
+  note: 王浑率师出横江；此前进至寻阳、赖乡及高望城的具体行程日次未记。横江为长江渡江战区，精确点位未核。
+  evidence:
+  - quote: 浑率师出横江
+    para: 晋书-p03680
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e25
+  army: 王浑军
+  kind: 交战
+  place: 版桥
+  from: 横江
+  via: []
+  date: 280-03
+  territory:
+    jun: 丹阳郡
+    to: 争夺
+  note: 王浑、周浚与张悌等战于版桥，吴军大败；版桥具体地望未核，属吴都建业外围战，不据一战判定全郡易手。
+  evidence:
+  - quote: 王浑、周浚与吴丞相张悌战于版桥，大败之，斩悌及其将孙震、沈莹
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e26
+  army: 吴中军
+  kind: 交战
+  place: 版桥
+  from: null
+  via: []
+  date: 280-03
+  territory: null
+  note: 吴丞相张悌、孙震、沈莹率数万对晋军，战败被杀；城阳位置及版桥古址未核。
+  evidence:
+  - quote: 吴丞相张悌、大将军孙震等率众数万指城阳
+    para: 晋书-p03680
+  - quote: 战于版桥，大败之，斩悌及其将孙震、沈莹
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e27
+  army: 王濬军
+  kind: 行军
+  place: 夏口
+  from: 武昌方向
+  via:
+  - 长江
+  date: 280-03
+  territory: null
+  note: 晋书称王濬进破夏口、武昌后泛舟东下；本段原文未记两地攻取的日次。
+  evidence:
+  - quote: 浚进破夏口、武昌，遂泛舟东下，所至皆平
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e28
+  army: 王戎军
+  kind: 交战
+  place: 武昌
+  from: null
+  via: []
+  date: 280-03
+  territory:
+    jun: 江夏郡
+    to: 晋
+  note: 王戎军出武昌方向，参与吴亡前的上游战事；此处依疆域账记江夏郡归晋，具体城防交战日未载。
+  evidence:
+  - quote: 建威将军王戎出武昌
+    para: 晋书-p00073
+  - quote: 浚进破夏口、武昌
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e29
+  army: 陶浚水军
+  kind: 撤退
+  place: 武昌
+  from: null
+  via: []
+  date: 280-03
+  territory: null
+  note: 陶浚至武昌闻北军大出而停驻不前；三月从武昌还，称水军将发但当夜部众逃散，故未形成一场可证实的出击。
+  evidence:
+  - quote: 陶浚至武昌，闻北军大出，停驻不前
+    para: 三国志-p02301
+  - quote: 陶浚从武昌还，即引见
+    para: 三国志-p02304
+  - quote: 其夜众悉逃走
+    para: 三国志-p02304
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e30
+  army: 王濬军
+  kind: 行军
+  place: 石头
+  from: 武昌
+  via:
+  - 长江
+  date: 280-03
+  territory: null
+  note: 三月壬申王濬舟师先到建业石头；史书没有给出离开武昌的日次。石头为建业城西临江要塞。
+  evidence:
+  - quote: 三月壬申，王浚以舟师至于建鄴之石头
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e31
+  army: 王濬军
+  kind: 投降
+  place: 石头
+  from: null
+  via: []
+  date: 280-03
+  territory:
+    jun: 丹阳郡
+    to: 晋
+  note: 孙皓面缚舆榇至王濬军门请降，晋纪记吴亡；建业所在丹阳郡由吴转晋。
+  evidence:
+  - quote: 孙皓大惧，面缚舆榇，降于军门
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e32
+  army: 孙皓军
+  kind: 投降
+  place: 建业
+  from: null
+  via: []
+  date: 280-03
+  territory:
+    jun: 吴郡
+    to: 晋
+  note: 孙皓政权整体覆亡。此处以降表和吴亡事实记吴郡归晋；孙皓先将印绶送琅邪王伷，后本人向王濬投降，受降对象叙事有异。
+  evidence:
+  - quote: 孙皓穷蹙请降，送玺绶于琅邪王伷
+    para: 晋书-p00074
+  - quote: 壬申，王浚最先到。于是受皓之降
+    para: 三国志-p02305
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e33
+  army: 吴中军
+  kind: 投降
+  place: 建业
+  from: null
+  via: []
+  date: 280-03
+  territory:
+    jun: 会稽郡
+    to: 晋
+  note: 吴亡后全境纳入晋籍；史书未逐郡逐城记载接收日期。
+  evidence:
+  - quote: 收其图籍，得州四，郡四十三
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e34
+  army: 吴中军
+  kind: 投降
+  place: 建业
+  from: null
+  via: []
+  date: 280-03
+  territory:
+    jun: 豫章郡
+    to: 晋
+  note: 吴亡后全境纳入晋籍；此为疆域账中三月变化项，具体郡县交接日未载。
+  evidence:
+  - quote: 收其图籍，得州四，郡四十三
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e35
+  army: 吴中军
+  kind: 投降
+  place: 建业
+  from: null
+  via: []
+  date: 280-03
+  territory:
+    jun: 南海郡
+    to: 晋
+  note: 吴亡后全境纳入晋籍；具体郡县交接日未载。
+  evidence:
+  - quote: 收其图籍，得州四，郡四十三
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e36
+  army: 吴中军
+  kind: 投降
+  place: 建业
+  from: null
+  via: []
+  date: 280-03
+  territory:
+    jun: 苍梧郡
+    to: 晋
+  note: 吴亡后全境纳入晋籍；具体郡县交接日未载。
+  evidence:
+  - quote: 收其图籍，得州四，郡四十三
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e37
+  army: 吴中军
+  kind: 投降
+  place: 建业
+  from: null
+  via: []
+  date: 280-03
+  territory:
+    jun: 郁林郡
+    to: 晋
+  note: 吴亡后全境纳入晋籍；具体郡县交接日未载。
+  evidence:
+  - quote: 收其图籍，得州四，郡四十三
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e38
+  army: 吴中军
+  kind: 投降
+  place: 建业
+  from: null
+  via: []
+  date: 280-03
+  territory:
+    jun: 合浦郡
+    to: 晋
+  note: 吴亡后全境纳入晋籍；具体郡县交接日未载。
+  evidence:
+  - quote: 收其图籍，得州四，郡四十三
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e39
+  army: 吴中军
+  kind: 投降
+  place: 建业
+  from: null
+  via: []
+  date: 280-03
+  territory:
+    jun: 交趾郡
+    to: 晋
+  note: 吴亡后全境纳入晋籍；具体郡县交接日未载。
+  evidence:
+  - quote: 收其图籍，得州四，郡四十三
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e40
+  army: 吴中军
+  kind: 投降
+  place: 建业
+  from: null
+  via: []
+  date: 280-03
+  territory:
+    jun: 九真郡
+    to: 晋
+  note: 吴亡后全境纳入晋籍；具体郡县交接日未载。
+  evidence:
+  - quote: 收其图籍，得州四，郡四十三
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e41
+  army: 吴中军
+  kind: 投降
+  place: 建业
+  from: null
+  via: []
+  date: 280-03
+  territory:
+    jun: 日南郡
+    to: 晋
+  note: 吴亡后全境纳入晋籍；具体郡县交接日未载。
+  evidence:
+  - quote: 收其图籍，得州四，郡四十三
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e42
+  army: 杜预军
+  kind: 投降
+  place: 荆州南境
+  from: 江陵
+  via: []
+  date: 280-02
+  territory:
+    jun: 桂阳郡
+    to: 晋
+  note: 杜预克江陵后，沅湘以南至交广的吴州郡望风归命；原文没有逐郡列出投降日期，疆域账将桂阳等置于二月变化。
+  evidence:
+  - quote: 既平上流，于是沅湘以南，至于交广，吴之州郡皆望风归命，奉送印绶
+    para: 晋书-p03257
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e43
+  army: 司马伷军
+  kind: 投降
+  place: 建业
+  from: 涂中
+  via: []
+  date: 280-03
+  territory:
+    jun: 丹阳郡
+    to: 晋
+  note: 孙皓先将玺绶送给琅邪王伷，王濬抵达石头后受其降；将印绶递交对象与本人面降对象应区分。
+  evidence:
+  - quote: 孙皓穷蹙请降，送玺绶于琅邪王伷
+    para: 晋书-p00074
+  skip: 灭吴上一集已讲，本集地图从 280-03 吴亡之后开始
+- id: e44
+  army: 宗王镇军
+  kind: 行军
+  place: 关中、荆州、扬州、许昌
+  from: 洛阳
+  via: []
+  date: '289'
+  territory: null
+  note: 旁白称武帝令子弟出镇要地；可核到秦王柬都督关中、楚王玮与淮南王允镇守要害。各王启程日、部队人数与实际行经路线未核；本条不把任命补写为已经抵达。
+  evidence:
+  - quote: 遣太子母弟秦王柬都督关中，楚王玮、淮南王允并镇守要害
+    para: 晋书-p00085
+  skip: 宗王出镇用长安、江陵、寿春、许昌四面旗表示，不画行军
+- id: e45
+  army: 杨骏卫士
+  kind: 屯驻
+  place: 太极殿
+  from: 洛阳宫
+  via: []
+  date: 290-04
+  territory: null
+  note: 杨骏居太极殿，梓宫将殡而骏不下殿，以武贲百人自卫（Claude 验收已核：晋书杨骏传）。
+  evidence:
+  - quote: 骏遂当寄托之重，居太极殿。梓宫将殡，六宫出辞，而骏不下殿，以武贲百人自卫
+    para: 晋书-p03627
+  skip: 太极殿在洛阳宫内，用洛阳的旗表示
+places_new:
+- name: 涂中
+  lon: 117.2
+  lat: 32.0
+  precision: 约略
+  basis: 晋伐吴出兵方向名，常置于今安徽滁州、全椒一带；具体线路及起点未核，作示意位置。
+  evidence:
+  - quote: 遣镇军将军、琅邪王伷出涂中
+    para: 晋书-p00073
+- name: 江西（长江战区）
+  lon: 116.5
+  lat: 30.5
+  precision: 区域示意
+  basis: 原文为伐吴军出兵方向“江西”，指长江以西战区方向，不等于现代江西省；不确定性高，坐标只作方向示意。
+  evidence:
+  - quote: 安东将军王浑出江西
+    para: 晋书-p00073
+- name: 牛渚
+  lon: 118.45
+  lat: 31.55
+  precision: 约略
+  basis: 今安徽马鞍山采石一带的传统比定，作为江防渡江方向点；古津确址未核。
+  evidence:
+  - quote: 扬州刺史周浚向牛渚
+    para: 三国志-p02301
+- name: 横江
+  lon: 118.35
+  lat: 31.5
+  precision: 约略
+  basis: 长江下游北岸横江渡口战区，今安徽和县至马鞍山一带示意；古渡确址待考。
+  evidence:
+  - quote: 浑率师出横江
+    para: 晋书-p03680
+- name: 寻阳濑乡
+  lon: 116.0
+  lat: 29.75
+  precision: 未核
+  basis: 晋伐吴记载的寻阳、濑乡诸城，无法由本地地名库确定濑乡具体位置；以今九江附近区域作示意。
+  evidence:
+  - quote: 王浑克吴寻阳赖乡诸城
+    para: 晋书-p00074
+- name: 高望城
+  lon: 116.05
+  lat: 30.0
+  precision: 未核
+  basis: 仅见王浑伐吴战事记录，古城遗址地望未核；以寻阳战区作低精度示意。
+  evidence:
+  - quote: 又遣殄吴护军李纯据高望城
+    para: 晋书-p03680
+- name: 丹阳城
+  lon: 111.35
+  lat: 30.75
+  precision: 未核
+  basis: 《晋书》记王濬克丹阳城，非丹阳郡；古城地望与所在郡县未核，暂以西陵战区邻近位置示意。
+  evidence:
+  - quote: 王浚、唐棼等克丹阳城
+    para: 晋书-p00074
+- name: 夷道乐乡
+  lon: 111.3
+  lat: 30.45
+  precision: 约略
+  basis: 史书称夷道乐乡城，定位于今宜都、枝江之间上游战区作示意；乐乡城址未核。
+  evidence:
+  - quote: 浚又克夷道乐乡城
+    para: 晋书-p00074
+- name: 江安
+  lon: 111.05
+  lat: 30.3
+  precision: 未核
+  basis: 晋军克江安，史料未载县名或精确城址；按江陵以西荆州战区设置示意点，古地望需复核。
+  evidence:
+  - quote: 平南将军胡奋克江安
+    para: 晋书-p00074
+- name: 版桥
+  lon: 118.75
+  lat: 32.05
+  precision: 未核
+  basis: 张悌与王浑交战地点，古址未核；取建业西侧外围作示意，不应当成考定位置。
+  evidence:
+  - quote: 王浑、周浚与吴丞相张悌战于版桥
+    para: 晋书-p00074
+- name: 石头
+  lon: 118.73
+  lat: 32.08
+  precision: 约略
+  basis: 建业石头城临江遗址区域，今南京清凉山、石头城一带示意。
+  evidence:
+  - quote: 王浚以舟师至于建鄴之石头
+    para: 晋书-p00074
+- name: 太极殿
+  lon: 118.79
+  lat: 32.06
+  precision: 约略
+  basis: 洛阳宫城内太极殿；坐标取汉魏洛阳故城宫城区域示意，具体殿址未核。
+  evidence:
+  - quote: 太极殿
+    para: 未核
+open_questions:
+- 各路晋军的兵力没有逐军数字，晋纪只说东西诸军二十余万；陶浚称可得二万人是其临时奏对口径，不能等同于实际出战人数。
+- 《晋书》与《三国志》对孙皓降晋的受降对象叙述不同：晋纪说送玺绶给琅邪王伷，三国志说王濬最先到并受降；画面需区分递印与本人面降。
+- 丹阳城、寻阳濑乡、高望城、江安、夷道乐乡及版桥的精确古址未核；尤其“丹阳城”不是丹阳郡，不能据同名直接映射郡域。
+- 原文未列王浑、司马伷各军自集结地至前沿的逐站行程；这里只能给出出兵方向和明确记载的战场，不能将可能路线当作史实。
+- 杜预所部“循江西上”只载十日累克城邑，未列城名；乐乡、荆门诸戍“相次来降”也无逐点日期。需Claude决定按战区概括还是逐条显示未核节点。
+- 《晋书》只概述沅湘以南至交广诸州郡望风归命，未列各郡受降日；疆域.yaml的二月与三月郡域切换含地图时序表达，仍需与具体受降过程对齐。
+- 289年宗王出镇句的来源《晋书》写秦王柬都督关中、楚王玮与淮南王允镇要害，并未逐一给出“扬州、许昌”对应王名、出发日期或行军过程；旁白概述可能压缩了分镇时间。
+- 杨骏住太极殿及一百卫士尚未找到可核本地原文，此项标未核，不宜作为已证事实进入画面。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

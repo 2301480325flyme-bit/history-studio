@@ -1,0 +1,489 @@
+episode: s01e42-shihu
+armies:
+  后赵棘城远征军:
+    faction: 后赵
+    head: 石虎（分军含石斌、麻秋）
+    size: 载记称数十万，数字待审
+    evidence:
+    - quote: 至于棘城，戎卒数十万
+      para: 晋书-p07437
+  前燕棘城守军:
+    faction: 前燕
+    head: 慕容皝、慕容恪
+    size: 总数未核；出城骑兵二千
+    evidence:
+    - quote: 遣子恪等率骑二千
+      para: 晋书-p07437
+  晋伐蜀军:
+    faction: 晋
+    head: 桓温、袁乔、周抚、谯王无忌
+    size: 总数未核；一万为袁乔所议精兵额
+    evidence:
+    - quote: 桓温帅征虏将军周抚……袁乔伐蜀
+      para: 晋书-p00179
+  成汉彭模军:
+    faction: 成汉
+    head: 李福、李权
+    size: 未核
+    evidence:
+    - quote: 叔父福及从兄权等攻彭模
+      para: 晋书-p06880
+  成汉成都军:
+    faction: 成汉
+    head: 李势
+    size: 未核
+    evidence:
+    - quote: 势于是悉众与温战于笮桥
+      para: 晋书-p06880
+events:
+- id: e01
+  army: 后赵棘城远征军
+  kind: 行军
+  place: 令支
+  from: 邺
+  via: []
+  date: 338-02
+  territory: null
+  note: （原记：徐无，from 令支）出发地与具体日期未载，记载先到徐无。
+  evidence:
+  - quote: 季龙至徐无，辽奔密云山
+    para: 晋书-p07437
+  - quote: 季龙进入令支
+    para: 晋书-p07437
+  note2: 出发地未载，按都城邺画
+- id: e02
+  army: 后赵棘城远征军
+  kind: 行军
+  place: 棘城
+  from: 邺
+  via:
+  - 令支
+  date: 338-02
+  territory: null
+  note: （原记：棘城，from 徐无）由令支推进棘城；各段具体道路未载。
+  evidence:
+  - quote: 季龙进入令支……至于棘城
+    para: 晋书-p07437
+  - quote: 石季龙为慕容皝所败
+    para: 晋书-p00165
+- id: e03
+  army: 前燕棘城守军
+  kind: 屯驻
+  place: 棘城
+  from: null
+  via: []
+  date: 338-02
+  territory: null
+  note: 后赵围攻十余日；三十六城响应为载记原数，可能带修辞。
+  evidence:
+  - quote: 相持旬余，左右劝皝降
+    para: 晋书-p07437
+  - quote: 进师攻棘城，旬余不克
+    para: 晋书-p07307
+- id: e04
+  army: 前燕棘城守军
+  kind: 交战
+  place: 棘城
+  from: null
+  via: []
+  date: 338-02
+  territory: null
+  note: 慕容恪率骑二千晨出挑战，后赵军弃甲溃退。
+  evidence:
+  - quote: 遣子恪等率骑二千，晨出击之。季龙诸军惊扰，弃甲而遁
+    para: 晋书-p07437
+  - quote: 皝遣子恪帅胡骑二千，晨出挑战……弃甲而遁
+    para: 晋书-p07307
+- id: e05
+  army: 后赵棘城远征军
+  kind: 撤退
+  place: 易京
+  from: 棘城
+  via:
+  - 令支
+  date: 338-02
+  territory: null
+  note: （原记：易京，from 棘城）由令支经易京返；其他节点未载。
+  evidence:
+  - quote: 季龙旋自令支，过易京
+    para: 晋书-p07307
+  - quote: 至于棘城……弃甲而遁
+    para: 晋书-p07437
+- id: e06
+  army: 晋伐蜀军
+  kind: 出发
+  place: 江陵
+  via: []
+  date: 346-11
+  territory: null
+  note: （原记：江陵，from None）桓温率军自江陵西征。
+  evidence:
+  - quote: 十一月辛未，安西将军桓温帅征虏将军周抚……袁乔伐蜀，拜表辄行
+    para: 晋书-p00179
+  - quote: 今溯流万里，经历天险
+    para: 晋书-p05968
+- id: e07
+  army: 晋伐蜀军
+  kind: 行军
+  place: 彭模
+  from: 江陵
+  via:
+  - 鱼复
+  date: 346-11/347-01
+  territory: null
+  note: （原记：彭模，from 江陵）只确定溯长江、后来军次彭模。鱼复为核地理候选，不标作史载驻点。
+  evidence:
+  - quote: 今溯流万里，经历天险
+    para: 晋书-p05968
+  - quote: 军次彭模
+    para: 晋书-p05918
+- id: e08
+  army: 晋伐蜀军
+  kind: 屯驻
+  place: 彭模
+  from: null
+  via: []
+  date: 347-01
+  territory: null
+  note: 周楚、孙盛守辎重，桓温带步卒轻进成都。
+  evidence:
+  - quote: 温自以轻兵入蜀，盛领赢老辎重在后
+    para: 晋书-p05918
+  - quote: 命参军周楚、孙盛守辎重，自将步卒直指成都
+    para: 晋书-p06880
+- id: e09
+  army: 成汉彭模军
+  kind: 交战
+  place: 彭模
+  from: null
+  via: []
+  date: 347-01
+  territory: null
+  note: 李福、李权攻彭模，先后败退。
+  evidence:
+  - quote: 势使其叔父福及从兄权等攻彭模，楚等御之，福退走。温又击权等，三战三捷
+    para: 晋书-p06880
+  - quote: 贼数千忽至……并力距之，应时败走
+    para: 晋书-p05918
+- id: e10
+  army: 晋伐蜀军
+  kind: 交战
+  place: 成都
+  from: 彭模
+  via: []
+  date: 347-01
+  territory: null
+  note: （原记：成都十里外（笮桥地望待考），from 彭模）袁乔部先退后进，桓温与李势笮桥交战，成汉军溃。
+  evidence:
+  - quote: 去成都十里，与贼大战，前锋失利……乔因麾而进
+    para: 晋书-p05968
+  - quote: 与温战于笮桥……鼓吏误鸣进鼓，于是攻之，势众大溃
+    para: 晋书-p06880
+- id: e11
+  army: 晋伐蜀军
+  kind: 攻占
+  place: 成都
+  from: 彭模
+  via: []
+  date: 347-01
+  territory:
+    jun: 蜀郡
+    to: 晋
+  note: （原记：成都，from 笮桥）本纪记正月克成都；城池占领单列，政权受降另列。
+  evidence:
+  - quote: 三年春正月乙卯，桓温攻成都，克之
+    para: 晋书-p00180
+  - quote: 温乘胜直进，焚其小城
+    para: 晋书-p06880
+- id: e12
+  army: null
+  kind: 投降
+  place: 益州（巴郡）
+  from: null
+  via: []
+  date: 347-01
+  territory:
+    jun: 巴郡
+    to: 晋
+  note: 按疆域.yaml成汉清单逐郡记归晋；原文只概称益州平，逐郡日期未载。
+  evidence:
+  - quote: 丁亥，李势降，益州平
+    para: 晋书-p00180
+  - quote: 温停蜀三旬……振旅还江陵
+    para: 晋书-p06880
+  skip: 成汉各郡归晋由 347-03 疆域事件一次画出（李势降后益州平），不逐郡画投降
+- id: e13
+  army: null
+  kind: 投降
+  place: 益州（巴西郡）
+  from: null
+  via: []
+  date: 347-01
+  territory:
+    jun: 巴西郡
+    to: 晋
+  note: 按疆域.yaml成汉清单逐郡记归晋；原文只概称益州平，逐郡日期未载。
+  evidence:
+  - quote: 丁亥，李势降，益州平
+    para: 晋书-p00180
+  - quote: 温停蜀三旬……振旅还江陵
+    para: 晋书-p06880
+  skip: 成汉各郡归晋由 347-03 疆域事件一次画出（李势降后益州平），不逐郡画投降
+- id: e14
+  army: null
+  kind: 投降
+  place: 益州（巴东郡）
+  from: null
+  via: []
+  date: 347-01
+  territory:
+    jun: 巴东郡
+    to: 晋
+  note: 按疆域.yaml成汉清单逐郡记归晋；原文只概称益州平，逐郡日期未载。
+  evidence:
+  - quote: 丁亥，李势降，益州平
+    para: 晋书-p00180
+  - quote: 温停蜀三旬……振旅还江陵
+    para: 晋书-p06880
+  skip: 成汉各郡归晋由 347-03 疆域事件一次画出（李势降后益州平），不逐郡画投降
+- id: e15
+  army: null
+  kind: 投降
+  place: 益州（梓潼郡）
+  from: null
+  via: []
+  date: 347-01
+  territory:
+    jun: 梓潼郡
+    to: 晋
+  note: 按疆域.yaml成汉清单逐郡记归晋；原文只概称益州平，逐郡日期未载。
+  evidence:
+  - quote: 丁亥，李势降，益州平
+    para: 晋书-p00180
+  - quote: 温停蜀三旬……振旅还江陵
+    para: 晋书-p06880
+  skip: 成汉各郡归晋由 347-03 疆域事件一次画出（李势降后益州平），不逐郡画投降
+- id: e16
+  army: null
+  kind: 投降
+  place: 益州（犍为郡）
+  from: null
+  via: []
+  date: 347-01
+  territory:
+    jun: 犍为郡
+    to: 晋
+  note: 按疆域.yaml成汉清单逐郡记归晋；原文只概称益州平，逐郡日期未载。
+  evidence:
+  - quote: 丁亥，李势降，益州平
+    para: 晋书-p00180
+  - quote: 温停蜀三旬……振旅还江陵
+    para: 晋书-p06880
+  skip: 成汉各郡归晋由 347-03 疆域事件一次画出（李势降后益州平），不逐郡画投降
+- id: e17
+  army: null
+  kind: 投降
+  place: 益州（牂牁郡）
+  from: null
+  via: []
+  date: 347-01
+  territory:
+    jun: 牂牁郡
+    to: 晋
+  note: 按疆域.yaml成汉清单逐郡记归晋；原文只概称益州平，逐郡日期未载。
+  evidence:
+  - quote: 丁亥，李势降，益州平
+    para: 晋书-p00180
+  - quote: 温停蜀三旬……振旅还江陵
+    para: 晋书-p06880
+  skip: 成汉各郡归晋由 347-03 疆域事件一次画出（李势降后益州平），不逐郡画投降
+- id: e18
+  army: null
+  kind: 投降
+  place: 益州（越巂郡）
+  from: null
+  via: []
+  date: 347-01
+  territory:
+    jun: 越巂郡
+    to: 晋
+  note: 按疆域.yaml成汉清单逐郡记归晋；原文只概称益州平，逐郡日期未载。
+  evidence:
+  - quote: 丁亥，李势降，益州平
+    para: 晋书-p00180
+  - quote: 温停蜀三旬……振旅还江陵
+    para: 晋书-p06880
+  skip: 成汉各郡归晋由 347-03 疆域事件一次画出（李势降后益州平），不逐郡画投降
+- id: e19
+  army: null
+  kind: 投降
+  place: 益州（益州郡）
+  from: null
+  via: []
+  date: 347-01
+  territory:
+    jun: 益州郡
+    to: 晋
+  note: 按疆域.yaml成汉清单逐郡记归晋；原文只概称益州平，逐郡日期未载。
+  evidence:
+  - quote: 丁亥，李势降，益州平
+    para: 晋书-p00180
+  - quote: 温停蜀三旬……振旅还江陵
+    para: 晋书-p06880
+  skip: 成汉各郡归晋由 347-03 疆域事件一次画出（李势降后益州平），不逐郡画投降
+- id: e20
+  army: null
+  kind: 投降
+  place: 益州（永昌郡）
+  from: null
+  via: []
+  date: 347-01
+  territory:
+    jun: 永昌郡
+    to: 晋
+  note: 按疆域.yaml成汉清单逐郡记归晋；原文只概称益州平，逐郡日期未载。
+  evidence:
+  - quote: 丁亥，李势降，益州平
+    para: 晋书-p00180
+  - quote: 温停蜀三旬……振旅还江陵
+    para: 晋书-p06880
+  skip: 成汉各郡归晋由 347-03 疆域事件一次画出（李势降后益州平），不逐郡画投降
+- id: e21
+  army: null
+  kind: 投降
+  place: 益州（广汉属国）
+  from: null
+  via: []
+  date: 347-01
+  territory:
+    jun: 广汉属国
+    to: 晋
+  note: 按疆域.yaml成汉清单逐郡记归晋；原文只概称益州平，逐郡日期未载。
+  evidence:
+  - quote: 丁亥，李势降，益州平
+    para: 晋书-p00180
+  - quote: 温停蜀三旬……振旅还江陵
+    para: 晋书-p06880
+  skip: 成汉各郡归晋由 347-03 疆域事件一次画出（李势降后益州平），不逐郡画投降
+- id: e22
+  army: null
+  kind: 投降
+  place: 益州（蜀郡属国）
+  from: null
+  via: []
+  date: 347-01
+  territory:
+    jun: 蜀郡属国
+    to: 晋
+  note: 按疆域.yaml成汉清单逐郡记归晋；原文只概称益州平，逐郡日期未载。
+  evidence:
+  - quote: 丁亥，李势降，益州平
+    para: 晋书-p00180
+  - quote: 温停蜀三旬……振旅还江陵
+    para: 晋书-p06880
+  skip: 成汉各郡归晋由 347-03 疆域事件一次画出（李势降后益州平），不逐郡画投降
+- id: e23
+  army: null
+  kind: 投降
+  place: 益州（犍为属国）
+  from: null
+  via: []
+  date: 347-01
+  territory:
+    jun: 犍为属国
+    to: 晋
+  note: 按疆域.yaml成汉清单逐郡记归晋；原文只概称益州平，逐郡日期未载。
+  evidence:
+  - quote: 丁亥，李势降，益州平
+    para: 晋书-p00180
+  - quote: 温停蜀三旬……振旅还江陵
+    para: 晋书-p06880
+  skip: 成汉各郡归晋由 347-03 疆域事件一次画出（李势降后益州平），不逐郡画投降
+- id: e24
+  army: 成汉成都军
+  kind: 撤退
+  place: 葭萌
+  from: 成都
+  via: []
+  date: 347-01
+  territory: null
+  note: （原记：晋寿/葭萌，from 成都）李势夜遁九十里；葭萌、白水叙事差异待核。
+  evidence:
+  - quote: 势遂夜遁九十里，至晋寿葭萌城
+    para: 晋书-p06880
+  - quote: 势乃夜出东门，与昝坚走至晋寿
+    para: 晋书-p08004
+- id: e25
+  army: 成汉成都军
+  kind: 投降
+  place: 葭萌
+  via: []
+  date: 347-01
+  territory:
+    jun: 蜀郡
+    to: 晋
+  note: （原记：晋寿（降文送桓温），from None）本纪记丁亥李势降；不将正式投降与夜间出逃合为同日。
+  evidence:
+  - quote: 然后送降文于温曰
+    para: 晋书-p08004
+  - quote: 丁亥，李势降，益州平
+    para: 晋书-p00180
+places_new:
+- name: 棘城
+  lon: 120.45
+  lat: 41.57
+  precision: 约略
+  basis: 今朝阳地区候选，精确城址待考。
+  evidence:
+  - quote: 至于棘城
+    para: 晋书-p07437
+- name: 令支
+  lon: 118.7
+  lat: 39.99
+  precision: 约略
+  basis: 今滦河流域迁安附近候选，县治待核。
+  evidence:
+  - quote: 至于棘城
+    para: 晋书-p07437
+- name: 徐无
+  lon: 117.97
+  lat: 40.19
+  precision: 约略
+  basis: 今遵化一带候选，县治待核。
+  evidence:
+  - quote: 至于棘城
+    para: 晋书-p07437
+- name: 彭模
+  lon: 103.95
+  lat: 30.1
+  precision: 约略
+  basis: 今彭山东南岷江东岸之近似点，未证古城址。
+  evidence:
+  - quote: 军次彭模
+    para: 晋书-p05918
+- name: 笮桥
+  lon: 104.06
+  lat: 30.66
+  precision: 约略
+  basis: 仅成都近郊参考点；古桥位置未核。
+  evidence:
+  - quote: 与温战于笮桥
+    para: 晋书-p06880
+- name: 白水城
+  lon: 105.8
+  lat: 32.5
+  precision: 约略
+  basis: 广元附近候选区域，古城址未核。
+  evidence:
+  - quote: 即日到白水城
+    para: 晋书-p08004
+open_questions:
+- 后赵远征起点、各段精确日期与线路未载；新地名坐标待考。
+- “数十万”“斩获三万余级”来自载记，可能有修辞。
+- 江陵至彭模逐站水路未载；鱼复只是地理候选，不标驻屯。
+- 彭模、笮桥遗址位置未核。
+- 晋寿葭萌、白水城节点关系有歧异。
+- 疆域按系列疆域.yaml当前成汉郡清单逐郡列入；原史只称益州平，territory代表制图落点。
+- 前燕polity未列入疆域.yaml，未改共享表。
+- studio places 已匹配襄国、易京、鱼复/白帝城、葭萌；晋寿与葭萌的沿革对应仍待考。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

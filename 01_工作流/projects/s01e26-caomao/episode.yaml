@@ -1,0 +1,315 @@
+# 快节奏版（2026-10-14，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第26集：王凌、毌丘俭、诸葛诞淮南三叛，司马懿、司马师之死，曹髦被弑（251–260）
+# 本地语料核对：
+# 王凌传"淩至项，饮药死…诸相连者悉夷三族"；晋书·宣帝纪"六月，帝寝疾，梦贾逵、王凌为祟，甚恶之。秋八月戊寅，崩于京师，时年七十三"；
+# 晋书·天文志"九月，帝废为齐王"；三少帝纪"镇东将军毌丘俭、扬州刺史文钦反…大将军司马景王征之…闰月己亥，破钦于乐嘉。钦遁走，遂奔吴…都尉斩俭，传首京都…司马景王薨于许昌"；
+# 晋书·景帝纪"初，帝目有瘤疾，使医割之。鸯之来攻也，惊而目出。惧六军之恐，蒙之以被，痛甚，啮被败而左右莫知焉…崩于许昌，时年四十八"；"钦子鸯，年十八，勇冠三军"；
+# 诸葛诞传"诞窘急，单乘马，将其麾下突小城门出…斩诞，传首，夷三族。诞麾下数百人，坐不降见斩，皆曰：为诸葛公死，不恨。其得人心如此"；钟会传"会建策，密为辉、仪作书…怿等恐惧，遂将所领开东城门出降…城中由是乖离"；
+# 晋书·文帝纪"天子知事泄，帅左右攻相府，称有所讨，敢有动者族诛。相府兵将止不敢战，贾充叱诸将曰：公畜养汝辈，正为今日耳！太子舍人成济抽戈犯跸，刺之，刃出于背，天子崩于车中。帝召百僚谋其故，仆射陈泰不至…泰曰：惟腰斩贾充，微以谢天下。帝曰：卿更思其次。泰曰：但见其上，不见其次。于是归罪成济而斩之"；三少帝纪"高贵乡公卒，年二十"。
+# 注文（片中标"据说"）：三少帝纪注引汉晋春秋 曹髦"司马昭之心，路人所知也。吾不能坐受废辱，今日当与卿等自出讨之"。
+
+id: s01e26-caomao
+title: 司马昭之心
+series: 三国 · 第26集
+year: 260
+
+notes:
+  - 主线问题：淮南三次起兵、皇帝亲自拼命，为什么都扳不倒司马家？——兵权和禁军早在他们手里；三次起兵各打各的，被一个一个收拾。
+  - 反差：一国之君亲自带人去打自己的大臣，被一个太子舍人刺穿；凶手被斩，主使的贾充毫发无伤。
+  - 细节：司马懿临死梦见王凌索命；司马师眼珠迸出，咬烂被子不出声；"为诸葛公死，不恨"；陈泰"只知道这个，不知道别的"。
+  - 动机：王凌、毌丘俭、诸葛诞都是镇守淮南的重臣，眼看司马氏一步步篡权。
+  - 史评：当年曹家挟天子，如今轮到司马家。
+
+map:
+  center: [115.0, 33.5]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-17 史图风
+  river_rank: 4
+  palette: warm          # 2026-10-25 第18集起统一新样式（第27集试样通过）
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 皇帝亲自冲出宫门，去打自己的大臣
+  big: [司马昭之心]
+  hero: 曹髦
+  at: 30
+  summary: |
+    高平陵之后，淮南三次起兵：王凌事败饮药而死；毌丘俭、文钦起兵，乐嘉夜战，文钦之子文鸯冲营，刚割了眼瘤的司马师惊得眼珠迸出，咬烂被子硬撑，不久死于许昌；诸葛诞据寿春联吴，城破后麾下数百人宁死不降："为诸葛公死，不恨。"
+    260 年，二十岁的皇帝曹髦忍无可忍，带着身边的人冲向相府。贾充喝令"公畜养汝辈，正为今日"，成济一戈"刃出于背"。陈泰说"惟腰斩贾充以谢天下"，司马昭却只斩了成济。
+  tags: [司马昭之心, 曹髦, 司马师, 诸葛诞, 淮南三叛]
+  next: 邓艾偷渡阴平，蜀汉灭亡
+
+sources_local:
+  - {id: js-01, work: 晋书, volume: 卷一·宣帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷001'}
+  - {id: js-02, work: 晋书, volume: 卷二·景帝纪、文帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷002'}
+  - {id: sgz-04, work: 三国志, volume: 卷四·三少帝纪（注引汉晋春秋）, url: 'https://zh.wikisource.org/wiki/三國志/卷04'}
+  - {id: sgz-28, work: 三国志, volume: 卷二十八·王凌传、诸葛诞传、钟会传, url: 'https://zh.wikisource.org/wiki/三國志/卷28'}
+
+factions: {魏: '#2f5d3a', 蜀汉: '#5f8f3a', 吴: '#b0841f'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    魏: {slot: jade, main: true, label_at: 洛阳}
+    蜀汉: {slot: pink, label_at: 成都}
+    吴: {slot: lemon}
+
+people:
+  曹髦: {image: 03_素材/人物立绘/cao_mao.png, title: 高贵乡公, role: 讨司马昭, faction: 魏}
+  司马懿: {image: 03_素材/人物立绘/sima_yi.png, title: 太傅, role: 平王凌, faction: 魏}
+  司马师: {image: 03_素材/人物立绘/sima_shi.png, title: 大将军, role: 带病亲征, faction: 魏}
+  司马昭: {image: 03_素材/人物立绘/sima_zhao.png, title: 大将军, role: 专权, faction: 魏}
+  毌丘俭: {image: 03_素材/人物立绘/guanqiu_jian.png, title: 镇东将军, role: 淮南起兵, faction: 魏}
+  诸葛诞: {image: 03_素材/人物立绘/zhuge_dan.png, title: 镇东大将军, role: 据寿春, faction: 魏}
+  钟会: {image: 03_素材/人物立绘/zhong_hui.png, title: 司马昭谋士, role: 伪书破城, faction: 魏}
+  王凌: {image: 03_素材/人物立绘/wang_ling.png, title: 太尉, role: 淮南一叛, faction: 魏}
+  文钦: {image: 03_素材/人物立绘/wen_qin.png, title: 扬州刺史, role: 淮南二叛, faction: 魏}
+  文鸯: {image: 03_素材/人物立绘/wen_yang.png, title: 文钦之子, role: 夜袭大营, faction: 魏}
+  贾充: {image: 03_素材/人物立绘/jia_chong.png, title: 中护军, role: 司马昭心腹, faction: 魏}
+  成济: {image: 03_素材/人物立绘/cheng_ji.png, title: 太子舍人, role: 刺杀曹髦, faction: 魏}
+  陈泰: {image: 03_素材/人物立绘/chen_tai.png, title: 尚书仆射, role: 请斩贾充, faction: 魏}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: right, tier: capital}
+  许昌: {id: xuchang_approx, name: 许昌, label: right}
+  项: {id: xiang_xiangcheng, label: left}
+  乐嘉: {id: lejia, label: left}
+  寿春: {id: shouchun, label: right}
+  建业: {id: nanjing_ancient_city, name: 建业, label: right}
+  成都: {id: chengdu_city, label: left}
+
+camera:
+  focus: [洛阳, 寿春]
+  zoom: 2.0
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 一位皇帝，带着身边的人冲出宫门，要去讨伐自己的大臣。
+    map: '238-08'
+    year: 260
+    phase: 刃出于背
+    sources: [js-02]
+    camera: {focus: 洛阳, zoom: 6, move: 1.6}
+    show:
+      - sfx: 重拍转场
+      - enter: {who: 曹髦, side: left, cue: 皇帝, for: 4.4}
+
+  - say: 一支长戈，刺进他的胸口，从背后穿了出来。他只有二十岁。
+    sources: [js-02, sgz-04]
+    show:
+      - quote: {text: 刺之，刃出于背，天子崩于车中, source: 晋书·文帝纪, era: 甘露五年, cue: 背后, for: 4.4}
+      - sfx: {name: 碎玻璃, cue: 刺进}
+
+  - say: 他叫曹髦。他要讨伐的大臣，叫司马昭。
+    sources: [js-02]
+    show:
+      - versus: {left: 曹髦, right: 司马昭, label: 君臣, cue: 司马昭, for: 3.6}
+
+  # ---------------- 第一章 一叛 ----------------
+  - say: 高平陵之后两年，镇守淮南的太尉王凌，想另立新君，对抗司马懿。
+    phase: 一叛
+    year: 251
+    sources: [sgz-28]
+    camera: {focus: [洛阳, 寿春], zoom: fit, move: 1.6}
+    show:
+      - enter: {who: 王凌, side: right, cue: 王凌, for: 3.4}
+      - title_bar: {text: 司马昭之心, sub: 三国 · 第26集, for: 3.2}
+      - sfx: 片头鼓
+      - flag: {at: 寿春, name: 王凌, sub: 谋立新君, faction: 魏, cue: 王凌}
+
+  - say: 七十三岁的司马懿亲率大军顺流南下。王凌来不及准备，自己绑着出来请罪。
+    sources: [sgz-28]
+    show:
+      - enter: {who: 司马懿, side: right, cue: 司马懿, for: 3.4}
+      - army: {head: 司马懿, from: 洛阳, to: 寿春, faction: 魏, banner: 司马, troops: infantry, size: 2.8, cue: 南下, grow: 2.0}
+
+  - say: 押回京城的路上，王凌死在了项县。参与的人，全被诛灭三族。
+    sources: [sgz-28]
+    camera: {focus: [寿春, 项, 洛阳], zoom: fit, move: 1.2}
+    tells: [e10]
+    show:
+      - march: {from: 寿春, to: 项, faction: 魏, label: 押凌还京, cue: 押回, grow: 1.6}   # 2026-10-25 战事账：押王凌经贾逵庙至项
+      - exit: {who: 王凌, at: 项, verb: 卒, portrait: true, cue: 死在}   # 饮药死
+
+  - say: 这年八月，司马懿病逝。据《晋书》记载，他临死前，梦见王凌来索命。
+    sources: [js-01]
+    show:
+      - exit: {who: 司马懿, at: 洛阳, verb: 卒, portrait: true, cue: 病逝}
+      - sfx: {name: 退场钟, cue: 病逝}
+
+  # ---------------- 第二章 二叛 ----------------
+  - say: 大权到了长子司马师手里。二五四年，他废掉皇帝曹芳，改立十四岁的曹髦。
+    phase: 二叛
+    year: 254
+    sources: [sgz-04]
+    camera: {focus: 洛阳, zoom: 5, move: 1.2}
+    show:
+      - enter: {who: 司马师, side: left, cue: 司马师, for: 3.4}
+
+  - say: 第二年，淮南的毌丘俭、文钦，又起兵了。
+    map: '255-01'
+    owners_cue: 起兵
+    year: 255
+    sources: [sgz-04]
+    camera: {focus: [寿春, 乐嘉, 许昌], zoom: fit, move: 1.4}
+    tells: [e11, e12]
+    show:
+      - enter: {who: 文钦, side: left, cue: 文钦, for: 3}
+      - enter: {who: 毌丘俭, side: right, cue: 毌丘俭, for: 3.4}
+      - sfx: {name: 疆域易手, cue: 起兵}
+      - army: {unit: 毌丘俭, from: 寿春, to: 项, faction: 魏, banner: 毌丘, troops: infantry, size: 2.6, cue: 起兵, grow: 1.8, camp: false}   # 2026-10-25 战事账：俭、钦渡淮西至项
+
+  - say: 司马师眼睛上刚割了一个瘤，伤还没好，就带病亲征。
+    sources: [js-02]
+    tells: [e13, e17]
+    show:
+      - army: {head: 司马师, from: 洛阳, via: [许昌], to: 乐嘉, faction: 魏, banner: 司马, troops: infantry, size: 2.8, cue: 亲征, grow: 1.6}
+
+  - say: 乐嘉一战，文钦十八岁的儿子文鸯带人夜里冲营。司马师一惊，眼珠子从伤口里迸了出来。
+    sources: [js-02]
+    camera: {focus: 乐嘉, zoom: 10, move: 1.2}
+    tells: [e18]
+    show:
+      - enter: {who: 文鸯, side: left, cue: 文鸯, for: 3.4}
+      - battle: {at: 乐嘉, text: 文鸯冲营, cue: 冲营}
+      - quote: {text: 鸯之来攻也，惊而目出, source: 晋书·景帝纪, era: 正元二年, cue: 眼珠子, for: 4}
+
+  - say: 他怕军心动摇，用被子蒙住头，疼得把被子都咬烂了，身边的人竟然都没发现。
+    sources: [js-02]
+
+  - say: 毌丘俭兵败被杀，文钦逃到了东吴。可司马师也没撑过去，死在许昌，四十八岁。
+    map: '255-02'
+    owners_cue: 兵败
+    sources: [sgz-04, js-02]
+    camera: {focus: [乐嘉, 许昌, 寿春], zoom: fit, move: 1.4}
+    show:
+      - exit: {who: 司马师, at: 许昌, verb: 卒, portrait: true, cue: 死在}
+      - exit: {who: 毌丘俭, at: 项, verb: 诛, portrait: true, side: right, cue: 被杀, for: 3}
+
+  # ---------------- 第三章 三叛 ----------------
+  - say: 弟弟司马昭接了班。二五七年，淮南第三次起兵：镇东大将军诸葛诞，联合东吴，守住寿春。
+    phase: 三叛
+    map: '257-05'
+    owners_cue: 起兵
+    year: 257
+    sources: [sgz-28]
+    camera: {focus: [洛阳, 寿春, 建业], zoom: fit, move: 1.4}
+    tells: [e28]
+    show:
+      - enter: {who: 司马昭, side: left, cue: 司马昭, for: 3}
+      - enter: {who: 诸葛诞, side: right, cue: 诸葛诞, for: 3.4}
+      - arrow: {from: 建业, to: 寿春, kind: relation, faction: 吴, cue: 东吴, grow: 1.2}
+      - flag: {at: 寿春, name: 诸葛诞, sub: 保寿春, faction: 魏, cue: 守住}
+
+  - say: 大军把寿春围得水泄不通。围了大半年，城里粮尽。
+    sources: [sgz-28]
+    camera: {focus: 寿春, zoom: 8, move: 1.2}
+    tells: [e32]
+    show:
+      - army: {head: 司马昭, from: 洛阳, via: [项], to: 寿春, faction: 魏, banner: 司马, troops: infantry, size: 3.2, cue: 围得, grow: 1.8}
+
+  - say: 钟会写了一封假信，骗得城里的东吴援将开门投降，城中人心大乱。
+    sources: [sgz-28]
+    tells: [e39]   # 吴将开门出降，全城未陷
+    show:
+      - enter: {who: 钟会, side: left, cue: 钟会, for: 3}
+      - act: {act: courier, places: [洛阳, 寿春], text: 伪书, cue: 假信, grow: 1.2, for: 3}
+      - stamp: {at: 寿春, text: 降, cue: 投降}   # 东吴援将全怿等开门出降
+
+  - say: 二五八年，寿春城破，诸葛诞被杀。他手下几百人被一个一个问降不降，没有一个投降。
+    map: '258-02'
+    owners_cue: 城破
+    year: 258
+    sources: [sgz-28]
+    tells: [e41]
+    show:
+      - exit: {who: 诸葛诞, at: 寿春, verb: 诛, portrait: true, cue: 被杀}
+
+  - say: 他们都说：为诸葛公死，不后悔。
+    sources: [sgz-28]
+    show:
+      - quote: {text: 为诸葛公死，不恨, source: 三国志·诸葛诞传, era: 甘露三年, for: 4}
+
+  # ---------------- 第四章 曹髦 ----------------
+  - say: 三次起兵，三次失败。洛阳城里，二十岁的曹髦，再也忍不下去了。
+    phase: 曹髦
+    year: 260
+    sources: [sgz-04]
+    camera: {focus: 洛阳, zoom: 6, move: 1.2}
+    show:
+      - army: {head: 司马昭, from: 寿春, via: [项], to: 洛阳, faction: 魏, banner: 司马, troops: infantry, size: 2.6, cue: 三次失败, grow: 2.2}   # 2026-10-25 班师：不然司马昭的营一直留在寿春，而曹髦讨伐的是洛阳的他
+
+  - say: 据说他对大臣们说：
+    scene: 朝堂
+    sources: [sgz-04]
+
+  - say: 司马昭的心思，连路上的行人都知道！我不能坐着等他来废我，今天，我要亲自去讨伐他！
+    speaker: 曹髦
+    style: 悲愤决绝，拍案而起，年轻的声音发颤
+    scene: 朝堂
+    sources: [sgz-04]
+    show:
+      - card: {title: 据说, body: 司马昭之心，路人所知也——三少帝纪注引《汉晋春秋》, for: 6}
+
+  - say: 他带人冲向大将军府。相府的兵将不敢动手。贾充喝道：大将军养着你们，就是为了今天！
+    sources: [js-02]
+    show:
+      - enter: {who: 贾充, side: right, cue: 贾充, for: 3.6}
+      - quote: {text: 公畜养汝辈，正为今日耳, source: 晋书·文帝纪, era: 甘露五年, cue: 今天, for: 4}
+
+  - say: 太子舍人成济举起长戈冲上去，刺穿了皇帝。
+    sources: [js-02]
+    show:
+      - enter: {who: 成济, side: left, cue: 成济, for: 3}
+      - exit: {who: 曹髦, at: 洛阳, verb: 卒, portrait: true, cue: 刺穿}
+      - sfx: {name: 退场钟, cue: 刺穿}
+
+  - say: 司马昭召集百官商量怎么收场。尚书仆射陈泰说：只有腰斩贾充，才能给天下一个交代。
+    sources: [js-02]
+    show:
+      - enter: {who: 陈泰, side: left, cue: 陈泰, for: 3.6}
+
+  - say: 司马昭问：还有别的办法吗？陈泰说：我只知道这一个，不知道别的。
+    sources: [js-02]
+
+  - say: 最后，司马昭把罪名推给成济，斩了他。贾充，一点事都没有。
+    sources: [js-02]
+    show:
+      - exit: {who: 成济, at: 洛阳, verb: 斩, portrait: true, cue: 斩了他}
+
+  - say: 为什么三次起兵、一位皇帝拼了命，都扳不倒司马家？兵权和禁军早就在他们手里。
+    sources: [js-02, sgz-04]
+    camera: {focus: [洛阳, 寿春, 许昌], zoom: fit, move: 1.4}
+
+  - say: 淮南三次起兵，各打各的，被一个一个收拾掉。当年曹家挟天子，如今，轮到了司马家。
+    sources: [sgz-28]
+
+  - say: 曹髦明知必死还要冲出去，你觉得他是勇敢，还是冲动？
+    sources: [sgz-04]
+    show:
+      - vignette: {image: illus_caomao_charge, cue: 冲出去, for: 5, text: 曹髦拔剑出宫}
+
+  - say: 而司马昭的下一步，是灭掉蜀汉。
+    sources: [js-02]
+    camera: {focus: [洛阳, 成都], zoom: fit, move: 1.6}
+    show:
+      - title_bar: {text: 下集, sub: 偷渡阴平 · 蜀汉亡, cue: 蜀汉, delay: 0.4, for: 3.0}

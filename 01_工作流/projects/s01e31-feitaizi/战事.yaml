@@ -1,0 +1,177 @@
+episode: s01e31-feitaizi
+armies:
+  东宫护送与许昌守卫军:
+    faction: 贾后
+    head: 东武公司马澹；许昌阶段刘振
+    size: 约一千（《资治通鉴》明载）；驻许昌后具体人数未核
+    evidence:
+    - reference: 资治通鉴·卷八十三（在线核对；本地语料未收）
+      url: https://www.zhonghuashu.com/wiki/資治通鑑/卷083
+      note: 在线文本已核对；不作为本地quote校验项。
+    - reference: 资治通鉴·卷八十三（在线核对；本地语料未收）
+      url: https://www.zhonghuashu.com/wiki/資治通鑑/卷083
+      note: 在线文本已核对；不作为本地quote校验项。
+    note_faction: 晋廷/贾后控制下
+  赵王伦宫变军:
+    faction: 宗室
+    head: 赵王伦、孙秀；入宫行动由齐王司马冏率队
+    size: 三部司马；入宫队百人，总人数未核
+    evidence:
+    - quote: 遣翊军校尉、齐王冏将三部司马百人，排阁而入
+      para: 晋书-p04584
+    - quote: 乃矫诏敕三部司马曰
+      para: 晋书-p04584
+    note_faction: 晋廷内赵王伦一方
+  洛阳宿卫/宫门禁军:
+    faction: 晋
+    head: 闾和及三部司马督（统属细节未核）
+    size: 未核
+    evidence:
+    - quote: 右卫佽飞督闾和
+      para: 晋书-p04584
+    - quote: 二卫始制前驱、由基、强弩为三部司马
+      para: 晋书-p02159
+    note_faction: 晋廷
+  许昌太子拘守与行刑人员:
+    faction: 贾后
+    head: 刘振、孙虑
+    size: 未核；不可等同千兵总数
+    evidence:
+    - quote: 虑以告刘振，振乃徙太子于小坊中
+      para: 晋书-p04292
+    - quote: 因如厕，虑以药杵椎杀之
+      para: 晋书-p04292
+    note_faction: 贾后控制的晋廷
+events:
+- id: e01
+  army: 东宫护送与许昌守卫军
+  kind: 行军
+  place: 许昌
+  from: 洛阳
+  via: []
+  date: 300年（先于三月癸未被害；迁送年月日未核）
+  territory: null
+  note: 废太子后转幽许昌宫；澹以约千兵防卫，刘振持节看守。
+  evidence:
+  - reference: 资治通鉴·卷八十三（在线核对；本地语料未收）
+    url: https://www.zhonghuashu.com/wiki/資治通鑑/卷083
+    note: 在线文本已核对；不作为本地quote校验项。
+  - quote: 及愍怀太子幽于许昌
+    para: 晋书-p03543
+- id: e02
+  army: 许昌太子拘守与行刑人员
+  kind: 屯驻
+  place: 许昌
+  from: null
+  via: []
+  date: 300-03
+  territory: null
+  note: 太子移至小坊、被断食；三月癸未孙虑以药杵杀司马遹。此为宫禁杀害，不是郡县攻占。
+  evidence:
+  - quote: 癸未，贾后矫诏害庶人遹于许昌
+    para: 晋书-p00097
+  - quote: 振乃徙太子于小坊中，绝不与食
+    para: 晋书-p04292
+  - quote: 虑乃逼太子以药
+    url: https://www.zhonghuashu.com/wiki/資治通鑑/卷083
+    para: 晋书-p04292
+  skip: 太子在许昌被幽禁，画成许昌的囚禁动作，不画营帐
+- id: e03
+  army: 赵王伦宫变军
+  kind: 会合
+  place: 洛阳
+  from: null
+  via: []
+  date: 300-04-03夜（癸巳丙夜）
+  territory: null
+  note: 孙秀联络右卫佽飞督闾和，鼓声为号；三部司马奉矫诏行动。入宫队百人；城内具体集结处未核。
+  evidence:
+  - quote: 期四月三日丙夜一筹，以鼓声为应
+    para: 晋书-p04584
+  - reference: 资治通鉴·卷八十三（在线核对；本地语料未收）
+    url: https://www.zhonghuashu.com/wiki/資治通鑑/卷083
+    note: 在线文本已核对；不作为本地quote校验项。
+  skip: 宫内集结与入宫在洛阳城内，画成「排阁而入」的交战标记
+- id: e04
+  army: 赵王伦宫变军
+  kind: 行军
+  place: 洛阳
+  from: 洛阳城内（具体驻地未核）
+  via: []
+  date: 300-04-03夜（癸巳）
+  territory: null
+  note: （原记地点：洛阳·宫城）矫诏开门夜入，齐王冏率百人排阁，内应迎帝至东堂；贾谧殿前被杀，贾后废为庶人幽于建始殿。宫廷夺权不涉及郡级易手。
+  evidence:
+  - quote: 伦又矫诏开门夜入，陈兵道南，遣翊军校尉、齐王冏将三部司马百人，排阁而入
+    para: 晋书-p04584
+  - reference: 资治通鉴·卷八十三（在线核对；本地语料未收）
+    url: https://www.zhonghuashu.com/wiki/資治通鑑/卷083
+    note: 在线文本已核对；不作为本地quote校验项。
+  - quote: 遂废贾后为庶人，幽之于建始殿
+    para: 晋书-p04584
+  skip: 宫内集结与入宫在洛阳城内，画成「排阁而入」的交战标记
+- id: e05
+  army: 赵王伦宫变军
+  kind: 交战
+  place: 洛阳
+  from: null
+  via: []
+  date: 300-04-03夜至04-04
+  territory: null
+  note: （原记地点：洛阳·宫殿前）当前枚举无“政变/捕杀”类型，暂列交战栏目以记武力处置；史料没有张华、裴頠实际交战记载。二人在殿前被杀，并非城邑攻占。
+  evidence:
+  - quote: 执张华、裴頠、解结、杜斌等，于殿前杀之
+    para: 晋书-p04584
+  - quote: 司空张华、尚书仆射裴頠皆遇害
+    para: 晋书-p00097
+  - reference: 资治通鉴·卷八十三（在线核对；本地语料未收）
+    url: https://www.zhonghuashu.com/wiki/資治通鑑/卷083
+    note: 在线文本已核对；不作为本地quote校验项。
+- id: e06
+  army: 赵王伦宫变军
+  kind: 行军
+  place: 金墉城
+  from: 洛阳·宫城
+  via: []
+  date: 300-04-04至04-09（甲午至己亥）
+  territory: null
+  note: 贾后押送金墉城，己亥赐死。金墉城位洛阳城西北隅，不构成郡县易手。
+  evidence:
+  - quote: 遣尚书和郁持节送贾庶人于金墉
+    para: 晋书-p04584
+  - quote: 赵王伦矫诏害贾庶人于金墉城
+    para: 晋书-p00097
+  - reference: 资治通鉴·卷八十三（在线核对；本地语料未收）
+    url: https://www.zhonghuashu.com/wiki/資治通鑑/卷083
+    note: 在线文本已核对；不作为本地quote校验项。
+  skip: 金墉城在洛阳城西北角，画成洛阳的囚禁动作
+- id: e07
+  army: 赵王伦宫变军
+  kind: 屯驻
+  place: 洛阳
+  from: null
+  via: []
+  date: 300-04（宫变后）
+  territory: null
+  note: （原记地点：洛阳）伦自任相国、都督中外诸军；《资治通鉴》记置府兵万人。本集未发生郡级疆域变化。
+  evidence:
+  - quote: 伦矫诏大赦，自为相国、都督中外诸军
+    para: 晋书-p00097
+  - reference: 资治通鉴·卷八十三（在线核对；本地语料未收）
+    url: https://www.zhonghuashu.com/wiki/資治通鑑/卷083
+    note: 在线文本已核对；不作为本地quote校验项。
+places_new:
+- name: 金墉城
+  lon: 112.61482
+  lat: 34.74455
+  precision: 遗址近似点；非宫门/殿址
+  basis: places查询无本地条目；汉魏洛阳故城西北隅、今孟津区翟泉村东/东北。参考 https://mapcarta.com/W1198845652 与《中国大百科全书》 https://www.zgbk.com/ecph/words?ID=534318&SiteID=1&SubID=192054&Type=bkzyb
+  evidence:
+  - quote: 赵王伦矫诏害贾庶人于金墉城
+    para: 晋书-p00097
+open_questions:
+- 无郡级攻占或投降，territory 全为 null。现有kind枚举没有政变/处死类型；e05暂借交战记录，并在note说明无实战。建议为战事账扩充“政变、捕杀、赐死”或非军事事件类别。
+- 许昌点是现代城市近似点，不是许昌宫古址；宫禁建筑精确位置和宫内路线未核。
+- 迁送许昌确日及队伍路线未核；千兵为《资治通鉴》护卫数，不代表之后行刑人员规模。
+- “皇帝梦”为300年权力集中后的叙事推断；司马伦正式篡位在301年。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

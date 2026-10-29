@@ -1,0 +1,297 @@
+# 快节奏版（2026-10-25）
+# 《三国到隋》第37集 · 两晋：长安陷落，西晋灭亡（312–317）。大纲第 32 条（合集二收官）。
+# 本地语料核对（晋书）：
+# 怀帝纪 p00114"共奉秦王鄴为皇太子于长安"；p00115"刘聪大会，使帝著青衣行酒。侍中庾珉号哭，聪恶之。丁未，帝遇弑，崩于平阳，时年三十"；
+# 愍帝纪 p00122"帝行酒洗爵，反而更衣，又使帝执盖，晋臣在坐者多失声而泣"（愍帝在平阳）；
+# 愍帝纪 p00121 建兴四年"秋七月，刘曜攻北地，麹允帅步骑三万救之。王师不战而溃"；"曜进至泾阳，渭北诸城悉溃"；"冬十月，京师饥甚，米斗金二两，人相食，死者太半。太仓有曲数饼，麹允屑为粥以供帝，至是复尽。帝泣谓允曰：今窘厄如此，外无救援，死于社稷，是朕事也…庶令黎元免屠烂之苦"；"十一月乙未，使侍中宋敞送笺于曜，帝乘羊车，肉袒衔壁，舆榇出降。群臣号泣攀车"；"及帝如曜营，营实在城东豆田壁"；
+# 愍帝纪 p00119 建兴二年"三月癸酉，石勒陷幽州，杀…王浚，焚烧城邑，害万余人"；石勒载记 p07175"浚遗勒麈尾，勒伪不敢执，悬之于壁，朝夕拜之"；
+# 祖逖传 p04823"帝乃以逖为奋威将军、豫州刺史，给千人禀，布三千匹，不给铠仗，使自招募。仍将本流徙部曲百余家渡江，中流击楫而誓曰：祖逖不能清中原而复济者，有如大江"（建兴元年，313）；
+# 王导传 p04933"洛京倾覆，中州士女避乱江左者十六七"；元帝纪 p00122"三月，琅邪王睿承制改元，称晋王于建康"。
+# 不用：刘琨后被段匹磾所杀（318 年，超出本集，只说"孤守晋阳"）；"313 年石勒取邺"（史料包：未核）；愍帝出降月份异文（按愍帝纪十一月）。
+
+id: s01e37-xijinwang
+title: 西晋灭亡
+series: 两晋 · 第37集
+year: 312
+
+notes:
+  - 主线问题：统一天下的西晋，为什么只活了三十几年？——八个王把兵打光了，北边的人走进了空门；最后一个皇帝，连投降都要抬着棺材。
+  - 钩子候选：①"晋朝两个皇帝，都穿着仆人的青衣，给匈奴皇帝倒过酒"（反差3 具体3 悬念3 兑现3=12）②"一斗米，卖二两金子"（反差2 具体3 悬念2 兑现3=10）③"最后一个皇帝，抬着棺材出城投降"（反差2 具体3 悬念2 兑现3=10）→ 选①。
+  - 反差：皇帝给敌国皇帝倒酒；石勒把王浚送的麈尾挂在墙上天天拜，转头就杀了王浚；十几岁的皇帝说"死于社稷是我的事，可百姓不该跟着死"。
+  - 细节：青衣行酒、晋臣失声痛哭；米斗金二两；几块酒曲磨粉做粥；羊车、肉袒、衔璧、舆榇；"天子何在豆田中"；中流击楫。
+  - 演义对照卡：结尾卡"成语出处"——中流击楫（祖逖传）。
+
+map:
+  center: [112.0, 34.5]
+  scale: 5000
+  extent: [86.0, 12.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas
+  river_rank: 4
+  palette: warm
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 晋朝两个皇帝，都穿着仆人的青衣，给匈奴皇帝倒过酒
+  big: [西晋灭亡, 衣冠南渡]
+  hero: 司马邺
+  at: 3
+  summary: |
+    洛阳陷落后，晋臣在长安立秦王司马邺为太子。313 年，平阳的刘聪大宴群臣，让被俘的晋怀帝穿青衣给客人倒酒，晋朝旧臣当场失声痛哭，不久怀帝被杀，司马邺即位为晋愍帝。同年祖逖带百余家部曲北伐，中流击楫发誓。314 年石勒先把王浚送的麈尾挂墙上天天拜，骗得信任后攻陷幽州、杀了王浚。
+    316 年刘曜攻关中，晋军三万不战而溃，长安被围，米一斗卖金二两，几块酒曲磨粉做粥也吃完了。十几岁的愍帝说"死于社稷是我的事"，为免百姓被屠，十一月乘羊车、肉袒衔璧、抬着棺材出降，西晋灭亡。中原士族十之六七逃过长江，317 年琅邪王司马睿在建康称晋王，东晋由此开始。
+  tags: [西晋灭亡, 晋愍帝, 青衣行酒, 祖逖, 中流击楫, 衣冠南渡]
+  next: 东晋建立
+
+sources_local:
+  - {id: js-05, work: 晋书, volume: 卷五·怀帝纪、愍帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷005'}
+  - {id: js-06, work: 晋书, volume: 卷六·元帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷006'}
+  - {id: js-62, work: 晋书, volume: 卷六十二·祖逖传, url: 'https://zh.wikisource.org/wiki/晉書/卷062'}
+  - {id: js-65, work: 晋书, volume: 卷六十五·王导传, url: 'https://zh.wikisource.org/wiki/晉書/卷065'}
+  - {id: js-104, work: 晋书, volume: 卷一百四·石勒载记上, url: 'https://zh.wikisource.org/wiki/晉書/卷104'}
+
+factions: {晋: '#2f5d3a', 汉赵: '#7a3b2e', 成汉: '#7da03c'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    晋: {slot: jade, main: true, label_at: 长安}
+    汉赵: {slot: pink, label_at: 平阳}
+    成汉: {slot: lime, label_at: 成都}
+
+people:
+  司马炽: {image: 03_素材/人物立绘/sima_chi.png, title: 晋怀帝, role: 青衣行酒, faction: 晋}
+  司马邺: {image: 03_素材/人物立绘/sima_ye.png, title: 晋愍帝, role: 衔璧出降, faction: 晋}
+  刘聪: {image: 03_素材/人物立绘/liu_cong.png, title: 汉帝, role: 平阳, faction: 汉赵}
+  刘曜: {image: 03_素材/人物立绘/liu_yao.png, title: 汉国大将, role: 围长安, faction: 汉赵}
+  石勒: {image: 03_素材/人物立绘/shi_le.png, title: 汉国大将, role: 袭幽州, faction: 汉赵}
+  王浚: {image: 03_素材/人物立绘/wang_jun_you.png, title: 幽州都督, role: 被石勒所骗, faction: 晋}
+  刘琨: {image: 03_素材/人物立绘/liu_kun.png, title: 并州刺史, role: 孤守晋阳, faction: 晋}
+  祖逖: {image: 03_素材/人物立绘/zu_ti.png, title: 豫州刺史, role: 中流击楫, faction: 晋}
+  司马睿: {image: 03_素材/人物立绘/sima_rui.png, title: 琅邪王, role: 建康称晋王, faction: 晋}
+
+places:
+  长安: {id: changan_han_city, label: below, tier: capital}
+  洛阳: {id: luoyang_han_wei, label: right}
+  平阳: {id: pingyang_jin, label: left}
+  北地: {id: beidi_niyang, label: left}
+  晋阳: {id: jinyang_han, label: left}
+  蓟: {id: ji_yan, label: right}
+  襄国: {id: xiangguo, label: right}
+  建康: {id: nanjing_ancient_city, name: 建康, label: right}
+
+camera:
+  focus: [长安, 平阳, 洛阳]
+  zoom: fit
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 晋朝两个皇帝，都穿着仆人的青衣，给匈奴皇帝倒过酒。
+    map: '311-06'
+    year: 313
+    phase: 青衣
+    sources: [js-05]
+    camera: {focus: 平阳, zoom: 6, move: 1.2}
+    show:
+      - sfx: 重拍转场
+      - act: {act: prop, at: 平阳, item: 爵, text: 青衣行酒, cue: 倒过酒, size: 1.2, for: 3.6}
+
+  - say: 这是西晋最后的样子。
+    sources: [js-05]
+    show:
+      - sfx: {name: 悬疑, delay: 0.2}
+
+  # ---------------- 第一章 青衣 ----------------
+  - say: 先说洛阳陷落之后。晋朝的大臣逃到长安，立十几岁的秦王司马邺当了皇太子。
+    audit_ok: [易手]
+    territory_hold: 说的是洛阳陷落（上一集已变），长安此时仍属晋
+    phase: 青衣
+    year: 312
+    sources: [js-05]
+    camera: {focus: [洛阳, 长安, 平阳], zoom: fit, move: 1.4}
+    show:
+      - title_bar: {text: 西晋灭亡, sub: 两晋 · 第37集, for: 3.2}
+      - sfx: 片头鼓
+      - enter: {who: 司马邺, side: right, cue: 司马邺, for: 3.4}
+
+  - say: 平阳这边，刘聪大宴群臣，让被俘的晋怀帝穿上青衣，给客人一个个倒酒。
+    year: 313
+    sources: [js-05]
+    camera: {focus: 平阳, zoom: 7, move: 1.2}
+    map: '312-07'
+    show:
+      - enter: {who: 刘聪, side: left, cue: 刘聪, for: 3}
+      - enter: {who: 司马炽, side: right, cue: 晋怀帝, for: 3.4}
+      - vignette: {image: illus_qingyi_wine, cue: 青衣, for: 8, text: 青衣行酒}
+
+  - say: 在座的晋朝旧臣忍不住大哭。刘聪很不痛快。没过多久，晋怀帝被杀，三十岁。
+    sources: [js-05]
+    show:
+      - exit: {who: 司马炽, at: 平阳, verb: 卒, portrait: true, cue: 被杀}
+      - sfx: {name: 退场钟, cue: 被杀}
+
+  - say: 消息传到长安，司马邺即位，就是晋朝最后一个皇帝，晋愍帝。
+    sources: [js-05]
+    camera: {focus: [长安, 平阳], zoom: fit, move: 1.4}
+    show:
+      - act: {act: enthrone, who: 司马邺, at: 长安, text: 即位, sub: 建兴元年, cue: 即位, for: 3}
+      - sfx: {name: 称帝, cue: 即位}
+
+  # ---------------- 第二章 北方 ----------------
+  - say: 北方，晋朝还剩几根柱子。并州的刘琨孤守晋阳；幽州的王浚，手里有鲜卑骑兵。
+    phase: 北方
+    sources: [js-05]
+    camera: {focus: [晋阳, 蓟, 襄国, 平阳], zoom: fit, move: 1.4}
+    show:
+      - flag: {at: 晋阳, name: 刘琨, sub: 孤守晋阳, faction: 晋, cue: 刘琨, until: beat+3}
+      - flag: {at: 蓟, name: 王浚, sub: 幽州, faction: 晋, cue: 王浚, until: beat+2}
+
+  - say: 石勒想吃掉王浚，先装孙子。王浚送他一把麈尾，他不敢拿，挂在墙上，早晚对着拜。
+    sources: [js-104]
+    show:
+      - enter: {who: 石勒, side: right, cue: 石勒, for: 3.4}
+      - quote: {text: 浚遗勒麈尾，勒伪不敢执，悬之于壁，朝夕拜之, source: 晋书·石勒载记, cue: 拜, for: 4.4}
+
+  - say: 三一四年三月，石勒说要去幽州给王浚上尊号。一进城，就杀了王浚，烧了城。
+    audit_ok: [遗忘]
+    year: 314
+    map: '314-03'
+    owners_cue: 杀了王浚
+    sources: [js-05, js-104]
+    camera: {focus: [襄国, 蓟], zoom: fit, move: 1.4}
+    tells: [e04]
+    show:
+      - army: {head: 石勒, from: 襄国, to: 蓟, faction: 汉赵, banner: 石, troops: cavalry, size: 2.6, cue: 幽州, grow: 2.0}
+      - exit: {who: 王浚, at: 蓟, verb: 诛, portrait: true, cue: 杀了王浚}
+      - fire: {at: 蓟, cue: 烧了城, radius: 0.8, for: 3}
+      - army: {head: 石勒, from: 蓟, to: 襄国, faction: 汉赵, banner: 石, troops: cavalry, size: 2.4, cue: 烧了城, delay: 1.2, grow: 1.6}   # 焚其宫殿，还襄国
+
+  - say: 南边也有人不甘心。早在一年前，祖逖带着一百多户乡亲渡江北上。船到江心，他敲着船桨发誓：
+    year: 313
+    sources: [js-62]
+    camera: {focus: [建康, 洛阳], zoom: fit, move: 1.4}
+    show:
+      - vignette: {image: illus_zhongliu_jiji, cue: 渡江, for: 6, text: 中流击楫}
+
+  - say: 我祖逖要是收复不了中原，就像这大江，一去不回！
+    speaker: 祖逖
+    style: 慷慨激昂，敲着船桨对着大江立誓，声音铿锵
+    quote: 祖逖不能清中原而复济者，有如大江
+    sources: [js-62]
+    show:
+      - enter: {who: 祖逖, side: right, cue: 我祖逖, for: 5}
+      - sfx: {name: 誓师, cue: 大江}
+
+  # ---------------- 第三章 长安 ----------------
+  - say: 可长安，等不到援军了。三一六年七月，刘曜进攻关中，三万晋军去救北地，还没打，就散了。
+    audit_ok: [遗忘]
+    phase: 长安
+    year: 316
+    sources: [js-05]
+    camera: {focus: [平阳, 北地, 长安], zoom: fit, move: 1.4}
+    tells: [e07]
+    show:
+      - enter: {who: 刘曜, side: right, cue: 刘曜, for: 3.4}
+      - army: {head: 刘曜, from: 平阳, via: [北地], to: 长安, faction: 汉赵, banner: 曜, troops: cavalry, size: 3.2, cue: 进攻关中, grow: 2.6}
+      - quote: {text: 麹允帅步骑三万救之。王师不战而溃, source: 晋书·愍帝纪, era: 建兴四年七月, cue: 散了, for: 3.8}
+
+  - say: 长安被团团围住。城里一斗米卖二两金子，人吃人，死了一大半。
+    sources: [js-05]
+    camera: {focus: 长安, zoom: 8, move: 1.2}
+    show:
+      - act: {act: coins, at: 长安, text: 米斗金二两, cue: 二两金子, for: 3.2}
+      - quote: {text: 京师饥甚，米斗金二两，人相食，死者太半, source: 晋书·愍帝纪, era: 建兴四年十月, cue: 一大半, for: 4}
+
+  - say: 粮仓里只剩几块酒曲，大臣磨成粉，熬粥给皇帝吃。最后，连这个也吃完了。
+    sources: [js-05]
+    show:
+      - act: {act: prop, at: 长安, item: 粮仓, text: 曲数饼, cue: 酒曲, size: 1.1, for: 3.2}
+
+  - say: 十几岁的皇帝哭着对大臣说：
+    sources: [js-05]
+    scene: 朝堂
+
+  - say: 为国而死，是我该做的。可我不忍心让全城百姓，跟着我被屠杀。
+    speaker: 司马邺
+    style: 少年天子，强忍着眼泪，声音发颤却下了决心
+    scene: 朝堂
+    quote: 死于社稷，是朕事也…庶令黎元免屠烂之苦
+    sources: [js-05]
+
+  - say: 十一月，晋愍帝坐着羊车，光着上身，嘴里衔着玉璧，让人抬着棺材，出城投降。
+    map: '316-11'
+    owners_cue: 出城投降
+    sources: [js-05]
+    camera: {focus: 长安, zoom: 7, move: 1.2}
+    tells: [e16]
+    show:
+      - vignette: {image: illus_xianbi_surrender, cue: 羊车, for: 6, text: 肉袒衔璧 舆榇出降}
+      - sfx: {name: 疆域易手, cue: 出城投降}
+
+  - say: 后来，他也被押到平阳，也穿上青衣，给刘聪倒酒。西晋，亡了。
+    sources: [js-05]
+    camera: {focus: [长安, 平阳], zoom: fit, move: 1.4}
+    tells: [e18]
+    show:
+      - march: {from: 长安, to: 平阳, faction: 汉赵, label: 蒙尘于平阳, cue: 押到平阳, grow: 1.8}
+      - headline: {text: 西晋亡, sub: 二六五至三一六, cue: 亡了, for: 3.4}
+      - sfx: {name: 落幕锣, cue: 亡了}
+
+  # ---------------- 第四章 南渡 ----------------
+  - say: 中原的士族，十个里有六七个逃过了长江。
+    phase: 南渡
+    sources: [js-65]
+    camera: {focus: [洛阳, 建康], zoom: fit, move: 1.6}
+    show:
+      - act: {act: refugees, places: [洛阳, 建康], text: 衣冠南渡, cue: 逃过了长江, for: 4}
+      - quote: {text: 洛京倾覆，中州士女避乱江左者十六七, source: 晋书·王导传, cue: 十个里, for: 4}
+
+  - say: 三一七年三月，琅邪王司马睿在建康称晋王。第二年，他称帝，史称东晋。
+    year: 317
+    sources: [js-06]
+    camera: {focus: 建康, zoom: 6, move: 1.4}
+    map: '316-12'
+    show:
+      - enter: {who: 司马睿, side: right, cue: 司马睿, for: 3.6}
+      - act: {act: enthrone, who: 司马睿, at: 建康, text: 晋王, sub: 建武元年, cue: 称晋王, for: 3}
+      - sfx: {name: 册封, cue: 称晋王}
+
+  # ---------------- 收 ----------------
+  - say: 统一天下的西晋，为什么只撑了三十多年？八个王把兵打光了，北边的人，直接走进了空门。
+    sources: [js-05]
+    camera: {focus: [长安, 洛阳, 平阳, 建康], zoom: fit, move: 1.6}
+    show:
+      - headline: {text: 统一来得快, sub: 散得更快, cue: 三十多年, for: 3.4}
+
+  - say: 一个统一的天下，在皇帝倒酒的那一刻，碎了。
+    sources: [js-05]
+    show:
+      - sfx: {name: 史诗冲击, cue: 碎了}
+
+  - say: 晋愍帝出城投降，你觉得，他该不该死守到底？
+    audit_ok: [投降]
+    sources: [js-05]
+    show:
+      - card: {title: 成语出处, body: 中流击楫——祖逖传：祖逖不能清中原而复济者，有如大江, cue: 死守, for: 3.6}
+
+  - say: 长江以北，进入了十六国的乱世。长江以南，一个新的晋朝，开始了。
+    sources: [js-06]
+    show:
+      - title_bar: {text: 下集, sub: 东晋 · 王与马，共天下, cue: 开始了, delay: 0.4, for: 3.0}
+      - sfx: {name: 时代转折, cue: 开始了}

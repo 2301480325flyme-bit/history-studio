@@ -1,0 +1,290 @@
+# 《三国》合集 第1集：张角发动黄巾起义，东汉王朝从此走向崩溃
+# 旁白定稿见 01_工作流/series/三国到隋/第01集-黄巾起义.md。先只做配音（按章整段合成），声音确认后再落画面。
+
+id: s01e01-huangjin
+title: 黄巾起义
+series: 三国 · 第1集
+year: 184
+
+map:
+  center: [114.0, 33.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  river_rank: 4
+
+voice:
+  mode: mimo                 # 流程沿用整章合成 + 听写校对；实际发声由 provider 决定
+  provider: gemini           # 2026-10-09 用户选定：Gemini G3 Algenib（D6 版本备份在 episode.d6-voice.yaml）
+  voice: Algenib
+  model: gemini-3.8-flash-tts
+  unit: chapter              # 每章整段合成
+  style: "用标准普通话，像一位沉稳、有温度的说书人给朋友讲历史故事：自然口语，不要播音腔；语速中等偏快；句子之间自然换气，人名和转折处稍作强调和停顿，悬念句压低一点声音。"
+  pause_cap: 0.6             # 只剪特别长的停顿；不整体加速，保留原本节奏
+  gap: 0.5
+  bed: original
+  bed_db: -26
+
+sources_local:
+  - {id: hhs-08, work: 后汉书, volume: 卷八·孝灵帝纪, url: 'https://zh.wikisource.org/wiki/後漢書/卷8'}
+  - {id: hhs-71, work: 后汉书, volume: 卷七十一·皇甫嵩朱儁列传, url: 'https://zh.wikisource.org/wiki/後漢書/卷71'}
+  - {id: hhs-64, work: 后汉书, volume: 卷六十四·卢植传, url: 'https://zh.wikisource.org/wiki/後漢書/卷64'}
+  - {id: hhs-75, work: 后汉书, volume: 卷七十五·刘焉传, url: 'https://zh.wikisource.org/wiki/後漢書/卷75'}
+
+factions: {黄巾: '#d9a521', 汉室: '#b8462f', 刘焉: '#5f8f3a'}
+
+territory:
+  cells: han-140
+  zhou_labels: true
+  jun_labels: false
+  polities:
+    汉室: {slot: salmon, main: true, label_at: 洛阳}
+    黄巾: {slot: lemon, label_at: 广宗}
+    刘焉: {slot: lime, label_at: 绵竹}
+
+people:
+  张角: {image: 03_素材/人物立绘/zhang_jue.png, title: 太平道首领, role: 苍天已死, faction: 黄巾}
+  汉灵帝: {image: 03_素材/人物立绘/liu_hong.png, title: 东汉皇帝, role: 西园卖官, faction: 汉室}
+  何进: {image: 03_素材/人物立绘/he_jin.png, title: 大将军, role: 召外兵, faction: 汉室}
+  皇甫嵩: {image: 03_素材/人物立绘/huangfu_song.png, title: 左中郎将, role: 长社火攻, faction: 汉室}
+  卢植: {image: 03_素材/人物立绘/lu_zhi.png, title: 北中郎将, role: 围攻广宗, faction: 汉室}
+  朱儁: {image: 03_素材/人物立绘/zhu_jun.png, title: 右中郎将, role: 南下颍川, faction: 汉室}
+  张宝: {image: 03_素材/人物立绘/zhang_bao.png, title: 地公将军, role: 张角之弟, faction: 黄巾}
+  张梁: {image: 03_素材/人物立绘/zhang_liang.png, title: 人公将军, role: 张角之弟, faction: 黄巾}
+  刘焉: {image: 03_素材/人物立绘/liu_yan.png, title: 益州牧, role: 建议设州牧, faction: 刘焉}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: left, tier: capital}
+  巨鹿: {id: julu_yingtao, label: right}
+  广宗: {id: guangzong, label: right}
+  下曲阳: {id: xiaquyang, label: right}
+  长社: {id: changshe, label: right}
+  宛: {id: wanxian, label: below}
+  寿春: {id: shouchun, label: below}
+  下邳: {id: xiapi, label: right}
+  襄阳: {id: xiangyang, label: left}
+  临淄: {id: linzi, label: right}
+  黑山: {id: heishan, label: left}
+  白波谷: {id: baibogu, label: left}
+  成都: {id: chengdu_city, label: left}
+  绵竹: {id: mianzhu_old, label: right}
+
+camera:
+  focus: 洛阳
+  zoom: 0.62
+
+beats:
+  - say: 公元一百八十四年，一个画符治病的人，让四百年的大汉王朝走上了绝路。
+    phase: 天下将乱
+    sources: [hhs-71, hhs-08]
+    year: 184
+    camera: {focus: 洛阳, zoom: 0.62}
+    owners: {汉室: [司隶, 豫州, 兖州, 徐州, 青州, 冀州, 幽州, 并州, 凉州, 荆州, 扬州, 益州, 交州]}
+    show:
+      - title_bar: {text: 黄巾起义, sub: 三国 · 第1集, cue: 公元, for: 3.2}
+      - sfx: 片头鼓
+      - breathe: {faction: 汉室, cue: 大汉}
+
+  - say: 他叫张角，冀州巨鹿人，靠符水给人治病，十几年里聚起了几十万信徒。
+    sources: [hhs-71, hhs-08]
+    camera: {focus: 巨鹿, zoom: 2.2, move: 1.8}
+    show:
+      - enter: {who: 张角, at: 巨鹿, side: right, cue: 张角, settle: true, settle_sub: 太平道}
+      - sfx: {name: 登场, cue: 张角}
+
+  - say: 一个乡下的道士，为什么能一呼百应？答案在洛阳的皇宫里。
+    sources: [hhs-71, hhs-08]
+    camera: [{focus: [巨鹿, 洛阳], zoom: fit, move: 1.6}, {focus: 洛阳, zoom: 2.4, move: 1.4, cue: 洛阳}]
+    show:
+      - spot: {at: 洛阳, text: 皇宫, cue: 洛阳}
+
+  - say: 当时的皇帝汉灵帝，在西园公开卖官，县令、太守都明码标价，连三公之位也能用钱买。
+    sources: [hhs-71, hhs-08]
+    show:
+      - enter: {who: 汉灵帝, side: left, cue: 汉灵帝, for: 3.6}
+      - sfx: {name: 帝王登场, cue: 汉灵帝}
+      - act: {act: coins, at: 洛阳, text: 卖官, cue: 卖官, for: 3.4}
+      - sfx: {name: 钱币, cue: 卖官}
+
+  - say: 朝廷里，宦官和外戚轮流掌权；朝廷外，土地兼并，灾荒连年，百姓流离失所。
+    sources: [hhs-71, hhs-08]
+    show:
+      - versus: {left: 宦官, right: 外戚, label: 轮流掌权, cue: 宦官, for: 3.2}
+
+  - say: 张角把信徒编成三十六方，大方一万多人，小方六七千人，每方设一个渠帅。
+    sources: [hhs-71, hhs-08]
+    camera: {focus: [巨鹿, 寿春, 下邳, 襄阳, 临淄], zoom: fit, move: 1.8}
+    show:
+      - flag: {at: 巨鹿, name: 大方, sub: 冀州, faction: 黄巾, cue: 三十六方}
+      - flag: {at: 临淄, name: 方, sub: 青州, faction: 黄巾, cue: 三十六方, delay: 0.3}
+      - flag: {at: 下邳, name: 方, sub: 徐州, faction: 黄巾, cue: 三十六方, delay: 0.6}
+      - flag: {at: 长社, name: 方, sub: 豫州, faction: 黄巾, cue: 三十六方, delay: 0.9}
+      - flag: {at: 宛, name: 方, sub: 荆州, faction: 黄巾, cue: 三十六方, delay: 1.2}
+      - flag: {at: 寿春, name: 方, sub: 扬州, faction: 黄巾, cue: 渠帅, delay: 0.0}
+
+  - say: 他们喊出一句口号：苍天已死，黄天当立，岁在甲子，天下大吉。
+    phase: 苍天已死
+    sources: [hhs-71, hhs-08]
+    show:
+      - quote: {text: 苍天已死，黄天当立，岁在甲子，天下大吉, source: 后汉书·皇甫嵩传, era: 中平元年, cue: 口号, for: 4.5}
+
+  - say: 计划是这一年三月初五，各地同时起事，连宫里的宦官都有人做内应。
+    sources: [hhs-71, hhs-08]
+    camera: {focus: [巨鹿, 洛阳], zoom: fit, move: 1.4}
+    show:
+      - arrow: {from: 巨鹿, to: 洛阳, kind: relation, label: 内应, cue: 内应, grow: 1.2}
+
+  - say: 没想到，弟子唐周临阵告密。洛阳的联络人马元义被车裂，一千多人受牵连被杀。
+    sources: [hhs-71, hhs-08]
+    camera: {focus: 洛阳, zoom: 2.6, move: 1.2, cue: 告密}
+    show:
+      - act: {act: execute, at: 洛阳, text: 车裂, cue: 车裂, for: 3.0}
+      - sfx: {name: 不祥鼓, cue: 告密}
+
+  - say: 张角只好提前起兵。一个月之内，七州二十八郡同时响应，人人头裹黄巾。
+    sources: [hhs-71, hhs-08]
+    camera: {focus: 洛阳, zoom: 0.9, move: 1.6}
+    owners_cue: 响应
+    # 七州二十八郡（后汉书·五行志）没有列出是哪七州：有郡名记载的实色（冀豫荆兖幽），青、徐两州斜纹示意
+    owners: {汉室: [司隶, 豫州, 兖州, 冀州, 幽州, 并州, 凉州, 荆州, 扬州, 益州, 交州], 黄巾: [青州, 徐州, 颍川郡, 汝南郡, 陈国, 南阳郡, 东郡, 巨鹿郡, 安平国, 清河国, 常山国, 中山国, 魏郡, 广阳郡]}
+    uncertain: [青州, 徐州]
+    show:
+      - headline: {text: 黄巾起义, sub: 中平元年 · 公元184年, cue: 头裹黄巾, for: 2.6}
+      - sfx: {name: 大标题, cue: 头裹黄巾}
+      - act: {act: beacon, places: [巨鹿, 临淄, 下邳, 长社, 宛], text: 烽火, cue: 响应, step: 0.3, for: 3.6}
+      - sfx: {name: 号角, cue: 响应}
+
+  - say: 张角自称天公将军，弟弟张宝、张梁称地公将军、人公将军。
+    sources: [hhs-71, hhs-08]
+    camera: {focus: [广宗, 下曲阳, 巨鹿], zoom: fit, move: 1.4}
+    show:
+      - flag: {at: 广宗, name: 张角, sub: 天公将军, faction: 黄巾, cue: 天公将军}
+      - enter: {who: 张宝, at: 下曲阳, side: left, cue: 张宝, settle: true, settle_sub: 地公将军}
+      - enter: {who: 张梁, at: 巨鹿, side: right, cue: 张梁, settle: true, settle_sub: 人公将军}
+
+  - say: 汉灵帝慌了：任命外戚何进为大将军，屯兵京城；又赶紧解除党锢，怕士人和黄巾联手。
+    sources: [hhs-71, hhs-08]
+    camera: {focus: 洛阳, zoom: 2.2, move: 1.4}
+    show:
+      - enter: {who: 何进, at: 洛阳, side: left, cue: 何进, settle: true, settle_sub: 大将军}
+      - act: {act: edict, at: 洛阳, text: 赦, sub: 解除党锢, cue: 党锢, for: 3.2}
+      - sfx: {name: 诏书, cue: 党锢}
+
+  - say: 朝廷派出三员大将：卢植北上冀州打张角，皇甫嵩和朱儁南下颍川。
+    phase: 长社一把火
+    sources: [hhs-71, hhs-64]
+    camera: {focus: [洛阳, 广宗, 长社], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 卢植, side: left, cue: 卢植, for: 2.6}
+      - enter: {who: 朱儁, side: right, cue: 朱儁, for: 2.6}
+      - army: {from: 洛阳, to: 广宗, faction: 汉室, banner: 卢, troops: infantry, size: 2.5, cue: 卢植, grow: 2.2}
+      - army: {from: 洛阳, to: 长社, faction: 汉室, banner: 皇甫, troops: cavalry, size: 2.5, cue: 皇甫嵩, grow: 1.8}
+      - sfx: {name: 步兵行军, cue: 卢植, len: 6}
+
+  - say: 颍川的黄巾渠帅波才，把皇甫嵩围在了长社城里。
+    sources: [hhs-71, hhs-64]
+    camera: {focus: 长社, zoom: 6, move: 1.6}
+    show:
+      - siege: {at: 长社, text: 围, faction: 黄巾, cue: 围在}
+      - sfx: {name: 战鼓, cue: 围在}
+      - flag: {at: 长社, name: 波才, sub: 黄巾渠帅, faction: 黄巾, side: left, cue: 波才}
+
+  - say: 城里兵少，人心惶惶。皇甫嵩却发现，黄巾军靠着草地扎营，那天晚上又刮起了大风。
+    sources: [hhs-71, hhs-64]
+    show:
+      - enter: {who: 皇甫嵩, side: left, cue: 皇甫嵩, for: 3.0}
+      - act: {act: wind, at: 长社, text: 大风, cue: 大风, for: 3.0}
+      - sfx: {name: 狂风, cue: 大风}
+
+  - say: 他让士兵举着火把，趁夜出城放火，城上同时举火呼应。黄巾军大乱，被斩首几万人。
+    sources: [hhs-71, hhs-64]
+    show:
+      - clash: {at: 长社, sides: [{faction: 汉室, banner: 皇甫, troops: cavalry}, {faction: 黄巾, banner: 波, troops: infantry}], loser: 黄巾, cue: 放火, title: 长社之战}
+      - fire: {at: 长社, cue: 放火, radius: 1.4, for: 7}
+      - sfx: {name: 火攻, cue: 放火}
+      - sfx: {name: 点火, cue: 放火}
+    owners_cue: 斩首
+    owners: {汉室: [司隶, 豫州, 兖州, 冀州, 幽州, 并州, 凉州, 荆州, 扬州, 益州, 交州], 黄巾: [青州, 徐州, 南阳郡, 东郡, 巨鹿郡, 安平国, 清河国, 常山国, 中山国, 魏郡, 广阳郡]}
+    uncertain: [青州, 徐州]
+
+  - say: 南线打开了局面，北线却出了岔子：卢植围住张角，却因为不肯贿赂宦官，被诬陷下狱。
+    sources: [hhs-71, hhs-64]
+    camera: {focus: 广宗, zoom: 4, move: 1.6}
+    show:
+      - flag: {at: 广宗, name: 卢植, sub: 北中郎将, faction: 汉室, side: left, cue: 卢植}
+      - act: {act: prison, at: 广宗, text: 下狱, cue: 下狱, for: 3.4}
+      - sfx: {name: 城门关闭, cue: 下狱}
+
+  - say: 皇甫嵩转战北上。这时张角已经病死，皇甫嵩在广宗大破张梁，又在下曲阳斩了张宝。
+    sources: [hhs-71, hhs-64]
+    camera: {focus: [长社, 广宗, 下曲阳], zoom: fit, move: 1.4}
+    show:
+      - army: {from: 长社, to: 广宗, faction: 汉室, banner: 皇甫, troops: cavalry, size: 2.5, cue: 北上, grow: 2.0}
+      - exit: {who: 张角, at: 广宗, verb: 卒, cue: 病死}
+      - sfx: {name: 退场钟, cue: 病死}
+      - act: {act: execute, at: 下曲阳, text: 斩, cue: 斩了张宝, for: 2.6}
+    owners_cue: 大破
+    owners: {汉室: [司隶, 豫州, 兖州, 徐州, 青州, 冀州, 幽州, 并州, 凉州, 荆州, 扬州, 益州, 交州], 黄巾: [南阳郡]}
+
+  - say: 张角被剖棺戮尸，首级送往洛阳。轰轰烈烈的黄巾起义，主力不到一年就被镇压。
+    sources: [hhs-71, hhs-64]
+    camera: {focus: 洛阳, zoom: 0.62, move: 2.0}
+    owners_cue: 镇压
+    owners: {汉室: [司隶, 豫州, 兖州, 徐州, 青州, 冀州, 幽州, 并州, 凉州, 荆州, 扬州, 益州, 交州]}
+    show:
+      - headline: {text: 不到一年, sub: 黄巾主力被镇压, cue: 不到一年, for: 2.6}
+      - sfx: {name: 时代转折, cue: 不到一年}
+
+  - say: 可是，黄巾余部此起彼伏：黑山、白波、青州、益州，到处有人造反。
+    phase: 州牧坐大
+    sources: [hhs-75, hhs-08]
+    show:
+      - flag: {at: 黑山, name: 黑山, faction: 黄巾, cue: 黑山}
+      - flag: {at: 白波谷, name: 白波, faction: 黄巾, cue: 白波}
+      - flag: {at: 临淄, name: 青州, faction: 黄巾, cue: 青州}
+      - flag: {at: 成都, name: 益州, faction: 黄巾, cue: 益州}
+      - sfx: {name: 民变, cue: 黑山, len: 6}
+
+  - say: 公元一百八十八年，宗室刘焉向汉灵帝建议：把州刺史改成州牧，派重臣坐镇地方。
+    sources: [hhs-75, hhs-08]
+    year: 188
+    show:
+      - enter: {who: 刘焉, side: right, cue: 刘焉, for: 3.6}
+      - sfx: {name: 登场, cue: 刘焉}
+      - card: {title: 刺史 → 州牧, body: 州的长官从监察官变成一方之主, cue: 州牧}
+
+  - say: 州牧不光管官员，还能管钱粮、管军队。刘焉自己，挑了天高皇帝远的益州。
+    sources: [hhs-75, hhs-08]
+    camera: {focus: 成都, zoom: 2.0, move: 1.6, cue: 刘焉}
+    owners_cue: 益州
+    owners: {汉室: [司隶, 豫州, 兖州, 徐州, 青州, 冀州, 幽州, 并州, 凉州, 荆州, 扬州, 交州], 刘焉: [益州]}
+    show:
+      - flag: {at: 绵竹, name: 刘焉, sub: 益州牧, faction: 刘焉, cue: 益州}
+      - sfx: {name: 插旗, cue: 益州}
+
+  - say: 朝廷平定了黄巾，却亲手造出了一个个手握兵权的地方诸侯。
+    sources: [hhs-75, hhs-08]
+    camera: {focus: 洛阳, zoom: 0.62, move: 1.8}
+    show:
+      - headline: {text: 州牧坐大, sub: 地方诸侯手握兵权, cue: 诸侯, for: 2.6}
+      - sfx: {name: 大标题, cue: 诸侯}
+
+  - say: 而在洛阳，汉灵帝的身体越来越差，太子却迟迟没有立下。
+    sources: [hhs-75, hhs-08]
+    camera: {focus: 洛阳, zoom: 3.0, move: 1.6}
+    show:
+      - spot: {at: 洛阳, text: 皇宫, cue: 洛阳}
+
+  - say: 外戚何进和宦官集团，都在等着他咽下最后一口气。
+    sources: [hhs-75, hhs-08]
+    show:
+      - versus: {left: 何进, right: 宦官, label: 外戚对宦官, cue: 何进, for: 3.4}
+      - sfx: {name: 对峙滚奏, cue: 外戚, len: 6}
+
+  - say: 公元一百八十九年四月，汉灵帝驾崩。一场决定东汉命运的宫廷血案，就要发生了。
+    sources: [hhs-75, hhs-08]
+    year: 189
+    show:
+      - act: {act: mourn, text: 崩, sub: 中平六年 · 四月, cue: 驾崩, for: 4.0}
+      - sfx: {name: 重大冲击, cue: 驾崩}
+      - title_bar: {text: 下集, sub: 何进召董卓进京, cue: 宫廷血案, for: 3.0}

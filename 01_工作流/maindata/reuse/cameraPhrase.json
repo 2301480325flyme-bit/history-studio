@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "note": "运镜句式模板。粒度高于单个镜头 —— 编码的是「节奏」，不是「一个动作」。对应 geo.ts 的 zoom/center 参数与调研报告「运镜语言」节。",
+  "cameraRef": "见 01_工作流/视觉符号与动画库-v1.md 第三部分 L2（8 种镜头运动）",
+  "phrases": [
+    {
+      "id": "establish",
+      "name": "交代句式",
+      "useWhen": "每段开头、换区域、需先建立空间感",
+      "shots": [
+        {"camera": "hold",     "sec": 1.0, "params": {"zoom": 1.0},                    "why": "先让观众看清全局"},
+        {"camera": "dolly_in", "sec": 2.0, "params": {"zoomFrom": 1.0, "zoomTo": 1.35}, "why": "推到焦点"},
+        {"camera": "hold",     "sec": 2.0, "params": {"zoom": 1.35},                   "why": "停下让观众读完字幕"}
+      ]
+    },
+    {
+      "id": "battle",
+      "name": "战斗句式",
+      "useWhen": "交战、攻城、决战",
+      "shots": [
+        {"camera": "hold",     "sec": 0.8, "params": {"zoom": 1.2}},
+        {"camera": "dolly_in", "sec": 1.2, "params": {"zoomFrom": 1.2, "zoomTo": 1.6}, "why": "快推制造压迫感"},
+        {"camera": "shake",    "sec": 0.8, "params": {"amplitude": 6, "freq": 8},      "why": "撞击瞬间"},
+        {"camera": "hold",     "sec": 2.0, "params": {"zoom": 1.6},                    "why": "定格看结果"}
+      ]
+    },
+    {
+      "id": "compare",
+      "name": "对比句式",
+      "useWhen": "双方态势、战前战后、今古对照",
+      "shots": [
+        {"camera": "hold", "sec": 1.5, "params": {"focus": "A"}},
+        {"camera": "pan",  "sec": 2.5, "params": {"from": "A", "to": "B"}, "why": "横移让观众自己看出差异"},
+        {"camera": "hold", "sec": 2.0, "params": {"focus": "B"}}
+      ]
+    },
+    {
+      "id": "coda",
+      "name": "收尾句式",
+      "useWhen": "段落结束、章节切换",
+      "shots": [
+        {"camera": "hold",     "sec": 1.5, "params": {}},
+        {"camera": "dolly_out","sec": 2.5, "params": {"zoomFrom": 1.4, "zoomTo": 1.0}, "why": "拉回全景，交代环境"},
+        {"transition": "ink_bleed", "sec": 0.8, "why": "墨迹转场最契合水墨风"}
+      ]
+    },
+    {
+      "id": "reveal",
+      "name": "揭晓句式",
+      "useWhen": "疆域变化、条约割让、政权更替",
+      "shots": [
+        {"camera": "hold",     "sec": 1.0, "params": {}},
+        {"layerEffect": "territory_grow", "sec": 2.5, "why": "色块从中心向外生长（L4 图层动画，非事件动词）"},
+        {"camera": "hold",     "sec": 2.0, "params": {}, "why": "停住看新边界"}
+      ]
+    }
+  ],
+  "rules": [
+    "缓入缓出（ease-in-out）—— 匀速推进 = 廉价感",
+    "一个镜头只做一种主运动（推就是推，别同时摇 + 旋）",
+    "组合的是幅度，不是速度",
+    "hold 不是「什么都不做」，是让观众读完字幕 —— 它是爆款的关键镜头"
+  ]
+}

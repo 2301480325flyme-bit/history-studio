@@ -1,0 +1,591 @@
+episode: s01e18-dingjunshan
+armies:
+  曹操军:
+    faction: 曹操
+    head: 曹操
+    size: 未核
+    evidence:
+    - quote: 三月，公西征张鲁
+      para: 三国志-p00251
+    - quote: 三月，王自长安出斜谷
+      para: 三国志-p00292
+  张郃朱灵先遣军:
+    faction: 曹操
+    head: 张郃、朱灵
+    size: 未核
+    evidence:
+    - quote: 先遣张合、朱灵等攻破之
+      para: 三国志-p00251
+  窦茂军:
+    faction: 氐
+    head: 窦茂
+    size: 万余人
+    evidence:
+    - quote: 氐王窦茂觽万余人
+      para: 三国志-p00251
+  张鲁军:
+    faction: 张鲁
+    head: 张鲁
+    size: 未核
+    evidence:
+    - quote: 张鲁使弟韂与将杨昂等据阳平关
+      para: 三国志-p00251
+  夏侯渊军:
+    faction: 曹操
+    head: 夏侯渊
+    size: 未核
+    evidence:
+    - quote: 留渊守汉中
+      para: 三国志-p01188
+  张郃军:
+    faction: 曹操
+    head: 张郃
+    size: 未核
+    evidence:
+    - quote: 曹公破张鲁，留夏侯渊、张郃守汉川
+      para: 三国志-p01958
+  张飞军:
+    faction: 刘备
+    head: 张飞
+    size: 万余精卒
+    evidence:
+    - quote: 飞率精卒万余人
+      para: 三国志-p01958
+  刘备军:
+    faction: 刘备
+    head: 刘备
+    size: 未核
+    evidence:
+    - quote: 先主善其策，乃率诸将进兵汉中
+      para: 三国志-p01977
+  吴兰雷铜军:
+    faction: 刘备
+    head: 吴兰、雷铜
+    size: 未核
+    evidence:
+    - quote: 分遣将军吴兰、雷铜等入成都
+      para: 三国志-p01863
+  黄忠军:
+    faction: 刘备
+    head: 黄忠
+    size: 未核
+    evidence:
+    - quote: 先主命黄忠乘高鼓噪攻之
+      para: 三国志-p01864
+events:
+- id: e01
+  army: 曹操军
+  kind: 出发
+  place: 陈仓
+  from: 未核
+  via: []
+  date: 215-03
+  territory: null
+  note: 三月西征张鲁至陈仓；出发点和此前路线未核。
+  evidence:
+  - quote: 三月，公西征张鲁，至陈仓
+    para: 三国志-p00251
+  skip: 本集从 215-08 讲起，曹操取汉中只在第3拍一句带过
+- id: e02
+  army: 张郃朱灵先遣军
+  kind: 行军
+  place: 未核
+  from: 陈仓
+  via: []
+  date: 215-03
+  territory: null
+  note: 曹操原计划由武都入氐，氐人塞道后遣张郃、朱灵攻破；史文未载其确切行军点与交战处，故place标未核。武都为当时郡名，不等于今武都区。
+  evidence:
+  - quote: 将自武都入氐；氐人塞道，先遣张合、朱灵等攻破之
+    para: 三国志-p00251
+  skip: 本集从 215-08 讲起，曹操取汉中只在第3拍一句带过
+- id: e03
+  army: 曹操军
+  kind: 行军
+  place: 河池
+  from: 陈仓
+  via:
+  - 散关
+  date: 215-04
+  territory: null
+  note: 四月自陈仓出散关至河池；古县今在甘肃徽县境，具体营地未核。
+  evidence:
+  - quote: 夏四月，公自陈仓以出散关，至河池
+    para: 三国志-p00251
+  skip: 本集从 215-08 讲起，曹操取汉中只在第3拍一句带过
+- id: e04
+  army: 窦茂军
+  kind: 交战
+  place: 河池
+  from: null
+  via: []
+  date: 215-05
+  territory: null
+  note: 窦茂恃险不服，曹操五月攻屠其部；战场细点未载。
+  evidence:
+  - quote: 氐王窦茂觽万余人，恃险不服，五月，公攻屠之
+    para: 三国志-p00251
+  skip: 本集从 215-08 讲起，曹操取汉中只在第3拍一句带过
+- id: e05
+  army: 曹操军
+  kind: 行军
+  place: 阳平关
+  from: 河池
+  via: []
+  date: 215-07
+  territory: null
+  note: 秋七月曹操至阳平；由河池至关的沿线未载。
+  evidence:
+  - quote: 秋七月，公至阳平
+    para: 三国志-p00251
+  skip: 本集从 215-08 讲起，曹操取汉中只在第3拍一句带过
+- id: e06
+  army: 张鲁军
+  kind: 屯驻
+  place: 阳平关
+  from: null
+  via: []
+  date: 215-07
+  territory: null
+  note: 张鲁令弟及杨昂等据关，横山筑城十余里。
+  evidence:
+  - quote: 张鲁使弟韂与将杨昂等据阳平关，横山筑城十余里
+    para: 三国志-p00251
+  skip: 本集从 215-08 讲起，曹操取汉中只在第3拍一句带过
+- id: e07
+  army: 曹操军
+  kind: 交战
+  place: 阳平关
+  from: null
+  via: []
+  date: 215-07
+  territory: null
+  note: 首轮强攻不克，曹军引还；守军见退兵松懈，曹操随后另遣将乘险夜袭。
+  evidence:
+  - quote: 攻之不能拔，乃引军还。贼见大军退，其守备解散
+    para: 三国志-p00251
+  skip: 本集从 215-08 讲起，曹操取汉中只在第3拍一句带过
+- id: e08
+  army: 曹操军
+  kind: 交战
+  place: 阳平关
+  from: null
+  via: []
+  date: 215-07
+  territory: null
+  note: 解𢶏、高祚等乘险夜袭、大破守军并斩杨任；原文未称张郃、朱灵先遣军参与。
+  evidence:
+  - quote: 公乃密遣解□、高祚等乘险夜袭，大破之，斩其将杨任
+    para: 三国志-p00251
+  skip: 本集从 215-08 讲起，曹操取汉中只在第3拍一句带过
+- id: e09
+  army: 张鲁军
+  kind: 撤退
+  place: 巴中
+  from: 阳平关
+  via: []
+  date: 215-07
+  territory: null
+  note: 杨任被斩后张鲁溃走巴中，韦晖等夜遁；具体驻点未载。
+  evidence:
+  - quote: 进攻韂，韂等夜遁，鲁溃奔巴中
+    para: 三国志-p00251
+  skip: 本集从 215-08 讲起，曹操取汉中只在第3拍一句带过
+- id: e10
+  army: 张鲁军
+  kind: 投降
+  place: 南郑
+  from: 阳平关
+  via: []
+  date: 215-07
+  territory:
+    jun: 汉中郡
+    to: 曹操
+  note: 曹操入南郑后巴、汉皆降，汉中郡转入魏控制；只记秋七月，不载日。
+  evidence:
+  - quote: 公军入南郑
+    para: 三国志-p00251
+  skip: 本集从 215-08 讲起，曹操取汉中只在第3拍一句带过
+- id: e11
+  army: 夏侯渊军
+  kind: 屯驻
+  place: 南郑
+  from: null
+  via: []
+  date: 215-12
+  territory: null
+  note: 曹操十二月自南郑还，留夏侯渊屯汉中；营址未详，南郑按汉中治所代记。
+  evidence:
+  - quote: 十二月，公自南郑还，留夏侯渊屯汉中
+    para: 三国志-p00261
+- id: e12
+  army: 张郃军
+  kind: 行军
+  place: 巴西
+  from: 汉中
+  via: []
+  date: 215
+  territory: null
+  note: 张郃别督诸军下巴西，欲迁当地民众入汉中；具体出发月日未核。
+  evidence:
+  - quote: 郃别督诸军下巴西，欲徙其民于汉中
+    para: 三国志-p01958
+  skip: 旁白未讲张郃下巴西、张飞瓦口之战
+- id: e13
+  army: 张郃军
+  kind: 屯驻
+  place: 宕渠
+  from: 巴西
+  via: []
+  date: 215
+  territory: null
+  note: 张郃军进到宕渠、蒙头、荡石附近，与张飞相拒五十余日；精确地望未核。
+  evidence:
+  - quote: 近军宕渠、蒙头、荡石，与飞相拒五十余日
+    para: 三国志-p01958
+  skip: 旁白未讲张郃下巴西、张飞瓦口之战
+- id: e14
+  army: 张飞军
+  kind: 出发
+  place: 未核
+  from: 未核
+  via: []
+  date: 未核
+  territory: null
+  note: 张飞率万余精卒另走他道邀击张郃；出发营地、山道名和日期未载，日期标未核。
+  evidence:
+  - quote: 飞率精卒万余人，从他道邀郃军交战
+    para: 三国志-p01958
+  skip: 旁白未讲张郃下巴西、张飞瓦口之战
+- id: e15
+  army: 张飞军
+  kind: 交战
+  place: 瓦口
+  from: null
+  via: []
+  date: 215
+  territory: null
+  note: 《先主传》称战于瓦口；《张飞传》详写宕渠、蒙头、荡石对峙及狭窄山道，几处地名关系未核。
+  evidence:
+  - quote: 与郃等战于瓦口，破张郃等
+    para: 三国志-p01862
+  - quote: 山道迮狭，前后不得相救，飞遂破郃
+    para: 三国志-p01958
+  skip: 旁白未讲张郃下巴西、张飞瓦口之战
+- id: e16
+  army: 张郃军
+  kind: 撤退
+  place: 南郑
+  from: 瓦口
+  via: []
+  date: 未核
+  territory: null
+  note: 张郃弃马缘山，携十余亲兵走间道退回南郑；行程年月日未载。
+  evidence:
+  - quote: 郃弃马缘山，独与麾下十余人从间道退，引军还南郑
+    para: 三国志-p01958
+  skip: 旁白未讲张郃下巴西、张飞瓦口之战
+- id: e17
+  army: 刘备军
+  kind: 出发
+  place: 汉中
+  from: 未核
+  via: []
+  date: 217
+  territory: null
+  note: 《法正传》记建安二十二年刘备采纳建议率诸将进兵汉中；出发地和路线未载，法正同行。
+  evidence:
+  - quote: 二十二年，正说先主
+    para: 三国志-p01977
+  - quote: 乃率诸将进兵汉中，正亦从行
+    para: 三国志-p01977
+  skip: 217 年进兵与 218 年驻阳平合成第7拍一句
+- id: e18
+  army: 吴兰雷铜军
+  kind: 行军
+  place: 成都
+  from: 未核
+  via: []
+  date: 218
+  territory: null
+  note: 《先主传》建安二十三年记分遣吴兰、雷铜等“入成都”；按进入成都地域理解，不据此推断到成都城，路线与战场未核。
+  evidence:
+  - quote: 二十三年，先主率诸将进兵汉中，分遣将军吴兰、雷铜等入成都
+    para: 三国志-p01863
+  skip: 旁白未讲吴兰、雷铜
+- id: e19
+  army: 吴兰雷铜军
+  kind: 交战
+  place: 未核
+  from: 未核
+  via: []
+  date: 218
+  territory: null
+  note: 该支蜀军被曹军击灭；交战地点、曹军将领、日次皆未载，不能画成成都城战。
+  evidence:
+  - quote: 皆为曹公军所没
+    para: 三国志-p01863
+  skip: 旁白未讲吴兰、雷铜
+- id: e20
+  army: 刘备军
+  kind: 屯驻
+  place: 阳平关
+  from: 汉中
+  via: []
+  date: 218
+  territory: null
+  note: 《先主传》记建安二十三年刘备次于阳平关与夏侯渊、张郃相拒；具体沿线未载。
+  evidence:
+  - quote: 先主次于阳平关，与渊、郃等相拒
+    para: 三国志-p01863
+- id: e21
+  army: 夏侯渊军
+  kind: 屯驻
+  place: 阳平关
+  from: 南郑
+  via: []
+  date: 218
+  territory: null
+  note: 夏侯渊率诸将拒刘备，二军相守连年；营寨位置和开始日未载。
+  evidence:
+  - quote: 二十三年，刘备军阳平关，渊率诸将拒之。相守连年
+    para: 三国志-p01188
+- id: e22
+  army: 张郃军
+  kind: 屯驻
+  place: 阳平关
+  from: 南郑
+  via: []
+  date: 218
+  territory: null
+  note: 张郃与夏侯渊同拒刘备；文献未记其单独营址。
+  evidence:
+  - quote: 先主次于阳平关，与渊、郃等相拒
+    para: 三国志-p01863
+- id: e23
+  army: 刘备军
+  kind: 行军
+  place: 定军山
+  from: 阳平关
+  via: []
+  date: 219-01
+  territory: null
+  note: 正月刘备自阳平南渡沔水，缘山稍前；渡口未核，不画途经点。
+  evidence:
+  - quote: 二十四年春，自阳平南渡沔水，缘山稍前
+    para: 三国志-p01864
+- id: e24
+  army: 刘备军
+  kind: 屯驻
+  place: 定军山
+  from: 阳平关
+  via: []
+  date: 219-01
+  territory: null
+  note: 刘备在定军兴势作营；史文未称此处为“定军山的高处”，这是按乘高攻战概括。
+  evidence:
+  - quote: 于定军兴势作营
+    para: 三国志-p01864
+- id: e25
+  army: 夏侯渊军
+  kind: 交战
+  place: 定军山
+  from: 阳平关
+  via: []
+  date: 219-01
+  territory: null
+  note: 夏侯渊率兵争刘备营地；确切交战日不载。
+  evidence:
+  - quote: 渊将兵来争其地
+    para: 三国志-p01864
+  skip: 夏侯渊争营合在第9—12拍的定军山之战里
+- id: e26
+  army: 刘备军
+  kind: 交战
+  place: 定军山
+  from: null
+  via: []
+  date: 219-01
+  territory: null
+  note: 刘备夜烧魏营外围鹿角，随后先攻张郃东围；张郃军不利，夏侯渊分兵一半救援，刘备乘隙袭其南围。
+  evidence:
+  - quote: 备夜烧围鹿角。渊使张郃护东围，自将轻兵护南围
+    para: 三国志-p01188
+  - quote: 备跳郃战，郃军不利。渊分所将兵半助郃，为备所袭
+    para: 三国志-p01188
+- id: e27
+  army: 黄忠军
+  kind: 交战
+  place: 定军山
+  from: 定军山
+  via: []
+  date: 219-01
+  territory: null
+  note: 黄忠乘高鼓噪进攻，大破夏侯渊军并斩夏侯渊；无具体日次，史书没有“刀劈”情节。
+  evidence:
+  - quote: 先主命黄忠乘高鼓噪攻之，大破渊军，斩渊
+    para: 三国志-p01864
+  - quote: 金鼓振天，欢声动谷，一战斩渊
+    para: 三国志-p01964
+- id: e28
+  army: 张郃军
+  kind: 会合
+  place: 未核
+  from: 定军山
+  via: []
+  date: 219-01
+  territory: null
+  note: 夏侯渊死后郭淮、杜袭推张郃为军主并收整魏军；会合地点、日期未载。
+  evidence:
+  - quote: 张将军，国家名将，刘备所惮
+    para: 三国志-p01433
+  skip: 郭淮推张郃的收兵地点未载
+- id: e29
+  army: 曹操军
+  kind: 行军
+  place: 阳平关
+  from: 长安
+  via:
+  - 斜谷
+  date: 219-03
+  territory: null
+  note: 曹操三月从长安出斜谷至阳平；具体沿途停驻日未载。
+  evidence:
+  - quote: 三月，王自长安出斜谷，军遮要以临汉中，遂至阳平
+    para: 三国志-p00292
+- id: e30
+  army: 曹操军
+  kind: 屯驻
+  place: 阳平关
+  from: 斜谷
+  via: []
+  date: 219-03
+  territory: null
+  note: 曹操到阳平；刘备敛众拒险不交锋，双方相持数月。双方营址未明。
+  evidence:
+  - quote: 及曹公至，先主敛众拒险，终不交锋，积月不拔，亡者日多
+    para: 三国志-p01864
+- id: e31
+  army: 刘备军
+  kind: 屯驻
+  place: 未核
+  from: 定军山
+  via: []
+  date: 219-03
+  territory: null
+  note: 刘备据险拒战，具体险地未核；不把定军山说成数月唯一驻地。
+  evidence:
+  - quote: 先主敛众拒险，终不交锋，积月不拔
+    para: 三国志-p01864
+  skip: 刘备据险的具体地点未核
+- id: e32
+  army: 曹操军
+  kind: 撤退
+  place: 未核
+  from: 阳平关
+  via: []
+  date: 219-夏
+  territory: null
+  note: 只记夏季引军还，终点、归路未载；不能确认是否经斜谷回长安。
+  evidence:
+  - quote: 夏，曹公果引军还
+    para: 三国志-p01864
+  skip: 曹操归路、终点未载；画成出斜谷退回长安
+- id: e33
+  army: 刘备军
+  kind: 攻占
+  place: 汉中
+  from: 未核
+  via: []
+  date: 219-夏
+  territory:
+    jun: 汉中郡
+    to: 刘备
+  note: 曹操退军后刘备遂有汉中；郡级控制权转移，未记逐城攻取日期。
+  evidence:
+  - quote: 夏，曹公果引军还，先主遂有汉中
+    para: 三国志-p01864
+- id: e34
+  army: 刘备军
+  kind: 屯驻
+  place: 沔阳
+  from: 未核
+  via: []
+  date: 219-秋
+  territory: null
+  note: 称王仪式而非战斗；刘备在沔阳设坛陈兵，入场路线未载。沔阳为汉代县名，今勉县旧州铺一带。
+  evidence:
+  - quote: 遂于沔阳设坛场，陈兵列众
+    para: 三国志-p01865
+- id: e35
+  army: 关羽军
+  kind: 行军
+  place: 樊城
+  from: 未核
+  via: []
+  date: 219
+  territory: null
+  note: 关羽在刘备称汉中王这一年率众攻樊；原文未给进军月份、路线、起点和日次，旁白将其写成称王时已围樊需留意。樊城是当时城邑，不是今日樊城区全境。
+  evidence:
+  - quote: 关羽围曹仁于樊
+    para: 三国志-p01350
+  - quote: 是岁，羽率众攻曹仁于樊
+    para: 三国志-p01955
+places_new:
+- name: 沔水（渡口未核）
+  lon: 106.45
+  lat: 33.0
+  precision: 未核
+  basis: 史书只记南渡沔水，具体渡口未详；坐标仅作汉中盆地内路线示意，不代表考定渡点。
+  evidence:
+  - quote: 自阳平南渡沔水
+    para: 三国志-p01864
+- name: 河池
+  lon: 106.08
+  lat: 33.77
+  precision: 约略
+  basis: 河池为古县名，今甘肃徽县境；徽县区域中心示意点，古城位置未核。沿革参考《徽县志》https://www.gsdfszw.org.cn/gsxz/lns_274/hx/202010/P020201013391372967142.pdf
+  evidence:
+  - quote: 至河池
+    para: 三国志-p00251
+- name: 宕渠
+  lon: 106.97
+  lat: 30.84
+  precision: 约略
+  basis: 古县治通常定位今渠县城坝遗址一带；按城区近似，非考定营地。地望参考https://bkso.baidu.com/item/%E5%AE%95%E6%B8%A0%E9%83%A1/5860385
+  evidence:
+  - quote: 近军宕渠、蒙头、荡石
+    para: 三国志-p01958
+- name: 蒙头
+  lon: 107.0
+  lat: 30.84
+  precision: 未核
+  basis: 史书未给地望；按后世八濛山在今渠县东北说法作示意，蒙头是否对应未核。参考https://k.sina.cn/article/5935477084_161c8315c00100eo6m.html?from=history
+  evidence:
+  - quote: 蒙头、荡石
+    para: 三国志-p01958
+- name: 荡石
+  lon: 107.0
+  lat: 30.84
+  precision: 未核
+  basis: 史书未给地望；按后世八濛山在今渠县东北说法作示意，荡石是否对应未核。参考https://k.sina.cn/article/5935477084_161c8315c00100eo6m.html?from=history
+  evidence:
+  - quote: 蒙头、荡石
+    para: 三国志-p01958
+- name: 瓦口
+  lon: 106.99
+  lat: 30.83
+  precision: 未核
+  basis: 该战地点位与宕渠、蒙头、荡石对应关系未核；仅置渠县一带示意。参考https://www.sohu.com/a/515721549_121124710
+  evidence:
+  - quote: 与郃等战于瓦口
+    para: 三国志-p01862
+open_questions:
+- 《法正传》将进言及刘备率诸将进兵系于建安二十二年（217）；《先主传》称建安二十三年（218）刘备进兵、分遣吴兰雷铜并驻阳平关。是分阶段还是纪年异文，需定地图开战年份口径。
+- 《先主传》称“瓦口”，《张飞传》详写宕渠、蒙头、荡石；地名的准确位置和相互关系未核。
+- 215年曹操“至阳平”后首轮攻不克并引军还，随后夜袭破敌；“引军还”是短暂退兵还是撤围后再返，史文未细明。
+- 刘备军北上汉中的出发地、路径以及阳平后渡沔水的具体渡口山岭均未载；episode.yaml 的成都起点和曹军退往长安方向属路线推定。
+- 夏侯渊死后郭淮、杜袭推张郃为军主，收整魏军的会合地点和日期未载。
+- 《先主传》只记“夏”，未给撤军月份；疆域.yaml标219-05是地图取月口径，是否保留该月待定。曹操退军终点、归路、驻点未核；汉中转蜀汉依据是“曹公果引军还，先主遂有汉中”，不是逐城陷落记录。
+- episode.yaml 地图日期止于219-05，末尾旁白跳到同年关羽攻樊；原文只记“是岁”，没有证明攻樊已发生在称王当时。关羽北进起点、完整路线和月份须另核。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

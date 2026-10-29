@@ -1,0 +1,339 @@
+# 快节奏版（2026-10-14，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第16集：刘备入蜀，夺取刘璋的益州（211–214）
+# 本地语料核对：
+# 先主传"璋…遣法正将四千人迎先主…正因陈益州可取之策…至涪，璋自出迎，相见甚欢。张松令法正白先主，及谋臣庞统进说，便可于会所袭璋。先主曰：此大事也，不可仓卒"；
+# 庞统传"今因此会，便可执之，则将军无用兵之劳而坐定一州也。先主曰：初入他国，恩信未著，此不可也"；上中下三计（阴选精兵…径袭成都，上计；说荆州有急…执杨怀高沛…中计；退还白帝…下计）；"进围雒县，统率众攻战，为流矢所中，卒，时年三十六"；
+# 黄权传"欲以部曲遇之，则不满其心，欲以宾客礼待，则一国不容二君"；刘二牧传"璋率步骑三万余人，车乘帐幔，精光耀目…欢饮百余日"；
+# 先主传"先主北到葭萌，未即讨鲁，厚树恩德，以收众心"；"乃从璋求万兵及资实…璋但许兵四千…张松书与先主及法正曰：今大事垂可立，如何释此去乎！松兄广汉太守肃，惧祸逮己，白璋发其谋。于是璋收斩松…璋敕关戍诸将文书勿复关通先主。先主大怒，召璋白水军督杨怀，责以无礼，斩之…进到涪，据其城"；
+# "璋复遣李严督绵竹诸军，严率众降…诸葛亮、张飞、赵云等将兵溯流定白帝、江州、江阳，惟关羽留镇荆州。先主进军围雒。时璋子循守城，被攻且一年"；
+# 张飞传 严颜"我州但有断头将军，无有降将军也…斫头便斫头，何为怒邪！飞壮而释之"；马超传"超将兵径到城下。城中震怖，璋即稽首"；
+# 刘二牧传"十九年，进围成都数十日，城中尚有精兵三万人，谷帛支一年，吏民咸欲死战。璋言：父子在州二十余年，无恩德以加百姓。百姓攻战三年，肌膏草野者，以璋故也，何心能安！遂开城出降，群下莫不流涕"。
+# 不用：王累"自倒悬于州门以谏"（本地语料未收，未核对）；张松献图、落凤坡（演义）。
+
+id: s01e16-rushu
+title: 刘备入蜀
+series: 三国 · 第16集
+year: 211
+
+notes:
+  - 主线问题：刘璋请刘备来帮忙，怎么把整个益州都请丢了？——请来的是枭雄，内应就在自己身边，而他自己，最后不忍心再打。
+  - 反差：庞统劝刘备在酒席上当场抓人，刘备不肯；一年后，刘备还是翻了脸。城里有精兵三万、粮够一年，刘璋却开城投降。
+  - 细节：欢饮一百多天；张松的信被亲哥哥告发；庞统三条计；严颜"只有断头将军"；刘璋出降时部下都哭了。
+  - 动机：张松、法正嫌刘璋不成器，想换主人（先主传"正因陈益州可取之策"）；刘璋怕曹操取汉中后打益州。
+  - 演义对照：张松献西川地图、庞统死在落凤坡都是小说；史书只说庞统在雒城攻城中流矢而死。
+
+map:
+  center: [106.0, 30.5]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-17 史图风
+  river_rank: 4
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 请刘备来帮忙，刘璋把整个益州请丢了
+  big: [刘备入蜀]
+  hero: 刘备
+  at: 30
+  summary: |
+    曹操平定关中，益州牧刘璋怕汉中不保，听了张松的话请刘备入蜀打张鲁。涪城相会，庞统劝刘备当场拿下刘璋，刘备说"初入他国，恩信未著"。一年后张松密信败露被杀，刘备斩杨怀、占涪城，掉头南下。
+    雒城打了将近一年，庞统中流矢而死；张飞在江州活捉严颜——"我州但有断头将军，无有降将军"。马超来投，兵临成都。城中精兵三万、粮够一年，刘璋却说"百姓攻战三年，以璋故也"，开城出降。
+  tags: [刘备入蜀, 刘璋, 庞统, 张飞, 严颜]
+  next: 孙权讨荆州，张辽威震逍遥津
+
+sources_local:
+  - {id: sgz-31, work: 三国志, volume: 卷三十一·刘二牧传, url: 'https://zh.wikisource.org/wiki/三國志/卷31'}
+  - {id: sgz-32, work: 三国志, volume: 卷三十二·先主传, url: 'https://zh.wikisource.org/wiki/三國志/卷32'}
+  - {id: sgz-36, work: 三国志, volume: 卷三十六·张飞传、马超传, url: 'https://zh.wikisource.org/wiki/三國志/卷36'}
+  - {id: sgz-37, work: 三国志, volume: 卷三十七·庞统传, url: 'https://zh.wikisource.org/wiki/三國志/卷37'}
+  - {id: sgz-43, work: 三国志, volume: 卷四十三·黄权传, url: 'https://zh.wikisource.org/wiki/三國志/卷43'}
+
+factions: {刘备: '#5f8f3a', 刘璋: '#7a8f2e', 曹操: '#2f5d3a', 张鲁: '#a0632a', 孙权: '#b0841f'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    汉室: {slot: stone, main: true, label_at: 洛阳}
+    关中诸将: {slot: lavender, label_at: 金城}
+    张鲁: {slot: orange, label_at: 南郑}
+    曹操: {slot: jade, label_at: 长安}
+    孙权: {slot: lemon, label_at: 柴桑}
+    刘备: {slot: pink, label_at: 江陵}
+    刘璋: {slot: lime, label_at: 成都}
+
+people:
+  张松: {image: 03_素材/人物立绘/zhang_song.png, title: 益州别驾, role: 暗迎刘备, faction: 刘璋}
+  严颜: {image: 03_素材/人物立绘/yan_yan.png, title: 巴郡太守, role: 断头将军, faction: 刘璋}
+  黄权: {image: 03_素材/人物立绘/huang_quan.png, title: 主簿, role: 一国不容二君, faction: 刘璋}
+  刘备: {image: 03_素材/人物立绘/liu_bei.png, title: 左将军, role: 入蜀, faction: 刘备}
+  刘璋: {image: 03_素材/人物立绘/liu_zhang.png, title: 益州牧, role: 引狼入室, faction: 刘璋}
+  庞统: {image: 03_素材/人物立绘/pang_tong.png, title: 军师中郎将, role: 献三计, faction: 刘备}
+  法正: {image: 03_素材/人物立绘/fa_zheng.png, title: 刘璋部将, role: 迎刘备, faction: 刘璋}
+  张飞: {image: 03_素材/人物立绘/zhang_fei.png, title: 刘备部将, role: 溯江入蜀, faction: 刘备}
+  诸葛亮: {image: 03_素材/人物立绘/zhuge_liang.png, title: 军师中郎将, role: 溯江入蜀, faction: 刘备}
+  马超: {image: 03_素材/人物立绘/ma_chao.png, title: 来投, role: 兵临成都, faction: 刘备}
+  孙权: {image: 03_素材/人物立绘/sun_quan.png, title: 讨虏将军, role: 讨荆州, faction: 孙权}
+
+places:
+  成都: {id: chengdu_city, label: left, tier: capital}
+  涪: {id: fu_mianyang, label: right}
+  雒: {id: luo_guanghan, label: left}
+  葭萌: {id: jiameng, label: right}
+  白水关: {id: baishuiguan, label: right, tier: pass}
+  南郑: {id: nanzheng, label: right}
+  江州: {id: jiangzhou_chongqing, label: right}
+  白帝: {id: baidicheng, label: right}
+  江陵: {id: jiangling, label: right}
+  公安: {id: gongan_han, label: below}
+  长安: {id: changan_han_city, label: right}
+  濡须: {id: ruxu, label: right}
+  柴桑: {id: chaisang, label: right}
+
+camera:
+  focus: [成都, 涪]
+  zoom: 2.0
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 酒席对面，坐着请刘备来帮忙的人。庞统却凑过来说：
+    map: '211-10'
+    year: 211
+    phase: 酒席
+    scene: 宴席
+    sources: [sgz-37, sgz-32]
+    show:
+      - sfx: 重拍转场
+
+  - say: 就趁这次见面，当场把刘璋拿下！一兵不用，整个益州就是您的！
+    speaker: 庞统
+    style: 压低声音，急切献策，眼神锐利
+    scene: 宴席
+    to: 刘备
+    sources: [sgz-37]
+
+  - say: 刚到人家的地方，恩信还没立住，这事不能干。
+    speaker: 刘备
+    style: 温和而坚定，摇头拒绝，沉得住气
+    scene: 宴席
+    to: 庞统
+    sources: [sgz-37]
+
+  - say: 请刘备来的，正是刘璋自己。可三年后，整个益州都成了刘备的。
+    sources: [sgz-31]
+    camera: {focus: [成都, 涪, 江陵], zoom: fit, move: 1.6}
+    show:
+      - versus: {left: 刘备, right: 刘璋, label: 请客, cue: 刘璋, for: 4}
+
+  # ---------------- 第一章 请客 ----------------
+  - say: 曹操拿下关中，下一个就是汉中的张鲁。汉中一丢，益州的大门就开了。
+    phase: 请客
+    sources: [sgz-31]
+    camera: {focus: [长安, 南郑, 成都], zoom: fit, move: 1.6}
+    show:
+      - title_bar: {text: 刘备入蜀, sub: 三国 · 第16集, for: 3.2}
+      - sfx: 片头鼓
+      - arrow: {from: 长安, to: 南郑, kind: direction, faction: 曹操, cue: 汉中, grow: 1.4}
+
+  - say: 别驾张松劝刘璋：请刘备来，替咱们打张鲁。
+    sources: [sgz-32]
+    show:
+      - enter: {who: 张松, side: left, cue: 张松, for: 3}
+      - enter: {who: 刘璋, at: 成都, side: right, cue: 刘璋, settle: true, settle_sub: 益州牧}
+
+  - say: 主簿黄权拼命拦：把刘备当部下，他不甘心；当客人，一个国家容不下两个主人。
+    sources: [sgz-43]
+    show:
+      - quote: {text: 一国不容二君, source: 三国志·黄权传, era: 建安十六年, cue: 两个主人, for: 4}
+      - enter: {who: 黄权, side: left, cue: 黄权, for: 4}
+
+  - say: 刘璋不听，派法正带着四千人，去荆州接刘备。
+    sources: [sgz-32]
+    camera: {focus: [成都, 江州, 公安], zoom: fit, move: 1.6}
+    show:
+      - act: {act: courier, places: [成都, 公安], text: 法正迎先主, cue: 接刘备, grow: 2.0, for: 3.4}
+
+  - say: 可法正一见刘备，就把怎么拿下益州，全说了。
+    sources: [sgz-32]
+    show:
+      - enter: {who: 法正, side: left, cue: 法正, for: 3.4}
+
+  - say: 刘备留下诸葛亮、关羽守荆州，自己带着几万步兵入蜀。
+    sources: [sgz-32]
+    show:
+      - march: {from: 公安, to: 江州, faction: 刘备, label: 入蜀, cue: 入蜀, grow: 2.0}
+      - march: {from: 江州, to: 涪, faction: 刘备, cue: 入蜀, delay: 1.6, grow: 1.6}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 刘璋带着三万步骑到涪城迎接，车马帐幕闪闪发光，两边一喝就是一百多天。
+    sources: [sgz-31]
+    camera: {focus: [涪, 成都], zoom: 6, move: 1.2}
+    show:
+      - flag: {at: 涪, name: 刘璋 · 刘备, sub: 涪城相会, faction: 刘璋, cue: 涪城}
+      - card: {title: 欢饮百余日, body: 车乘帐幔，精光耀目, cue: 一百多天}
+
+  # ---------------- 第二章 翻脸 ----------------
+  - say: 酒喝完了，刘备北上葭萌，却不急着打张鲁，到处施恩，收买人心。
+    phase: 翻脸
+    sources: [sgz-32]
+    camera: {focus: [涪, 葭萌, 南郑], zoom: fit, move: 1.4}
+    show:
+      - march: {from: 涪, to: 葭萌, faction: 刘备, label: 厚树恩德, cue: 葭萌, grow: 1.6}
+
+  - say: 一年后，曹操南下打孙权。刘备借口回救，向刘璋要一万兵。刘璋只给了四千。
+    year: 212
+    sources: [sgz-32]
+    camera: {focus: [葭萌, 成都, 濡须], zoom: fit, move: 1.6}
+    show:
+      - arrow: {from: 长安, to: 濡须, kind: direction, faction: 曹操, cue: 打孙权, grow: 1.6}
+
+  - say: 张松急了，写信给刘备：大事眼看就成，怎么能走！
+    sources: [sgz-32]
+    show:
+      - act: {act: courier, places: [成都, 葭萌], text: 张松密书, cue: 写信, grow: 1.2, for: 3}
+
+  - say: 信被他亲哥哥张肃告发。刘璋杀了张松，下令各个关口，不许再和刘备来往。
+    sources: [sgz-32]
+    show:
+      - exit: {who: 张松, at: 成都, verb: 斩, cue: 杀了张松}
+
+  - say: 庞统给刘备出了三条计：
+    scene: 军帐
+    sources: [sgz-37]
+    show:
+      - enter: {who: 庞统, side: left, cue: 庞统, for: 2.4}
+
+  - say: 上计，挑精兵日夜赶路，直扑成都；中计，假装回荆州，骗守关的杨怀、高沛来送行，趁机拿下；下计，退回白帝。
+    speaker: 庞统
+    style: 条理分明，语速快，一口气说完
+    scene: 军帐
+    to: 刘备
+    sources: [sgz-37]
+    show:
+      - card: {title: 庞统三计, body: 上计 · 径袭成都；中计 · 诱执杨怀高沛；下计 · 退还白帝, for: 8}
+
+  - say: 刘备选了中计。斩了白水军督杨怀，掉头南下，占了涪城。
+    map: '212-12'
+    owners_cue: 涪城
+    sources: [sgz-32]
+    camera: {focus: [白水关, 葭萌, 涪], zoom: fit, move: 1.4}
+    show:
+      - battle: {at: 白水关, text: 斩杨怀, cue: 斩了}
+      - march: {from: 葭萌, to: 涪, faction: 刘备, label: 还攻刘璋, cue: 南下, grow: 1.8}
+      - sfx: {name: 疆域易手, cue: 涪城}
+
+  # ---------------- 第三章 雒城 ----------------
+  - say: 刘璋派兵来挡，接连被打败；守绵竹的李严，干脆投降了。
+    phase: 雒城
+    year: 213
+    sources: [sgz-32]
+    camera: {focus: [涪, 雒, 成都], zoom: 6, move: 1.2}
+
+  - say: 可到了雒城，刘璋的儿子刘循死守，一打就是将近一年。
+    sources: [sgz-32]
+    show:
+      - battle: {at: 雒, text: 被攻且一年, cue: 雒城}
+      - sfx: {name: 古风擂鼓, cue: 死守}
+
+  - say: 攻城的时候，庞统被流箭射中，死时只有三十六岁。
+    sources: [sgz-37]
+    show:
+      - exit: {who: 庞统, at: 雒, verb: 卒, portrait: true, cue: 流箭}
+      - sfx: {name: 中箭, cue: 流箭}
+
+  - say: 刘备只好调兵。诸葛亮、张飞、赵云从荆州逆江而上，只留关羽守荆州。
+    year: 214
+    sources: [sgz-32]
+    camera: {focus: [江陵, 白帝, 江州], zoom: fit, move: 1.6}
+    show:
+      - march: {from: 江陵, to: 白帝, faction: 刘备, label: 溯江入蜀, cue: 逆江而上, grow: 1.8}
+      - march: {from: 白帝, to: 江州, faction: 刘备, delay: 1.8, grow: 1.4}
+
+  - say: 张飞在江州活捉了巴郡太守严颜，喝问他：为什么不投降？
+    map: '214-04'
+    owners_cue: 活捉
+    sources: [sgz-36]
+    camera: {focus: 江州, zoom: 8, move: 1.2}
+    show:
+      - enter: {who: 张飞, side: left, cue: 张飞, for: 3.6}
+      - battle: {at: 江州, text: 生获严颜, cue: 活捉}
+
+  - say: 严颜说：我们益州，只有断头的将军，没有投降的将军！
+    sources: [sgz-36]
+    show:
+      - quote: {text: 我州但有断头将军，无有降将军也, source: 三国志·张飞传, era: 建安十九年, for: 5}
+      - enter: {who: 严颜, side: right, cue: 严颜, for: 4.4}
+
+  - say: 张飞大怒，要砍他的头。严颜面不改色：砍就砍，发什么火！张飞服了，放了他。
+    sources: [sgz-36]
+    show:
+      - vignette: {image: illus_yanyan_unbowed, cue: 大怒, for: 5.5, text: 断头将军}
+
+  # ---------------- 第四章 出降 ----------------
+  - say: 雒城终于攻破，刘备围住了成都。逃到汉中的马超，也写信来投奔。
+    phase: 出降
+    sources: [sgz-32, sgz-36]
+    camera: {focus: [雒, 成都, 南郑], zoom: fit, move: 1.4}
+    show:
+      - march: {from: 雒, to: 成都, faction: 刘备, label: 围成都, cue: 围住, grow: 1.2}
+      - enter: {who: 马超, side: right, cue: 马超, for: 3}
+
+  - say: 马超带兵直接开到成都城下，城里一片惊恐。
+    sources: [sgz-36]
+    show:
+      - march: {from: 南郑, to: 成都, faction: 刘备, label: 马超来投, cue: 城下, grow: 2.0}
+
+  - say: 可城里还有三万精兵，粮食够吃一年，官吏百姓都愿意死战。刘璋却说：
+    sources: [sgz-31]
+    camera: {focus: 成都, zoom: 6, move: 1.2}
+
+  - say: 我们父子在益州二十多年，没给百姓什么恩德。百姓打了三年仗，尸骨扔在野外，都是因为我。我怎么能安心！
+    speaker: 刘璋
+    style: 哽咽愧疚，疲惫无奈，缓缓说出
+    scene: 朝堂
+    sources: [sgz-31]
+
+  - say: 他打开城门投降。部下没有一个不流泪。
+    map: '214-06'
+    owners_cue: 投降
+    sources: [sgz-31]
+    camera: {focus: [成都, 江州, 江陵], zoom: fit, move: 1.6}
+    show:
+      - defect: {who: 刘璋, at: 成都, to: 刘备, from: 刘璋, verb: 降, cue: 投降}
+      - sfx: {name: 疆域易手, cue: 投降}
+      - headline: {text: 刘备得益州, sub: 建安十九年, cue: 投降, for: 3.2}
+
+  - say: 刘璋是怎么把益州请丢的？请来的是枭雄，内应就在身边，而他自己，不忍心再打下去。
+    sources: [sgz-31, sgz-32]
+    show:
+      - card: {title: 演义 vs 正史, body: 张松献图、庞统死于落凤坡都是小说；史书里庞统死于攻雒城, cue: 枭雄}
+
+  - say: 隆中对里那一步，跨有荆州、益州，刘备做到了。
+    sources: [sgz-32]
+
+  - say: 刘璋开城投降，你觉得是软弱，还是仁厚？
+    sources: [sgz-31]
+
+  - say: 可刘备刚坐稳成都，孙权的使者就到了：荆州，该还了吧？
+    sources: [sgz-32]
+    map: '214-10'
+    camera: {focus: [成都, 江陵, 柴桑], zoom: fit, move: 1.6}
+    show:
+      - enter: {who: 孙权, side: right, cue: 孙权, for: 3}
+      - title_bar: {text: 下集, sub: 讨荆州 · 逍遥津, cue: 该还了, delay: 0.4, for: 3.0}

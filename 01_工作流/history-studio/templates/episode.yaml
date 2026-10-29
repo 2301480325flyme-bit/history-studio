@@ -1,0 +1,40 @@
+# 新一集脚本模板。格式说明见 01_工作流/history-studio/SCRIPT.md
+# 写完先跑： python studio.py check <本文件>
+
+id: __ID__
+title: 片名
+series: 朝代 · 地区 / 专题
+year: 301                 # 叙事年份：决定地名的古名与城池等级
+
+map:
+  center: [111.5, 34.0]   # 投影中心 经度, 纬度
+  scale: 12000            # 越大越近；全国约 4000，中原约 9000–12000
+  extent: [100, 27, 124, 42]   # 底图范围 西, 南, 东, 北；镜头越界会在 build 时报错
+  watermark: 西晋
+
+voice:
+  mode: placeholder       # 先用估时排版；定稿后改 mimo 重建
+  provider: clone
+  style: 讲故事的语气，交代处平稳，转折处语气上扬、加快，结果处下沉留白，整体语速偏快。
+  speed: 1.2
+  reference: 03_素材/配音参考/studio-voice/studio-voice-v2.wav
+  bed: original
+  bed_db: -20
+
+places:                   # 只能引用 maindata 中的地点 id 或别名
+  洛阳: {id: luoyang_han_wei, label: below}
+
+camera:
+  focus: 洛阳
+  zoom: 1.0
+
+beats:                    # 一拍 = 一句旁白；画面元素挂在拍上，随配音自动对时
+  - say: 第一句旁白。
+    caption: 第一句字幕
+    phase: 阶段名
+    year: 301年
+    highlight: [洛阳]
+    sources: [jinshu-004]
+    camera: {focus: 洛阳, zoom: 1.6, move: 2.0}
+    show:
+      - headline: {text: 标题, sub: 副标题, for: 2.5}

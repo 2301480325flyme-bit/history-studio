@@ -1,0 +1,428 @@
+{
+ "mode": "mimo",
+ "beats": [
+  {
+   "file_start": 0.3,
+   "file_end": 5.346,
+   "voice_onset": 0.34,
+   "voice_offset": 5.07
+  },
+  {
+   "file_start": 5.346,
+   "file_end": 8.668,
+   "voice_onset": 5.626,
+   "voice_offset": 8.636
+  },
+  {
+   "file_start": 8.968,
+   "file_end": 14.423,
+   "voice_onset": 9.078,
+   "voice_offset": 14.178
+  },
+  {
+   "file_start": 14.423,
+   "file_end": 22.454,
+   "voice_onset": 14.713,
+   "voice_offset": 22.213
+  },
+  {
+   "file_start": 22.454,
+   "file_end": 30.761,
+   "voice_onset": 22.744,
+   "voice_offset": 30.514
+  },
+  {
+   "file_start": 30.761,
+   "file_end": 35.936,
+   "voice_onset": 31.041,
+   "voice_offset": 35.931
+  },
+  {
+   "file_start": 36.236,
+   "file_end": 43.824,
+   "voice_onset": 36.326,
+   "voice_offset": 43.566
+  },
+  {
+   "file_start": 43.824,
+   "file_end": 46.862,
+   "voice_onset": 44.114,
+   "voice_offset": 46.624
+  },
+  {
+   "file_start": 46.862,
+   "file_end": 50.894,
+   "voice_onset": 47.162,
+   "voice_offset": 50.622
+  },
+  {
+   "file_start": 50.894,
+   "file_end": 57.495,
+   "voice_onset": 51.174,
+   "voice_offset": 57.234
+  },
+  {
+   "file_start": 57.495,
+   "file_end": 61.635,
+   "voice_onset": 57.785,
+   "voice_offset": 61.625
+  },
+  {
+   "file_start": 61.935,
+   "file_end": 68.59,
+   "voice_onset": 62.035,
+   "voice_offset": 68.375
+  },
+  {
+   "file_start": 68.59,
+   "file_end": 70.535,
+   "voice_onset": 68.82,
+   "voice_offset": 70.28
+  },
+  {
+   "file_start": 70.535,
+   "file_end": 77.234,
+   "voice_onset": 70.825,
+   "voice_offset": 76.965
+  },
+  {
+   "file_start": 77.234,
+   "file_end": 81.259,
+   "voice_onset": 77.234,
+   "voice_offset": 80.994
+  },
+  {
+   "file_start": 81.259,
+   "file_end": 88.589,
+   "voice_onset": 81.389,
+   "voice_offset": 88.239
+  },
+  {
+   "file_start": 88.589,
+   "file_end": 92.257,
+   "voice_onset": 88.649,
+   "voice_offset": 92.019
+  },
+  {
+   "file_start": 92.257,
+   "file_end": 98.398,
+   "voice_onset": 92.547,
+   "voice_offset": 98.397
+  },
+  {
+   "file_start": 98.698,
+   "file_end": 104.597,
+   "voice_onset": 98.808,
+   "voice_offset": 104.238
+  },
+  {
+   "file_start": 104.597,
+   "file_end": 106.337,
+   "voice_onset": 104.607,
+   "voice_offset": 106.287
+  },
+  {
+   "file_start": 106.637,
+   "file_end": 111.641,
+   "voice_onset": 106.777,
+   "voice_offset": 111.247
+  },
+  {
+   "file_start": 111.941,
+   "file_end": 115.618,
+   "voice_onset": 112.041,
+   "voice_offset": 115.361
+  },
+  {
+   "file_start": 115.618,
+   "file_end": 121.552,
+   "voice_onset": 115.908,
+   "voice_offset": 121.298
+  },
+  {
+   "file_start": 121.552,
+   "file_end": 124.91,
+   "voice_onset": 121.852,
+   "voice_offset": 124.662
+  },
+  {
+   "file_start": 124.91,
+   "file_end": 130.152,
+   "voice_onset": 125.21,
+   "voice_offset": 129.88
+  },
+  {
+   "file_start": 130.152,
+   "file_end": 136.131,
+   "voice_onset": 130.432,
+   "voice_offset": 135.882
+  },
+  {
+   "file_start": 136.131,
+   "file_end": 138.956,
+   "voice_onset": 136.421,
+   "voice_offset": 138.771
+  },
+  {
+   "file_start": 138.956,
+   "file_end": 142.688,
+   "voice_onset": 139.196,
+   "voice_offset": 142.436
+  },
+  {
+   "file_start": 142.688,
+   "file_end": 146.167,
+   "voice_onset": 142.978,
+   "voice_offset": 146.128
+  }
+ ],
+ "narration": "D:\\history\\codx_3 history studio\\01_工作流\\projects\\s01e23-jieting\\voice\\narration.wav",
+ "asr": [
+  {
+   "beat": 1,
+   "chapter": 1,
+   "text": "刘备临死前，特意叮嘱诸葛亮：有个人言过其实，不能大用。诸葛亮没听。五年后，这个人丢了街亭。",
+   "heard": "刘备临死前特意叮嘱诸葛亮：“有个人言过其实，不能大用。”诸葛亮没听。五年后，这个人丢了街亭。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 3,
+   "chapter": 2,
+   "text": "二二七年，诸葛亮率大军北上汉中。临走前，他给刘善上了一道奏章。开头就说：先帝创业还没一半，就中途去世了。如今天下三分，益州疲弊，这真是危急存亡的时候。他叮嘱刘善：亲近贤臣，远离小人，西汉因此兴隆；亲近小人，远离贤臣，东汉因此衰败。最后一句：如今要远行了，对着这道奏表，泪流满面，不知道该说什么。",
+   "heard": "二二七年，诸葛亮率大军北上汉中，临走前，他给刘禅上了一道奏章，开头就说：“先帝创业还没一半，就中途去世了。如今天下三分，益州疲弊，这真是危急存亡的时候。”他叮嘱刘禅：“亲近贤臣，远离小人，西汉因此兴隆；亲近小人，远离贤臣，东汉因此衰败。”最后一句：“如今要远行了，对着这道奏表，泪流满面，不知道该说什么。”",
+   "ratio": 0.984,
+   "diff": [
+    "「善」→「禅」",
+    "「善」→「禅」"
+   ]
+  },
+  {
+   "beat": 7,
+   "chapter": 3,
+   "text": "二二八年春，诸葛亮放出风声：要走斜谷，去取郿县。让赵云、邓芝带一支疑兵，占住箕谷。魏国大将军曹真，赶紧带主力去堵。可诸葛亮自己，带着主力扑向了西边的祁山。蜀军军容整齐，号令严明。南安、天水、安定三郡，一起背魏投蜀，关中震动。魏明帝曹瑞亲自坐镇长安，派老将张郃迎战。",
+   "heard": "二二八年春，诸葛亮放出风声，要走斜谷去取眉县，让赵云、邓芝带一支疑兵占住岐谷。魏国大将军曹真赶紧带主力去堵，可诸葛亮自己带着主力扑向了西边的祁山。蜀军军容整齐，号令严明，南安、天水、安定三郡一起被魏投蜀，关中震动。魏明帝曹睿亲自坐镇长安，派老将张郃迎战。",
+   "ratio": 0.964,
+   "diff": [
+    "「郿」→「眉」",
+    "「箕」→「岐」",
+    "「背」→「被」",
+    "「瑞」→「睿」"
+   ]
+  },
+  {
+   "beat": 12,
+   "chapter": 4,
+   "text": "最要紧的街亭，派谁去守？军中有魏延、吴懿这样的老将，大家都觉得该让他们当先锋。诸葛亮偏偏选了马谡。到了街亭，马谡不守城、不靠水，把军队拉上了南山。副将王平一次次劝，马谡不听。张郃一到，先断了山上取水的路，然后发起猛攻。蜀军大乱，四散奔逃。只有王平那一千人，敲着鼓原地不动。张郃怀疑有伏兵，不敢逼近。王平慢慢收拢各营的散兵，带着大家撤了回来。街亭一丢，诸葛亮前面没了落脚的地方，只好带着西县一千多户百姓，退回汉中。",
+   "heard": "最要紧的街亭派谁去守？军中有魏延、吴懿这样的老将，大家都觉得该让他们当先锋。诸葛亮偏偏选了马谡。到了街亭，马谡不守城，不靠水，把军队拉上了南山。副将王平一次次劝，马谡不听。张郃一到，先断了山上取水的路，然后发起猛攻，蜀军大乱，四散奔逃。只有王平那一千人敲着鼓原地不动。张郃怀疑有伏兵，不敢逼近。王平慢慢收拢各营的散兵，带着大家撤了回来。街亭一丢，诸葛亮前面没了落脚的地方，只好带着西县一千多户百姓退回汉中。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 19,
+   "chapter": 5,
+   "text": "马谡被关进大牢。一说被处死，一说死在狱中。诸葛亮为他流了泪。诸葛亮上书刘善：",
+   "heard": "马谡被关进大牢，一说被处死，一说死在狱中。诸葛亮为他流了泪。诸葛亮上书刘禅。",
+   "ratio": 0.97,
+   "diff": [
+    "「善」→「禅」"
+   ]
+  },
+  {
+   "beat": 21,
+   "speaker": "诸葛亮",
+   "text": "街亭违命，箕谷失利，错都在我用人不当。请把我降三级！",
+   "heard": "街亭违命，击鼓失利，错都在我用人不当，请把我降三级。",
+   "ratio": 0.909,
+   "diff": [
+    "「箕谷」→「击鼓」"
+   ]
+  },
+  {
+   "beat": 22,
+   "chapter": 7,
+   "text": "刘善降他为右将军，代理丞相，权力照旧。同一年秋天，东吴的周鲂假装投降，骗来了魏国大司马曹休的十万大军。陆逊在石亭截住曹休，把他打得大败。第二年四月，孙权在武昌南郊登坛称帝。天下，有了三个皇帝。准备了五年的北伐，为什么一下就输了？输在一个刘备说过不能大用的人身上。而诸葛亮的回答只有一句：错，在我。街亭这一仗，你觉得该让魏延去守吗？诸葛亮没有停下。这一年冬天，他又出兵了。",
+   "heard": "刘禅降他为右将军，代理丞相，权力照旧。同一年秋天，东吴的周鲂假装投降，骗来了魏国大司马曹休的十万大军。陆逊在石亭截住曹休，把他打得大败。第二年四月，孙权在武昌南郊登坛称帝，天下有了三个皇帝。准备了五年的北伐，为什么一下就输了？输在一个刘备说过不能大用的人身上。而诸葛亮的回答只有一句：错在我。街亭这一仗，你觉得该让魏延去守吗？诸葛亮没有停下。这一年冬天，他又出兵了。",
+   "ratio": 0.994,
+   "diff": [
+    "「善」→「禅」"
+   ]
+  }
+ ],
+ "speaker_pace": [
+  {
+   "beat": 21,
+   "speaker": "诸葛亮",
+   "rate_before": 4.09,
+   "speed": 1.22,
+   "rate": 5.0
+  }
+ ],
+ "tempo": [
+  {
+   "chapter": 1,
+   "raw_rate": 4.22,
+   "factor": 1.126
+  },
+  {
+   "chapter": 2,
+   "raw_rate": 4.32,
+   "factor": 1.126
+  },
+  {
+   "chapter": 3,
+   "raw_rate": 4.2,
+   "factor": 1.126
+  },
+  {
+   "chapter": 4,
+   "raw_rate": 4.68,
+   "factor": 1.126
+  },
+  {
+   "chapter": 5,
+   "raw_rate": 4.18,
+   "factor": 1.126
+  },
+  {
+   "chapter": 7,
+   "raw_rate": 4.59,
+   "factor": 1.126
+  }
+ ],
+ "chapter_match": {
+  "eq_max_db": [
+   3.3,
+   4.3,
+   3.5,
+   3.8,
+   4.4,
+   2.4
+  ],
+  "level_before_db": [
+   -25.0,
+   -25.7,
+   -26.1,
+   -24.9,
+   -23.5,
+   -26.0
+  ],
+  "level_after_db": -25.2
+ },
+ "splits": [
+  {
+   "beat": 1,
+   "ratio": 1.0
+  },
+  {
+   "beat": 2,
+   "ratio": 1.0
+  },
+  {
+   "beat": 3,
+   "ratio": 0.963
+  },
+  {
+   "beat": 4,
+   "ratio": 1.0
+  },
+  {
+   "beat": 5,
+   "ratio": 0.97
+  },
+  {
+   "beat": 6,
+   "ratio": 1.0
+  },
+  {
+   "beat": 7,
+   "ratio": 0.971
+  },
+  {
+   "beat": 8,
+   "ratio": 1.0
+  },
+  {
+   "beat": 9,
+   "ratio": 1.0
+  },
+  {
+   "beat": 10,
+   "ratio": 1.0
+  },
+  {
+   "beat": 11,
+   "ratio": 0.944
+  },
+  {
+   "beat": 12,
+   "ratio": 1.0
+  },
+  {
+   "beat": 13,
+   "ratio": 1.0
+  },
+  {
+   "beat": 14,
+   "ratio": 1.0
+  },
+  {
+   "beat": 15,
+   "ratio": 1.0
+  },
+  {
+   "beat": 16,
+   "ratio": 1.0
+  },
+  {
+   "beat": 17,
+   "ratio": 1.0
+  },
+  {
+   "beat": 18,
+   "ratio": 1.0
+  },
+  {
+   "beat": 19,
+   "ratio": 1.0
+  },
+  {
+   "beat": 20,
+   "ratio": 0.857
+  },
+  {
+   "beat": 22,
+   "ratio": 0.938
+  },
+  {
+   "beat": 23,
+   "ratio": 1.0
+  },
+  {
+   "beat": 24,
+   "ratio": 1.0
+  },
+  {
+   "beat": 25,
+   "ratio": 1.0
+  },
+  {
+   "beat": 26,
+   "ratio": 1.0
+  },
+  {
+   "beat": 27,
+   "ratio": 0.923
+  },
+  {
+   "beat": 28,
+   "ratio": 0.938
+  },
+  {
+   "beat": 29,
+   "ratio": 1.0
+  }
+ ],
+ "measurement": "10ms RMS>.004 after peak normalisation; phrase-level, not forced syllable alignment",
+ "cleaned": "0 breath/noise islands gated out"
+}

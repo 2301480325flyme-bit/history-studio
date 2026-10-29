@@ -1,0 +1,442 @@
+episode: s01e37-xijinwang
+armies:
+  刘曜长安军:
+    faction: 汉赵
+    head: 刘曜
+    size: 未核（早期记“数万众”，非316年定数）
+    evidence:
+    - quote: 时刘曜、殷凯、赵染数万众逼长安
+      para: 晋书-p06271
+    - quote: 曜进至泾阳，渭北诸城悉溃
+      para: 晋书-p00121
+    note_faction: 汉赵
+  麹允北地援军:
+    faction: 晋
+    head: 麹允
+    size: 步骑三万（316年）
+    evidence:
+    - quote: 麹允帅步骑三万救之
+      para: 晋书-p00121
+    - quote: 麹昌遣使求救，允率步骑赴之
+      para: 晋书-p06271
+    note_faction: 晋
+  长安守军:
+    faction: 晋
+    head: 麹允、索綝
+    size: 未核
+    evidence:
+    - quote: 綝与麹允固守长安小城
+      para: 晋书-p04706
+    note_faction: 晋
+  胡崧城西军:
+    faction: 晋
+    head: 胡崧
+    size: 未核（城西诸郡兵）
+    evidence:
+    - quote: 胡崧帅城西诸郡兵屯遮马桥
+      para: 晋书-p00121
+    - quote: 胡崧承檄奔命，破曜于灵台
+      para: 晋书-p04706
+    note_faction: 晋
+  华辑霸上军:
+    faction: 晋
+    head: 华辑
+    size: 未核（监四郡兵）
+    evidence:
+    - quote: 华辑监京兆、冯翊、弘农、上洛四郡兵东屯霸上
+      para: 晋书-p00121
+    note_faction: 晋
+  石勒幽州军:
+    faction: 汉赵
+    head: 石勒
+    size: 未核
+    evidence:
+    - quote: 石勒陷幽州，杀侍中、大司马、幽州牧、博陵公王浚
+      para: 晋书-p00119
+    - quote: 封王浚首，献捷于刘聪
+      para: 晋书-p07178
+    note_faction: 汉赵
+  刘琨军:
+    faction: 晋
+    head: 刘琨
+    size: 未核
+    evidence:
+    - quote: 并州诸郡为刘元海所陷，刺史刘琨独保晋阳
+      para: 晋书-p00109
+    - quote: 太原太守高乔以晋阳降粲
+      para: 晋书-p00114
+    note_faction: 晋
+  祖逖北伐军:
+    faction: 晋
+    head: 祖逖
+    size: 初给千人禀，后募得二千余人
+    evidence:
+    - quote: 给千人禀，布三千匹，不给铠仗
+      para: 晋书-p04823
+    - quote: 得二千余人而后进
+      para: 晋书-p04823
+    note_faction: 晋（江左）
+  愍帝随员:
+    faction: 晋
+    head: 司马邺
+    size: 未核
+    evidence:
+    - quote: 麹允及群官并从
+      para: 晋书-p00121
+    note_faction: 晋
+events:
+- id: e01
+  army: 刘琨军
+  kind: 屯驻
+  place: 晋阳
+  from: 并州
+  via: []
+  date: 312（起始月未核）
+  territory: null
+  note: 并州诸郡陷落后刘琨独保晋阳，不代表并州郡域仍整体属晋。
+  evidence:
+  - quote: 并州诸郡为刘元海所陷，刺史刘琨独保晋阳
+    para: 晋书-p00109
+  - quote: 琨遂据晋阳
+    para: 晋书-p07036
+  skip: 刘琨守晋阳、奔常山、依段匹磾只一句带过（被杀在 318 年，超出本集）
+- id: e02
+  army: 刘琨军
+  kind: 撤退
+  place: 常山
+  from: 晋阳
+  via:
+  - 赵郡亭头（途中点，地望未核）
+  date: 312-08
+  territory: null
+  note: 晋阳降刘粲后刘琨携家眷先奔亭头、再到常山；道路及关隘未载。
+  evidence:
+  - quote: 太原太守高乔以晋阳降粲。八月庚戌，刘琨奔于常山
+    para: 晋书-p00114
+  - quote: 携其妻子奔于赵郡之亭头，遂如常山
+    para: 晋书-p07053
+  skip: 刘琨守晋阳、奔常山、依段匹磾只一句带过（被杀在 318 年，超出本集）
+- id: e03
+  army: 石勒幽州军
+  kind: 行军
+  place: 邺
+  from: 未核
+  via: []
+  date: 313（未核）
+  territory: null
+  note: “313年石勒取邺”未获本地原文确认；已查到的陷邺事件是307年汲桑所为，此条不作为已发生行军或占领。
+  evidence:
+  - quote: 汲桑聚众反，败魏郡太守冯嵩，遂陷鄴城
+    para: 晋书-p00109
+  skip: 313 年石勒取邺未核
+- id: e04
+  army: 石勒幽州军
+  kind: 攻占
+  place: 蓟
+  from: 襄国
+  via: []
+  date: 314-03
+  territory:
+    jun: 广阳郡
+    to: 争夺
+  note: 石勒陷幽州、杀王浚、焚城邑后南还；蓟属广阳郡，疆域记争夺（验收改：原记 涿郡→汉赵；石勒未据守）。
+  evidence:
+  - quote: 三月癸酉，石勒陷幽州，杀侍中、大司马、幽州牧、博陵公王浚
+    para: 晋书-p00119
+  - quote: 封王浚首，献捷于刘聪
+    para: 晋书-p07178
+- id: e05
+  army: 刘琨军
+  kind: 会合
+  place: 幽州（段匹磾所在；会合点未核）
+  from: 并州
+  via: []
+  date: 314（王浚败后，月日未核）
+  territory: null
+  note: 刘琨依段匹磾结盟抗石勒，行军路线与途经关隘未载。
+  evidence:
+  - quote: 刘琨自并州依之，复与匹磾结盟，俱讨石勒
+    para: 晋书-p04854
+  skip: 刘琨守晋阳、奔常山、依段匹磾只一句带过（被杀在 318 年，超出本集）
+- id: e06
+  army: 刘琨军
+  kind: 交战
+  place: 未核（刘琨被拘杀处）
+  from: null
+  via: []
+  date: 314–316（未核）
+  territory: null
+  note: 段匹磾因疑忌杀刘琨，史文未载行刑地点；不虚构野战位置。
+  evidence:
+  - quote: 惧琨图己，遂害之，于是晋人离散矣
+    para: 晋书-p04854
+  - quote: 竟为匹磾所拘。自知必死
+    para: 晋书-p04805
+  skip: 刘琨守晋阳、奔常山、依段匹磾只一句带过（被杀在 318 年，超出本集）
+- id: e07
+  army: 刘曜长安军
+  kind: 行军
+  place: 北地
+  from: 平阳
+  via: []
+  date: 316-07
+  territory: null
+  note: （原记 from 上郡方向，始发营地未核）刘曜自平阳方向攻北地，箭头示意。
+  evidence:
+  - quote: 秋七月，刘曜攻北地
+    para: 晋书-p00121
+  - quote: 曜复攻北地
+    para: 晋书-p06271
+- id: e08
+  army: 麹允北地援军
+  kind: 行军
+  place: 北地
+  from: 长安方向（驻地未核）
+  via: []
+  date: 316-07
+  territory: null
+  note: 麹允率三万步骑驰援，晋军未战先溃；途经关隘未载。
+  evidence:
+  - quote: 麹允帅步骑三万救之。王师不战而溃
+    para: 晋书-p00121
+  - quote: 麹昌遣使求救，允率步骑赴之
+    para: 晋书-p06271
+  skip: 麹允援北地合在刘曜进攻北地的箭头里
+- id: e09
+  army: 刘曜长安军
+  kind: 行军
+  place: 泾阳
+  from: 北地
+  via: []
+  date: 316-07/08（月份界线未核）
+  territory: null
+  note: 原文只记进至泾阳，沿途城镇、关隘与具体路线均未详。
+  evidence:
+  - quote: 曜进至泾阳，渭北诸城悉溃
+    para: 晋书-p00121
+  skip: 泾阳、渭北诸城、霸上、遮马桥、灵台、槐里未画，围城用长安表示
+- id: e10
+  army: 刘曜长安军
+  kind: 交战
+  place: 泾阳、渭北诸城（将领各自战死点未核）
+  from: null
+  via: []
+  date: 316-07/08
+  territory: null
+  note: 渭北诸城溃散，鲁克、梁纬、皇甫阳等死；没有逐人战死点或明确郡级投降点。
+  evidence:
+  - quote: 渭北诸城悉溃，建威将军鲁克、散骑常侍梁纬、少府皇甫阳等皆死之
+    para: 晋书-p00121
+  skip: 泾阳、渭北诸城、霸上、遮马桥、灵台、槐里未画，围城用长安表示
+- id: e11
+  army: 长安守军
+  kind: 屯驻
+  place: 长安小城
+  from: 长安外城
+  via: []
+  date: 316（围城期）
+  territory: null
+  note: 麹允与公卿固守小城；城内饥荒、人相食。
+  evidence:
+  - quote: 麹允与公卿守长安小城以自固
+    para: 晋书-p00121
+  - quote: 城中饥窘，人相食，死亡逃奔不可制
+    para: 晋书-p04706
+  skip: 泾阳、渭北诸城、霸上、遮马桥、灵台、槐里未画，围城用长安表示
+- id: e12
+  army: 华辑霸上军
+  kind: 屯驻
+  place: 霸上
+  from: 长安
+  via: []
+  date: 316（围城期）
+  territory: null
+  note: 华辑监四郡兵东屯霸上；诸援军未敢推进。
+  evidence:
+  - quote: 华辑监京兆、冯翊、弘农、上洛四郡兵东屯霸上
+    para: 晋书-p00121
+  - quote: 并不敢进
+    para: 晋书-p00121
+  skip: 泾阳、渭北诸城、霸上、遮马桥、灵台、槐里未画，围城用长安表示
+- id: e13
+  army: 胡崧城西军
+  kind: 屯驻
+  place: 遮马桥
+  from: 城西诸郡
+  via: []
+  date: 316（围城期）
+  territory: null
+  note: 胡崧屯遮马桥；桥址未考，不作为精确古桥坐标。
+  evidence:
+  - quote: 胡崧帅城西诸郡兵屯遮马桥
+    para: 晋书-p00121
+  skip: 泾阳、渭北诸城、霸上、遮马桥、灵台、槐里未画，围城用长安表示
+- id: e14
+  army: 胡崧城西军
+  kind: 交战
+  place: 灵台
+  from: 遮马桥方向（道路未核）
+  via: []
+  date: 316（月份未核）
+  territory: null
+  note: 胡崧奉檄赴援，于灵台破刘曜，之后按兵渭北并还槐里，未解长安围。
+  evidence:
+  - quote: 胡崧承檄奔命，破曜于灵台
+    para: 晋书-p04706
+  - quote: 乃案兵渭北，遂还槐里
+    para: 晋书-p04706
+  skip: 泾阳、渭北诸城、霸上、遮马桥、灵台、槐里未画，围城用长安表示
+- id: e15
+  army: 胡崧城西军
+  kind: 撤退
+  place: 槐里
+  from: 渭北
+  via: []
+  date: 316（月份未核）
+  territory: null
+  note: 灵台战后退还槐里；并非刘曜已撤围。
+  evidence:
+  - quote: 乃案兵渭北，遂还槐里
+    para: 晋书-p04706
+  skip: 泾阳、渭北诸城、霸上、遮马桥、灵台、槐里未画，围城用长安表示
+- id: e16
+  army: 刘曜长安军
+  kind: 攻占
+  place: 长安
+  from: 北地
+  via: []
+  date: 316-10/11（月份异文）
+  territory:
+    jun: 京兆尹
+    to: 汉赵
+  note: 刘曜陷长安外城，愍帝出降。京兆尹为郡级示意；不推定左冯翊、右扶风转手日。
+  evidence:
+  - quote: 刘曜陷长安外城
+    para: 晋书-p07080
+  - quote: 刘曜逼京师，内外断绝
+    para: 晋书-p00121
+- id: e17
+  army: 愍帝随员
+  kind: 投降
+  place: 城东豆田壁
+  from: 长安小城
+  via: []
+  date: 316-10/11（月份待定）
+  territory: null
+  note: 司马邺肉袒牵羊、衔璧舆榇出降；先还宫，后送平阳。郡级易手已记于长安外城攻占，不重复登记。
+  evidence:
+  - quote: 帝乘羊车，肉袒衔壁，舆榇出降
+    para: 晋书-p00121
+  - quote: 营实在城东豆田壁
+    para: 晋书-p00121
+  - quote: 帝肉袒牵羊，舆榇衔璧出降
+    para: 晋书-p07080
+  skip: 豆田壁在长安城东，用长安表示
+- id: e18
+  army: 刘曜长安军
+  kind: 行军
+  place: 平阳
+  from: 长安
+  via: []
+  date: 316-11（大致；帝纪记辛丑）
+  territory: null
+  note: （原记 army：愍帝随员）汉军押愍帝蒙尘于平阳。帝及随员被送到平阳，沿途道路和关隘未载。
+  evidence:
+  - quote: 辛丑，帝蒙尘于平阳，麹允及群官并从
+    para: 晋书-p00121
+  - quote: 及至平阳，聪以帝为光禄大夫、怀安侯
+    para: 晋书-p07080
+- id: e19
+  army: 祖逖北伐军
+  kind: 出发
+  place: 长江中流
+  from: 江左（具体渡口未核）
+  via: []
+  date: 313（建兴元年；Claude 改）
+  territory: null
+  note: 祖逖受命豫州刺史、渡江击楫；资治通鉴系于建兴元年（313），原记 317 未核。
+  evidence:
+  - quote: 仍将本流徙部曲百余家渡江
+    para: 晋书-p04823
+  - quote: 中流击楫而誓曰：祖逖不能清中原而复济者，有如大江
+    para: 晋书-p04823
+  skip: 祖逖渡江画成人物登场与誓言，渡口与江阴未定位
+- id: e20
+  army: 祖逖北伐军
+  kind: 屯驻
+  place: 江阴
+  from: 长江中流
+  via: []
+  date: 317（任命后，月日未核）
+  territory: null
+  note: 祖逖屯江阴、冶铸兵器、招募后北进。
+  evidence:
+  - quote: 屯于江阴，起冶铸兵器，得二千余人而后进
+    para: 晋书-p04823
+  skip: 祖逖渡江画成人物登场与誓言，渡口与江阴未定位
+- id: e21
+  army: null
+  kind: 会合
+  place: 建康
+  from: 建邺
+  via: []
+  date: 317-03
+  territory: null
+  note: 司马睿称晋王、承制改元，是政权建制变化，不是郡级易手。
+  evidence:
+  - quote: 三月，琅邪王睿承制改元，称晋王于建康
+    para: 晋书-p00122
+  - quote: 愍帝立，避帝讳改建鄴为建康
+    para: 晋书-p01086
+  skip: 司马睿称晋王用即位动作表示
+places_new:
+- name: 泾阳（316军行点）
+  lon: 108.85
+  lat: 34.53
+  precision: 未核/示意
+  basis: 今泾阳作名称参照，晋县治精确点未核；史料只记刘曜进至泾阳
+  evidence:
+  - quote: 曜进至泾阳
+    para: 晋书-p00121
+- name: 灵台
+  lon: null
+  lat: null
+  precision: 未核
+  basis: 胡崧破刘曜的战地，places未返回，具体地望待考，不填臆测坐标
+  evidence:
+  - quote: 破曜于灵台
+    para: 晋书-p04706
+- name: 遮马桥
+  lon: null
+  lat: null
+  precision: 未核
+  basis: 胡崧屯兵点，桥址未考且places无条目
+  evidence:
+  - quote: 屯遮马桥
+    para: 晋书-p00121
+- name: 豆田壁
+  lon: null
+  lat: null
+  precision: 未核
+  basis: 长安城东出降营壁；不能由童谣反推坐标
+  evidence:
+  - quote: 营实在城东豆田壁
+    para: 晋书-p00121
+- name: 赵郡亭头
+  lon: null
+  lat: null
+  precision: 未核
+  basis: 刘琨奔常山途中地名，今地未定
+  evidence:
+  - quote: 奔于赵郡之亭头
+    para: 晋书-p07053
+open_questions:
+- 疆域.yaml目前止于307年，缺312–317年郡级事件。请Claude对照han-219郡名决定是否补：晋阳失守、刘曜攻北地及长安/京兆尹、石勒陷廪丘、幽州/蓟、长安陷落；称晋王是建制变化。
+- 313年石勒取邺未核；当前可查邺陷为307年汲桑所为。
+- 刘曜316年具体出发点、连续路线和关隘未载；可核链条仅北地→泾阳→渭北诸城→长安小城/外城，不补造子午道或潼关路线。
+- 长安援军只知华辑屯霸上、胡崧屯遮马桥并至灵台；后两地望未核。
+- 愍帝出降月份在帝纪、载记叙述中有差异；本账先列316年10/11月，需统一疆域变色月。
+- 蓟城汉-219郡级归属待核；本账没有把幽州全州转手写成确定事实。
+- 祖逖任命月份和渡江码头未核；日期只记317年。
+- 本地 sources 未返回《资治通鉴》卷八十五至九十相关段落；需要双书互证时请另补检。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

@@ -1,0 +1,256 @@
+# 快节奏版（2026-10-14，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第22集：诸葛亮治蜀、邓芝使吴、平定南中、曹丕临江而返（223–226）
+# 本地语料核对：
+# 诸葛亮传"建兴元年，封亮武乡侯，开府治事。顷之，又领益州牧。政事无巨细，咸决于亮。南中诸郡，并皆叛乱，亮以新遭大丧，故未便加兵，且遣使聘吴，因结和亲，遂为与国"；"三年春，亮率众南征，其秋悉平。军资所出，国以富饶，乃治戎讲武，以俟大举"；
+# 后主传"建兴元年夏，牂牁太守朱褒拥郡反。先是，益州郡有大姓雍闿反…越巂夷王高定亦背叛…遣尚书邓芝固好于吴"；
+# 邓芝传"芝乃自表请见权曰：臣今来亦欲为吴，非但为蜀也。权乃见之，语芝曰：孤诚愿与蜀和亲，然恐蜀主幼弱，国小势逼，为魏所乘，不自保全，以此犹豫耳。芝对曰：吴、蜀二国四州之地…蜀有重险之固，吴有三江之阻，合此二长，共为唇齿，进可并兼天下，退可鼎足而立…大王今若委质于魏，魏必上望大王之入朝，下求太子之内侍。若不从命，则奉辞伐叛，蜀必顺流见可而进。如此，江南之地非复大王之有也。权默然良久曰：君言是也。遂自绝魏，与蜀连和"；
+# 文帝纪"冬十月，行幸广陵故城，临江观兵，戎卒十余万，旌旗数百里。是岁大寒，水道冰，舟不得入江，乃引还"；"夏五月丙辰，帝疾笃，召中军大将军曹真、镇军大将军陈群、征东大将军曹休、抚军大将军司马宣王，并受遗诏辅嗣主…丁巳，帝崩于嘉福殿，时年四十"。
+# 注文（片中标"据说"）：马谡"攻心为上，攻城为下"（诸葛亮传注引襄阳记）；七擒七纵孟获（诸葛亮传注引汉晋春秋）——本地语料未收，按注文出处如实标注。
+# 不用：曹丕"固天所以限南北也"（注文，本地语料未收）。
+
+id: s01e22-nanzheng
+title: 平定南中
+series: 三国 · 第22集
+year: 223
+
+notes:
+  - 主线问题：刘备死后蜀汉三面起火，诸葛亮怎么用三年收拾干净？——先稳东边，不两线作战；再平南边，后方有了粮兵；最后才轮到北边。
+  - 反差：南中造反，诸葛亮偏偏先不打，派人去吴国；曹丕十几万大军开到江边，被一场寒冬冻了回去。
+  - 细节：邓芝"我来也是为了吴国"；孙权"默然良久"；"政事无巨细，咸决于亮"；江面结冰，船进不了长江。
+  - 动机：孙权怕蜀主年幼被魏吞掉、自己孤立，邓芝用"唇齿"和"江南不保"两句话说动他。
+  - 演义对照：七擒孟获出自《汉晋春秋》（注文），细节多有争议；"火烧藤甲兵""五月渡泸"是小说情节。
+
+map:
+  center: [106.0, 28.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-17 史图风
+  river_rank: 4
+  palette: warm          # 2026-10-25 第18集起统一新样式（第27集试样通过）
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 刘备一死蜀汉三面起火，诸葛亮三年摆平
+  big: [平定南中]
+  hero: 诸葛亮
+  at: 30
+  summary: |
+    刘备死后，蜀汉东边刚和吴国打完仗，南中几个郡接连造反，北边曹丕虎视眈眈。诸葛亮先不打南中，派邓芝出使东吴："蜀有重险之固，吴有三江之阻，合此二长，进可并兼天下，退可鼎足而立。"孙权沉默良久，与魏断交，重结吴蜀之好。
+    东边稳了，诸葛亮亲率大军南征，当年秋天南中平定，军资从此源源不断。同年冬天，曹丕十几万大军开到广陵江边，偏偏碰上大寒，江面结冰，船进不了长江，只好回去。
+  tags: [诸葛亮, 平定南中, 邓芝, 七擒孟获, 曹丕]
+  next: 出师表，街亭之战
+
+sources_local:
+  - {id: sgz-02, work: 三国志, volume: 卷二·文帝纪, url: 'https://zh.wikisource.org/wiki/三國志/卷02'}
+  - {id: sgz-33, work: 三国志, volume: 卷三十三·后主传, url: 'https://zh.wikisource.org/wiki/三國志/卷33'}
+  - {id: sgz-35, work: 三国志, volume: 卷三十五·诸葛亮传（注引襄阳记、汉晋春秋）, url: 'https://zh.wikisource.org/wiki/三國志/卷35'}
+  - {id: sgz-45, work: 三国志, volume: 卷四十五·邓芝传, url: 'https://zh.wikisource.org/wiki/三國志/卷45'}
+
+factions: {魏: '#2f5d3a', 蜀汉: '#5f8f3a', 吴: '#b0841f'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    魏: {slot: jade, main: true, label_at: 洛阳}
+    蜀汉: {slot: pink, label_at: 成都}
+    吴: {slot: lemon, label_at: 武昌}
+
+people:
+  诸葛亮: {image: 03_素材/人物立绘/zhuge_liang.png, title: 丞相, role: 开府治事, faction: 蜀汉}
+  刘禅: {image: 03_素材/人物立绘/liu_shan.png, title: 汉后主, role: 政由葛氏, faction: 蜀汉}
+  邓芝: {image: 03_素材/人物立绘/deng_zhi.png, title: 尚书, role: 出使东吴, faction: 蜀汉}
+  孙权: {image: 03_素材/人物立绘/sun_quan.png, title: 吴王, role: 绝魏连蜀, faction: 吴}
+  马谡: {image: 03_素材/人物立绘/ma_su.png, title: 参军, role: 攻心为上, faction: 蜀汉}
+  孟获: {image: 03_素材/人物立绘/meng_huo.png, title: 南中首领, role: 七擒七纵（据说）, faction: 蜀汉}
+  曹丕: {image: 03_素材/人物立绘/cao_pi.png, title: 魏文帝, role: 临江观兵, faction: 魏}
+  司马懿: {image: 03_素材/人物立绘/sima_yi.png, title: 抚军大将军, role: 受遗诏辅政, faction: 魏}
+
+places:
+  成都: {id: chengdu_city, label: left, tier: capital}
+  武昌: {id: wuchang_e, label: right}
+  洛阳: {id: luoyang_han_wei, label: right, tier: capital}
+  越巂: {id: qiongdu, label: left}
+  滇池: {id: dianchi_han, label: left}
+  牂牁: {id: zangke_han, label: right}
+  谯: {id: qiao_bozhou, label: left}
+  广陵: {id: guangling_city, label: right}
+  汉中: {id: nanzheng, name: 汉中, label: right}
+
+camera:
+  focus: [成都, 滇池]
+  zoom: 2.0
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 刘备一死，蜀汉三面起火。
+    map: '221-08'
+    year: 223
+    phase: 三面起火
+    sources: [sgz-33]
+    camera: {focus: [成都, 武昌, 洛阳, 滇池], zoom: fit, move: 1.6}
+    show:
+      - sfx: 重拍转场
+
+  - say: 东边刚和吴国打完仗；南边几个郡接连造反；北边，曹丕虎视眈眈。
+    map: '223-05'
+    owners_cue: 造反
+    sources: [sgz-33]
+    show:
+      - arrow: {from: 成都, to: 武昌, kind: relation, faction: 吴, cue: 东边, grow: 1.0}
+      - battle: {at: 滇池, text: 南中叛乱, cue: 造反}
+      - arrow: {from: 洛阳, to: 汉中, kind: direction, faction: 魏, cue: 北边, grow: 1.0}
+
+  - say: 十七岁的刘禅，把大事小事，全交给了一个人：诸葛亮。
+    sources: [sgz-35]
+    show:
+      - enter: {who: 诸葛亮, side: left, cue: 诸葛亮, for: 4}
+      - quote: {text: 政事无巨细，咸决于亮, source: 三国志·诸葛亮传, era: 建兴元年, cue: 大事小事, for: 4}
+
+  # ---------------- 第一章 唇齿 ----------------
+  - say: 南中造反，诸葛亮却没急着出兵。他先办另一件事：和吴国和好。
+    phase: 唇齿
+    sources: [sgz-35]
+    camera: {focus: [成都, 武昌], zoom: fit, move: 1.4}
+    show:
+      - title_bar: {text: 平定南中, sub: 三国 · 第22集, for: 3.2}
+      - sfx: 片头鼓
+
+  - say: 他派邓芝出使东吴。孙权一开始不见。邓芝上表说：我这次来，也是为了吴国，不只是为了蜀国。
+    sources: [sgz-45]
+    show:
+      - enter: {who: 邓芝, side: left, cue: 邓芝, for: 3.4}
+      - act: {act: courier, places: [成都, 武昌], text: 邓芝使吴, cue: 出使, grow: 2.0, for: 3.6}
+
+  - say: 孙权见了他：我是想和蜀国和好，可蜀主年幼，国小势弱，怕被魏吞了，连累自己。
+    scene: 朝堂
+    sources: [sgz-45]
+
+  - say: 吴、蜀两国，蜀有山川之险，吴有长江之阻。联手，进可以吞并天下，退可以三分鼎立！
+    speaker: 邓芝
+    style: 从容不迫，雄辩有力，不卑不亢
+    scene: 朝堂
+    to: 孙权
+    sources: [sgz-45]
+
+  - say: 您要是向魏称臣，魏会要您去朝见，要太子去做人质。不答应，就派兵来打。到那时，江南就不归您了。
+    speaker: 邓芝
+    style: 语速放慢，层层逼近，点到要害
+    scene: 朝堂
+    to: 孙权
+    sources: [sgz-45]
+
+  - say: 孙权沉默了很久，才说：你说得对。
+    scene: 朝堂
+    sources: [sgz-45]
+
+  - say: 他和魏断了往来，重新与蜀国结盟。东边，稳了。
+    sources: [sgz-45, sgz-35]
+    camera: {focus: [成都, 武昌, 洛阳], zoom: fit, move: 1.4}
+    show:
+      - headline: {text: 吴蜀复盟, sub: 建兴元年, cue: 结盟, for: 3}
+
+  # ---------------- 第二章 南征 ----------------
+  - say: 二二五年春天，诸葛亮亲自率军南征。
+    phase: 南征
+    year: 225
+    sources: [sgz-35]
+    camera: {focus: [成都, 越巂, 滇池, 牂牁], zoom: fit, move: 1.6}
+    tells: [e05]
+    show:
+      - army: {head: 诸葛亮, from: 成都, via: [越巂], to: 滇池, faction: 蜀汉, banner: 诸葛, troops: infantry, size: 2.6, cue: 南征, grow: 3.4}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 据说出发时，马谡送了他一句话：用兵之道，攻心为上，攻城为下。
+    sources: [sgz-35]
+    show:
+      - enter: {who: 马谡, side: right, cue: 马谡, for: 3.4}
+      - card: {title: 据说, body: 攻心为上，攻城为下——诸葛亮传注引《襄阳记》, cue: 攻心}
+
+  - say: 据说，南中的首领孟获被抓了七次、放了七次，最后心服口服，不再造反。
+    sources: [sgz-35]
+    show:
+      - enter: {who: 孟获, side: right, cue: 孟获, for: 3.4}
+      - card: {title: 据说 · 七擒七纵, body: 出自诸葛亮传注引《汉晋春秋》，正文只有"其秋悉平"四个字, cue: 七次}
+
+  - say: 这年秋天，南中全部平定。
+    map: '225-09'
+    owners_cue: 平定
+    sources: [sgz-35]
+    tells: [e12, e13, e14]
+    show:
+      - sfx: {name: 疆域易手, cue: 平定}
+      - quote: {text: 三年春，亮率众南征，其秋悉平, source: 三国志·诸葛亮传, era: 建兴三年, cue: 平定, for: 4}
+
+  - say: 从此南中的物产，源源不断地送进军营。蜀汉，富起来了。
+    sources: [sgz-35]
+    tells: [e15]
+    show:
+      - army: {head: 诸葛亮, from: 滇池, via: [越巂], to: 成都, faction: 蜀汉, banner: 诸葛, troops: infantry, size: 2.2, cue: 源源不断, grow: 3.0}   # 2026-10-25 战事账：十二月亮还成都
+
+  # ---------------- 第三章 江冰 ----------------
+  - say: 同一年冬天，曹丕亲率十几万大军，开到广陵的长江边，旌旗连绵几百里。
+    phase: 江冰
+    sources: [sgz-02]
+    camera: {focus: [谯, 广陵, 武昌], zoom: fit, move: 1.6}
+    tells: [e17, e20]
+    show:
+      - enter: {who: 曹丕, side: left, cue: 曹丕, for: 3.4}
+      - army: {head: 曹丕, from: 谯, to: 广陵, faction: 魏, banner: 魏, troops: infantry, size: 3.4, cue: 十几万, grow: 2.0}
+
+  - say: 偏偏这年特别冷，河道结了冰，战船开不进长江。曹丕只好掉头回去。
+    sources: [sgz-02]
+    camera: {focus: 广陵, zoom: 6, move: 1.2}
+    show:
+      - card: {title: 临江而返, body: 是岁大寒，水道冰，舟不得入江，乃引还, cue: 结了冰}
+      - sfx: {name: 狂风, cue: 特别冷}
+
+  - say: 第二年五月，曹丕病逝，才四十岁。临终前，他把儿子托付给了几位大臣，其中一个，叫司马懿。
+    year: 226
+    sources: [sgz-02]
+    camera: {focus: 洛阳, zoom: 5, move: 1.2}
+    show:
+      - exit: {who: 曹丕, at: 洛阳, verb: 卒, portrait: true, cue: 病逝}
+      - enter: {who: 司马懿, side: right, cue: 司马懿, for: 3.6}
+
+  # ---------------- 收 ----------------
+  - say: 诸葛亮怎么三年收拾了烂摊子？先稳住东边，不两线作战。
+    sources: [sgz-35]
+
+  - say: 再平南边，后方有了粮和兵；最后，才轮到北边。
+    phase: 收
+    sources: [sgz-35]
+    camera: {focus: [成都, 武昌, 洛阳, 滇池], zoom: fit, move: 1.6}
+    show:
+      - card: {title: 演义 vs 正史, body: 火烧藤甲兵、五月渡泸的细节是小说；七擒七纵只见于注文, cue: 北边}
+
+  - say: 刘备留下的，是一个快散架的国家；诸葛亮交出的，是一支准备出征的军队。
+    sources: [sgz-35]
+
+  - say: 七擒七纵，你信吗？
+    sources: [sgz-35]
+
+  - say: 二二七年，诸葛亮率军北上汉中。临走前，他给刘禅写了一封信：出师表。
+    year: 227
+    sources: [sgz-35]
+    camera: {focus: [成都, 汉中, 洛阳], zoom: fit, move: 1.6}
+    show:
+      - army: {head: 诸葛亮, from: 成都, to: 汉中, faction: 蜀汉, banner: 诸葛, troops: infantry, size: 2.6, label: 北驻汉中, cue: 北上, grow: 1.8}
+      - title_bar: {text: 下集, sub: 出师表 · 街亭, cue: 出师表, delay: 0.4, for: 3.0}

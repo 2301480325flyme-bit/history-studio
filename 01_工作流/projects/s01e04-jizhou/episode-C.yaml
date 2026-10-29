@@ -1,0 +1,298 @@
+# 第4集 版本C：细节冷开场「肚脐点灯」，单线董卓之死（快节奏对比稿，2026-10-13）
+# 《三国到隋》第4集：袁绍空手套冀州，界桥大破白马义从，孙坚死于岘山，吕布刺杀董卓（191–192）
+# 2026-10-11 按故事稿（series/三国到隋/故事稿/第04集-…）写成旁白。关键原文均在本地语料核过：
+# 耿武"仰我鼻息"、韩馥"度德而让"（袁绍传注引英雄记 / 后汉书袁绍传）；界桥"白马义从""强弩千张"（袁绍传注、后汉书）；
+# 孙坚"单马行岘山，为祖军士所射杀"（孙破虏传）；郿坞"守此足以毕老"、"吕布何在／有诏讨贼臣／庸狗敢如是邪"、
+# "卓素充肥…然火置卓脐中，光明达曙"、"一岁不可再赦"（后汉书·董卓列传）；手戟、侍婢、誓为父子（吕布传）。
+
+id: s01e04-jizhou-C
+title: 袁绍夺冀州
+series: 三国 · 第4集
+year: 191
+
+notes:
+  - 主线问题：讨董联军散了，谁捡到了最大的便宜？谁又杀了董卓？
+  - 孙坚死年史书有初平二年 / 三年两说，旁白只说"不久"，不标年份。
+  - 貂蝉是小说人物；史书只说吕布"与卓侍婢私通"。用卡片点出。
+  - 点天灯只用一句旁白 + 小灯，不画血腥。
+  - 用户未定：孙坚之死放本集（按大纲默认）。
+
+map:
+  center: [114.0, 33.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  river_rank: 4
+
+voice:
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2              # 2026-10-13 快节奏版（抖音数据：观众不爱磨叽）
+  tempo_target: 5.0
+  gap: 0.3
+  speaker_min_rate: 5.0
+  bed: none
+  bed_db: -26
+
+music: {default: 底声·阴沉, db: -14, duck_db: -6, fade: 2.0}
+
+publish:
+  hook: 肚脐点灯烧了好几天，董卓是怎么死的？
+  big: [肚脐点灯]
+  hero: 董卓
+  at: 20
+  summary: |
+    讨董联军一散，袁绍靠一封信、一番话，兵不血刃拿下天下最富的冀州；界桥一战，麴义八百人伏在盾下，打垮了公孙瓒的白马义从。
+    南边，孙坚单骑追进岘山，死于冷箭。长安城里，董卓修郿坞囤粮三十年，却在未央殿门口被干儿子吕布一矛刺死。
+  tags: [董卓之死, 吕布, 袁绍, 公孙瓒, 孙坚]
+  next: 李傕郭汜攻破长安
+
+sources_local:
+  - {id: sgz-06, work: 三国志, volume: 卷六·董卓传、袁绍传（注引英雄记）, url: 'https://zh.wikisource.org/wiki/三國志/卷06'}
+  - {id: sgz-07, work: 三国志, volume: 卷七·吕布传, url: 'https://zh.wikisource.org/wiki/三國志/卷07'}
+  - {id: sgz-08, work: 三国志, volume: 卷八·公孙瓒传, url: 'https://zh.wikisource.org/wiki/三國志/卷08'}
+  - {id: sgz-46, work: 三国志, volume: 卷四十六·孙破虏传, url: 'https://zh.wikisource.org/wiki/三國志/卷46'}
+  - {id: hhs-72, work: 后汉书, volume: 卷七十二·董卓列传, url: 'https://zh.wikisource.org/wiki/後漢書/卷72'}
+  - {id: hhs-74, work: 后汉书, volume: 卷七十四上·袁绍传, url: 'https://zh.wikisource.org/wiki/後漢書/卷74上'}
+  - {id: hhs-75, work: 后汉书, volume: 卷七十五·吕布传, url: 'https://zh.wikisource.org/wiki/後漢書/卷75'}
+
+factions: {汉室: '#b8462f', 袁绍: '#27587e', 韩馥: '#3f7f6f', 公孙瓒: '#b06a2a', 袁术: '#7a5a8a', 刘表: '#6b7a2e', 孙坚: '#b0841f', 董卓: '#6f4a8e', 王允: '#b8462f', 刘岱: '#3f6f7f', 凉州军: '#5a4a6a'}
+
+territory:
+  cells: han-140
+  zhou_labels: true
+  jun_labels: false
+  polities:
+    汉室: {slot: salmon, main: true, label_at: 寿春}
+    董卓: {slot: violet, label_at: 长安}
+    袁绍: {slot: sky, label_at: 邺}
+    韩馥: {slot: teal, label_at: 邺}
+    公孙瓒: {slot: orange, label_at: 蓟}
+    刘岱: {slot: tan, label_at: 陈留}
+    袁术: {slot: rose, label_at: 鲁阳}
+    刘表: {slot: olive, label_at: 襄阳}
+    凉州军: {slot: lavender, label_at: 陕}
+    刘焉: {slot: lime, label_at: 绵竹}
+
+people:
+  袁绍: {image: 03_素材/人物立绘/yuan_shao.png, title: 渤海太守, role: 联军盟主, faction: 袁绍}
+  韩馥: {image: 03_素材/人物立绘/han_fu.png, title: 冀州牧, role: 让出冀州, faction: 韩馥}
+  耿武: {image: 03_素材/人物立绘/geng_wu.png, title: 冀州长史, role: 苦谏韩馥, faction: 韩馥}
+  公孙瓒: {image: 03_素材/人物立绘/gongsun_zan.png, title: 奋武将军, role: 白马将军, faction: 公孙瓒}
+  麴义: {image: 03_素材/人物立绘/qu_yi.png, title: 袁绍部将, role: 八百先登, faction: 袁绍}
+  袁术: {image: 03_素材/人物立绘/yuan_shu.png, title: 后将军, role: 屯南阳, faction: 袁术}
+  刘表: {image: 03_素材/人物立绘/liu_biao.png, title: 荆州刺史, role: 坐镇襄阳, faction: 刘表}
+  孙坚: {image: 03_素材/人物立绘/sun_jian.png, title: 破虏将军, role: 江东猛虎, faction: 孙坚}
+  孙策: {image: 03_素材/人物立绘/sun_ce.png, title: 孙坚长子, role: 年方十七, faction: 孙坚}
+  董卓: {image: 03_素材/人物立绘/dong_zhuo.png, title: 太师, role: 挟天子, faction: 董卓}
+  吕布: {image: 03_素材/人物立绘/lv_bu.png, title: 中郎将, role: 董卓义子, faction: 董卓}
+  王允: {image: 03_素材/人物立绘/wang_yun.png, title: 司徒, role: 密谋诛卓, faction: 王允}
+  李傕: {image: 03_素材/人物立绘/li_jue.png, title: 校尉, role: 董卓旧部, faction: 凉州军}
+
+places:
+  河内: {id: henei_approx, label: left}
+  邺: {id: ye_city, label: right}
+  蓟: {id: ji_yan, label: right}
+  陈留: {id: chenliu_han, label: right}
+  广宗: {id: guangzong, label: right}
+  界桥: {id: jieqiao, label: left}
+  鲁阳: {id: luyang_county, label: right}
+  襄阳: {id: xiangyang, label: right}
+  岘山: {id: xianshan, label: left}
+  长安: {id: changan_han_city, label: below, tier: capital}
+  郿: {id: mei, label: left}
+  陕: {id: shan, label: right}
+  洛阳: {id: luoyang_han_wei, label: left}
+  寿春: {id: shouchun, label: right}
+  绵竹: {id: mianzhu_old, label: right}
+
+camera:
+  focus: [河内, 邺]
+  zoom: 2.0
+
+beats:
+  - say: 他死后，守尸的士兵在他肚脐上点了一盏灯。灯火一直亮到天明，接连烧了好几天。
+    camera: {focus: [长安], zoom: 7, move: 1.2}
+    music: 底声·阴沉
+    map: '191-05'
+    year: 192
+    phase: 天灯
+    sources: [hhs-72]
+    show:
+      - exit: {who: 董卓, at: 长安, verb: 诛, portrait: true, side: left}
+      - act: {act: prop, at: 长安, item: 火把, text: 然火置脐, cue: 点了一盏灯, for: 3}
+      - sfx: 重拍转场
+
+  - say: 他是东汉最有权势的人，董卓。杀他的，是跟他发誓结为父子的吕布。
+    sources: [sgz-07]
+    show:
+      - versus: {left: 董卓, right: 吕布, label: 父子, for: 5}
+
+  - say: 这一年，天下大变。
+    sources: [sgz-07]
+
+  - say: 袁绍借刀杀人，吓唬冀州牧韩馥。
+    music: 底声·紧张
+    phase: 天下大变
+    sources: [sgz-06, hhs-74]
+    year: 191
+    camera: {focus: [河内, 邺], zoom: fit, move: 2.0}
+    map: '191-05'
+    show:
+      - sfx: 片头鼓
+      - flag: {at: 河内, name: 袁绍, sub: 联军盟主, faction: 袁绍, cue: 袁绍}
+      - flag: {at: 邺, name: 韩馥, sub: 冀州牧, faction: 韩馥, cue: 韩馥}
+      - act: {act: courier, places: [邺, 河内], text: 军粮, grow: 1.4, for: 3}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 胆小的韩馥，竟把天下最富的冀州，拱手让了出去。
+    sources: [hhs-74, sgz-06]
+    map: '191-07'
+    camera: {focus: [河内, 邺], zoom: fit, move: 1.4}
+    show:
+      - act: {act: prop, at: 邺, item: 印绶, text: 让印, for: 3}
+      - takeover: {at: 邺, from: 韩馥, to: 袁绍, name: 袁绍, sub: 冀州牧}
+      - sfx: {name: 疆域易手}
+
+  - say: 公孙瓒南下来抢。界桥一战，袁绍八百人强弩齐发，射垮了三万大军。
+    sources: [sgz-06, hhs-74]
+    camera: {focus: [邺, 界桥, 广宗], zoom: fit, move: 1.2}
+    show:
+      - army: {from: 邺, to: 界桥, faction: 袁绍, banner: 袁, troops: infantry, size: 2, grow: 1.8}
+      - act: {act: arrows, places: [邺, 界桥], cue: 强弩齐发, for: 4}
+      - act: {act: prop, at: 界桥, item: 箭, text: 强弩雷发, cue: 强弩齐发, size: 1.3, for: 4}
+      - sfx: {name: 箭雨, cue: 强弩齐发}
+      - sfx: {name: 喊杀}
+      - sfx: {name: 箭雨, cue: 强弩齐发}
+
+  - say: 南边，江东猛虎孙坚追进岘山，死于一支冷箭。
+    sources: [sgz-46]
+    camera: {focus: [襄阳, 岘山], zoom: 14, move: 1.4}
+    show:
+      - flag: {at: 岘山, name: 黄祖, sub: 刘表部将, faction: 刘表, side: left}
+      - march: {from: 襄阳, to: 岘山, faction: 孙坚, grow: 1.4}
+      - act: {act: arrows, places: [岘山], for: 2.2}
+      - exit: {who: 孙坚, at: 岘山, verb: 卒, portrait: true}
+      - sfx: {name: 退场钟}
+      - sfx: {name: 中箭, cue: 冷箭}
+
+  - say: 而长安城里，董卓当了太师，在郿县修了座万岁坞，囤的粮食够吃三十年。
+    phase: 万岁坞
+    sources: [sgz-06]
+    camera: {focus: [长安, 郿], zoom: fit, move: 1.6}
+    show:
+      - enter: {who: 董卓, at: 长安, side: right, cue: 董卓, settle: true, settle_sub: 太师}
+      - act: {act: prop, at: 郿, item: 城池, text: 万岁坞, cue: 万岁坞, size: 1.3, for: 3.4}
+      - act: {act: prop, at: 郿, item: 粮仓, text: 积谷三十年, cue: 三十年, for: 3}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 事成了，我雄据天下；事不成，守着它也够我养老！
+    speaker: 董卓
+    style: 得意洋洋，粗声大笑，狂妄自负
+    sources: [hhs-72]
+
+  - say: 他宴请百官，当场折磨降兵，官员们吓得筷子都拿不住，他照样吃喝。
+    sources: [hhs-72]
+    camera: {focus: 长安, zoom: 4, move: 1.2}
+    show:
+      - act: {act: prop, at: 长安, item: 宴饮, text: 横门宴, cue: 宴请百官, for: 3.4}
+
+  - say: 司徒王允想除掉他，可董卓身边站着吕布。
+    sources: [sgz-06]
+    show:
+      - enter: {who: 王允, side: left, cue: 王允, for: 3}
+      - enter: {who: 吕布, side: right, cue: 吕布, for: 3}
+      - versus: {left: 董卓, right: 吕布, label: 父子, for: 5}
+
+  - say: 可董卓脾气一上来，拔出手戟就朝吕布扔。
+    sources: [sgz-07, hhs-75]
+    show:
+      - act: {act: prop, at: 长安, item: 手戟, text: 掷戟, cue: 手戟, size: 1.3, for: 3}
+
+  - say: 吕布还跟董卓的侍女私通，整天提心吊胆。
+    sources: [sgz-07, hhs-75]
+    show:
+      - card: {title: 演义 vs 正史, body: 史书只说"与卓侍婢私通"，貂蝉是小说人物, cue: 侍女}
+
+  - say: 王允看准了，把吕布拉进了刺杀计划。
+    sources: [sgz-06, hhs-75]
+    show:
+      - versus: {left: 王允, right: 吕布, label: 密谋, cue: 刺杀, for: 4}
+
+  # ---------------- 第五章 未央殿 ----------------
+
+  - say: 公元一百九十二年四月，董卓进宫。
+    year: 192
+    scene: 宫门
+    phase: 北掖门
+    sources: [sgz-06]
+    camera: {focus: 长安, zoom: 6, move: 1.2}
+    show:
+      - act: {act: prop, at: 长安, item: 宫殿, text: 未央殿, for: 6}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 车到宫门，马突然受惊不肯走。董卓心里发毛，吕布劝他进去。
+    scene: 宫门
+    sources: [hhs-72]
+    show:
+      - act: {act: prop, at: 长安, item: 马车, text: 马惊不行, for: 6}
+      - sfx: {name: 马嘶, cue: 受惊}
+
+  - say: 一进门，李肃一戟刺来，没刺穿铠甲。董卓摔下车，回头大喊：
+    scene: 宫门
+    sources: [hhs-72]
+    show:
+      - sfx: {name: 刀剑, cue: 一戟}
+
+  - say: 吕布何在？！
+    speaker: 董卓
+    style: 惊恐暴怒，摔倒在地嘶声大喊
+    scene: 宫门
+    sources: [hhs-72]
+
+  - say: 有诏讨贼臣！
+    speaker: 吕布
+    style: 冷硬决绝，高声宣告，杀气腾腾
+    scene: 宫门
+    sources: [hhs-72]
+    show:
+      - versus: {left: 董卓, right: 吕布, label: 讨贼, for: 4}
+
+  - say: 庸狗！你敢如此！
+    speaker: 董卓
+    style: 破口大骂，又惊又怒，声嘶力竭
+    scene: 宫门
+    sources: [hhs-72]
+
+  - say: 话音未落，吕布一矛刺死了董卓。
+    scene: 宫门
+    sources: [hhs-72]
+    owners_cue: 刺死
+    map: '192-04'
+    show:
+      - act: {act: execute, at: 长安, text: 诛董卓, tone: red, cue: 刺死, for: 3}
+      - exit: {who: 董卓, at: 长安, verb: 诛, cue: 刺死, portrait: true}
+      - sfx: {name: 处斩, cue: 刺死}
+
+  - say: 长安百姓卖了衣服首饰，买酒买肉，挤满了大街小巷。
+    sources: [hhs-72]
+    show:
+      - act: {act: prop, at: 长安, item: 酒瓮, text: 士女相庆, cue: 买酒买肉, for: 3.4}
+      - sfx: {name: 欢呼}
+
+  - say: 可王允不肯赦免董卓的旧部。走投无路的西凉兵，决定打回长安。
+    sources: [hhs-72]
+    camera: {focus: [长安, 陕], zoom: fit, move: 1.4}
+    show:
+      - flag: {at: 陕, name: 李傕 · 郭汜, sub: 董卓旧部, faction: 凉州军}
+      - act: {act: courier, places: [陕, 长安], text: 求赦, grow: 1.4, for: 3}
+
+  - say: 如果你是王允，饶，还是不饶？
+    sources: [hhs-72]
+    show:
+      - march: {from: 陕, to: 长安, faction: 凉州军, grow: 1.6}
+      - title_bar: {text: 下集, sub: 李傕郭汜破长安, delay: 0.6, for: 3.0}
+

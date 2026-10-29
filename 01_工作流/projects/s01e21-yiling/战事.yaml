@@ -1,0 +1,401 @@
+episode: s01e21-yiling
+armies:
+  刘备军:
+    faction: 蜀汉
+    head: 刘备
+    size: 约四万（孙权上书所称）
+    evidence:
+    - quote: 刘备支党四万人，马二三千匹，出秭归
+      para: 三国志-p00392
+    - quote: 先主忿孙权之袭关羽，将东征，秋七月，遂帅诸军伐吴
+      para: 三国志-p01870
+  吴军:
+    faction: 吴
+    head: 陆逊
+    size: 五万人
+    evidence:
+    - quote: 权命逊为大都督、假节，督朱然、潘璋、宋谦、韩当、徐盛、鲜于丹、孙桓等五万人拒之
+      para: 三国志-p02533
+    - quote: 二月，先主自秭归率诸将进军，缘山截岭，于夷道猇亭驻营
+      para: 三国志-p01871
+  吴班陈式水军:
+    faction: 蜀汉
+    head: 吴班、陈式
+    size: 未核
+    evidence:
+    - quote: 将军吴班、陈式水军屯夷陵，夹江东西岸
+      para: 三国志-p01871
+  黄权江北军:
+    faction: 蜀汉
+    head: 黄权
+    size: 未核
+    evidence:
+    - quote: 镇北将军黄权督江北诸军，与吴军相拒于夷陵道
+      para: 三国志-p01871
+    - quote: 八月，蜀大将黄权率觽降
+      para: 三国志-p00399
+    - quote: 先主不从，以权为镇北将军，督江北军以防魏师。先主自在江南。及吴将军陆议乘流断围，南军败绩，先主引退。而道隔绝，权不得还，故率将所领降于魏
+      para: 三国志-p02090
+  五溪响应军:
+    faction: 蜀汉
+    head: 五溪蛮夷渠帅（姓名未核）
+    size: 未核
+    evidence:
+    - quote: 武陵五溪蛮夷遣使请兵
+      para: 三国志-p01870
+    - quote: 遣侍中马良安慰五溪蛮夷，咸相率响应
+      para: 三国志-p01871
+events:
+- id: e01
+  army: 刘备军
+  kind: 出发
+  place: 未核
+  from: null
+  via: []
+  date: 221-07
+  territory: null
+  note: 史书记刘备秋七月率军伐吴，未记具体出发城邑；孙权上书称刘备军出秭归，是前线到达信息，不足以反推大军出发点。
+  evidence:
+  - quote: 先主忿孙权之袭关羽，将东征，秋七月，遂帅诸军伐吴
+    para: 三国志-p01870
+  skip: 旁白未讲：东征出发地史书未载
+- id: e02
+  army: 吴军
+  kind: 屯驻
+  place: 巫
+  from: null
+  via: []
+  date: 221-秋
+  territory: null
+  note: 吴将陆议、李异、刘阿驻巫；史书未载此处具体日期。巫为当时县名，今巫山县一带。
+  evidence:
+  - quote: 吴将陆议、李异、刘阿等屯巫、秭归
+    para: 三国志-p01870
+  skip: 旁白未讲吴军前沿李异、刘阿驻巫、秭归及被破
+- id: e03
+  army: 吴军
+  kind: 屯驻
+  place: 秭归
+  from: null
+  via: []
+  date: 221-秋
+  territory: null
+  note: 与巫同见一条记载，具体驻军先后未核；这里只记吴军前沿屯驻，未见郡级归属变更。
+  evidence:
+  - quote: 吴将陆议、李异、刘阿等屯巫、秭归
+    para: 三国志-p01870
+  skip: 旁白未讲吴军前沿李异、刘阿驻巫、秭归及被破
+- id: e04
+  army: 刘备军
+  kind: 交战
+  place: 巫
+  from: 巫
+  via: []
+  date: 221-秋
+  territory: null
+  note: 吴班、冯习自巫进攻并击破李异等部，原文未记具体日月；这不是郡级疆域易手记录。
+  evidence:
+  - quote: 将军吴班、冯习自巫攻破异等，军次秭归
+    para: 三国志-p01870
+  skip: 旁白未讲吴军前沿李异、刘阿驻巫、秭归及被破
+- id: e05
+  army: 刘备军
+  kind: 行军
+  place: 秭归
+  from: 巫
+  via: []
+  date: 221-秋
+  territory: null
+  note: 吴班、冯习攻破李异等后，刘备军次于秭归。旁白说“顺江而下”，此处正史只明记自巫至秭归，未记全程水路节点。
+  evidence:
+  - quote: 将军吴班、冯习自巫攻破异等，军次秭归
+    para: 三国志-p01870
+- id: e06
+  army: 刘备军
+  kind: 屯驻
+  place: 秭归
+  from: null
+  via: []
+  date: 221-秋
+  territory: null
+  note: 军次秭归表明前线驻止；“秭归”是脚本已有地名写法。
+  evidence:
+  - quote: 将军吴班、冯习自巫攻破异等，军次秭归
+    para: 三国志-p01870
+- id: e07
+  army: 五溪响应军
+  kind: 会合
+  place: 武陵
+  from: null
+  via: []
+  date: 221-秋至222-02
+  territory: null
+  note: 五溪渠帅遣使请兵，马良受命慰抚后各部响应；原文没有给出会师日期、地点或兵数，武陵在此仅指响应区域，不据此补画确定集结路线。
+  evidence:
+  - quote: 武陵五溪蛮夷遣使请兵
+    para: 三国志-p01870
+  - quote: 自佷山通武陵，遣侍中马良安慰五溪蛮夷，咸相率响应
+    para: 三国志-p01871
+  skip: 旁白未讲五溪响应
+- id: e08
+  army: 刘备军
+  kind: 行军
+  place: 秭归
+  from: 未核
+  via: []
+  date: 222-01
+  territory: null
+  note: 章武二年正月记“军还秭归”，可知此月刘备军回到秭归；从何处返回、准确行军路线未核。
+  evidence:
+  - quote: 二年春正月，先主军还秭归
+    para: 三国志-p01871
+  skip: 旁白未讲正月军还秭归
+- id: e09
+  army: 吴班陈式水军
+  kind: 屯驻
+  place: 夷陵
+  from: null
+  via: []
+  date: 222-01
+  territory: null
+  note: 水军分屯长江东西两岸；夷陵按脚本地名使用，史书只载“夷陵”而非现代行政区名。
+  evidence:
+  - quote: 将军吴班、陈式水军屯夷陵，夹江东西岸
+    para: 三国志-p01871
+  skip: 旁白未讲吴班陈式水军
+- id: e10
+  army: 刘备军
+  kind: 行军
+  place: 猇亭
+  from: 秭归
+  via: []
+  date: 222-02
+  territory: null
+  note: 刘备自秭归进军，沿山截岭至夷道猇亭；猇亭在夷道县境内，不另画夷道。
+  evidence:
+  - quote: 二月，先主自秭归率诸将进军，缘山截岭，于夷道猇亭驻营
+    para: 三国志-p01871
+- id: e11
+  army: 刘备军
+  kind: 翻越
+  place: 佷山
+  from: null
+  via: []
+  date: 222-02
+  territory: null
+  note: 原文说“自佷山通武陵”，但没有明确说刘备主力翻越佷山；是否应将其画为主力途经点未核，先保留为路线证据点。佷山为当时县名，今长阳一带的对应关系仅作约略比定。
+  evidence:
+  - quote: 自佷山通武陵
+    para: 三国志-p01871
+  skip: 原文未说主力翻越佷山
+- id: e12
+  army: 刘备军
+  kind: 屯驻
+  place: 猇亭
+  from: null
+  via: []
+  date: 222-02
+  territory: null
+  note: 刘备军在夷道猇亭驻营；史书未记各营具体位置或数目。
+  evidence:
+  - quote: 于夷道猇亭驻营
+    para: 三国志-p01871
+- id: e13
+  army: 黄权江北军
+  kind: 屯驻
+  place: 夷陵道
+  from: null
+  via: []
+  date: 222-02至06
+  territory: null
+  note: 黄权督江北军在夷陵道与吴军相拒；“夷陵道”是史书路线区域名，精确营址未核。
+  evidence:
+  - quote: 镇北将军黄权督江北诸军，与吴军相拒于夷陵道
+    para: 三国志-p01871
+  skip: 黄权江北军精确营址未核，旁白第20拍只讲投降
+- id: e14
+  army: 吴军
+  kind: 交战
+  place: 猇亭
+  from: null
+  via: []
+  date: 222-06
+  territory: null
+  note: 陆逊先攻刘备一营而未能攻下；此事见陆逊传叙述，具体日次未载。夷陵决战按先主传系于六月。
+  evidence:
+  - quote: 乃先攻一营，不利
+    para: 三国志-p02533
+  - quote: 夏六月，黄气见自秭归十余里中，广数十丈。后十余日，陆议大破先主军于猇亭
+    para: 三国志-p01871
+- id: e15
+  army: 吴军
+  kind: 攻占
+  place: 猇亭
+  from: null
+  via: []
+  date: 222-06
+  territory: null
+  note: 吴军火攻并同时进击，攻破蜀军四十余营；这是营寨被破，不是郡级归属改变，故 territory 为 null。战场在猇亭，史书未逐一列出被破诸营的地名。
+  evidence:
+  - quote: 乃敕各持一把茅，以火攻拔之。一尔势成，通率诸军同时俱攻，斩张南、冯习及胡王沙靡柯等首，破其四十余营
+    para: 三国志-p02533
+- id: e16
+  army: 刘备军
+  kind: 退守
+  place: 马鞍山
+  from: 猇亭
+  via: []
+  date: 222-06
+  territory: null
+  note: 刘备登马鞍山并列兵自守，吴军随即四面围逼；马鞍山具体山址未核，后世地名与当时战场关系不确定。
+  evidence:
+  - quote: 备升马鞍山，陈兵自绕
+    para: 三国志-p02533
+  skip: 马鞍山地望未核，不画精确点；退守和被围画在猇亭战场一带
+- id: e17
+  army: 吴军
+  kind: 交战
+  place: 马鞍山
+  from: 猇亭
+  via: []
+  date: 222-06
+  territory: null
+  note: 陆逊督军四面进逼，蜀军溃散，死者以万计；“上万人”是史书“死者万数”的概述，不是精确统计。此役未见马鞍山对应郡县易手。
+  evidence:
+  - quote: 逊督促诸军四面蹙之，土崩瓦解，死者万数
+    para: 三国志-p02533
+  skip: 马鞍山地望未核，不画精确点；退守和被围画在猇亭战场一带
+- id: e18
+  army: 刘备军
+  kind: 撤退
+  place: 白帝
+  from: 猇亭
+  via:
+  - 秭归
+  date: 222-06
+  territory: null
+  note: 刘备夜间撤退，先收散兵于秭归，弃船改走陆路到鱼复；鱼复县随后改名永安。脚本用“白帝”作地点名，白帝城为后世常用名；史书此句的当时地名是鱼复，二者地望约同今奉节一带。
+  evidence:
+  - quote: 先主自猇亭还秭归，收合离散兵，遂弃船舫，由步道还鱼复，改鱼复县曰永安
+    para: 三国志-p01871
+  - quote: 备因夜遁，驿人自担烧铙铠断后，仅得入白帝城
+    para: 三国志-p02533
+- id: e19
+  army: 吴军
+  kind: 行军
+  place: 南山
+  from: 猇亭
+  via: []
+  date: 222-06至08
+  territory: null
+  note: 李异、刘阿等追蹑刘备军并屯南山；南山具体是哪一处山岭、与猇亭及鱼复的关系均未核，坐标仅作追击区域示意。
+  evidence:
+  - quote: 吴遣将军李异、刘阿等踵蹑先主军，屯驻南山
+    para: 三国志-p01871
+  skip: 旁白未讲南山追兵、吴军还巫
+- id: e20
+  army: 吴军
+  kind: 屯驻
+  place: 南山
+  from: null
+  via: []
+  date: 222-06至08
+  territory: null
+  note: 追军驻屯南山，原文未记日月；南山地望未核。
+  evidence:
+  - quote: 吴遣将军李异、刘阿等踵蹑先主军，屯驻南山
+    para: 三国志-p01871
+  skip: 旁白未讲南山追兵、吴军还巫
+- id: e21
+  army: 黄权江北军
+  kind: 投降
+  place: 江北
+  from: 夷陵道
+  via: []
+  date: 222-08
+  territory: null
+  note: 黄权率所部降魏；史书没有记具体降地，按其原驻“江北诸军”标注江北区域示意点。部队投降魏不等于一个郡易手，故 territory 为 null；此处不表示南郡或其他郡归魏。
+  evidence:
+  - quote: 镇北将军黄权督江北诸军，与吴军相拒于夷陵道
+    para: 三国志-p01871
+  - quote: 秋七月，冀州大蝗，民饥，使尚书杜畿持节开仓廪以振之。八月，蜀大将黄权率觽降
+    para: 三国志-p00399
+  - quote: 及吴将军陆议乘流断围，南军败绩，先主引退。而道隔绝，权不得还，故率将所领降于魏
+    para: 三国志-p02090
+- id: e22
+  army: 吴军
+  kind: 撤退
+  place: 巫
+  from: 南山
+  via: []
+  date: 222-08
+  territory: null
+  note: 先主传接叙追军屯驻南山后说“秋八月，收兵还巫”，据上下文判断主语为吴军，属语境推定；巫为当时县名，今巫山县一带。
+  evidence:
+  - quote: 吴遣将军李异、刘阿等踵蹑先主军，屯驻南山。秋八月，收兵还巫
+    para: 三国志-p01871
+  skip: 旁白未讲南山追兵、吴军还巫
+places_new:
+- name: 巫
+  lon: 109.88
+  lat: 31.08
+  precision: 约略
+  basis: 当时巫县约在今重庆巫山县一带；史书只给县名，此点取今县城附近作示意，古县治精确位置未核。
+  evidence:
+  - quote: 吴将陆议、李异、刘阿等屯巫、秭归
+    para: 三国志-p01870
+- name: 夷道
+  lon: 111.45
+  lat: 30.38
+  precision: 约略
+  basis: 当时夷道县约当今湖北宜都一带；点位为现代地名区域近似，不代表古县治已考定。
+  evidence:
+  - quote: 于夷道猇亭驻营
+    para: 三国志-p01871
+- name: 佷山
+  lon: 111.18
+  lat: 30.47
+  precision: 约略
+  basis: 佷山为当时县名，约在今湖北长阳一带；具体县治及通武陵路线未核，点位仅作区域示意。
+  evidence:
+  - quote: 自佷山通武陵
+    para: 三国志-p01871
+- name: 夷陵道
+  lon: 111.3
+  lat: 30.7
+  precision: 未核
+  basis: 原文作道路/战区名称，未核具体道路线路；坐标取夷陵区域中点作路线提示，不可视作考定关隘。
+  evidence:
+  - quote: 与吴军相拒于夷陵道
+    para: 三国志-p01871
+- name: 马鞍山
+  lon: 111.37
+  lat: 30.61
+  precision: 未核
+  basis: 史书只记刘备登马鞍山，具体山址未核；坐标暂置猇亭—夷陵战区作示意，不能视作已经定位。
+  evidence:
+  - quote: 备升马鞍山，陈兵自绕
+    para: 三国志-p02533
+- name: 南山
+  lon: 109.75
+  lat: 31.02
+  precision: 未核
+  basis: 仅知吴军追击后屯驻南山，未核所指山岭；坐标按三峡西段追击区域示意，不能作为古地考定点。
+  evidence:
+  - quote: 吴遣将军李异、刘阿等踵蹑先主军，屯驻南山
+    para: 三国志-p01871
+- name: 江北
+  lon: 111.3
+  lat: 30.8
+  precision: 未核
+  basis: “江北诸军”仅说明长江北岸战区，黄权确切投降地点未载；坐标取夷陵附近北岸区域作示意，不能表示明确降点或郡界。
+  evidence:
+  - quote: 镇北将军黄权督江北诸军，与吴军相拒于夷陵道
+    para: 三国志-p01871
+open_questions:
+- 刘备东征起兵的准确出发地、全程水路停泊点，以及221年秋巫至秭归之后冬季至222年正月返回秭归的具体路线，史书未详；旁白“顺江而下，一路打到秭归”可概括方向，不能据此补定中间站点。
+- 本集地图标注的范围为221-08–221-08，但战事账所据史料始于221年秋七月，猇亭决战在222年六月，吴军八月收兵还巫；地图时间窗如何涵盖这段战事需Claude核对。
+- 旁白“吴军……一守就是七八个月”与史书记刘备222年二月进军驻猇亭、六月陆逊大破刘备的纪月跨度不合；陆逊传虽记“相守”及待敌疲敝，但没有支持七八个月的明确起止日期。
+- 佷山、夷道、夷陵道、马鞍山、南山和黄权江北军降地的具体地望或路线关系未核；其中“自佷山通武陵”不等于刘备主力确定翻越佷山，马鞍山、南山尤不宜画成精确定位。
+- 黄权降魏是部队归降记载，未见其导致某一郡改属魏的原文；疆域上应保持郡级归属不变，是否另标军队降魏由Claude决定。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

@@ -1,0 +1,533 @@
+{
+ "mode": "mimo",
+ "beats": [
+  {
+   "file_start": 0.3,
+   "file_end": 5.75,
+   "voice_onset": 0.43,
+   "voice_offset": 5.51
+  },
+  {
+   "file_start": 5.75,
+   "file_end": 9.092,
+   "voice_onset": 6.05,
+   "voice_offset": 8.85
+  },
+  {
+   "file_start": 9.092,
+   "file_end": 13.994,
+   "voice_onset": 9.372,
+   "voice_offset": 13.942
+  },
+  {
+   "file_start": 14.294,
+   "file_end": 19.326,
+   "voice_onset": 14.344,
+   "voice_offset": 19.084
+  },
+  {
+   "file_start": 19.326,
+   "file_end": 23.152,
+   "voice_onset": 19.626,
+   "voice_offset": 23.146
+  },
+  {
+   "file_start": 23.452,
+   "file_end": 29.208,
+   "voice_onset": 23.622,
+   "voice_offset": 28.952
+  },
+  {
+   "file_start": 29.508,
+   "file_end": 35.648,
+   "voice_onset": 29.568,
+   "voice_offset": 35.638
+  },
+  {
+   "file_start": 35.948,
+   "file_end": 40.53,
+   "voice_onset": 36.008,
+   "voice_offset": 40.268
+  },
+  {
+   "file_start": 40.53,
+   "file_end": 43.187,
+   "voice_onset": 40.82,
+   "voice_offset": 43.18
+  },
+  {
+   "file_start": 43.487,
+   "file_end": 51.302,
+   "voice_onset": 43.647,
+   "voice_offset": 50.927
+  },
+  {
+   "file_start": 51.602,
+   "file_end": 57.98,
+   "voice_onset": 51.722,
+   "voice_offset": 57.902
+  },
+  {
+   "file_start": 58.28,
+   "file_end": 64.546,
+   "voice_onset": 58.37,
+   "voice_offset": 64.11
+  },
+  {
+   "file_start": 64.546,
+   "file_end": 67.994,
+   "voice_onset": 64.636,
+   "voice_offset": 67.746
+  },
+  {
+   "file_start": 67.994,
+   "file_end": 73.578,
+   "voice_onset": 68.284,
+   "voice_offset": 73.334
+  },
+  {
+   "file_start": 73.578,
+   "file_end": 81.191,
+   "voice_onset": 73.888,
+   "voice_offset": 80.938
+  },
+  {
+   "file_start": 81.191,
+   "file_end": 86.5,
+   "voice_onset": 81.481,
+   "voice_offset": 86.241
+  },
+  {
+   "file_start": 86.5,
+   "file_end": 90.609,
+   "voice_onset": 86.79,
+   "voice_offset": 90.6
+  },
+  {
+   "file_start": 90.909,
+   "file_end": 97.467,
+   "voice_onset": 90.939,
+   "voice_offset": 97.239
+  },
+  {
+   "file_start": 97.467,
+   "file_end": 101.206,
+   "voice_onset": 97.777,
+   "voice_offset": 100.797
+  },
+  {
+   "file_start": 101.206,
+   "file_end": 106.496,
+   "voice_onset": 101.246,
+   "voice_offset": 106.236
+  },
+  {
+   "file_start": 106.496,
+   "file_end": 111.254,
+   "voice_onset": 106.786,
+   "voice_offset": 110.836
+  },
+  {
+   "file_start": 111.254,
+   "file_end": 117.52,
+   "voice_onset": 111.324,
+   "voice_offset": 117.514
+  },
+  {
+   "file_start": 117.82,
+   "file_end": 124.719,
+   "voice_onset": 117.9,
+   "voice_offset": 124.4
+  },
+  {
+   "file_start": 125.019,
+   "file_end": 130.39,
+   "voice_onset": 125.099,
+   "voice_offset": 130.139
+  },
+  {
+   "file_start": 130.39,
+   "file_end": 135.48,
+   "voice_onset": 130.68,
+   "voice_offset": 135.48
+  },
+  {
+   "file_start": 135.78,
+   "file_end": 142.339,
+   "voice_onset": 135.9,
+   "voice_offset": 141.97
+  },
+  {
+   "file_start": 142.639,
+   "file_end": 147.273,
+   "voice_onset": 142.729,
+   "voice_offset": 147.039
+  },
+  {
+   "file_start": 147.273,
+   "file_end": 152.802,
+   "voice_onset": 147.573,
+   "voice_offset": 152.543
+  },
+  {
+   "file_start": 152.802,
+   "file_end": 160.787,
+   "voice_onset": 153.082,
+   "voice_offset": 160.522
+  },
+  {
+   "file_start": 160.787,
+   "file_end": 164.632,
+   "voice_onset": 161.067,
+   "voice_offset": 164.407
+  },
+  {
+   "file_start": 164.632,
+   "file_end": 169.126,
+   "voice_onset": 164.962,
+   "voice_offset": 168.872
+  },
+  {
+   "file_start": 169.126,
+   "file_end": 172.759,
+   "voice_onset": 169.426,
+   "voice_offset": 172.596
+  }
+ ],
+ "narration": "D:\\history\\codx_3 history studio\\01_工作流\\projects\\s01e25-gaopingling\\voice\\narration.wav",
+ "asr": [
+  {
+   "beat": 1,
+   "chapter": 1,
+   "text": "一个老人病得话都说不利索。侍女喂他喝粥，粥顺着嘴角，流了一胸口。来探病的人回去报告：司马公快不行了。几个月后，这个快死的人，一天之内，夺了整个魏国的大权。",
+   "heard": "一个老人病得话都说不利索，侍女喂他喝粥，粥顺着嘴角流了一胸口。来探病的人回去报告，司马公快不行了。几个月后，这个快死的人一天之内夺了整个魏国的大权。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 4,
+   "chapter": 2,
+   "text": "时间倒回十年。二三八年，辽东的公孙渊叛魏，自立为烟王。魏明帝问司马懿：一来一回，要多久？司马懿说：",
+   "heard": "时间倒回十年，二三八年，辽东的公孙渊叛魏，自立为燕王。魏明帝问司马懿：“一来一回要多久？”司马懿说。",
+   "ratio": 0.976,
+   "diff": [
+    "「烟」→「燕」"
+   ]
+  },
+  {
+   "beat": 6,
+   "speaker": "司马懿",
+   "text": "去一百天，回一百天，打一百天，再歇六十天。一年，足够了！",
+   "heard": "去一百天，回一百天，打一百天，再歇六十天，一年足够了。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 7,
+   "chapter": 4,
+   "text": "他带着四万步骑北上，渡过辽水，围住襄平。八月城破，公孙渊父子被斩。",
+   "heard": "他带着四万步骑北上，渡过辽水，围住襄平。八月城破，公孙渊父子被斩。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 8,
+   "chapter": 5,
+   "text": "就在这时，魏明帝曹瑞病危，派驿马连夜召司马懿回京。曹瑞把他拉到床前，握着他的手：",
+   "heard": "就在这时，魏明帝曹睿病危，派驿马连夜召司马懿回京。曹睿把他拉到床前，握着他的手。",
+   "ratio": 0.943,
+   "diff": [
+    "「瑞」→「睿」",
+    "「瑞」→「睿」"
+   ]
+  },
+  {
+   "beat": 10,
+   "speaker": "曹叡",
+   "text": "我病得很重，后事就托付给你了。你和曹爽一起，辅佐我的小儿子。见到你，我就没有遗憾了！",
+   "heard": "我病得很重，后事就托付给你了。你和曹爽一起辅佐我的小儿子，见到你，我就没有遗憾了。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 11,
+   "chapter": 7,
+   "text": "当天，曹瑞去世，只有三十六岁。八岁的曹芳即位，大将军曹爽和太尉司马懿，一起辅政。",
+   "heard": "当天，曹睿去世，只有三十六岁。八岁的曹芳即位，大将军曹爽和太尉司马懿一起辅政。",
+   "ratio": 0.971,
+   "diff": [
+    "「瑞」→「睿」"
+   ]
+  },
+  {
+   "beat": 12,
+   "chapter": 8,
+   "text": "曹爽很快架空了司马懿。他把太后迁走，让兄弟们掌管禁军，到处安插亲信。二四七年五月，司马懿称病，不再上朝。第二年冬天，曹爽的亲信李胜要去荆州上任，借着辞行，来探虚实。司马懿让两个侍女扶着，衣服都拿不住，指着嘴说渴。侍女端来粥，他不接杯子，粥全流到了胸口。李胜说：我是回本州荆州。司马懿故意听成并州，翻来覆去地说错。李胜回去告诉曹爽：司马公只剩一口气了，不用再担心。",
+   "heard": "曹爽很快架空了司马懿，他把太后迁走，让兄弟们掌管禁军，到处安插亲信。二四七年五月，司马懿称病，不再上朝。第二年冬天，曹爽的亲信李胜要去荆州上任，借着辞行来探虚实。司马懿让两个侍女扶着，衣服都拿不住，指着嘴说渴。侍女端来粥，他不接杯子，粥全流到了胸口。李胜说：“我是回本州荆州。”司马懿故意听成并州，翻来覆去地说错。李胜回去告诉曹爽，司马公只剩一口气了，不用再担心。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 18,
+   "chapter": 9,
+   "text": "二四九年正月，小皇帝出城，去拜祭明帝的高平陵。曹爽兄弟，全都跟着去了。就在这一天，快死的司马懿，站了起来。他奏请太后，罢免曹爽兄弟；儿子司马师带兵守住宫门。他自己领兵屯在洛水浮桥，堵住曹爽回城的路。曹爽的智囊桓范逃出城去找曹爽。蒋济急了：智囊跑了！司马懿却说：",
+   "heard": "二四九年正月，小皇帝出城去拜祭明帝的高平陵，曹爽兄弟全都跟着去了。就在这一天，快死的司马懿站了起来，他奏请太后罢免曹爽兄弟，儿子司马师带兵守住宫门，他自己领兵屯在洛水浮桥，堵住曹爽回城的路。曹爽的智囊桓范逃出城去找曹爽，蒋济急了，智囊跑了，司马懿却说。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 23,
+   "speaker": "司马懿",
+   "text": "曹爽就像一匹劣马，舍不得槽里那点豆子。他用不了桓范的计策。",
+   "heard": "曹爽就像一匹劣马，舍不得槽里那点豆子，他用不了还范的计策。",
+   "ratio": 0.962,
+   "diff": [
+    "「桓」→「还」"
+   ]
+  },
+  {
+   "beat": 24,
+   "chapter": 11,
+   "text": "桓范劝曹爽：带着皇帝去许昌，调集天下兵马。曹爽犹豫了一整夜。司马懿派人传话：只是罢官。还指着洛水，发了誓。曹爽信了：",
+   "heard": "桓范劝曹爽带着皇帝去许昌调集天下兵马。曹爽犹豫了一整夜，司马懿派人传话，只是罢官，还指着洛水发了誓。曹爽信了。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 26,
+   "speaker": "曹爽",
+   "text": "司马公不过是要夺我的权。我回家当个侯爷，照样是个富家翁。",
+   "heard": "司马公不过是要夺我的权，我回家当个侯爷，照样是个富家翁。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 27,
+   "chapter": 13,
+   "text": "桓范捶着胸口大哭：我的全族，要被你连累死了！几天后，曹爽兄弟和何晏、桓范等人，以谋反罪被杀，诛灭三族。一个七十岁的病人，怎么一天夺了魏国？装两年病，让对手放下戒心；趁他们全出了城，关城门、夺禁军。最后一句洛水之誓，骗曹爽自己交出了兵权。曹爽要是听了桓范的话，去许昌调兵，结局会不一样吗？从这一天起，魏国的大权，姓了司马。",
+   "heard": "桓范捶着胸口大哭：“我的全族要被你连累死了！”几天后，曹爽兄弟和何晏、桓范等人以谋反罪被杀，诛灭三族。一个七十岁的病人，怎么一天夺了魏国？装两年病，让对手放下戒心，趁他们全出了城，关城门，夺禁军。最后一句洛水之事，骗曹爽自己交出了兵权。曹爽要是听了桓范的话，去许昌调兵，结局会不一样吗？从这一天起，魏国的大权姓了司马。",
+   "ratio": 0.993,
+   "diff": [
+    "「誓」→「事」"
+   ]
+  }
+ ],
+ "speaker_pace": [
+  {
+   "beat": 6,
+   "speaker": "司马懿",
+   "rate_before": 3.1,
+   "speed": 1.35,
+   "rate": 4.18
+  },
+  {
+   "beat": 10,
+   "speaker": "曹叡",
+   "rate_before": 4.12,
+   "speed": 1.21,
+   "rate": 5.0
+  },
+  {
+   "beat": 23,
+   "speaker": "司马懿",
+   "rate_before": 3.0,
+   "speed": 1.35,
+   "rate": 4.05
+  },
+  {
+   "beat": 26,
+   "speaker": "曹爽",
+   "rate_before": 3.1,
+   "speed": 1.35,
+   "rate": 4.18
+  }
+ ],
+ "tempo": [
+  {
+   "chapter": 1,
+   "raw_rate": 4.62,
+   "factor": 1.128
+  },
+  {
+   "chapter": 2,
+   "raw_rate": 4.25,
+   "factor": 1.128
+  },
+  {
+   "chapter": 4,
+   "raw_rate": 4.03,
+   "factor": 1.128
+  },
+  {
+   "chapter": 5,
+   "raw_rate": 4.56,
+   "factor": 1.128
+  },
+  {
+   "chapter": 7,
+   "raw_rate": 4.7,
+   "factor": 1.128
+  },
+  {
+   "chapter": 8,
+   "raw_rate": 4.72,
+   "factor": 1.128
+  },
+  {
+   "chapter": 9,
+   "raw_rate": 4.18,
+   "factor": 1.128
+  },
+  {
+   "chapter": 11,
+   "raw_rate": 4.34,
+   "factor": 1.128
+  },
+  {
+   "chapter": 13,
+   "raw_rate": 4.33,
+   "factor": 1.128
+  }
+ ],
+ "chapter_match": {
+  "eq_max_db": [
+   3.1,
+   2.5,
+   4.1,
+   4.8,
+   5.0,
+   2.8,
+   3.6,
+   4.2,
+   4.7
+  ],
+  "level_before_db": [
+   -25.6,
+   -22.9,
+   -22.7,
+   -24.8,
+   -24.6,
+   -28.2,
+   -25.6,
+   -25.7,
+   -24.2
+  ],
+  "level_after_db": -24.9
+ },
+ "splits": [
+  {
+   "beat": 1,
+   "ratio": 1.0
+  },
+  {
+   "beat": 2,
+   "ratio": 1.0
+  },
+  {
+   "beat": 3,
+   "ratio": 1.0
+  },
+  {
+   "beat": 4,
+   "ratio": 0.957
+  },
+  {
+   "beat": 5,
+   "ratio": 1.0
+  },
+  {
+   "beat": 7,
+   "ratio": 1.0
+  },
+  {
+   "beat": 8,
+   "ratio": 0.955
+  },
+  {
+   "beat": 9,
+   "ratio": 0.923
+  },
+  {
+   "beat": 11,
+   "ratio": 0.971
+  },
+  {
+   "beat": 12,
+   "ratio": 0.967
+  },
+  {
+   "beat": 13,
+   "ratio": 1.0
+  },
+  {
+   "beat": 14,
+   "ratio": 1.0
+  },
+  {
+   "beat": 15,
+   "ratio": 1.0
+  },
+  {
+   "beat": 16,
+   "ratio": 1.0
+  },
+  {
+   "beat": 17,
+   "ratio": 0.978
+  },
+  {
+   "beat": 18,
+   "ratio": 1.0
+  },
+  {
+   "beat": 19,
+   "ratio": 1.0
+  },
+  {
+   "beat": 20,
+   "ratio": 1.0
+  },
+  {
+   "beat": 21,
+   "ratio": 1.0
+  },
+  {
+   "beat": 22,
+   "ratio": 1.0
+  },
+  {
+   "beat": 24,
+   "ratio": 1.0
+  },
+  {
+   "beat": 25,
+   "ratio": 1.0
+  },
+  {
+   "beat": 27,
+   "ratio": 1.0
+  },
+  {
+   "beat": 28,
+   "ratio": 0.958
+  },
+  {
+   "beat": 29,
+   "ratio": 1.0
+  },
+  {
+   "beat": 30,
+   "ratio": 0.889
+  },
+  {
+   "beat": 31,
+   "ratio": 1.0
+  },
+  {
+   "beat": 32,
+   "ratio": 1.0
+  }
+ ],
+ "measurement": "10ms RMS>.004 after peak normalisation; phrase-level, not forced syllable alignment",
+ "cleaned": "0 breath/noise islands gated out"
+}

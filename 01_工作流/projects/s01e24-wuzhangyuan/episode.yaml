@@ -1,0 +1,281 @@
+# 快节奏版（2026-10-14，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第24集：陈仓、取武都阴平、木牛与张郃之死、五丈原、诸葛亮病逝、魏延之死（228–234）
+# 本地语料核对：
+# 诸葛亮传"冬，亮复出散关，围陈仓，曹真拒之，亮粮尽而还。魏将军王双率骑追亮，亮与战，破之，斩双。七年，亮遣陈式攻武都、阴平…遂平二郡…今复君丞相"；
+#   "九年，亮复出祁山，以木牛运，粮尽退军，与魏将张郃交战，射杀郃。十二年春，亮悉大众由斜谷出，以流马运，据武功五丈原，与司马宣王对于渭南。亮每患粮不继，使己志不申，是以分兵屯田，为久驻之基。耕者杂于渭滨居民之间，而百姓安堵，军无私焉。相持百余日。其年八月，亮疾病，卒于军，时年五十四。及军退，宣王案行其营垒处所，曰：天下奇才也！"；
+# 曹真传"真以亮惩于祁山，后出必从陈仓。乃使将军郝昭、王生守陈仓，治其城。明年春，亮果围陈仓，已有备而不能克"；张郃传"郃追至木门，与亮军交战，飞矢中郃右膝，薨"；
+# 后主传"九年…魏司马懿、张郃救祁山…秋八月，都护李严废徙梓潼郡"；"十二年…秋八月，亮卒渭滨。征西大将军魏延与丞相长史杨仪争权不和，举兵相攻，延败走。斩延首，仪率诸军还成都"。
+# 注文（片中标"据说"）：明帝纪注引魏氏春秋"亮既屡遣使交书，又致巾帼妇人之饰，以怒宣王…宣王见亮使，唯问其寝食及其事之烦简…使对曰：诸葛公夙兴夜寐，罚二十已上，皆亲览焉；所啖食不过数升。宣王曰：亮体毙矣，其能久乎"。
+# 不用：死诸葛走生仲达（汉晋春秋，注文）；七星灯续命、木牛流马自己会走（演义）；魏延子午谷奇谋（魏略，注文）。
+
+id: s01e24-wuzhangyuan
+title: 五丈原
+series: 三国 · 第24集
+year: 234
+
+notes:
+  - 主线问题：这位被对手称作"天下奇才"的人，北伐一次又一次，为什么始终没打下来？——粮食。他自己最怕的就是"粮不继"；对面又是一个肯熬的司马懿。
+  - 反差：活着的时候司马懿不敢出战；死了以后，对手走进他的空营，只说了一句"天下奇才"。
+  - 细节：曹真料到他走陈仓；木牛流马运粮；渭水边和百姓一起种地，"百姓安堵，军无私焉"；司马懿只问寝食；二十军棍以上的处罚亲自过问。
+  - 动机：诸葛亮屯田，是为了解决粮道翻越秦岭、接济不上的问题。
+  - 演义对照：死诸葛走生仲达只见于注引《汉晋春秋》；七星灯续命、木牛流马自己会走都是小说。
+
+map:
+  center: [106.5, 34.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-17 史图风
+  river_rank: 4
+  palette: warm          # 2026-10-25 第18集起统一新样式（第27集试样通过）
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 他死后，对手走进空营，只说了四个字
+  big: [星落五丈原]
+  hero: 诸葛亮
+  at: 30
+  summary: |
+    街亭之后诸葛亮没有停：围陈仓，曹真早有防备；取武都、阴平；再出祁山，用木牛运粮，张郃追到木门中箭而死。可粮食总是接不上——"亮每患粮不继，使己志不申"。
+    234 年春，他出斜谷、据五丈原，在渭水边分兵屯田，"百姓安堵，军无私焉"，和司马懿相持一百多天。八月，诸葛亮病逝军中，年五十四。魏延与杨仪争权，魏延被杀。蜀军退走后，司马懿走进他留下的营垒，叹道："天下奇才也！"
+  tags: [五丈原, 诸葛亮, 司马懿, 北伐, 魏延]
+  next: 司马懿高平陵之变
+
+sources_local:
+  - {id: sgz-03, work: 三国志, volume: 卷三·明帝纪（注引魏氏春秋）, url: 'https://zh.wikisource.org/wiki/三國志/卷03'}
+  - {id: sgz-09, work: 三国志, volume: 卷九·曹真传, url: 'https://zh.wikisource.org/wiki/三國志/卷09'}
+  - {id: sgz-17, work: 三国志, volume: 卷十七·张郃传, url: 'https://zh.wikisource.org/wiki/三國志/卷17'}
+  - {id: sgz-33, work: 三国志, volume: 卷三十三·后主传, url: 'https://zh.wikisource.org/wiki/三國志/卷33'}
+  - {id: sgz-35, work: 三国志, volume: 卷三十五·诸葛亮传, url: 'https://zh.wikisource.org/wiki/三國志/卷35'}
+
+factions: {魏: '#2f5d3a', 蜀汉: '#5f8f3a', 吴: '#b0841f'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    魏: {slot: jade, main: true, label_at: 长安}
+    蜀汉: {slot: pink, label_at: 成都}
+    吴: {slot: lemon}
+
+people:
+  诸葛亮: {image: 03_素材/人物立绘/zhuge_liang.png, title: 丞相, role: 屡出祁山, faction: 蜀汉}
+  司马懿: {image: 03_素材/人物立绘/sima_yi.png, title: 大将军, role: 坚守不战, faction: 魏}
+  曹真: {image: 03_素材/人物立绘/cao_zhen.png, title: 大将军, role: 预守陈仓, faction: 魏}
+  张郃: {image: 03_素材/人物立绘/zhang_he.png, title: 车骑将军, role: 木门中箭, faction: 魏}
+  李严: {image: 03_素材/人物立绘/li_yan.png, title: 都护, role: 废徙梓潼, faction: 蜀汉}
+  魏延: {image: 03_素材/人物立绘/wei_yan.png, title: 征西大将军, role: 争权被杀, faction: 蜀汉}
+  杨仪: {image: 03_素材/人物立绘/yang_yi.png, title: 丞相长史, role: 率军还成都, faction: 蜀汉}
+  郝昭: {image: 03_素材/人物立绘/hao_zhao.png, title: 陈仓守将, role: 拒诸葛亮, faction: 魏}
+
+places:
+  成都: {id: chengdu_city, label: left, tier: capital}
+  汉中: {id: nanzheng, name: 汉中, label: right}
+  散关: {id: sanguan, label: left, tier: pass}
+  陈仓: {id: chencang, label: left}
+  武都: {id: xiabian, label: left}
+  祁山: {id: qishan, label: left}
+  木门: {id: mumen, label: above}
+  斜谷: {id: xiegu, label: right, tier: pass}
+  五丈原: {id: wuzhangyuan, label: below}
+  长安: {id: changan_han_city, label: right, tier: capital}
+
+camera:
+  focus: [汉中, 五丈原, 长安]
+  zoom: 2.0
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 诸葛亮死后，司马懿走进他留下的营寨，一处一处看过去，最后只说了一句：
+    map: '228-12'
+    year: 234
+    phase: 奇才
+    sources: [sgz-35]
+    camera: {focus: [五丈原, 斜谷], zoom: 12, move: 1.6}
+    show:
+      - sfx: 重拍转场
+      - enter: {who: 司马懿, side: right, cue: 司马懿, for: 4.4}
+
+  - say: 此人，真是天下奇才！
+    speaker: 司马懿
+    style: 缓缓叹息，又敬又惧，低沉
+    sources: [sgz-35]
+    show:
+      - quote: {text: 天下奇才也, source: 三国志·诸葛亮传, era: 建兴十二年, for: 3.6}
+
+  - say: 可这位奇才北伐了一次又一次，为什么始终没打下来？
+    sources: [sgz-35]
+    camera: {focus: [汉中, 祁山, 长安], zoom: fit, move: 1.6}
+
+  # ---------------- 第一章 陈仓 ----------------
+  - say: 街亭失败的那年冬天，诸葛亮又出散关，围住陈仓。
+    phase: 陈仓
+    year: 228
+    sources: [sgz-35]
+    tells: [e02]
+    show:
+      - title_bar: {text: 五丈原, sub: 三国 · 第24集, for: 3.2}
+      - sfx: 片头鼓
+      - army: {head: 诸葛亮, from: 汉中, via: [散关], to: 陈仓, faction: 蜀汉, banner: 汉, troops: infantry, size: 2.6, cue: 散关, grow: 2.6}
+
+  - say: 可曹真早就料到他会走陈仓，提前派郝昭加固了城墙。蜀军攻不下来，粮食吃完，只好撤退。
+    sources: [sgz-09, sgz-35]
+    camera: {focus: [散关, 陈仓], zoom: 12, move: 1.2}
+    tells: [e01, e03, e04]
+    show:
+      - enter: {who: 郝昭, side: left, cue: 郝昭, for: 3.4}
+      - enter: {who: 曹真, side: right, cue: 曹真, for: 3.4}
+      - battle: {at: 陈仓, text: 已有备而不能克, cue: 攻不下来}
+      - army: {head: 诸葛亮, from: 陈仓, via: [散关], to: 汉中, faction: 蜀汉, banner: 汉, troops: infantry, size: 2.2, cue: 撤退, grow: 2.0}   # 2026-10-25 补撤退：不然诸葛亮一直留在陈仓
+      - flag: {at: 陈仓, name: 郝昭, sub: 治其城, faction: 魏, cue: 郝昭}   # 2026-10-25 战事账：郝昭、王生先守陈仓
+
+  - say: 第二年，诸葛亮派陈式拿下了武都、阴平两个郡。刘禅恢复了他的丞相之位。
+    map: '229-03'
+    owners_cue: 拿下
+    year: 229
+    sources: [sgz-35]
+    camera: {focus: [汉中, 武都, 祁山], zoom: fit, move: 1.4}
+    tells: [e06, e10]
+    show:
+      - march: {from: 汉中, to: 武都, faction: 蜀汉, label: 平二郡, cue: 武都, grow: 1.6}
+      - sfx: {name: 疆域易手, cue: 拿下}
+
+  # ---------------- 第二章 木牛 ----------------
+  - say: 二三一年，诸葛亮再出祁山。这一次，他用上了一种新的运粮工具：木牛。
+    phase: 木牛
+    year: 231
+    sources: [sgz-35, sgz-33]
+    camera: {focus: [汉中, 祁山, 木门], zoom: fit, move: 1.4}
+    tells: [e11]
+    show:
+      - army: {head: 诸葛亮, from: 汉中, to: 祁山, faction: 蜀汉, banner: 汉, troops: infantry, size: 2.8, cue: 祁山, grow: 2.0}
+      - act: {act: prop, at: 祁山, item: 粮草, text: 以木牛运, cue: 木牛, size: 1.2, for: 4}   # 木牛流马素材待补（第8批）
+
+  - say: 对面来救祁山的，是司马懿和张郃。
+    sources: [sgz-33]
+    tells: [e12]
+    show:
+      - versus: {left: 司马懿, right: 张郃, label: 救祁山, cue: 司马懿, for: 3.6}
+      - army: {head: 司马懿, from: 长安, to: 祁山, faction: 魏, banner: 司马, troops: cavalry, size: 2.8, cue: 司马懿, grow: 2.2, camp: false}   # 2026-10-25 战事账：懿、郃救祁山（出发地未载，按都督雍凉驻长安画）
+
+  - say: 可粮食还是接不上。夏天，蜀军退兵。张郃追到木门，右膝中了一箭，死了。
+    sources: [sgz-35, sgz-17]
+    camera: {focus: [祁山, 木门], zoom: 12, move: 1.2}
+    tells: [e15]
+    show:
+      - army: {head: 诸葛亮, from: 祁山, to: 汉中, faction: 蜀汉, banner: 汉, troops: infantry, size: 2.4, cue: 退兵, grow: 2.0}
+      - battle: {at: 木门, text: 飞矢中郃右膝, cue: 中了一箭}
+      - exit: {who: 张郃, at: 木门, verb: 卒, portrait: true, cue: 死了}
+      - sfx: {name: 中箭, cue: 中了一箭}
+
+  - say: 负责督运粮草的李严，也因为这次运粮的事，被撤职流放。
+    sources: [sgz-33]
+    show:
+      - enter: {who: 李严, side: right, cue: 李严, for: 3}
+
+  # ---------------- 第三章 五丈原 ----------------
+  - say: 二三四年春，诸葛亮带着全部人马，出斜谷，用流马运粮，在五丈原扎下大营。
+    phase: 五丈原
+    year: 234
+    sources: [sgz-35]
+    camera: {focus: [汉中, 斜谷, 五丈原, 长安], zoom: fit, move: 1.6}
+    tells: [e16, e17]
+    show:
+      - army: {head: 诸葛亮, from: 汉中, via: [斜谷], to: 五丈原, faction: 蜀汉, banner: 汉, troops: infantry, size: 3.2, cue: 斜谷, grow: 2.6}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 隔着渭水，司马懿扎下营寨，就是不出战。
+    sources: [sgz-35]
+    camera: {focus: 五丈原, zoom: 14, move: 1.2}
+    show:
+      - flag: {at: 五丈原, name: 司马懿, sub: 对于渭南, faction: 魏, cue: 司马懿}
+
+  - say: 诸葛亮每次都愁粮食接不上。这一回，他干脆分兵种地，准备长期耗下去。
+    sources: [sgz-35]
+    show:
+      - quote: {text: 亮每患粮不继，使己志不申, source: 三国志·诸葛亮传, era: 建兴十二年, cue: 粮食, for: 4.4}
+      - act: {act: farm, at: 五丈原, cue: 种地, for: 4}
+
+  - say: 蜀军就在渭水边，和当地百姓一起耕田。百姓照样安居，军中没有一个人侵扰他们。
+    sources: [sgz-35]
+    show:
+      - card: {title: 渭滨屯田, body: 耕者杂于渭滨居民之间，而百姓安堵，军无私焉, cue: 安居}
+
+  - say: 据说，诸葛亮还派人给司马懿送去一套女人的头巾和衣服，笑他不敢出战。
+    sources: [sgz-03]
+    show:
+      - card: {title: 据说 · 巾帼之饰, body: 出自明帝纪注引《魏氏春秋》, cue: 女人}
+
+  - say: 司马懿不生气，只问来使：诸葛公睡得怎么样，吃得多少，忙不忙？
+    sources: [sgz-03]
+    show:
+      - vignette: {image: illus_simayi_envoy, cue: 只问来使, for: 8, text: 问寝食，不问军事}
+
+  - say: 使者说：丞相起早贪黑，打二十军棍以上的处罚，都要亲自过问；一天吃的不过几升米。
+    sources: [sgz-03]
+
+  - say: 诸葛亮吃得这么少，事情这么多，还能撑多久？
+    speaker: 司马懿
+    style: 不动声色，慢条斯理，带着一丝冷笑
+    sources: [sgz-03]
+
+  # ---------------- 第四章 星落 ----------------
+  - say: 两军对峙了一百多天。这年八月，诸葛亮病逝在军中，只有五十四岁。
+    phase: 星落
+    sources: [sgz-35]
+    camera: {focus: 五丈原, zoom: 10, move: 1.0}
+    show:
+      - exit: {who: 诸葛亮, at: 五丈原, verb: 卒, portrait: true, cue: 病逝}
+      - sfx: {name: 退场钟, cue: 病逝}
+      - headline: {text: 星落五丈原, sub: 建兴十二年, cue: 五十四岁, for: 3.4}
+
+  - say: 他一死，大将魏延和长史杨仪争权，带兵互相攻打。魏延兵败被杀。
+    sources: [sgz-33]
+    show:
+      - versus: {left: 魏延, right: 杨仪, label: 争权不和, cue: 争权, for: 3}
+      - exit: {who: 魏延, at: 汉中, verb: 诛, portrait: true, cue: 被杀}
+
+  - say: 杨仪带着全军，退回了成都。
+    sources: [sgz-33]
+    camera: {focus: [五丈原, 斜谷, 汉中, 成都], zoom: fit, move: 1.4}
+    tells: [e26]
+    show:
+      - march: {from: 五丈原, via: [斜谷, 汉中], to: 成都, faction: 蜀汉, label: 率诸军还成都, cue: 退回, grow: 3.2}   # 2026-10-25 原来一条直线翻过秦岭，改走斜谷、汉中
+
+  - say: 等蜀军走远了，司马懿才走进他留下的营寨。这就是开头那一句：天下奇才。
+    sources: [sgz-35]
+
+  - say: 北伐为什么一直没成？诸葛亮自己最怕的，就是粮食接不上。何况对面，还是一个最能熬的司马懿。
+    sources: [sgz-35]
+    camera: {focus: [汉中, 五丈原, 长安, 成都], zoom: fit, move: 1.6}
+    show:
+      - card: {title: 演义 vs 正史, body: 死诸葛走生仲达只见于注引《汉晋春秋》；七星灯续命、木牛流马自己会走都是小说, cue: 司马懿}
+
+  - say: 白帝城那句"竭尽全力，到死为止"，他用一辈子兑现了。
+    sources: [sgz-35]
+
+  - say: 如果诸葛亮多活十年，你觉得他能打下长安吗？
+    territory_hold: 设问，长安没有易手
+    sources: [sgz-35]
+
+  - say: 诸葛亮走了。三国里最能熬的那个人，只剩下了司马懿。
+    sources: [sgz-35]
+    show:
+      - enter: {who: 司马懿, side: right, cue: 司马懿, for: 3.4}
+      - title_bar: {text: 下集, sub: 高平陵之变, cue: 司马懿, delay: 0.6, for: 3.0}

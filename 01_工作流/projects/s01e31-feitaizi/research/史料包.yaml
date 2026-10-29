@@ -1,0 +1,375 @@
+episode: s01e31-feitaizi
+title: 贾南风害死太子，赵王伦起兵（299–300）
+sections:
+  事件表:
+  - date: 约291–299（背景）
+    people:
+    - 贾南风
+    - 司马衷
+    - 贾谧
+    - 张华
+    - 裴頠
+    place: 洛阳
+    event: 承接前集杨骏之乱后，贾后掌权近十年，贾谧干预政事并推动对太子的猜疑；本集不重讲杨骏之乱。
+    sources:
+    - quote: 贾谧干预国事，权侔人主
+      para: 晋书-p03102
+    - quote: 谮太子于后曰
+      para: 晋书-p04289
+  - date: 299年十二月（元康九年）
+    people:
+    - 贾南风
+    - 司马遹
+    - 潘岳
+    - 董猛
+    - 张华
+    - 裴頠
+    place: 洛阳·宫内（式乾殿、东宫精确点位未核）
+    event: 贾后称帝病重召太子，灌酒使醉，令其抄写潘岳草拟的谋逆文书并补字呈帝。张华、裴頠辨疑、请求核验。贾后请废太子为庶人，帝准，太子被幽金墉城。
+    sources:
+    - quote: 太子醉迷不觉，遂依而写之，其字半不成。既而补成之
+      para: 晋书-p04290
+    - quote: 后惧事变，乃表免太子为庶人，诏许之
+      para: 晋书-p04290
+    - reference: 资治通鉴·卷八十三（在线核对；本地语料未收）
+      url: https://www.zhonghuashu.com/wiki/資治通鑑/卷083
+      note: 原文已对照在线卷八十三；不作为本地quote校验项。
+  - date: 300年（先于三月癸未被害；迁送年月日未核）
+    people:
+    - 司马遹
+    - 东武公司马澹
+    - 刘振
+    place: 洛阳→许昌
+    event: 太子被移送许昌宫幽禁；东武公澹以千兵防卫，刘振持节看守。
+    sources:
+    - reference: 资治通鉴·卷八十三（在线核对；本地语料未收）
+      url: https://www.zhonghuashu.com/wiki/資治通鑑/卷083
+      note: 在线文本已核对；不作为本地quote校验项。
+    - quote: 癸未，贾后矫诏害庶人遹于许昌
+      para: 晋书-p00097
+  - date: 300年三月癸未（永康元年）
+    people:
+    - 司马遹
+    - 贾南风
+    - 孙虑
+    - 刘振
+    place: 许昌宫
+    event: 贾后矫诏令孙虑赴许昌杀太子。太子拒服毒，孙虑以药杵击杀；《晋书》本传记太子时年二十三。
+    sources:
+    - quote: 癸未，贾后矫诏害庶人遹于许昌
+      para: 晋书-p00097
+    - quote: 虑乃逼太子以药，太子不肯服，因如厕，虑以药杵椎杀之
+      para: 晋书-p04292
+    - quote: 因如厕，虑以药杵椎杀之
+      para: 晋书-p04292
+  - date: 300年四月癸巳夜
+    people:
+    - 赵王司马伦
+    - 孙秀
+    - 齐王司马冏
+    - 闾和
+    - 三部司马
+    - 贾谧
+    - 贾南风
+    place: 洛阳宫城
+    event: 孙秀联络右卫佽飞督闾和，鼓声为号；伦矫诏调动三部司马，齐王冏率百人排阁入宫，内应迎惠帝至东堂。贾谧殿前遇害，贾后被废为庶人、幽于建始殿。
+    sources:
+    - quote: 伦又矫诏开门夜入，陈兵道南，遣翊军校尉、齐王冏将三部司马百人，排阁而入
+      para: 晋书-p04584
+    - quote: 遂废贾后为庶人，幽之于建始殿
+      para: 晋书-p04584
+    - reference: 资治通鉴·卷八十三（在线核对；本地语料未收）
+      url: https://www.zhonghuashu.com/wiki/資治通鑑/卷083
+      note: 在线文本已核对；不作为本地quote校验项。
+  - date: 300年四月癸巳夜
+    people:
+    - 张华
+    - 裴頠
+    - 解系
+    - 解结
+    - 赵王伦
+    - 孙秀
+    place: 洛阳宫殿前
+    event: 伦、秀为除朝望并报宿怨，矫诏收捕张华、裴頠等，二人在殿前被杀；具体殿址未核。
+    sources:
+    - quote: 执张华、裴頠、解结、杜斌等，于殿前杀之
+      para: 晋书-p04584
+    - quote: 司空张华、尚书仆射裴頠皆遇害
+      para: 晋书-p00097
+    - reference: 资治通鉴·卷八十三（在线核对；本地语料未收）
+      url: https://www.zhonghuashu.com/wiki/資治通鑑/卷083
+      note: 在线文本已核对；不作为本地quote校验项。
+  - date: 300年四月甲午至己亥
+    people:
+    - 司马伦
+    - 孙秀
+    - 贾南风
+    - 刘弘
+    place: 洛阳·金墉城
+    event: 伦自任相国、都督中外诸军事，独揽朝权；贾后被送金墉城，己亥赐死。
+    sources:
+    - quote: 伦矫诏大赦，自为相国、都督中外诸军
+      para: 晋书-p00097
+    - quote: 赵王伦矫诏害贾庶人于金墉城
+      para: 晋书-p00097
+    - reference: 资治通鉴·卷八十三（在线核对；本地语料未收）
+      url: https://www.zhonghuashu.com/wiki/資治通鑑/卷083
+      note: 在线文本已核对；不作为本地quote校验项。
+  - date: 300年四月以后（钩子）
+    people:
+    - 司马伦
+    - 孙秀
+    place: 洛阳
+    event: 司马伦掌握中外军政并置府兵；“开始做皇帝梦”是后见式推断，正式篡位发生在301年。
+    sources:
+    - quote: 自为相国、都督中外诸军，如宣文辅魏故事
+      para: 晋书-p00097
+    - reference: 资治通鉴·卷八十三（在线核对；本地语料未收）
+      url: https://www.zhonghuashu.com/wiki/資治通鑑/卷083
+      note: 在线文本已核对；不作为本地quote校验项。
+    - quote: 明年，赵王伦篡位，改元
+      para: 晋书-p00699
+  人物:
+  - name: 贾南风
+    life: 约257/258–300，确切生年未载
+    age: 约43/44（泰始八年272年时年十五，按虚岁换算至300年，误差约一岁）
+    office: 皇后（291–300）
+    portrait: 有：03_素材/人物立绘/jia_nanfeng.png
+    evidence:
+    - quote: 更娶南风，时年十五
+      para: 晋书-p03099
+    - quote: 后在位十一年
+      para: 晋书-p03105
+  - name: 司马衷
+    life: 259–307
+    age: 约40/41（按生年259至300年，虚实岁差一岁）
+    office: 晋惠帝
+    portrait: 有：03_素材/人物立绘/sima_zhong.png
+    evidence:
+    - quote: 孝惠皇帝讳衷，字正度
+      para: 晋书-p00087
+  - name: 司马遹
+    life: 约278–300，确切生年未核
+    age: 被害时二十三岁（本传直载）
+    office: 愍怀太子；废后为庶人
+    portrait: 有：03_素材/人物立绘/sima_yu.png
+    evidence:
+    - quote: 时年二十三
+      para: 晋书-p04292
+  - name: 司马伦
+    life: ？–301，生年未详
+    age: 未详
+    office: 赵王；300年四月任相国、都督中外诸军
+    portrait: 有：03_素材/人物立绘/sima_lun.png
+    evidence:
+    - quote: 自为相国、都督中外诸军
+      para: 晋书-p00097
+  - name: 孙秀
+    life: ？–301，生年未详
+    age: 未详
+    office: 赵王伦谋主；中书令
+    portrait: 无：缺立绘
+    evidence:
+    - quote: 伦信用佞人孙秀
+      para: 晋书-p04654
+    - reference: 资治通鉴·卷八十三（在线核对；本地语料未收）
+      url: https://www.zhonghuashu.com/wiki/資治通鑑/卷083
+      note: 在线文本已核对；不作为本地quote校验项。
+  - name: 张华
+    life: ？–300；本传未载生年
+    age: 未详
+    office: 司空；为太子辩诬
+    portrait: 有：03_素材/人物立绘/zhang_hua.png
+    evidence:
+    - quote: 惟张华、裴頠证明太子
+      para: 晋书-p04290
+  - name: 裴頠
+    life: ？–300，生年未详
+    age: 未详
+    office: 尚书仆射；请求核验太子手书
+    portrait: 有：03_素材/人物立绘/pei_wei.png
+    evidence:
+    - quote: 裴頠以为宜先检校传书者
+      para: 晋书-p03366
+  - name: 贾谧
+    life: ？–300，生年未详
+    age: 未详
+    office: 侍中、贾后亲党
+    portrait: 无：缺立绘
+    evidence:
+    - quote: 谮太子于后曰
+      para: 晋书-p04289
+  - name: 齐王司马冏
+    life: ？–302，生年未详
+    age: 未详
+    office: 齐王、翊军校尉；率百人入宫
+    portrait: 有：03_素材/人物立绘/sima_jiong.png
+    evidence:
+    - quote: 遣翊军校尉、齐王冏将三部司马百人
+      para: 晋书-p04584
+  - name: 东武公司马澹
+    life: 生卒未详
+    age: 未详
+    office: 东武公；奉命以千兵防卫太子
+    portrait: 无：缺立绘
+    evidence:
+    - reference: 资治通鉴·卷八十三（在线核对；本地语料未收）
+      url: https://www.zhonghuashu.com/wiki/資治通鑑/卷083
+      note: 在线文本已核对；不作为本地quote校验项。
+  - name: 孙虑
+    life: 生卒未详
+    age: 未详
+    office: 黄门；赴许昌杀太子
+    portrait: 无：缺立绘
+    evidence:
+    - quote: 矫诏使黄门孙虑斋至许昌以害太子
+      para: 晋书-p04292
+  - name: 刘振
+    life: 生卒未详
+    age: 未详
+    office: 持节御史；看守太子
+    portrait: 无：缺立绘
+    evidence:
+    - quote: 虑以告刘振，振乃徙太子于小坊中
+      para: 晋书-p04292
+  - name: 董猛
+    life: 生卒未详
+    age: 未详
+    office: 黄门令；展示太子书与青纸诏
+    portrait: 无：缺立绘
+    evidence:
+    - quote: 使黄门令董猛以太子书及青纸诏
+      para: 晋书-p04290
+  - name: 梁王司马肜
+    life: ？–302，生年未详
+    age: 未详
+    office: 梁王；与伦共同废贾后
+    portrait: 无：缺立绘
+    evidence:
+    - quote: 梁王肜、赵王伦矫诏废贾后为庶人
+      para: 晋书-p00097
+  地点:
+  - 古名: 洛阳（汉魏洛阳故城）
+    今址: 河南洛阳市偃师区一带
+    gazetteer: 有 luoyang_han_wei，112.6183E,34.7195N；古城点不代表宫殿坐标。式乾殿、东堂、建始殿未有独立点。
+  - 古名: 许昌（许昌宫）
+    今址: 今河南许昌市
+    gazetteer: 有 xuchang_approx，114.00971E,33.99189N；条目自注为现代城市近似点，非已考定的晋代宫址，等级/精度只支持城市级。
+  - 古名: 金墉城
+    今址: 汉魏洛阳故城西北隅，今孟津区翟泉村东/东北一带
+    gazetteer: 无；studio.py places 查询为空。建议等级为洛阳城内离宫小城，不是郡县。遗址近似坐标112.61482E,34.74455N（Mapcarta/OSM），不可当具体殿门点。依据：https://mapcarta.com/W1198845652；https://www.zgbk.com/ecph/words?ID=534318&SiteID=1&SubID=192054&Type=bkzyb
+  - 古名: 式乾殿、东堂、宫殿前、许昌宫、小坊
+    今址: 洛阳或许昌的宫禁建筑区
+    gazetteer: 无独立条目，精确遗址未核；不应给独立坐标或画精确宫内路线。
+  演义 / 野史与史家争议:
+  - topic: “贾后亲手灌醉/亲手杀人”戏剧化说法
+    finding: 正史写贾后命令、潘岳草书、黄门执行；不把她亲自动手当史实。
+    evidence:
+    - quote: 其字半不成
+      para: 晋书-p04290
+    - quote: 贾后矫诏害庶人遹于许昌
+      para: 晋书-p00097
+  - topic: 赵王伦是否真为太子复仇
+    finding: 《晋书》传记写孙秀建议延迟行动，待太子被害后借“报仇”立功；同文另揭二人谋篡位，复仇是政治名义而非唯一动机。
+    evidence:
+    - quote: 然后废贾后，为太子报仇，犹足以为功
+      para: 晋书-p04292
+    - reference: 资治通鉴·卷八十三（在线核对；本地语料未收）
+      url: https://www.zhonghuashu.com/wiki/資治通鑑/卷083
+      note: 在线文本已核对；不作为本地quote校验项。
+  - topic: 张华在废太子议上的行动
+    finding: 愍怀太子传称张华、裴頠证明太子；张华传详载张华反对废嫡，裴頠请验书。不可说张华完全沉默。
+    evidence:
+    - quote: 惟张华、裴頠证明太子
+      para: 晋书-p04290
+    - quote: 此国之大祸
+      para: 晋书-p03366
+  - topic: 年龄及“专权十一年”
+    finding: 《晋书》称贾后在位十一年，291至300可概括近十年，不是完整十一年；司马遹时年二十三为本传直载。
+    evidence:
+    - quote: 后在位十一年
+      para: 晋书-p03105
+    - quote: 时年二十三
+      para: 晋书-p04292
+  - topic: “皇帝梦”时间
+    finding: 300年四月伦已总督中外诸军，作为钩子说其权力野心正在膨胀可；正式篡位在301年。
+    evidence:
+    - quote: 自为相国、都督中外诸军
+      para: 晋书-p00097
+    - quote: 明年，赵王伦篡位，改元
+      para: 晋书-p00699
+  - topic: 资料覆盖
+    finding: '本地sources未找到《资治通鉴》卷八十二至八十四，卷八十三改用中华文库在线本核对，外部原文均附URL、para: 无。'
+  读音风险字:
+  - 字: 遹
+    读音: yù
+    词: 司马遹
+    依据:
+    - quote: 遹书如此
+      para: 晋书-p04290
+  - 字: 頠
+    读音: wěi
+    词: 裴頠
+    依据:
+    - quote: 裴頠
+      para: 晋书-p03366
+  - 字: 肜
+    读音: róng
+    词: 梁王司马肜
+    依据:
+    - quote: 梁王肜、赵王伦矫诏废贾后为庶人
+      para: 晋书-p00097
+  - 字: 冏
+    读音: jiǒng
+    词: 齐王司马冏
+    依据:
+    - quote: 齐王冏将三部司马百人
+      para: 晋书-p04584
+  - 字: 佽
+    读音: cì
+    词: 佽飞督闾和
+    依据:
+    - quote: 佽飞督闾和
+      para: 晋书-p04584
+  - 字: 澹
+    读音: dàn
+    词: 东武公司马澹
+    依据:
+    - reference: 资治通鉴·卷八十三（在线核对；本地语料未收）
+      url: https://www.zhonghuashu.com/wiki/資治通鑑/卷083
+      note: 在线文本已核对；不作为本地quote校验项。
+  - 字: 墉
+    读音: yōng
+    词: 金墉城
+    依据:
+    - quote: 金墉城
+      para: 晋书-p00097
+  适合画成插画或战术图的场面:
+  - scene: 醉太子被诱写伪造谋逆文书；侍女递纸笔，书迹不成后被补字。
+    evidence:
+    - quote: 太子醉迷不觉，遂依而写之，其字半不成
+      para: 晋书-p04290
+  - scene: 许昌小坊断食、墙上传食，孙虑用药杵杀太子。
+    evidence:
+    - quote: 虑乃逼太子以药，太子不肯服，因如厕，虑以药杵椎杀之
+      para: 晋书-p04292
+  - scene: 夜间宫门政变：三部司马列阵、齐王冏率百人排阁、内应迎帝至东堂。
+    evidence:
+    - quote: 陈兵道南，遣翊军校尉、齐王冏将三部司马百人，排阁而入
+      para: 晋书-p04584
+  - scene: 张华、裴頠在宫殿前被杀。
+    evidence:
+    - quote: 执张华、裴頠、解结、杜斌等，于殿前杀之
+      para: 晋书-p04584
+  - scene: 贾后由宫城押送金墉城并赐死，地图表现洛阳城内短距离转移。
+    evidence:
+    - quote: 遣尚书和郁持节送贾庶人于金墉
+      para: 晋书-p04584
+    - quote: 赵王伦矫诏害贾庶人于金墉城
+      para: 晋书-p00097
+notes:
+- 第29集结尾是杨骏独揽大权、贾后盯上他；本集不复述杨骏之乱。
+- 299年十二月为元康九年十二月；300年为永康元年。迁许昌确日未核。
+- 金墉城坐标为遗址近似点。式乾殿、东堂、建始殿、许昌宫具体位置未核。
+- 人物相貌.yaml登记司马伦、司马冏等；本次看到目录有jia_mi.png，但相貌档案未核登记。
+- '引用校验说明：verify_quotes.py 当前将规范允许的外部引文 para: 无 判为“段落不存在”；外部《资治通鉴》引用已改为带URL的来源引用，不冒充本地段落。'

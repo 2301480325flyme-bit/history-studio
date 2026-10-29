@@ -1,0 +1,427 @@
+# 快节奏版（2026-10-25）
+# 《三国到隋》第41集 · 十六国：前赵后赵争霸（318–330）。大纲第 35 条。
+# 史料包：projects/s01e41-erzhao/research/史料包.yaml（Codex）；战事账：战事.yaml。
+# 本地语料核对（晋书）：
+# 刘聪载记/列传 p04848"靳准乃起兵杀粲，并其宗族"；元帝纪 p00136"靳准弑刘粲，自号汉王"；
+# 刘曜载记 p07099"靳准之难，自长安赴之。至于赤壁，太保呼延晏等自平阳奔之…上尊号"；p07100"乔泰、王腾、靳康、马忠等杀准，推尚书令靳明为盟主，遣卜泰奉传国六玺降于曜…明率平阳士女万五千归于曜，曜命诛明，靳氏男女无少长皆杀之…徙都长安…国号曰赵"；
+# 石勒载记下 p07197"勒命张敬率骑五千为前锋以讨准，勒统精锐五万继之…勒焚平阳宫室…徙浑仪乐器于襄国"；p07198 曹平乐谗、曜斩王修于粟邑、停太宰之授，勒令"赵王赵帝孤自取之，名号大小岂其所节邪"；
+# 刘曜载记 p07137"石季龙率众四万，自轵关西入伐曜，河东应之者五十余县，进攻蒲坂…曜尽中外精锐水陆赴之…追之，及于高候，大战，败之，斩其将军石瞻，枕尸二百余里…季龙奔于朝歌。曜遂济自大阳，攻石生于金墉，决千金堨以灌之。曜不抚士众，专与嬖臣饮博，左右或谏，曜怒，以为妖言，斩之…曜将战，饮酒数斗，常乘赤马无故局顿，乃乘小马，比出，复饮酒斗余…石堪因而乘之，师遂大溃。曜昏醉奔退，马陷石渠，坠于冰上，被疮十余，通中者三，为堪所执…曜曰：石王忆重门之盟不？勒使徐光谓曜曰：今日之事，天使其然，复云何邪"；
+#   p07138"勒谕曜与其太子熙书，令速降之。曜但敕熙与诸大臣匡维社稷，勿以吾易意也。勒览而恶之，后为勒所杀"；
+# 石勒载记下 p07248"荥阳太守尹矩、野王太守张进等皆降之，襄国大震…程遐等固谏…勒大怒，按剑叱遐等出…曜带甲十万攻一城，而百日不克，师老卒殆…勒统步骑四万赴金墉，济自大堨…流澌大至，勒以为神灵之助也，命曰灵昌津…曜盛兵成皋关，上计也；阻洛水，其次也；坐守洛阳者，成擒也…诸军集于成皋…勒见曜无守军，大悦，举手指天，又自指额曰：天也…季龙步卒三万自城北而西…石堪、石聪等各以精骑八千城西而北…大战于西阳门。勒躬贯甲胄，出自阊阖，夹击之。曜军大溃，石堪执曜…斩首五万余级"；
+# 成帝纪 p00155"十二月乙未，石勒败刘曜于洛阳，获之"；p00156"刘曜太子毗与其大司马刘胤帅百官奔于上邽，关中大乱…八月，曜将刘胤等帅众侵石生，次于雍。九月，石勒将石季龙击胤，斩之，进屠上邽，尽灭刘氏，坑其党三千余人"；p00157"秋八月，石勒僭即皇帝位"。
+# 不用：重门之盟的具体内容（本地未检到，旁白只说"当年的盟约"）；刘曜身长九尺三寸、眉白目赤（与本集主线无关）；坑三千余人的细节（旁白只说"杀了个干净"）。
+
+id: s01e41-erzhao
+title: 二赵争霸
+series: 十六国 · 第41集
+year: 328
+
+notes:
+  - 主线问题：同出汉国的刘曜和石勒，为什么从君臣变成死敌，最后一仗定输赢？——靳准之乱后两人抢平阳，刘曜拿了玉玺、又杀了石勒的使者，石勒干脆自立；十年后刘曜赢了一仗就围城喝酒，石勒亲征，刘曜醉酒坠马被擒，前赵一年后灭亡。
+  - 钩子候选：①"一场决定北方归属的大战，开打前，一个皇帝先喝了好几斗酒"（反差3 具体3 悬念3 兑现3=12）②"赵王也好，赵帝也好，我自己拿"（反差2 具体2 悬念2 兑现3=9）→ 选①。
+  - 反差：抢着去平叛，玉玺却送给了另一个；刘曜赢了高候，却输在喝酒；石勒最怕刘曜守成皋，成皋一个兵都没有；被俘的刘曜不肯叫儿子投降。
+  - 细节：并其宗族；赤壁称帝；传国六玺；靳氏无少长皆杀；浑仪乐器搬回襄国；赵王赵帝孤自取之；枕尸二百余里；决千金堨；饮博、谏者斩；按剑叱遐；灵昌津流澌；上中下三策；举手指天；赤马局顿换小马；马陷石渠坠冰上；石王忆重门之盟不；天使其然；勿以吾易意。
+  - 演义对照卡：结尾卡"史书怎么写"（刘曜载记：曜昏醉奔退，马陷石渠，坠于冰上）。
+
+map:
+  center: [111.5, 35.5]
+  scale: 5000
+  extent: [86.0, 12.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas
+  river_rank: 4
+  palette: warm
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 一场决定北方归属的大战，开打前，一个皇帝先喝了好几斗酒
+  big: [二赵争霸, 醉酒被擒]
+  hero: 刘曜
+  at: 3
+  summary: |
+    318 年汉国皇帝刘聪死，外戚靳准在平阳杀新君刘粲、屠灭刘氏宗族。长安的刘曜和襄国的石勒同时来讨：刘曜半路在赤壁称帝，平阳城里杀了靳准的人却把传国玉玺送给了刘曜，刘曜又杀尽靳氏。319 年刘曜迁都长安、改国号赵；又听信谗言杀了石勒的使者，石勒说"赵王赵帝，孤自取之"，在襄国称赵王，北方从此两个赵国。
+    328 年石虎攻蒲坂，刘曜在高候大败石虎，乘胜围洛阳金墉，围了一百天，天天饮酒赌博。石勒不顾群臣劝阻亲征，从灵昌津渡河，见成皋无人守，指天说"天也"。决战前刘曜又喝了好几斗酒，西阳门一战前赵军大溃，刘曜醉中马陷石渠、摔在冰上被俘。他不肯写信劝太子投降，后被杀。329 年太子奔上邽，石虎破刘胤、屠上邽，前赵亡；330 年石勒称帝。
+  tags: [十六国, 前赵, 后赵, 刘曜, 石勒, 石虎, 靳准之乱, 洛阳之战]
+  next: 石虎篡位
+
+sources_local:
+  - {id: js-06, work: 晋书, volume: 卷六·元帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷006'}
+  - {id: js-07, work: 晋书, volume: 卷七·成帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷007'}
+  - {id: js-63, work: 晋书, volume: 卷六十三·段匹磾传（附靳准事）, url: 'https://zh.wikisource.org/wiki/晉書/卷063'}
+  - {id: js-103, work: 晋书, volume: 卷一百三·刘曜载记, url: 'https://zh.wikisource.org/wiki/晉書/卷103'}
+  - {id: js-105, work: 晋书, volume: 卷一百五·石勒载记下, url: 'https://zh.wikisource.org/wiki/晉書/卷105'}
+
+factions: {汉赵: '#7a3b2e', 靳准: '#5a4a6a', 前赵: '#9c4a6a', 后赵: '#8a4b2a', 晋: '#2f5d3a'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    晋: {slot: jade, main: true, label_at: 建康}
+    汉赵: {slot: pink, label_at: 平阳}
+    前赵: {slot: pink, label_at: 长安}
+    后赵: {slot: sky, label_at: 襄国}
+    成汉: {slot: lime, label_at: 成都}
+
+people:
+  刘曜: {image: 03_素材/人物立绘/liu_yao.png, title: 前赵皇帝, role: 醉酒被擒, faction: 前赵}
+  石勒: {image: 03_素材/人物立绘/shi_le.png, title: 后赵赵王, role: 亲征洛阳, faction: 后赵}
+  石虎: {image: 03_素材/人物立绘/shi_hu.png, title: 石勒侄, role: 灭前赵, faction: 后赵}
+  刘聪: {image: 03_素材/人物立绘/liu_cong.png, title: 汉帝, role: 病死, faction: 汉赵}
+  刘粲: {image: 03_素材/人物立绘/liu_can.png, title: 汉帝, role: 被弑, faction: 汉赵}
+  靳准: {image: 03_素材/人物立绘/jin_zhun.png, title: 大将军, role: 屠刘氏, faction: 靳准}
+  徐光: {image: 03_素材/人物立绘/xu_guang.png, title: 石勒谋士, role: 劝亲征, faction: 后赵}
+
+places:
+  平阳: {id: pingyang_jin, label: left}
+  长安: {id: changan_han_city, label: below, tier: capital}
+  襄国: {id: xiangguo, label: right, tier: capital}
+  洛阳: {id: luoyang_han_wei, label: right}
+  赤壁: {id: chibi_hedong, label: left}
+  蒲坂: {id: pubanjin, name: 蒲坂, label: left}
+  轵关: {id: zhiguan, label: right, show: false}
+  高候: {id: gaohou, label: above}
+  朝歌: {id: zhaoge, label: right}
+  金墉: {id: jinyong, label: above, show: false}
+  灵昌津: {id: lingchangjin, label: right}
+  成皋: {id: chenggao_approx, label: right}
+  上邽: {id: shanggui, label: left}
+
+camera:
+  focus: [长安, 洛阳, 襄国]
+  zoom: fit
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 一场决定北方归谁的大战，开打前，一个皇帝先喝了好几斗酒。
+    map: '328-12'
+    year: 328
+    phase: 醉战
+    sources: [js-103]
+    camera: {focus: 洛阳, zoom: 7, move: 1.2}
+    show:
+      - sfx: 重拍转场
+      - act: {act: prop, at: 洛阳, item: 酒瓮, text: 饮酒数斗, cue: 好几斗酒, for: 3.4}
+
+  - say: 打到一半，他醉得栽下马，摔在冰面上，被敌人活捉。
+    sources: [js-103]
+    show:
+      - battle: {at: 洛阳, text: 坠于冰上, cue: 栽下马}
+      - sfx: {name: 悬疑, cue: 活捉}
+
+  - say: 他叫刘曜，前赵的皇帝。抓他的，是后赵的石勒。
+    sources: [js-103, js-105]
+    show:
+      - versus: {left: 刘曜, right: 石勒, label: 二赵, cue: 刘曜, for: 4.2}
+      - sfx: {name: 登场, cue: 刘曜}
+
+  # ---------------- 第一章 靳准 ----------------
+  - say: 先说三一八年。汉国皇帝刘聪病死，儿子刘粲即位。
+    year: 318
+    map: '316-12'
+    phase: 靳准
+    sources: [js-06]
+    camera: {focus: [平阳, 长安, 襄国], zoom: fit, move: 1.4}
+    show:
+      - title_bar: {text: 二赵争霸, sub: 十六国 · 第41集, for: 3.2}
+      - sfx: 片头鼓
+      - exit: {who: 刘聪, at: 平阳, verb: 卒, portrait: true, cue: 病死}
+      - enter: {who: 刘粲, side: left, cue: 刘粲, for: 2.6}
+
+  - say: 一个月后，外戚靳准在平阳起兵，杀了刘粲和刘家宗族，自称汉王。
+    map: '318-08'
+    owners_cue: 自称汉王
+    sources: [js-06, js-63]
+    tells: [e01]
+    camera: {focus: 平阳, zoom: 7, move: 1.2}
+    show:
+      - enter: {who: 靳准, side: right, cue: 靳准, for: 3.6}
+      - battle: {at: 平阳, text: 靳准之乱, cue: 起兵}
+      - quote: {text: 靳准乃起兵杀粲，并其宗族, source: 晋书·段匹磾传, cue: 刘家宗族, for: 3.8}
+      - flag: {at: 平阳, name: 靳准, sub: 自号汉王, faction: 靳准, cue: 汉王, until: beat+5}
+      - exit: {who: 刘粲, at: 平阳, verb: 诛, portrait: true, cue: 杀了刘粲}
+
+  - say: 西边长安的刘曜，东边襄国的石勒，同时扑向平阳。
+    sources: [js-103, js-105]
+    camera: {focus: [长安, 平阳, 襄国], zoom: fit, move: 1.4}
+    tells: [e02, e03, e04]
+    show:
+      - army: {head: 刘曜, from: 长安, to: 赤壁, faction: 汉赵, banner: 曜, troops: cavalry, size: 2.6, cue: 刘曜, grow: 1.6}
+      - army: {head: 石勒, from: 襄国, to: 平阳, faction: 汉赵, banner: 勒, troops: cavalry, size: 3.0, cue: 石勒, grow: 1.8, stop: approach}
+
+  - say: 刘曜走到赤壁，平阳逃出来的大臣，拥他当了皇帝。
+    sources: [js-103]
+    show:
+      - act: {act: enthrone, who: 刘曜, at: 赤壁, text: 即皇帝位, sub: 太兴元年, cue: 当了皇帝, for: 3}
+
+  - say: 平阳城里有人杀了靳准，捧着传国玉玺投降。投的却是刘曜，石勒白打了。
+    audit_ok: [投降]
+    sources: [js-103, js-105]
+    territory_hold: 平阳只是城中易主，河东郡仍在争夺（318-08 斜纹）
+    tells: [e05]
+    camera: {focus: [平阳, 赤壁], zoom: 8, move: 1.2}
+    show:
+      - act: {act: prop, at: 平阳, item: 传国玉玺, text: 奉传国六玺降于曜, cue: 传国玉玺, for: 3.6}
+      - sfx: {name: 悬疑, cue: 刘曜}
+      - exit: {who: 靳准, at: 平阳, verb: 诛, portrait: true, cue: 杀了靳准}
+
+  - say: 靳家剩下的人投奔刘曜，被杀得男女老少一个不留。
+    sources: [js-103]
+    show:
+      - march: {from: 平阳, to: 赤壁, faction: 靳准, label: 士女万五千归曜, cue: 投奔刘曜, grow: 1.4}
+      - quote: {text: 靳氏男女无少长皆杀之, source: 晋书·刘曜载记, cue: 一个不留, for: 3.6}
+
+  - say: 石勒烧了平阳的宫殿，把浑天仪、乐器搬回了襄国。
+    sources: [js-105]
+    camera: {focus: [平阳, 襄国], zoom: fit, move: 1.4}
+    show:
+      - fire: {at: 平阳, cue: 烧了, radius: 0.8, for: 3.2}
+      - army: {head: 石勒, from: 平阳, to: 襄国, faction: 后赵, banner: 勒, troops: cavalry, size: 3.0, cue: 搬回了襄国, grow: 1.6}
+      - spot: {at: 襄国, text: 徙浑仪乐器于襄国, cue: 浑天仪, for: 3}
+
+  # ---------------- 第二章 二赵 ----------------
+  - say: 三一九年，刘曜把都城定在长安，国号改成赵，封石勒做赵王。
+    year: 319
+    map: '319-11'
+    owners_cue: 国号改成赵
+    phase: 二赵
+    sources: [js-103]
+    camera: {focus: [长安, 襄国], zoom: fit, move: 1.4}
+    tells: [e06]
+    territory_hold: 迁都改号，郡级归属在 319-11 已画
+    show:
+      - army: {head: 刘曜, from: 赤壁, to: 长安, faction: 前赵, banner: 曜, troops: cavalry, size: 2.8, cue: 都城定在长安, grow: 1.4}
+      - spot: {at: 长安, text: 国号曰赵, cue: 国号, for: 3}
+
+  - say: 可刘曜听信谗言，杀了石勒的使者，赵王也不封了。
+    sources: [js-105]
+    show:
+      - act: {act: execute, at: 长安, text: 斩王修, cue: 使者, for: 2.6}
+      - enter: {who: 刘曜, side: left, cue: 听信谗言, for: 3.2}
+
+  - say: 赵王也好，赵帝也好，我自己拿！名号大小，轮不到他来定！
+    speaker: 石勒
+    style: 暴怒，拍案而起，粗豪霸气，一字一顿
+    quote: 赵王赵帝，孤自取之，名号大小，岂其所节邪
+    sources: [js-105]
+    show:
+      - enter: {who: 石勒, side: right, cue: 赵王也好, for: 5}
+      - sfx: {name: 重低音落地, cue: 我自己拿}
+
+  - say: 这年冬天，石勒在襄国自称赵王。北方，有了两个赵国。
+    sources: [js-105]
+    show:
+      - act: {act: enthrone, who: 石勒, at: 襄国, text: 赵王, sub: 太兴二年, cue: 自称赵王, for: 3}
+      - faction_bar: {left: 前赵, right: 后赵, cue: 两个赵国, for: 3.6}
+
+  - say: 两国对峙将近十年，后赵越打越大。
+    year: 325
+    map: '325-04'
+    owners_cue: 越打越大
+    sources: [js-105]
+    camera: {focus: [长安, 洛阳, 襄国], zoom: fit, move: 1.6}
+    show:
+      - headline: {text: 后赵坐大, sub: 尽陷司兖豫三州, cue: 越打越大, for: 3.4}
+
+  # ---------------- 第三章 高候 ----------------
+  - say: 三二八年，石虎带四万人从轵关西进打蒲坂，河东五十多个县都倒向了他。
+    year: 328
+    map: '328-07'
+    owners_cue: 倒向了他
+    phase: 高候
+    sources: [js-103, js-07]
+    camera: {focus: [襄国, 蒲坂, 长安], zoom: fit, move: 1.4}
+    tells: [e07, e08]
+    show:
+      - enter: {who: 石虎, side: right, cue: 石虎, for: 3.2}
+      - army: {head: 石虎, from: 襄国, via: [轵关], to: 蒲坂, faction: 后赵, banner: 虎, troops: infantry, size: 3.0, cue: 轵关西进, grow: 2.0}
+
+  - say: 刘曜带全国精兵来救，在高候大败石虎。
+    sources: [js-103]
+    tells: [e09, e10, e11]
+    show:
+      - army: {head: 刘曜, from: 长安, to: 高候, faction: 前赵, banner: 曜, troops: cavalry, size: 3.2, cue: 来救, grow: 1.8, camp: false}
+      - battle: {at: 高候, text: 斩石瞻, cue: 大败}
+      - sfx: {name: 刀剑交击, cue: 大败}
+
+  - say: 后赵兵的尸体铺了两百多里，石虎逃到了朝歌。
+    sources: [js-103]
+    tells: [e12]
+    show:
+      - rout: {at: 蒲坂, via: [高候], to: 朝歌, faction: 后赵, banner: 虎, head: 石虎, cue: 逃到了朝歌, size: 1.2}
+      - quote: {text: 枕尸二百余里, source: 晋书·刘曜载记, cue: 两百多里, for: 3.4}
+
+  - say: 刘曜乘胜围了洛阳，还掘开千金堨，放水灌城。
+    map: '328-08'
+    owners_cue: 围了
+    sources: [js-103]
+    camera: {focus: [高候, 洛阳], zoom: fit, move: 1.4}
+    tells: [e13, e14, e15]
+    show:
+      - army: {head: 刘曜, from: 高候, to: 洛阳, faction: 前赵, banner: 曜, troops: cavalry, size: 3.2, cue: 围了洛阳, grow: 1.6}
+      - act: {act: flood, at: 洛阳, text: 决千金堨以灌之, cue: 放水灌城, for: 4.4}
+
+  - say: 可围了一百天也没打下来。刘曜天天跟亲信喝酒赌钱，谁劝就杀谁。
+    sources: [js-103, js-105]
+    camera: {focus: 洛阳, zoom: 7, move: 1.2}
+    show:
+      - act: {act: prop, at: 洛阳, item: 酒宴, text: 专与嬖臣饮博, cue: 喝酒赌钱, for: 3.6}
+      - quote: {text: 左右或谏，曜怒，以为妖言，斩之, source: 晋书·刘曜载记, cue: 谁劝, for: 3.6}
+
+  # ---------------- 第四章 亲征 ----------------
+  - say: 石勒要亲自去救，大臣们死命拦着。石勒按着剑，把他们骂了出去。
+    phase: 亲征
+    sources: [js-105]
+    camera: {focus: 襄国, zoom: 7, move: 1.2}
+    show:
+      - enter: {who: 石勒, side: right, cue: 按着剑, for: 3.4}
+      - act: {act: prop, at: 襄国, item: 剑, text: 按剑叱遐等出, cue: 骂了出去, for: 3}
+
+  - say: 他说，刘曜十万人打一座城，一百天打不下，早就累垮了。
+    sources: [js-105]
+    show:
+      - quote: {text: 曜带甲十万攻一城，而百日不克，师老卒殆, source: 晋书·石勒载记下, cue: 累垮了, for: 4.2}
+
+  - say: 这年冬天，石勒让石虎收拢残兵，自己带四万步骑南下，渡过黄河。
+    sources: [js-105]
+    camera: {focus: [襄国, 灵昌津, 洛阳], zoom: fit, move: 1.4}
+    tells: [e16, e17]
+    show:
+      - camp: {at: 朝歌, unit: 石虎, faction: 后赵, text: 石虎, cue: 收拢残兵}
+      - army: {head: 石勒, from: 襄国, to: 灵昌津, faction: 后赵, banner: 勒, troops: cavalry, size: 3.2, cue: 南下, grow: 1.8, camp: false}
+      - vignette: {image: illus_lingchang_ice, cue: 渡过黄河, for: 5, text: 济毕，流澌大至}
+
+  - say: 他说：刘曜要是守住成皋关，是上策；坐在洛阳不动，就等着被我抓。
+    sources: [js-105]
+    show:
+      - enter: {who: 徐光, side: left, cue: 他说, for: 2.6}
+      - card: {title: 石勒三策, body: 盛兵成皋关，上计也；阻洛水，其次也；坐守洛阳者，成擒也, cue: 上策, for: 6}
+
+  - say: 到了成皋，一个守兵都没有。石勒举手指天：天意啊！
+    sources: [js-105]
+    tells: [e18]
+    show:
+      - army: {head: 石勒, from: 灵昌津, to: 成皋, faction: 后赵, banner: 勒, troops: cavalry, size: 3.2, cue: 成皋, grow: 1.4, camp: false}
+      - vignette: {image: illus_shile_heaven, cue: 举手指天, for: 5, text: 举手指天，又自指额曰：天也}
+
+  # ---------------- 第五章 西阳门 ----------------
+  - say: 决战前，刘曜又灌了好几斗酒。
+    phase: 西阳门
+    sources: [js-103, js-105]
+    camera: {focus: 洛阳, zoom: 8, move: 1.2}
+    show:
+      - enter: {who: 刘曜, side: left, cue: 刘曜, for: 3.2}
+      - act: {act: prop, at: 洛阳, item: 酒瓮, text: 饮酒数斗, cue: 好几斗酒, for: 3.2}
+
+  - say: 平时骑的红马无故跪倒，他换了匹小马，又喝了一斗多。
+    sources: [js-103]
+    show:
+      - act: {act: prop, at: 洛阳, item: 惊马, text: 赤马无故局顿, cue: 跪倒, for: 3.4}
+
+  - say: 石勒、石虎、石堪三路杀到，在洛阳西阳门三面夹击。
+    sources: [js-105]
+    tells: [e19, e21]
+    show:
+      - army: {head: 石勒, from: 成皋, to: 洛阳, faction: 后赵, banner: 勒, troops: cavalry, size: 3.4, cue: 杀到, grow: 1.4}
+      - army: {head: 石虎, from: 朝歌, to: 洛阳, faction: 后赵, banner: 虎, troops: infantry, size: 2.8, cue: 三路, grow: 1.2, camp: false}
+      - battle: {at: 洛阳, text: 西阳门大战, cue: 三面夹击}
+      - sfx: {name: 战鼓, cue: 夹击}
+
+  - say: 前赵军大溃。刘曜醉着往回跑，马陷进石渠，他摔在冰上，被活捉。
+    sources: [js-103]
+    show:
+      - vignette: {image: illus_liuyao_ice, cue: 马陷进石渠, for: 5.5, text: 曜昏醉奔退，马陷石渠，坠于冰上}
+      - exit: {who: 刘曜, at: 洛阳, verb: 囚, portrait: true, cue: 活捉}
+      - sfx: {name: 刀剑交击, cue: 大溃}
+
+  - say: 石王，你还记得当年我们的盟约吗？
+    speaker: 刘曜
+    style: 重伤被俘，酒还没醒，声音沙哑，强撑着体面，带点哀求
+    quote: 石王忆重门之盟不
+    sources: [js-103]
+    show:
+      - enter: {who: 刘曜, side: left, cue: 石王, for: 4}
+
+  - say: 石勒让人回他：今天这事，是老天安排的。
+    sources: [js-103]
+    show:
+      - enter: {who: 徐光, side: right, cue: 回他, for: 3}
+      - quote: {text: 今日之事，天使其然，复云何邪, source: 晋书·刘曜载记, cue: 老天安排, for: 4}
+
+  # ---------------- 第六章 上邽 ----------------
+  - say: 石勒让他写信叫太子投降。刘曜却写：守好国家，别管我。
+    phase: 上邽
+    sources: [js-103]
+    show:
+      - quote: {text: 匡维社稷，勿以吾易意也, source: 晋书·刘曜载记, cue: 别管我, for: 4}
+
+  - say: 后来，石勒杀了他。
+    sources: [js-103]
+    show:
+      - exit: {who: 刘曜, at: 襄国, verb: 杀, portrait: true, cue: 杀了他}
+
+  - say: 第二年正月，太子丢下长安，带着百官逃到上邽。
+    year: 329
+    map: '329-02'
+    owners_cue: 逃到上邽
+    sources: [js-07]
+    camera: {focus: [长安, 上邽], zoom: fit, move: 1.4}
+    tells: [e22]
+    show:
+      - march: {from: 长安, to: 上邽, faction: 前赵, label: 帅百官奔于上邽, cue: 逃到上邽, grow: 1.6}
+
+  - say: 九月，石虎攻进上邽，把刘家宗室杀了个干净。前赵，亡了。
+    map: '329-09'
+    owners_cue: 亡了
+    sources: [js-07]
+    tells: [e23, e24]
+    show:
+      - army: {head: 石虎, from: 洛阳, via: [长安], to: 上邽, faction: 后赵, banner: 虎, troops: cavalry, size: 3.0, cue: 攻进上邽, grow: 1.6}
+      - battle: {at: 上邽, text: 尽灭刘氏, cue: 杀了个干净}
+      - sfx: {name: 落幕锣, cue: 亡了}
+
+  - say: 三三零年，石勒称帝，大半个北方都归了后赵。
+    year: 330
+    sources: [js-07]
+    camera: {focus: [长安, 洛阳, 襄国], zoom: fit, move: 1.6}
+    show:
+      - act: {act: enthrone, who: 石勒, at: 襄国, text: 即皇帝位, sub: 后赵, cue: 称帝, for: 3.2}
+
+  # ---------------- 收 ----------------
+  - say: 刘曜为什么输？赢了一仗就围城喝酒，石勒最怕的成皋，他一个兵都没放。
+    sources: [js-103, js-105]
+    show:
+      - versus: {left: 刘曜, right: 石勒, label: 醉 vs 快, cue: 为什么输, for: 4}
+
+  - say: 一场决定北方的大战，输给了几斗酒。
+    sources: [js-103]
+    show:
+      - headline: {text: 二赵争霸, sub: 输给了几斗酒, cue: 几斗酒, for: 3.4}
+      - sfx: {name: 史诗冲击, cue: 几斗酒}
+
+  - say: 石勒说是天意。你觉得，是天意，还是刘曜自己作的？
+    sources: [js-103]
+    show:
+      - card: {title: 史书怎么写, body: 刘曜载记：曜昏醉奔退，马陷石渠，坠于冰上, cue: 自己作的, for: 3.6}
+
+  - say: 后赵坐稳了北方。可石勒的侄子石虎，正盯着他的皇位。
+    sources: [js-105]
+    show:
+      - title_bar: {text: 下集, sub: 十六国 · 石虎篡位, cue: 皇位, delay: 0.4, for: 3.0}
+      - sfx: {name: 时代转折, cue: 皇位}

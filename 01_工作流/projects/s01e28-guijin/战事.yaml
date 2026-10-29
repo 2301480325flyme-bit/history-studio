@@ -1,0 +1,528 @@
+episode: s01e28-guijin
+armies:
+  羊祜军:
+    faction: 晋
+    head: 羊祜
+    size: 未核
+    evidence:
+    - quote: 军无百日之粮，及至季年，有十年之积
+      para: 晋书-p03225
+  陆抗军:
+    faction: 吴
+    head: 陆抗
+    size: 未核
+    evidence:
+    - quote: 祜与陆抗相对，使命交通
+      para: 晋书-p03226
+  王伷军:
+    faction: 晋
+    head: 王伷
+    size: 未核
+    evidence:
+    - quote: 遣镇军将军、琅邪王伷出涂中
+      para: 晋书-p00073
+  王浑周浚军:
+    faction: 晋
+    head: 王浑、周浚
+    size: 未核
+    evidence:
+    - quote: 安东将军王浑出江西
+      para: 晋书-p00073
+  王戎军:
+    faction: 晋
+    head: 王戎
+    size: 未核
+    evidence:
+    - quote: 建威将军王戎出武昌
+      para: 晋书-p00073
+  胡奋军:
+    faction: 晋
+    head: 胡奋
+    size: 未核
+    evidence:
+    - quote: 平南将军胡奋出夏口
+      para: 晋书-p00073
+  杜预军:
+    faction: 晋
+    head: 杜预
+    size: 未核
+    evidence:
+    - quote: 镇南大将军杜预出江陵
+      para: 晋书-p00073
+  王濬唐彬水军:
+    faction: 晋
+    head: 王濬、唐彬
+    size: 未核（晋伐吴各军合计东西二十余万）
+    evidence:
+    - quote: 龙骧将军王浚、广武将军唐彬率巴蜀之卒浮江而下
+      para: 晋书-p00073
+  吴军守军:
+    faction: 吴
+    head: 孙皓（各地守将见事件）
+    size: 未核
+    evidence:
+    - quote: 吴人于江险碛要害之处，并以铁锁横截之
+      para: 晋书-p03698
+  张悌军:
+    faction: 吴
+    head: 张悌
+    size: 未核
+    evidence:
+    - quote: 王浑、周浚与吴丞相张悌战于版桥
+      para: 晋书-p00074
+  陶濬军:
+    faction: 吴
+    head: 陶濬
+    size: 未核
+    evidence:
+    - quote: 陶浚至武昌，闻北军大出，停驻不前
+      para: 三国志-p02301
+  马隆军:
+    faction: 晋
+    head: 马隆
+    size: 未核
+    evidence:
+    - quote: 使讨虏护军武威太守马隆击之
+      para: 晋书-p00073
+  树机能军:
+    faction: 鲜卑（秃发部）
+    head: 树机能
+    size: 未核
+    evidence:
+    - quote: 虏帅树机能攻陷凉州
+      para: 晋书-p00073
+events:
+- id: e01
+  army: 羊祜军
+  kind: 屯驻
+  place: 襄阳
+  from: null
+  via: []
+  date: 未核
+  territory: null
+  note: 晋武帝命羊祜镇荆州，史书记其营建粮储但未载到任年月及具体行军路线；此处只记镇驻，不补造出发地。
+  evidence:
+  - quote: 军无百日之粮，及至季年，有十年之积
+    para: 晋书-p03225
+- id: e02
+  army: 陆抗军
+  kind: 屯驻
+  place: 未核
+  from: null
+  via: []
+  date: 未核
+  territory: null
+  note: 史书说陆抗与羊祜相对、各保分界，但未在本段指明陆抗的驻营地，故不以江陵治所代替军营点。
+  evidence:
+  - quote: 祜与陆抗相对，使命交通
+    para: 晋书-p03226
+  - quote: 各保分界而已
+    para: 晋书-p03226
+  skip: 陆抗驻营地史书未指明
+- id: e03
+  army: 王伷军
+  kind: 出发
+  place: 涂中
+  from: null
+  via: []
+  date: 279-11
+  territory: null
+  note: 太康元年十一月奉命出涂中；涂中具体地望未核。
+  evidence:
+  - quote: 十一月，大举伐吴，遣镇军将军、琅邪王伷出涂中
+    para: 晋书-p00073
+  skip: 旁白只一句「六路伐吴」，只画王濬、杜预两路；王伷、王浑、王戎、胡奋的出发点多为方向名
+- id: e04
+  army: 王浑周浚军
+  kind: 出发
+  place: 江西
+  from: null
+  via: []
+  date: 279-11
+  territory: null
+  note: “江西”指长江以西方向，非现代江西省；原文未给具体集结点。
+  evidence:
+  - quote: 安东将军王浑出江西
+    para: 晋书-p00073
+  skip: 旁白只一句「六路伐吴」，只画王濬、杜预两路；王伷、王浑、王戎、胡奋的出发点多为方向名
+- id: e05
+  army: 王戎军
+  kind: 出发
+  place: 武昌
+  from: null
+  via: []
+  date: 279-11
+  territory: null
+  note: 奉命由武昌方向出兵；原文未载出城日。
+  evidence:
+  - quote: 建威将军王戎出武昌
+    para: 晋书-p00073
+  skip: 旁白只一句「六路伐吴」，只画王濬、杜预两路；王伷、王浑、王戎、胡奋的出发点多为方向名
+- id: e06
+  army: 胡奋军
+  kind: 出发
+  place: 夏口
+  from: null
+  via: []
+  date: 279-11
+  territory: null
+  note: 奉命由夏口方向出兵；原文未载出城日。
+  evidence:
+  - quote: 平南将军胡奋出夏口
+    para: 晋书-p00073
+  skip: 旁白只一句「六路伐吴」，只画王濬、杜预两路；王伷、王浑、王戎、胡奋的出发点多为方向名
+- id: e07
+  army: 杜预军
+  kind: 出发
+  place: 江陵
+  from: null
+  via: []
+  date: 279-11
+  territory: null
+  note: 奉命由江陵方向出兵；原文未载出城日。
+  evidence:
+  - quote: 镇南大将军杜预出江陵
+    para: 晋书-p00073
+  skip: 旁白只一句「六路伐吴」，只画王濬、杜预两路；王伷、王浑、王戎、胡奋的出发点多为方向名
+- id: e08
+  army: 王濬唐彬水军
+  kind: 出发
+  place: 成都
+  from: null
+  via: []
+  date: 280-01
+  territory: null
+  note: 《晋书·王濬传》记太康元年正月发自成都，未载日次。
+  evidence:
+  - quote: 太康元年正月，濬发自成都
+    para: 晋书-p03698
+- id: e09
+  army: 王濬唐彬水军
+  kind: 攻占
+  place: 丹阳城
+  from: 成都
+  via:
+  - 长江
+  date: 280-02
+  territory:
+    jun: 未核
+    to: 争夺
+  note: 沿江东下攻克吴丹阳城并擒丹杨监盛纪；此处非现代江苏丹阳市，城址及郡属未核，不能据同名误标丹阳郡。
+  evidence:
+  - quote: 攻吴丹杨，克之，擒其丹杨监盛纪
+    para: 晋书-p03698
+  skip: 丹阳城（非丹阳郡）城址未核
+- id: e10
+  army: 吴军守军
+  kind: 屯驻
+  place: 长江险碛要害
+  from: null
+  via: []
+  date: 未核
+  territory: null
+  note: 吴军于沿江险滩要害横铁锁、置铁锥阻晋舟师；障碍具体位置和设防日期均未载。
+  evidence:
+  - quote: 吴人于江险碛要害之处，并以铁锁横截之，又作铁锥长丈余，暗置江中
+    para: 晋书-p03698
+  skip: 铁锁、铁锥位置史书未载，画在西陵江面
+- id: e11
+  army: 王濬唐彬水军
+  kind: 途经
+  place: 长江铁锁处
+  from: 丹阳城
+  via:
+  - 长江险碛要害
+  date: 280-02
+  territory: null
+  note: 以大筏带走水下铁锥、火炬烧断拦江铁锁后续进；原文未给障碍处专名，不绘成某一确定渡口。
+  evidence:
+  - quote: 筏遇铁锥，锥辄著筏去
+    para: 晋书-p03698
+  - quote: 遇锁，然炬烧之，须臾，融液断绝
+    para: 晋书-p03698
+  skip: 铁锁、铁锥位置史书未载，画在西陵江面
+- id: e12
+  army: 王濬唐彬水军
+  kind: 攻占
+  place: 西陵
+  from: 丹阳城
+  via:
+  - 长江
+  date: 280-02
+  note: 庚申克西陵（宜都郡不在本系列郡格里，随 280-02 南郡等归晋）。
+  evidence:
+  - quote: 庚申，克吴西陵
+    para: 晋书-p03698
+- id: e13
+  army: 王濬唐彬水军
+  kind: 攻占
+  place: 夷道乐乡城
+  from: 西陵
+  via:
+  - 长江
+  date: 280-02
+  territory:
+    jun: 宜都郡
+    to: 争夺
+  note: 壬戌克夷道乐乡城；两地古城址与相互方位未核。
+  evidence:
+  - quote: 壬戌，浚又克夷道乐乡城
+    para: 晋书-p03698
+  skip: 夷道乐乡城、江安、荆门诸戍城址未核，随南郡归晋
+- id: e14
+  army: 杜预军
+  kind: 攻占
+  place: 江陵
+  from: 江陵
+  via: []
+  date: 280-02
+  territory:
+    jun: 南郡
+    to: 晋
+  note: 甲戌克江陵、斩吴江陵督王延；疆域表 280-02 南郡归晋（验收改：原记争夺）。
+  evidence:
+  - quote: 甲戌，杜预克江陵，斩吴江陵督王延
+    para: 晋书-p00074
+- id: e15
+  army: 胡奋军
+  kind: 攻占
+  place: 江安
+  from: 夏口
+  via:
+  - 长江
+  date: 280-02
+  territory:
+    jun: 未核
+    to: 争夺
+  note: 同月克江安；该江安的确切地望及郡属未核。
+  evidence:
+  - quote: 平南将军胡奋克江安
+    para: 晋书-p00074
+  skip: 夷道乐乡城、江安、荆门诸戍城址未核，随南郡归晋
+- id: e16
+  army: 杜预军
+  kind: 投降
+  place: 荆门诸戍
+  from: 江陵
+  via: []
+  date: 280-02
+  territory:
+    jun: 未核
+    to: 争夺
+  note: 荆门诸戍相继来降，未逐一列明戍名、日次及郡属。
+  evidence:
+  - quote: 乐乡、荆门诸戍相次来降
+    para: 晋书-p00074
+  skip: 夷道乐乡城、江安、荆门诸戍城址未核，随南郡归晋
+- id: e17
+  army: 王浑周浚军
+  kind: 攻占
+  place: 寻阳、赖乡诸城
+  from: 江西
+  via: []
+  date: 280-01
+  territory:
+    jun: 庐江郡
+    to: 争夺
+  note: 癸丑克吴寻阳、赖乡诸城；疆域.yaml于280-02记庐江郡归晋，赖乡今址未核。
+  evidence:
+  - quote: 癸丑，王浑克吴寻阳赖乡诸城
+    para: 晋书-p00074
+  skip: 旁白未讲王浑一路（庐江随 280-02 归晋）
+- id: e18
+  army: 陶濬军
+  kind: 撤退
+  place: 武昌
+  from: 未核
+  via: []
+  date: 279-11
+  territory: null
+  note: 陶濬至武昌闻晋军大出后停驻不前；不是交战或投降，不能画作武昌失守。
+  evidence:
+  - quote: 陶浚至武昌，闻北军大出，停驻不前
+    para: 三国志-p02301
+  skip: 旁白未讲陶濬
+- id: e19
+  army: 王浑周浚军
+  kind: 交战
+  place: 版桥
+  from: 寻阳、赖乡方向
+  via: []
+  date: 280
+  territory: null
+  note: 与张悌军交战并大败吴军，斩张悌等；月日及版桥具体位置未载/未核。
+  evidence:
+  - quote: 王浑、周浚与吴丞相张悌战于版桥，大败之
+    para: 晋书-p00074
+  skip: 旁白未讲王浑一路（庐江随 280-02 归晋）
+- id: e20
+  army: 王濬唐彬水军
+  kind: 行军
+  place: 巴丘
+  from: 夷道乐乡城
+  via:
+  - 长江
+  date: 280-02
+  territory: null
+  note: 奉诏沿江东下扫除巴丘；此巴丘为今岳阳一带，不指其他同名地。
+  evidence:
+  - quote: 浚、彬东下，扫除巴丘
+    para: 晋书-p00074
+  skip: 巴丘未画，舟师经夏口到武昌
+- id: e21
+  army: 王濬唐彬水军
+  kind: 行军
+  place: 夏口
+  from: 巴丘
+  via: []
+  date: 280-02
+  territory: null
+  note: 与胡奋、王戎合力平夏口；纪文未单列克夏口日次。
+  evidence:
+  - quote: 浚进破夏口、武昌
+    para: 晋书-p00074
+- id: e22
+  army: 胡奋军
+  kind: 攻占
+  place: 夏口
+  from: 夏口
+  via: []
+  date: 280-02
+  territory:
+    jun: 江夏郡
+    to: 晋
+  note: 晋军共平夏口，原文未分列胡奋独攻此城的日次。
+  evidence:
+  - quote: 与胡奋、王戎共平夏口、武昌
+    para: 晋书-p00074
+- id: e23
+  army: 王戎军
+  kind: 攻占
+  place: 武昌
+  from: 武昌
+  via: []
+  date: 280-02
+  territory:
+    jun: 江夏郡
+    to: 晋
+  note: 晋军共平武昌，原文未分列王戎独攻此城的日次。
+  evidence:
+  - quote: 与胡奋、王戎共平夏口、武昌
+    para: 晋书-p00074
+- id: e24
+  army: 王濬唐彬水军
+  kind: 行军
+  place: 建业
+  from: 武昌
+  via: []
+  date: 280-03
+  territory: null
+  note: 顺流至建业石头；三山等停泊点未画。
+  evidence:
+  - quote: 濬自发蜀，兵不血刃，攻无坚城，夏口、武昌，无相支抗
+    para: 晋书-p03699
+  - quote: 径造三山
+    para: 晋书-p03699
+  - quote: 三月壬申，王浚以舟师至于建鄴之石头
+    para: 晋书-p00074
+- id: e25
+  army: 王伷军
+  kind: 投降
+  place: 建业
+  from: 涂中
+  via: []
+  date: 280-03
+  territory:
+    jun: 丹阳郡
+    to: 晋
+  note: 孙皓送玺绶于琅邪王伷请降；本月吴亡、丹阳郡随之归晋。
+  evidence:
+  - quote: 孙皓穷蹙请降，送玺绶于琅邪王伷
+    para: 晋书-p00074
+- id: e26
+  army: 王濬唐彬水军
+  kind: 投降
+  place: 石头
+  from: 建业
+  via: []
+  date: 280-03
+  territory:
+    jun: 丹阳郡
+    to: 晋
+  note: 孙皓面缚舆榇到王濬军门投降。石头为建业西侧临江城垒，非独立郡县。
+  evidence:
+  - quote: 孙皓大惧，面缚舆榇，降于军门
+    para: 晋书-p00074
+- id: e27
+  army: 树机能军
+  kind: 攻占
+  place: 凉州
+  from: 未核
+  via: []
+  date: 未核
+  territory:
+    jun: 金城郡
+    to: 争夺
+  note: 疆域.yaml记金城、武威为不确定争夺区。晋书称树机能攻陷凉州，未载发生年月及州内逐郡失守次序。
+  evidence:
+  - quote: 虏帅树机能攻陷凉州
+    para: 晋书-p00073
+  skip: 旁白未讲树机能、马隆（金城、武威随 279-12 归晋）
+- id: e28
+  army: 马隆军
+  kind: 出发
+  place: 温水
+  from: 未核
+  via: []
+  date: 未核
+  territory: null
+  note: 马隆西渡温水与树机能军作战，起兵年月、此前驻地和温水确切地望未核。
+  evidence:
+  - quote: 隆于是西渡温水
+    para: 晋书-p04491
+  skip: 旁白未讲树机能、马隆（金城、武威随 279-12 归晋）
+- id: e29
+  army: 马隆军
+  kind: 交战
+  place: 金山
+  from: 温水
+  via: []
+  date: 未核
+  territory: null
+  note: 《晋书·秃发乌孤载记》说树机能曾于金山败凉州刺史苏愉；未指此为马隆决战地，不能将其画成马隆最终决战点。
+  evidence:
+  - quote: 败凉州刺史苏愉于金山
+    para: 晋书-p08205
+  skip: 旁白未讲树机能、马隆（金城、武威随 279-12 归晋）
+- id: e30
+  army: 马隆军
+  kind: 交战
+  place: 未核
+  from: 温水
+  via:
+  - 未核
+  date: 279-12
+  territory:
+    jun: 金城郡
+    to: 晋
+  note: 十二月马隆大破并斩树机能，凉州平；具体决战地点及金城、武威逐郡收复日未核。
+  evidence:
+  - quote: 马隆击叛虏树机能，大破，斩之，凉州平
+    para: 晋书-p00074
+  skip: 旁白未讲树机能、马隆（金城、武威随 279-12 归晋）
+- id: e31
+  army: 马隆军
+  kind: 攻占
+  place: 凉州
+  from: 未核
+  via: []
+  date: 279-12
+  territory:
+    jun: 武威郡
+    to: 晋
+  note: 以疆域.yaml记载的晋收复区域落账；原文只说凉州平，未列逐郡战斗次序。
+  evidence:
+  - quote: 凉州平
+    para: 晋书-p00074
+  skip: 旁白未讲树机能、马隆（金城、武威随 279-12 归晋）
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

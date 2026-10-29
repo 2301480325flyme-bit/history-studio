@@ -1,0 +1,316 @@
+# 快节奏版（2026-10-14，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第15集：潼关之战——曹操西征，离间马超韩遂，平定关中（211）
+# 原大纲第12集第④章，单独成集。本地语料核对（三国志·武帝纪、许褚传）：
+# "张鲁据汉中，三月，遣钟繇讨之…是时关中诸将疑繇欲自袭，马超遂与韩遂、杨秋、李堪、成宜等叛…超等屯潼关，公敕诸将：关西兵精悍，坚壁勿与战。秋七月，公西征…与超等夹关而军。
+# 公急持之，而潜遣徐晃、朱灵等夜渡蒲阪津，据河西为营。公自潼关北渡，未济，超赴船急战。校尉丁斐因放牛马以饵贼，贼乱取牛马，公乃得渡，循河为甬道而南…潜以舟载兵入渭，为浮桥，夜，分兵结营于渭南"；
+# "超等…固请割地，求送任子，公用贾诩计，伪许之。韩遂请与公相见，公与遂父同岁孝廉，又与遂同时侪辈，于是交马语移时，不及军事，但说京都旧故，拊手欢笑。既罢，超等问遂：公何言？遂曰：无所言也。超等疑之。
+# 他日，公又与遂书，多所点窜，如遂改定者；超等愈疑遂。公乃与克日会战，先以轻兵挑之，战良久，乃纵虎骑夹击，大破之，斩成宜、李堪等。遂、超等走凉州，杨秋奔安定，关中平"；
+# "始，贼每一部到，公辄有喜色…关中长远，若贼各依险阻，征之，不一二年不可定也。今皆来集，其众虽多，莫相归服，军无适主，一举可灭，为功差易，吾是以喜"；
+# 许褚传"超将步骑万余人，来奔太祖军，矢下如雨…褚斩攀船者，左手举马鞍蔽太祖。船工为流矢所中死，褚右手并泝船，仅乃得渡"；"超负其力，阴欲前突太祖…乃问太祖曰：公有虎侯者安在？太祖顾指褚，褚瞋目盼之。超不敢动"。
+# 不用：娄子伯"起沙为城，以水灌之"（曹瞒传，裴松之已疑"九月水未应冻"）；割须弃袍（演义）。
+
+id: s01e15-tongguan
+title: 潼关之战
+series: 三国 · 第15集
+year: 211
+
+notes:
+  - 主线问题：关中十路兵马十几万，敌人每来一支，曹操为什么反而高兴？——各守险要要打一两年；凑到一起，谁也不服谁，一仗就能解决。
+  - 反差：最该担心的时候，曹操面有喜色；十几万人没输在战场，输在彼此猜疑。
+  - 细节：许褚左手举马鞍挡箭、右手撑船；丁斐放牛马，敌兵抢牛马；曹操和韩遂马上叙旧、拍手大笑；涂改过的信；"公有虎侯者安在"。
+  - 动机：马超韩遂起兵，是怕钟繇"借道打张鲁"其实是来打自己（武帝纪"疑繇欲自袭"）。
+  - 演义对照：割须弃袍、许褚裸衣斗马超是小说；史书里险些丧命的是渡河那一刻。
+
+map:
+  center: [109.0, 34.5]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-17 史图风
+  river_rank: 4
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 敌人援军每来一支，曹操就高兴一次
+  big: [潼关之战]
+  hero: 马超
+  at: 30
+  summary: |
+    曹操派钟繇讨汉中张鲁，关中的马超、韩遂以为是冲自己来的，联合十路兵马堵住潼关。曹操正面相持，暗派徐晃夜渡蒲阪津；自己北渡时被马超追上，许褚左手举马鞍挡箭、右手撑船，才救下曹操。
+    贾诩献计假装讲和，曹操和韩遂马上叙旧、拍手大笑，又送去一封涂改过的信——马超起了疑心。决战之日虎豹骑两面夹击，关中平定。敌人每来一支，曹操为什么反而高兴？
+  tags: [潼关之战, 马超, 曹操, 许褚, 离间计]
+  next: 刘璋请刘备入蜀
+
+sources_local:
+  - {id: sgz-01, work: 三国志, volume: 卷一·武帝纪, url: 'https://zh.wikisource.org/wiki/三國志/卷01'}
+  - {id: sgz-18, work: 三国志, volume: 卷十八·许褚传, url: 'https://zh.wikisource.org/wiki/三國志/卷18'}
+  - {id: sgz-36, work: 三国志, volume: 卷三十六·马超传, url: 'https://zh.wikisource.org/wiki/三國志/卷36'}
+
+factions: {曹操: '#2f5d3a', 关中诸将: '#6d5a8a', 张鲁: '#a0632a', 刘璋: '#5f8f3a'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    汉室: {slot: stone, main: true, label_at: 洛阳}
+    关中诸将: {slot: lavender, label_at: 长安}
+    张鲁: {slot: orange, label_at: 南郑}
+    曹操: {slot: jade, label_at: 许}
+    孙权: {slot: lemon, label_at: 吴}
+    刘备: {slot: pink, label_at: 江陵}
+    刘璋: {slot: lime, label_at: 成都}
+
+people:
+  徐晃: {image: 03_素材/人物立绘/xu_huang.png, title: 横野将军, role: 夜渡蒲阪津, faction: 曹操}
+  韩遂: {image: 03_素材/人物立绘/han_sui.png, title: 镇西将军, role: 马上叙旧, faction: 关中诸将}
+  许褚: {image: 03_素材/人物立绘/xu_chu.png, title: 武卫中郎将, role: 举鞍护主, faction: 曹操}
+  曹操: {image: 03_素材/人物立绘/cao_cao.png, title: 丞相, role: 西征关中, faction: 曹操}
+  马超: {image: 03_素材/人物立绘/ma_chao.png, title: 偏将军, role: 起兵潼关, faction: 关中诸将}
+  贾诩: {image: 03_素材/人物立绘/jia_xu.png, title: 太中大夫, role: 献离间计, faction: 曹操}
+  张鲁: {image: 03_素材/人物立绘/zhang_lu.png, title: 汉中之主, role: 五斗米道, faction: 张鲁}
+  刘璋: {image: 03_素材/人物立绘/liu_zhang.png, title: 益州牧, role: 闻风而惧, faction: 刘璋}
+
+places:
+  邺: {id: ye_city, label: right}
+  洛阳: {id: luoyang_han_wei, label: right}
+  潼关: {id: tongguan, label: below, tier: pass}
+  蒲阪津: {id: pubanjin, label: right}
+  渭南: {id: weinan_camp, label: left}
+  长安: {id: changan_han_city, label: below}
+  南郑: {id: nanzheng, label: right}
+  安定: {id: linjing_anding, label: left}
+  金城: {id: jincheng_han, label: left}
+  成都: {id: chengdu_city, label: right}
+
+camera:
+  focus: [长安, 潼关]
+  zoom: 2.0
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 敌人的援军，每来一支，曹操就高兴一次。
+    map: '210-12'
+    year: 211
+    phase: 喜色
+    sources: [sgz-01]
+    camera: {focus: [潼关, 长安], zoom: fit, move: 1.6}
+    show:
+      - sfx: 重拍转场
+      - enter: {who: 曹操, side: left, cue: 曹操, for: 3.6}
+      - quote: {text: 贼每一部到，公辄有喜色, source: 三国志·武帝纪, era: 建安十六年, cue: 高兴, for: 4}
+
+  - say: 关中十路兵马，十几万人，他到底在高兴什么？
+    sources: [sgz-01]
+
+  # ---------------- 第一章 借道 ----------------
+    camera: {focus: [潼关, 长安], zoom: fit, move: 1.6}
+    show:
+      - army: {from: 长安, to: 潼关, faction: 关中诸将, head: 马超, troops: cavalry, size: 2.6, cue: 十路, grow: 2.0}
+  - say: 公元二百一十一年，曹操派钟繇去打汉中的张鲁。
+    phase: 借道
+    sources: [sgz-01]
+    camera: {focus: [洛阳, 长安, 南郑], zoom: fit, move: 1.6}
+    show:
+      - title_bar: {text: 潼关之战, sub: 三国 · 第15集, for: 3.2}
+      - sfx: 片头鼓
+      - arrow: {from: 洛阳, to: 南郑, kind: direction, faction: 曹操, cue: 张鲁, grow: 1.8}
+      - enter: {who: 张鲁, at: 南郑, side: right, cue: 张鲁, settle: true, settle_sub: 据汉中}
+
+  - say: 去汉中，得穿过关中。马超、韩遂一听：这是冲我们来的吧？
+    sources: [sgz-01]
+    camera: {focus: [长安, 潼关], zoom: fit, move: 1.2}
+    show:
+      - enter: {who: 马超, side: right, cue: 马超, for: 3.4}
+
+  - say: 他们拉上杨秋、李堪、成宜，十路兵马，一起堵住了潼关。
+    sources: [sgz-01]
+    show:
+      - flag: {at: 潼关, name: 马超 · 韩遂, sub: 屯潼关, faction: 关中诸将, cue: 潼关, guest: true}
+      - sfx: {name: 骑兵行军, cue: 十路, len: 4}
+
+  - say: 关西兵凶悍，坚守营垒，谁也不许跟他们硬拼！
+    speaker: 曹操
+    style: 沉稳威严，下达军令，不容置疑
+    scene: 军帐
+    sources: [sgz-01]
+    camera: {focus: [潼关], zoom: 5, move: 1.4}
+    show:
+      - act: {act: arrows, places: [潼关], cue: 坚守营垒, for: 2.4}
+
+  - say: 七月，曹操亲自西征，和马超隔着潼关对峙。
+    sources: [sgz-01]
+    camera: {focus: [邺, 洛阳, 潼关], zoom: fit, move: 1.6}
+    show:
+      - army: {from: 洛阳, to: 潼关, faction: 曹操, head: 曹操, troops: infantry, size: 3.0, cue: 西征, grow: 2.0}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  # ---------------- 第二章 渡河 ----------------
+  - say: 正面拖着，背地里，他派徐晃、朱灵趁夜从蒲阪津偷渡黄河，在河西扎下营。
+    phase: 渡河
+    sources: [sgz-01]
+    camera: {focus: [潼关, 蒲阪津], zoom: 9, move: 1.4}
+    show:
+      - army: {from: 潼关, to: 蒲阪津, faction: 曹操, head: 徐晃, troops: infantry, size: 2.2, cue: 偷渡黄河, grow: 2.0}
+      - flag: {at: 蒲阪津, name: 徐晃 · 朱灵, sub: 据河西, faction: 曹操, cue: 扎下营}
+      - enter: {who: 徐晃, side: left, cue: 徐晃, for: 3.4}
+
+  - say: 接着曹操自己北渡。兵快渡完了，马超带一万多步骑杀到，箭像下雨一样。
+    sources: [sgz-01, sgz-18]
+    camera: {focus: [潼关, 蒲阪津], zoom: 3.2, move: 1.2}
+    show:
+      - battle: {at: 潼关, text: 矢下如雨, cue: 杀到}
+      - act: {act: arrows, places: [蒲阪津], cue: 杀到, for: 2.6}
+      - chase: {from: 潼关, to: 蒲阪津, leader: 曹操, pursuer: 马超, faction: 曹操, cue: 杀到, grow: 1.8, lag: 0.12, follow: true, merge: [徐晃]}
+      - sfx: {name: 箭雨, cue: 箭}
+
+  - say: 许褚把曹操扶上船。船太重快沉了，他砍倒扒船的人，左手举起马鞍，替曹操挡箭。
+    sources: [sgz-18]
+    show:
+      - card: {title: 许褚, body: 左手举马鞍蔽太祖；船工中流矢死，褚右手并泝船, cue: 马鞍}
+      - vignette: {image: illus_caocao_crossing, cue: 许褚, for: 5.0, text: 许褚举鞍护主}
+      - sfx: {name: 中箭, cue: 挡箭}
+
+  - say: 撑船的船工中箭死了，许褚就用右手撑船，这才渡了过去。
+    sources: [sgz-18]
+    camera: {focus: [蒲阪津, 潼关], zoom: 9, move: 1.2}
+    show:
+      - act: {act: arrows, places: [蒲阪津], cue: 中箭, for: 2.2}
+
+  - say: 校尉丁斐把牛马全放了出去。马超的兵忙着抢牛马，曹军才脱了身。
+    sources: [sgz-01]
+    camera: {focus: [蒲阪津, 潼关], zoom: 9, move: 1.2}
+    show:
+      - act: {act: herd, places: [蒲阪津, 潼关], cue: 牛马, n: 12, text: 放牛马, for: 3.6}
+
+  - say: 曹军沿着黄河南下，夜里架起浮桥，渡过渭水，在渭南扎营。
+    sources: [sgz-01]
+    camera: {focus: [蒲阪津, 渭南, 潼关], zoom: 9, move: 1.2}
+    show:
+      - act: {act: pontoon, at: 渭南, angle: -37, len: 110, offset: [36, -27], cue: 浮桥, text: 浮桥, for: 6}   # 沿行军方向（蒲阪津→渭南）架在渭水上
+      - army: {from: 蒲阪津, to: 渭南, faction: 曹操, head: 曹操, troops: infantry, size: 3.0, cue: 渡过渭水, grow: 2.0}
+
+  # ---------------- 第三章 离间 ----------------
+  - say: 马超打不下来，提出割地讲和，还愿意送儿子做人质。
+    phase: 离间
+    sources: [sgz-01]
+    camera: {focus: [渭南, 潼关, 长安], zoom: fit, move: 1.2}
+    show:
+      - enter: {who: 马超, at: 潼关, side: left, cue: 马超, for: 2.4}
+
+  - say: 贾诩出主意：假装答应他们。
+    sources: [sgz-01]
+    show:
+      - enter: {who: 贾诩, side: left, cue: 贾诩, for: 3}
+
+  - say: 韩遂要见曹操。两人的父辈同一年举孝廉，他们年轻时就认识。
+    sources: [sgz-01]
+    show:
+      - enter: {who: 韩遂, side: right, cue: 韩遂, for: 3.4}
+
+  - say: 两人骑着马聊了很久，一句不提打仗，只说京城的老朋友，说到高兴处，拍手大笑。
+    sources: [sgz-01]
+    show:
+      - versus: {left: 曹操, right: 韩遂, label: 交马语移时, cue: 拍手大笑, for: 4}
+
+  - say: 马超也在场。他仗着力气大，想冲上去抓曹操，又疑心曹操身后那个骑兵是许褚，就问：
+    sources: [sgz-18]
+
+  - say: 您那位虎侯，在哪儿？
+    speaker: 马超
+    style: 试探挑衅，声音沉雄，暗藏杀机
+    sources: [sgz-18]
+
+  - say: 曹操回头一指。许褚瞪着眼睛盯住他，马超没敢动。
+    sources: [sgz-18]
+    show:
+      - enter: {who: 许褚, side: left, cue: 许褚, for: 3.4}
+
+  - say: 回营以后，马超问韩遂：曹操说什么了？韩遂说：什么也没说。
+    sources: [sgz-01]
+    camera: {focus: [潼关, 渭南], zoom: 9, move: 1.2}
+
+  - say: 过了几天，曹操又给韩遂写信，故意涂涂改改，看着像韩遂自己改过的。
+    sources: [sgz-01]
+    show:
+      - act: {act: courier, places: [渭南, 潼关], text: 多所点窜, cue: 写信, grow: 1.2, for: 3.4}
+
+  - say: 马超越看越怀疑韩遂。
+    sources: [sgz-01]
+
+  # ---------------- 第四章 决战 ----------------
+    camera: {focus: [长安, 潼关], zoom: fit, move: 1.2}
+  - say: 曹操约好日子决战。先派轻兵挑战，打了很久，才放出虎豹骑，两面夹击。
+    phase: 决战
+    sources: [sgz-01]
+    camera: {focus: [渭南, 潼关], zoom: 9, move: 1.2}
+    show:
+      - act: {act: arrows, places: [渭南], cue: 挑战, for: 2.2}
+      - campaign:
+          at: 渭南
+          title: 渭南之战
+          clash: 两面夹击
+          sides:
+            - {faction: 曹操, head: 曹操, banner: 曹, troops: cavalry, size: 2.6}
+            - {from: 潼关, faction: 关中诸将, head: 马超, banner: 马, troops: cavalry, size: 2.6}
+      - sfx: {name: 古风擂鼓, cue: 决战}
+
+  - say: 关中联军大败，成宜、李堪被杀，马超、韩遂逃回了凉州。
+    map: '211-09'
+    owners_cue: 大败
+    sources: [sgz-01]
+    camera: {focus: [渭南, 长安, 金城], zoom: fit, move: 1.4}
+    show:
+      - rout: {at: 渭南, to: 金城, faction: 关中诸将, head: 马超, banner: 马, cue: 逃回, size: 2}
+      - sfx: {name: 疆域易手, cue: 大败}
+
+  - say: 十月，曹操北上安定，杨秋投降。关中，平定了。
+    map: '211-10'
+    owners_cue: 投降
+    sources: [sgz-01]
+    show:
+      - takeover: {at: 安定, to: 曹操, cue: 投降}
+      - headline: {text: 关中平定, sub: 建安十六年, cue: 平定, for: 3}
+
+  - say: 将领们这才问：敌人每来一支，您为什么反而高兴？曹操说：
+    scene: 军帐
+    sources: [sgz-01]
+    camera: {focus: [渭南, 潼关, 长安], zoom: fit, move: 1.2}
+
+  - say: 关中路远，他们要是各守险要，一两年都打不完。如今全凑到一块，人虽多，谁也不服谁，一仗就能解决！
+    speaker: 曹操
+    style: 得意从容，揭开谜底，豪迈大笑
+    scene: 军帐
+    sources: [sgz-01]
+    camera: {focus: [长安, 金城], zoom: fit, move: 1.6}
+
+  - say: 十几万人，不是输给了曹操的刀，是输给了彼此的猜疑。
+    sources: [sgz-01]
+    camera: {focus: [长安, 潼关, 金城], zoom: fit, move: 1.4}
+    show:
+      - card: {title: 演义 vs 正史, body: 割须弃袍、许褚裸衣斗马超是小说；史书里最险的是北渡黄河那一刻, cue: 猜疑}
+
+  - say: 如果马超没有怀疑韩遂，潼关守得住吗？
+    sources: [sgz-01]
+    camera: {focus: [潼关], zoom: 5, move: 1.4}
+
+  - say: 关中一丢，汉中的张鲁、成都的刘璋都慌了。刘璋想到了一个人：刘备。
+    sources: [sgz-01]
+    camera: {focus: [长安, 南郑, 成都], zoom: fit, move: 1.6}
+    show:
+      - enter: {who: 刘璋, at: 成都, side: right, cue: 刘璋, settle: true, settle_sub: 益州牧, for: 3}
+      - title_bar: {text: 下集, sub: 刘备入蜀, cue: 刘备, delay: 0.4, for: 3.0}

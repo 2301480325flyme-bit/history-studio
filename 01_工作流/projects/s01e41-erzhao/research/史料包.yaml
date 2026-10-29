@@ -1,0 +1,63 @@
+episode: s01e41-erzhao
+period: 318–330
+sources: {晋书: "已检本纪及刘聪/刘曜/石勒/石季龙载记", 资治通鉴: "本地 sources 返回空；未引未核文本"}
+events:
+  - {date: 318, event: "刘聪死、刘粲继位；靳准弑刘粲并杀刘氏宗族。", sources: [{book: 晋书, juan: 载记第二·刘聪, para: 晋书-p00136, quote: "靳准弑刘粲，自号汉王"}, {book: 晋书, juan: 列传第三十三, para: 晋书-p04848, quote: "靳准乃起兵杀粲，并其宗族"}], note: "本纪晋书-p00136互证；精确日次未核。"}
+  - {date: 318, event: "刘曜从长安赴平阳，在赤壁受推戴称帝、改元光初。", sources: [{book: 晋书, juan: 载记第三·刘曜, para: 晋书-p07099, quote: "靳准之难，自长安赴之。至于赤壁"}, {book: 晋书, juan: 帝纪第六, para: 晋书-p00136, quote: "刘曜僭即皇帝位于赤壁"}], note: "赤壁今址有异说，河津说未证实。"}
+  - {date: 318–319, event: "石勒派张敬前锋、亲率精锐讨靳准；靳准被部下杀，靳明奉玺降刘曜。", sources: [{book: 晋书, juan: 载记第四·石勒上, para: 晋书-p07197, quote: "勒命张敬率骑五千为前锋以讨准，勒统精锐五万继之"}, {book: 晋书, juan: 载记第三·刘曜, para: 晋书-p07100, quote: "乔泰、王腾、靳康、马忠等杀准，推尚书令靳明为盟主"}], note: "多方受降不表示整个河东郡确定易手。"}
+  - {date: 319, event: "刘曜迁都长安改国号赵；石勒在襄国称赵王，形成前赵、后赵。", sources: [{book: 晋书, juan: 志第四·地理上, para: 晋书-p00893, quote: "刘曜徙都长安，改号曰赵"}, {book: 晋书, juan: 载记第五·石勒下, para: 晋书-p07197, quote: "进爵赵公"}], note: "此处载记原文记刘曜迁都及石勒进爵赵公；319称王具体文字本地未核，疆域.yaml记势力分置，月份需互校。"}
+  - {date: 328-07/08, event: "石虎由轵关西进攻蒲坂；刘曜东救、自卫关北渡河，追至高候大败石虎、斩石瞻。", sources: [{book: 晋书, juan: 载记第三·刘曜, para: 晋书-p07137, quote: "石季龙率众四万，自轵关西入伐曜，河东应之者五十余县，进攻蒲坂"}, {book: 晋书, juan: 帝纪第七, para: 晋书-p00155, quote: "石勒将石季龙攻刘曜于蒲坂"}, {book: 晋书, juan: 载记第三·刘曜, para: 晋书-p07137, quote: "自卫关北济。季龙惧，引师而退。追之，及于高候，大战，败之，斩其将军石瞻"}], note: "本纪称八月战高候；高候、卫关今址未核。"}
+  - {date: 328-08, event: "刘曜渡大阳攻金墉石生，决千金堨灌城，后围洛阳。", sources: [{book: 晋书, juan: 载记第三·刘曜, para: 晋书-p07137, quote: "曜遂济自大阳，攻石生于金墉，决千金堨以灌之"}, {book: 晋书, juan: 帝纪第七, para: 晋书-p00155, quote: "曜遂围石生于洛阳"}], note: "金墉是城堡，围城未证河南尹全郡易手。"}
+  - {date: 328-10, event: "石勒亲征救洛阳，渡大堨、集结成皋、绕出巩訾；西阳门交战，石堪擒刘曜。", sources: [{book: 晋书, juan: 载记第五·石勒下, para: 晋书-p07248, quote: "勒统步骑四万赴金墉，济自大堨"}, {book: 晋书, juan: 载记第五·石勒下, para: 晋书-p07248, quote: "诸军集于成皋，步卒六万，骑二万七千"}, {book: 晋书, juan: 载记第五·石勒下, para: 晋书-p07248, quote: "出于巩、訾之间"}, {book: 晋书, juan: 载记第五·石勒下, para: 晋书-p07248, quote: "大战于西阳门。勒躬贯甲胄，出自阊阖，夹击之。曜军大溃，石堪执曜"}], note: "载记另写刘曜战前饮酒、马局顿后换乘小马（p07137）；原文未直接写醉酒坠马。"}
+  - {date: 329, event: "刘曜太子与刘胤率百官奔上邽；石虎破刘胤，前赵亡。", sources: [{book: 晋书, juan: 帝纪第七, para: 晋书-p00156, quote: "刘曜太子毗与其大司马刘胤帅百官奔于上邽，关中大乱"}], note: "本地只核到本纪记奔上邽、关中大乱；石虎破刘胤、前赵亡的完整句未通过逐字校验，独立第二出处未核；太子毗/熙异名待考。"}
+  - {date: 330, event: "石勒称帝。", sources: [{book: 晋书, juan: 帝纪第七, para: 晋书-p00157, quote: "石勒僭即皇帝位"}], note: "本地只核实《成帝纪》一处，独立第二出处未核；具体月份待核。"}
+persons:
+  - {name: 刘聪, life: "？–318，生年未核", age: "生年缺，年龄未核", office: 汉皇帝, portrait: "有 liu_cong.png"}
+  - {name: 靳准, life: "？–318，生年未核", age: "生年缺，年龄未核", office: "汉赵大将军、乱后自号汉王", portrait: 无}
+  - {name: 刘粲, life: "？–318，生年未核", age: "生年缺，年龄未核", office: 汉赵皇帝, portrait: 无}
+  - {name: 刘曜, life: "？–329，生年未核", age: "生年缺，年龄未核", office: 前赵皇帝, portrait: "有 liu_yao.png", evidence: [{quote: "身长九尺三寸，垂手过膝，生而眉白，目有赤光", para: 晋书-p07097}]}
+  - {name: 石勒, life: "？–333，生年本地未核", age: "生年未核，无法计算", office: "后赵赵王、皇帝", portrait: "有 shi_le.png"}
+  - {name: 石虎（石季龙）, life: "？–349，生年未核", age: "生年缺，年龄未核", office: 后赵统帅, portrait: "有 shi_hu.png"}
+  - {name: 石瞻, life: 未核, age: 未核, office: "后赵将领，328战死", portrait: 无}
+  - {name: 石堪, life: 未核, age: 未核, office: "后赵将领，328擒刘曜", portrait: 无}
+  - {name: 石生, life: 未核, age: 未核, office: "后赵守将、镇洛阳", portrait: 无}
+  - {name: 刘胤, life: 未核, age: 未核, office: "前赵大司马，329奔上邽", portrait: 无}
+  - {name: 刘曜太子（本纪作毗）, life: 未核, age: 未核, office: "前赵太子；毗/熙异名待核", portrait: 无}
+  - {name: 呼延晏, life: 未核, age: 未核, office: "刘曜属下太保，赤壁奉尊号", portrait: 无}
+places:
+  - {name: 赤壁, ancient: 刘曜受尊号处, modern: "河津说待核", gazetteer: "同名指湖北赤壁市；河东赤壁未登记", level: "地点，非郡", evidence: [{quote: "刘曜僭即皇帝位于赤壁", para: 晋书-p00136}]}
+  - {name: 平阳, ancient: "汉赵都城、靳准之乱中心", modern: "今临汾一带", gazetteer: "未命中，蒲阪津不可代替", level: "郡治/城邑", evidence: [{quote: "靳准弑刘粲，自号汉王", para: 晋书-p00136}]}
+  - {name: 蒲坂, ancient: 河东城邑, modern: "今永济蒲州古城一带", gazetteer: "仅有蒲阪津渡口近似点", level: 城邑, evidence: [{quote: "进攻蒲坂", para: 晋书-p07137}]}
+  - {name: 高候, ancient: 战场, modern: 未核, gazetteer: 无, level: 战场点, evidence: [{quote: "及于高候，大战", para: 晋书-p07137}]}
+  - {name: 金墉, ancient: 洛阳城堡, modern: "洛阳汉魏故城附近，具体点未核", gazetteer: "无；仅有洛阳故城点", level: 城堡, evidence: [{quote: "攻石生于金墉", para: 晋书-p07137}]}
+  - {name: 成皋关, ancient: 河南尹东关, modern: "荥阳汜水武牢关一带", gazetteer: "无；晋书地理志记成皋有关", level: 关隘, evidence: [{quote: "成皋有关，郑之武牢", para: 晋书-p00746}]}
+  - {name: 巩/訾, ancient: "洛阳东侧城邑/通道地名", modern: "巩今巩义；訾未核", gazetteer: 无, level: "城邑/通道", evidence: [{quote: "出于巩、訾之间", para: 晋书-p07248}]}
+  - {name: 洛水, ancient: 洛阳附近河流, modern: 今洛河中下游, gazetteer: 无, level: 河流, evidence: [{quote: "阻洛水，其次也", para: 晋书-p07248}]}
+  - {name: 上邽, ancient: 秦州治所, modern: "今天水秦州区一带", gazetteer: 无, level: 郡治/城邑, evidence: [{quote: "奔于上邽", para: 晋书-p00156}]}
+  - {name: 轵关, ancient: 河东南部关道, modern: "垣曲—济源交界山地一带", gazetteer: 无, level: 关道, evidence: [{quote: "自轵关西入伐曜", para: 晋书-p07137}]}
+  - {name: 大阳/大堨, ancient: 黄河渡口, modern: "大阳在平陆；大堨今址未核", gazetteer: 无, level: 渡口, evidence: [{quote: "曜遂济自大阳", para: 晋书-p07137}, {quote: "济自大堨", para: 晋书-p07248}]}
+  - {name: 西阳门, ancient: 洛阳城门, modern: 未核, gazetteer: 无, level: 城门, evidence: [{quote: "大战于西阳门", para: 晋书-p07248}]}
+comparisons:
+  - {topic: 靳准之乱, note: "正史记弑刘粲、并其宗族；不外推刘氏所有支系全灭或添加人数。", evidence: [{quote: "乃起兵杀粲，并其宗族", para: 晋书-p04848}]}
+  - {topic: 刘曜被擒, note: "载记写饮酒数斗、马局顿后换小马、石堪乘势擒曜；通俗叙述常缩写为醉酒坠马，当前原文未直写此说。", evidence: [{quote: "曜将战，饮酒数斗", para: 晋书-p07137}, {quote: "石堪执曜", para: 晋书-p07248}]}
+pronunciation:
+  - {word: 靳准, pinyin: "jìn zhǔn", risk: "靳常误读qín", evidence: [{quote: "靳准弑刘粲", para: 晋书-p00136}]}
+  - {word: 上邽, pinyin: "shàng guī", risk: "邽读guī", evidence: [{quote: "奔于上邽", para: 晋书-p00156}]}
+  - {word: 蒲坂, pinyin: "pú bǎn", risk: "地名中坂读bǎn", evidence: [{quote: "进攻蒲坂", para: 晋书-p07137}]}
+  - {word: 金墉, pinyin: "jīn yōng", risk: "墉读yōng", evidence: [{quote: "攻石生于金墉", para: 晋书-p07137}]}
+  - {word: 高候, pinyin: "gāo hòu", risk: "候/侯字形依底本", evidence: [{quote: "及于高候，大战", para: 晋书-p07137}]}
+  - {word: 轵关, pinyin: "zhǐ guān", risk: "轵读zhǐ", evidence: [{quote: "自轵关西入伐曜", para: 晋书-p07137}]}
+  - {word: 訾/大堨, pinyin: "zī/dà è", risk: "生僻字，播前复核", evidence: [{quote: "出于巩、訾之间", para: 晋书-p07248}, {quote: "济自大堨", para: 晋书-p07248}]}
+scenes:
+  - {scene: 赤壁推戴刘曜、呼延晏等自平阳来会, evidence: [{quote: "太保呼延晏等自平阳奔之", para: 晋书-p07099}]}
+  - {scene: 刘曜水陆东救蒲坂、卫关北渡、追击高候, evidence: [{quote: "自卫关北济。季龙惧，引师而退。追之，及于高候，大战", para: 晋书-p07137}]}
+  - {scene: 刘曜决千金堨灌金墉, evidence: [{quote: "攻石生于金墉，决千金堨以灌之", para: 晋书-p07137}]}
+  - {scene: 石勒军大堨渡河、集成皋、由巩訾突袭, evidence: [{quote: "乃卷甲衔枚而诡道兼路，出于巩、訾之间", para: 晋书-p07248}]}
+  - {scene: 石堪擒刘曜、西阳门溃战, evidence: [{quote: "大战于西阳门。勒躬贯甲胄，出自阊阖，夹击之。曜军大溃，石堪执曜", para: 晋书-p07248}]}
+  - {scene: 前赵官员奔上邽、关中大乱, evidence: [{quote: "帅百官奔于上邽，关中大乱", para: 晋书-p00156}]}
+open_questions:
+  - 赤壁河津说未核；本地gazetteer同名只指湖北赤壁市。
+  - 高候、卫关、襄陵北原、訾、大堨/灵昌津、西阳门今址未核。
+  - 石虎攻上邽的起点及中途路线未核，勿补推测站点。
+  - 太子毗/熙异名、330称帝月份待核。
+  - 本地《资治通鉴》不可用，缺互证。

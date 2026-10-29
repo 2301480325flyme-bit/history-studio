@@ -1,0 +1,556 @@
+episode: s01e38-dongjin
+title: 第38集-战事
+period: 317–321
+armies:
+  祖逖军:
+    faction: 晋
+    head: 祖逖
+    size: 初得二千余人，后续未核
+    evidence:
+    - quote: 得二千余人而后进。
+      para: 晋书-p04823
+    note_faction: 晋
+  谯城坞主:
+    faction: 晋
+    head: 张平、樊雅
+    size: 数千（传文概述，确数未核）
+    evidence:
+    - quote: 时坞主张平自称豫州刺史，樊雅自号谯郡太守，各据一城
+      para: 晋书-p05821
+    note_faction: 地方坞主
+  陈川军:
+    faction: 后赵
+    head: 陈川
+    size: 未核；五千余户为迁徙户数非兵额
+    evidence:
+    - quote: 蓬陂坞主陈川，自号宁朔将军、陈留太守。
+      para: 晋书-p04824
+    note_faction: 初附晋后降石勒
+  石勒军:
+    faction: 后赵
+    head: 石勒
+    size: 石季龙救陈川五万；精骑另有一万
+    evidence:
+    - quote: 石季龙领兵五万救川
+      para: 晋书-p04826
+    - quote: 勒又遣精骑万人距逖
+      para: 晋书-p04826
+    note_faction: 石勒部（政权称谓随时间变化）
+  桃豹守军:
+    faction: 后赵
+    head: 桃豹
+    size: 未核
+    evidence:
+    - quote: 留桃豹等守川故城，住西台。
+      para: 晋书-p04826
+    note_faction: 石勒部
+  王含援军:
+    faction: 晋
+    head: 桓宣
+    size: 未核
+    evidence:
+    - quote: 含遣桓宣领兵助逖
+      para: 晋书-p04825
+    note_faction: 晋
+  祖逖部将:
+    faction: 晋
+    head: 韩潜、冯铁、卫策、董昭
+    size: 未核
+    evidence:
+    - quote: 逖遣韩潜、冯铁等追击于汴水
+      para: 晋书-p04826
+    note_faction: 晋
+events:
+- id: e01
+  army: 祖逖军
+  kind: 行军
+  place: 谯
+  from: 建康
+  via: []
+  date: 318
+  territory: null
+  note: （原记：谯城，from 未核（出发点和路线未核））抵谯地，具体关隘渡口不载；非郡级易手。
+  evidence:
+  - quote: 帝嘉逖勋，使运粮给之，而道远不至，军中大饥。进据太丘。
+    para: 晋书-p04824
+- id: e02
+  army: 祖逖军
+  kind: 行军
+  place: 太丘
+  from: 谯城附近（未明）
+  via: []
+  date: 318
+  territory: null
+  note: 粮运不至后进据太丘，古址待核。
+  evidence:
+  - quote: 军中大饥。进据太丘。
+    para: 晋书-p04824
+  skip: 太丘、坞主之争、陈川会合只用"饿着肚子打谯城"一句带过
+- id: e03
+  army: 谯城坞主
+  kind: 交战
+  place: 太丘祖逖营
+  from: null
+  via: []
+  date: 318
+  territory: null
+  note: 樊雅夜袭，董昭击退，伤亡未载。
+  evidence:
+  - quote: 樊雅遣众夜袭逖，遂入垒，拔戟大呼，直趣逖幕
+    para: 晋书-p04824
+  - quote: 督护董昭与贼战，走之。
+    para: 晋书-p04824
+  skip: 太丘、坞主之争、陈川会合只用"饿着肚子打谯城"一句带过
+- id: e04
+  army: 陈川军
+  kind: 会合
+  place: 谯城
+  from: 蓬陂坞
+  via: []
+  date: 318
+  territory: null
+  note: 陈川遣李头来援；行军路线未载。
+  evidence:
+  - quote: 川遣将李头率众援之，逖遂克谯城。
+    para: 晋书-p04824
+  skip: 太丘、坞主之争、陈川会合只用"饿着肚子打谯城"一句带过
+- id: e05
+  army: 祖逖军
+  kind: 攻占
+  place: 谯
+  via: []
+  date: 318
+  territory: null
+  note: （原记：谯城，from None）仅记克一城，未证谯郡全郡易手。
+  evidence:
+  - quote: 逖遂克谯城。
+    para: 晋书-p04824
+- id: e06
+  army: 王含援军
+  kind: 交战
+  place: 谯城
+  from: 未核
+  via: []
+  date: 318
+  territory: null
+  note: 桓宣援救，石季龙撤围；非郡级易手。
+  evidence:
+  - quote: 石季龙闻而引众围谯
+    para: 晋书-p04825
+  - quote: 含又遣宣救逖，季龙闻宣至而退。
+    para: 晋书-p04825
+  skip: 樊雅夜袭画在谯城；王含援军不画行军
+- id: e07
+  army: 陈川军
+  kind: 投降
+  place: 浚仪
+  from: null
+  via: []
+  date: 319-04
+  territory: null
+  note: 陈川叛晋降石勒；仅浚仪城/县政治归属变化可证，不推定陈留郡全郡易手。
+  evidence:
+  - quote: 夏四月，龙骧将军陈川以浚仪叛。降于石勒。
+    para: 晋书-p00137
+  skip: 陈川叛降用浚仪之战表示
+- id: e08
+  army: 祖逖军
+  kind: 交战
+  place: 浚仪
+  from: 谯
+  via: []
+  date: 319-05
+  territory: null
+  note: （原记：浚仪，from 未核）元帝纪称晋军败绩；祖逖传另称石季龙被设奇击败，疑为不同战次/记载张力。
+  evidence:
+  - quote: 平北将军祖逖及石勒将石季龙战于浚仪，王师败绩。
+    para: 晋书-p00137
+  - quote: 逖设奇以击之，季龙大败
+    para: 晋书-p04826
+- id: e09
+  army: 陈川军
+  kind: 交战
+  place: 陈川营（未核）
+  from: null
+  via: []
+  date: 319
+  territory: null
+  note: 陈川杀李头；李头亲党冯宠率四百人归祖逖。
+  evidence:
+  - quote: 川闻而怒，遂杀头。
+    para: 晋书-p04826
+  - quote: 头亲党冯宠率其属四百入归于逖
+    para: 晋书-p04826
+  skip: 陈川营、谷水、豫州诸郡掠夺未定位、旁白不讲
+- id: e10
+  army: 陈川军
+  kind: 行军
+  place: 豫州诸郡
+  from: 陈川控制区
+  via: []
+  date: 319
+  territory: null
+  note: 魏硕掠地，具体郡县与路线未载。
+  evidence:
+  - quote: 遣将魏硕掠豫州诸郡，大获子女车马。
+    para: 晋书-p04826
+  skip: 陈川营、谷水、豫州诸郡掠夺未定位、旁白不讲
+- id: e11
+  army: 祖逖部将
+  kind: 交战
+  place: 谷水
+  from: 未核
+  via: []
+  date: 319
+  territory: null
+  note: 卫策邀击并夺回被掠者；水段未定位。
+  evidence:
+  - quote: 逖遣将军卫策邀击于谷水，尽获所掠者，皆令归本
+    para: 晋书-p04826
+  skip: 陈川营、谷水、豫州诸郡掠夺未定位、旁白不讲
+- id: e12
+  army: 陈川军
+  kind: 投降
+  place: 石勒军
+  from: 陈川控制区
+  via: []
+  date: 319
+  territory: null
+  note: 陈川以众附石勒；不是全郡易手。
+  evidence:
+  - quote: 川大惧，遂以众附石勒。
+    para: 晋书-p04826
+  skip: 陈川叛降用浚仪之战表示
+- id: e13
+  army: 石季龙军
+  kind: 行军
+  place: 陈川营
+  from: 未核
+  via: []
+  date: 319
+  territory: null
+  note: 率五万救陈川，来路未载。
+  evidence:
+  - quote: 石季龙领兵五万救川
+    para: 晋书-p04826
+  skip: 陈川营、谷水、豫州诸郡掠夺未定位、旁白不讲
+- id: e14
+  army: 祖逖军
+  kind: 交战
+  place: 陈川营附近（未核）
+  from: 未核
+  via: []
+  date: 319
+  territory: null
+  note: 传文称祖逖设奇击败石季龙，随后石军掠豫州、迁陈川。
+  evidence:
+  - quote: 逖设奇以击之，季龙大败
+    para: 晋书-p04826
+  - quote: 收兵掠豫州，徙陈川还襄国
+    para: 晋书-p04826
+  skip: 陈川营、谷水、豫州诸郡掠夺未定位、旁白不讲
+- id: e15
+  army: 陈川部众
+  kind: 撤退
+  place: 襄国
+  from: 陈川故城
+  via: []
+  date: 319
+  territory: null
+  note: 陈川及部众被迁；襄国归属不变。
+  evidence:
+  - quote: 徙陈川还襄国
+    para: 晋书-p04826
+  skip: 陈川营、谷水、豫州诸郡掠夺未定位、旁白不讲
+- id: e16
+  army: 桃豹守军
+  kind: 屯驻
+  place: 浚仪
+  via: []
+  date: 319
+  territory: null
+  note: （原记：陈川故城西台，from None）城名未详；与祖逖东台隔城相持。
+  evidence:
+  - quote: 留桃豹等守川故城，住西台。
+    para: 晋书-p04826
+- id: e17
+  army: 祖逖部将
+  kind: 屯驻
+  place: 浚仪
+  via: []
+  date: 319
+  territory: null
+  note: （原记：陈川故城东台，from None）韩潜镇东台，记载称相守四旬。
+  evidence:
+  - quote: 逖遣将韩潜等镇东台。同一大城
+    para: 晋书-p04826
+  - quote: 相守四旬。
+    para: 晋书-p04826
+- id: e18
+  army: 祖逖军
+  kind: 交战
+  place: 陈川故城
+  from: 东台
+  via: []
+  date: 319
+  territory: null
+  note: 布囊盛土佯作米，令敌误判晋军粮足。
+  evidence:
+  - quote: 逖以布囊盛土如米状，使千余人运上台
+    para: 晋书-p04826
+  - quote: 贼既获米，谓逖士众丰饱
+    para: 晋书-p04826
+  skip: 陈川营、谷水、豫州诸郡掠夺未定位、旁白不讲
+- id: e19
+  army: 石勒军
+  kind: 行军
+  place: 桃豹西台
+  from: 未核
+  via: []
+  date: 319
+  territory: null
+  note: 刘夜堂率千驴运粮，路线未详。
+  evidence:
+  - quote: 石勒将刘夜堂以驴千头运粮以馈桃豹
+    para: 晋书-p04826
+  skip: 陈川营、谷水、豫州诸郡掠夺未定位、旁白不讲
+- id: e20
+  army: 祖逖部将
+  kind: 交战
+  place: 封丘
+  via: []
+  date: 319
+  territory: null
+  note: （原记：汴水，from 陈川故城方向（推测、未载））韩潜冯铁截粮；汴水具体战点未核。
+  evidence:
+  - quote: 逖遣韩潜、冯铁等追击于汴水，尽获之。
+    para: 晋书-p04826
+- id: e21
+  army: 桃豹守军
+  kind: 撤退
+  place: 东燕城
+  from: 汴水
+  via: []
+  date: 319
+  territory: null
+  note: 桃豹夜遁东燕城，未记城池攻守易手。
+  evidence:
+  - quote: 豹宵遁，退据东燕城
+    para: 晋书-p04826
+  skip: 东燕城、二台未定位
+- id: e22
+  army: 祖逖部将
+  kind: 屯驻
+  place: 封丘
+  from: 未核
+  via: []
+  date: 319
+  territory: null
+  note: 韩潜屯封丘以逼桃豹方向，沿路未载。
+  evidence:
+  - quote: 逖使潜进屯封丘以逼之。
+    para: 晋书-p04826
+  skip: 封丘屯驻合在汴水截粮一拍
+- id: e23
+  army: 祖逖部将
+  kind: 屯驻
+  place: 二台
+  from: 未核
+  via: []
+  date: 319
+  territory: null
+  note: 冯铁据点，地望未明。
+  evidence:
+  - quote: 冯铁据二台
+    para: 晋书-p04826
+  skip: 东燕城、二台未定位
+- id: e24
+  army: 祖逖军
+  kind: 行军
+  place: 雍丘
+  from: 浚仪
+  via: []
+  date: 319
+  territory: null
+  note: （原记：雍丘，from 未核）祖逖镇雍丘并截击石勒戍点；县级驻点而非整郡易手。
+  evidence:
+  - quote: 逖镇雍丘，数遣军要截石勒，勒屯戍渐蹙。
+    para: 晋书-p04826
+- id: e25
+  army: 石勒军
+  kind: 交战
+  place: 豫州境内祖逖防区（具体点未核）
+  from: 未核
+  via: []
+  date: 319
+  territory: null
+  note: 石勒遣万骑拒逖，遭击退。
+  evidence:
+  - quote: 勒又遣精骑万人距逖，复为逖所破
+    para: 晋书-p04826
+  skip: 石勒万骑、濮阳归附、320 年汴水战旁白不讲
+- id: e26
+  army: 濮阳归附民众
+  kind: 投降
+  place: 祖逖辖区（具体坞堡未核）
+  from: 濮阳
+  via: []
+  date: 319
+  territory: null
+  note: 五百家归附，不等同濮阳郡整体转属。
+  evidence:
+  - quote: 率乡里五百家降逖。
+    para: 晋书-p04826
+  skip: 石勒万骑、濮阳归附、320 年汴水战旁白不讲
+- id: e27
+  army: 祖逖部将
+  kind: 交战
+  place: 汴水
+  from: 未核
+  via: []
+  date: 320
+  territory: null
+  note: 元帝纪载卫策破石勒别军，月份/精确点未载；未必与截粮同一战。
+  evidence:
+  - quote: 祖逖部将卫策大破石勒别军于汴水。
+    para: 晋书-p00138
+  skip: 石勒万骑、濮阳归附、320 年汴水战旁白不讲
+- id: e28
+  army: null
+  kind: 屯驻
+  place: 合肥
+  from: 朝廷
+  via: []
+  date: 321-07
+  territory: null
+  note: 戴若思奉命镇合肥、都督六州；非疆域易手。
+  evidence:
+  - quote: 以尚书戴若思为征西将军、都督司兗豫并冀雍六州诸军事、司州刺史，镇合肥
+    para: 晋书-p00139
+  skip: 戴渊镇合肥用旗表示
+- id: e29
+  army: 祖逖军
+  kind: 屯驻
+  place: 雍丘
+  via: []
+  date: 321-09
+  territory: null
+  note: （原记：雍丘，from 黄河以南据点（具体起点未核））祖逖在雍丘卒；此条记录卒地，不作全军撤退。十月祖约继职。
+  evidence:
+  - quote: 俄卒于雍丘，时年五十六。
+    para: 晋书-p04827
+  - quote: 以逖弟侍中约为平西将军、豫州刺史。
+    para: 晋书-p00139
+- id: e30
+  army: 祖逖军
+  kind: 撤退
+  place: 淮南
+  from: 蓬关
+  via: []
+  date: 未核
+  territory: null
+  note: 载记记桃豹到蓬关、祖逖退淮南；与其卒年的先后未核，不标321年。
+  evidence:
+  - quote: 桃豹至蓬关，祖逖退如淮南。
+    para: 晋书-p07201
+  skip: 祖逖退淮南的年份未核
+places_new:
+- name: 谯城
+  lon: 115.78
+  lat: 33.87
+  precision: 约略（今亳州市域中心，非古城坐标）
+  basis: 谯县传统比定今亳州，精确古城址未核
+  evidence:
+  - quote: 逖遂克谯城。
+    para: 晋书-p04824
+- name: 太丘
+  lon: null
+  lat: null
+  precision: 未核
+  basis: 祖逖驻点未能据本地资料定位
+  evidence:
+  - quote: 进据太丘。
+    para: 晋书-p04824
+- name: 浚仪
+  lon: 114.35
+  lat: 34.8
+  precision: 约略（今开封市域，非古县址）
+  basis: 浚仪传统比定开封一带，古县城点待核
+  evidence:
+  - quote: 陈川以浚仪叛。
+    para: 晋书-p00137
+- name: 谷水
+  lon: null
+  lat: null
+  precision: 未核
+  basis: 豫州同名水段不明
+  evidence:
+  - quote: 邀击于谷水
+    para: 晋书-p04826
+- name: 蓬陂坞
+  lon: null
+  lat: null
+  precision: 未核
+  basis: 坞堡地望未核
+  evidence:
+  - quote: 蓬陂坞主陈川
+    para: 晋书-p04824
+- name: 汴水
+  lon: null
+  lat: null
+  precision: 河段未核
+  basis: 史料仅记河名，不能定位截粮点
+  evidence:
+  - quote: 追击于汴水
+    para: 晋书-p04826
+- name: 东燕城
+  lon: null
+  lat: null
+  precision: 未核
+  basis: 濮阳一带仅候选，古城沿革未核
+  evidence:
+  - quote: 退据东燕城
+    para: 晋书-p04826
+- name: 封丘
+  lon: 114.42
+  lat: 35.04
+  precision: 约略（今县城点）
+  basis: 现代封丘县城近似点，古县治/屯兵点未核
+  evidence:
+  - quote: 进屯封丘以逼之。
+    para: 晋书-p04826
+- name: 二台
+  lon: null
+  lat: null
+  precision: 未核
+  basis: 微地名无法判定
+  evidence:
+  - quote: 冯铁据二台
+    para: 晋书-p04826
+- name: 雍丘
+  lon: 114.78
+  lat: 34.55
+  precision: 约略（今杞县一带传统比定，非古城点）
+  basis: 晋书地理志称雍丘故杞国；现代对应为传统比定
+  evidence:
+  - quote: 雍丘故杞国。
+    para: 晋书-p00774
+  - quote: 逖镇雍丘
+    para: 晋书-p04826
+- name: 蓬关
+  lon: null
+  lat: null
+  precision: 未核
+  basis: 无方位记载且战事年代未定
+  evidence:
+  - quote: 桃豹至蓬关，祖逖退如淮南。
+    para: 晋书-p07201
+open_questions:
+- 本地通鉴卷90–94未检出；单源史实已在史料包标示，待补充通鉴语料复查。
+- 疆域.yaml仅记至316年；缺317年晋廷江左承统和318–321年祖逖/陈川争夺。请Claude决定是否加郡级事件；城级得失没有整郡证据时territory=null。
+- 任务要求对照“308–311年”与本集317–321不合；本次按本集时段检查，待确认是否原意318–321。
+- 浚仪战果记载不一，可能不同回合，需保留疑问。
+- 新地点多数无gazetteer；places_new中的市县坐标只是区域近似点，微地名坐标留空，行军路线/关隘渡口均未核。
+- 祖逖死后各郡县何时转手、桃豹抵蓬关时间未核；不可叙为321年立即全部失地。
+- 戴若思镇合肥可证，实际节制祖逖军令的日期和范围未核。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

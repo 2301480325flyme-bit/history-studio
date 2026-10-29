@@ -1,0 +1,510 @@
+episode: s01e34-donghai
+scope: 主体305–306，含304背景与308钩子
+source_note: 本地 sources 找到《晋书》帝纪、列传；《资治通鉴》卷82–84检索未返回可用段落。纪传互见；无第二独立出处处标明，未凭记忆补引。
+sections:
+  events:
+  - id: e01
+    date: 305-07（永兴二年）
+    people:
+    - 司马越
+    - 刘乔
+    place: 徐方、萧县
+    event: 越率甲卒三万西迎惠帝至萧县；刘乔不受节度、遣子刘祐阻击，越军败。
+    source_coverage: 帝纪、越传互见
+    evidence:
+    - quote: 唱义奉迎大驾，还复旧都，率甲卒三万，西次萧县。豫州刺史刘乔不受越命，遣子祐距之，越军败。
+      para: 晋书-p04641
+    - quote: 东海王越严兵徐方，将西迎大驾。
+      para: 晋书-p00102
+  - id: e02
+    date: 305-07/08
+    people:
+    - 司马虓
+    - 田徽
+    - 刘祐
+    - 司马越
+    place: 谯、阳武
+    event: 虓遣田徽率突骑八百迎越，在谯遇刘祐、祐众溃，越屯阳武。
+    source_coverage: 战斗详节仅越传；虓传可互证其受王浚资兵南渡河击乔
+    evidence:
+    - quote: 范阳王虓遣督护田徽以突骑八百迎越，遇祐于谯，祐众溃，越进屯阳武。
+      para: 晋书-p04641
+    - quote: 虓自拔渡河，王浚表虓领翼州刺史，资以兵马。虓入翼州发兵，又南济河，破乔等。
+      para: 晋书-p03440
+  - id: e03
+    date: 306-01（光熙元年）
+    people:
+    - 司马颙
+    - 张方
+    - 司马越
+    - 司马颖
+    - 宋胄
+    place: 长安、洛阳
+    event: 颙闻刘乔败杀张方、传首越处求和，越拒绝；宋胄等破颖将楼裒、逼近洛阳，颖逃长安。
+    source_coverage: 惠帝纪、颖传互见；张方死地执行者未载
+    evidence:
+    - quote: 河间王颙闻刘乔破，大惧，遂杀张方，请和于东海王越，越不听。宋胄等破颖将楼裒，进逼洛阳，颖奔长安。
+      para: 晋书-p00103
+    - quote: 颖还长安，未至而闻颙斩张方，求和于越。
+      para: 晋书-p03826
+  - id: e04
+    date: 306-01/05
+    people:
+    - 司马越
+    - 祁弘
+    - 宋胄
+    - 司马纂
+    - 彭随
+    - 刁默
+    place: 温、湖
+    event: 越派祁弘等迎驾，四月屯温；颙派彭随刁默于湖阻击，祁弘胜、刁默败。
+    source_coverage: 惠帝纪及越传互见
+    evidence:
+    - quote: 甲子，越遣其将祁弘、宋胄、司马纂等迎帝。
+      para: 晋书-p00103
+    - quote: 夏四月己巳，东海王越屯于温。颙遣弘农太守彭随、北地太守刁默距祁弘等于湖。
+      para: 晋书-p00103
+    - quote: 壬辰，祁弘等与刁默战，默大败，颙、颍走南山，奔于宛。
+      para: 晋书-p00103
+    - quote: 越率诸侯及鲜卑许扶历、驹次宿归等步骑迎惠帝反洛阳。
+      para: 晋书-p04641
+  - id: e05
+    date: 306-05/06
+    people:
+    - 惠帝
+    - 祁弘
+    - 司马越
+    place: 长安至洛阳
+    event: 祁弘等奉惠帝东还，帝乘牛车、官员步行，六月至洛阳旧殿、谒太庙。
+    source_coverage: 帝纪、越传互见；沿途节点未载；新安是304年西迁点，不能挪作东还路线
+    evidence:
+    - quote: 己亥，弘等奉帝还洛阳，帝乘牛车，行宫藉草，公卿跋涉。
+      para: 晋书-p00103
+    - quote: 六月丙辰朔，至自长安，升旧殿，哀感流涕。谒于太庙。复皇后羊氏。
+      para: 晋书-p00103
+    - quote: 越与虓西迎帝，而颙出奔。于是奉天子还都。
+      para: 晋书-p03440
+  - id: e06
+    date: 306-09/10
+    people:
+    - 冯嵩
+    - 司马颖
+    - 刘舆
+    - 司马虓
+    place: 鄴（颖被害处未明）
+    event: 冯嵩捕颖送鄴；虓死后其长史刘舆杀颖。鄴仅为捕送地，不能断为死地。
+    source_coverage: 帝纪记捕送被杀；颖传记复颖还鄴
+    evidence:
+    - quote: 虓长史刘舆害成都王颖。
+      para: 晋书-p00103
+    - quote: 及东海王越奉迎大驾，颙启帝复颖还鄴，以志为魏郡太守，加左将军，随颖北镇。
+      para: 晋书-p03826
+  - id: e07
+    date: 306-11-庚午
+    people:
+    - 惠帝司马衷
+    place: 洛阳显阳殿
+    event: 惠帝崩，年四十八；可作八王之乱传统分期终点标记，非晋境战事终止。
+    source_coverage: 惠帝纪、怀帝纪互见
+    evidence:
+    - quote: 十一月庚午，帝崩于显阳殿，时年四十八，葬太阳陵。
+      para: 晋书-p00103
+    - quote: 光熙元年十一月庚午，孝惠帝崩。
+      para: 晋书-p00108
+  - id: e08
+    date: 306-11/12
+    people:
+    - 怀帝司马炽
+    - 司马越
+    place: 洛阳
+    event: 司马炽即位，司马越任太傅录尚书成为权力中心；阶段性收束，不是天下太平。
+    source_coverage: 怀帝纪与惠帝纪
+    evidence:
+    - quote: 癸酉，即皇帝位，大赦，尊皇后羊氏为惠皇后，居弘训宫。
+      para: 晋书-p00108
+    - quote: 以太傅、东海王越录尚书。
+      para: 晋书-p00103
+  - id: e09
+    date: 306-12
+    people:
+    - 司马模
+    - 司马颙
+    place: 雍谷
+    event: 司马模杀颙；行军及地点未详。
+    source_coverage: 怀帝纪、志第三互见；未检出颙传独立段落
+    evidence:
+    - quote: 南阳王模杀河间王颙于雍谷。
+      para: 晋书-p00108
+    - quote: 是年，苟晞破公师籓，张方破范阳王猇，关西诸将攻河间王颙，颙奔走，东海王迎杀之。
+      para: 晋书-p00666
+  - id: e10
+    date: 307年五月（永嘉元年）
+    people:
+    - 汲桑
+    - 石勒
+    - 司马腾
+    - 冯嵩
+    place: 鄴
+    event: 307年五月，汲桑聚众起事，石勒为前锋攻鄴，击败冯嵩，陷鄴城并杀新蔡王腾。疆域仅能确认城池陷落，魏郡整体控制不明，战事账记争夺。
+    source_coverage: 怀帝纪与石勒载记互证。
+    evidence:
+    - quote: 夏五月，马牧帅汲桑聚众反，败魏郡太守冯嵩，遂陷鄴城，害新蔡王腾。
+      para: 晋书-p00109
+    - quote: 桑进军攻鄴，以勒为前锋都督，大败腾将冯嵩，因长驱入鄴，遂害腾
+      para: 晋书-p07147
+  - id: e11
+    date: 308-10（永嘉二年）
+    people:
+    - 刘元海（刘渊）
+    place: 平阳
+    event: 刘元海称帝、仍称汉，作为本集钩子，超出主体年份。
+    source_coverage: 称帝仅怀帝纪；载记只旁证此前称汉王
+    evidence:
+    - quote: 冬十月甲戌，刘元海僭帝号于平阳，仍称汉。
+      para: 晋书-p00110
+    - quote: 刘元海称汉王于黎亭
+      para: 晋书-p07147
+  people:
+  - name: 司马越
+    birth_death: 生年不详—311
+    age: 未核（本传无生年）
+    office: 东海王、徐州都督、太傅录尚书
+    portrait: 有sima_yue.png
+    evidence:
+    - quote: 以太傅、东海王越录尚书。
+      para: 晋书-p00103
+  - name: 司马衷（惠帝）
+    birth_death: 259—306
+    age: 47周岁（生日不详或46）
+    office: 晋惠帝
+    portrait: 有sima_zhong.png
+    evidence:
+    - quote: 帝崩于显阳殿，时年四十八。
+      para: 晋书-p00103
+  - name: 张方
+    birth_death: 生年不详—306
+    age: 未核
+    office: 颙将、右将军，挟惠帝西迁
+    portrait: 无
+    evidence:
+    - quote: 遂杀张方，请和于东海王越。
+      para: 晋书-p00103
+  - name: 王浚
+    birth_death: 生年不详—314
+    age: 未核
+    office: 安北将军、幽州军政长官
+    portrait: 有wang_jun.png
+    evidence:
+    - quote: 安北将军王浚遣乌丸骑攻成都王颖于鄴，大败之。
+      para: 晋书-p00101
+  - name: 司马腾
+    birth_death: 生年不详—307
+    age: 未核
+    office: 东嬴公、平北将军，并州镇将
+    portrait: 无
+    evidence:
+    - quote: 夏五月，马牧帅汲桑聚众反，败魏郡太守冯嵩，遂陷鄴城，害新蔡王腾。
+      para: 晋书-p00109
+    - quote: 桑进军攻鄴，以勒为前锋都督，大败腾将冯嵩，因长驱入鄴，遂害腾
+      para: 晋书-p07147
+  - name: 司马虓
+    birth_death: 生年未核—306
+    age: 卒年称三十七（口径待核）
+    office: 范阳王、骠骑将军、司空
+    portrait: 无
+    evidence:
+    - quote: 永兴三年暴疾薨，时年三十七。
+      para: 晋书-p03440
+  - name: 司马颖
+    birth_death: 未核—306
+    age: 未核
+    office: 成都王、皇太弟，被捕送鄴后遇害
+    portrait: 有sima_ying.png
+    evidence:
+    - quote: 虓长史刘舆害成都王颖。
+      para: 晋书-p00103
+  - name: 司马颙
+    birth_death: 生年不详—306
+    age: 未核
+    office: 河间王、太宰，挟惠帝居长安
+    portrait: 有sima_yong.png
+    evidence:
+    - quote: 南阳王模杀河间王颙于雍谷。
+      para: 晋书-p00108
+  - name: 司马炽
+    birth_death: 生年本地未核—313
+    age: 未核
+    office: 皇太弟、怀帝
+    portrait: 无
+    evidence:
+    - quote: 癸酉，即皇帝位。
+      para: 晋书-p00108
+  - name: 刘元海
+    birth_death: 未核
+    age: 未核
+    office: 汉王、308年平阳称帝
+    portrait: 无
+    evidence:
+    - quote: 冬十月甲戌，刘元海僭帝号于平阳，仍称汉。
+      para: 晋书-p00110
+  - name: 祁弘
+    birth_death: 未核
+    age: 未核
+    office: 越将、西迎惠帝
+    portrait: 无
+    evidence:
+    - quote: 越遣其将祁弘、宋胄、司马纂等迎帝。
+      para: 晋书-p00103
+  - name: 宋胄
+    birth_death: 未核
+    age: 未核
+    office: 越将、破楼裒
+    portrait: 无
+    evidence:
+    - quote: 宋胄等破颖将楼裒，进逼洛阳。
+      para: 晋书-p00103
+  - name: 彭随
+    birth_death: 未核
+    age: 未核
+    office: 弘农太守、颙部将
+    portrait: 无
+    evidence:
+    - quote: 颙遣弘农太守彭随、北地太守刁默距祁弘等于湖。
+      para: 晋书-p00103
+  - name: 刁默
+    birth_death: 未核
+    age: 未核
+    office: 北地太守、与祁弘战于湖
+    portrait: 无
+    evidence:
+    - quote: 祁弘等与刁默战，默大败。
+      para: 晋书-p00103
+  - name: 刘乔
+    birth_death: 未核
+    age: 未核
+    office: 豫州刺史、阻击越军
+    portrait: 无
+    evidence:
+    - quote: 豫州刺史刘乔不受越命，遣子祐距之。
+      para: 晋书-p04641
+  - name: 刘舆
+    birth_death: 未核
+    age: 未核
+    office: 虓长史、杀司马颖
+    portrait: 无
+    evidence:
+    - quote: 虓长史刘舆害成都王颖。
+      para: 晋书-p00103
+  - name: 冯嵩
+    birth_death: 未核
+    age: 未核
+    office: 顿丘太守、捕送司马颖
+    portrait: 无
+    evidence:
+    - quote: 顿丘太守冯嵩执成都王颖，送之于鄴。
+      para: 晋书-p00103
+  - name: 汲桑
+    birth_death: 生卒年未核
+    age: 未核
+    office: 马牧帅，聚众反晋并进攻鄴
+    portrait: 无
+    evidence:
+    - quote: 桑进军攻鄴，以勒为前锋都督
+      para: 晋书-p07147
+  - name: 石勒
+    birth_death: 274—333（本地语料本次未核）
+    age: 约33岁（若生年274、事件年307；本地未核）
+    office: 汲桑部前锋都督，攻鄴杀腾
+    portrait: 无
+    evidence:
+    - quote: 桑进军攻鄴，以勒为前锋都督
+      para: 晋书-p07147
+  - name: 司马模
+    birth_death: 生卒年未核
+    age: 未核
+    office: 南阳王，杀河间王司马颙
+    portrait: 无
+    evidence:
+    - quote: 南阳王模杀河间王颙于雍谷。
+      para: 晋书-p00108
+  - name: 司马纂
+    birth_death: 生卒年未核
+    age: 未核
+    office: 司马越将领，参与迎惠帝
+    portrait: 无
+    evidence:
+    - quote: 越遣其将祁弘、宋胄、司马纂等迎帝。
+      para: 晋书-p00103
+  - name: 刘祐
+    birth_death: 生卒年未核
+    age: 未核
+    office: 豫州刺史刘乔之子，奉父命阻击司马越
+    portrait: 无
+    evidence:
+    - quote: 刘乔不受越命，遣子祐距之。
+      para: 晋书-p04641
+  places:
+  - name: 萧县
+    ancient: 萧县
+    modern: 安徽宿州萧县一带
+    gazetteer: 无（places未命中）
+    level: 县级行军点
+    precision: 坐标待核
+  - name: 谯
+    ancient: 谯县
+    modern: 安徽亳州谯城区
+    gazetteer: 无
+    level: 县级会战点
+    precision: 坐标待核
+  - name: 阳武
+    ancient: 阳武县
+    modern: 河南原阳一带（晋治所待核）
+    gazetteer: 无
+    level: 县级屯驻点
+    precision: 坐标待核
+  - name: 温
+    ancient: 温/温县
+    modern: 河南温县
+    gazetteer: 有wenxian_approx（未经策展）
+    level: 县级驻地，适当
+    precision: 未核且缺coordinateSource
+  - name: 湖
+    ancient: 湖/湖县
+    modern: 灵宝附近暂定，确址待考
+    gazetteer: 无
+    level: 县/战场节点而非水体
+    precision: 低
+  - name: 霸上
+    ancient: 霸上
+    modern: 西安东郊灞桥区域
+    gazetteer: 无
+    level: 区域性迎驾点
+    precision: 区域级
+  - name: 新安
+    ancient: 新安县
+    modern: 河南洛阳新安一带
+    gazetteer: 无
+    level: 304年西迁途经县
+    precision: 待核
+  - name: 雍谷
+    ancient: 雍谷
+    modern: 未比定
+    gazetteer: 无
+    level: 死亡地点
+    precision: 未核
+  - name: 显阳殿
+    ancient: 洛阳宫城显阳殿
+    modern: 汉魏故城宫城内、殿址未定
+    gazetteer: 无
+    level: 宫殿级
+    precision: 未核
+  - name: 鄴
+    ancient: 鄴城
+    modern: 河北临漳邺城遗址
+    gazetteer: 有ye_city
+    level: 城址适当
+    precision: 考古近似
+  - name: 长安
+    ancient: 长安
+    modern: 陕西西安汉长安遗址
+    gazetteer: 有changan_han_city
+    level: 城址非宫殿
+    precision: 考古近似
+  - name: 洛阳
+    ancient: 洛阳
+    modern: 河南洛阳汉魏故城
+    gazetteer: 有luoyang_han_wei
+    level: 城址适当
+    precision: 考古近似
+  - name: 宛
+    ancient: 宛县
+    modern: 河南南阳宛城区
+    gazetteer: 有wanxian
+    level: 县城适当
+    precision: 近似
+  - name: 平阳
+    ancient: 平阳
+    modern: 山西临汾一带（治所待核）
+    gazetteer: 本次未查
+    level: 称帝地点
+    precision: 待核
+  debates:
+  - issue: 八王之乱终点
+    note: 惠帝死、怀帝立、越居权力中心可作传统分期终点；不可说战事彻底停止。
+    evidence:
+    - quote: 以太傅、东海王越录尚书。
+      para: 晋书-p00103
+    - quote: 石勒寇常山，安北将军王浚讨破之。
+      para: 晋书-p00110
+  - issue: 张方之死
+    note: 颙杀方、斩首传至越处；死地及行刑者未载，不是越亲手杀方。
+    evidence:
+    - quote: 河间王颙闻刘乔破，大惧，遂杀张方。
+      para: 晋书-p00103
+    - quote: 河间王颙闻乔败，斩张方，传首于越。
+      para: 晋书-p03440
+  - issue: 内乱十六年耗尽精兵
+    note: 本地语料无兵额总数或“精兵耗尽”量化依据。宜说长期内战削弱中央和州郡军力，不作兵力归零断言。
+    evidence:
+    - quote: 自顷戎车屡征，劳费人力。
+      para: 晋书-p00101
+    - quote: 关东所在兵起，皆以诛颖为名。
+      para: 晋书-p07147
+  - issue: 演义与正史
+    note: 《三国演义》主体不覆盖本集西晋事件；本次未检特定野史。竹林劫驾、张方行刑等后世细节须另有出处。
+  pronunciations:
+  - word: 颙
+    pinyin: yóng
+    risk: 人名
+    evidence:
+    - quote: 南阳王模杀河间王颙于雍谷。
+      para: 晋书-p00108
+  - word: 祁弘
+    pinyin: qí hóng
+    risk: 姓氏声调
+    evidence:
+    - quote: 越遣其将祁弘、宋胄、司马纂等迎帝。
+      para: 晋书-p00103
+  - word: 胄
+    pinyin: zhòu
+    risk: 宋胄
+    evidence:
+    - quote: 越遣其将祁弘、宋胄、司马纂等迎帝。
+      para: 晋书-p00103
+  - word: 鄴
+    pinyin: yè
+    risk: 邺城
+    evidence:
+    - quote: 冯嵩执成都王颖，送之于鄴。
+      para: 晋书-p00103
+  - word: 雍谷
+    pinyin: yōng gǔ
+    risk: 地名读音
+    evidence:
+    - quote: 南阳王模杀河间王颙于雍谷。
+      para: 晋书-p00108
+  illustration_scenes:
+  - scene: 惠帝躲进竹林，张方逼其登车赴长安
+    evidence:
+    - quote: 帝驰避后园竹中。方逼帝升车。
+      para: 晋书-p00101
+  - scene: 牛车载惠帝还洛、公卿步行、回到旧殿
+    evidence:
+    - quote: 帝乘牛车，行宫藉草，公卿跋涉。
+      para: 晋书-p00103
+    - quote: 至自长安，升旧殿，哀感流涕。
+      para: 晋书-p00103
+  - scene: 田徽八百突骑在谯击溃刘祐
+    evidence:
+    - quote: 突骑八百迎越，遇祐于谯，祐众溃。
+      para: 晋书-p04641
+  - scene: 湖战后颙、颖转走南山奔宛
+    evidence:
+    - quote: 祁弘等与刁默战，默大败，颙、颍走南山，奔于宛。
+      para: 晋书-p00103
+  - scene: 惠帝崩显阳殿、怀帝即位
+    evidence:
+    - quote: 帝崩于显阳殿，时年四十八。
+      para: 晋书-p00103
+    - quote: 癸酉，即皇帝位。
+      para: 晋书-p00108

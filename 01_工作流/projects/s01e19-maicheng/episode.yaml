@@ -1,0 +1,297 @@
+# 快节奏版（2026-10-14，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第19集：关羽水淹七军、威震华夏，吕蒙白衣渡江，关羽败走麦城（219）
+# 本地语料核对：
+# 关羽传"羽率众攻曹仁于樊。曹公遣于禁助仁。秋，大霖雨，汉水泛溢，禁所督七军皆没。禁降羽，羽又斩将军庞德。梁、郏、陆浑群盗或遥受羽印号，为之支党，羽威震华夏。曹公议徙许都以避其锐，司马宣王、蒋济以为关羽得志，孙权必不愿也。可遣人劝权蹑其后，许割江南以封权…
+#   先是权遣使为子索羽女，羽骂辱其使，不许婚，权大怒。又南郡太守糜芳在江陵，将军傅士仁屯公安，素皆嫌羽轻自己。羽之出军，芳、仁供给军资，不悉相救，羽言还当治之，芳、仁咸怀惧不安…曹公遣徐晃救曹仁，羽不能克，引军退还"；
+# 庞德传"独抱船覆水中，为羽所得，立而不跪…德骂羽曰：竖子，何谓降也！…我宁为国家鬼，不为贼将也。遂为羽所杀"；
+# 吕蒙传"蒙至寻阳，尽伏其精兵舳舻中，使白衣摇橹，作商贾人服，昼夜兼行，至羽所置江边屯候，尽收缚之，是故羽不闻知。遂到南郡，士仁、麋芳皆降…蒙麾下士，是汝南人，取民家一笠，以覆官铠…遂垂涕斩之"；"羽人还，私相参讯，咸知家门无恙，见待过于平时，故羽吏士无斗心…羽自知孤穷，乃走麦城"；
+# 吴主传"羽伪降，立幡旗为象人于城上，因遁走，兵皆解散，尚十余骑…十二月，璋司马马忠获羽及其子平、都督赵累等于章乡，遂定荆州"；关羽传刮骨去毒（无华佗、无时间地点）。
+# 不用："虎女安肯嫁犬子"（典略，注文，未核对）；关羽首级送曹操（未核对）；华佗刮骨、玉泉山显圣（演义）。
+
+id: s01e19-maicheng
+title: 水淹七军
+series: 三国 · 第19集
+year: 219
+
+notes:
+  - 主线问题：威震华夏、吓得曹操想迁都的关羽，怎么半年不到就输光了？——前面打得越猛，身后越空；骂了盟友，又吓着了自己人；吕蒙抢的不是城，是他士兵的心。
+  - 反差：秋天七军覆没、曹操议迁都；冬天身边只剩十几个骑兵。
+  - 细节：庞德抱着翻船被抓，站着不跪；白衣摇橹的商船；吕蒙为一顶斗笠斩同乡；使者挨家挨户问候家属；城头插旗立假人。
+  - 动机：孙权恨关羽辱使拒婚；糜芳、士仁怕"回来再收拾你们"；曹操用"许割江南"拉孙权下手。
+  - 演义对照：刮骨疗毒确有其事，但史书没写华佗，也不在樊城；"大意失荆州"四个字是后人说的。
+
+map:
+  center: [112.5, 31.5]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-17 史图风
+  river_rank: 4
+  palette: warm          # 2026-10-25 第18集起统一新样式（第27集试样通过）
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 吓得曹操想迁都的人，半年后只剩十几个骑兵
+  big: [水淹七军]
+  hero: 关羽
+  at: 30
+  summary: |
+    关羽北上围樊城，秋雨连绵，汉水暴涨，于禁七军全军覆没，庞德被俘不屈。关羽威震华夏，曹操一度想把许都迁走。司马懿、蒋济劝曹操拉孙权从背后下手——孙权早就记恨关羽拒婚。
+    吕蒙让精兵藏在船舱里，士兵穿白衣扮商人摇橹，悄悄绑了沿江哨所，糜芳、士仁开城投降。吕蒙善待关羽将士的家属，关羽的兵一听家里平安，再也无心作战。关羽败走麦城，在章乡被擒。
+  tags: [水淹七军, 关羽, 吕蒙, 白衣渡江, 败走麦城]
+  next: 曹操病逝，曹丕称帝
+
+sources_local:
+  - {id: sgz-01, work: 三国志, volume: 卷一·武帝纪, url: 'https://zh.wikisource.org/wiki/三國志/卷01'}
+  - {id: sgz-18, work: 三国志, volume: 卷十八·庞德传, url: 'https://zh.wikisource.org/wiki/三國志/卷18'}
+  - {id: sgz-36, work: 三国志, volume: 卷三十六·关羽传, url: 'https://zh.wikisource.org/wiki/三國志/卷36'}
+  - {id: sgz-47, work: 三国志, volume: 卷四十七·吴主传, url: 'https://zh.wikisource.org/wiki/三國志/卷47'}
+  - {id: sgz-54, work: 三国志, volume: 卷五十四·吕蒙传, url: 'https://zh.wikisource.org/wiki/三國志/卷54'}
+
+factions: {曹操: '#2f5d3a', 刘备: '#5f8f3a', 孙权: '#b0841f'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    汉室: {slot: stone, main: true, label_at: 洛阳}
+    关中诸将: {slot: lavender}
+    曹操: {slot: jade, label_at: 许}
+    孙权: {slot: lemon, label_at: 柴桑}
+    刘备: {slot: pink, label_at: 江陵}
+
+people:
+  糜芳: {image: 03_素材/人物立绘/mi_fang.png, title: 南郡太守, role: 开城降吴, faction: 刘备}
+  徐晃: {image: 03_素材/人物立绘/xu_huang.png, title: 平寇将军, role: 解樊城之围, faction: 曹操}
+  曹仁: {image: 03_素材/人物立绘/cao_ren.png, title: 征南将军, role: 守樊城, faction: 曹操}
+  关羽: {image: 03_素材/人物立绘/guan_yu.png, title: 前将军, role: 北攻樊城, faction: 刘备}
+  曹操: {image: 03_素材/人物立绘/cao_cao.png, title: 魏王, role: 议徙许都, faction: 曹操}
+  于禁: {image: 03_素材/人物立绘/yu_jin.png, title: 左将军, role: 七军覆没, faction: 曹操}
+  庞德: {image: 03_素材/人物立绘/pang_de.png, title: 立义将军, role: 不屈殉节, faction: 曹操}
+  司马懿: {image: 03_素材/人物立绘/sima_yi.png, title: 军司马, role: 劝联孙权, faction: 曹操}
+  孙权: {image: 03_素材/人物立绘/sun_quan.png, title: 车骑将军, role: 背后下手, faction: 孙权}
+  吕蒙: {image: 03_素材/人物立绘/lv_meng.png, title: 南郡太守, role: 白衣渡江, faction: 孙权}
+
+places:
+  当阳: {id: changban, name: 当阳, label: left, show: false}   # 2026-10-25 战事账：关羽还当阳，西保麦城（点取长坂，今当阳一带）
+  许: {id: xuchang_approx, label: right, tier: capital}
+  樊城: {id: fancheng, label: right}
+  襄阳: {id: xiangyang, label: left}
+  江陵: {id: jiangling, label: left}
+  公安: {id: gongan_han, label: below}
+  麦城: {id: maicheng, label: right}
+  临沮: {id: linju, label: left}
+  寻阳: {id: xunyang_han, label: right}
+  柴桑: {id: chaisang, label: right}
+  成都: {id: chengdu_city, label: left}
+  洛阳: {id: luoyang_han_wei, label: right}
+
+camera:
+  focus: [樊城, 江陵]
+  zoom: 2.0
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 曹操被一个人吓得，想把都城从许县搬走。
+    map: '219-05'
+    year: 219
+    phase: 威震华夏
+    sources: [sgz-36]
+    camera: {focus: [许, 樊城], zoom: fit, move: 1.6}
+    show:
+      - sfx: 重拍转场
+      - enter: {who: 曹操, at: 许, side: left, cue: 曹操, for: 3.4}
+
+  - say: 可不到半年，这个人身边，只剩下十几个骑兵。
+    sources: [sgz-47]
+
+  - say: 他就是关羽。威震华夏的关羽，怎么输得这么快？
+    sources: [sgz-36]
+    show:
+      - enter: {who: 关羽, side: right, cue: 关羽, for: 4}
+
+  # ---------------- 第一章 水淹七军 ----------------
+  - say: 二一九年，关羽从江陵北上，把曹仁围在了樊城。
+    phase: 水淹七军
+    sources: [sgz-36]
+    camera: {focus: [江陵, 襄阳, 樊城], zoom: fit, move: 1.4}
+    tells: [e01, e03]
+    audit_ok: [遗忘]   # 曹仁守樊城到底，营地留到片尾是对的
+    show:
+      - title_bar: {text: 水淹七军, sub: 三国 · 第19集, for: 3.2}
+      - sfx: 片头鼓
+      - army: {head: 关羽, from: 江陵, to: 樊城, faction: 刘备, banner: 关, troops: infantry, size: 2.8, cue: 北上, grow: 2.0}
+      - camp: {at: 樊城, unit: 曹仁, faction: 曹操, text: 曹仁, cue: 樊城}   # 樊城始终在曹仁手里（关羽没打下来），守军营一直留着
+      - siege: {at: 樊城, text: 围, faction: 刘备, cue: 围在, for: 3}
+      - enter: {who: 曹仁, side: left, cue: 曹仁, for: 3.4}
+
+  - say: 曹操派于禁，带着七支军队来救。
+    sources: [sgz-36]
+    tells: [e04]
+    show:
+      - enter: {who: 于禁, side: left, cue: 于禁, for: 3}
+      - army: {head: 于禁, from: 许, to: 樊城, faction: 曹操, banner: 于, troops: infantry, size: 2.6, cue: 七支, grow: 1.6}
+
+  - say: 秋天，大雨下个不停，汉水暴涨。于禁的七军，全泡在了水里。
+    sources: [sgz-36]
+    camera: {focus: 樊城, zoom: 10, move: 1.2}
+    tells: [e05]
+    show:
+      - act: {act: flood, at: 樊城, text: 汉水泛溢, cue: 汉水暴涨, for: 5}
+      - act: {act: thunder, at: 樊城, cue: 大雨, for: 3}
+
+  - say: 于禁投降了。部将庞德抱着翻了的小船被抓，站着不肯跪。关羽劝降，庞德怒斥：
+    sources: [sgz-18]
+    tells: [e06]   # 于禁所部投降，不是城池易手
+    show:
+      - defect: {who: 于禁, at: 樊城, to: 刘备, from: 曹操, verb: 降, cue: 投降}   # 于禁的旗翻成关羽色，营地和来路随之撤掉
+      - enter: {who: 庞德, side: left, cue: 庞德, for: 4}
+
+  - say: 小子，什么叫投降！我庞德，绝不做你们的将军！
+    speaker: 庞德
+    style: 怒目圆睁，不屈，大声怒斥
+    to: 关羽
+    sources: [sgz-18]
+
+  - say: 庞德不肯低头，就此殉节。附近好几股地方武装，纷纷接受关羽的官印，关羽威震华夏。
+    sources: [sgz-36]
+    show:
+      - exit: {who: 庞德, at: 樊城, verb: 卒, portrait: true, cue: 殉节, for: 4}
+      - quote: {text: 羽威震华夏, source: 三国志·关羽传, era: 建安二十四年, cue: 威震华夏, for: 4}
+
+  - say: 曹操跟大臣们商量：要不要把许都迁走，避一避关羽的锋芒。
+    sources: [sgz-36]
+    camera: {focus: [许, 樊城], zoom: fit, move: 1.4}
+    show:
+      - arrow: {from: 许, to: 洛阳, kind: direction, faction: 曹操, cue: 迁走, grow: 1.2}
+
+  # ---------------- 第二章 背后 ----------------
+  - say: 司马懿和蒋济拦住了他：关羽得意，孙权一定不乐意。不如劝孙权从背后下手，答应把江南封给他。
+    phase: 背后
+    sources: [sgz-36]
+    show:
+      - enter: {who: 司马懿, side: left, cue: 司马懿, for: 3.4}
+      - act: {act: courier, places: [许, 柴桑], text: 许割江南, cue: 孙权, grow: 1.8, for: 3.4}
+
+  - say: 孙权本来就恨关羽。他曾派人为儿子求娶关羽的女儿，关羽不但不答应，还把使者骂了一顿。
+    sources: [sgz-36]
+    show:
+      - versus: {left: 孙权, right: 关羽, label: 骂辱其使, cue: 骂了, for: 4}
+
+  - say: 关羽的自己人也有怨气。守江陵的糜芳、守公安的士仁，一直觉得关羽看不起他们。
+    sources: [sgz-36]
+    camera: {focus: [江陵, 公安], zoom: 8, move: 1.2}
+    show:
+      - flag: {at: 江陵, name: 糜芳, sub: 南郡太守, faction: 刘备, cue: 糜芳}
+      - enter: {who: 糜芳, side: right, cue: 糜芳, for: 3.4}
+      - flag: {at: 公安, name: 士仁, sub: 屯公安, faction: 刘备, cue: 士仁}
+
+  - say: 关羽出兵在外，他俩供应军需却不尽力。关羽放话：回来再收拾你们。两人心里直发慌。
+    sources: [sgz-36]
+
+  # ---------------- 第三章 白衣渡江 ----------------
+  - say: 孙权出手了。吕蒙把精兵藏进大船的船舱，让士兵穿上白衣，扮成商人摇橹，日夜往上游赶。
+    phase: 白衣渡江
+    sources: [sgz-54]
+    camera: {focus: [寻阳, 柴桑, 公安, 江陵], zoom: fit, move: 1.6}
+    tells: [e19]
+    show:
+      - enter: {who: 吕蒙, side: right, cue: 吕蒙, for: 3}
+      - march: {from: 寻阳, to: 公安, faction: 孙权, label: 白衣摇橹, cue: 商人, grow: 2.6}
+      - sfx: {name: 萧声, cue: 白衣}
+
+  - say: 关羽沿江设的哨所，被一个个悄悄绑了。关羽什么都不知道。
+    sources: [sgz-54]
+
+  - say: 船到南郡，士仁、糜芳开城投降。吕蒙一仗没打，就进了江陵。
+    map: '219-11'
+    owners_cue: 投降
+    sources: [sgz-54]
+    camera: {focus: [公安, 江陵], zoom: 8, move: 1.2}
+    tells: [e20, e21, e22]
+    show:
+      - defect: {who: 糜芳, at: 江陵, to: 孙权, from: 刘备, verb: 降, cue: 投降}
+      - sfx: {name: 疆域易手, cue: 投降}
+
+  - say: 关羽将士的家属，吕蒙全都好好安抚，严令军中不许拿百姓一针一线。
+    sources: [sgz-54]
+    show:
+      - vignette: {image: illus_lvmeng_hat, cue: 严令, for: 7, text: 吕蒙垂泪行军法}
+
+  - say: 有个同乡士兵，拿了百姓一顶斗笠，盖在官家的铠甲上。吕蒙流着泪，还是按军法办了他。
+    sources: [sgz-54]
+    show:
+      - card: {title: 一笠之罪, body: 取民家一笠，以覆官铠…蒙犹以为犯军令，不可以乡里故而废法, cue: 斗笠}
+
+  # ---------------- 第四章 麦城 ----------------
+  - say: 樊城迟迟打不下来，曹操又派徐晃赶来增援。关羽只好撤兵。
+    phase: 麦城
+    sources: [sgz-36]
+    camera: {focus: [樊城, 襄阳, 江陵], zoom: fit, move: 1.4}
+    tells: [e29, e30]   # 还当阳、西保麦城一条箭头画完
+    show:
+      - enter: {who: 徐晃, side: left, cue: 徐晃, for: 3.4}
+      - army: {head: 关羽, from: 樊城, via: [当阳], to: 麦城, faction: 刘备, banner: 关, troops: infantry, size: 2.2, label: 引军退还, cue: 撤兵, grow: 2.4}   # 关羽的营从樊城移到麦城
+
+  - say: 一路上，关羽几次派人去江陵打探。吕蒙热情招待使者，带他们挨家挨户去问候。
+    sources: [sgz-54]
+    show:
+      - act: {act: courier, places: [麦城, 江陵], text: 家家致问, cue: 打探, grow: 1.2, for: 3.4}
+
+  - say: 使者回来一说：家里都好，待遇比平时还好。关羽的兵，再也没心思打仗了。
+    sources: [sgz-54]
+
+  - say: 关羽退到麦城。他假装投降，在城头插满旗子、立起假人，自己偷偷跑了。
+    sources: [sgz-47]
+    camera: {focus: [麦城, 临沮], zoom: 10, move: 1.2}
+    tells: [e32]   # 诈降，不是城池易手
+    show:
+      - flag: {at: 麦城, name: 关羽, sub: 立幡旗为象人, faction: 刘备, cue: 假人, guest: true}
+      - flee: {from: 麦城, to: 临沮, faction: 刘备, cue: 跑了}
+
+  - say: 身边只剩十几个骑兵。十二月，他和儿子关平，在章乡被孙权的部将抓住，一同遇害。
+    map: '219-12'
+    owners_cue: 遇害
+    sources: [sgz-47, sgz-36]
+    tells: [e33, e34, e35]
+    show:
+      - exit: {who: 关羽, at: 临沮, verb: 卒, portrait: true, cue: 遇害, for: 4}
+      - sfx: {name: 退场钟, cue: 遇害}
+      - headline: {text: 孙权取荆州, sub: 建安二十四年, cue: 遇害, delay: 1.2, for: 3.2}
+
+  - say: 威震华夏的关羽，怎么输得这么快？前面打得越猛，身后越空。骂了盟友，又吓着了自己人。
+    sources: [sgz-36]
+    camera: {focus: [樊城, 江陵, 成都], zoom: fit, move: 1.4}
+
+  - say: 而吕蒙抢走的，不只是一座城，是关羽士兵的心。
+    sources: [sgz-54]
+    show:
+      - card: {title: 演义 vs 正史, body: 刮骨疗毒确有其事，但史书没写华佗、也不在樊城；"大意失荆州"是后人的话, cue: 吕蒙}
+
+  - say: 荆州丢了，你觉得最大的锅，该谁来背？
+    sources: [sgz-36]
+
+  - say: 两个月后，曹操在洛阳病逝。一个时代，结束了。
+    year: 220
+    sources: [sgz-01]
+    camera: {focus: [洛阳, 许], zoom: fit, move: 1.4}
+    show:
+      - exit: {who: 曹操, at: 洛阳, verb: 卒, portrait: true, cue: 病逝, for: 4}
+      - sfx: {name: 退场钟, cue: 病逝}
+      - title_bar: {text: 下集, sub: 曹丕称帝, cue: 病逝, delay: 1.2, for: 3.0}

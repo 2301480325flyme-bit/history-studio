@@ -1,0 +1,298 @@
+# 快节奏版（2026-10-25）
+# 《三国到隋》第38集 · 东晋：王与马共天下，祖逖北伐（317–321）。大纲第 33 条。
+# 本地语料核对（晋书）：
+# 王敦传 p06838"帝初镇江东，威名未著，敦与从弟导等同心翼戴，以隆中兴，时人为之语曰：王与马，共天下"；
+# 祖逖传 p04824"帝嘉逖勋，使运粮给之，而道远不至，军中大饥。进据太丘。樊雅遣众夜袭逖，遂入垒，拔戟大呼，直趣逖幕…督护董昭与贼战，走之"；
+#   p04825"石季龙闻而引众围谯，含又遣宣救逖，季龙闻宣至而退"；
+#   p04826"川大惧，遂以众附石勒。逖率众伐川，石季龙领兵五万救川，逖设奇以击之，季龙大败…留桃豹等守川故城，住西台。逖遣将韩潜等镇东台。同一大城…相守四旬。逖以布囊盛土如米状，使千余人运上台，又令数人担米，伪为疲极而息于道，贼果逐之，皆弃担而走。贼既获米，谓逖士众丰饱，而胡戍饥久，益惧，无复胆气。石勒将刘夜堂以驴千头运粮以馈桃豹，逖遣韩潜、冯铁等追击于汴水，尽获之。豹宵遁"；
+#   p04827"石勒不敢窥兵河南，使成皋县修逖母墓，因与逖书，求通使交市，逖不报书，而听互市，收利十倍…方当推锋越河，扫清冀朔，会朝廷将遣戴若思为都督，逖以若思是吴人…且已翦荆棘，收河南地，而若思雍容，一旦来统之，意甚怏怏。且闻王敦与刘隗等构隙，虑有内难，大功不遂。感激发病…俄卒于雍丘，时年五十六。豫州士女若丧考妣…王敦久怀逆乱，畏逖不敢发，至是始得肆意焉"；
+# 元帝纪 p00137"夏四月，龙骧将军陈川以浚仪叛。降于石勒"；"祖逖及石勒将石季龙战于浚仪，王师败绩"（与祖逖传"季龙大败"不同，旁白按祖逖传讲、标"据祖逖传"）；p00139 太兴四年七月"以尚书戴若思为征西将军、都督司兗豫并冀雍六州诸军事、司州刺史，镇合肥"；"九月壬寅，镇西将军、豫州刺史祖逖卒"。
+# 不用：中流击楫（第37集已讲）；樊雅、陈川、桃豹等人立绘（缺图，只在旁白提名）；太丘、东燕城、二台、谷水的位置（未定位）。
+
+id: s01e38-dongjin
+title: 祖逖北伐
+series: 东晋 · 第38集
+year: 317
+
+notes:
+  - 主线问题：祖逖把石勒打得不敢过河，为什么最后功败垂成？——北边的敌人他不怕，怕的是身后的朝廷：朝廷派人来管他，王敦和刘隗又斗得要出大乱，他忧愤病死；王敦从此再无顾忌。
+  - 钩子候选：①"敌人替他修好了母亲的坟，自己的朝廷却派人来管住他"（反差3 具体3 悬念3 兑现3=12）②"一袋沙土，吓退了一城胡兵"（反差2 具体3 悬念2 兑现3=10）③"他死的那天，豫州百姓哭得像死了爹娘"（反差1 具体2 悬念2 兑现3=8）→ 选①。
+  - 反差：朝廷只给粮布不给兵器；石勒修敌人母亲的坟；布袋装沙土冒充米；荆棘是他砍的，来管他的却是"慢吞吞的南方人"。
+  - 细节：王与马共天下；樊雅夜里拔戟直扑帐篷；同一座城一东一西对峙四十天；千头驴运粮被截；互市获利十倍；妖星；豫州士女若丧考妣。
+  - 演义对照卡：结尾卡"史书怎么写"（祖逖传：王敦久怀逆乱，畏逖不敢发，至是始得肆意焉）。
+
+map:
+  center: [116.0, 33.5]
+  scale: 5000
+  extent: [86.0, 12.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas
+  river_rank: 4
+  palette: warm
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 敌人替他修好了母亲的坟，自己的朝廷却派人来管住他
+  big: [祖逖北伐, 王与马共天下]
+  hero: 祖逖
+  at: 3
+  summary: |
+    司马睿在建康立足，靠的是琅邪王氏：王导在朝、王敦握兵，时人说"王与马，共天下"。祖逖北伐，朝廷只给粮布不给兵器。他在谯城一带饿着肚子打仗，夜里被樊雅冲进大营，部将董昭拼死击退；石虎围谯，闻援军至而退；据祖逖传，石虎五万人救陈川也被他设奇击败。
+    两军同守一座城的东西两台对峙四十天，祖逖用布袋装沙土冒充米，吓得饥饿的守军没了胆子；石勒千头驴运粮在汴水被截光。黄河以南大多收复，石勒不敢南窥，派人修祖逖母亲的坟、求通互市。321 年朝廷派戴渊来当都督，祖逖又听说王敦、刘隗交恶，忧愤成疾，九月死在雍丘，豫州百姓如丧父母。王敦从此再无顾忌。
+  tags: [东晋, 祖逖, 王与马共天下, 北伐, 石勒, 王敦]
+  next: 王敦之乱
+
+sources_local:
+  - {id: js-06, work: 晋书, volume: 卷六·元帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷006'}
+  - {id: js-62, work: 晋书, volume: 卷六十二·祖逖传, url: 'https://zh.wikisource.org/wiki/晉書/卷062'}
+  - {id: js-98, work: 晋书, volume: 卷九十八·王敦传, url: 'https://zh.wikisource.org/wiki/晉書/卷098'}
+
+factions: {晋: '#2f5d3a', 汉赵: '#7a3b2e', 后赵: '#8a4b2a', 成汉: '#7da03c'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    晋: {slot: jade, main: true, label_at: 建康}
+    汉赵: {slot: pink, label_at: 平阳}
+    成汉: {slot: lime, label_at: 成都}
+
+people:
+  司马睿: {image: 03_素材/人物立绘/sima_rui.png, title: 晋元帝, role: 建康立国, faction: 晋}
+  王导: {image: 03_素材/人物立绘/wang_dao.png, title: 丞相, role: 王与马, faction: 晋}
+  王敦: {image: 03_素材/人物立绘/wang_dun.png, title: 大将军, role: 镇武昌, faction: 晋}
+  祖逖: {image: 03_素材/人物立绘/zu_ti.png, title: 豫州刺史, role: 北伐, faction: 晋}
+  石勒: {image: 03_素材/人物立绘/shi_le.png, title: 赵王, role: 不敢窥河南, faction: 后赵}
+  石虎: {image: 03_素材/人物立绘/shi_hu.png, title: 石勒侄, role: 围谯, faction: 后赵}
+  戴渊: {image: 03_素材/人物立绘/dai_yuan.png, title: 征西将军, role: 来管祖逖, faction: 晋}
+
+places:
+  建康: {id: nanjing_ancient_city, name: 建康, label: right, tier: capital}
+  武昌: {id: wuchang_e, name: 武昌, label: left}
+  谯: {id: qiao_bozhou, label: right}
+  浚仪: {id: junyi, label: left}
+  雍丘: {id: yongqiu, label: right}
+  封丘: {id: fengqiu, label: above}
+  襄国: {id: xiangguo, label: right}
+  合肥: {id: hefei, label: right}
+  成皋: {id: chenggao_approx, label: left, show: false}
+
+camera:
+  focus: [建康, 谯, 浚仪]
+  zoom: fit
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 敌人替他修好了母亲的坟，自己的朝廷，却派人来管住他。
+    map: '316-12'
+    year: 321
+    phase: 王与马
+    sources: [js-62]
+    camera: {focus: [浚仪, 雍丘, 建康], zoom: fit, move: 1.2}
+    show:
+      - sfx: 重拍转场
+      - act: {act: prop, at: 浚仪, item: 陵墓, text: 修逖母墓, cue: 坟, size: 1.2, for: 3.4}
+
+  - say: 他就是北伐的祖逖。三年后，他病死在北伐的路上。
+    sources: [js-62]
+    show:
+      - enter: {who: 祖逖, side: right, cue: 祖逖, for: 3.6}
+      - sfx: {name: 悬疑, cue: 病死}
+
+  # ---------------- 第一章 王与马 ----------------
+  - say: 先说司马睿在建康站稳了脚，靠的是琅邪王家：王导在朝廷里撑着，他的堂兄王敦，在外面握着兵。
+    year: 317
+    sources: [js-98]
+    camera: {focus: [建康, 武昌], zoom: fit, move: 1.4}
+    show:
+      - title_bar: {text: 祖逖北伐, sub: 东晋 · 第38集, for: 3.2}
+      - sfx: 片头鼓
+      - enter: {who: 王导, side: left, cue: 王导, for: 3}
+      - enter: {who: 王敦, side: right, cue: 王敦, for: 3}
+      - flag: {at: 武昌, name: 王敦, sub: 拥兵上游, faction: 晋, cue: 握着兵, until: beat+3}
+
+  - say: 当时人说了一句：王与马，共天下。
+    sources: [js-98]
+    show:
+      - headline: {text: 王与马，共天下, sub: 琅邪王氏 · 司马氏, cue: 共天下, for: 3.6}
+      - sfx: {name: 大标题, cue: 共天下}
+
+  - say: 朝廷只想守住江南。祖逖要北伐，朝廷给了一千人的口粮、三千匹布，铠甲兵器，一样不给。
+    sources: [js-62]
+    show:
+      - enter: {who: 祖逖, side: right, cue: 祖逖, for: 3}
+      - quote: {text: 给千人禀，布三千匹，不给铠仗，使自招募, source: 晋书·祖逖传, cue: 一样不给, for: 4}
+
+  # ---------------- 第二章 北伐 ----------------
+  - say: 他在淮北自己招兵，先打谯城。朝廷的粮运不到，全军都在挨饿。
+    phase: 北伐
+    year: 318
+    sources: [js-62]
+    camera: {focus: [建康, 谯], zoom: fit, move: 1.4}
+    tells: [e01]
+    show:
+      - army: {head: 祖逖, from: 建康, to: 谯, faction: 晋, banner: 祖, troops: infantry, size: 2.4, cue: 先打谯城, grow: 2.2}
+      - sfx: {name: 步兵行军, cue: 招兵}
+
+  - say: 一天夜里，敌将樊雅带兵冲进大营，拔出长戟大喊，直扑祖逖的帐篷。部将董昭拼死把他们打了出去。
+    sources: [js-62]
+    camera: {focus: 谯, zoom: 9, move: 1.2}
+    show:
+      - act: {act: night, places: [谯], cue: 夜里, for: 3}
+      - battle: {at: 谯, text: 夜袭入垒, cue: 冲进大营}
+      - sfx: {name: 刀剑交击, cue: 拔出长戟}
+
+  - say: 祖逖拿下谯城。石勒的侄子石虎带兵来围，一听晋军援兵到了，就退了。
+    sources: [js-06, js-62]
+    tells: [e05]
+    territory_hold: 谯城得失是城级，所在郡未整体易手
+    show:
+      - enter: {who: 石虎, side: right, cue: 石虎, for: 3.4}
+      - army: {unit: 石虎, from: 襄国, to: 谯, faction: 后赵, banner: 石, troops: cavalry, size: 2.8, cue: 来围, grow: 2.0, stop: approach, camp: false}
+      - rout: {at: 谯, to: 襄国, faction: 后赵, unit: 石虎, label: 闻宣至而退, cue: 退了}
+      - capture: {at: 谯, faction: 晋, text: 克谯, cue: 拿下}
+
+  - say: 三一九年，陈川在浚仪投降了石勒。石虎带五万人来救，据祖逖传，被祖逖设计打得大败。
+    year: 319
+    map: '318-08'
+    sources: [js-06, js-62]
+    camera: {focus: [谯, 浚仪, 襄国], zoom: fit, move: 1.4}
+    tells: [e08]
+    territory_hold: 浚仪易手是城级（陈川叛降），陈留郡未整体易手
+    show:
+      - army: {head: 祖逖, from: 谯, to: 浚仪, faction: 晋, banner: 祖, troops: infantry, size: 2.6, cue: 浚仪, grow: 1.6}
+      - battle: {at: 浚仪, text: 季龙大败, cue: 大败}
+      - quote: {text: 石季龙领兵五万救川，逖设奇以击之，季龙大败, source: 晋书·祖逖传, cue: 设计, for: 4}
+
+  - say: 两军守在同一座城里：石勒的兵占西台，祖逖的兵占东台，对峙了四十天。两边都缺粮。
+    sources: [js-62]
+    camera: {focus: 浚仪, zoom: 9, move: 1.2}
+    tells: [e16, e17]
+    show:
+      - versus: {left: 祖逖, right: 石虎, label: 四十天, cue: 对峙, for: 3.6}
+
+  - say: 祖逖让人用布袋装满沙土，装成米的样子，一千多人往台上运。
+    sources: [js-62]
+    show:
+      - vignette: {image: illus_sand_rice, cue: 沙土, for: 12, text: 布囊盛土如米状}
+
+  - say: 又让几个人挑着真米，在路上装累了歇脚。敌兵冲出来抢，挑夫扔下担子就跑。
+    sources: [js-62]
+    show:
+
+  - say: 敌兵一看，满担都是白米，以为祖逖的兵个个吃得饱饱的，自己却饿了好久，一下子没了胆子。
+    sources: [js-62]
+    show:
+      - quote: {text: 贼既获米，谓逖士众丰饱，而胡戍饥久，益惧，无复胆气, source: 晋书·祖逖传, cue: 没了胆子, for: 4}
+      - sfx: {name: 悬疑, cue: 白米}
+
+  - say: 石勒派人赶着一千头驴运粮，在汴水被祖逖截了个精光。守将连夜逃跑。
+    sources: [js-62]
+    camera: {focus: [浚仪, 封丘, 雍丘], zoom: fit, move: 1.4}
+    tells: [e20, e24]
+    show:
+      - battle: {at: 封丘, text: 驴千头尽获, cue: 截了个精光}
+      - army: {head: 祖逖, from: 浚仪, to: 雍丘, faction: 晋, banner: 祖, troops: infantry, size: 2.6, cue: 连夜, grow: 1.4}
+
+  - say: 黄河以南的地方，大多回到了晋朝手里。
+    sources: [js-62]
+    camera: {focus: [雍丘, 浚仪, 谯, 襄国], zoom: fit, move: 1.4}
+    show:
+      - flag: {at: 雍丘, name: 祖逖, sub: 收河南地, faction: 晋, cue: 回到, until: beat+3}
+      - sfx: {name: 凯旋, cue: 回到}
+
+  # ---------------- 第三章 修坟 ----------------
+  - say: 石勒不敢再往河南伸手。他派人修好祖逖母亲在成皋的坟，还写信，要求互相通商。
+    phase: 修坟
+    sources: [js-62]
+    map: '319-11'
+    show:
+      - enter: {who: 石勒, side: right, cue: 石勒, for: 3.4}
+      - quote: {text: 石勒不敢窥兵河南，使成皋县修逖母墓，因与逖书，求通使交市, source: 晋书·祖逖传, cue: 修好, for: 4.4}
+
+  - say: 祖逖不回信，却允许两边做买卖。利钱翻了十倍，兵强马壮。他正准备打过黄河，收复河北。
+    audit_ok: [易手]
+    sources: [js-62]
+    show:
+      - act: {act: coins, at: 雍丘, text: 收利十倍, cue: 十倍, for: 3}
+      - quote: {text: 方当推锋越河，扫清冀朔, source: 晋书·祖逖传, cue: 打过黄河, for: 3.6}
+
+  - say: 就在这时，三二一年七月，朝廷派戴渊来当都督，管着他。
+    year: 321
+    sources: [js-06]
+    camera: {focus: [建康, 合肥, 雍丘], zoom: fit, move: 1.4}
+    map: '321-04'
+    show:
+      - enter: {who: 戴渊, side: right, cue: 戴渊, for: 3.4}
+      - flag: {at: 合肥, name: 戴渊, sub: 都督六州, faction: 晋, cue: 都督}
+      - sfx: {name: 诏书, cue: 都督}
+
+  - say: 祖逖心里憋屈：荆棘是我砍的，河南是我收的，来了个慢悠悠的南方人管我。
+    sources: [js-62]
+    show:
+      - quote: {text: 已翦荆棘，收河南地，而若思雍容，一旦来统之，意甚怏怏, source: 晋书·祖逖传, cue: 憋屈, for: 4.4}
+
+  - say: 他又听说王敦和刘隗在朝里斗得厉害，怕后方出大乱，北伐白费。一着急，病倒了。
+    sources: [js-62]
+    camera: {focus: [武昌, 建康, 雍丘], zoom: fit, move: 1.4}
+    show:
+      - versus: {left: 王敦, right: 司马睿, label: 构隙, cue: 斗得厉害, for: 3.4}
+      - sfx: {name: 不祥鼓, cue: 病倒了}
+
+  - say: 九月，祖逖死在雍丘，五十六岁。豫州的百姓，哭得像死了亲爹娘。
+    sources: [js-06, js-62]
+    camera: {focus: 雍丘, zoom: 8, move: 1.2}
+    tells: [e29]
+    map: '321-09'
+    owners_cue: 死在雍丘
+    show:
+      - exit: {who: 祖逖, at: 雍丘, verb: 卒, portrait: true, cue: 死在雍丘}
+      - quote: {text: 俄卒于雍丘，时年五十六。豫州士女若丧考妣, source: 晋书·祖逖传, era: 太兴四年九月, cue: 哭得, for: 4}
+      - sfx: {name: 退场钟, cue: 死在}
+
+  # ---------------- 收 ----------------
+  - say: 王敦一直怕祖逖，不敢乱来。祖逖一死，他再也没了顾忌。
+    sources: [js-62]
+    camera: {focus: [武昌, 建康], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 王敦, side: right, cue: 王敦, for: 3.4}
+      - card: {title: 史书怎么写, body: 祖逖传：王敦久怀逆乱，畏逖不敢发，至是始得肆意焉, cue: 没了顾忌, for: 3.6}
+
+  - say: 祖逖为什么功败垂成？北边的敌人他不怕，他怕的，是身后的朝廷。
+    sources: [js-62]
+    show:
+      - headline: {text: 敌人在北，祸在身后, sub: 功败垂成, cue: 身后, for: 3.4}
+
+  - say: 北伐最难的，从来不是过江。
+    sources: [js-62]
+    show:
+      - sfx: {name: 史诗冲击, cue: 过江}
+
+  - say: 如果朝廷不派戴渊来，祖逖能打过黄河吗？
+    sources: [js-62]
+    show:
+      - versus: {left: 祖逖, right: 戴渊, label: 过河, cue: 黄河, for: 3.4}
+
+  - say: 第二年，武昌的王敦，带着兵顺江东下了。
+    sources: [js-06]
+    camera: {focus: [武昌, 建康], zoom: fit, move: 1.4}
+    show:
+      - arrow: {from: 武昌, to: 建康, kind: direction, faction: 晋, cue: 顺江东下, grow: 1.6}
+      - title_bar: {text: 下集, sub: 东晋 · 王敦之乱, cue: 东下, delay: 0.4, for: 3.0}
+      - sfx: {name: 时代转折, cue: 东下}

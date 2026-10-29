@@ -1,0 +1,306 @@
+# 快节奏版（2026-10-14，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第21集：夷陵之战、陆逊火烧连营、白帝城托孤（221–223）
+# 本地语料核对：
+# 陆逊传"诸将军或是孙策时旧将，或公室贵戚，各自矜恃，不相听从。逊案剑曰…仆虽书生，受命主上…军令有常，不可犯矣"；
+#   "诸将并曰：攻备当在初，今乃令入五六百里，相衔持经七八月，其诸要害皆以固守，击之必无利矣。逊曰：备是猾虏，更尝事多，其军始集，思虑精专，未可干也。今住己久，不得我便，兵疲意沮，计不复生，掎角此寇，正在今日。乃先攻一营，不利。诸将皆曰：空杀兵耳。逊曰：吾已晓破之之术。乃敕各持一把茅，以火攻拔之…破其四十余营…备升马鞍山，陈兵自绕。逊督促诸军四面蹙之，土崩瓦解，死者万数。备因夜遁，驿人自担烧铙铠断后，仅得入白帝城。其舟船器械，水步军资，一时略尽，尸骸漂流，塞江而下。备大惭恚，曰：吾乃为逊所折辱，岂非天邪"；
+# 先主传"二月，先主自秭归率诸将进军，缘山截岭，于夷道猇亭驻营…先主自猇亭还秭归…由步道还鱼复，改鱼复县曰永安"；文帝纪"备不晓兵，岂有七百里营可以拒敌者乎"；
+# 黄权传"道隔绝，权不得还，故率将所领降于魏。有司执法，白收权妻子。先主曰：孤负黄权，权不负孤也"；
+# 诸葛亮传"章武三年春，先主于永安病笃，召亮于成都，属以后事，谓亮曰：君才十倍曹丕，必能安国，终定大事。若嗣子可辅，辅之；如其不才，君可自取。亮涕泣曰：臣敢竭股肱之力，效忠贞之节，继之以死！先主又为诏敕后主曰：汝与丞相从事，事之如父"。
+# 不用："勿以恶小而为之"（先主传注引诸葛亮集，本地语料未收）；八阵图困陆逊、孙夫人投江（演义）。
+
+id: s01e21-yiling
+title: 夷陵之战
+series: 三国 · 第21集
+year: 222
+
+notes:
+  - 主线问题：打了一辈子仗的刘备，怎么输给了一个"书生"？——陆逊不跟他抢第一口气：先等，等他兵疲了、营扎死了，再一把火。
+  - 反差：东吴老将都瞧不起陆逊；曹丕隔着千里都看出"刘备不懂打仗"；托孤时刘备说"君可自取"。
+  - 细节：陆逊按剑训将；每人一把茅草；驿卒把铠甲堆在山路上点火断后；尸体塞满江面；"孤负黄权，权不负孤"。
+  - 动机：刘备东征，为关羽报仇、夺回荆州。
+  - 演义对照：诸葛亮八阵图困住陆逊、孙夫人闻讯投江都是小说。
+
+map:
+  center: [110.0, 31.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-17 史图风
+  river_rank: 4
+  palette: warm          # 2026-10-25 第18集起统一新样式（第27集试样通过）
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 七百里连营，被一把茅草烧光了
+  big: [火烧连营]
+  hero: 陆逊
+  at: 30
+  summary: |
+    刘备称帝后亲率大军东征，为关羽报仇。孙权任命陆逊为大都督，东吴老将们不服这个"书生"，陆逊按剑立威。刘备沿山扎营几百里，陆逊一守七八个月，曹丕在洛阳冷笑："哪有扎七百里营来拒敌的！"
+    等到蜀军兵疲意沮，陆逊下令每人一把茅草，火攻猇亭，连破四十多营。刘备退守白帝城，第二年病重托孤："君才十倍曹丕……如其不才，君可自取。"诸葛亮泣答："臣敢竭股肱之力，继之以死！"
+  tags: [夷陵之战, 陆逊, 刘备, 白帝城托孤, 诸葛亮]
+  next: 诸葛亮治蜀，平定南中
+
+sources_local:
+  - {id: sgz-02, work: 三国志, volume: 卷二·文帝纪, url: 'https://zh.wikisource.org/wiki/三國志/卷02'}
+  - {id: sgz-32, work: 三国志, volume: 卷三十二·先主传, url: 'https://zh.wikisource.org/wiki/三國志/卷32'}
+  - {id: sgz-35, work: 三国志, volume: 卷三十五·诸葛亮传, url: 'https://zh.wikisource.org/wiki/三國志/卷35'}
+  - {id: sgz-43, work: 三国志, volume: 卷四十三·黄权传, url: 'https://zh.wikisource.org/wiki/三國志/卷43'}
+  - {id: sgz-58, work: 三国志, volume: 卷五十八·陆逊传, url: 'https://zh.wikisource.org/wiki/三國志/卷58'}
+
+factions: {魏: '#2f5d3a', 蜀汉: '#5f8f3a', 吴: '#b0841f'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    魏: {slot: jade, main: true, label_at: 洛阳}
+    蜀汉: {slot: pink, label_at: 成都}
+    吴: {slot: lemon, label_at: 武昌}
+
+people:
+  黄权: {image: 03_素材/人物立绘/huang_quan.png, title: 镇北将军, role: 被迫降魏, faction: 蜀汉}
+  刘备: {image: 03_素材/人物立绘/liu_bei.png, title: 汉昭烈帝, role: 东征, faction: 蜀汉}
+  陆逊: {image: 03_素材/人物立绘/lu_xun.png, title: 大都督, role: 火烧连营, faction: 吴}
+  孙权: {image: 03_素材/人物立绘/sun_quan.png, title: 吴王, role: 拜陆逊, faction: 吴}
+  曹丕: {image: 03_素材/人物立绘/cao_pi.png, title: 魏文帝, role: 隔岸观火, faction: 魏}
+  诸葛亮: {image: 03_素材/人物立绘/zhuge_liang.png, title: 丞相, role: 受遗托孤, faction: 蜀汉}
+  刘禅: {image: 03_素材/人物立绘/liu_shan.png, title: 太子, role: 即位, faction: 蜀汉}
+
+places:
+  巫: {id: wuxian, label: above, show: false}   # 2026-10-25 战事账：吴班、冯习自巫进至秭归
+  成都: {id: chengdu_city, label: left, tier: capital}
+  白帝: {id: baidicheng, name: 白帝城, label: above}
+  秭归: {id: zigui, label: above}
+  夷陵: {id: yiling, label: above}
+  猇亭: {id: xiaoting, label: below}
+  江陵: {id: jiangling, label: right}
+  武昌: {id: wuchang_e, label: right}
+  洛阳: {id: luoyang_han_wei, label: right, tier: capital}
+
+camera:
+  focus: [白帝, 猇亭]
+  zoom: 2.0
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 几百里的连营，被一把茅草，烧光了。
+    map: '221-08'
+    year: 222
+    phase: 一把茅
+    sources: [sgz-58]
+    camera: {focus: [秭归, 猇亭], zoom: 10, move: 1.6}
+    show:
+      - sfx: 重拍转场
+      - fire: {at: 猇亭, cue: 烧光了, radius: 1.4, for: 5}
+      - sfx: {name: 火攻, cue: 烧光了}
+
+  - say: 点火的，是一个被老将们看不起的书生。
+    sources: [sgz-58]
+    show:
+      - enter: {who: 陆逊, side: right, cue: 书生, for: 4}
+
+  # ---------------- 第一章 书生 ----------------
+  - say: 二二一年秋，刘备亲率大军东征，顺江而下，一路打到秭归。
+    phase: 书生
+    year: 221
+    sources: [sgz-32]
+    camera: {focus: [成都, 白帝, 秭归, 武昌], zoom: fit, move: 1.6}
+    tells: [e05, e06]
+    show:
+      - title_bar: {text: 夷陵之战, sub: 三国 · 第21集, for: 3.2}
+      - sfx: 片头鼓
+      - army: {head: 刘备, from: 白帝, via: [巫], to: 秭归, faction: 蜀汉, banner: 汉, troops: infantry, size: 3.0, cue: 东征, grow: 2.0}
+      - enter: {who: 刘备, side: left, cue: 刘备, for: 3}
+
+  - say: 孙权任命陆逊做大都督，带五万人迎战。
+    sources: [sgz-58]
+    show:
+      - army: {head: 陆逊, from: 江陵, to: 夷陵, faction: 吴, banner: 陆, troops: infantry, size: 2.6, cue: 五万人, grow: 1.4}
+
+  - say: 东吴的将领，有的是跟过孙策的老将，有的是皇亲国戚，谁也不服这个书生。陆逊按着剑说：
+    scene: 军帐
+    sources: [sgz-58]
+
+  - say: 我虽然是个书生，可主上把军令交给了我。军令如山，谁也别想违反！
+    speaker: 陆逊
+    style: 按剑而立，声音不高却冷峻，一字一顿
+    scene: 军帐
+    sources: [sgz-58]
+
+  # ---------------- 第二章 等 ----------------
+  - say: 第二年二月，刘备沿着山岭推进，在猇亭扎下大营。营寨一座连一座，绵延几百里。
+    phase: 等
+    year: 222
+    sources: [sgz-32, sgz-58]
+    camera: {focus: [秭归, 夷陵, 猇亭], zoom: 10, move: 1.4}
+    tells: [e10, e12]
+    show:
+      - army: {head: 刘备, from: 秭归, to: 猇亭, faction: 蜀汉, banner: 汉, troops: infantry, size: 3.0, label: 缘山截岭, cue: 猇亭, grow: 2.0}
+      - flag: {at: 猇亭, name: 刘备, sub: 猇亭驻营, faction: 蜀汉, cue: 大营, guest: true}
+
+  - say: 吴军将领个个想出战。陆逊就是不打，一守就是七八个月。
+    sources: [sgz-58]
+
+  - say: 远在洛阳的曹丕听说了，冷笑一声：
+    sources: [sgz-02]
+    camera: {focus: [洛阳, 猇亭], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 曹丕, at: 洛阳, side: left, cue: 曹丕, for: 3}
+
+  - say: 刘备不懂打仗！哪有扎七百里营来拒敌的！
+    speaker: 曹丕
+    style: 冷笑讥讽，居高临下，轻蔑
+    scene: none
+    sources: [sgz-02]
+    show:
+      - quote: {text: 岂有七百里营可以拒敌者乎, source: 三国志·文帝纪, era: 黄初三年, for: 4}
+
+  - say: 吴军将领也急了：要打早该打，现在险要都被他守住了，还怎么打？陆逊说：
+    scene: 军帐
+    sources: [sgz-58]
+
+  - say: 刘备是老江湖，刚来时心思专一，碰不得。现在拖久了，兵疲了，气泄了，正是时候！
+    speaker: 陆逊
+    style: 沉静笃定，胸有成竹，最后一句加重
+    scene: 军帐
+    sources: [sgz-58]
+
+  # ---------------- 第三章 火烧连营 ----------------
+  - say: 陆逊先试攻一座营，没打下来。将领们说：白白送死。陆逊说：我已经知道怎么破了。
+    phase: 火烧连营
+    sources: [sgz-58]
+    camera: {focus: [夷陵, 猇亭], zoom: 14, move: 1.2}
+    tells: [e14]
+    show:
+      - battle: {at: 猇亭, text: 先攻一营不利, cue: 没打下来}
+
+  - say: 他下令：每人拿一把茅草。
+    sources: [sgz-58]
+    show:
+      - card: {title: 各持一把茅, body: 乃敕各持一把茅，以火攻拔之, cue: 茅草}
+
+  - say: 火一点着，各营跟着烧了起来。吴军全线出击，一口气攻破四十多座营寨。
+    audit_ok: [易手]
+    sources: [sgz-58]
+    tells: [e15]
+    show:
+      - campaign:
+          at: 猇亭
+          title: 夷陵之战
+          clash: 全线出击
+          sides:
+            - {from: 夷陵, faction: 吴, banner: 陆, troops: infantry, size: 2.6}
+            - {from: 秭归, faction: 蜀汉, banner: 汉, troops: infantry, size: 3.0}
+      - fire: {at: 猇亭, cue: 点着, radius: 1.8, for: 7}
+      - sfx: {name: 火攻, cue: 点着}
+
+  - say: 刘备退上马鞍山，被四面围住，死了上万人。
+    sources: [sgz-58]
+
+  - say: 夜里，刘备突围。驿站的人背着铠甲在山路上烧起来，挡住追兵，刘备才逃进白帝城。
+    sources: [sgz-58]
+    camera: {focus: [猇亭, 秭归, 白帝], zoom: fit, move: 1.4}
+    tells: [e18]
+    show:
+      - rout: {at: 猇亭, via: [秭归], to: 白帝, faction: 蜀汉, head: 刘备, banner: 汉, cue: 突围, size: 2.4}
+
+  - say: 船只、军械、粮草全丢光了，尸体顺着江水漂下来，堵满了江面。刘备又羞又恨：
+    sources: [sgz-58]
+    show:
+      - vignette: {image: illus_yiling_river, cue: 船只, for: 6, text: 尸骸塞江}
+
+  - say: 我竟然被陆逊羞辱到这个地步，难道不是天意吗！
+    speaker: 刘备
+    style: 又羞又恨，声音颤抖，仰天长叹
+    sources: [sgz-58]
+
+  - say: 江北的黄权退路被切断，只好投降了魏。有人要抓他的家人。
+    sources: [sgz-43]
+    tells: [e21]   # 黄权降魏是部队归降，郡不易手
+    show:
+      - enter: {who: 黄权, side: right, cue: 黄权, for: 3.6}
+      - defect: {who: 黄权, at: 夷陵, to: 魏, from: 蜀汉, verb: 降, cue: 投降}   # 黄权率江北军降魏
+
+  - say: 刘备说：是我对不起黄权，不是黄权对不起我。
+    sources: [sgz-43]
+
+  # ---------------- 第四章 托孤 ----------------
+  - say: 刘备没有回成都，留在了白帝城，把这里改名永安。
+    phase: 托孤
+    sources: [sgz-32]
+    camera: {focus: [白帝, 成都], zoom: fit, move: 1.4}
+
+  - say: 第二年春天，他病重，把诸葛亮从成都召了过来。
+    year: 223
+    sources: [sgz-35]
+    show:
+      - march: {from: 成都, to: 白帝, faction: 蜀汉, label: 召亮于成都, cue: 召了, grow: 1.8}
+
+  - say: 你的才能是曹丕的十倍，一定能安定国家，成就大事。
+    speaker: 刘备
+    style: 病重气弱，缓慢郑重，握着对方的手
+    scene: 病榻
+    to: 诸葛亮
+    sources: [sgz-35]
+
+  - say: 我儿子要是扶得起，你就辅佐他；要是不成器，你可以自己来。
+    speaker: 刘备
+    style: 气若游丝，却一字一句说得清清楚楚
+    scene: 病榻
+    to: 诸葛亮
+    sources: [sgz-35]
+    show:
+      - quote: {text: 如其不才，君可自取, source: 三国志·诸葛亮传, era: 章武三年, for: 4.6}
+
+  - say: 臣一定竭尽全力，忠贞到底，到死为止！
+    speaker: 诸葛亮
+    style: 泪流满面，跪地叩首，哽咽而坚定
+    scene: 病榻
+    to: 刘备
+    sources: [sgz-35]
+
+  - say: 刘备又给儿子刘禅留下诏书：你跟着丞相做事，要像对待父亲一样。
+    sources: [sgz-35]
+    show:
+      - enter: {who: 刘禅, side: right, cue: 刘禅, for: 3.4}
+
+  - say: 二二三年四月，刘备病逝于永安，六十三岁。
+    sources: [sgz-32]
+    camera: {focus: 白帝, zoom: 8, move: 1.2}
+    show:
+      - exit: {who: 刘备, at: 白帝, verb: 卒, portrait: true, cue: 病逝}
+      - sfx: {name: 退场钟, cue: 病逝}
+
+  - say: 打了一辈子仗的刘备，怎么输给了书生？陆逊不跟他抢第一口气。
+    sources: [sgz-58]
+
+  - say: 先等，等他兵疲了、营扎死了，再一把火。
+    sources: [sgz-58]
+    camera: {focus: [成都, 白帝, 武昌, 洛阳], zoom: fit, move: 1.6}
+    show:
+      - card: {title: 演义 vs 正史, body: 八阵图困陆逊、孙夫人投江都是小说, cue: 一把火}
+
+  - say: 君可自取这四个字，你觉得是真心，还是试探？
+    sources: [sgz-35]
+
+  - say: 十七岁的刘禅即位。南中叛乱，吴蜀断交，一副烂摊子，全压在了诸葛亮身上。
+    sources: [sgz-35]
+    show:
+      - title_bar: {text: 下集, sub: 诸葛亮治蜀, cue: 诸葛亮, delay: 0.4, for: 3.0}

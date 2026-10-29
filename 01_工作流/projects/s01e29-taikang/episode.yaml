@@ -1,0 +1,383 @@
+# 快节奏版（2026-10-15，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第29集 · 两晋篇开篇：太康之治、罢州郡兵、宗室出镇、傻太子与贾南风、杨骏专权（280–290）
+# 本地语料核对（晋书）：
+# 惠帝纪 p00104"及天下荒乱，百姓饿死，帝曰：何不食肉糜？"；"帝之为太子也，朝廷咸知不堪政事，武帝亦疑焉"；
+# 后妃传·惠贾皇后 p03099"卫公女有五可，贾公女有五不可。卫家种贤而多子，美而长白；贾家种妒而少子，丑而短黑。元后固请…乃定婚"；
+#   p03100"帝常疑太子不慧…密封疑事，使太子决之…给使张泓曰：太子不学，而答诏引义，必责作草主…不如直以意对…泓素有小才，具草，令太子自写。帝省之，甚悦"；
+# 卫瓘传 p03332"会宴陵云台，瓘托醉，因跪帝床前…因以手抚床曰：此座可惜！帝意乃悟，因谬曰：公真大醉耶？"；
+# 食货志 p02375 占田、户调（"男子一人占田七十亩，女子三十亩"；"丁男之户，岁输绢三匹，绵三斤"）；p02376"是时天下无事，赋税平均，人咸安其业而乐其事"；
+# 地理志上 p00743"太康元年，平吴，大凡户二百四十五万九千八百四十，口一千六百一十六万三千八百六十三"；"武帝泰始元年，封诸王以郡为国。邑二万户为大国，置上中下三军，兵五千人；邑万户为次国…兵三千人"；
+# 武帝纪 p00059 泰始元年封安平王孚以下二十七王；p00083 太康十年十一月"改封南阳王柬为秦王，始平王玮为楚王，濮阳王允为淮南王，并假节之国，各统方州军事"；
+#   p00085"知惠帝弗克负荷，然恃皇孙聪睿，故无废立之心…会帝小差，有诏以汝南王亮辅政…杨骏秘而不宣…杨后辄为诏以骏辅政…帝寻小间，问汝南王来未…左右答言未至，帝遂困笃。中朝之乱，实始于斯矣"；
+#   p00084"夏四月…己酉，帝崩于含章殿，时年五十五"；
+# 山涛传 p03741"吴平之后，帝诏天下罢军役…州郡悉去兵，大郡置武吏百人，小郡五十人…涛…以为不宜去州郡武备…帝称之曰：天下名言也。而不能用"；
+# 汝南王亮传 p04567"以亮为…大都督、督豫州诸军事，出镇许昌"；淮南王允传 p04879"太康十年，徙封淮南，仍之国，都督扬江二州诸军事"；
+# 胡贵嫔传 p03097"平吴之后复纳孙皓宫人数千，自此掖庭殆将万人…常乘羊车，恣其所之，至便宴寝。宫人乃取竹叶插户，以盐汁洒地，而引帝车"；
+# 愍怀太子传 p04286"宫中尝夜失火，武帝登楼望之。太子时年五岁，牵帝裾入暗中…不宜令照见人君也…此兒当兴我家"；
+# 齐王攸传 p03519–p03521 太康三年诏攸就国；"攸知勖、紞构己，愤怨发疾…辞出信宿，欧血而薨，时年三十六"；
+# 杨骏传 p03627"骏遂当寄托之重，居太极殿。梓宫将殡，六宫出辞，而骏不下殿，以武贲百人自卫"。
+# 不用：武帝"羊车"后的"宫人竹叶"以外的野史；"司马衷闻蛤蟆叫问公私"（留作后面惠帝集用）；民间"晋武帝立惠帝为保皇孙"的过度演绎（只按武帝纪"恃皇孙聪睿"讲）。
+
+id: s01e29-taikang
+title: 太康盛世与傻太子
+series: 两晋 · 第29集
+year: 280
+
+notes:
+  - 主线问题：晋武帝明知太子不行，为什么还要把天下交给他？——他押了三张牌：聪明的皇孙、握兵的宗室、可靠的外戚。结果三张牌后来全翻成了雷（下几集兑现）。
+  - 钩子候选：①"百姓饿死，皇帝问：为什么不吃肉粥？"（反差3 具体3 悬念2 兑现3=11）②"他统一了天下，却亲手埋了三颗雷"（反差2 具体1 悬念3 兑现3=9）③"郡里一百个兵，王府五千个兵"（反差3 具体3 悬念1 兑现3=10）→ 选①。
+  - 反差：州郡兵撤到大郡百人，王国却可以养兵五千；考题是太子"自己"答的；托孤诏书被外戚扣下。
+  - 细节：羊车与竹叶盐水；卫瓘"此座可惜"、武帝"公真大醉耶"；张泓"不如直以意对"；五岁皇孙拉祖父躲进暗处；齐王攸带病被催上路、吐血而死；杨骏不下殿、百人自卫。
+  - 动机：武帝纪"恃皇孙聪睿，故无废立之心"；又"恐杨氏之逼"，派儿子们出镇要地"以强帝室"。
+  - 演义对照卡：本集无演义情节，结尾卡改为"史书怎么评"（武帝纪"中朝之乱，实始于斯矣"）。
+
+map:
+  center: [113.0, 33.0]
+  scale: 5000
+  extent: [86.0, 12.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-17 史图风
+  river_rank: 4
+  palette: warm          # 2026-10-25 第18集起统一新样式（第27集试样通过）
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 百姓饿死，皇帝问：为什么不吃肉粥？
+  big: [太康盛世, 傻太子]
+  hero: 司马炎
+  at: 8
+  summary: |
+    280 年灭吴之后，晋武帝司马炎推行占田、户调，全国登记两百四十五万户，史称太康之治。可他也撤掉了州郡的兵，大郡只留百名武吏，宗室王国却能养兵五千；临终前又派儿子们出镇关中、荆州、扬州、许昌。
+    太子司马衷"不堪政事"，卫瓘借酒摸着御座说"此座可惜"；武帝出考题，太子妃贾南风找人代答过关。武帝不换太子，是因为看好五岁就会护驾的皇孙司马遹。290 年武帝病危，托孤诏书被杨骏扣下，杨骏独揽大权——史书说，西晋之乱，从这里开始。
+  tags: [西晋, 晋武帝, 司马衷, 贾南风, 何不食肉糜, 八王之乱]
+  next: 贾南风借刀杀人
+
+sources_local:
+  - {id: js-03, work: 晋书, volume: 卷三·武帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷003'}
+  - {id: js-04, work: 晋书, volume: 卷四·惠帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷004'}
+  - {id: js-14, work: 晋书, volume: 卷十四·地理志上, url: 'https://zh.wikisource.org/wiki/晉書/卷014'}
+  - {id: js-26, work: 晋书, volume: 卷二十六·食货志, url: 'https://zh.wikisource.org/wiki/晉書/卷026'}
+  - {id: js-31, work: 晋书, volume: 卷三十一·后妃传上, url: 'https://zh.wikisource.org/wiki/晉書/卷031'}
+  - {id: js-36, work: 晋书, volume: 卷三十六·卫瓘传, url: 'https://zh.wikisource.org/wiki/晉書/卷036'}
+  - {id: js-38, work: 晋书, volume: 卷三十八·齐王攸传, url: 'https://zh.wikisource.org/wiki/晉書/卷038'}
+  - {id: js-40, work: 晋书, volume: 卷四十·杨骏传, url: 'https://zh.wikisource.org/wiki/晉書/卷040'}
+  - {id: js-43, work: 晋书, volume: 卷四十三·山涛传, url: 'https://zh.wikisource.org/wiki/晉書/卷043'}
+  - {id: js-53, work: 晋书, volume: 卷五十三·愍怀太子传, url: 'https://zh.wikisource.org/wiki/晉書/卷053'}
+  - {id: js-59, work: 晋书, volume: 卷五十九·汝南王亮传, url: 'https://zh.wikisource.org/wiki/晉書/卷059'}
+  - {id: js-64, work: 晋书, volume: 卷六十四·淮南王允传, url: 'https://zh.wikisource.org/wiki/晉書/卷064'}
+
+factions: {晋: '#2f5d3a', 宗室: '#8a5a2b', 外戚: '#6f4a8e'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    晋: {slot: jade, main: true, label_at: 洛阳}
+
+people:
+  司马炎: {image: 03_素材/人物立绘/sima_yan.png, title: 晋武帝, role: 统一天下, faction: 晋}
+  司马衷: {image: 03_素材/人物立绘/sima_zhong.png, title: 太子, role: 后来的晋惠帝, faction: 晋}
+  贾南风: {image: 03_素材/人物立绘/jia_nanfeng.png, title: 太子妃, role: 贾充之女, faction: 晋}
+  卫瓘: {image: 03_素材/人物立绘/wei_guan.png, title: 司空, role: 劝换太子, faction: 晋}
+  山涛: {image: 03_素材/人物立绘/shan_tao.png, title: 老臣, role: 劝留州郡兵, faction: 晋}
+  司马遹: {image: 03_素材/人物立绘/sima_yu.png, title: 皇孙, role: 五岁护驾, faction: 晋}
+  司马攸: {image: 03_素材/人物立绘/sima_you.png, title: 齐王, role: 武帝之弟, faction: 宗室}
+  司马亮: {image: 03_素材/人物立绘/sima_liang.png, title: 汝南王, role: 镇许昌, faction: 宗室}
+  杨骏: {image: 03_素材/人物立绘/yang_jun.png, title: 太傅, role: 外戚辅政, faction: 外戚}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: right, tier: capital}
+  长安: {id: changan_han_city, label: below}
+  江陵: {id: jiangling, label: left}
+  寿春: {id: shouchun, label: right}
+  许昌: {id: xuchang_approx, name: 许昌, label: right}
+  临淄: {id: linzi, label: right}
+  建业: {id: nanjing_ancient_city, name: 建业, label: right}
+
+camera:
+  focus: [洛阳, 建业]
+  zoom: 2.0
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 百姓饿死了，消息传进宫里，皇帝问了一句：
+    map: '280-03'
+    year: 290
+    phase: 何不食肉糜
+    scene: 朝堂
+    sources: [js-04]
+    show:
+      - sfx: 重拍转场
+
+  - say: 他们没饭吃，为什么不吃肉粥呢？
+    speaker: 司马衷
+    style: 一脸天真，真心不解，语气认真地发问
+    scene: 朝堂
+    sources: [js-04]
+    show:
+      - quote: {text: 及天下荒乱，百姓饿死，帝曰：何不食肉糜？, source: 晋书·惠帝纪, for: 4.4}
+      - sfx: {name: 悬疑, delay: 0.2}
+
+  - say: 他就是晋惠帝司马衷。他爹晋武帝早就知道儿子不行，还是把天下交给了他。为什么？
+    sources: [js-03, js-04]
+    camera: {focus: 洛阳, zoom: 4, move: 1.4}
+    show:
+      - enter: {who: 司马炎, side: left, cue: 晋武帝, for: 4}
+      - sfx: {name: 帝王登场, cue: 晋武帝}
+
+  # ---------------- 第一章 太康 ----------------
+  - say: 时间回到二八零年。吴国刚灭，天下一统。
+    phase: 太康
+    year: 280
+    sources: [js-03]
+    camera: {focus: [洛阳, 建业, 长安], zoom: fit, move: 1.6}
+    show:
+      - title_bar: {text: 太康盛世与傻太子, sub: 两晋 · 第29集, for: 3.2}
+      - sfx: 片头鼓
+      - breathe: {faction: 晋, cue: 天下一统}
+
+  - say: 他推行占田制，男女各有田额，按户交绢。
+    sources: [js-26]
+    camera: {focus: 洛阳, zoom: 5, move: 1.2}
+    show:
+      - act: {act: farm, at: 洛阳, text: 占田, cue: 占田, for: 3.6}
+      - act: {act: coins, at: 洛阳, text: 户调, cue: 交绢, for: 2.6}
+      - sfx: {name: 钱币, cue: 交绢}
+
+  - say: 全国登记两百四十五万户。史书说，那几年天下无事，人人安居乐业。
+    sources: [js-14, js-26]
+    camera: {focus: [洛阳, 建业, 长安], zoom: fit, move: 1.4}
+    show:
+      - headline: {text: 太康之治, sub: 户二百四十五万, cue: 两百四十五万, for: 3.2}
+      - sfx: {name: 大标题, cue: 两百四十五万}
+      - quote: {text: 是时天下无事，赋税平均，人咸安其业而乐其事, source: 晋书·食货志, era: 太康年间, cue: 史书说, for: 4}
+
+  - say: 孙皓的几千宫女也被收进后宫，宫里快一万人。
+    sources: [js-31]
+    show:
+      - act: {act: courier, places: [建业, 洛阳], text: 宫人数千, cue: 宫女, grow: 1.4, for: 3}
+      - sfx: {name: 呼啸, cue: 宫女}
+
+  - say: 他坐着羊车随便逛，羊停哪儿就睡哪儿。宫女们就在门口插竹叶、洒盐水，引羊过来。
+    sources: [js-31]
+    camera: {focus: 洛阳, zoom: 8, move: 1.2}
+    show:
+      - act: {act: prop, at: 洛阳, item: 马车, text: 羊车, cue: 羊车, size: 1.2, for: 3.4}
+      - sfx: {name: 马嘶, cue: 羊车}
+      - act: {act: prop, at: 洛阳, item: 宫殿, text: 竹叶插户, cue: 竹叶, size: 1.1, for: 3.4}
+
+  # ---------------- 第二章 撤兵封王 ----------------
+  - say: 天下太平，晋武帝下令撤掉州郡兵，大郡只留一百个武吏。
+    phase: 撤兵封王
+    sources: [js-43]
+    camera: {focus: [洛阳, 建业, 长安], zoom: fit, move: 1.4}
+    show:
+      - act: {act: edict, at: 洛阳, text: 罢兵, sub: 州郡悉去兵, cue: 下令, for: 3.6}
+      - sfx: {name: 诏书, cue: 下令}
+
+  - say: 老臣山涛劝他：地方不能没有兵。晋武帝夸这是天下名言，可就是不听。
+    sources: [js-43]
+    show:
+      - enter: {who: 山涛, side: right, cue: 山涛, for: 3.4}
+      - quote: {text: 帝称之曰：天下名言也。而不能用, source: 晋书·山涛传, cue: 天下名言, for: 3.6}
+
+  - say: 兵撤了，天下靠谁来守？他的答案是：自家人。
+    sources: [js-14]
+    show:
+      - spot: {at: 洛阳, text: 自家人, cue: 自家人}
+      - sfx: {name: 重低音落地, cue: 自家人}
+
+  - say: 他登基那年，就封了二十七个同姓王。王国可以养兵，大国五千。
+    sources: [js-03, js-14]
+    show:
+      - act: {act: prop, at: 洛阳, item: 印绶, text: 封二十七王, cue: 二十七, size: 1.2, for: 3.4}
+      - sfx: {name: 册封, cue: 二十七}
+      - quote: {text: 邑二万户为大国，置上中下三军，兵五千人, source: 晋书·地理志, era: 泰始元年, cue: 养兵, for: 4}
+
+  - say: 一边，大郡只剩一百个武吏；一边，王府里有好几千人马。
+    sources: [js-14, js-43]
+    show:
+      - forces: {left: {name: 州郡, sub: 大郡武吏百人}, right: {name: 王国, sub: 大国兵五千}, loser: left, delay: 0.4, for: 5}
+      - sfx: {name: 对峙滚奏, delay: 0.4}
+      - sfx: {name: 碎玻璃, delay: 3.8}
+
+  - say: 二八九年，他又派儿子和叔叔出镇：关中、荆州、扬州、许昌。
+    year: 289
+    sources: [js-03, js-59, js-64]
+    camera: {focus: [洛阳, 长安, 江陵, 寿春], zoom: fit, move: 1.4}
+    show:
+      - flag: {at: 长安, name: 秦王, sub: 司马柬, faction: 宗室, cue: 关中, until: beat+1}
+      - sfx: {name: 插旗, cue: 关中}
+      - flag: {at: 江陵, name: 楚王, sub: 司马玮, faction: 宗室, cue: 荆州, until: beat+1}
+      - flag: {at: 寿春, name: 淮南, sub: 淮南王司马允, faction: 宗室, cue: 扬州, until: beat+1}
+      - flag: {at: 许昌, name: 汝南, sub: 汝南王司马亮, faction: 宗室, cue: 许昌, until: beat+1}
+
+  - say: 他想的是：儿子们握着兵，外人就不敢动我家的江山。
+    sources: [js-03]
+    show:
+      - quote: {text: 楚王玮、淮南王允并镇守要害，以强帝室, source: 晋书·武帝纪, era: 太康十年, cue: 握着兵, for: 3.8}
+
+  # ---------------- 第三章 太子 ----------------
+  - say: 可最大的雷，埋在东宫。太子司马衷，满朝大臣都知道，他不太灵光。
+    phase: 太子
+    sources: [js-04]
+    camera: {focus: 洛阳, zoom: 6, move: 1.2}
+    show:
+      - enter: {who: 司马衷, side: right, cue: 司马衷, for: 4}
+      - sfx: {name: 不祥鼓, cue: 东宫}
+
+  - say: 有一回宴会，老臣卫瓘借着酒劲，跪在皇帝床前，手抚着御座说：
+    sources: [js-36]
+    scene: 宴席
+
+  - say: 这个座位，可惜了啊！
+    speaker: 卫瓘
+    to: 司马炎
+    style: 借醉吐真言，欲言又止，最后重重一叹
+    scene: 宴席
+    quote: 此座可惜
+    sources: [js-36]
+    show:
+      - sfx: {name: 悬疑, delay: 0.3}
+
+  - say: 卫公，你是真喝醉了吧？
+    speaker: 司马炎
+    to: 卫瓘
+    style: 心里明白，故意打哈哈，笑着岔开话题
+    scene: 宴席
+    quote: 公真大醉耶
+    sources: [js-36]
+
+  - say: 后来晋武帝出了道考题，密封着送进东宫，要太子自己答。
+    sources: [js-31]
+    camera: {focus: 洛阳, zoom: 8, move: 1.2}
+    show:
+      - act: {act: prop, at: 洛阳, item: 书信, text: 密封疑事, cue: 密封, size: 1.2, for: 3.2}
+      - sfx: {name: 落印, cue: 密封}
+
+  - say: 太子妃贾南风慌了，找人代答。小吏张泓说：太子不爱读书，答得太有学问，反而露馅。
+    sources: [js-31]
+    show:
+      - enter: {who: 贾南风, side: right, cue: 贾南风, for: 4}
+      - quote: {text: 太子不学，而答诏引义，必责作草主…不如直以意对, source: 晋书·后妃传, cue: 露馅, for: 4.4}
+
+  - say: 张泓打好草稿，太子照着抄一遍。晋武帝一看，很满意。
+    sources: [js-31]
+    show:
+      - act: {act: prop, at: 洛阳, item: 竹简, text: 太子自写, cue: 照着抄, size: 1.2, for: 3}
+
+  - say: 贾南风是权臣贾充的女儿。晋武帝原本嫌她家善妒、又矮又黑，是杨皇后坚持要娶。
+    sources: [js-31]
+    show:
+      - quote: {text: 贾家种妒而少子，丑而短黑, source: 晋书·后妃传, era: 泰始年间, cue: 又矮又黑, for: 4}
+
+  # ---------------- 第四章 托孤 ----------------
+  - say: 那晋武帝为什么不换太子？因为他还有一张牌：皇孙司马遹。
+    phase: 托孤
+    sources: [js-03, js-53]
+    show:
+      - enter: {who: 司马遹, side: right, cue: 司马遹, for: 4}
+
+  - say: 宫里夜里失火，五岁的皇孙拉着爷爷躲进暗处：不能让火光照见皇上。
+    sources: [js-53]
+    camera: {focus: 洛阳, zoom: 10, move: 1.2}
+    show:
+      - fire: {at: 洛阳, cue: 失火, radius: 0.6, for: 3.6}
+      - sfx: {name: 点火, cue: 失火}
+      - act: {act: night, places: [洛阳], cue: 暗处, for: 3.4}
+
+  - say: 晋武帝摸着孙子的背，对大臣说：
+    sources: [js-53]
+    scene: 朝堂
+
+  - say: 这孩子，将来能让我司马家兴旺！
+    speaker: 司马炎
+    style: 抚着孙子的背，满心欢喜，语气笃定
+    scene: 朝堂
+    quote: 此兒当兴我家
+    sources: [js-53]
+
+  - say: 也有人想立他弟弟齐王司马攸。晋武帝把弟弟赶出京城，司马攸吐血而死。
+    year: 283
+    sources: [js-38]
+    camera: {focus: [洛阳, 临淄], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 司马攸, side: right, cue: 司马攸, for: 3}
+      - flee: {from: 洛阳, to: 临淄, label: 催上道, cue: 赶出京城}
+      - exit: {who: 司马攸, at: 洛阳, verb: 薨, cue: 吐血}
+      - sfx: {name: 退场钟, cue: 吐血}
+
+  - say: 二九零年，晋武帝病危，下诏让汝南王回来辅政。诏书，被外戚杨骏扣下了。
+    year: 290
+    sources: [js-03, js-59]
+    camera: {focus: [洛阳, 许昌], zoom: fit, move: 1.4}
+    show:
+      - act: {act: courier, places: [许昌, 洛阳], text: 留亮辅政, cue: 辅政, grow: 1.0, for: 2.6}
+      - enter: {who: 杨骏, side: right, cue: 杨骏, for: 3.4}
+      - sfx: {name: 不祥鼓, cue: 扣下}
+
+  - say: 杨皇后另写遗诏：杨骏一人辅政。晋武帝醒来问：汝南王来了吗？左右说：还没到。
+    sources: [js-03]
+    camera: {focus: 洛阳, zoom: 8, move: 1.2}
+    show:
+      - act: {act: edict, at: 洛阳, text: 遗诏, sub: 以骏辅政, cue: 遗诏, for: 3.4}
+      - quote: {text: 问汝南王来未…左右答言未至, source: 晋书·武帝纪, era: 太熙元年, cue: 来了吗, for: 3.8}
+
+  - say: 四月，晋武帝死在含章殿，五十五岁。
+    sources: [js-03]
+    show:
+      - act: {act: mourn, text: 崩, sub: 太熙元年 · 四月, cue: 含章殿, for: 3.4}
+      - sfx: {name: 落幕锣, cue: 含章殿}
+
+  - say: 杨骏住进太极殿，带着一百个卫士。连灵柩出殡，他都不下殿。
+    sources: [js-40]
+    show:
+      - flag: {at: 洛阳, name: 杨骏, sub: 居太极殿, faction: 外戚, cue: 太极殿}
+      - sfx: {name: 城门关闭, cue: 不下殿}
+      - quote: {text: 骏不下殿，以武贲百人自卫, source: 晋书·杨骏传, era: 永熙元年, cue: 不下殿, for: 3.6}
+
+  # ---------------- 收 ----------------
+  - say: 晋武帝为什么敢传位给傻儿子？他押了三张牌：聪明的皇孙，握兵的宗室，可靠的外戚。
+    sources: [js-03]
+    camera: {focus: [洛阳, 长安, 江陵, 寿春], zoom: fit, move: 1.6}
+    show:
+      - enter: {who: 司马炎, side: left, cue: 三张牌, for: 4}
+
+  - say: 可这三张牌，后来一张一张，全炸了。
+    sources: [js-03]
+    show:
+      - card: {title: 史书怎么评, body: 武帝纪：中朝之乱，实始于斯矣, cue: 后来, for: 3.6}
+
+  - say: 他撤掉了天下的兵，却把刀交到了自家人手里。
+    sources: [js-43]
+    show:
+      - headline: {text: 刀在自家人手里, sub: 西晋之乱的种子, cue: 却把刀, for: 3.4}
+      - sfx: {name: 史诗冲击, cue: 却把刀}
+
+  - say: 如果你是晋武帝，这个太子，换，还是不换？
+    sources: [js-03]
+    show:
+      - versus: {left: 司马炎, right: 司马衷, label: 换, cue: 换, for: 3.6}
+
+  - say: 杨骏大权独揽。可他没想到，太子妃贾南风，已经盯上了他。
+    sources: [js-40]
+    show:
+      - enter: {who: 贾南风, side: right, cue: 贾南风, for: 3.6}
+      - title_bar: {text: 下集, sub: 两晋 · 贾南风借刀杀人, cue: 盯上, delay: 0.4, for: 3.0}
+      - sfx: {name: 时代转折, cue: 盯上}

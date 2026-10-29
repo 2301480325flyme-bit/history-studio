@@ -1,0 +1,211 @@
+{
+ "mode": "placeholder",
+ "beats": [
+  {
+   "file_start": 0.3,
+   "file_end": 9.38,
+   "voice_onset": 0.45,
+   "voice_offset": 9.26
+  },
+  {
+   "file_start": 9.68,
+   "file_end": 14.28,
+   "voice_onset": 9.83,
+   "voice_offset": 14.16
+  },
+  {
+   "file_start": 14.58,
+   "file_end": 19.94,
+   "voice_onset": 14.73,
+   "voice_offset": 19.82
+  },
+  {
+   "file_start": 20.24,
+   "file_end": 25.12,
+   "voice_onset": 20.39,
+   "voice_offset": 25.0
+  },
+  {
+   "file_start": 25.42,
+   "file_end": 30.3,
+   "voice_onset": 25.57,
+   "voice_offset": 30.18
+  },
+  {
+   "file_start": 30.6,
+   "file_end": 35.92,
+   "voice_onset": 30.75,
+   "voice_offset": 35.8
+  },
+  {
+   "file_start": 36.22,
+   "file_end": 42.78,
+   "voice_onset": 36.37,
+   "voice_offset": 42.66
+  },
+  {
+   "file_start": 43.08,
+   "file_end": 45.76,
+   "voice_onset": 43.23,
+   "voice_offset": 45.64
+  },
+  {
+   "file_start": 46.06,
+   "file_end": 50.66,
+   "voice_onset": 46.21,
+   "voice_offset": 50.54
+  },
+  {
+   "file_start": 50.96,
+   "file_end": 59.12,
+   "voice_onset": 51.11,
+   "voice_offset": 59.0
+  },
+  {
+   "file_start": 59.42,
+   "file_end": 65.7,
+   "voice_onset": 59.57,
+   "voice_offset": 65.58
+  },
+  {
+   "file_start": 66.0,
+   "file_end": 74.04,
+   "voice_onset": 66.15,
+   "voice_offset": 73.92
+  },
+  {
+   "file_start": 74.34,
+   "file_end": 80.66,
+   "voice_onset": 74.49,
+   "voice_offset": 80.54
+  },
+  {
+   "file_start": 80.96,
+   "file_end": 87.32,
+   "voice_onset": 81.11,
+   "voice_offset": 87.2
+  },
+  {
+   "file_start": 87.62,
+   "file_end": 93.46,
+   "voice_onset": 87.77,
+   "voice_offset": 93.34
+  },
+  {
+   "file_start": 93.76,
+   "file_end": 100.56,
+   "voice_onset": 93.91,
+   "voice_offset": 100.44
+  },
+  {
+   "file_start": 100.86,
+   "file_end": 104.98,
+   "voice_onset": 101.01,
+   "voice_offset": 104.86
+  },
+  {
+   "file_start": 105.28,
+   "file_end": 112.08,
+   "voice_onset": 105.43,
+   "voice_offset": 111.96
+  },
+  {
+   "file_start": 112.38,
+   "file_end": 116.02,
+   "voice_onset": 112.53,
+   "voice_offset": 115.9
+  },
+  {
+   "file_start": 116.32,
+   "file_end": 124.12,
+   "voice_onset": 116.47,
+   "voice_offset": 124.0
+  },
+  {
+   "file_start": 124.42,
+   "file_end": 133.74,
+   "voice_onset": 124.57,
+   "voice_offset": 133.62
+  },
+  {
+   "file_start": 134.04,
+   "file_end": 142.32,
+   "voice_onset": 134.19,
+   "voice_offset": 142.2
+  },
+  {
+   "file_start": 142.62,
+   "file_end": 151.62,
+   "voice_onset": 142.77,
+   "voice_offset": 151.5
+  },
+  {
+   "file_start": 151.92,
+   "file_end": 158.28,
+   "voice_onset": 152.07,
+   "voice_offset": 158.16
+  },
+  {
+   "file_start": 158.58,
+   "file_end": 164.7,
+   "voice_onset": 158.73,
+   "voice_offset": 164.58
+  },
+  {
+   "file_start": 165.0,
+   "file_end": 168.92,
+   "voice_onset": 165.15,
+   "voice_offset": 168.8
+  },
+  {
+   "file_start": 169.22,
+   "file_end": 173.1,
+   "voice_onset": 169.37,
+   "voice_offset": 172.98
+  },
+  {
+   "file_start": 173.4,
+   "file_end": 181.68,
+   "voice_onset": 173.55,
+   "voice_offset": 181.56
+  },
+  {
+   "file_start": 181.98,
+   "file_end": 186.38,
+   "voice_onset": 182.13,
+   "voice_offset": 186.26
+  },
+  {
+   "file_start": 186.68,
+   "file_end": 192.52,
+   "voice_onset": 186.83,
+   "voice_offset": 192.4
+  },
+  {
+   "file_start": 192.82,
+   "file_end": 201.86,
+   "voice_onset": 192.97,
+   "voice_offset": 201.74
+  },
+  {
+   "file_start": 202.16,
+   "file_end": 211.64,
+   "voice_onset": 202.31,
+   "voice_offset": 211.52
+  },
+  {
+   "file_start": 211.94,
+   "file_end": 215.1,
+   "voice_onset": 212.09,
+   "voice_offset": 214.98
+  },
+  {
+   "file_start": 215.4,
+   "file_end": 220.72,
+   "voice_onset": 215.55,
+   "voice_offset": 220.6
+  }
+ ],
+ "narration": null,
+ "measurement": "placeholder estimate: 0.24 s/char + 0.28 s/pause; NO AUDIO"
+}

@@ -1,0 +1,649 @@
+episode: s01e33-hunzhan
+armies:
+  乂军:
+    faction: 晋
+    head: 司马乂
+    size: 未核
+    evidence:
+    - quote: 帝以乂为大都督，帅军御之。
+      para: 晋书-p00100
+    note_faction: 晋廷
+  成都王颖军:
+    faction: 成都王
+    head: 司马颖
+    size: 荡阴守军五万（石超军）；陆机军总兵力未核
+    evidence:
+    - quote: 乃遣奋武将军石超率众五万，次于荡阴。
+      para: 晋书-p04629
+  河间王颙军:
+    faction: 河间王
+    head: 司马颙
+    size: 步骑三万迎驾于霸上；张方洛阳军七万，时间/统计口径未核
+    evidence:
+    - quote: 河间王颙帅官属步骑三万，迎于霸上。
+      para: 晋书-p00101
+    - quote: 领精卒七万向洛
+      para: 晋书-p04636
+  张方洛阳军:
+    faction: 河间王
+    head: 张方
+    size: 七万向洛，后炙杀乂部行动兵三千
+    evidence:
+    - quote: 领精卒七万向洛
+      para: 晋书-p04636
+    - quote: 方遣部将郅辅勒兵三千
+      para: 晋书-p04622
+    note_faction: 河间王
+  晋廷北征军:
+    faction: 晋
+    head: 惠帝、司马越等
+    size: 十余万
+    evidence:
+    - quote: 奉帝北征，至安阳，众十余万
+      para: 晋书-p00101
+    note_faction: 晋廷
+  王浚东嬴公联军:
+    faction: 幽州/东嬴公
+    head: 王浚、司马腾
+    size: 未核（含乌丸、羯朱部众）
+    evidence:
+    - quote: 与腾及乌丸、羯硃袭颖。
+      para: 晋书-p04630
+  刘渊部众:
+    faction: 汉（初起）
+    head: 刘渊（刘元海）
+    size: 载记先记二旬五万；称汉阶段规模未核
+    evidence:
+    - quote: 二旬之间，众已五万，都于离石。
+      para: 晋书-p07033
+  李雄军:
+    faction: 成汉（初起）
+    head: 李雄
+    size: 未核
+    evidence:
+    - quote: 李雄自郫城攻益州刺史罗尚
+      para: 晋书-p00100
+events:
+- id: e01
+  army: 乂军
+  kind: 交战
+  place: 洛阳
+  from: null
+  via: []
+  date: 302-12
+  territory: null
+  note: （原记地点：洛阳南止车门）乂奉惠帝攻杀齐王冏；无郡级易手，洛阳仍为晋廷所在。公历月份按编年换算，原文只写十二月丁卯。
+  evidence:
+  - quote: 长沙王乂奉乘舆屯南止车门，攻冏，杀之
+    para: 晋书-p00099
+  - quote: 是月，成都、河间檄长沙王乂讨之，冏、乂交战，攻焚宫阙，冏兵败，夷灭。
+    para: 晋书-p00630
+- id: e02
+  army: 成都王颖军
+  kind: 出发
+  place: 邺
+  from: null
+  via: []
+  date: 303-08
+  territory: null
+  note: 颖从邺发兵讨乂；郡级根据地未变，继续由成都王占据魏郡示意。
+  evidence:
+  - quote: 八月，河间王颙、成都王颖举兵讨长沙王乂
+    para: 晋书-p00100
+  - quote: 颙遣其将张方，颍遣其将陆机、牵秀、石超等来逼京师。
+    para: 晋书-p00100
+- id: e03
+  army: 张方洛阳军
+  kind: 行军
+  place: 洛阳
+  from: 长安
+  via:
+  - 宜阳
+  date: 303-08
+  territory: null
+  note: 张方自关中东来；皇甫商距方于宜阳，故经宜阳（验收：from 原记长安/霸上）。
+  evidence:
+  - quote: 颙遣其将张方，颍遣其将陆机、牵秀、石超等来逼京师。
+    para: 晋书-p00100
+  - quote: 领精卒七万向洛
+    para: 晋书-p04636
+- id: e04
+  army: 晋廷北征军
+  kind: 途经
+  place: 十三里桥
+  from: 洛阳
+  via: []
+  date: 303-08
+  territory: null
+  note: 惠帝行在先幸十三里桥，具体桥址未定位。
+  evidence:
+  - quote: 乙丑，帝幸十三里桥
+    para: 晋书-p00100
+  skip: 旁白不讲惠帝在十三里桥、宜阳、宣武、石楼、河桥、芒山、偃师、豆田、缑氏一路的行军
+- id: e05
+  army: 晋廷北征军
+  kind: 交战
+  place: 宜阳
+  from: 十三里桥
+  via: []
+  date: 303-08
+  territory: null
+  note: 皇甫商奉命抵张方；史书未交代交战胜负或具体道路。
+  evidence:
+  - quote: 遣将军皇甫商距方于宜阳。
+    para: 晋书-p00100
+  skip: 旁白不讲惠帝在十三里桥、宜阳、宣武、石楼、河桥、芒山、偃师、豆田、缑氏一路的行军
+- id: e06
+  army: 晋廷北征军
+  kind: 退守
+  place: 宣武
+  from: 宜阳
+  via: []
+  date: 303-08
+  territory: null
+  note: 惠帝旋军宣武；不明是否走原路。
+  evidence:
+  - quote: 己巳，帝旋军于宣武。
+    para: 晋书-p00100
+  skip: 旁白不讲惠帝在十三里桥、宜阳、宣武、石楼、河桥、芒山、偃师、豆田、缑氏一路的行军
+- id: e07
+  army: 晋廷北征军
+  kind: 屯驻
+  place: 石楼
+  from: 宣武
+  via: []
+  date: 303-08
+  territory: null
+  note: 原文称“舍于石楼”，暂记驻次；古址未核。
+  evidence:
+  - quote: 庚午，舍于石楼。
+    para: 晋书-p00100
+  skip: 旁白不讲惠帝在十三里桥、宜阳、宣武、石楼、河桥、芒山、偃师、豆田、缑氏一路的行军
+- id: e08
+  army: 晋廷北征军
+  kind: 行军
+  place: 河桥
+  from: 石楼
+  via: []
+  date: 303-09
+  territory: null
+  note: 惠帝至河桥；具体河桥及过河方向未核。
+  evidence:
+  - quote: 九月丁丑，帝次于河桥。
+    para: 晋书-p00100
+  skip: 旁白不讲惠帝在十三里桥、宜阳、宣武、石楼、河桥、芒山、偃师、豆田、缑氏一路的行军
+- id: e09
+  army: 张方洛阳军
+  kind: 交战
+  place: 河桥
+  from: null
+  via: []
+  date: 303-09
+  territory: null
+  note: 皇甫商为张方所败；战场只能定位到河桥区域。
+  evidence:
+  - quote: 壬午，皇甫商为张方所败。
+    para: 晋书-p00100
+  - quote: 领精卒七万向洛
+    para: 晋书-p04636
+  skip: 旁白不讲惠帝在十三里桥、宜阳、宣武、石楼、河桥、芒山、偃师、豆田、缑氏一路的行军
+- id: e10
+  army: 晋廷北征军
+  kind: 行军
+  place: 芒山
+  from: 河桥
+  via: []
+  date: 303-09
+  territory: null
+  note: 依惠帝纪次序记行军，不推定渡河点。
+  evidence:
+  - quote: 甲申，帝军于芒山。
+    para: 晋书-p00100
+  skip: 旁白不讲惠帝在十三里桥、宜阳、宣武、石楼、河桥、芒山、偃师、豆田、缑氏一路的行军
+- id: e11
+  army: 晋廷北征军
+  kind: 行军
+  place: 偃师
+  from: 芒山
+  via: []
+  date: 303-09
+  territory: null
+  note: 惠帝行至偃师。
+  evidence:
+  - quote: 丁亥，幸偃师。
+    para: 晋书-p00100
+  skip: 旁白不讲惠帝在十三里桥、宜阳、宣武、石楼、河桥、芒山、偃师、豆田、缑氏一路的行军
+- id: e12
+  army: 晋廷北征军
+  kind: 屯驻
+  place: 豆田
+  from: 偃师
+  via: []
+  date: 303-09
+  territory: null
+  note: 原文作“舍于豆田”，地望未核。
+  evidence:
+  - quote: 辛卯，舍于豆田。
+    para: 晋书-p00100
+  skip: 旁白不讲惠帝在十三里桥、宜阳、宣武、石楼、河桥、芒山、偃师、豆田、缑氏一路的行军
+- id: e13
+  army: 晋廷北征军
+  kind: 交战
+  place: 缑氏
+  from: 豆田
+  via: []
+  date: 303-09
+  territory: null
+  note: 惠帝进军缑氏，击走牵秀；原文没有交代途中关隘。
+  evidence:
+  - quote: 丙申，进军缑氏，击牵秀，走之。
+    para: 晋书-p00100
+  skip: 旁白不讲惠帝在十三里桥、宜阳、宣武、石楼、河桥、芒山、偃师、豆田、缑氏一路的行军
+- id: e14
+  army: 张方洛阳军
+  kind: 行军
+  place: 洛阳西明门
+  from: 洛阳西郊
+  via:
+  - 駃水桥西营
+  date: 303-09
+  territory: null
+  note: 张方攻西明门；驻营在駃水桥西。该桥名地望未核，暂以史料原字保留，不连成确定可导航路线。
+  evidence:
+  - quote: 方遂进攻西明门。乂率中军左右卫击之
+    para: 晋书-p04636
+  - quote: 方初于駃水桥西为营
+    para: 晋书-p04636
+  skip: 西明门未定位，城门之战画在洛阳
+- id: e15
+  army: 乂军
+  kind: 交战
+  place: 洛阳
+  from: null
+  via:
+  - 駃水桥西营
+  date: 303-09
+  territory: null
+  note: （原记地点：洛阳西明门外）乂率禁卫出击张方军，初战败敌五千余；后续又屡战不利，均非郡级易手。
+  evidence:
+  - quote: 乂率中军左右卫击之，方众大败，死者五千余人。
+    para: 晋书-p04636
+  - quote: 乂复从天子出攻方，战辄不利。
+    para: 晋书-p04636
+  skip: 西明门未定位，城门之战画在洛阳
+- id: e16
+  army: 张方洛阳军
+  kind: 攻占
+  place: 洛阳
+  from: 洛阳西郊
+  via: []
+  date: 303-09
+  territory: null
+  note: （原记地点：洛阳城内）张方攻西明门、入京城后焚清明和开阳二门；史书未明确入城所经门次，故不把城门作有序 via。洛阳未发生郡级归属变化，territory=null。
+  evidence:
+  - quote: 张方入京城，烧清明、开阳二门，死者万计。
+    para: 晋书-p00100
+  - quote: 张方复入洛阳
+    para: 晋书-p00101
+- id: e17
+  army: 张方洛阳军
+  kind: 屯驻
+  place: 洛阳
+  from: null
+  via: []
+  date: 303-09/10
+  territory: null
+  note: （原记地点：駃水桥西）筑数重营垒、引粮储；持续围洛。城未失守、无郡级易手。营地桥址未定位。
+  evidence:
+  - quote: 方初于駃水桥西为营，于是筑垒数重，外引廪谷，以足军资。
+    para: 晋书-p04636
+  - quote: 乂复从天子出攻方，战辄不利。
+    para: 晋书-p04636
+- id: e18
+  army: 乂军
+  kind: 交战
+  place: 河桥
+  from: null
+  via: []
+  date: 303-10（具体月未核）
+  territory: null
+  note: （原记地点：鹿苑）鹿苑未定位，陆机军列阵朝歌至河桥，交战标在河桥一带（示意）。陆机军与乂军在鹿苑交战，颖军败、死者坠入七里涧。史书另称机军列军自朝歌至河桥，但两处之间路线及鹿苑所在未核，不把朝歌—河桥写成鹿苑战场行军路线。
+  evidence:
+  - quote: 列军自朝歌至于河桥，鼓声闻数百里
+    para: 晋书-p04328
+  - quote: 长沙王乂奉天子与机战于鹿苑，机军大败，赴七里涧而死者如积焉
+    para: 晋书-p04328
+- id: e19
+  army: null
+  kind: 交战
+  place: 洛阳
+  from: 洛阳
+  via:
+  - 金墉城
+  date: 304-01
+  territory: null
+  note: （原记地点：金墉城/张方营）司马越捕送乂至金墉城，随后郅辅收押至张方营中炙杀。洛阳政权归属未变。
+  evidence:
+  - quote: 潜与殿中将收乂送金墉城。
+    para: 晋书-p04621
+  - quote: 方遣部将郅辅勒兵三千，就金墉收乂，至营，炙而杀之。
+    para: 晋书-p04622
+- id: e20
+  army: 晋廷北征军
+  kind: 出发
+  place: 安阳
+  from: 洛阳
+  via: []
+  date: 304-07
+  territory: null
+  note: 惠帝及诸王北征到安阳，部队十余万；沿途关隘渡口未载。
+  evidence:
+  - quote: 奉帝北征，至安阳，众十余万
+    para: 晋书-p00101
+  - quote: 军次安阳，众十余万。
+    para: 晋书-p04629
+  skip: 下一集（荡阴之战）讲
+- id: e21
+  army: 成都王颖军
+  kind: 屯驻
+  place: 荡阴
+  from: 邺
+  via: []
+  date: 304-07
+  territory: null
+  note: 石超率五万次于荡阴迎敌。
+  evidence:
+  - quote: 乃遣奋武将军石超率众五万，次于荡阴。
+    para: 晋书-p04629
+  - quote: 颖遣其将石超距战。
+    para: 晋书-p00101
+  skip: 下一集（荡阴之战）讲
+- id: e22
+  army: 晋廷北征军
+  kind: 交战
+  place: 荡阴
+  from: 安阳
+  via: []
+  date: 304-07
+  territory: null
+  note: 六军败，惠帝被俘式挟持，嵇绍死；未发生郡级归属变更。
+  evidence:
+  - quote: 六军败绩于荡阴，矢及乘舆，百官分散，侍中嵇绍死之。
+    para: 晋书-p00101
+  - quote: 超众奄至，王师败绩，矢及乘舆，侍中嵇绍死于帝侧
+    para: 晋书-p04629
+  skip: 下一集（荡阴之战）讲
+- id: e23
+  army: 成都王颖军
+  kind: 行军
+  place: 邺
+  from: 荡阴
+  via: []
+  date: 304-07
+  territory: null
+  note: 石超之弟奉惠帝至邺，颖迎于道左；成都王政权控制魏郡示意不变。
+  evidence:
+  - quote: 超遣弟熙奉帝之鄴，颖帅群官迎谒道左。
+    para: 晋书-p00101
+  - quote: 超遂奉帝幸鄴。颖改元建武
+    para: 晋书-p04629
+  skip: 下一集（荡阴之战）讲
+- id: e24
+  army: 王浚东嬴公联军
+  kind: 屯驻
+  place: 冀州
+  from: 幽州（具体驻地未核）
+  via: []
+  date: 304-08
+  territory: null
+  note: 王浚屯冀州不进，与腾及乌丸、羯朱合军袭颖；具体出发城邑和会合地点未载。
+  evidence:
+  - quote: 浚屯冀州不进，与腾及乌丸、羯硃袭颖。
+    para: 晋书-p04630
+  - quote: 王浚遣乌丸骑攻成都王颖于鄴
+    para: 晋书-p00101
+  skip: 下一集（荡阴之战）讲
+- id: e25
+  army: 王浚东嬴公联军
+  kind: 交战
+  place: 邺
+  from: 冀州（具体驻地未核）
+  via: []
+  date: 304-08
+  territory:
+    jun: 魏郡
+    to: 晋
+  note: 联军击败颖军、邺中溃散，疆域.yaml 现有304-08事件将魏郡从成都王改回晋；“治所郡示意”，不是逐县尽取的记载。
+  evidence:
+  - quote: 安北将军王浚遣乌丸骑攻成都王颖于鄴，大败之。颖舆帝单车走洛阳
+    para: 晋书-p00101
+  - quote: 鄴中大震，百僚奔走，士卒分散。
+    para: 晋书-p04630
+  skip: 下一集（荡阴之战）讲
+- id: e26
+  army: 成都王颖军
+  kind: 撤退
+  place: 洛阳
+  from: 邺
+  via:
+  - 朝歌
+  date: 304-08
+  territory: null
+  note: 颖携惠帝单车逃至洛阳，五日抵达；羯朱追至朝歌不及。路段只按史书明确地点记，不将未载节点补入。
+  evidence:
+  - quote: 颖惧，将帐下数十骑，拥天子，与中书监虑志单车而走，五日至洛。羯硃追至朝歌，不及而还。
+    para: 晋书-p04630
+  - quote: 贼去鄴尚八十里，而人士一朝骇散
+    para: 晋书-p03824
+  skip: 下一集（荡阴之战）讲
+- id: e27
+  army: 刘渊部众
+  kind: 会合
+  place: 左国城（离石）
+  from: 未核
+  via: []
+  date: 304-10
+  territory:
+    jun: 西河郡
+    to: 汉赵
+  note: 刘渊到左国城，刘宣等奉大单于号；当年惠帝纪记刘元海僭汉王。疆域.yaml仅示意西河郡根据地，周边控制边界未核。
+  evidence:
+  - quote: 元海至左国城，刘宣等上大单于之号，二旬之间，众已五万，都于离石。
+    para: 晋书-p07033
+  - quote: 李雄僭号成都王，刘元海僭号汉王。
+    para: 晋书-p00101
+  skip: 下一集（荡阴之战）讲
+- id: e28
+  army: 李雄军
+  kind: 攻占
+  place: 成都
+  from: 郫城
+  via: []
+  date: 304-01
+  territory:
+    jun: 蜀郡
+    to: 成汉
+  note: 罗尚弃城，李雄据成都；疆域.yaml将成汉势力落点列为304-10示意。军事占城与304年称成都王分开记录，不把史书两段误作同月。广汉郡是否同期可由Claude按疆域口径决定。
+  evidence:
+  - quote: 李雄自郫城攻益州刺史罗尚，尚委城而遁，雄尽有成都之地。
+    para: 晋书-p00100
+  - quote: 李雄僭号成都王
+    para: 晋书-p00101
+  skip: 下一集（荡阴之战）讲
+- id: e29
+  army: 李雄军
+  kind: 会合
+  place: 成都
+  from: 郫城
+  via: []
+  date: 304-10
+  territory: null
+  note: 李雄称成都王，疆域变化已由占成都事件表达；此处无新增郡级易手。
+  evidence:
+  - quote: 李雄僭号成都王
+    para: 晋书-p00101
+  - quote: 雄尽有成都之地
+    para: 晋书-p00100
+  skip: 下一集（荡阴之战）讲
+places_new:
+- name: 十三里桥
+  lon: null
+  lat: null
+  precision: 未定位
+  basis: 惠帝纪仅记桥名与行在次序，需在洛阳城外考订
+  evidence:
+  - quote: 帝幸十三里桥
+    para: 晋书-p00100
+- name: 宜阳
+  lon: 112.18
+  lat: 34.52
+  precision: 区域近似
+  basis: 今河南宜阳县城附近的古县域候选；非战场坐标，史书仅记皇甫商距张方于宜阳
+  evidence:
+  - quote: 遣将军皇甫商距方于宜阳。
+    para: 晋书-p00100
+- name: 宣武
+  lon: null
+  lat: null
+  precision: 未定位
+  basis: 惠帝行军驻次名，不能因同名与洛阳宣武门定位
+  evidence:
+  - quote: 帝旋军于宣武。
+    para: 晋书-p00100
+- name: 石楼
+  lon: null
+  lat: null
+  precision: 未定位
+  basis: 洛阳周围行军驻次名，缺方志/遗址定位
+  evidence:
+  - quote: 舍于石楼。
+    para: 晋书-p00100
+- name: 河桥
+  lon: 112.55
+  lat: 34.85
+  precision: 黄河桥渡区域示意
+  basis: 洛阳北部黄河渡桥候选区；具体桥址不明，暂勿作为确定路线节点
+  evidence:
+  - quote: 帝次于河桥。
+    para: 晋书-p00100
+- name: 芒山
+  lon: 112.5
+  lat: 34.8
+  precision: 山体区域示意
+  basis: 今洛阳北邙山区域代表点；与战场点精度不同
+  evidence:
+  - quote: 帝军于芒山。
+    para: 晋书-p00100
+- name: 偃师
+  lon: 112.79
+  lat: 34.73
+  precision: 县域代表点
+  basis: 今河南偃师区驻地点近似，非古城墙点
+  evidence:
+  - quote: 幸偃师。
+    para: 晋书-p00100
+- name: 豆田
+  lon: null
+  lat: null
+  precision: 未定位
+  basis: 惠帝纪仅记驻次地名，暂无可靠今地对应
+  evidence:
+  - quote: 舍于豆田。
+    para: 晋书-p00100
+- name: 缑氏
+  lon: 112.76
+  lat: 34.56
+  precision: 区域近似
+  basis: 今偃师区缑氏镇附近古县域候选；需方志复核
+  evidence:
+  - quote: 进军缑氏，击牵秀，走之。
+    para: 晋书-p00100
+- name: 駃水桥
+  lon: null
+  lat: null
+  precision: 未定位
+  basis: 《晋书》张方传原字如此，桥址未核；不擅改“駃”为湨/决等字
+  evidence:
+  - quote: 方初于駃水桥西为营
+    para: 晋书-p04636
+- name: 西明门、清明门、开阳门
+  lon: null
+  lat: null
+  precision: 未定位
+  basis: 洛阳城门名，须叠合西晋城址考古图才能定点
+  evidence:
+  - quote: 方遂进攻西明门
+    para: 晋书-p04636
+  - quote: 烧清明、开阳二门
+    para: 晋书-p00100
+- name: 安阳
+  lon: 114.36
+  lat: 36.1
+  precision: 区域近似
+  basis: 今安阳市古县域代表点；北征到达位置未精确到城
+  evidence:
+  - quote: 奉帝北征，至安阳，众十余万
+    para: 晋书-p00101
+- name: 荡阴
+  lon: 114.36
+  lat: 35.92
+  precision: 区域近似
+  basis: 今汤阴县区域代表点；古荡阴县治与交战点仍需专门考证
+  evidence:
+  - quote: 六军败绩于荡阴
+    para: 晋书-p00101
+- name: 鹿苑
+  lon: null
+  lat: null
+  precision: 未定位
+  basis: 《晋书》陆机传仅记战名地点，未与今地对应
+  evidence:
+  - quote: 与机战于鹿苑
+    para: 晋书-p04328
+- name: 七里涧
+  lon: null
+  lat: null
+  precision: 未定位
+  basis: 仅知与鹿苑战场相关水道，方位河段待考
+  evidence:
+  - quote: 赴七里涧而死者如积焉
+    para: 晋书-p04328
+- name: 朝歌
+  lon: 114.2
+  lat: 35.61
+  precision: 区域近似
+  basis: 今河南淇县古朝歌故城一带候选；羯朱追兵终点
+  evidence:
+  - quote: 羯硃追至朝歌，不及而还。
+    para: 晋书-p04630
+- name: 左国城（离石）
+  lon: 111.14
+  lat: 37.52
+  precision: 县域近似
+  basis: 以今山西吕梁离石城区代表点；《晋书》明确说今离石左国城即单于旧庭，但古城精确点未核
+  evidence:
+  - quote: 今离石左国城即单于
+    para: 晋书-p07027
+- name: 郫城
+  lon: 103.89
+  lat: 30.81
+  precision: 区域近似
+  basis: 今成都郫都区代表点；古郫县城垣坐标未核
+  evidence:
+  - quote: 李雄自郫城攻益州刺史罗尚
+    para: 晋书-p00100
+open_questions:
+- 对照疆域.yaml：304-08魏郡从成都王改回晋有惠帝纪和颖传支撑；是否将“邺城失守”仍按治所郡示意保留由Claude决定。
+- 对照疆域.yaml：304-10汉赵仅列西河郡，成汉列蜀郡、广汉郡且 uncertain。李雄夺成都的纪年段与称成都王的304年段分开；广汉郡实际何时纳入、应否提前疆域事件待Claude决定。
+- 对照疆域.yaml：302-307除现有304-08、304-10外，302-12冏杀与304-01乂死不产生郡级归属变化；无须新增郡级 set。
+- 304-07邺由成都王控制，304-08王浚等破邺是否可以直接视作魏郡全郡转晋，仍属疆域表现尺度问题。
+- 张方长安/霸上至洛阳路线未核；史书只记“向洛”、宜阳、河桥、洛阳西门、駃水桥西营。不得补入潼关/弘农/函谷关等节点而不注明推测。
+- 惠帝303年秋驻次“宣武、石楼、豆田”及十三里桥、河桥、西晋洛阳城门、金墉城的精确位置均未核；是否纳入 gazetteer 由Claude决定。
+- 王浚与东嬴公腾联军的具体起兵地、会师地、由幽州至邺的路线未核；可证内容为王浚屯冀州、与腾及乌丸羯朱袭颖。
+- 荡阴之战双方路线仅能确定晋军由洛阳到安阳、石超次于荡阴；中间道路、渡口未核。
+- 颖携惠帝自邺至洛阳，史书记五日至洛、羯朱追至朝歌；中间路线未知。卢志传记汲郡遇郝昌军，但不可据此断言全队沿汲郡大道。
+- 鹿苑、七里涧与陆机“列军自朝歌至河桥”的地理关系未核；这是此前乂击退陆机之战，不是荡阴之战。
+- 刘渊、李雄起兵只按疆域.yaml的初起根据地画斜纹/不确定区；不能把一城或首领称号解释成全郡稳定占有。
+- 本地 sources 未返回《资治通鉴》卷八十二至八十四条目，通鉴出处暂未核；需有权限的语料索引或卷文才能完成双书互证。
+- 立绘缺项：张方、石超、陆机、嵇绍、司马腾、刘渊、刘宣、李雄、罗尚、卢志、羯朱等均未见现存同名图片；是否为画面重点由Claude定。司马乂、冏、颖、颙、越、惠帝、王浚已有图。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

@@ -1,0 +1,500 @@
+{
+ "mode": "mimo",
+ "beats": [
+  {
+   "file_start": 0.3,
+   "file_end": 5.155,
+   "voice_onset": 0.44,
+   "voice_offset": 5.15
+  },
+  {
+   "file_start": 5.455,
+   "file_end": 9.515,
+   "voice_onset": 5.605,
+   "voice_offset": 9.115
+  },
+  {
+   "file_start": 9.815,
+   "file_end": 14.918,
+   "voice_onset": 9.915,
+   "voice_offset": 14.915
+  },
+  {
+   "file_start": 15.218,
+   "file_end": 19.27,
+   "voice_onset": 15.268,
+   "voice_offset": 18.998
+  },
+  {
+   "file_start": 19.27,
+   "file_end": 24.705,
+   "voice_onset": 19.56,
+   "voice_offset": 24.44
+  },
+  {
+   "file_start": 24.705,
+   "file_end": 28.425,
+   "voice_onset": 24.995,
+   "voice_offset": 28.265
+  },
+  {
+   "file_start": 28.425,
+   "file_end": 31.772,
+   "voice_onset": 28.736,
+   "voice_offset": 31.596
+  },
+  {
+   "file_start": 32.072,
+   "file_end": 38.372,
+   "voice_onset": 32.182,
+   "voice_offset": 38.122
+  },
+  {
+   "file_start": 38.372,
+   "file_end": 40.906,
+   "voice_onset": 38.632,
+   "voice_offset": 40.682
+  },
+  {
+   "file_start": 40.906,
+   "file_end": 47.063,
+   "voice_onset": 41.166,
+   "voice_offset": 46.836
+  },
+  {
+   "file_start": 47.063,
+   "file_end": 49.169,
+   "voice_onset": 47.353,
+   "voice_offset": 49.163
+  },
+  {
+   "file_start": 49.469,
+   "file_end": 52.346,
+   "voice_onset": 49.659,
+   "voice_offset": 51.919
+  },
+  {
+   "file_start": 52.646,
+   "file_end": 58.509,
+   "voice_onset": 52.716,
+   "voice_offset": 58.266
+  },
+  {
+   "file_start": 58.509,
+   "file_end": 62.969,
+   "voice_onset": 58.819,
+   "voice_offset": 62.869
+  },
+  {
+   "file_start": 63.269,
+   "file_end": 67.718,
+   "voice_onset": 63.439,
+   "voice_offset": 67.469
+  },
+  {
+   "file_start": 68.018,
+   "file_end": 73.443,
+   "voice_onset": 68.108,
+   "voice_offset": 73.068
+  },
+  {
+   "file_start": 73.443,
+   "file_end": 78.84,
+   "voice_onset": 73.483,
+   "voice_offset": 78.833
+  },
+  {
+   "file_start": 79.14,
+   "file_end": 84.823,
+   "voice_onset": 79.26,
+   "voice_offset": 84.65
+  },
+  {
+   "file_start": 84.823,
+   "file_end": 90.303,
+   "voice_onset": 85.043,
+   "voice_offset": 90.043
+  },
+  {
+   "file_start": 90.303,
+   "file_end": 97.165,
+   "voice_onset": 90.603,
+   "voice_offset": 96.883
+  },
+  {
+   "file_start": 97.165,
+   "file_end": 103.83,
+   "voice_onset": 97.235,
+   "voice_offset": 103.575
+  },
+  {
+   "file_start": 103.83,
+   "file_end": 110.993,
+   "voice_onset": 104.13,
+   "voice_offset": 110.99
+  },
+  {
+   "file_start": 111.293,
+   "file_end": 114.933,
+   "voice_onset": 111.353,
+   "voice_offset": 114.703
+  },
+  {
+   "file_start": 114.933,
+   "file_end": 120.859,
+   "voice_onset": 115.243,
+   "voice_offset": 120.623
+  },
+  {
+   "file_start": 120.859,
+   "file_end": 126.792,
+   "voice_onset": 121.159,
+   "voice_offset": 126.549
+  },
+  {
+   "file_start": 126.792,
+   "file_end": 131.905,
+   "voice_onset": 127.102,
+   "voice_offset": 131.722
+  },
+  {
+   "file_start": 131.905,
+   "file_end": 138.989,
+   "voice_onset": 132.255,
+   "voice_offset": 138.755
+  },
+  {
+   "file_start": 138.989,
+   "file_end": 142.567,
+   "voice_onset": 139.299,
+   "voice_offset": 142.329
+  },
+  {
+   "file_start": 142.567,
+   "file_end": 146.485,
+   "voice_onset": 142.867,
+   "voice_offset": 146.257
+  },
+  {
+   "file_start": 146.485,
+   "file_end": 151.352,
+   "voice_onset": 146.775,
+   "voice_offset": 151.345
+  }
+ ],
+ "narration": "D:\\history\\codx_3 history studio\\01_工作流\\projects\\s01e28-guijin\\voice\\narration.wav",
+ "asr": [
+  {
+   "beat": 1,
+   "chapter": 1,
+   "text": "灭吴的庆功宴上，晋武帝司马炎端着酒杯，流下了眼泪：",
+   "heard": "灭吴的庆功宴上，晋武帝司马炎端着酒杯，流下了眼泪。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 2,
+   "speaker": "司马炎",
+   "text": "这一仗的功劳，是羊太傅的啊！",
+   "heard": "这一仗的功劳，是杨太傅的。",
+   "ratio": 0.87,
+   "diff": [
+    "「羊」→「杨」",
+    "「啊」→「」"
+   ]
+  },
+  {
+   "beat": 3,
+   "chapter": 3,
+   "text": "可羊祜，两年前就死了。一个没赶上灭吴之战的人，凭什么是头功？",
+   "heard": "可杨护两年前就死了，一个没赶上灭吴之战的人，凭什么是头功？",
+   "ratio": 0.923,
+   "diff": [
+    "「羊祜」→「杨护」"
+   ]
+  },
+  {
+   "beat": 4,
+   "chapter": 4,
+   "text": "时间回到二六五年。司马昭去世，儿子司马炎接了班。这年十二月，魏帝让位。司马炎在洛阳南郊设坛登基，国号叫晋。曹魏立国四十五年，也像汉朝一样，被善让掉了。天下只剩两家：北边的晋，南边的吴。",
+   "heard": "时间回到二六五年，司马昭去世，儿子司马炎接了班。这年十二月，魏帝让位，司马炎在洛阳南郊设坛登基，国号叫晋。曹魏立国四十五年，也像汉朝一样被禅让掉了。天下只剩两家，北边的晋，南边的吴。",
+   "ratio": 0.987,
+   "diff": [
+    "「善」→「禅」"
+   ]
+  },
+  {
+   "beat": 8,
+   "chapter": 5,
+   "text": "晋武帝派羊祜镇守荆州，准备灭吴。他刚到襄阳时，军中的粮食撑不过一百天。几年后，存粮够吃十年。他在军营里穿着轻便的皮衣，不披铠甲。对面的吴将陆抗病了，羊祜派人送去了药。部下劝他别吃，陆抗说：",
+   "heard": "晋武帝派杨护镇守荆州，准备灭吴。他刚到襄阳时，军中的粮食撑不过一百天。几年后，存粮够吃十年。他在军营里穿着轻便的皮衣，不披铠甲。对面的吴将陆抗病了，杨护派人送去了药。部下劝他别吃，陆抗说。",
+   "ratio": 0.951,
+   "diff": [
+    "「羊祜」→「杨护」",
+    "「羊祜」→「杨护」"
+   ]
+  },
+  {
+   "beat": 12,
+   "speaker": "陆抗",
+   "text": "羊祜哪里是下毒害人的人！",
+   "heard": "杨护哪里是下毒害人的人？",
+   "ratio": 0.818,
+   "diff": [
+    "「羊祜」→「杨护」"
+   ]
+  },
+  {
+   "beat": 13,
+   "chapter": 7,
+   "text": "陆抗还告诉守军：他专门讲德，我们专门讲暴，不用打就输了。各守边界就行。羊祜一次次上书请战，朝中反对的人太多。他叹气说：",
+   "heard": "陆抗还告诉守军，他专门讲德，我们专门讲暴，不用打就输了，各守边界就行。羊祜一次次上书请战，朝中反对的人太多，他叹气说。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 15,
+   "speaker": "羊祜",
+   "text": "天下不如意的事，十件里常有七八件啊！",
+   "heard": "天下不如意的事，十件里常有七八件了。",
+   "ratio": 0.938,
+   "diff": [
+    "「啊」→「了」"
+   ]
+  },
+  {
+   "beat": 16,
+   "chapter": 9,
+   "text": "二七八年，羊祜病重，推荐杜预接替自己，不久去世，五十八岁。襄阳百姓听说了，罢市痛哭。连吴国守边的将士，也为他落泪。",
+   "heard": "二七八年，羊祜病重，推荐杜预接替自己，不久去世，五十八岁。襄阳百姓听说了，罢市痛哭，连吴国守边的将士也为他落泪。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 18,
+   "chapter": 10,
+   "text": "第二年冬天，晋军六路伐吴。益州的王峻带着楼船，从成都顺江而下。吴人在江中险要处拉起铁锁，又在水下埋了一丈多长的铁锥，专门挡船。王峻先放出几十只大木筏，上面扎着草人，穿甲持杖。水下的铁锥扎进木筏，就被带走了。再做十几丈长的火炬，灌满麻油，挂在船头。遇到铁锁就点火烧，铁锁很快熔断。二八零年二月，王峻攻破西陵，杜预拿下江陵。楼船一路东下，夏口、武昌，望风而降。",
+   "heard": "第二年冬天，晋军六路伐吴。益州的王濬带着楼船从成都顺江而下，吴人在江中险要处拉起铁索，又在水下埋了一丈多长的铁锥，专门挡船。王濬先放出几十只大木筏，上面扎着草人，穿甲持杖，水下的铁锥扎进木筏就被带走了。再做十几丈长的火炬，灌满麻油，挂在船头，遇到铁索就点火烧，铁索很快熔断。二八零年二月，王濬攻破西陵，杜预拿下江陵，楼船一路东下，夏口、武昌望风而降。",
+   "ratio": 0.961,
+   "diff": [
+    "「峻」→「濬」",
+    "「锁」→「索」",
+    "「峻」→「濬」",
+    "「锁」→「索」",
+    "「锁」→「索」",
+    "「峻」→「濬」"
+   ]
+  },
+  {
+   "beat": 23,
+   "chapter": 11,
+   "text": "三月，王峻的楼船开到了建业城外的石头城下。吴主孙皓吓坏了，学当年的刘善：反绑双手，抬着棺材，到军门投降。晋军收缴的图册上写着：四个州，四十三个郡，五十二万户，二百三十万人。从黄巾起义算起，整整九十六年。乱世，终于合上了。为什么头功是羊祜？他在荆州十年，攒下了粮，收服了人心，还留下了方略和接班人。灭吴这一仗，其实十年前就开始了。三国这么多英雄，你觉得，谁才是最后的赢家？天下统一了。可谁也没想到，这份太平，撑不了多久。",
+   "heard": "三月，王濬的楼船开到了建业城外的石头城下，吴主孙皓吓坏了，学当年的刘禅，反绑双手，抬着棺材到军门投降。晋军收缴的图册上写着：四个州，四十三个郡，五十二万户，二百三十万人。从黄巾起义算起，整整九十六年，乱世终于合上了。为什么头功是羊祜？他在荆州十年，攒下了粮，收服了人心，还留下了方略和接班人。灭吴这一仗，其实十年前就开始了。三国这么多英雄，你觉得谁才是最后的赢家？天下统一了，可谁也没想到，这份太平撑不了多久。",
+   "ratio": 0.989,
+   "diff": [
+    "「峻」→「濬」",
+    "「善」→「禅」"
+   ]
+  }
+ ],
+ "speaker_pace": [
+  {
+   "beat": 2,
+   "speaker": "司马炎",
+   "rate_before": 2.56,
+   "speed": 1.35,
+   "rate": 3.45
+  },
+  {
+   "beat": 12,
+   "speaker": "陆抗",
+   "rate_before": 4.8,
+   "speed": 1.04,
+   "rate": 5.0
+  },
+  {
+   "beat": 15,
+   "speaker": "羊祜",
+   "rate_before": 2.96,
+   "speed": 1.35,
+   "rate": 4.0
+  }
+ ],
+ "tempo": [
+  {
+   "chapter": 1,
+   "raw_rate": 4.03,
+   "factor": 1.121
+  },
+  {
+   "chapter": 3,
+   "raw_rate": 4.52,
+   "factor": 1.121
+  },
+  {
+   "chapter": 4,
+   "raw_rate": 4.6,
+   "factor": 1.121
+  },
+  {
+   "chapter": 5,
+   "raw_rate": 4.57,
+   "factor": 1.121
+  },
+  {
+   "chapter": 7,
+   "raw_rate": 4.57,
+   "factor": 1.121
+  },
+  {
+   "chapter": 9,
+   "raw_rate": 4.26,
+   "factor": 1.121
+  },
+  {
+   "chapter": 10,
+   "raw_rate": 4.54,
+   "factor": 1.121
+  },
+  {
+   "chapter": 11,
+   "raw_rate": 4.36,
+   "factor": 1.121
+  }
+ ],
+ "chapter_match": {
+  "eq_max_db": [
+   5.0,
+   5.0,
+   2.7,
+   2.5,
+   4.2,
+   3.3,
+   4.0,
+   2.6
+  ],
+  "level_before_db": [
+   -22.0,
+   -23.5,
+   -24.0,
+   -25.7,
+   -24.6,
+   -26.9,
+   -26.1,
+   -26.1
+  ],
+  "level_after_db": -24.9
+ },
+ "splits": [
+  {
+   "beat": 1,
+   "ratio": 1.0
+  },
+  {
+   "beat": 3,
+   "ratio": 0.923
+  },
+  {
+   "beat": 4,
+   "ratio": 1.0
+  },
+  {
+   "beat": 5,
+   "ratio": 1.0
+  },
+  {
+   "beat": 6,
+   "ratio": 0.947
+  },
+  {
+   "beat": 7,
+   "ratio": 1.0
+  },
+  {
+   "beat": 8,
+   "ratio": 0.935
+  },
+  {
+   "beat": 9,
+   "ratio": 1.0
+  },
+  {
+   "beat": 10,
+   "ratio": 1.0
+  },
+  {
+   "beat": 11,
+   "ratio": 1.0
+  },
+  {
+   "beat": 13,
+   "ratio": 1.0
+  },
+  {
+   "beat": 14,
+   "ratio": 0.905
+  },
+  {
+   "beat": 16,
+   "ratio": 1.0
+  },
+  {
+   "beat": 17,
+   "ratio": 1.0
+  },
+  {
+   "beat": 18,
+   "ratio": 0.963
+  },
+  {
+   "beat": 19,
+   "ratio": 0.966
+  },
+  {
+   "beat": 20,
+   "ratio": 0.971
+  },
+  {
+   "beat": 21,
+   "ratio": 0.935
+  },
+  {
+   "beat": 22,
+   "ratio": 0.969
+  },
+  {
+   "beat": 23,
+   "ratio": 0.947
+  },
+  {
+   "beat": 24,
+   "ratio": 0.962
+  },
+  {
+   "beat": 25,
+   "ratio": 1.0
+  },
+  {
+   "beat": 26,
+   "ratio": 1.0
+  },
+  {
+   "beat": 27,
+   "ratio": 1.0
+  },
+  {
+   "beat": 28,
+   "ratio": 1.0
+  },
+  {
+   "beat": 29,
+   "ratio": 1.0
+  },
+  {
+   "beat": 30,
+   "ratio": 1.0
+  }
+ ],
+ "measurement": "10ms RMS>.004 after peak normalisation; phrase-level, not forced syllable alignment",
+ "cleaned": "0 breath/noise islands gated out"
+}

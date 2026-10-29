@@ -1,0 +1,623 @@
+{
+  "version": 1,
+  "note": "人物主表。aliases 用于别名归一（防 LLM 把同一人抽成多人）；fieldVariants 记录跨集字段差异，不静默覆盖。",
+  "persons": [
+    {
+      "id": "sima_chi",
+      "names": {
+        "formal": "司马炽",
+        "title": "豫章王"
+      },
+      "aliases": [
+        "司马炽",
+        "豫章王",
+        "豫章王炽"
+      ],
+      "color": "#4527a0",
+      "portrait": "portraits/sima_chi_sq.png",
+      "realm": "河内国",
+      "realm_valid": "无301年记录",
+      "realm_note": "近似：怀县，怀王司马炽封地",
+      "realmSeat": [
+        113.26,
+        35.03
+      ],
+      "note": "先封豫章王，后立为皇太弟，继惠帝即位为晋怀帝。311 年永嘉之乱被俘遇害。",
+      "appearsIn": [
+        "八王之乱-301",
+        "八王之乱-起兵",
+        "八王之乱-永嘉之乱",
+        "八王之乱-洛阳易手",
+        "八王之乱-诸王尽死"
+      ],
+      "fieldVariants": {
+        "note": [
+          {
+            "episode": "八王之乱-起兵",
+            "source": "kings.json",
+            "value": "继惠帝为怀帝，311年永嘉之乱遇害"
+          },
+          {
+            "episode": "八王之乱-永嘉之乱",
+            "source": "labels.json",
+            "value": "继惠帝为怀帝，311年永嘉之乱遇害"
+          },
+          {
+            "episode": "八王之乱-洛阳易手",
+            "source": "labels.json",
+            "value": "继惠帝为怀帝，311年永嘉之乱遇害"
+          },
+          {
+            "episode": "八王之乱-诸王尽死",
+            "source": "labels.json",
+            "value": "继惠帝为怀帝，311年永嘉之乱遇害"
+          },
+          {
+            "episode": "八王之乱-起兵",
+            "source": "labels.json",
+            "value": "继惠帝为怀帝，311年永嘉之乱遇害"
+          }
+        ],
+        "realm_note": [
+          {
+            "episode": "八王之乱-起兵",
+            "source": "kings.json",
+            "value": "近似：怀县"
+          },
+          {
+            "episode": "八王之乱-永嘉之乱",
+            "source": "labels.json",
+            "value": "近似：怀县"
+          },
+          {
+            "episode": "八王之乱-洛阳易手",
+            "source": "labels.json",
+            "value": "近似：怀县"
+          },
+          {
+            "episode": "八王之乱-诸王尽死",
+            "source": "labels.json",
+            "value": "近似：怀县"
+          },
+          {
+            "episode": "八王之乱-起兵",
+            "source": "labels.json",
+            "value": "近似：怀县"
+          }
+        ]
+      },
+      "correction": {
+        "originalValues": {
+          "title": "河内王",
+          "note": "继惠帝为怀帝，307年遇害"
+        },
+        "evidence": [
+          "立皇子乂为长沙王，颍为成都王，晏为吴王，炽为豫章王",
+          "豫章王炽先帝爱子，令闻日新，四海注意，今以为皇太弟",
+          "唯豫章王炽、司徒王戎、仆射荀籓从"
+        ],
+        "sourceIds": [
+          "jinshu-004",
+          "jinshu-005"
+        ],
+        "note": "项目原数据与《晋书》原文冲突，按原文订正。见 史料查证.md。"
+      }
+    },
+    {
+      "id": "sima_jiong",
+      "names": {
+        "formal": "司马冏",
+        "title": "齐王"
+      },
+      "aliases": [
+        "司马冏",
+        "齐王",
+        "齐王冏"
+      ],
+      "color": "#c2185b",
+      "portrait": "portraits/sima_jiong_sq.png",
+      "realm": "齐国",
+      "realm_valid": "-127~316",
+      "realm_note": null,
+      "realmSeat": [
+        118.2875,
+        36.8096
+      ],
+      "note": "齐献王司马攸之子，嗣齐王爵。301 年起兵讨赵王伦，302 年为长沙王乂所杀。",
+      "appearsIn": [
+        "八王之乱-301",
+        "八王之乱-起兵",
+        "八王之乱-永嘉之乱",
+        "八王之乱-洛阳易手",
+        "八王之乱-诸王尽死"
+      ],
+      "fieldVariants": {
+        "note": [
+          {
+            "episode": "八王之乱-起兵",
+            "source": "kings.json",
+            "value": "301年起兵讨伦，302年被乂杀"
+          },
+          {
+            "episode": "八王之乱-永嘉之乱",
+            "source": "labels.json",
+            "value": "301年起兵讨伦，302年被乂杀"
+          },
+          {
+            "episode": "八王之乱-洛阳易手",
+            "source": "labels.json",
+            "value": "301年起兵讨伦，302年被乂杀"
+          },
+          {
+            "episode": "八王之乱-诸王尽死",
+            "source": "labels.json",
+            "value": "301年起兵讨伦，302年被乂杀"
+          },
+          {
+            "episode": "八王之乱-起兵",
+            "source": "labels.json",
+            "value": "301年起兵讨伦，302年被乂杀"
+          }
+        ]
+      },
+      "correction": {
+        "originalValues": {
+          "note": "301年起兵讨伦，302年被乂杀"
+        },
+        "evidence": [
+          "齐王冏，字景治，献王攸之子也",
+          "冏弟北海王寔"
+        ],
+        "sourceIds": [
+          "jinshu-059"
+        ],
+        "note": "项目原数据与《晋书》原文冲突，按原文订正。见 史料查证.md。"
+      }
+    },
+    {
+      "id": "sima_lun",
+      "names": {
+        "formal": "司马伦",
+        "title": "赵王"
+      },
+      "aliases": [
+        "司马伦",
+        "赵王",
+        "赵王伦"
+      ],
+      "color": "#8d6e63",
+      "portrait": "portraits/sima_lun_sq.png",
+      "realm": "赵国",
+      "realm_valid": "219~317",
+      "realm_note": null,
+      "realmSeat": [
+        114.4637,
+        36.5849
+      ],
+      "note": "篡位，301年正月篡惠帝，后被赐死",
+      "appearsIn": [
+        "八王之乱-301",
+        "八王之乱-起兵",
+        "八王之乱-永嘉之乱",
+        "八王之乱-洛阳易手",
+        "八王之乱-诸王尽死"
+      ],
+      "fieldVariants": {
+        "note": [
+          {
+            "episode": "八王之乱-起兵",
+            "source": "kings.json",
+            "value": "301年正月篡位，同年败死"
+          },
+          {
+            "episode": "八王之乱-永嘉之乱",
+            "source": "labels.json",
+            "value": "301年正月篡位，同年败死"
+          },
+          {
+            "episode": "八王之乱-洛阳易手",
+            "source": "labels.json",
+            "value": "301年正月篡位，同年败死"
+          },
+          {
+            "episode": "八王之乱-诸王尽死",
+            "source": "labels.json",
+            "value": "301年正月篡位，同年败死"
+          },
+          {
+            "episode": "八王之乱-起兵",
+            "source": "labels.json",
+            "value": "301年正月篡位，同年败死"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sima_yi",
+      "names": {
+        "formal": "司马乂",
+        "title": "长沙王"
+      },
+      "aliases": [
+        "司马乂",
+        "长沙王",
+        "长沙王乂"
+      ],
+      "color": "#ef6c00",
+      "portrait": "portraits/sima_yi_sq.png",
+      "realm": "长沙国",
+      "realm_valid": "无301年记录",
+      "realm_note": "近似：临湘一带，疑为长沙郡治",
+      "realmSeat": [
+        112.9,
+        28.2
+      ],
+      "note": "303年洛阳宫变杀贾后，304年被张方所杀",
+      "appearsIn": [
+        "八王之乱-301",
+        "八王之乱-起兵",
+        "八王之乱-永嘉之乱",
+        "八王之乱-洛阳易手",
+        "八王之乱-诸王尽死"
+      ],
+      "fieldVariants": {
+        "note": [
+          {
+            "episode": "八王之乱-起兵",
+            "source": "kings.json",
+            "value": "302年杀冏执政，304年被张方烧杀"
+          },
+          {
+            "episode": "八王之乱-永嘉之乱",
+            "source": "labels.json",
+            "value": "302年杀冏执政，304年被张方烧杀"
+          },
+          {
+            "episode": "八王之乱-洛阳易手",
+            "source": "labels.json",
+            "value": "302年杀冏执政，304年被张方烧杀"
+          },
+          {
+            "episode": "八王之乱-诸王尽死",
+            "source": "labels.json",
+            "value": "302年杀冏执政，304年被张方烧杀"
+          },
+          {
+            "episode": "八王之乱-起兵",
+            "source": "labels.json",
+            "value": "302年杀冏执政，304年被张方烧杀"
+          }
+        ],
+        "realm_note": [
+          {
+            "episode": "八王之乱-起兵",
+            "source": "kings.json",
+            "value": "近似：临湘一带"
+          },
+          {
+            "episode": "八王之乱-永嘉之乱",
+            "source": "labels.json",
+            "value": "近似：临湘一带"
+          },
+          {
+            "episode": "八王之乱-洛阳易手",
+            "source": "labels.json",
+            "value": "近似：临湘一带"
+          },
+          {
+            "episode": "八王之乱-诸王尽死",
+            "source": "labels.json",
+            "value": "近似：临湘一带"
+          },
+          {
+            "episode": "八王之乱-起兵",
+            "source": "labels.json",
+            "value": "近似：临湘一带"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sima_ying",
+      "names": {
+        "formal": "司马颖",
+        "title": "成都王"
+      },
+      "aliases": [
+        "司马颖",
+        "成都王",
+        "成都王颖"
+      ],
+      "color": "#1565c0",
+      "portrait": "portraits/sima_ying_sq.png",
+      "realm": "成都国",
+      "realm_valid": "289~309",
+      "realm_note": null,
+      "realmSeat": [
+        104.078,
+        30.6504
+      ],
+      "note": "镇邺，304年立皇太弟，306年败死",
+      "appearsIn": [
+        "八王之乱-301",
+        "八王之乱-起兵",
+        "八王之乱-永嘉之乱",
+        "八王之乱-洛阳易手",
+        "八王之乱-诸王尽死"
+      ],
+      "fieldVariants": {
+        "note": [
+          {
+            "episode": "八王之乱-起兵",
+            "source": "kings.json",
+            "value": "镇邺，304年入洛立皇太弟，306年败死"
+          },
+          {
+            "episode": "八王之乱-永嘉之乱",
+            "source": "labels.json",
+            "value": "镇邺，304年入洛立皇太弟，306年败死"
+          },
+          {
+            "episode": "八王之乱-洛阳易手",
+            "source": "labels.json",
+            "value": "镇邺，304年入洛立皇太弟，306年败死"
+          },
+          {
+            "episode": "八王之乱-诸王尽死",
+            "source": "labels.json",
+            "value": "镇邺，304年入洛立皇太弟，306年败死"
+          },
+          {
+            "episode": "八王之乱-起兵",
+            "source": "labels.json",
+            "value": "镇邺，304年入洛立皇太弟，306年败死"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sima_yong",
+      "names": {
+        "formal": "司马颙",
+        "title": "河间王"
+      },
+      "aliases": [
+        "司马颙",
+        "河间王",
+        "河间王颙"
+      ],
+      "color": "#6a1b9a",
+      "portrait": "portraits/sima_yong_sq.png",
+      "realm": "河间国",
+      "realm_valid": "37~317",
+      "realm_note": null,
+      "realmSeat": [
+        116.213,
+        38.1445
+      ],
+      "note": "镇河内，304年起兵，306年被杀",
+      "appearsIn": [
+        "八王之乱-301",
+        "八王之乱-起兵",
+        "八王之乱-永嘉之乱",
+        "八王之乱-洛阳易手",
+        "八王之乱-诸王尽死"
+      ],
+      "fieldVariants": {
+        "note": [
+          {
+            "episode": "八王之乱-起兵",
+            "source": "kings.json",
+            "value": "镇关中，304年遣张方入洛，306年被杀"
+          },
+          {
+            "episode": "八王之乱-永嘉之乱",
+            "source": "labels.json",
+            "value": "镇关中，304年遣张方入洛，306年被杀"
+          },
+          {
+            "episode": "八王之乱-洛阳易手",
+            "source": "labels.json",
+            "value": "镇关中，304年遣张方入洛，306年被杀"
+          },
+          {
+            "episode": "八王之乱-诸王尽死",
+            "source": "labels.json",
+            "value": "镇关中，304年遣张方入洛，306年被杀"
+          },
+          {
+            "episode": "八王之乱-起兵",
+            "source": "labels.json",
+            "value": "镇关中，304年遣张方入洛，306年被杀"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sima_you",
+      "names": {
+        "formal": "司马攸",
+        "title": "齐王"
+      },
+      "aliases": [
+        "司马攸",
+        "齐王",
+        "齐王攸"
+      ],
+      "color": "#00838f",
+      "portrait": "portraits/sima_you_sq.png",
+      "realm": "常山国",
+      "realm_valid": "无301年记录",
+      "realm_note": "近似：真定一带，常山国故地",
+      "realmSeat": [
+        114.57,
+        38.03
+      ],
+      "note": "司马昭之子、晋武帝司马炎之弟，封齐王，官至大司马。太康四年薨。其子司马冏嗣齐王爵 —— 父子先后为齐王，注意区分。",
+      "appearsIn": [
+        "八王之乱-301",
+        "八王之乱-起兵",
+        "八王之乱-永嘉之乱",
+        "八王之乱-洛阳易手",
+        "八王之乱-诸王尽死"
+      ],
+      "fieldVariants": {
+        "note": [
+          {
+            "episode": "八王之乱-起兵",
+            "source": "kings.json",
+            "value": "300年遇害"
+          },
+          {
+            "episode": "八王之乱-永嘉之乱",
+            "source": "labels.json",
+            "value": "300年遇害"
+          },
+          {
+            "episode": "八王之乱-洛阳易手",
+            "source": "labels.json",
+            "value": "300年遇害"
+          },
+          {
+            "episode": "八王之乱-诸王尽死",
+            "source": "labels.json",
+            "value": "300年遇害"
+          },
+          {
+            "episode": "八王之乱-起兵",
+            "source": "labels.json",
+            "value": "300年遇害"
+          }
+        ],
+        "realm_note": [
+          {
+            "episode": "八王之乱-起兵",
+            "source": "kings.json",
+            "value": "近似：真定一带"
+          },
+          {
+            "episode": "八王之乱-永嘉之乱",
+            "source": "labels.json",
+            "value": "近似：真定一带"
+          },
+          {
+            "episode": "八王之乱-洛阳易手",
+            "source": "labels.json",
+            "value": "近似：真定一带"
+          },
+          {
+            "episode": "八王之乱-诸王尽死",
+            "source": "labels.json",
+            "value": "近似：真定一带"
+          },
+          {
+            "episode": "八王之乱-起兵",
+            "source": "labels.json",
+            "value": "近似：真定一带"
+          }
+        ]
+      },
+      "correction": {
+        "originalValues": {
+          "title": "常山王",
+          "note": "司马越之子，300年遇害"
+        },
+        "evidence": [
+          "镇军大将军齐王攸为司空",
+          "以司空齐王攸为大司马、督青州诸军事",
+          "癸丑，大司马齐王攸薨",
+          "以武帝的弟弟司马攸为继嗣"
+        ],
+        "sourceIds": [
+          "jinshu-004"
+        ],
+        "note": "项目原数据与《晋书》原文冲突，按原文订正。见 史料查证.md。"
+      }
+    },
+    {
+      "id": "sima_yue",
+      "names": {
+        "formal": "司马越",
+        "title": "东海王"
+      },
+      "aliases": [
+        "东海王",
+        "东海王越",
+        "司马越"
+      ],
+      "color": "#00695c",
+      "portrait": "portraits/sima_yue_sq.png",
+      "realm": "东海国",
+      "realm_valid": "无301年记录",
+      "realm_note": "近似：郯城一带，疑为东海郡治",
+      "realmSeat": [
+        118.29,
+        34.9
+      ],
+      "note": "304年击败颙颖，311年死，东晋开��",
+      "appearsIn": [
+        "八王之乱-301",
+        "八王之乱-起兵",
+        "八王之乱-永嘉之乱",
+        "八王之乱-洛阳易手",
+        "八王之乱-诸王尽死"
+      ],
+      "fieldVariants": {
+        "note": [
+          {
+            "episode": "八王之乱-起兵",
+            "source": "kings.json",
+            "value": "305年起兵，306年入洛专政，311年死"
+          },
+          {
+            "episode": "八王之乱-永嘉之乱",
+            "source": "labels.json",
+            "value": "305年起兵，306年入洛专政，311年死"
+          },
+          {
+            "episode": "八王之乱-洛阳易手",
+            "source": "labels.json",
+            "value": "305年起兵，306年入洛专政，311年死"
+          },
+          {
+            "episode": "八王之乱-诸王尽死",
+            "source": "labels.json",
+            "value": "305年起兵，306年入洛专政，311年死"
+          },
+          {
+            "episode": "八王之乱-起兵",
+            "source": "labels.json",
+            "value": "305年起兵，306年入洛专政，311年死"
+          }
+        ],
+        "realm_note": [
+          {
+            "episode": "八王之乱-起兵",
+            "source": "kings.json",
+            "value": "近似：郯城一带"
+          },
+          {
+            "episode": "八王之乱-永嘉之乱",
+            "source": "labels.json",
+            "value": "近似：郯城一带"
+          },
+          {
+            "episode": "八王之乱-洛阳易手",
+            "source": "labels.json",
+            "value": "近似：郯城一带"
+          },
+          {
+            "episode": "八王之乱-诸王尽死",
+            "source": "labels.json",
+            "value": "近似：郯城一带"
+          },
+          {
+            "episode": "八王之乱-起兵",
+            "source": "labels.json",
+            "value": "近似：郯城一带"
+          }
+        ]
+      }
+    }
+  ]
+}

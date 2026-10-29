@@ -1,0 +1,292 @@
+episode: s01e32-zhaowang
+armies:
+  赵王伦军:
+    faction: 晋
+    head: 赵王伦
+    size: 三路外出兵已知合计二万四千，非全军数
+    evidence:
+    - quote: 率兵七千自延寿关出
+      para: 晋书-p04593
+    - quote: 率九千人自堮坂关出
+      para: 晋书-p04593
+    - quote: 率八千人自成皋关出
+      para: 晋书-p04593
+    note_faction: 晋廷/伦方
+  齐王冏军:
+    faction: 齐王
+    head: 齐王冏
+    size: 未核
+    evidence:
+    - quote: 平东将军、齐王冏起兵以讨伦，传檄州郡，屯于阳翟。
+      para: 晋书-p00098
+  成都王颖军:
+    faction: 成都王
+    head: 成都王颖
+    size: 未核
+    evidence:
+    - quote: 征北大将军、成都王颖……皆举兵应之，众数十万。
+      para: 晋书-p00098
+  河间王颙军:
+    faction: 河间王
+    head: 河间王颙
+    size: 未核
+    evidence:
+    - quote: 征西大将军、河间王颙……皆举兵应之
+      para: 晋书-p00098
+  常山王乂军:
+    faction: 常山王
+    head: 常山王乂
+    size: 未核
+    evidence:
+    - quote: 常山王乂……皆举兵应之
+      para: 晋书-p00098
+  王舆宫中兵:
+    faction: 晋
+    head: 王舆、淮陵王漼
+    size: 王舆营兵七百余、内应数未核
+    evidence:
+    - quote: 率营兵七百余人自南掖门入，敕宫中兵各守卫诸门，三部司马为应于内。
+      para: 晋书-p04594
+    note_faction: 洛阳宫廷内应/反伦
+events:
+- id: e01
+  army: 赵王伦军
+  kind: 屯驻
+  place: 洛阳
+  from: null
+  via: []
+  date: 301-01
+  territory: null
+  note: 称帝、迁帝属宫廷变化，无郡级易手。
+  evidence:
+  - quote: 赵王伦篡帝位。丙寅，迁帝于金墉城，号曰太上皇
+    para: 晋书-p00098
+  - quote: 惠帝乘云母车，卤簿数百人，自华林西门出居金墉城。
+    para: 晋书-p04588
+- id: e02
+  army: 齐王冏军
+  kind: 出发
+  place: 许昌
+  from: null
+  via: []
+  date: 301-03
+  territory: null
+  note: 齐王起兵许昌，前出屯阳翟；画成许昌出发、到阳翟的箭头。
+  evidence:
+  - quote: 齐王冏起兵以讨伦，传檄州郡，屯于阳翟。
+    para: 晋书-p00098
+  - quote: 冏屯军阳翟
+    para: 晋书-p04599
+- id: e03
+  army: 成都王颖军
+  kind: 出发
+  place: 邺
+  from: null
+  via: []
+  date: 301-03
+  territory: null
+  note: 颖据邺响应，路线未载。
+  evidence:
+  - quote: 征北大将军、成都王颖……皆举兵应之
+    para: 晋书-p00098
+- id: e04
+  army: 河间王颙军
+  kind: 出发
+  place: 长安
+  from: null
+  via: []
+  date: 301-03
+  territory: null
+  note: 颙据关中响应，路线兵数未核。
+  evidence:
+  - quote: 征西大将军、河间王颙……皆举兵应之
+    para: 晋书-p00098
+  skip: 河间王据关中响应，只立旗不画行军（路线兵数未核）
+- id: e05
+  army: 赵王伦军
+  kind: 行军
+  place: 伊阙
+  from: 洛阳
+  via: []
+  date: 301-03
+  territory: null
+  note: 伊阙方向出兵，起营与确日不详。
+  evidence:
+  - quote: 伦遣其将闾和出伊阙
+    para: 晋书-p00098
+  army_detail: 赵王伦军-闾和
+- id: e06
+  army: 赵王伦军
+  kind: 行军
+  place: 堮坂
+  from: 洛阳
+  via: []
+  date: 301-03
+  territory: null
+  note: 坂口、字形待核。
+  evidence:
+  - quote: 张泓、孙辅出堮坂以距冏
+    para: 晋书-p00098
+  - quote: 伦遣其将闾和、张泓、孙辅出堮坂，与冏交战。
+    para: 晋书-p04599
+  army_detail: 赵王伦军-张泓孙辅
+  skip: 堮坂未定位，张泓一路画成去阳翟
+- id: e07
+  army: 赵王伦军
+  kind: 行军
+  place: 黄桥
+  from: 洛阳
+  via: []
+  date: 301-03
+  territory: null
+  note: 黄桥坐标仅淇县候选。
+  evidence:
+  - quote: 孙会、士猗、许超出黄桥以距颍。
+    para: 晋书-p00098
+  army_detail: 赵王伦军-孙会士猗许超
+- id: e08
+  army: 成都王颖军
+  kind: 交战
+  place: 黄桥
+  from: null
+  via: []
+  date: 301-03
+  territory: null
+  note: 阶段与伤亡口径有异，不合并；无郡级易手。
+  evidence:
+  - quote: 赵骧至黄桥，为伦将士猗、许超所败，死者八千余人
+    para: 晋书-p04625
+  - quote: 许超等与成都王颖军战于黄桥，杀伤万余人。
+    para: 晋书-p04593
+  army_detail: 成都王颖军-赵骧石超
+- id: e10
+  army: 齐王冏军
+  kind: 交战
+  place: 阳翟
+  from: 阳翟
+  via: []
+  date: 301-04
+  territory: null
+  note: 破张泓斩孙辅；颍川郡此时未易手。
+  evidence:
+  - quote: 冏将何勖等击张泓于阳翟，大破之，斩孙辅等。
+    para: 晋书-p00098
+  - quote: 冏乃出军攻和等，大破之。
+    para: 晋书-p04599
+  army_detail: 齐王冏军-何勖
+- id: e11
+  army: 王舆宫中兵
+  kind: 交战
+  place: 洛阳
+  from: 洛阳营地
+  via: []
+  date: 301-04
+  territory: null
+  note: （原记地点：南掖门、洛阳宫城）七百余兵从南掖门入宫，伦党被杀；宫变非郡县攻占。
+  evidence:
+  - quote: 王舆与尚书、淮陵王漼勒兵入宫
+    para: 晋书-p00098
+  - quote: 率营兵七百余人自南掖门入，敕宫中兵各守卫诸门，三部司马为应于内。
+    para: 晋书-p04594
+- id: e12
+  army: 齐王冏军
+  kind: 行军
+  place: 洛阳
+  from: 阳翟
+  via: []
+  date: 301-04
+  territory: null
+  note: 惠帝复位后冏入洛屯通章署；颍川归晋列301-06，本条无郡级易手。
+  evidence:
+  - quote: 逐伦归第，即日乘舆反正。
+    para: 晋书-p00098
+  - quote: 冏诛讨贼党既毕，率众入洛，顿军通章署
+    para: 晋书-p04599
+- id: e13
+  army: 齐王冏军
+  kind: 屯驻
+  place: 通章署
+  from: 洛阳
+  via: []
+  date: 301-04
+  territory: null
+  note: 城内屯驻；辅政不构成郡级易手。
+  evidence:
+  - quote: 率众入洛，顿军通章署
+    para: 晋书-p04599
+  - quote: 齐王冏既诛赵王伦，因留辅政
+    para: 晋书-p02513
+  skip: 通章署在洛阳城内未定位，用齐王入洛的营帐表示
+places_new:
+- name: 伊阙
+  lon: 112.47
+  lat: 34.57
+  precision: 约略
+  basis: 今龙门山伊河阙口；故宫博物院等称龙门亦伊阙，区域点
+  evidence:
+  - quote: 伦遣其将闾和出伊阙
+    para: 晋书-p00098
+- name: 堮坂
+  lon: null
+  lat: null
+  precision: 未核
+  basis: 无本地地名条目，具体坂口未定位，不造坐标
+  evidence:
+  - quote: 张泓、孙辅出堮坂以距冏
+    para: 晋书-p00098
+- name: 黄桥
+  lon: 114.2
+  lat: 35.61
+  precision: 候选县域
+  basis: 二手考证称淇县西黄泽，仅县域候选点
+  evidence:
+  - quote: 许超等与成都王颖军战于黄桥，杀伤万余人。
+    para: 晋书-p04593
+- name: 湨水（本地作溴水）
+  lon: 112.8
+  lat: 35.1
+  precision: 候选河段
+  basis: 资料释济源—孟州漭河水系，战场段未核
+  evidence:
+  - quote: 及颖将赵骧、石超战于溴水，会等大败，弃军走。
+    para: 晋书-p00098
+- name: 颍阴
+  lon: null
+  lat: null
+  precision: 未核
+  basis: 仅记距阳翟四十里，不取今安徽颍上坐标
+  evidence:
+  - quote: 而冏军已在颍阴，去阳翟四十里。
+    para: 晋书-p04593
+- name: 颍上（颍水岸段）
+  lon: null
+  lat: null
+  precision: 未核
+  basis: 岸段描述，非今颍上县已证
+  evidence:
+  - quote: 泓乘胜至于颍上，夜临颍而阵。
+    para: 晋书-p04593
+- name: 通章署
+  lon: null
+  lat: null
+  precision: 未核
+  basis: 洛阳城内署址未定位
+  evidence:
+  - quote: 冏诛讨贼党既毕，率众入洛，顿军通章署
+    para: 晋书-p04599
+- name: 南掖门/宣化闼
+  lon: null
+  lat: null
+  precision: 未核
+  basis: 宫门301年点位未核
+  evidence:
+  - quote: 率营兵七百余人自南掖门入，敕宫中兵各守卫诸门，三部司马为应于内。
+    para: 晋书-p04594
+open_questions:
+- 溴/湨/激异文底本何取，古河段何处？
+- 黄桥淇县西黄泽仅二手考证，是否只画河内—邺间示意？
+- 黄桥是否不同阶段？万余杀伤与八千死者口径是否不同？
+- 伦被逐归第后的赐死日期、方式、地点未核，是否只说败亡？
+- 惠帝纪与冏传的伊阙/堮坂路线不同，是否并列不择一说？
+- sources未返回通鉴，逐段核对需补索引。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

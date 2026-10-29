@@ -1,0 +1,338 @@
+# 快节奏版（2026-10-14，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第14集：江陵之战、刘备取荆南、孙刘联姻、周瑜之死、借荆州（209–210）
+# 原大纲第12集的前三章；潼关之战（211）单独做第15集。
+# 本地语料核对：
+# 吴主传"十四年，瑜、仁相守岁余，所杀伤甚众。仁委城走。权以瑜为南郡太守"；
+# 周瑜传"瑜即遣甘宁前据夷陵…瑜亲跨马擽陈，会流矢中右胁，疮甚，便还。后仁闻瑜卧未起，勒兵就陈。瑜乃自兴，案行军营，激扬吏士，仁由是遂退"；
+# 先主传"先主表琦为荆州刺史，又南征四郡，武陵太守金旋、长沙太守韩玄、桂阳太守赵范、零陵太守刘度皆降…琦病死，群下推先主为荆州牧，治公安。权稍畏之，进妹固好"；
+# 法正传"孙权以妹妻先主，妹才捷刚猛，有诸兄之风，侍婢百余人，皆亲执刀侍立，先主每入，衷心常凛凛"；
+# 周瑜传"刘备以枭雄之姿，而有关羽、张飞熊虎之将，必非久屈为人用者…宜徙备置吴，盛为筑宫室，多其美女玩好，以娱其耳目，分此二人，各置一方…恐蛟龙得云雨，终非池中物也。权以曹公在北方，当广揽英雄…故不纳"；
+# 周瑜传"乞与奋威俱进取蜀，得蜀而并张鲁…好与马超结援。瑜还与将军据襄阳以蹙操，北方可图也。权许之。瑜还江陵为行装，而道于巴丘（本地语料作马丘）病卒，时年三十六"；
+# 鲁肃传"后备诣京见权，求都督荆州，惟肃劝权借之，共拒曹公。曹公闻权以土地业备，方作书，落笔于地"。
+# 不用：庞统传注引江表传刘备"天下智谋之士，所见略同"（本地语料未收，未核对）。
+
+id: s01e14-jiejingzhou
+title: 借荆州
+series: 三国 · 第14集
+year: 209
+
+notes:
+  - 主线问题：周瑜拼了一年、中了一箭才打下的南郡，孙权为什么要借给刘备？——曹操还在北方，江东一家扛不住；借出去的，是一道挡在前面的墙。
+  - 反差：曹操在赤壁输了都能大笑，听说孙权把地借给刘备，笔却掉在了地上。
+  - 细节：周瑜中箭后带伤巡营；孙夫人身边一百多个侍女个个带刀，刘备每次进门心里发怵；周瑜劝孙权用宫殿美女把刘备"养"在吴地。
+  - 动机：鲁肃"劝权借之，共拒曹公"——说白了，让刘备替江东守住长江中游这道门。
+  - 演义对照："刘备借荆州，有借无还"、"三气周瑜"、"赔了夫人又折兵"都是小说情节；史书里周瑜是病死在去取蜀的路上。
+
+map:
+  center: [113.0, 30.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-17 史图风
+  river_rank: 4
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word      # 2026-10-19 试验：字幕按词级时间戳定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 赤壁输了都能笑，这个消息却让曹操掉了笔
+  big: [借荆州]
+  hero: 周瑜
+  at: 30
+  summary: |
+    赤壁之后，周瑜和曹仁在江陵对峙一年多，周瑜冲阵中箭，带伤巡营，逼走曹仁；刘备趁机南下，荆南四郡太守全部投降。孙权把妹妹嫁给刘备——侍女百余人，个个带刀。
+    周瑜劝孙权把刘备"养"在吴地，孙权不听；周瑜在去取蜀的路上病逝，年仅三十六。鲁肃劝孙权把南郡借给刘备，曹操听到消息，手里的笔掉在了地上。
+  tags: [借荆州, 周瑜, 鲁肃, 刘备, 孙权]
+  next: 曹操西征，潼关大战马超
+
+sources_local:
+  - {id: sgz-32, work: 三国志, volume: 卷三十二·先主传, url: 'https://zh.wikisource.org/wiki/三國志/卷32'}
+  - {id: sgz-37, work: 三国志, volume: 卷三十七·法正传, url: 'https://zh.wikisource.org/wiki/三國志/卷37'}
+  - {id: sgz-47, work: 三国志, volume: 卷四十七·吴主传, url: 'https://zh.wikisource.org/wiki/三國志/卷47'}
+  - {id: sgz-54, work: 三国志, volume: 卷五十四·周瑜传、鲁肃传, url: 'https://zh.wikisource.org/wiki/三國志/卷54'}
+
+factions: {曹操: '#2f5d3a', 刘备: '#5f8f3a', 孙权: '#b0841f'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    汉室: {slot: stone, main: true, label_at: 洛阳}
+    凉州军: {slot: lavender, label_at: 长安}
+    曹操: {slot: jade, label_at: 许}
+    孙权: {slot: lemon, label_at: 吴}
+    刘备: {slot: pink, label_at: 公安}
+    刘璋: {slot: lime, label_at: 成都}
+
+people:
+  孙夫人: {image: 03_素材/人物立绘/sun_furen.png, title: 孙权之妹, role: 嫁刘备, faction: 孙权}
+  曹仁: {image: 03_素材/人物立绘/cao_ren.png, title: 征南将军, role: 守江陵, faction: 曹操}
+  曹操: {image: 03_素材/人物立绘/cao_cao.png, title: 丞相, role: 赤壁北还, faction: 曹操}
+  周瑜: {image: 03_素材/人物立绘/zhou_yu.png, title: 南郡太守, role: 围攻江陵, faction: 孙权}
+  刘备: {image: 03_素材/人物立绘/liu_bei.png, title: 荆州牧, role: 南征四郡, faction: 刘备}
+  孙权: {image: 03_素材/人物立绘/sun_quan.png, title: 车骑将军, role: 借地拒曹, faction: 孙权}
+  鲁肃: {image: 03_素材/人物立绘/lu_su.png, title: 奋武校尉, role: 力主借地, faction: 孙权}
+
+places:
+  许: {id: xuchang_approx, name: 许, label: right, tier: capital}
+  襄阳: {id: xiangyang, label: right}
+  江陵: {id: jiangling, label: left}
+  夷陵: {id: yiling, label: left}
+  公安: {id: gongan_han, label: below}
+  乌林: {id: wulin, label: right}
+  夏口: {id: xiakou, label: right}
+  巴丘: {id: baqiu_yueyang, label: right}
+  柴桑: {id: chaisang, label: right}
+  京口: {id: jingkou, label: right}
+  武陵: {id: linyuan, name: 武陵, label: left}
+  长沙: {id: changsha_c, label: right}
+  桂阳: {id: chen_guiyang, name: 桂阳, label: right}
+  零陵: {id: quanling, name: 零陵, label: left}
+  成都: {id: chengdu_city, label: right}
+
+camera:
+  focus: [江陵, 公安]
+  zoom: 2.0
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 赤壁输了，曹操还能大笑。可这一回，一个消息传来，他手里的笔，掉在了地上。
+    map: '208-09'
+    year: 210
+    phase: 落笔
+    sources: [sgz-54]
+    camera: {focus: [许, 江陵, 京口], zoom: fit, move: 1.6}
+    show:
+      - sfx: 重拍转场
+      - enter: {who: 曹操, at: 许, side: left, cue: 曹操, for: 4.4}
+      - quote: {text: 方作书，落笔于地, source: 三国志·鲁肃传, era: 建安十五年, cue: 笔, for: 4}
+      - sfx: {name: 碎玻璃, cue: 掉在}
+
+  - say: 让他失态的，是孙权借给刘备的一块地。
+    sources: [sgz-54]
+    show:
+      - versus: {left: 孙权, right: 刘备, label: 借荆州, cue: 借给, for: 3.6}
+
+  # ---------------- 第一章 江陵一年 ----------------
+  - say: 赤壁之后，曹操回了北方，留大将曹仁守江陵。
+    phase: 江陵一年
+    year: 209
+    sources: [sgz-47, sgz-54]
+    camera: {focus: [乌林, 江陵, 襄阳], zoom: fit, move: 1.6}
+    show:
+      - title_bar: {text: 借荆州, sub: 三国 · 第14集, for: 3.2}
+      - sfx: 片头鼓
+      - flag: {at: 江陵, name: 曹仁, sub: 守江陵, faction: 曹操, cue: 曹仁}
+      - enter: {who: 曹仁, side: left, cue: 曹仁, for: 3.4}
+
+  - say: 周瑜追到江陵城下，这一围，就是一年多。
+    sources: [sgz-47]
+    camera: {focus: [江陵, 乌林], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 周瑜, side: right, cue: 周瑜, for: 3}
+      - army: {from: 乌林, to: 江陵, faction: 孙权, banner: 周, troops: infantry, size: 2.4, cue: 追到, grow: 2.0}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 周瑜亲自骑马冲阵，一支流箭，正中右肋。
+    sources: [sgz-54]
+    camera: {focus: 江陵, zoom: 8, move: 1.2}
+    show:
+      - battle: {at: 江陵, text: 流矢中右胁, cue: 流箭}
+      - sfx: {name: 中箭, cue: 流箭}
+
+  - say: 曹仁听说周瑜躺着起不来，马上带兵出城挑战。
+    sources: [sgz-54]
+    show:
+      - battle: {at: 江陵, text: 勒兵就陈, cue: 出城}   # 曹仁在江陵城外列阵逼周瑜营（不是去夷陵）
+
+  - say: 周瑜咬牙爬起来，带伤在军营里来回巡视，给将士们打气。
+    sources: [sgz-54]
+    show:
+      - enter: {who: 周瑜, side: right, cue: 爬起来, for: 3.6}
+      - sfx: {name: 古风擂鼓, cue: 巡视}
+
+  - say: 曹仁一看，只好退兵。
+    sources: [sgz-54]
+
+  # ---------------- 第二章 刘备南下 ----------------
+  - say: 周瑜在江陵拼命的时候，刘备在干什么？
+    phase: 刘备南下
+    sources: [sgz-32]
+    camera: {focus: [江陵, 公安, 长沙], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 刘备, at: 公安, side: left, cue: 刘备, for: 3}
+
+  - say: 他往南走，武陵、长沙、桂阳、零陵，四个郡的太守，一个接一个投降。
+    map: '209-06'
+    owners_cue: 投降
+    sources: [sgz-32]
+    camera: {focus: [武陵, 长沙, 桂阳, 零陵], zoom: fit, move: 1.6}
+    show:
+      - march: {from: 公安, to: 武陵, faction: 刘备, label: 南征, cue: 武陵, grow: 1.0}
+      - march: {from: 公安, to: 长沙, faction: 刘备, cue: 长沙, grow: 1.0}
+      - march: {from: 长沙, to: 桂阳, faction: 刘备, cue: 桂阳, grow: 1.0}
+      - march: {from: 长沙, to: 零陵, faction: 刘备, cue: 零陵, grow: 1.0}
+      - sfx: {name: 疆域易手, cue: 投降}
+
+  - say: 东奔西跑二十多年，刘备头一回有了一大片自己的地盘。
+    sources: [sgz-32]
+    show:
+      - headline: {text: 荆南四郡, sub: 建安十四年, for: 3}
+
+  - say: 江陵这边，曹仁守了一年多，终于弃城北撤。孙权让周瑜做了南郡太守。
+    map: '209-12'
+    owners_cue: 弃城
+    sources: [sgz-47]
+    camera: {focus: [江陵, 襄阳, 公安], zoom: fit, move: 1.4}
+    show:
+      - flee: {from: 江陵, to: 襄阳, faction: 曹操, cue: 北撤}
+      - flag: {at: 江陵, name: 周瑜, sub: 南郡太守, faction: 孙权, cue: 南郡太守}
+
+  - say: 刘表的长子刘琦病死，部下推刘备做荆州牧，驻在公安。
+    sources: [sgz-32]
+    camera: {focus: [公安, 江陵], zoom: 6, move: 1.2}
+    show:
+      - flag: {at: 公安, name: 刘备, sub: 荆州牧, faction: 刘备, cue: 公安, guest: true}
+
+  - say: 一条长江，北岸是周瑜，南岸是刘备，两家挨得太近了。
+    sources: [sgz-54]
+    show:
+      - versus: {left: 周瑜, right: 刘备, label: 隔江相望, cue: 太近, for: 3.6}
+
+  # ---------------- 第三章 京口 ----------------
+  - say: 孙权有点怕了。他想了个办法：把亲妹妹嫁给刘备。
+    phase: 京口
+    sources: [sgz-32]
+    camera: {focus: [公安, 柴桑, 京口], zoom: fit, move: 1.6}
+    show:
+      - enter: {who: 孙权, at: 京口, side: right, cue: 孙权, for: 3}
+      - act: {act: courier, places: [京口, 公安], text: 进妹固好, cue: 嫁给, grow: 1.6, for: 3.4}
+
+  - say: 这位孙夫人性格刚猛，身边一百多个侍女，个个带着刀站岗。
+    sources: [sgz-37]
+    show:
+      - card: {title: 孙夫人, body: 才捷刚猛，有诸兄之风；侍婢百余人，皆亲执刀侍立, cue: 侍女}
+      - enter: {who: 孙夫人, side: right, cue: 孙夫人, for: 4}
+
+  - say: 刘备每次进她的屋，心里都直发怵。
+    sources: [sgz-37]
+
+  - say: 不久，刘备亲自坐船到京口见孙权，想把整个荆州都管起来。
+    sources: [sgz-54, sgz-32]
+    show:
+      - march: {from: 公安, to: 京口, faction: 刘备, label: 诣京见权, cue: 京口, grow: 2.2}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 周瑜听说了，赶紧给孙权上书：
+    scene: 军帐
+    sources: [sgz-54]
+    show:
+      - enter: {who: 周瑜, side: left, cue: 周瑜, for: 2.4}
+
+  - say: 刘备是一代枭雄，手下又有关羽、张飞这样的猛将，绝不会久居人下！
+    speaker: 周瑜
+    style: 急切恳切，语气凌厉，忧心忡忡
+    scene: 军帐
+    to: 孙权
+    sources: [sgz-54]
+
+  - say: 不如把他留在吴地，多给宫殿美女，消磨他的志气；把关羽、张飞分开，各放一方。
+    speaker: 周瑜
+    style: 压低声音，冷静献策，字字分明
+    scene: 军帐
+    to: 孙权
+    sources: [sgz-54]
+    show:
+      - quote: {text: 恐蛟龙得云雨，终非池中物也, source: 三国志·周瑜传, for: 5}
+
+  - say: 孙权没听。北边还有曹操，他要的是多拉拢英雄。刘备平平安安回了公安。
+    sources: [sgz-54]
+    camera: {focus: [京口, 公安], zoom: fit, move: 1.4}
+    show:
+      - march: {from: 京口, to: 公安, faction: 刘备, cue: 回了公安, grow: 2.0}
+
+  # ---------------- 第四章 借荆州 ----------------
+  - say: 周瑜还有更大的计划：先取益州，再联合西凉的马超，回头和孙权两路夹击曹操。
+    phase: 借荆州
+    year: 210
+    sources: [sgz-54]
+    camera: {focus: [江陵, 成都, 襄阳], zoom: fit, move: 1.6}
+    show:
+      - arrow: {from: 江陵, to: 成都, kind: direction, faction: 孙权, cue: 益州, grow: 1.6}
+      - arrow: {from: 江陵, to: 襄阳, kind: direction, faction: 孙权, cue: 夹击, grow: 1.2}
+
+  - say: 孙权答应了。周瑜回江陵准备出兵，走到巴丘，病倒了。
+    sources: [sgz-54]
+    camera: {focus: [江陵, 巴丘, 柴桑], zoom: fit, move: 1.4}
+    show:
+      - march: {from: 京口, to: 巴丘, faction: 孙权, label: 还江陵, cue: 回江陵, grow: 2.0}
+
+  - say: 这一病，再也没起来。周瑜死的时候，只有三十六岁。
+    sources: [sgz-54]
+    camera: {focus: 巴丘, zoom: 6, move: 1.2}
+    show:
+      - exit: {who: 周瑜, at: 巴丘, verb: 卒, portrait: true, cue: 三十六}
+      - sfx: {name: 退场钟}
+
+  - say: 临死前，他推荐了接班人：鲁肃。
+    sources: [sgz-54]
+    show:
+      - enter: {who: 鲁肃, side: right, cue: 鲁肃, for: 3.4}
+
+  - say: 可鲁肃的想法，和周瑜正好相反。
+    sources: [sgz-54]
+
+  - say: 曹操太强，江东一家扛不住。不如把南郡借给刘备，让他替咱们挡在前面。
+    speaker: 鲁肃
+    style: 沉稳持重，推心置腹，深谋远虑
+    scene: 朝堂
+    to: 孙权
+    sources: [sgz-54]
+
+  - say: 孙权听了鲁肃的。南郡，借给了刘备。
+    map: '210-12'
+    owners_cue: 借给
+    sources: [sgz-54]
+    camera: {focus: [江陵, 公安, 襄阳], zoom: fit, move: 1.4}
+    show:
+      - takeover: {at: 江陵, to: 刘备, cue: 借给}
+      - sfx: {name: 疆域易手, cue: 借给}
+      - headline: {text: 借荆州, sub: 建安十五年, cue: 借给, for: 3.2}
+
+  - say: 消息传到北方，曹操正在写信，笔一下掉在了地上。
+    sources: [sgz-54]
+    camera: {focus: [许, 江陵], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 曹操, at: 许, side: left, cue: 曹操, for: 3.6}
+      - sfx: {name: 碎玻璃, cue: 掉在}
+
+  - say: 孙权为什么肯借？曹操还在，江东一家扛不住。借出去的，是一道挡在前面的墙。
+    sources: [sgz-54]
+    camera: {focus: [许, 江陵, 京口], zoom: fit, move: 1.4}
+
+  - say: 刘备东奔西跑二十多年，终于有了一块站得住脚的地方。可借来的东西，总是要还的。
+    sources: [sgz-32]
+    show:
+      - card: {title: 演义 vs 正史, body: 三气周瑜、赔了夫人又折兵都是小说；周瑜病逝于取蜀途中, cue: 借来}
+
+  - say: 你觉得，这块地该不该借？
+    sources: [sgz-54]
+
+  - say: 而北边的曹操，已经把目光转向了西边的关中。
+    sources: [sgz-47]
+    camera: {focus: [许, 江陵], zoom: fit, move: 1.4}
+    show:
+      - title_bar: {text: 下集, sub: 潼关之战, cue: 关中, delay: 0.4, for: 3.0}

@@ -1,0 +1,157 @@
+{
+ "version": 1,
+ "ink": "#2b2118",
+ "note": "OKLCH-generated polity fills. Main polity uses `muted`; others `fill`. Edges and flags derive from the same hue.",
+ "slots": [
+  {
+   "slot": "salmon",
+   "hue": 45,
+   "fill": "#f7a885",
+   "muted": "#ecbba5",
+   "edge": "#954113",
+   "flag": "#993d01",
+   "ink_contrast": 8.16
+  },
+  {
+   "slot": "sky",
+   "hue": 235,
+   "fill": "#82c7f0",
+   "muted": "#a5cee7",
+   "edge": "#006691",
+   "flag": "#006695",
+   "ink_contrast": 8.57
+  },
+  {
+   "slot": "lemon",
+   "hue": 100,
+   "fill": "#edd963",
+   "muted": "#ded390",
+   "edge": "#8b7400",
+   "flag": "#725c00",
+   "ink_contrast": 11.06
+  },
+  {
+   "slot": "rose",
+   "hue": 10,
+   "fill": "#f08698",
+   "muted": "#e29fa8",
+   "edge": "#8d1239",
+   "flag": "#9f2d4a",
+   "ink_contrast": 6.43
+  },
+  {
+   "slot": "lime",
+   "hue": 130,
+   "fill": "#acdd78",
+   "muted": "#bedda1",
+   "edge": "#487900",
+   "flag": "#406d00",
+   "ink_contrast": 10.0
+  },
+  {
+   "slot": "violet",
+   "hue": 315,
+   "fill": "#d0a4e4",
+   "muted": "#d0b5dd",
+   "edge": "#714085",
+   "flag": "#79438f",
+   "ink_contrast": 7.58
+  },
+  {
+   "slot": "teal",
+   "hue": 180,
+   "fill": "#75cebd",
+   "muted": "#9dd1c5",
+   "edge": "#006e5d",
+   "flag": "#007260",
+   "ink_contrast": 8.47
+  },
+  {
+   "slot": "orange",
+   "hue": 65,
+   "fill": "#f7ab5d",
+   "muted": "#ecbd90",
+   "edge": "#964300",
+   "flag": "#944500",
+   "ink_contrast": 8.22
+  },
+  {
+   "slot": "blue",
+   "hue": 250,
+   "fill": "#79ace1",
+   "muted": "#95b5d6",
+   "edge": "#034c85",
+   "flag": "#1660a0",
+   "ink_contrast": 6.62
+  },
+  {
+   "slot": "olive",
+   "hue": 110,
+   "fill": "#b5b76a",
+   "muted": "#bcbf91",
+   "edge": "#585700",
+   "flag": "#636200",
+   "ink_contrast": 7.45
+  },
+  {
+   "slot": "pink",
+   "hue": 345,
+   "fill": "#eaa5cc",
+   "muted": "#e4b9d0",
+   "edge": "#89406c",
+   "flag": "#8c3c6d",
+   "ink_contrast": 8.08
+  },
+  {
+   "slot": "jade",
+   "hue": 155,
+   "fill": "#88d1a2",
+   "muted": "#a8d4b6",
+   "edge": "#00713e",
+   "flag": "#00723b",
+   "ink_contrast": 8.77
+  },
+  {
+   "slot": "tan",
+   "hue": 75,
+   "fill": "#ccab7f",
+   "muted": "#cbb79c",
+   "edge": "#6d4b12",
+   "flag": "#7b5516",
+   "ink_contrast": 7.28
+  },
+  {
+   "slot": "lavender",
+   "hue": 285,
+   "fill": "#c6c6f1",
+   "muted": "#cecee9",
+   "edge": "#646391",
+   "flag": "#595788",
+   "ink_contrast": 9.54
+  },
+  {
+   "slot": "aqua",
+   "hue": 205,
+   "fill": "#89dae3",
+   "muted": "#acdbe0",
+   "edge": "#007883",
+   "flag": "#006d79",
+   "ink_contrast": 9.91
+  },
+  {
+   "slot": "brick",
+   "hue": 30,
+   "fill": "#e48d7e",
+   "muted": "#d9a198",
+   "edge": "#832419",
+   "flag": "#9e3428",
+   "ink_contrast": 6.3
+  }
+ ],
+ "checks": [
+  "ink contrast min 6.30 (want ≥ 7 for small labels)",
+  "first  8 slots: min ΔOKLab 0.048 · deuteranopia 0.020 (sky/violet) · protanopia 0.026 (lemon/lime)",
+  "first 12 slots: min ΔOKLab 0.043 · deuteranopia 0.017 (teal/pink) · protanopia 0.012 (violet/blue)",
+  "first 16 slots: min ΔOKLab 0.043 · deuteranopia 0.017 (teal/pink) · protanopia 0.012 (violet/blue)"
+ ]
+}

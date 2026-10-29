@@ -1,0 +1,236 @@
+# 快节奏版（2026-10-13，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第11集：北征乌桓、白狼山斩蹋顿；三顾茅庐、隆中对（207）
+# 2026-10-11 由原第10集故事稿下半拆出。关键原文均在本地语料核过：
+# 郭嘉"表，坐谈客耳…虽虚国远征，公无忧矣""兵贵神速…不如留辎重，轻兵兼道以出，掩其不意"（郭嘉传）；
+# 田畴"陷坏断绝，垂二百载，而尚有微径可从…蹋顿之首可不战而擒也""署大木表…方今暑夏，道路不通，且俟秋冬，乃复进军。虏候骑见之，诚以为大军去也"（田畴传）；
+# "登白狼山，卒与虏遇…车重在后，被甲者少，左右皆惧。公登高，望虏陈不整…使张辽为先锋，虏众大崩，斩蹋顿…胡、汉降者二十余万口"、
+# "吾方使康斩送尚、熙首，不烦兵矣""彼素畏尚等，吾急之则并力，缓之则自相图，其势然也"（武帝纪）；
+# 徐庶"诸葛孔明者，卧龙也…此人可就见，不可屈致也"、"凡三往，乃见"、刘备"汉室倾颓，奸臣窃命，主上蒙尘…君谓计将安出"、隆中对全文（诸葛亮传）。
+
+id: s01e12-longzhong
+title: 隆中对
+series: 三国 · 第12集
+year: 207
+
+notes:
+  - 主线问题：东奔西跑二十多年、还没有一块根据地的刘备，凭什么后来能三分天下？——这一年，他找到了诸葛亮。
+  - 三顾茅庐的风雪、午睡、张飞要放火都是小说；史书只有"凡三往，乃见"。《魏略》另说诸葛亮先见刘备，用卡片提一句。
+  - 郭嘉遗计定辽东是小说；史书是曹操自己判断公孙康会杀二袁。
+  - 郭嘉卒年岁数本地语料未核到，旁白不说年龄。诸葛亮二十七岁按卒年推算。
+  - 用户未定：隆中对两路北伐箭头默认画出（伏笔）。
+
+map:
+  center: [114.0, 33.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-19 史图风（与 E10–E11 统一）
+  river_rank: 4
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 东奔西跑二十多年，刘备凭什么三分天下？
+  big: [凡三往乃见]
+  hero: 诸葛亮
+  at: 30
+  summary: |
+    四十多岁的刘备寄居新野，东奔西跑了半辈子，还没有一块自己的根据地。徐庶说：卧龙只能亲自去请。刘备三次登门，史书只有一句"凡三往，乃见"。
+    二十七岁的诸葛亮给他画了一张天下的地图：曹操不可争锋，孙权可援不可图，跨有荆益，天下有变则两路北伐——这就是"隆中对"。
+  tags: [隆中对, 诸葛亮, 刘备, 三顾茅庐, 徐庶]
+  next: 曹操南下，长坂坡
+
+sources_local:
+  - {id: sgz-01, work: 三国志, volume: 卷一·武帝纪, url: 'https://zh.wikisource.org/wiki/三國志/卷01'}
+  - {id: sgz-11, work: 三国志, volume: 卷十一·田畴传, url: 'https://zh.wikisource.org/wiki/三國志/卷11'}
+  - {id: sgz-14, work: 三国志, volume: 卷十四·郭嘉传, url: 'https://zh.wikisource.org/wiki/三國志/卷14'}
+  - {id: sgz-35, work: 三国志, volume: 卷三十五·诸葛亮传, url: 'https://zh.wikisource.org/wiki/三國志/卷35'}
+
+factions: {曹操: '#2f5d3a', 乌桓: '#7a5a3a', 袁绍: '#27587e', 刘备: '#5f8f3a', 孙权: '#b0841f', 刘表: '#6b7a2e', 刘璋: '#5f8f3a'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    汉室: {slot: stone, main: true, label_at: 洛阳}
+    凉州军: {slot: lavender, label_at: 长安}
+    曹操: {slot: jade, label_at: 许}
+    孙权: {slot: lemon, label_at: 吴}
+    刘表: {slot: olive, label_at: 襄阳}
+    刘璋: {slot: lime, label_at: 成都}
+
+people:
+  曹操: {image: 03_素材/人物立绘/cao_cao.png, title: 司空, role: 北征乌桓, faction: 曹操}
+  郭嘉: {image: 03_素材/人物立绘/guo_jia.png, title: 军师祭酒, role: 力主远征, faction: 曹操}
+  田畴: {image: 03_素材/人物立绘/tian_chou.png, title: 无终名士, role: 向导, faction: 曹操}
+  张辽: {image: 03_素材/人物立绘/zhang_liao.png, title: 中坚将军, role: 白狼山先锋, faction: 曹操}
+  蹋顿: {image: 03_素材/人物立绘/ta_dun.png, title: 辽西乌桓首领, role: 收留二袁, faction: 乌桓}
+  公孙康: {image: 03_素材/人物立绘/gongsun_kang.png, title: 辽东太守, role: 斩送二袁, faction: 公孙康}
+  刘备: {image: 03_素材/人物立绘/liu_bei.png, title: 左将军, role: 寄居新野, faction: 刘备}
+  徐庶: {image: 03_素材/人物立绘/xu_shu.png, title: 刘备幕僚, role: 荐卧龙, faction: 刘备}
+  诸葛亮: {image: 03_素材/人物立绘/zhuge_liang.png, title: 卧龙, role: 躬耕隆中, faction: 刘备}
+  孙权: {image: 03_素材/人物立绘/sun_quan.png, title: 讨虏将军, role: 据江东, faction: 孙权}
+
+places:
+  许: {id: xuchang_approx, name: 许, label: right, tier: capital}
+  邺: {id: ye_city, label: right}
+  易: {id: yijing, name: 易, label: right}
+  无终: {id: wuzhong, label: left}
+  卢龙塞: {id: lulongsai, label: right}
+  白狼山: {id: bailangshan, label: left}
+  柳城: {id: liucheng, label: right}
+  襄平: {id: xiangping_c, label: right}
+  新野: {id: xinye, label: right}
+  隆中: {id: longzhong, label: left}
+  襄阳: {id: xiangyang, label: right}
+  宛: {id: wanxian, label: left}
+  洛阳: {id: luoyang_han_wei, label: left}
+  长安: {id: changan_han_city, label: below}
+  成都: {id: chengdu_city, label: right}
+  吴: {id: wu_city, label: right}
+
+camera:
+  focus: [邺, 柳城]
+  zoom: 1.6
+
+beats:
+  # ---------------- 第一章 兵贵神速 ----------------
+  - say: 东奔西跑二十多年，他凭什么三分天下？
+    map: '206-03'
+    year: 207
+    phase: 三顾茅庐
+    sources: [sgz-35]
+    show:
+      - headline: {text: 隆中对, sub: 建安十二年 · 三分天下, cue: 三分天下, for: 3.4}
+      - sfx: 重拍转场
+
+  - say: 答案，是一个二十七岁的年轻人，和一张地图。
+    sources: [sgz-35]
+
+  - say: 公元二百零七年，荆州新野。刘备寄居在刘表手下，东奔西跑了半辈子。
+    phase: 三顾茅庐
+    sources: [sgz-35]
+    camera: {focus: [新野, 襄阳, 隆中], zoom: fit, move: 1.8}
+    show:
+      - enter: {who: 刘备, at: 新野, side: right, cue: 刘备, settle: true, settle_sub: 寄居新野}
+
+  - say: 徐庶向他推荐了一个人：
+    scene: 朝堂
+    sources: [sgz-35]
+
+  - say: 诸葛孔明，是一条卧龙。将军愿意见见他吗？
+    speaker: 徐庶
+    style: 诚恳郑重，压低声音推荐
+    scene: 朝堂
+    to: 刘备
+    sources: [sgz-35]
+
+  - say: 刘备说：那你带他来吧。徐庶摇了摇头：
+    scene: 朝堂
+    sources: [sgz-35]
+
+  - say: 这个人，只能您亲自去见，不能把他叫来。
+    speaker: 徐庶
+    style: 恳切而坚定，一字一句
+    scene: 朝堂
+    to: 刘备
+    sources: [sgz-35]
+
+  - say: 于是刘备亲自去了隆中。前后去了三次，才见到他。
+    sources: [sgz-35]
+    camera: {focus: [新野, 隆中], zoom: 10, move: 1.4}
+    show:
+      - march: {from: 新野, to: 隆中, faction: 刘备, label: 凡三往, cue: 三次, grow: 2.0}
+      - act: {act: prop, at: 隆中, item: 草庐, text: 隆中草庐, cue: 隆中, size: 1.4, for: 5}
+
+  - say: 风雪天、睡午觉、张飞要放火，都是小说加的。史书上只有一句：凡三往，乃见。
+    sources: [sgz-35]
+    show:
+      - card: {title: 三顾茅庐, body: 诸葛亮传："凡三往，乃见"；《魏略》另说是诸葛亮先去见刘备, cue: 凡三往}
+
+  - say: 刘备让旁人退下，开门见山：
+    scene: 草庐
+    sources: [sgz-35]
+    show:
+      - enter: {who: 诸葛亮, at: 隆中, side: left, cue: 开门见山, for: 3.4}
+
+  - say: 汉室衰败，奸臣专权。我智谋短浅，落到今天这步田地，可志向还没有完。先生，该怎么办？
+    speaker: 刘备
+    style: 恳切谦卑，又带着不甘，郑重请教
+    scene: 草庐
+    to: 诸葛亮
+    sources: [sgz-35]
+    show:
+      - versus: {left: 诸葛亮, right: 刘备, label: 问计, for: 12}
+
+  # ---------------- 第五章 隆中对 ----------------
+
+  - say: 二十七岁的诸葛亮，给他画了一张天下的地图：
+    scene: 草庐
+    phase: 隆中对
+    sources: [sgz-35]
+    camera: {focus: [许, 吴, 襄阳, 成都], zoom: fit, move: 2.0}
+    show:
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 曹操拥兵百万，挟天子而令诸侯，不能跟他争锋。孙权据有江东三代，只能结为援手。
+    speaker: 诸葛亮
+    style: 从容不迫，娓娓道来，胸有成竹
+    sources: [sgz-35]
+    show:
+      - flag: {at: 许, name: 曹操, sub: 不可争锋, faction: 曹操, cue: 曹操}
+      - flag: {at: 吴, name: 孙权, sub: 可援不可图, faction: 孙权, cue: 孙权}
+
+  - say: 荆州是用武之地，主人守不住；益州沃野千里，刘璋昏弱。这是上天留给将军的！
+    speaker: 诸葛亮
+    style: 目光炯炯，语气渐强，指点江山
+    sources: [sgz-35]
+    show:
+      - spot: {at: 襄阳, text: 荆州, cue: 荆州}
+      - spot: {at: 成都, text: 益州, cue: 益州}
+
+  - say: 拿下荆益，外结孙权，等天下有变，两路北伐，霸业可成，汉室可兴！
+    speaker: 诸葛亮
+    style: 慷慨激昂，掷地有声，一气呵成
+    sources: [sgz-35]
+    show:
+      - arrow: {from: 襄阳, to: 宛, kind: direction, faction: 刘备, grow: 1.2}
+      - arrow: {from: 宛, to: 洛阳, kind: direction, faction: 刘备, grow: 1.0}
+      - arrow: {from: 成都, to: 长安, kind: direction, faction: 刘备, grow: 1.6}
+      - sfx: {name: 时代转折, cue: 霸业可成}
+
+  - say: 刘备说：好！从此，两人的感情一天比一天深。
+    sources: [sgz-35]
+    show:
+      - versus: {left: 诸葛亮, right: 刘备, label: 隆中对, cue: 好, for: 4}
+
+  - say: 东奔西跑了半辈子的刘备，就在这一年，找到了这个人，也找到了一张地图。
+    sources: [sgz-35]
+    show:
+      - headline: {text: 隆中对, sub: 建安十二年 · 三分天下, for: 3.4}
+
+  - say: 隆中对这张图，你觉得哪一步最难？
+    sources: [sgz-01]
+    camera: {focus: [许, 襄阳], zoom: fit, move: 1.4}
+
+  - say: 而北方已定的曹操，下一个目标，正是荆州。
+    sources: [sgz-01]
+    camera: {focus: [许, 襄阳], zoom: fit, move: 1.4}
+    show:
+      - arrow: {from: 许, to: 襄阳, kind: direction, faction: 曹操, cue: 荆州, grow: 1.6}
+      - title_bar: {text: 下集, sub: 曹操南下荆州, cue: 荆州, delay: 0.6, for: 3.0}
+

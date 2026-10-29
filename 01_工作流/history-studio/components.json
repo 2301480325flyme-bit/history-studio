@@ -1,0 +1,286 @@
+{
+ "note": "History Studio 动画组件库。每个组件写在 beats[].show 里：- 组件名: {参数}；都支持 cue（对准台词关键词）、delay、for、until。",
+ "batches": [
+  {
+   "name": "第一批：人物出场 + 事件提示（2026-10-07）",
+   "components": [
+    {
+     "kind": "enter",
+     "title": "人物立绘入场",
+     "use": "首次出场、重新登场。淡入加上浮，背后竖排题签，名字和封号·身份分两行出现，并用一条虚线连到地图上的据点。",
+     "still": 1,
+     "yaml": "- enter: {who: 赵王伦, at: 洛阳, side: left, for: 4}",
+     "params": "who 人物（people 表 / maindata 人物 id / 名字）· at 关联地点 · side left|right · title / role 可覆盖"
+    },
+    {
+     "kind": "person_card",
+     "title": "人物卡滑入",
+     "use": "比立绘轻量，适合地图频繁切换人物时。内容包括头像、姓名、封号·身份、据点和阵营色。默认从右侧滑入。",
+     "still": 2,
+     "yaml": "- person_card: {who: 齐王冏, for: 3.5}",
+     "params": "who · base 据点 · side right|left"
+    },
+    {
+     "kind": "faction_bar",
+     "title": "阵营提示条",
+     "use": "某方发难、响应、掌权。左上角的阵营色短条，可以叠放多条。",
+     "still": 2,
+     "yaml": "- faction_bar: {text: 齐王冏起兵讨伦, faction: 齐王, cue: 起兵}",
+     "params": "text · faction（factions 或 territory.polities 里的名字，决定颜色）"
+    },
+    {
+     "kind": "versus",
+     "title": "双人物对峙卡",
+     "use": "对抗、联盟、废立、内斗。双方立绘从两侧滑入，中间落一枚字印（讨 / 盟 / 废 / 斗）。",
+     "still": 3,
+     "yaml": "- versus: {left: 齐王冏, right: 赵王伦, label: 讨, text: 齐王冏起兵讨伐赵王伦}",
+     "params": "left · right · label 一个字 · text 一行说明"
+    },
+    {
+     "kind": "quote",
+     "title": "史料引文卡",
+     "use": "需要原文点睛时（全片 1–2 次）。米色纸卡，角标写出处，旁白仍然用白话。",
+     "still": 4,
+     "yaml": "- quote: {text: 伦伏诛, source: 晋书·帝纪第四, era: 永宁元年}",
+     "params": "text ≤40 字 · source · era · side right|left"
+    },
+    {
+     "kind": "exit",
+     "title": "退场动画",
+     "use": "被杀、被囚、兵败、逃亡、病死。同名旗牌下沉变灰，据点落下印章（诛 / 卒 / 败 / 囚 / 亡 / 奔 / 废 / 降），可选立绘变灰淡出。",
+     "still": 5,
+     "yaml": "- exit: {who: 赵王伦, at: 洛阳, verb: 诛, portrait: true, cue: 被诛}",
+     "params": "who · at · verb · portrait true 显示变灰立绘"
+    },
+    {
+     "kind": "title_bar",
+     "title": "事件标题条",
+     "use": "关键事件，例如赵王伦篡位、张方入洛。在顶部居中轻微滑入，停留后自动淡出。",
+     "still": 0,
+     "yaml": "- title_bar: {text: 赵王伦篡位, sub: 永宁元年正月, for: 3}",
+     "params": "text · sub"
+    },
+    {
+     "kind": "year",
+     "title": "年号牌（自动）",
+     "use": "拍上写数字年份，左下角会自动显示「永宁元年 / 公元301年」。同一年改元时取年末仍在用的年号，可以用 era 覆盖。",
+     "still": 0,
+     "yaml": "year: 301        # 拍的字段；需要时加 era: 建始元年",
+     "params": "year 数字 · era 可选"
+    }
+   ],
+   "gallery": "gallery/batch1"
+  },
+  {
+   "name": "第二批：地图动作（2026-10-07）",
+   "gallery": "gallery/batch2",
+   "components": [
+    {
+     "kind": "multi_march",
+     "title": "多路进军",
+     "use": "几路兵马同时指向一个目标，例如三路进逼洛阳、诸王起兵。各路依次错开 0.18 秒生长，颜色跟随阵营。",
+     "still": 0,
+     "yaml": "- multi_march: {to: 洛阳, label: 三路进逼, routes: [{from: 河内, faction: 联军}, {from: 酸枣, faction: 联军}, {from: 鲁阳, faction: 孙坚}]}",
+     "params": "to · routes[{from, via, faction}] · label · stagger"
+    },
+    {
+     "kind": "march",
+     "title": "行军箭头（标准化）",
+     "use": "箭头生长，到达后箭头脉冲，终点出现光圈。等同于 arrow，加 faction 自动配色。",
+     "still": 0,
+     "yaml": "- march: {from: 酸枣, via: [成皋], to: 荥阳, faction: 联军, cue: 西进}",
+     "params": "from · via · to · faction · kind(direction/recorded) · grow"
+    },
+    {
+     "kind": "siege",
+     "title": "围城",
+     "use": "围攻某城。城点外侧出现收紧并旋转的虚线环，微微闪烁，挂出\"围 / 攻 / 急\"字牌。",
+     "still": 1,
+     "yaml": "- siege: {at: 荥阳, text: 围, faction: 董卓, cue: 围住}",
+     "params": "at · text 围|攻|急 · faction"
+    },
+    {
+     "kind": "flee",
+     "title": "逃亡 / 败退",
+     "use": "出奔、败走、溃退。蓝色细箭头，尾部断续，标签默认为\"奔\"。",
+     "still": 2,
+     "yaml": "- flee: {from: 荥阳, to: 酸枣, label: 败退, cue: 奔回}",
+     "params": "from · via · to · label · grow（建议 1–1.5 秒）"
+    },
+    {
+     "kind": "capture",
+     "title": "控制权切换（易手）",
+     "use": "城池易手。城点闪光后换成新控制者的颜色，并挂出\"易手\"小牌。需要整片疆域变化时，配合 owners 一起用。",
+     "still": 3,
+     "yaml": "- capture: {at: 洛阳, faction: 孙坚, text: 易手, cue: 进入洛阳, until: end}",
+     "params": "at · faction（新控制者）· text"
+    },
+    {
+     "kind": "alliance",
+     "title": "联盟 / 会盟",
+     "use": "各方从所在地连线汇向会盟地，中央出现\"会盟 / 合兵\"字牌。",
+     "still": 4,
+     "yaml": "- alliance: {from: [河内, 鲁阳, 邺], at: 酸枣, text: 会盟}",
+     "params": "from[地点] · at · text"
+    },
+    {
+     "kind": "replay",
+     "title": "路线回放",
+     "use": "旁白做总结时，快速重走一遍路线：发光轨迹加移动光点，途经的地点逐个点亮。",
+     "still": 5,
+     "yaml": "- replay: {path: [邺, 荡阴, 洛阳], label: 颖自邺南下}",
+     "params": "path[地点…] · label · faction|color"
+    },
+    {
+     "kind": "spot",
+     "title": "地点高亮",
+     "use": "强调一个地点：圆点放大，外圈持续脉冲，地名加大显示。",
+     "still": 6,
+     "yaml": "- spot: {at: 邺, text: 邺城}",
+     "params": "at · text"
+    },
+    {
+     "kind": "breathe",
+     "title": "势力呼吸",
+     "use": "提示\"现在是谁在掌控\"。该势力的疆域缓慢明暗呼吸，其他势力略微变暗。需要 territory。",
+     "still": 6,
+     "yaml": "- breathe: {faction: 联军, cue: 联军}",
+     "params": "faction（territory.polities 里的名字）"
+    }
+   ]
+  },
+  {
+   "name": "第三批：军队与复合叙事动作（2026-10-07）",
+   "gallery": "gallery/batch3",
+   "components": [
+    {
+     "kind": "army",
+     "title": "行军队列",
+     "use": "军队出动、进军、驰援。阵营色大旗写主将的姓，小骑兵或步兵成纵队跟着箭头走，扬起尘土；到达后驻扎。",
+     "still": 0,
+     "yaml": "- army: {from: 长安, to: 洛阳, faction: 董卓, banner: 董, troops: cavalry, size: 3, arrive: 洛阳, follow: true}",
+     "params": "from · via · to · faction · banner · troops cavalry|infantry · size · arrive 到达关键词 · follow 镜头跟随"
+    },
+    {
+     "kind": "campaign",
+     "title": "集结—交战",
+     "use": "两军交战。两路兵马同时出发，说到关键词时正好在战场相撞：震屏、镜头推近、刀光烟尘、双方旗号；战后留战痕。",
+     "still": 1,
+     "yaml": "- campaign: {at: 荥阳, title: 汴水之战, clash: 撞上, sides: [{from: 酸枣, faction: 曹操, banner: 曹}, {from: 洛阳, faction: 董卓, banner: 徐, troops: cavalry}]}",
+     "params": "at · sides[{from, faction, banner, troops, size}] · clash 相撞关键词 · title · loser/rout_cue/retreat 可选"
+    },
+    {
+     "kind": "rout",
+     "title": "溃退",
+     "use": "某方大败。与同一战场的交战联动：败方倒地后撤，残兵拖着歪旗逃回；路线保留到下一拍。",
+     "still": 1,
+     "yaml": "- rout: {at: 荥阳, to: 酸枣, faction: 曹操, banner: 曹, cue: 大败}",
+     "params": "at 战场 · to 退往 · faction 败方 · banner · troops"
+    },
+    {
+     "kind": "takeover",
+     "title": "一城易手",
+     "use": "袭取、攻占、夺城。原旗退场 → 城点变色 → 新颜色从这座城晕染 → 新旗升起 → 镜头回拉。",
+     "still": 2,
+     "yaml": "- takeover: {at: 下邳, from: 刘备, to: 吕布, cue: 袭取, gain: [徐州]}",
+     "params": "at · from · to · cue · gain 有史据的州郡 · sub · context"
+    },
+    {
+     "kind": "defect",
+     "title": "归附 / 倒戈",
+     "use": "投降、让出、叛变、投奔。连线指向新主 → 旗牌翻牌变色 → 落字印 → 有史据的郡改色。",
+     "still": 3,
+     "yaml": "- defect: {who: 韩馥, at: 邺, to: 袁绍, joins: 南皮, cue: 让给, text: 让冀州, verb: 让, gain: [冀州]}",
+     "params": "who · at · to · joins · cue · text · verb 归|降|叛|让|奔 · sub · gain"
+    },
+    {
+     "kind": "yearshift",
+     "title": "年份变化，地图保留记忆",
+     "use": "\"短短几年后\"。镜头不动，年份牌翻页；新格局铺开，旧边界留虚线淡影、旧势力名留空心标签，然后淡出。",
+     "still": 4,
+     "yaml": "- yearshift: {to: 200, cue: 十一年后, ghost: 6}   # 新 owners 写在同一拍",
+     "params": "to · cue · ghost 淡影秒数"
+    },
+    {
+     "kind": "meanwhile",
+     "title": "视线交接",
+     "use": "\"与此同时，另一边……\"。关系线伸向另一地，镜头沿线平移，目的地亮起，旗牌入场。",
+     "still": 5,
+     "yaml": "- meanwhile: {from: 洛阳, to: 南皮, text: 与此同时, faction: 袁绍, flag: {name: 袁绍, sub: 勃海太守, faction: 袁绍}}",
+     "params": "from · to · text · faction · spot · flag"
+    },
+    {
+     "kind": "enter",
+     "title": "立绘收成旗牌",
+     "use": "重要人物登场后马上行动。介绍结束时立绘缩小飞到驻地，变成同名旗牌，随后可从这里出兵。",
+     "still": 6,
+     "yaml": "- enter: {who: 董卓, at: 河东, settle: true, settle_sub: 拥兵河东, for: 4.6}",
+     "params": "enter 原有参数 + settle · settle_sub · settle_until"
+    }
+   ]
+  },
+  {
+   "name": "第四批：行军逻辑、驻军大营与情景（2026-10-19～23，潼关之战、逍遥津）",
+   "gallery": "gallery/batch4",
+   "components": [
+    {
+     "kind": "army",
+     "title": "驻军大营 · 对峙分营",
+     "still": 0,
+     "use": "部队写了 head（将领）或 unit（部队名），到达就自动扎营（帐篷 + 名字），出发即拔营，路线留淡虚线「某某自某地而来」。两军同处一地自动分营，各靠来的方向。check 会报从不在的地方出发、无行军换地、溃散后又出现。",
+     "yaml": "- army: {from: 长安, to: 潼关, faction: 关中诸将, head: 马超, troops: cavalry, cue: 十路}",
+     "params": "head 将领（队首圆头像）· unit 部队名 · camp: false 不扎营 · camp_offset [x,y]"
+    },
+    {
+     "kind": "army",
+     "title": "分兵与合兵",
+     "still": 1,
+     "use": "从大营所在地出发、写另一员将领的 army 就是分兵；到达时写 merge，被合的营当场并入，只留主将的营。并入的将领再出发又是分兵。",
+     "yaml": "- chase: {from: 潼关, to: 蒲阪津, leader: 曹操, pursuer: 马超, merge: [徐晃]}",
+     "params": "merge: [人名…]（army 和 chase 都可以写）"
+    },
+    {
+     "kind": "chase",
+     "title": "追击（头像一追一逃）",
+     "still": 2,
+     "use": "两人的圆头像沿同一条路走，追兵逐渐逼近，贴近时出现光圈和刀光火花；算作 leader 大营的一次移动。镜头可 follow。",
+     "yaml": "- chase: {from: 潼关, to: 蒲阪津, leader: 曹操, pursuer: 马超, faction: 曹操, cue: 杀到, follow: true}",
+     "params": "leader · pursuer · lag 追兵落后比例（默认 0.12）· merge · follow"
+    },
+    {
+     "kind": "act",
+     "title": "放牛马诱敌 herd",
+     "still": 3,
+     "use": "牛和散马从第一地冲向第二地，边跑边散开（第9批素材）。诱敌、惊群。",
+     "yaml": "- act: {act: herd, places: [蒲阪津, 潼关], cue: 牛马, n: 12, text: 放牛马}",
+     "params": "places [从, 往] · n 头数 · size"
+    },
+    {
+     "kind": "act",
+     "title": "架浮桥 pontoon",
+     "still": 4,
+     "use": "小船一节节铺过河面；angle 对准行军路线，offset 把桥挪到城外的河上；同一拍配 army 走过去。",
+     "yaml": "- act: {act: pontoon, at: 渭南, angle: -37, len: 110, offset: [36, -27], cue: 浮桥, text: 浮桥}",
+     "params": "at · angle 桥向° · len 桥长 · offset [x,y] · size"
+    },
+    {
+     "kind": "vignette",
+     "title": "情景插画窗",
+     "still": 5,
+     "use": "名场面又长时间不动时，在地图上开羽化椭圆窗放插画，缓慢推近，窗外地图压暗但继续动。插画放 03_素材/动画素材/第N批/illus_*.png，按第10、11批任务单请 Codex 画。",
+     "yaml": "- vignette: {image: illus_caocao_crossing, cue: 许褚, for: 5, text: 许褚举鞍护主}",
+     "params": "image（不带扩展名）· text · pos center/left/right · zoom 推近倍数"
+    },
+    {
+     "kind": "tactic",
+     "title": "突袭布兵图 raid（张辽八百）",
+     "still": 6,
+     "use": "以少击众：小队从城门列楔形冲入多层营垒，直到主将大旗下；主将登高；被围数重；杀出又杀回救人，包围圈溃退。一拍一个阶段，接着播。",
+     "yaml": "- tactic: {layout: raid, phase: charge, title: 合肥之战 · 示意, attacker: 曹操, defender: 孙权, banner_a: 张, banner_d: 孙, labels: {a: 张辽 · 敢死八百, d: 孙权 · 号称十万, city: 合肥, mound: 高冢}, cue: 冲进敌阵}",
+     "params": "phase deploy / charge / climb / surround / breakout · labels {a, d, city, mound, charge, climb, ring, out, back}"
+    }
+   ]
+  }
+ ],
+ "gallery": "gallery/batch1"
+}

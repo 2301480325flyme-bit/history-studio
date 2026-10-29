@@ -1,0 +1,47 @@
+# 演示：立绘收成旗牌，再从旗牌出兵（enter settle + army）
+id: zz-settle
+title: 组件演示 · 董卓进京
+series: History Studio 复合动作
+year: 189
+
+map:
+  center: [112.0, 34.9]
+  scale: 9000
+  extent: [104.0, 30.0, 122.0, 40.0]
+  basemap: dem
+  river_rank: 4
+  focus_zoom: 2.2
+  watermark: 东汉
+
+voice: {mode: placeholder}
+
+sources_local:
+  - {id: hhs-72, work: 后汉书, volume: 卷七十二·董卓传, url: 'https://zh.wikisource.org/wiki/後漢書/卷72'}
+
+factions: {董卓: black}
+
+people:
+  董卓: {image: 03_素材/人物立绘/dong_zhuo.png, title: 前将军, role: 拥兵河东, faction: 董卓}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: left, tier: capital}
+  河东: {lon: 111.2158, lat: 35.13922, precision: 河东郡治安邑今址近似（今夏县）, source: 'https://www.wikidata.org/wiki/Q612136', label: above}
+
+camera:
+  focus: [河东, 洛阳]
+  zoom: fit
+
+beats:
+  - say: 西凉军阀董卓，手握重兵，正驻扎在河东，等着朝廷的召唤。
+    year: 189
+    sources: [hhs-72]
+    show:
+      - enter: {who: 董卓, at: 河东, side: left, settle: true, for: 4.6, settle_sub: 拥兵河东}
+
+  - say: 何进的密信一到，董卓立刻率领西凉铁骑，直扑洛阳。
+    sources: [hhs-72]
+    show:
+      - army: {from: 河东, to: 洛阳, faction: 董卓, banner: 董, troops: cavalry, size: 3, cue: 立刻, arrive: 洛阳, stop: approach, follow: 1.5}
+
+  - say: 可他万万没想到，等他赶到城下，京城已经乱成了一锅粥。
+    sources: [hhs-72]

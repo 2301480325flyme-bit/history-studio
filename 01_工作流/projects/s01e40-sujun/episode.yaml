@@ -1,0 +1,276 @@
+# 快节奏版（2026-10-25）
+# 《三国到隋》第40集 · 东晋：苏峻之乱（327–329）。大纲第 34 条后半（王敦之乱在第 39 集）。
+# 史料包：projects/s01e39-wangdun/research/史料包.yaml（322–329 两乱合编）。
+# 本地语料核对（晋书）：
+# 苏峻传 p07004"有锐卒万人，器械甚精…抚纳亡命，得罪之家有逃死者，峻辄蔽匿之"；p07005"乞补青州界一荒郡…复不许…峻曰：台下云我欲反，岂得活邪！我宁山头望廷尉，不能廷尉望山头"；"遣参军徐会结祖约…以讨亮为名…峻自率涣、柳众万人，乘风济自横江…遂据蒋陵覆舟山，率众因风放火，台省及诸营寺署一时荡尽。遂陷宫城，纵兵大掠…驱役百官…逼令担负登蒋山"；
+#   p07006"峻望见胤走，曰：孝能破贼，我更不如乎！因舍其众，与数骑北下突阵，不得入，将回趋白木陂，牙门彭世、李千等投之以矛，坠马，斩首"；
+# 成帝纪 p00154"十一月，豫州刺史祖约、历阳太守苏峻等反"；p00155"丁未，峻济自横江，登牛渚。二月庚戌，峻至于蒋山…丙辰，峻攻青溪栅，因风纵火…庾亮又败于宣阳门内，遂携其诸弟…奔寻阳。于是司徒王导…卫帝于太极殿…是时太官唯有烧余米数石，以供御膳"；
+# 庾亮传 p05330"亮携其三弟…南奔温峤…乃与峤推陶侃为盟主。侃至寻阳，既有憾于亮…亮甚惧，及见侃，引咎自责…乃谓亮曰：君侯修石头以拟老子，今日反见求耶！便谈宴终日。亮啖薤，因留白。侃问曰：安用此为？亮云：故可以种。侃于是尤相称叹"；
+# 陶侃传 p04997"五月，与温峤、庾亮等俱会石头"。
+# 不用："戎卒四万，旌旗七百余里"（只见资治通鉴，本地未收；旁白不说具体人数）；成帝即位的确切年龄（本地未检到，旁白只说"年幼"）；苏硕发庾亮父母墓（过于残酷，不进旁白）。
+
+id: s01e40-sujun
+title: 苏峻之乱
+series: 东晋 · 第40集
+year: 327
+
+notes:
+  - 主线问题：苏峻平王敦有功，为什么三年后自己打进了建康？——执政的庾亮不信他，硬要调他进京夺兵权，连换个荒郡都不准，把他逼到"宁山头望廷尉"的绝路；平乱又靠庾亮去求一向怨他的陶侃。
+  - 钩子候选：①"朝廷一纸调令，把平叛的功臣逼成了反贼"（反差3 具体2 悬念3 兑现3=11）②"宁可在山头看法官，也不在牢里看山头"（反差2 具体3 悬念2 兑现3=10）③"宫里只剩几石烧剩的米，给小皇帝做饭"（反差2 具体3 悬念2 兑现3=10）→ 选①。
+  - 反差：功臣变反贼；逃走的是执政的舅舅，守着小皇帝的是王导；陶侃恨庾亮，却被一根薤白说服；苏峻嫌部下抢了功，亲自冲阵送了命。
+  - 细节：锐卒万人、收留亡命；乞补荒郡不准；宁山头望廷尉；乘风渡横江；因风放火；烧剩的米；百官挑担上蒋山；修石头城防我；薤白留根；"我难道不如他"；投矛坠马。
+  - 演义对照卡：结尾卡"史书怎么写"（苏峻传：我宁山头望廷尉，不能廷尉望山头）。
+
+map:
+  center: [117.5, 31.0]
+  scale: 5000
+  extent: [86.0, 12.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas
+  river_rank: 4
+  palette: warm
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 朝廷一纸调令，把平叛的功臣逼成了反贼
+  big: [苏峻之乱, 宁山头望廷尉]
+  hero: 苏峻
+  at: 3
+  summary: |
+    平王敦有功的历阳太守苏峻，手握锐卒万人、收留亡命。晋明帝死后，年幼的晋成帝即位，舅舅庾亮执政，下诏调苏峻进京夺他兵权，苏峻求补一个荒郡也不准，说出"我宁山头望廷尉，不能廷尉望山头"。327 年十一月他联合祖约起兵讨庾亮，次年正月乘风渡横江、登牛渚，二月因风放火攻陷台城，庾亮逃往寻阳，王导守着小皇帝，宫中只剩几石烧剩的米，百官被驱赶着挑担上蒋山。
+    庾亮与温峤推荆州陶侃为盟主；陶侃本恨庾亮，笑他"修石头城防我，今天倒来求我"，见他吃薤白留根说"可以种"，转而称叹。五月联军会于石头。九月苏峻见部将得胜，喊"我更不如乎"，率数骑冲阵，在白木陂被彭世、李千投矛刺下马斩首。329 年二月石头城破，叛乱平定。
+  tags: [东晋, 苏峻之乱, 庾亮, 陶侃, 温峤, 宁山头望廷尉]
+  next: 前赵后赵争霸
+
+sources_local:
+  - {id: js-07, work: 晋书, volume: 卷七·成帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷007'}
+  - {id: js-66, work: 晋书, volume: 卷六十六·陶侃传, url: 'https://zh.wikisource.org/wiki/晉書/卷066'}
+  - {id: js-73, work: 晋书, volume: 卷七十三·庾亮传, url: 'https://zh.wikisource.org/wiki/晉書/卷073'}
+  - {id: js-100, work: 晋书, volume: 卷一百·苏峻传, url: 'https://zh.wikisource.org/wiki/晉書/卷100'}
+
+factions: {晋: '#2f5d3a', 苏峻: '#8a4b2a'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    晋: {slot: jade, main: true, label_at: 建康}
+    汉赵: {slot: pink, label_at: 平阳}
+    成汉: {slot: lime, label_at: 成都}
+
+people:
+  苏峻: {image: 03_素材/人物立绘/su_jun.png, title: 历阳太守, role: 起兵, faction: 苏峻}
+  庾亮: {image: 03_素材/人物立绘/yu_liang.png, title: 中书令, role: 执政逼反, faction: 晋}
+  王导: {image: 03_素材/人物立绘/wang_dao.png, title: 司徒, role: 护卫成帝, faction: 晋}
+  陶侃: {image: 03_素材/人物立绘/tao_kan.png, title: 征西大将军, role: 盟主, faction: 晋}
+  温峤: {image: 03_素材/人物立绘/wen_qiao.png, title: 江州刺史, role: 推陶侃为盟主, faction: 晋}
+  祖约: {image: 03_素材/人物立绘/zu_yue.png, title: 豫州刺史, role: 同反, faction: 苏峻}
+
+places:
+  建康: {id: nanjing_ancient_city, name: 建康, label: right, tier: capital}
+  石头城: {id: shitoucheng, label: left}
+  历阳: {id: liyang_jiang, label: left}
+  牛渚: {id: niuzhu, label: left}
+  寻阳: {id: xunyang_han, name: 寻阳, label: left}
+  武昌: {id: wuchang_e, name: 武昌, label: left}
+  姑孰: {id: gushu, label: left, show: false}
+
+camera:
+  focus: [建康, 历阳, 寻阳]
+  zoom: fit
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 朝廷一纸调令，把平叛的功臣，逼成了反贼。
+    map: '321-09'
+    year: 327
+    phase: 逼反
+    sources: [js-100]
+    camera: {focus: [历阳, 建康], zoom: fit, move: 1.2}
+    show:
+      - sfx: 重拍转场
+      - act: {act: edict, at: 历阳, text: 征为大司农, sub: 夺其兵权, cue: 调令, for: 3.4}
+
+  - say: 三个月后，他打进了建康，一把火烧了皇宫。
+    audit_ok: [易手]
+    sources: [js-100]
+    show:
+      - fire: {at: 建康, cue: 一把火, radius: 1.0, for: 3.4}
+      - sfx: {name: 悬疑, cue: 皇宫}
+
+  - say: 他叫苏峻。
+    sources: [js-100]
+    show:
+      - enter: {who: 苏峻, side: right, cue: 苏峻, for: 3.6}
+      - sfx: {name: 登场, cue: 苏峻}
+
+  # ---------------- 第一章 逼反 ----------------
+  - say: 先说王敦死后。第二年晋明帝也病死了，年幼的晋成帝即位，舅舅庾亮掌了大权。
+    year: 325
+    sources: [js-07, js-73]
+    camera: {focus: 建康, zoom: 6, move: 1.4}
+    show:
+      - title_bar: {text: 苏峻之乱, sub: 东晋 · 第40集, for: 3.2}
+      - sfx: 片头鼓
+      - enter: {who: 庾亮, side: left, cue: 庾亮, for: 3.4}
+
+  - say: 历阳太守苏峻，平王敦时立过大功，手下一万精兵，还收留了不少亡命之徒。
+    sources: [js-100]
+    camera: {focus: [历阳, 建康], zoom: fit, move: 1.2}
+    show:
+      - flag: {at: 历阳, name: 苏峻, sub: 锐卒万人, faction: 苏峻, cue: 历阳, until: beat+4}
+      - quote: {text: 有锐卒万人，器械甚精…抚纳亡命, source: 晋书·苏峻传, cue: 亡命, for: 4}
+
+  - say: 庾亮不放心，下诏调他进京当大司农，兵权交出来。苏峻说，给我一个边远的荒郡就行。朝廷不准。
+    year: 327
+    sources: [js-100]
+    map: '325-04'
+    show:
+      - act: {act: courier, places: [建康, 历阳], text: 征峻入朝, cue: 进京, grow: 1.2, for: 3}
+      - quote: {text: 乞补青州界一荒郡，以展鹰犬之用。复不许, source: 晋书·苏峻传, cue: 不准, for: 4}
+
+  - say: 朝廷派人来劝，苏峻说：
+    sources: [js-100]
+    scene: 军帐
+
+  - say: 朝廷说我要造反，我还能活吗？我宁可在山头上看着廷尉，也不在廷尉的大牢里看山头！
+    speaker: 苏峻
+    style: 又怒又怕，粗声粗气，豁出去的口吻
+    scene: 军帐
+    quote: 台下云我欲反，岂得活邪！我宁山头望廷尉，不能廷尉望山头
+    sources: [js-100]
+
+  # ---------------- 第二章 陷城 ----------------
+  - say: 三二七年十一月，苏峻联合祖逖的弟弟祖约，起兵了，名义是讨伐庾亮。
+    phase: 陷城
+    sources: [js-07, js-100]
+    camera: {focus: [历阳, 建康], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 祖约, side: left, cue: 祖约, for: 3}
+      - sfx: {name: 誓师, cue: 起兵}
+
+  - say: 第二年正月，他趁着大风，从横江渡过长江，在牛渚上了岸，一路打向建康。
+    year: 328
+    sources: [js-07, js-100]
+    tells: [e20, e22]
+    show:
+      - army: {head: 苏峻, from: 历阳, via: [牛渚], to: 建康, faction: 苏峻, banner: 苏, troops: infantry, size: 3.0, cue: 渡过长江, grow: 2.6}
+      - sfx: {name: 一阵风, cue: 大风}
+
+  - say: 朝廷的兵连连败退。二月，苏峻顺着风放火，宫殿、官署，一下子烧了个精光。
+    sources: [js-07, js-100]
+    camera: {focus: 建康, zoom: 8, move: 1.2}
+    tells: [e23]
+    show:
+      - battle: {at: 建康, text: 青溪栅 · 王师大败, cue: 败退}
+      - fire: {at: 建康, cue: 放火, radius: 1.4, flash: true, for: 4}
+      - sfx: {name: 火攻, cue: 放火}
+
+  - say: 执政的庾亮，丢下小皇帝，带着弟弟们逃往寻阳。
+    sources: [js-07]
+    camera: {focus: [建康, 寻阳], zoom: fit, move: 1.4}
+    show:
+      - flee: {from: 建康, to: 寻阳, label: 携诸弟奔寻阳, cue: 逃往寻阳}
+
+  - say: 守在太极殿护着小皇帝的，是老丞相王导。宫里只剩下几石烧剩的米，给皇帝做饭。
+    sources: [js-07]
+    camera: {focus: 建康, zoom: 8, move: 1.2}
+    show:
+      - enter: {who: 王导, side: left, cue: 王导, for: 3.4}
+      - quote: {text: 是时太官唯有烧余米数石，以供御膳, source: 晋书·成帝纪, era: 咸和三年二月, cue: 烧剩的米, for: 4}
+
+  - say: 苏峻纵兵抢掠，把百官当苦力，逼着他们挑担子爬蒋山。
+    sources: [js-100]
+    show:
+      - vignette: {image: illus_jiankang_burning, cue: 抢掠, for: 5, text: 逼令担负登蒋山}
+      - sfx: {name: 溃败哭喊, cue: 抢掠}
+
+  # ---------------- 第三章 盟主 ----------------
+  - say: 逃到寻阳的庾亮，和温峤一起，推荆州的陶侃当盟主。
+    phase: 盟主
+    sources: [js-73]
+    camera: {focus: [寻阳, 武昌, 建康], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 温峤, side: left, cue: 温峤, for: 3}
+      - enter: {who: 陶侃, side: right, cue: 陶侃, for: 3.4}
+
+  - say: 陶侃一向恨庾亮。见了面，庾亮先认错。陶侃笑他：你修石头城防着我，今天倒来求我了？
+    sources: [js-73]
+    show:
+      - quote: {text: 君侯修石头以拟老子，今日反见求耶, source: 晋书·庾亮传, cue: 求我, for: 4}
+
+  - say: 两人一起吃饭，庾亮吃薤白，把根留了下来。陶侃问留它干什么，庾亮说：还能种。陶侃反倒佩服起他来。
+    sources: [js-73]
+    show:
+      - vignette: {image: illus_xiebai, cue: 薤白, for: 7, text: 亮啖薤，因留白}
+
+  - say: 五月，陶侃、温峤的大军顺江东下，在石头城外扎下营垒，和苏峻对峙。
+    sources: [js-66]
+    camera: {focus: [武昌, 寻阳, 石头城], zoom: fit, move: 1.4}
+    tells: [e27]
+    show:
+      - army: {head: 陶侃, from: 武昌, via: [寻阳], to: 石头城, faction: 晋, banner: 陶, troops: infantry, size: 3.4, cue: 顺江东下, grow: 2.6, stop: approach}
+      - sfx: {name: 大军号角, cue: 大军}
+
+  - say: 九月，苏峻看见部下打了胜仗，喊了一句：他能破敌，我难道还不如他？带着几个骑兵就冲进了敌阵。
+    sources: [js-100]
+    camera: {focus: [石头城, 建康], zoom: 9, move: 1.2}
+    show:
+      - quote: {text: 孝能破贼，我更不如乎！因舍其众，与数骑北下突阵, source: 晋书·苏峻传, cue: 冲进了敌阵, for: 4}
+
+  - say: 没冲进去，掉头往白木陂跑，被陶侃的部将用矛刺中，摔下马，当场斩首。
+    sources: [js-100]
+    tells: [e39]
+    show:
+      - battle: {at: 石头城, text: 白木陂 · 投之以矛, cue: 刺中}
+      - exit: {who: 苏峻, at: 石头城, verb: 诛, portrait: true, cue: 斩首}
+      - sfx: {name: 处斩, cue: 斩首}
+
+  - say: 第二年二月，石头城被攻破，这场叛乱终于平定。
+    year: 329
+    map: '328-12'
+    sources: [js-07]
+    tells: [e33]
+    show:
+      - battle: {at: 石头城, text: 克石头, cue: 攻破}
+      - sfx: {name: 凯旋, cue: 平定}
+
+  # ---------------- 收 ----------------
+  - say: 苏峻为什么从功臣变成了反贼？朝廷不信他，又逼得太急，连条退路都不给。
+    sources: [js-100]
+    camera: {focus: [历阳, 建康, 寻阳], zoom: fit, move: 1.6}
+    show:
+      - versus: {left: 庾亮, right: 苏峻, label: 逼, cue: 逼得太急, for: 3.6}
+
+  - say: 一纸调令，烧掉了半个建康。
+    sources: [js-100]
+    show:
+      - headline: {text: 一纸调令, sub: 烧掉半个建康, cue: 烧掉, for: 3.4}
+      - sfx: {name: 史诗冲击, cue: 烧掉}
+
+  - say: 宁山头望廷尉，你觉得苏峻是真怕死，还是早就想反？
+    sources: [js-100]
+    show:
+      - card: {title: 史书怎么写, body: 苏峻传：我宁山头望廷尉，不能廷尉望山头, cue: 早就想反, for: 3.6}
+
+  - say: 东晋两次差点亡国。而北方，两个赵国，正在决一死战。
+    sources: [js-07]
+    show:
+      - title_bar: {text: 下集, sub: 十六国 · 前赵后赵争霸, cue: 决一死战, delay: 0.4, for: 3.0}
+      - sfx: {name: 时代转折, cue: 决一死战}

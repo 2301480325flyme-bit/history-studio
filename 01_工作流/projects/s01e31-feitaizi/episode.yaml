@@ -1,0 +1,320 @@
+# 快节奏版（2026-10-25）
+# 《三国到隋》第31集 · 两晋：贾南风害死太子，赵王伦夺权（299–300）。大纲第 27 条。
+# 本地语料核对（晋书）：
+# 惠贾皇后传 p03104"后诈有身，内稿物为产具，遂取妹夫韩寿子慰祖养之…遂谋废太子，以所养代立"；
+#   p03105 废后："后惊曰：卿何为来！冏曰：有诏收后。后曰：诏当从我出，何诏也？…又问冏曰：起事者谁？冏曰：梁、赵。后曰：系狗当系颈，今反系其尾，何得不然！…伦乃矫诏遣尚书刘弘等持节赍金屑酒赐后死"；
+# 愍怀太子传 p04290 元康九年十二月"诈称上不和，呼太子入朝。既至，后不见，置于别室，遣婢陈舞赐以酒枣，逼饮醉之。使黄门侍郎潘岳作书草…令小婢承福以纸笔及书草使太子书之。文曰：陛下宜自了；不自了，吾当入了之。中宫又宜速自了；不了，吾当手了之…太子醉迷不觉，遂依而写之，其字半不成。既而补成之，后以呈帝…遍示诸公王，莫有言者，惟张华、裴頠证明太子…议至日西不决。后惧事变，乃表免太子为庶人"；
+#   p04292 司马雅、许超说孙秀；秀说伦"太子为人刚猛…"；"三月，矫诏使黄门孙虑斋至许昌以害太子。初，太子恐见鸩，恆自煮食于前。虑以告刘振，振乃徙太子于小坊中，绝不与食…虑乃逼太子以药，太子不肯服，因如厕，虑以药杵椎杀之，太子大呼，声闻于外。时年二十三"；
+# 赵王伦传 p04583 孙秀"今且缓其事，贾后必害太子，然后废后，为太子报仇，亦足以立功，岂徒免祸而已。伦从之。秀乃微泄其谋…伦、秀因劝谧等早害太子，以绝众望"；p04584"伦又矫诏开门夜入，陈兵道南，遣翊军校尉、齐王冏将三部司马百人，排阁而入…遂废贾后为庶人…执张华、裴頠、解结、杜斌等，于殿前杀之"；
+# 惠帝纪 p00097 永康元年三月癸未"贾后矫诏害庶人遹于许昌"；四月辛卯日蚀；"癸巳…矫诏废贾后为庶人，司空张华、尚书仆射裴頠皆遇害"；"甲午，伦矫诏大赦，自为相国、都督中外诸军，如宣文辅魏故事"；"己亥，赵王伦矫诏害贾庶人于金墉城"（癸未→己亥 十六天：辛卯在四月，故癸未在三月下旬，相隔八天，非六十八天）；
+# 张华传 p03368"华曰：式乾之议，臣谏事具存，非不谏也…遂害之于前殿马道南…时年六十九"；裴頠传 p03305"时年三十四"。
+# 不用：太子在金墉城、许昌之间的移送日期（史料包：迁送年月日未核，只说"押到许昌"）；淮南王允八月起兵（不在本集主线）；"南风烈烈吹黄沙"童谣（留作可选彩蛋，本集不用）。
+
+id: s01e31-feitaizi
+title: 贾南风害死太子
+series: 两晋 · 第31集
+year: 299
+
+notes:
+  - 主线问题：贾南风害死太子，本想一劳永逸，为什么十六天后，死的是她自己？——有人故意等她动手：孙秀劝赵王先别救太子，等皇后杀了太子，再替太子报仇。上一集她借别人的刀，这一集她自己成了别人的刀。
+  - 钩子候选：①"她害死了太子。十六天后，轮到了她自己"（反差3 具体3 悬念3 兑现3=12）②"有人故意等她杀了太子"（反差2 具体1 悬念3 兑现3=9）③"一封醉后抄写的信，废了一个太子"（反差2 具体3 悬念2 兑现3=10）→ 选①，②做第二拍。
+  - 反差：想救太子的人，故意拖着不救；皇后说"诏书都是从我这儿出的"，最后却死在一道诏书下；太子怕被毒死自己煮饭，最后死在厕所里。
+  - 细节：酒和枣；一半没写成的字；吵到太阳落山；自己煮饭、被断饭；药杵；"拴狗要拴脖子"；金屑酒；张华"式乾之议，我是劝过的"。
+  - 动机：贾后无子，养妹妹家的孩子想顶替太子；孙秀怕太子回来清算贾党，宁可让太子先死。
+  - 演义对照卡：本集无演义，结尾用"史书怎么写"（孙秀"贾后必害太子，然后废后，为太子报仇"）。
+
+map:
+  center: [113.0, 33.5]
+  scale: 5000
+  extent: [86.0, 12.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas
+  river_rank: 4
+  palette: warm
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 她害死了太子。十六天后，轮到了她自己
+  big: [贾南风, 害死太子]
+  hero: 贾南风
+  at: 3
+  summary: |
+    299 年十二月，皇后贾南风骗太子司马遹进宫，灌醉后让他照着草稿抄了一封"谋反信"，一半的字都没写成。朝堂上只有张华、裴頠说信有问题，太子还是被废，押到许昌。
+    想救太子的人去找赵王司马伦，谋士孙秀却劝赵王先别动：等皇后杀了太子，再废皇后、替太子报仇。300 年三月，太子在许昌被药杵打死，年仅二十三岁。十天后赵王带兵入宫，贾南风叹"拴狗要拴脖子"，又过六天被金屑酒赐死；张华、裴頠同夜遇害，赵王自封相国。
+  tags: [西晋, 贾南风, 愍怀太子, 赵王伦, 孙秀, 八王之乱]
+  next: 赵王伦篡位称帝
+
+sources_local:
+  - {id: js-04, work: 晋书, volume: 卷四·惠帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷004'}
+  - {id: js-31, work: 晋书, volume: 卷三十一·后妃传上, url: 'https://zh.wikisource.org/wiki/晉書/卷031'}
+  - {id: js-35, work: 晋书, volume: 卷三十五·裴頠传, url: 'https://zh.wikisource.org/wiki/晉書/卷035'}
+  - {id: js-36, work: 晋书, volume: 卷三十六·张华传, url: 'https://zh.wikisource.org/wiki/晉書/卷036'}
+  - {id: js-53, work: 晋书, volume: 卷五十三·愍怀太子传, url: 'https://zh.wikisource.org/wiki/晉書/卷053'}
+  - {id: js-59, work: 晋书, volume: 卷五十九·赵王伦传, url: 'https://zh.wikisource.org/wiki/晉書/卷059'}
+
+factions: {晋: '#2f5d3a', 宗室: '#8a5a2b', 贾后: '#9a3b3b'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    晋: {slot: jade, main: true, label_at: 洛阳}
+
+people:
+  贾南风: {image: 03_素材/人物立绘/jia_nanfeng.png, title: 皇后, role: 害死太子, faction: 贾后}
+  司马遹: {image: 03_素材/人物立绘/sima_yu.png, title: 太子, role: 愍怀太子, faction: 晋}
+  司马衷: {image: 03_素材/人物立绘/sima_zhong.png, title: 晋惠帝, role: 傻皇帝, faction: 晋}
+  司马伦: {image: 03_素材/人物立绘/sima_lun.png, title: 赵王, role: 掌禁军, faction: 宗室}
+  司马冏: {image: 03_素材/人物立绘/sima_jiong.png, title: 齐王, role: 入宫废后, faction: 宗室}
+  张华: {image: 03_素材/人物立绘/zhang_hua.png, title: 司空, role: 为太子辩, faction: 晋}
+  裴頠: {image: 03_素材/人物立绘/pei_wei.png, title: 尚书仆射, role: 为太子辩, faction: 晋}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: right, tier: capital}
+  许昌: {id: xuchang_approx, name: 许昌, label: right}
+
+camera:
+  focus: 洛阳
+  zoom: 5
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 她害死了太子。十六天后，轮到了她自己。
+    map: '291-03'
+    year: 300
+    phase: 太子
+    sources: [js-04]
+    camera: {focus: [洛阳, 许昌], zoom: fit, move: 1.2}
+    show:
+      - sfx: 重拍转场
+      - spot: {at: 许昌, text: 太子遇害, cue: 害死了太子}
+      - spot: {at: 洛阳, text: 十六天后, cue: 十六天后}
+
+  - say: 因为有人一直在等，等她先动手。
+    sources: [js-59]
+    show:
+      - sfx: {name: 悬疑, delay: 0.2}
+
+  - say: 她是皇后贾南风。等她的，是赵王司马伦。
+    sources: [js-31, js-59]
+    show:
+      - enter: {who: 贾南风, side: left, cue: 贾南风, for: 3.4}
+      - enter: {who: 司马伦, side: right, cue: 司马伦, for: 3.4}
+      - sfx: {name: 帝王登场, cue: 司马伦}
+
+  # ---------------- 第一章 废太子 ----------------
+  - say: 先说一年前。太子司马遹二十二岁了。贾南风没有儿子，这个太子，越看越碍眼。
+    phase: 废太子
+    year: 299
+    sources: [js-31, js-53]
+    camera: {focus: 洛阳, zoom: 6, move: 1.4}
+    show:
+      - title_bar: {text: 贾南风害死太子, sub: 两晋 · 第31集, for: 3.2}
+      - sfx: 片头鼓
+      - enter: {who: 司马遹, side: right, cue: 司马遹, for: 3.6}
+
+  - say: 她甚至假装怀孕，把妹妹家的孩子抱来养，想有一天顶替太子。
+    sources: [js-31]
+    show:
+      - quote: {text: 后诈有身…取妹夫韩寿子慰祖养之…遂谋废太子，以所养代立, source: 晋书·后妃传, cue: 假装怀孕, for: 4.4}
+
+  - say: 二九九年十二月，她骗太子进宫，说皇帝病了。人一到，却被关进偏房。
+    sources: [js-53]
+    camera: {focus: 洛阳, zoom: 9, move: 1.2}
+    show:
+      - act: {act: prison, at: 洛阳, text: 置于别室, cue: 偏房, for: 3.2}
+      - sfx: {name: 城门关闭, cue: 偏房}
+
+  - say: 宫女端来酒和枣，逼他一杯接一杯地喝。太子，醉了。
+    sources: [js-53]
+    show:
+      - vignette: {image: illus_taizi_drunk, cue: 酒和枣, for: 9, text: 醉书}
+
+  - say: 又递来纸笔和一份草稿，让他照着抄。草稿上写着：皇上和皇后要是不自己了结，我就亲手来了结。
+    sources: [js-53]
+    show:
+      - act: {act: prop, at: 洛阳, item: 书信, text: 书草, cue: 草稿, size: 1.2, for: 3.6}
+      - quote: {text: 陛下宜自了；不自了，吾当入了之, source: 晋书·愍怀太子传, era: 元康九年, cue: 了结, for: 4}
+      - sfx: {name: 不祥鼓, cue: 了结}
+
+  - say: 太子醉得迷迷糊糊，照着写了，一半的字都没写成。贾南风找人补全，送到了皇帝面前。
+    sources: [js-53]
+    show:
+      - quote: {text: 太子醉迷不觉，遂依而写之，其字半不成。既而补成之, source: 晋书·愍怀太子传, cue: 没写成, for: 4}
+
+  - say: 皇帝拿着信对大臣说：太子这样，赐死。满朝没人吭声，只有张华、裴頠站出来：这信有问题。
+    sources: [js-53]
+    show:
+      - act: {act: edict, at: 洛阳, text: 赐死, sub: 遹书如此, cue: 赐死, for: 3}
+      - enter: {who: 张华, side: left, cue: 张华, for: 3.2}
+      - enter: {who: 裴頠, side: right, cue: 裴頠, for: 3.2}
+
+  - say: 吵到太阳落山也没定。贾南风怕夜长梦多，改口先废为庶人。太子被押到许昌，关了起来。
+    sources: [js-53]
+    camera: {focus: [洛阳, 许昌], zoom: fit, move: 1.4}
+    tells: [e01]
+    show:
+      - march: {from: 洛阳, to: 许昌, faction: 贾后, label: 押送庶人, cue: 押到许昌, grow: 1.6}
+      - act: {act: prison, at: 许昌, text: 幽禁, cue: 关了起来, for: 3}
+      - sfx: {name: 城门关闭, cue: 关了起来}
+
+  # ---------------- 第二章 孙秀的算盘 ----------------
+  - say: 太子冤，朝野都不服。有人去找掌握禁军的赵王，想联手废掉皇后，迎回太子。
+    phase: 等
+    year: 300
+    sources: [js-53, js-59]
+    camera: {focus: 洛阳, zoom: 6, move: 1.4}
+    show:
+      - flag: {at: 洛阳, name: 赵王, sub: 掌禁军, faction: 宗室, cue: 赵王, until: beat+6}
+      - sfx: {name: 插旗, cue: 赵王}
+
+  - say: 谋士孙秀一口答应。可他转念一想：太子聪明刚强，回来了，能放过他们这些贾家旧人吗？
+    sources: [js-59]
+    show:
+      - quote: {text: 秀知太子聪明，若还东宫，将与贤人图政，量己必不得志, source: 晋书·赵王伦传, cue: 转念, for: 4.2}
+
+  - say: 他劝赵王：先别动。等皇后杀了太子，咱们再废皇后，替太子报仇，功劳更大。
+    sources: [js-59]
+    show:
+      - quote: {text: 今且缓其事，贾后必害太子，然后废后，为太子报仇, source: 晋书·赵王伦传, cue: 先别动, for: 4.4}
+      - sfx: {name: 悬疑, cue: 先别动}
+
+  - say: 孙秀还故意放出风声：宫里有人要废皇后、迎太子。
+    sources: [js-53, js-59]
+    show:
+      - spot: {at: 洛阳, text: 微泄其谋, cue: 放出风声}
+
+  - say: 贾南风果然慌了。三月，她派宦官孙虑去许昌，杀太子。
+    sources: [js-04, js-53]
+    camera: {focus: [洛阳, 许昌], zoom: fit, move: 1.4}
+    show:
+      - act: {act: courier, places: [洛阳, 许昌], text: 矫诏害太子, cue: 许昌, grow: 1.4, for: 3}
+      - sfx: {name: 不祥鼓, cue: 杀太子}
+
+  - say: 太子怕被毒死，一直自己煮饭吃。看守干脆断了他的饭。
+    sources: [js-53]
+    camera: {focus: 许昌, zoom: 9, move: 1.2}
+    show:
+      - vignette: {image: illus_taizi_cooking, cue: 自己煮饭, for: 5, text: 自煮其食}
+
+  - say: 孙虑逼他吃药，太子不肯，借口去厕所。孙虑抄起捣药的木杵，把他打死了。墙外都听得见他的喊声。
+    sources: [js-53]
+    show:
+      - exit: {who: 司马遹, at: 许昌, verb: 卒, portrait: true, cue: 打死了}
+      - sfx: {name: 退场钟, cue: 打死了}
+
+  - say: 太子死时，二十三岁。
+    sources: [js-53]
+    show:
+      - quote: {text: 太子大呼，声闻于外。时年二十三, source: 晋书·愍怀太子传, era: 永康元年三月, cue: 二十三, for: 3.6}
+
+  # ---------------- 第三章 金屑酒 ----------------
+  - say: 十天后的夜里，赵王假传诏书，带兵开了宫门。齐王司马冏带着一百人，冲进后宫。
+    phase: 拴狗
+    sources: [js-04, js-59]
+    camera: {focus: 洛阳, zoom: 9, move: 1.2}
+    tells: [e05]
+    show:
+      - act: {act: night, places: [洛阳], cue: 夜里, for: 3}
+      - enter: {who: 司马冏, side: right, cue: 齐王, for: 3.4}
+      - battle: {at: 洛阳, text: 排阁而入, cue: 冲进后宫}
+      - sfx: {name: 刀剑交击, cue: 冲进后宫}
+
+  - say: 贾南风大惊：你来干什么？齐王说：有诏书，来抓皇后。她冷笑：
+    sources: [js-31]
+    scene: 宫中
+
+  - say: 诏书都是从我这儿出的，你哪来的诏书！
+    speaker: 贾南风
+    to: 司马冏
+    style: 又惊又怒，强撑皇后的威风，厉声质问
+    scene: 宫中
+    quote: 诏当从我出，何诏也
+    sources: [js-31]
+
+  - say: 她又问：谁带的头？一听是赵王，她叹了一句：
+    sources: [js-31]
+    scene: 宫中
+
+  - say: 拴狗，就该拴住狗脖子，我却拴了尾巴！
+    speaker: 贾南风
+    style: 咬牙切齿，懊悔到极点，狠狠地自嘲
+    scene: 宫中
+    quote: 系狗当系颈，今反系其尾，何得不然
+    sources: [js-31]
+    show:
+      - sfx: {name: 悬疑, delay: 0.2}
+
+  - say: 皇后被废，关进金墉城。六天后，一杯金屑酒送到她面前。离太子被杀，正好十六天。
+    sources: [js-04, js-31]
+    camera: {focus: 洛阳, zoom: 7, move: 1.2}
+    show:
+      - act: {act: prison, at: 洛阳, text: 金墉城, cue: 金墉城, for: 3}
+      - exit: {who: 贾南风, at: 洛阳, verb: 诛, portrait: true, cue: 金屑酒}
+      - headline: {text: 十六天, sub: 癸未害太子 · 己亥赐死贾后, cue: 正好十六天, for: 3.4}
+      - sfx: {name: 落幕锣, cue: 十六天}
+
+  # ---------------- 第四章 收割 ----------------
+  - say: 同一夜，赵王派人拿下张华、裴頠。张华临死说：太子被废那天，我是劝过的！
+    phase: 相国
+    sources: [js-36, js-59]
+    show:
+      - enter: {who: 张华, side: left, cue: 张华, for: 3.4}
+      - quote: {text: 式乾之议，臣谏事具存，非不谏也, source: 晋书·张华传, cue: 劝过的, for: 4}
+
+  - say: 张华六十九岁，裴頠三十四岁，都死在殿前。
+    sources: [js-35, js-36]
+    show:
+      - exit: {who: 张华, at: 洛阳, verb: 诛, portrait: true, cue: 六十九}
+      - exit: {who: 裴頠, at: 洛阳, verb: 诛, portrait: true, cue: 三十四}
+      - sfx: {name: 处斩, cue: 殿前}
+
+  - say: 第二天，赵王自封相国，总管内外军队。史书说，就像当年司马懿辅佐曹魏。
+    sources: [js-04]
+    camera: {focus: [洛阳, 许昌], zoom: fit, move: 1.4}
+    tells: [e07]
+    show:
+      - flag: {at: 洛阳, name: 相国, sub: 赵王司马伦, faction: 宗室, cue: 相国}
+      - quote: {text: 自为相国、都督中外诸军，如宣文辅魏故事, source: 晋书·惠帝纪, era: 永康元年四月, cue: 史书说, for: 4}
+      - sfx: {name: 册封, cue: 相国}
+
+  # ---------------- 收 ----------------
+  - say: 贾南风为什么死得这么快？她以为杀了太子就安全了，可太子一死，她成了全天下的罪人。
+    sources: [js-59]
+    camera: {focus: 洛阳, zoom: 5, move: 1.4}
+    show:
+      - enter: {who: 贾南风, side: right, cue: 罪人, for: 3.4}
+
+  - say: 上一回，她借别人的刀杀人。这一回，她自己成了别人手里的刀。
+    sources: [js-59]
+    show:
+      - headline: {text: 她成了别人的刀, sub: 先借刀，后被借, cue: 别人手里的刀, for: 3.4}
+      - sfx: {name: 史诗冲击, cue: 别人手里的刀}
+
+  - say: 太子的死，该算在贾南风头上，还是孙秀头上？
+    sources: [js-53, js-59]
+    show:
+      - card: {title: 史书怎么写, body: 孙秀说赵王：贾后必害太子，然后废后，为太子报仇, cue: 孙秀, for: 3.6}
+
+  - say: 赵王住进了相府。可孙秀觉得：相国，还不够大。
+    sources: [js-59]
+    show:
+      - enter: {who: 司马伦, side: right, cue: 相府, for: 3.4}
+      - title_bar: {text: 下集, sub: 两晋 · 赵王伦篡位称帝, cue: 不够大, delay: 0.4, for: 3.0}
+      - sfx: {name: 时代转折, cue: 不够大}

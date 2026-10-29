@@ -1,0 +1,380 @@
+# 快节奏版（2026-10-13，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第9集：官渡之战——曹操以少胜多击败袁绍；孙策遇刺，孙权接班（200）
+# 2026-10-11 按故事稿写成旁白。关键原文均在本地语料核过：
+# "简精卒十万，骑万匹"（袁绍传注）；关羽"策马刺良于万众之中，斩其首还"（关羽传）；延津"解鞍放马…骑不满六百…斩丑"（武帝纪）；
+# "时公兵不满万，伤者十二三"（武帝纪，裴松之质疑）；"高橹，起土山…发石车…号曰霹雳车…地道"（袁绍传注）；
+# 荀彧"公以十分居一之众…扼其喉而不得进，已半年矣。情见势竭，必将有变，此用奇之时，不可失也"（荀彧传）；
+# 许攸来奔、"跣出迎之…子远，卿来，吾事济矣…尚可支一岁…可支半岁…何言之不实也…向言戏之耳。其实可一月"（武帝纪注引曹瞒传）；
+# "皆用袁军旗帜，衔枚缚马口，夜从间道出，人抱束薪…大放火"（同上）；张郃、高览"烧攻橹降"（荀攸传）；
+# "与八百骑度河…余众伪降，曹操尽坑之"（后汉书·袁绍传）；孙策"为许贡客所杀""卿不如我…我不如卿…至夜卒，时年二十六"（孙策传、郭嘉传）。
+
+id: s01e09-guandu
+title: 官渡之战
+series: 三国 · 第9集
+year: 200
+
+notes:
+  - 主线问题：兵力差好几倍，曹操凭什么赢？——许攸带来的一个情报，加上曹操敢赌。
+  - 关羽只斩颜良；斩文丑的是曹军（演义说关羽斩文丑）。过五关斩六将不讲。
+  - 兵不满万一说裴松之质疑，旁白说"远少于袁绍"并点明有争议；坑杀人数后汉书说八万，旁白说"好几万"。
+  - 许攸和曹操对话出自裴注引《曹瞒传》，标"据说"。
+  - 用户未定：江东易主默认放本集末尾。
+
+map:
+  center: [114.0, 33.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-16 史图风
+  river_rank: 4
+
+music: {default: 主题, db: -14}
+
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 粮只够吃一个月，曹操凭什么赢官渡
+  big: [只够一个月]
+  hero: 曹操
+  at: 60
+  summary: |
+    袁绍精兵十万南下，曹操兵力远远不及：白马关羽斩颜良，延津弃辎重诱敌斩文丑，可到了官渡，曹军被土山箭雨压得顶着盾牌走路，粮食眼看吃光，曹操想退。
+    荀彧一封信劝住了他；袁绍的谋士许攸连夜来投，一问"还有多少粮"，问出了乌巢。五千人打着袁军旗号夜袭乌巢——一把火，烧掉了袁绍的半壁天下。
+  tags: [官渡之战, 曹操, 袁绍, 许攸, 乌巢]
+  next: 袁家大半个北方，为什么几年就没了
+
+sources_local:
+  - {id: sgz-01, work: 三国志, volume: 卷一·武帝纪（注引曹瞒传）, url: 'https://zh.wikisource.org/wiki/三國志/卷01'}
+  - {id: sgz-06, work: 三国志, volume: 卷六·袁绍传（注）, url: 'https://zh.wikisource.org/wiki/三國志/卷06'}
+  - {id: sgz-10, work: 三国志, volume: 卷十·荀彧传、荀攸传, url: 'https://zh.wikisource.org/wiki/三國志/卷10'}
+  - {id: sgz-14, work: 三国志, volume: 卷十四·郭嘉传, url: 'https://zh.wikisource.org/wiki/三國志/卷14'}
+  - {id: sgz-36, work: 三国志, volume: 卷三十六·关羽传, url: 'https://zh.wikisource.org/wiki/三國志/卷36'}
+  - {id: sgz-46, work: 三国志, volume: 卷四十六·孙策传, url: 'https://zh.wikisource.org/wiki/三國志/卷46'}
+  - {id: hhs-74, work: 后汉书, volume: 卷七十四上·袁绍传, url: 'https://zh.wikisource.org/wiki/後漢書/卷74上'}
+
+factions: {曹操: '#2f5d3a', 袁绍: '#27587e', 刘备: '#5f8f3a', 孙策: '#b0841f', 孙权: '#b0841f'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    汉室: {slot: stone, main: true, label_at: 洛阳}
+    凉州军: {slot: lavender, label_at: 长安}
+    袁绍: {slot: sky, label_at: 邺}
+    曹操: {slot: jade, label_at: 许}
+    孙策: {slot: lemon, label_at: 吴}
+    刘表: {slot: olive, label_at: 襄阳}
+    张绣: {slot: tan, label_at: 宛}
+    刘璋: {slot: lime, label_at: 成都}
+
+people:
+  袁绍: {image: 03_素材/人物立绘/yuan_shao.png, title: 大将军, role: 十万南下, faction: 袁绍}
+  曹操: {image: 03_素材/人物立绘/cao_cao.png, title: 司空, role: 官渡死守, faction: 曹操}
+  关羽: {image: 03_素材/人物立绘/guan_yu.png, title: 偏将军, role: 斩颜良, faction: 曹操}
+  颜良: {image: 03_素材/人物立绘/yan_liang.png, title: 袁绍大将, role: 围白马, faction: 袁绍}
+  文丑: {image: 03_素材/人物立绘/wen_chou.png, title: 袁绍骑将, role: 追延津, faction: 袁绍}
+  荀彧: {image: 03_素材/人物立绘/xun_yu.png, title: 尚书令, role: 留守许都, faction: 曹操}
+  许攸: {image: 03_素材/人物立绘/xu_you.png, title: 袁绍谋士, role: 夜奔曹营, faction: 曹操}   # 投曹后与曹操同在一个对话舞台（2026-10-17）
+  张郃: {image: 03_素材/人物立绘/zhang_he.png, title: 袁绍部将, role: 烧橹降曹, faction: 袁绍}
+  刘备: {image: 03_素材/人物立绘/liu_bei.png, title: 投奔袁绍, role: 随文丑南下, faction: 刘备}
+  孙策: {image: 03_素材/人物立绘/sun_ce.png, title: 讨逆将军, role: 据江东, faction: 孙策}
+  孙权: {image: 03_素材/人物立绘/sun_quan.png, title: 孙策之弟, role: 十九岁接班, faction: 孙权}
+
+places:
+  邺: {id: ye_city, label: right}
+  黎阳: {id: liyang, label: left}
+  白马: {id: baima, label: right}
+  延津: {id: yanjin, label: left}
+  官渡: {id: guandu_site, label: right}
+  乌巢: {id: wuchao, label: right}
+  许: {id: xuchang_approx, name: 许, label: right, tier: capital}
+  吴: {id: wu_city, label: right}
+  丹徒: {id: dantu, label: left}
+  洛阳: {id: luoyang_han_wei, label: left}
+  长安: {id: changan_han_city, label: below}
+  襄阳: {id: xiangyang, label: right}
+  宛: {id: wanxian, label: left}
+  成都: {id: chengdu_city, label: right}
+
+camera:
+  focus: [邺, 黎阳, 许]
+  zoom: 1.8
+
+beats:
+  # ---------------- 第一章 白马与延津 ----------------
+  - say: 你还有多少粮食？
+    map: '200-01'
+    year: 200
+    phase: 一个月的粮
+    speaker: 许攸
+    quote: 袁氏军盛，何以待之？今有几粮乎？
+    style: 精明试探，似笑非笑，咄咄逼人
+    sources: [sgz-01]
+    show:
+      - sfx: 重拍转场
+
+  - say: 其实，只够一个月了。
+    speaker: 曹操
+    quote: 向言戏之耳。其实可一月，为之柰何？
+    style: 无奈苦笑，压低声音，坦白求计
+    sources: [sgz-01]
+
+  - say: 兵不满万，对精兵十万，粮只够吃一个月。可赢下官渡的，是曹操。凭什么？
+    phase: 白马与延津
+    sources: [sgz-06]
+    year: 200
+    camera: {focus: [邺, 黎阳, 许], zoom: fit, move: 2.0}
+    map: '200-01'
+    show:
+      - title_bar: {text: 官渡之战, sub: 三国 · 第9集, for: 3.2}
+      - forces: {left: {name: 曹军, sub: 兵不满万, who: 曹操}, right: {name: 袁军, sub: 精兵十万, who: 袁绍}, loser: right, cue: 精兵十万, for: 5.2}
+      - sfx: {name: 碎玻璃, delay: 4.2}
+      - sfx: 片头鼓
+      - army: {from: 邺, to: 黎阳, faction: 袁绍, banner: 袁, troops: cavalry, size: 3.6, cue: 精兵十万, grow: 2.6}
+      - sfx: {name: 大军号角, cue: 精兵十万}
+
+  - say: 袁绍派颜良围攻白马。曹操声东击西，假装去延津抄后路，袁绍果然分兵。
+    phase: 白马与延津
+    sources: [sgz-01]
+    camera: {focus: [黎阳, 白马, 延津], zoom: fit, move: 1.2}
+    show:
+      - enter: {who: 颜良, side: left, cue: 颜良, for: 2.6}
+      - siege: {at: 白马, text: 围, faction: 袁绍, cue: 白马, for: 3}
+      - arrow: {from: 官渡, to: 延津, kind: direction, faction: 曹操, cue: 假装, grow: 1.4}
+      - march: {from: 黎阳, to: 延津, faction: 袁绍, grow: 1.4}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 曹操掉头直扑白马。关羽望见颜良的车盖，冲进万人之中，斩下首级就回。
+    sources: [sgz-36, sgz-01]
+    show:
+      - army: {from: 延津, to: 白马, faction: 曹操, banner: 曹, troops: cavalry, size: 1.6, cue: 掉头, grow: 1.6}
+      - enter: {who: 关羽, side: right, cue: 关羽, for: 3.4}
+      - act: {act: execute, at: 白马, text: 斩颜良, for: 2.6}
+      - exit: {who: 颜良, at: 白马, verb: 斩, cue: 斩下首级, portrait: true, side: left}
+      - sfx: {name: 刀剑}
+
+  - say: 袁军来追。曹操让骑兵卸鞍放马，辎重扔在路上，文丑的骑兵纷纷去抢，阵型乱了。
+    sources: [sgz-01]
+    camera: {focus: [白马, 延津], zoom: 6, move: 1.2}
+    show:
+      - act: {act: prop, at: 延津, item: 粮车, text: 弃辎重饵敌, cue: 辎重, for: 4}
+      - army: {from: 白马, to: 延津, faction: 袁绍, banner: 文, troops: cavalry, size: 2.4, grow: 1.8}
+
+  - say: 不到六百骑杀出，斩了文丑。两员名将，一战就没了。
+    sources: [sgz-01]
+    show:
+      - battle: {at: 延津, text: 斩文丑, title: 延津之战, cue: 杀出}
+      - exit: {who: 文丑, at: 延津, verb: 斩, cue: 斩了文丑}
+      - card: {title: 演义 vs 正史, body: 关羽只斩颜良；文丑是曹军所斩, cue: 文丑}
+
+  - say: 不久，关羽封还了赏赐，回到了刘备身边。
+    sources: [sgz-01, sgz-36]
+    camera: {focus: [延津, 官渡], zoom: fit, move: 1.2}
+
+  # ---------------- 第二章 官渡相持 ----------------
+
+  - say: 八月，袁绍大营推进到官渡，连营几十里。
+    phase: 官渡相持
+    sources: [sgz-01]
+    camera: {focus: [黎阳, 官渡, 许], zoom: fit, move: 1.4}
+    show:
+      - campaign:
+          at: 官渡
+          title: 官渡之战
+          clash: 连营
+          sides:
+            - {from: 黎阳, faction: 袁绍, banner: 袁, troops: infantry, size: 3.6}
+            - {from: 许, faction: 曹操, banner: 曹, troops: infantry, size: 1.6}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 袁军堆土山、搭高楼往下射箭，曹营里的人走路都得顶着盾牌。
+    sources: [sgz-06, sgz-01]
+    camera: {focus: 官渡, zoom: 6, move: 1.2}
+    show:
+      - act: {act: prop, at: 官渡, item: 望楼, text: 高橹土山, cue: 高楼, for: 3.4}
+      - act: {act: arrows, places: [黎阳, 官渡], for: 3}
+      - sfx: {name: 箭雨}
+
+  - say: 曹操造出发石车，把高楼一座座砸塌，袁军叫它霹雳车。
+    sources: [sgz-06]
+    show:
+      - act: {act: catapult, places: [官渡, 白马], text: 霹雳车, cue: 发石车, for: 4}
+
+  - say: 相持几个月，曹军粮快吃光了。曹操写信给荀彧，说想退兵。
+    sources: [sgz-01, sgz-10]
+    camera: {focus: [官渡, 许], zoom: fit, move: 1.2}
+    show:
+      - act: {act: courier, places: [官渡, 许], text: 欲还许, cue: 写信, grow: 1.4, for: 3}
+
+  - say: 荀彧回信说：
+    sources: [sgz-10]
+    show:
+      - enter: {who: 荀彧, side: left, cue: 荀彧, for: 2.4}
+
+  - say: 您用十分之一的兵力，扼住了袁绍的咽喉。这正是出奇制胜的时候，千万不能错过！
+    speaker: 荀彧
+    style: 从容坚定，字字恳切，鼓舞人心
+    sources: [sgz-10]
+
+  - say: 曹操咬牙撑住了。
+    sources: [sgz-10]
+
+  # ---------------- 第三章 火烧乌巢 ----------------
+
+  - say: 十月，袁绍把一万多车粮草，屯在大营以北四十里的乌巢。
+    phase: 火烧乌巢
+    sources: [sgz-01]
+    camera: {focus: [官渡, 乌巢], zoom: fit, move: 1.4}
+    show:
+      - act: {act: prop, at: 乌巢, item: 粮车, text: 辎重万余乘, cue: 粮草, size: 1.2, for: 4}
+      - flag: {at: 乌巢, name: 淳于琼, sub: 屯乌巢, faction: 袁绍, guest: true}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 就在这时，袁绍的谋士许攸，连夜投奔了曹操。
+    sources: [sgz-01, sgz-10]
+    show:
+      - enter: {who: 许攸, side: left, cue: 许攸, for: 3}
+      - march: {from: 乌巢, to: 官渡, faction: 袁绍, label: 许攸来奔, cue: 投奔, grow: 1.4}
+
+  - say: 据说，曹操光着脚跑出来，拍手大笑：
+    sources: [sgz-01]
+    show:
+      - card: {title: 据说, body: 许攸来奔一段出自裴注引《曹瞒传》, cue: 据说}
+
+  - say: 子远，你来了，我的大事成了！
+    speaker: 曹操
+    scene: 军帐
+    quote: 子远，卿来，吾事济矣！
+    style: 喜出望外，拍手大笑，热情激动
+    sources: [sgz-01]
+
+  - say: 两人一坐下，许攸就问：
+    sources: [sgz-01]
+
+  - say: 袁军这么强，你还有多少粮食？
+    speaker: 许攸
+    quote: 袁氏军盛，何以待之？今有几粮乎？
+    style: 精明试探，似笑非笑，咄咄逼人
+    sources: [sgz-01]
+    show:
+
+  - say: 还能撑一年。
+    speaker: 曹操
+    quote: 尚可支一岁。
+    style: 镇定自若，故作轻松
+    sources: [sgz-01]
+
+  - say: 没这回事，再说！
+    speaker: 许攸
+    quote: 无是，更言之！
+    style: 冷笑拆穿，不耐烦
+    sources: [sgz-01]
+
+  - say: 能撑半年。
+    speaker: 曹操
+    quote: 可支半岁。
+    style: 略一迟疑，仍在硬撑
+    sources: [sgz-01]
+
+  - say: 你难道不想打败袁绍吗？怎么净说假话！
+    speaker: 许攸
+    quote: 足下不欲破袁氏邪，何言之不实也！
+    style: 拍案而起，又急又气，直戳要害
+    sources: [sgz-01]
+
+  - say: 曹操这才说了实话。许攸亮出底牌：粮草全在乌巢，防备松懈，烧了它，袁军自己就垮了。
+    sources: [sgz-01]
+    show:
+      - spot: {at: 乌巢, cue: 乌巢}
+
+  - say: 将领们怀疑有诈。曹操留曹洪守营，亲自带五千步骑出发。
+    sources: [sgz-10, sgz-01]
+
+  - say: 全打着袁军旗号，人衔木片，马绑嘴巴，每人抱一捆柴草，趁夜从小路直奔乌巢。
+    sources: [sgz-01]
+    camera: {focus: [官渡, 乌巢], zoom: 8, move: 1.4}
+    show:
+      - act: {act: night, places: [乌巢], for: 10}
+      - army: {from: 官渡, to: 乌巢, faction: 曹操, banner: 袁, troops: cavalry, size: 1.4, cue: 小路, grow: 3.0}
+
+  - say: 围住营寨，放起大火！袁军大乱，淳于琼被斩。
+    sources: [sgz-01]
+    show:
+      - fire: {at: 乌巢, cue: 放起大火, radius: 1.3, for: 8}
+      - sfx: {name: 火攻, cue: 放起大火}
+      - exit: {who: 淳于琼, at: 乌巢, verb: 斩, cue: 淳于琼}
+
+  - say: 袁绍不救乌巢，反去攻曹营。张郃、高览攻不下，干脆投降了曹操。
+    sources: [sgz-01, hhs-74]
+    camera: {focus: [官渡, 乌巢, 黎阳], zoom: fit, move: 1.2}
+    show:
+      - enter: {who: 张郃, side: left, cue: 张郃, for: 2.6}
+      - defect: {who: 张郃, at: 官渡, to: 曹操, from: 袁绍, verb: 降, cue: 投降了曹操}
+
+  - say: 袁军全线崩溃。袁绍只带着八百骑兵，逃过了黄河。
+    sources: [hhs-74]
+    show:
+      - rout: {at: 官渡, to: 黎阳, faction: 袁绍, banner: 袁, cue: 全线崩溃, size: 2.4}
+      - headline: {text: 官渡之战, sub: 建安五年 · 以少胜多, cue: 八百骑兵, for: 3.4}
+      - sfx: {name: 溃败哭喊}
+
+  - say: 曹操凭什么赢？荀彧一封信，许攸一个情报，加上他敢赌：五千人，一把火。
+    sources: [sgz-01, sgz-10]
+    camera: {focus: [邺, 官渡, 许], zoom: fit, move: 1.4}
+    show:
+      - versus: {left: 袁绍, right: 曹操, label: 官渡, cue: 凭什么赢, for: 5}
+
+  # ---------------- 第四章 江东易主 ----------------
+
+  - say: 同一年，江东的孙策外出打猎，被刺客刺成重伤。
+    phase: 江东易主
+    sources: [sgz-46, sgz-14]
+    camera: {focus: [吴, 丹徒], zoom: fit, move: 1.6}
+    show:
+      - enter: {who: 孙策, side: right, cue: 孙策, for: 3}
+      - act: {act: arrows, places: [丹徒], cue: 刺成重伤, for: 2.4}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 临死前，他把印绶交给弟弟孙权：
+    sources: [sgz-46]
+    show:
+      - act: {act: prop, at: 吴, item: 印绶, text: 授印, cue: 印绶, for: 3}
+
+  - say: 两军阵前争天下，你不如我；举贤任能、保住江东，我不如你。
+    speaker: 孙策
+    voice_text: （虚弱而恳切）两军阵前争天下，你不如我；举贤任能、保住江东，我不如你。
+    style: 虚弱恳切，强撑着一字一句交代后事
+    sources: [sgz-46]
+    show:
+      - versus: {left: 孙策, right: 孙权, label: 托付, for: 10}
+
+  - say: 孙策去世，年仅二十六岁。接班的孙权，只有十九岁。
+    sources: [sgz-46]
+    map: '200-04'
+    show:
+      - exit: {who: 孙策, at: 吴, verb: 卒, cue: 去世, portrait: true}
+      - enter: {who: 孙权, at: 吴, side: right, cue: 孙权, settle: true, settle_sub: 十九岁接班}
+
+  - say: 官渡这一仗，你觉得谁的功劳最大？
+    sources: [hhs-74]
+    camera: {focus: [邺, 黎阳], zoom: fit, move: 1.4}
+
+  - say: 而逃回河北的袁绍，手里还有三个儿子，和大半个北方。
+    sources: [hhs-74]
+    camera: {focus: [邺, 黎阳], zoom: fit, move: 1.4}
+    show:
+      - title_bar: {text: 下集, sub: 平定河北 · 隆中对, delay: 0.4, for: 3.0}
+

@@ -1,0 +1,406 @@
+{
+ "mode": "mimo",
+ "beats": [
+  {
+   "file_start": 0.3,
+   "file_end": 6.33,
+   "voice_onset": 0.42,
+   "voice_offset": 6.08
+  },
+  {
+   "file_start": 6.33,
+   "file_end": 9.818,
+   "voice_onset": 6.64,
+   "voice_offset": 9.76
+  },
+  {
+   "file_start": 10.118,
+   "file_end": 16.048,
+   "voice_onset": 10.218,
+   "voice_offset": 15.798
+  },
+  {
+   "file_start": 16.048,
+   "file_end": 19.548,
+   "voice_onset": 16.348,
+   "voice_offset": 19.288
+  },
+  {
+   "file_start": 19.548,
+   "file_end": 24.389,
+   "voice_onset": 19.838,
+   "voice_offset": 24.148
+  },
+  {
+   "file_start": 24.389,
+   "file_end": 28.911,
+   "voice_onset": 24.689,
+   "voice_offset": 28.909
+  },
+  {
+   "file_start": 29.211,
+   "file_end": 35.098,
+   "voice_onset": 29.231,
+   "voice_offset": 34.841
+  },
+  {
+   "file_start": 35.098,
+   "file_end": 41.425,
+   "voice_onset": 35.398,
+   "voice_offset": 41.078
+  },
+  {
+   "file_start": 41.425,
+   "file_end": 46.817,
+   "voice_onset": 41.515,
+   "voice_offset": 46.465
+  },
+  {
+   "file_start": 46.817,
+   "file_end": 51.074,
+   "voice_onset": 46.907,
+   "voice_offset": 50.837
+  },
+  {
+   "file_start": 51.074,
+   "file_end": 55.97,
+   "voice_onset": 51.374,
+   "voice_offset": 55.964
+  },
+  {
+   "file_start": 56.27,
+   "file_end": 59.797,
+   "voice_onset": 56.36,
+   "voice_offset": 59.55
+  },
+  {
+   "file_start": 59.797,
+   "file_end": 64.613,
+   "voice_onset": 60.097,
+   "voice_offset": 64.507
+  },
+  {
+   "file_start": 64.913,
+   "file_end": 68.411,
+   "voice_onset": 65.123,
+   "voice_offset": 68.003
+  },
+  {
+   "file_start": 68.711,
+   "file_end": 72.518,
+   "voice_onset": 68.861,
+   "voice_offset": 72.261
+  },
+  {
+   "file_start": 72.518,
+   "file_end": 76.838,
+   "voice_onset": 72.828,
+   "voice_offset": 76.618
+  },
+  {
+   "file_start": 76.838,
+   "file_end": 83.786,
+   "voice_onset": 77.158,
+   "voice_offset": 83.568
+  },
+  {
+   "file_start": 83.786,
+   "file_end": 86.966,
+   "voice_onset": 84.116,
+   "voice_offset": 86.956
+  },
+  {
+   "file_start": 87.266,
+   "file_end": 93.666,
+   "voice_onset": 87.346,
+   "voice_offset": 93.386
+  },
+  {
+   "file_start": 93.666,
+   "file_end": 99.264,
+   "voice_onset": 93.746,
+   "voice_offset": 99.006
+  },
+  {
+   "file_start": 99.264,
+   "file_end": 107.417,
+   "voice_onset": 99.554,
+   "voice_offset": 107.164
+  },
+  {
+   "file_start": 107.417,
+   "file_end": 110.019,
+   "voice_onset": 107.717,
+   "voice_offset": 109.747
+  },
+  {
+   "file_start": 110.019,
+   "file_end": 117.355,
+   "voice_onset": 110.159,
+   "voice_offset": 117.099
+  },
+  {
+   "file_start": 117.355,
+   "file_end": 123.979,
+   "voice_onset": 117.655,
+   "voice_offset": 123.705
+  },
+  {
+   "file_start": 123.979,
+   "file_end": 127.984,
+   "voice_onset": 124.269,
+   "voice_offset": 127.729
+  },
+  {
+   "file_start": 127.984,
+   "file_end": 132.349,
+   "voice_onset": 128.284,
+   "voice_offset": 132.084
+  },
+  {
+   "file_start": 132.349,
+   "file_end": 138.903,
+   "voice_onset": 132.639,
+   "voice_offset": 138.899
+  }
+ ],
+ "narration": "D:\\history\\codx_3 history studio\\01_工作流\\projects\\s01e27-yinping\\voice\\narration.wav",
+ "asr": [
+  {
+   "beat": 1,
+   "chapter": 1,
+   "text": "七百多里没有人烟的山路。一员魏国老将，用毛毡裹住自己，从悬崖上滚了下去。他叫邓艾。这一滚，滚出了蜀汉的灭亡。",
+   "heard": "七百多里没有人烟的山路，一员魏国老将用毛毡裹住自己，从悬崖上滚了下去。他叫邓艾，这一滚，滚出了蜀汉的灭亡。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 3,
+   "chapter": 2,
+   "text": "二六三年，司马昭三路伐蜀。钟会带十几万主力，翻过秦岭，直扑汉中。邓艾在西边，去拖住屯田踏中的姜维。姜维甩开追兵，退守剑阁。钟会十几万人，就是攻不下来。邓艾上书：从阴平走小路，绕过剑阁，直插涪城。",
+   "heard": "二六三年，司马昭三路伐蜀，钟会带十几万主力翻过秦岭，直扑汉中。邓艾在西边去拖住屯田沓中的姜维，姜维甩开追兵，退守剑阁。钟会十几万人就是攻不下来。邓艾上书，从阴平走小路，绕过剑阁，直插涪城。",
+   "ratio": 0.988,
+   "diff": [
+    "「踏」→「沓」"
+   ]
+  },
+  {
+   "beat": 7,
+   "chapter": 3,
+   "text": "剑阁的兵要是回救，钟会就能长驱直入；要是不回，涪城就空了。十月，邓艾从阴平出发，走了七百多里没有人的地方，开山凿路，架起栈道。山高谷深，粮食也快吃完了。到了绝壁，邓艾就裹着毛毡滚下去。将士们攀着树木、贴着悬崖，一个接一个往前挪。魏军突然出现在江由。守将马邈，连仗都没打就投降了。",
+   "heard": "险阁的兵要是回救，钟会就能长驱直入；要是不回，涪城就空了。十月，邓艾从阴平出发，走了七百多里没有人的地方，开山凿路，架起栈道。山高谷深，粮食也快吃完了。到了绝壁，邓艾就裹着毛毡滚下去，将士们攀着树木，贴着悬崖，一个接一个往前挪。魏军突然出现在江油，守将马邈连仗都没打就投降了。",
+   "ratio": 0.983,
+   "diff": [
+    "「剑」→「险」",
+    "「由」→「油」"
+   ]
+  },
+  {
+   "beat": 12,
+   "chapter": 4,
+   "text": "诸葛亮的儿子诸葛瞻，带兵在绵竹列阵迎战。邓艾的儿子邓忠第一阵没打赢，退回来说：打不了。邓艾大怒：",
+   "heard": "诸葛亮的儿子诸葛瞻带兵在绵竹列阵迎战，邓艾的儿子邓忠第一阵没打赢，退回来说打不了，邓艾大怒。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 14,
+   "speaker": "邓艾",
+   "text": "存亡就看这一仗，有什么打不了的！",
+   "heard": "存亡就看这一仗，有什么打不了的？",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 15,
+   "chapter": 6,
+   "text": "邓忠回头再战，大破蜀军。诸葛瞻战死。邓艾进到雒县。刘善派人捧着皇帝的玉玺，请求投降。刘善带着太子、诸王和群臣六十多人，反绑双手，抬着棺材，到魏军营门投降。从刘备称帝算起，蜀汉一共四十三年。",
+   "heard": "邓忠回头再战，大破蜀军，诸葛瞻战死。邓艾进到雒县，刘禅派人捧着皇帝的玉玺请求投降。刘禅带着太子、诸王和群臣六十多人，反绑双手，抬着棺材到魏军营门投降。从刘备称帝算起，蜀汉一共四十三年。",
+   "ratio": 0.975,
+   "diff": [
+    "「善」→「禅」",
+    "「善」→「禅」"
+   ]
+  },
+  {
+   "beat": 19,
+   "chapter": 7,
+   "text": "剑阁的姜维接到刘善的命令，只好放下武器，去向钟会投降。将士们气得拔刀砍石头。可事情还没完。第二年正月，邓艾被诬谋反，装进囚车押往京城。钟会想在蜀地自立，真的反了，姜维也跟着他起事。没几天，魏军哗变，钟会、姜维都死在乱兵之中。邓艾，也在押解的路上被杀了。刘善被封为安乐公，送到了洛阳。据说司马昭问他：想念蜀地吗？他说：这里很快乐，不想。十几万人攻不下的剑阁，蜀汉怎么还是亡了？邓艾走了一条没人敢走的路，绕到了背后。绵竹一败，成都里的人，已经没有守下去的心了。刘善开城投降，你觉得是懦弱，还是保全了一城百姓？灭了蜀，司马昭离皇位只差一步。这一步，他没走完，他的儿子替他走完了。",
+   "heard": "剑阁的姜维接到刘禅的命令，只好放下武器去向钟会投降。将士们气得拔刀砍石头。可事情还没完，第二年正月，邓艾被诬谋反，装进囚车押往京城。钟会想在蜀地自立，真的反了，姜维也跟着他起事。没几天，魏军哗变，钟会、姜维都死在乱兵之中。邓艾也在押解的路上被杀了。刘禅被封为安乐公，送到了洛阳。据说司马昭问他想念蜀地吗？他说这里很快乐，不想。十几万人攻不下的剑阁，蜀汉怎么还是亡了？邓艾走了一条没人敢走的路，绕到了背后。绵竹一败，成都里的人已经没有守下去的心了。刘禅开城投降，你觉得是懦弱，还是保全了一城百姓？灭了蜀，司马昭离皇位只差一步，这一步他没走完，他的儿子替他走完了。",
+   "ratio": 0.988,
+   "diff": [
+    "「善」→「禅」",
+    "「善」→「禅」",
+    "「善」→「禅」"
+   ]
+  }
+ ],
+ "speaker_pace": [
+  {
+   "beat": 14,
+   "speaker": "邓艾",
+   "rate_before": 4.34,
+   "speed": 1.15,
+   "rate": 5.0
+  }
+ ],
+ "tempo": [
+  {
+   "chapter": 1,
+   "raw_rate": 4.65,
+   "factor": 1.111
+  },
+  {
+   "chapter": 2,
+   "raw_rate": 4.26,
+   "factor": 1.111
+  },
+  {
+   "chapter": 3,
+   "raw_rate": 4.41,
+   "factor": 1.111
+  },
+  {
+   "chapter": 4,
+   "raw_rate": 4.72,
+   "factor": 1.111
+  },
+  {
+   "chapter": 6,
+   "raw_rate": 4.34,
+   "factor": 1.111
+  },
+  {
+   "chapter": 7,
+   "raw_rate": 4.62,
+   "factor": 1.111
+  }
+ ],
+ "chapter_match": {
+  "eq_max_db": [
+   5.0,
+   3.3,
+   3.4,
+   4.4,
+   5.0,
+   2.5
+  ],
+  "level_before_db": [
+   -23.7,
+   -27.4,
+   -26.3,
+   -20.9,
+   -26.8,
+   -25.3
+  ],
+  "level_after_db": -25.1
+ },
+ "splits": [
+  {
+   "beat": 1,
+   "ratio": 1.0
+  },
+  {
+   "beat": 2,
+   "ratio": 1.0
+  },
+  {
+   "beat": 3,
+   "ratio": 1.0
+  },
+  {
+   "beat": 4,
+   "ratio": 0.933
+  },
+  {
+   "beat": 5,
+   "ratio": 1.0
+  },
+  {
+   "beat": 6,
+   "ratio": 1.0
+  },
+  {
+   "beat": 7,
+   "ratio": 0.96
+  },
+  {
+   "beat": 8,
+   "ratio": 1.0
+  },
+  {
+   "beat": 9,
+   "ratio": 1.0
+  },
+  {
+   "beat": 10,
+   "ratio": 1.0
+  },
+  {
+   "beat": 11,
+   "ratio": 0.955
+  },
+  {
+   "beat": 12,
+   "ratio": 1.0
+  },
+  {
+   "beat": 13,
+   "ratio": 1.0
+  },
+  {
+   "beat": 15,
+   "ratio": 1.0
+  },
+  {
+   "beat": 16,
+   "ratio": 0.905
+  },
+  {
+   "beat": 17,
+   "ratio": 0.967
+  },
+  {
+   "beat": 18,
+   "ratio": 1.0
+  },
+  {
+   "beat": 19,
+   "ratio": 0.971
+  },
+  {
+   "beat": 20,
+   "ratio": 1.0
+  },
+  {
+   "beat": 21,
+   "ratio": 1.0
+  },
+  {
+   "beat": 22,
+   "ratio": 1.0
+  },
+  {
+   "beat": 23,
+   "ratio": 0.971
+  },
+  {
+   "beat": 24,
+   "ratio": 1.0
+  },
+  {
+   "beat": 25,
+   "ratio": 1.0
+  },
+  {
+   "beat": 26,
+   "ratio": 0.952
+  },
+  {
+   "beat": 27,
+   "ratio": 0.983
+  }
+ ],
+ "measurement": "10ms RMS>.004 after peak normalisation; phrase-level, not forced syllable alignment",
+ "cleaned": "0 breath/noise islands gated out"
+}

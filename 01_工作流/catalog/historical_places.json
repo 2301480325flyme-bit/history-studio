@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "interval_rules": {
+    "names": "inclusive",
+    "relations": "start inclusive, end exclusive"
+  },
+  "sources": [
+    {
+      "source_id": "ye_city.name",
+      "locator": "https://wenwu.hebei.gov.cn/system/2023/10/16/030257950.shtml",
+      "status": "legacy_reference_needs_review"
+    },
+    {
+      "source_id": "ye_city.coordinate",
+      "locator": "https://www.wikidata.org/wiki/Q1274372",
+      "status": "legacy_reference_needs_review"
+    },
+    {
+      "source_id": "luoyang_han_wei.name",
+      "locator": "https://lysrd.henanrd.gov.cn/2025/07-16/223000.html",
+      "status": "legacy_reference_needs_review"
+    },
+    {
+      "source_id": "luoyang_han_wei.coordinate",
+      "locator": "https://www.wikidata.org/wiki/Q11133430",
+      "status": "legacy_reference_needs_review"
+    },
+    {
+      "source_id": "changan_han_city.name",
+      "locator": "https://zh.wikisource.org/wiki/資治通鑑/卷085",
+      "status": "legacy_reference_needs_review"
+    },
+    {
+      "source_id": "changan_han_city.coordinate",
+      "locator": "https://wantulu.com/heritage/shaanxi/heritage_mrktnx7j8dea97/",
+      "status": "legacy_reference_needs_review"
+    },
+    {
+      "source_id": "xuchang_approx.name",
+      "locator": "https://zh.wikisource.org/wiki/晉書/卷059",
+      "status": "legacy_reference_needs_review"
+    },
+    {
+      "source_id": "xuchang_approx.coordinate",
+      "locator": "Legacy pilot approximation from director-v10a.json; no exact ancient-site georeference asserted",
+      "status": "legacy_reference_needs_review"
+    },
+    {
+      "source_id": "nanjing_ancient_city.name",
+      "locator": "https://www.xwzf.gov.cn/zjxw/xwgk/lsyg/",
+      "status": "legacy_reference_needs_review"
+    },
+    {
+      "source_id": "nanjing_ancient_city.coordinate",
+      "locator": "https://www.wikidata.org/wiki/Q1330294",
+      "status": "legacy_reference_needs_review"
+    },
+    {
+      "source_id": "jinshu.059.jiong",
+      "locator": "https://zh.wikisource.org/wiki/晉書/卷059#齊武閔王冏",
+      "status": "text_checked",
+      "section": "齐武闵王冏传",
+      "claim_scope": "军镇许昌及起兵后屯阳翟；不证明全年控制权",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "jinshu.059.ying",
+      "locator": "https://zh.wikisource.org/wiki/晉書/卷059#成都王穎",
+      "status": "text_checked",
+      "section": "成都王颖传",
+      "claim_scope": "镇邺及发兵响应齐王；不证明整年驻城",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "jinshu.004.301",
+      "locator": "https://zh.wikisource.org/zh-hant/晉書/卷004#永寧元年",
+      "status": "text_checked",
+      "section": "惠帝纪·永宁元年",
+      "claim_scope": "301年三月起兵、屯阳翟，四月宫变复位；农历不硬转公历",
+      "checked_at": "2026-10-03"
+    }
+  ],
+  "places": [
+    {
+      "place_id": "ye_city",
+      "type": "city_site",
+      "aliases": [
+        "邺",
+        "鄴",
+        "邺城",
+        "鄴城",
+        "Ye",
+        "Yecheng"
+      ],
+      "location": {
+        "coordinates": [
+          114.4002,
+          36.2748
+        ],
+        "crs": "EPSG:4326",
+        "meaning": "approximate archaeological site point; not city-wall geometry",
+        "accuracy_m": null,
+        "source_refs": [
+          "ye_city.coordinate"
+        ],
+        "review_status": "needs_review"
+      },
+      "names": [
+        {
+          "text": "邺城",
+          "valid_from": 291,
+          "valid_to": 306,
+          "source_refs": [
+            "ye_city.name"
+          ],
+          "review_status": "needs_review"
+        }
+      ],
+      "review_note": "Approximate Ye archaeological locality for the 291–306 narrative; not an exact wall or palace location"
+    },
+    {
+      "place_id": "luoyang_han_wei",
+      "type": "city_site",
+      "aliases": [
+        "洛阳",
+        "洛陽",
+        "Luoyang"
+      ],
+      "location": {
+        "coordinates": [
+          112.6183,
+          34.7195
+        ],
+        "crs": "EPSG:4326",
+        "meaning": "approximate Han-Wei Luoyang archaeological site point; not palace location",
+        "accuracy_m": null,
+        "source_refs": [
+          "luoyang_han_wei.coordinate"
+        ],
+        "review_status": "needs_review"
+      },
+      "names": [
+        {
+          "text": "洛阳",
+          "valid_from": 291,
+          "valid_to": 306,
+          "source_refs": [
+            "luoyang_han_wei.name"
+          ],
+          "review_status": "needs_review"
+        }
+      ],
+      "review_note": "Western Jin capital was at the Han-Wei city site east of modern central Luoyang"
+    },
+    {
+      "place_id": "changan_han_city",
+      "type": "city_site",
+      "aliases": [
+        "长安",
+        "長安",
+        "Changan",
+        "Chang'an"
+      ],
+      "location": {
+        "coordinates": [
+          108.8931,
+          34.2941
+        ],
+        "crs": "EPSG:4326",
+        "meaning": "approximate Han Chang'an archaeological area point; not palace location",
+        "accuracy_m": null,
+        "source_refs": [
+          "changan_han_city.coordinate"
+        ],
+        "review_status": "needs_review"
+      },
+      "names": [
+        {
+          "text": "长安",
+          "valid_from": 291,
+          "valid_to": 306,
+          "source_refs": [
+            "changan_han_city.name"
+          ],
+          "review_status": "needs_review"
+        }
+      ],
+      "review_note": "Region-level placement for the 304–306 imperial migration, not a reconstructed palace or wall"
+    },
+    {
+      "place_id": "xuchang_approx",
+      "type": "city_site",
+      "aliases": [
+        "许昌",
+        "許昌",
+        "Xuchang"
+      ],
+      "location": {
+        "coordinates": [
+          113.85,
+          34.03
+        ],
+        "crs": "EPSG:4326",
+        "meaning": "approximate modern Xuchang locality inherited from the pilot; not verified as the exact 301 CE city site",
+        "accuracy_m": null,
+        "source_refs": [
+          "xuchang_approx.coordinate"
+        ],
+        "review_status": "needs_review"
+      },
+      "names": [
+        {
+          "text": "许昌",
+          "valid_from": 0,
+          "valid_to": 9999,
+          "source_refs": [
+            "xuchang_approx.name"
+          ],
+          "review_status": "needs_review"
+        }
+      ],
+      "review_note": "Use only as a schematic map anchor for Sima Jiong's recorded association with Xuchang; keep the approximate qualifier visible in the label"
+    },
+    {
+      "place_id": "nanjing_ancient_city",
+      "type": "city_site",
+      "aliases": [
+        "建业",
+        "建業",
+        "建邺",
+        "建鄴",
+        "建康",
+        "Jianye",
+        "Jiankang"
+      ],
+      "location": {
+        "coordinates": [
+          118.796389,
+          32.058333
+        ],
+        "crs": "EPSG:4326",
+        "meaning": "approximate ancient-city point; not a 300 CE wall or gate position",
+        "accuracy_m": null,
+        "source_refs": [
+          "nanjing_ancient_city.coordinate"
+        ],
+        "review_status": "needs_review"
+      },
+      "names": [
+        {
+          "text": "建邺",
+          "valid_from": 282,
+          "valid_to": 312,
+          "source_refs": [
+            "nanjing_ancient_city.name"
+          ],
+          "review_status": "needs_review"
+        },
+        {
+          "text": "建康",
+          "valid_from": 313,
+          "valid_to": 589,
+          "source_refs": [
+            "nanjing_ancient_city.name"
+          ],
+          "review_status": "needs_review"
+        }
+      ],
+      "review_note": "Name ranges follow Nanjing Xuanwu district history; point is an approximate locality"
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "jiong-xuchang-pre-uprising-301",
+      "place_id": "xuchang_approx",
+      "relation_type": "garrison",
+      "entity_id": "sima_jiong",
+      "entity_name": "齐王司马冏",
+      "meaning": "军镇／起兵前军事据点，不表示实际领土归属",
+      "review_status": "reviewed",
+      "reviewed_by": "source_text_check_20261003",
+      "source_refs": [
+        "jinshu.059.jiong",
+        "jinshu.004.301"
+      ],
+      "interval": {
+        "basis": "snapshot",
+        "snapshot_id": "301-before-uprising",
+        "story_year": 301
+      },
+      "temporal_note": "按列传叙事顺序重建起兵前状态；不用作全年连续事实"
+    },
+    {
+      "relation_id": "ying-ye-pre-uprising-301",
+      "place_id": "ye_city",
+      "relation_type": "garrison",
+      "entity_id": "sima_ying",
+      "entity_name": "成都王司马颖",
+      "meaning": "军镇／响应起兵前军事据点，不表示成都国封地在邺",
+      "review_status": "reviewed",
+      "reviewed_by": "source_text_check_20261003",
+      "source_refs": [
+        "jinshu.059.ying",
+        "jinshu.004.301"
+      ],
+      "interval": {
+        "basis": "snapshot",
+        "snapshot_id": "301-before-uprising",
+        "story_year": 301
+      },
+      "temporal_note": "按列传叙事顺序重建起兵前状态；不表示军队行军全程"
+    }
+  ],
+  "events": []
+}

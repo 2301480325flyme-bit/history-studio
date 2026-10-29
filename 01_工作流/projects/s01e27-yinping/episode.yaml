@@ -1,0 +1,320 @@
+# 快节奏版（2026-10-14，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第27集：三路伐蜀、剑阁、邓艾偷渡阴平、绵竹、刘禅出降、钟会之乱（263–264）
+# 本地语料核对：
+# 邓艾传"维遂东引，还守剑阁。钟会攻维未能克。艾上言：今贼摧折，宜遂乘之，从阴平由邪径经汉德阳亭趣涪，出剑阁西百里，去成都三百余里，奇兵冲其腹心。剑阁之守必还赴涪，则会方轨而进；剑阁之军不还，则应涪之兵寡矣…攻其无备，出其不意"；
+#   "冬十月，艾自阴平道行无人之地七百余里，凿山通道，造作桥阁。山高谷深，至为艰险，又粮运将匮，频于危殆。艾以毡自裹，推转而下。将士皆攀木缘崖，鱼贯而进。先登至江由，蜀守将马邈降。蜀卫将军诸葛瞻自涪还绵竹，列陈待艾。艾遣子惠唐亭侯忠等出其右…忠、纂战不利，并退还，曰：贼未可击。艾怒曰：存亡之分，在此一举，何不可之有？乃叱忠、纂等，将斩之。忠、纂驰还更战，大破之，斩瞻…进军到雒，刘禅遣使奉皇帝玺绶，为笺诣艾请降；艾至成都，禅率太子诸王及群臣六十余人面缚舆榇诣军门"；
+# 钟会传"今遣钟会率十余万众伐蜀"；姜维传"寻被后主敕令，乃投戈放甲，诣会于涪军前，将士咸怒，拔刀斫石"；
+# 三少帝纪"咸熙元年春正月壬戌，槛车征邓艾…是月，钟会反于蜀，为众所讨；邓艾亦见杀…丁亥，封刘禅为安乐公"。
+# 注文（片中标"据说"）："此间乐，不思蜀"（后主传注引汉晋春秋）。
+
+id: s01e27-yinping
+title: 偷渡阴平
+series: 三国 · 第27集
+year: 263
+
+notes:
+  - 主线问题：十几万大军攻不下的剑阁，蜀汉怎么还是亡了？——邓艾走了一条没人敢走的路，绕到了背后；绵竹一败，成都已经没了守下去的心。
+  - 反差：钟会十几万人卡在剑阁；邓艾几万人裹着毛毡从悬崖滚下去，反倒先到了成都。灭蜀的两员魏将，都没活过第二年正月。
+  - 细节：凿山通道、造作桥阁；以毡自裹，推转而下；邓艾差点斩了打退堂鼓的亲儿子；刘禅面缚舆榇；姜维的将士拔刀砍石。
+  - 动机：邓艾的算盘——剑阁守军回救，钟会就能长驱直入；不回救，涪城就空了。
+  - 演义对照："乐不思蜀"出自注引《汉晋春秋》。
+
+map:
+  center: [105.0, 32.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-17 史图风
+  palette: warm          # 2026-10-24 试样：浅底、淡山影、清透阵营色（参考地图知天下）
+  raster_res: 2          # 2026-10-24 试样：底图两倍分辨率，近景不糊
+  river_rank: 4
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 老将裹着毛毡滚下悬崖，滚出了蜀汉的灭亡
+  big: [偷渡阴平]
+  hero: 邓艾
+  at: 30
+  summary: |
+    263 年，司马昭三路伐蜀。钟会十几万大军被姜维挡在剑阁，怎么也攻不下来。邓艾上书："攻其无备，出其不意。"他从阴平出发，走了七百多里无人之地，凿山开路、架设栈道，到了绝壁就用毛毡裹住自己滚下去。
+    魏军突然出现在江由，蜀将马邈投降；绵竹一战，诸葛亮之子诸葛瞻战死。刘禅带群臣六十多人反绑双手、抬着棺材出降，蜀汉灭亡。姜维的将士拔刀砍石；几个月后，钟会谋反，邓艾、钟会、姜维先后死于乱中。
+  tags: [偷渡阴平, 邓艾, 姜维, 钟会, 蜀汉灭亡]
+  next: 司马炎代魏，三分归晋
+
+sources_local:
+  - {id: sgz-04, work: 三国志, volume: 卷四·三少帝纪, url: 'https://zh.wikisource.org/wiki/三國志/卷04'}
+  - {id: sgz-28, work: 三国志, volume: 卷二十八·邓艾传、钟会传, url: 'https://zh.wikisource.org/wiki/三國志/卷28'}
+  - {id: sgz-33, work: 三国志, volume: 卷三十三·后主传（注引汉晋春秋）, url: 'https://zh.wikisource.org/wiki/三國志/卷33'}
+  - {id: sgz-44, work: 三国志, volume: 卷四十四·姜维传, url: 'https://zh.wikisource.org/wiki/三國志/卷44'}
+
+factions: {魏: '#2f5d3a', 蜀汉: '#5f8f3a', 吴: '#b0841f'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    魏: {slot: jade, main: true, label_at: 长安}
+    蜀汉: {slot: pink, label_at: 成都}
+    吴: {slot: lemon}
+
+people:
+  邓艾: {image: 03_素材/人物立绘/deng_ai.png, title: 征西将军, role: 偷渡阴平, faction: 魏}
+  钟会: {image: 03_素材/人物立绘/zhong_hui.png, title: 镇西将军, role: 攻剑阁, faction: 魏}
+  姜维: {image: 03_素材/人物立绘/jiang_wei.png, title: 大将军, role: 守剑阁, faction: 蜀汉}
+  诸葛瞻: {image: 03_素材/人物立绘/zhuge_zhan.png, title: 卫将军, role: 绵竹战死, faction: 蜀汉}
+  刘禅: {image: 03_素材/人物立绘/liu_shan.png, title: 汉后主, role: 面缚出降, faction: 蜀汉}
+  司马昭: {image: 03_素材/人物立绘/sima_zhao.png, title: 晋公, role: 三路伐蜀, faction: 魏}
+
+places:
+  长安: {id: changan_han_city, label: right, tier: capital}
+  洛阳: {id: luoyang_han_wei, label: right}
+  狄道: {id: didao_county, label: left}
+  汉中: {id: nanzheng, name: 汉中, label: right}
+  沓中: {id: tazhong, label: left}
+  阴平: {id: yinping, label: left}
+  剑阁: {id: jiange, label: right, tier: pass}
+  江由: {id: jiangyou_guan, label: left}
+  涪: {id: fu_mianyang, label: right}
+  绵竹: {id: mianzhu_old, label: left}
+  雒: {id: luo_guanghan, label: right}
+  成都: {id: chengdu_city, label: left, tier: capital}
+  # 2026-10-25 按战事账补的途经点：只给行军箭头穿过，不画图标和名字（用户：关隘图标太多，很杂乱）
+  斜谷: {id: xiegu, show: false}
+  骆谷: {id: luogu, show: false}
+  子午谷: {id: ziwugu, show: false}
+  强川口: {id: qiangchuankou, show: false}
+  桥头: {id: yinping_qiaotou, show: false}
+  白水关: {id: baishuiguan, show: false}
+  汉寿: {id: jiameng, name: 汉寿, show: false}
+
+camera:
+  focus: [阴平, 江由, 成都]
+  zoom: 2.0
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 七百多里没有人烟的山路。一员魏国老将，用毛毡裹住自己，从悬崖上滚了下去。
+    map: '258-02'
+    year: 263
+    phase: 以毡自裹
+    scene: 栈道
+    sources: [sgz-28]
+    show:
+      - sfx: 重拍转场
+      - enter: {who: 邓艾, side: left, cue: 老将, for: 5}
+
+  - say: 他叫邓艾。这一滚，滚出了蜀汉的灭亡。
+    sources: [sgz-28]
+    camera: {focus: [阴平, 江由, 成都], zoom: fit, move: 1.6}
+    show:
+      - quote: {text: 艾以毡自裹，推转而下, source: 三国志·邓艾传, era: 景元四年, cue: 滚出, for: 4}
+
+  # ---------------- 第一章 剑阁 ----------------
+  - say: 二六三年，司马昭三路伐蜀。钟会带十几万主力，翻过秦岭，直扑汉中。
+    phase: 剑阁
+    map: '263-09'
+    owners_cue: 汉中
+    sources: [sgz-28]
+    camera: {focus: [长安, 斜谷, 子午谷, 汉中], zoom: fit, move: 1.6}   # 三路翻秦岭要看得清：只框关中—汉中
+    tells: [e04, e04b, e05]   # 战事账：钟会分由斜谷、骆谷入，刘钦趣子午谷，诸军数道平行至汉中；入汉中即郡归魏
+    show:
+      - title_bar: {text: 偷渡阴平, sub: 三国 · 第27集, for: 3.2}
+      - sfx: 片头鼓
+      - enter: {who: 钟会, side: right, cue: 钟会, for: 3}
+      # 三路同时出关中、翻秦岭，钟会本军最后到，合成一营（用户 2026-10-25）
+      - army: {from: 长安, via: [骆谷], to: 汉中, bend: 0, faction: 魏, unit: 钟会骆谷军, banner: 钟, troops: infantry, size: 2.8, cue: 钟会, grow: 2.0, camp: false}
+      - army: {from: 长安, via: [子午谷], to: 汉中, bend: 0, faction: 魏, unit: 刘钦, banner: 刘, troops: infantry, size: 2.2, cue: 钟会, grow: 2.0, camp: false}
+      - army: {from: 长安, via: [斜谷], to: 汉中, bend: 0, faction: 魏, head: 钟会, banner: 钟, troops: infantry, size: 3.2, cue: 钟会, delay: 0.5, grow: 2.4, merge: [钟会骆谷军, 刘钦]}
+      - sfx: {name: 疆域易手, cue: 汉中}
+
+  - say: 邓艾在西边，去拖住屯田沓中的姜维。
+    sources: [sgz-28]
+    tells: [e08, e09, e10]
+    camera: {focus: [狄道, 沓中, 阴平, 汉中], zoom: fit, move: 1.4}   # 邓艾自狄道出（晋书·文帝纪），起点要在画内
+    show:
+      - enter: {who: 姜维, side: left, cue: 姜维, for: 3}
+      - flag: {at: 沓中, name: 姜维, sub: 屯田沓中, faction: 蜀汉, cue: 屯田}
+      - army: {from: 狄道, to: 沓中, faction: 魏, head: 邓艾, banner: 邓, troops: infantry, size: 2.4, cue: 拖住, grow: 1.8}
+      - battle: {at: 沓中, text: 直攻维营, cue: 姜维}
+
+  - say: 姜维甩开追兵，退守剑阁。钟会十几万人，就是攻不下来。
+    sources: [sgz-28]
+    camera: {focus: [沓中, 桥头, 剑阁, 汉中], zoom: fit, move: 1.2}
+    tells: [e11, e13, e17, e21, e26, e27]   # 战事账：强川口败、桥头被诸葛绪截而绕出、经阴平白水汉寿退保剑阁；钟会攻剑阁未克
+    show:
+      - flag: {at: 桥头, name: 诸葛绪, sub: 截维归路, faction: 魏, cue: 甩开, guest: true}
+      - army: {from: 沓中, via: [强川口, 桥头, 阴平, 白水关, 汉寿], to: 剑阁, faction: 蜀汉, head: 姜维, label: 还守剑阁, cue: 甩开, grow: 3.0, troops: infantry, size: 2.0}
+      - army: {from: 汉中, to: 剑阁, faction: 魏, head: 钟会, banner: 钟, troops: infantry, size: 3.6, cue: 钟会, grow: 1.4}
+      - battle: {at: 剑阁, text: 攻维未能克, cue: 攻不下来}
+
+  # ---------------- 第二章 阴平 ----------------
+  - say: 邓艾上书：从阴平走小路，绕过剑阁，直插涪城。
+    sources: [sgz-28]
+    show:
+      - army: {from: 沓中, to: 阴平, faction: 魏, head: 邓艾, banner: 邓, troops: infantry, size: 2.4, cue: 阴平, grow: 1.4}   # 邓艾追姜维至阴平（战事账 e28 前）
+
+  - say: 剑阁的兵要是回救，钟会就能长驱直入；要是不回，涪城就空了。
+    phase: 阴平
+    sources: [sgz-28]
+    camera: {focus: [阴平, 剑阁, 涪], zoom: fit, move: 1.4}
+    tells: [e28]
+    show:
+      - arrow: {from: 阴平, to: 涪, kind: direction, faction: 魏, cue: 回救, grow: 1.6}
+      - quote: {text: 攻其无备，出其不意, source: 三国志·邓艾传, era: 景元四年, cue: 涪城就空, for: 4}
+
+  - say: 十月，邓艾从阴平出发，走了七百多里没有人的地方，开山凿路，架起栈道。
+    sources: [sgz-28]
+    camera: {focus: [阴平, 江由], zoom: 12, move: 1.2}
+    tells: [e29]
+    show:
+      - army: {from: 阴平, to: 江由, faction: 魏, head: 邓艾, label: 行无人之地七百余里, cue: 出发, grow: 4.0, troops: infantry, size: 2.0}
+
+  - say: 山高谷深，粮食也快吃完了。到了绝壁，邓艾就裹着毛毡滚下去。
+    scene: 栈道
+    sources: [sgz-28]
+
+  - say: 将士们攀着树木、贴着悬崖，一个接一个往前挪。
+    scene: 栈道
+    sources: [sgz-28]
+    show:
+      - card: {title: 偷渡阴平, body: 将士皆攀木缘崖，鱼贯而进, cue: 攀着树木}
+
+  - say: 魏军突然出现在江由。守将马邈，连仗都没打就投降了。
+    map: '263-10-10'          # 2026-10-24 用户：打到涪县蜀国边境还完整
+    owners_cue: 投降
+    sources: [sgz-28]
+    tells: [e30]
+    camera: {focus: [江由, 涪, 绵竹], zoom: 10, move: 1.2}
+    show:
+      - sfx: {name: 碎玻璃, cue: 突然出现}
+
+  # ---------------- 第三章 绵竹 ----------------
+  - say: 诸葛亮的儿子诸葛瞻，带兵在绵竹列阵迎战。
+    phase: 绵竹
+    sources: [sgz-28]
+    tells: [e31, e32]   # 战事账：诸葛瞻自涪还绵竹列阵；邓艾自江由进至绵竹
+    show:
+      - enter: {who: 诸葛瞻, side: right, cue: 诸葛瞻, for: 3.6}
+      - army: {from: 涪, to: 绵竹, faction: 蜀汉, head: 诸葛瞻, label: 自涪还绵竹, cue: 带兵, grow: 1.6, troops: infantry, size: 2.0}
+      - flag: {at: 绵竹, name: 诸葛瞻, sub: 列陈待艾, faction: 蜀汉, cue: 列阵}
+      - army: {from: 江由, to: 绵竹, faction: 魏, head: 邓艾, banner: 邓, troops: infantry, size: 2.2, cue: 迎战, grow: 1.6}
+
+  - say: 邓艾的儿子邓忠第一阵没打赢，退回来说：打不了。邓艾大怒：
+    sources: [sgz-28]
+
+  - say: 存亡就看这一仗，有什么打不了的！
+    speaker: 邓艾
+    style: 暴怒拔剑，声如裂帛，要斩亲儿子
+    sources: [sgz-28]
+
+  - say: 邓忠回头再战，大破蜀军。诸葛瞻战死。
+    map: '263-10-25'          # 2026-10-24 用户：打到涪县蜀国边境还完整
+    owners_cue: 大破蜀军
+    sources: [sgz-28]
+    tells: [e33, e34]
+    show:
+      - campaign:
+          at: 绵竹
+          title: 绵竹之战
+          clash: 再战
+          sides:
+            - {from: 江由, faction: 魏, banner: 邓, troops: infantry, size: 2.2}
+            - {from: 涪, faction: 蜀汉, banner: 诸葛, troops: infantry, size: 2.2}
+      - exit: {who: 诸葛瞻, at: 绵竹, verb: 卒, portrait: true, cue: 战死}
+
+  - say: 邓艾进到雒县。刘禅派人捧着皇帝的玉玺，请求投降。
+    audit_ok: [投降]
+    sources: [sgz-28]
+    tells: [e35, e36]
+    camera: {focus: [绵竹, 雒, 成都], zoom: 10, move: 1.2}
+    show:
+      - army: {from: 绵竹, to: 雒, faction: 魏, head: 邓艾, banner: 邓, troops: infantry, size: 2.0, cue: 进到, grow: 1.4}
+      - act: {act: prop, at: 成都, item: 玉玺, text: 奉皇帝玺绶, cue: 玉玺, size: 1.2, for: 4}
+
+  - say: 刘禅带着太子、诸王和群臣六十多人，反绑双手，抬着棺材，到魏军营门投降。
+    map: '263-11'
+    owners_cue: 投降
+    sources: [sgz-28]
+    tells: [e37, e38]   # 战事账：邓艾进至成都城北受降
+    show:
+      - army: {from: 雒, to: 成都, faction: 魏, head: 邓艾, banner: 邓, troops: infantry, size: 2.0, cue: 魏军营门, grow: 1.2}
+      - enter: {who: 刘禅, side: right, cue: 刘禅, for: 3.6}
+      - quote: {text: 面缚舆榇诣军门, source: 三国志·邓艾传, era: 景元四年, cue: 棺材, for: 4}
+      - sfx: {name: 疆域易手, cue: 投降}
+      - headline: {text: 蜀汉亡, sub: 公元二六三年, cue: 投降, delay: 1.2, for: 3.2}
+
+  - say: 从刘备称帝算起，蜀汉一共四十三年。
+    sources: [sgz-33]
+
+  # ---------------- 第四章 斫石 ----------------
+  - say: 剑阁的姜维接到刘禅的命令，只好放下武器，去向钟会投降。将士们气得拔刀砍石头。
+    phase: 斫石
+    sources: [sgz-44]
+    territory_hold: 剑阁所在的梓潼郡已随刘禅出降（上一拍）归魏，姜维投戈不再变色
+    camera: {focus: [剑阁, 涪], zoom: 8, move: 1.2}
+    tells: [e40, e41]   # 战事账：钟会进军至涪，姜维等诣会于涪军前投降
+    show:
+      - army: {from: 剑阁, to: 涪, faction: 魏, head: 钟会, banner: 钟, troops: infantry, size: 2.4, cue: 钟会, grow: 1.4}
+      - army: {from: 剑阁, to: 涪, faction: 蜀汉, head: 姜维, label: 投戈, cue: 放下武器, grow: 1.4, troops: infantry, size: 2.0}
+      - quote: {text: 将士咸怒，拔刀斫石, source: 三国志·姜维传, era: 景元四年, cue: 砍石头, for: 4}
+      - defect: {who: 姜维, at: 涪, to: 魏, from: 蜀汉, verb: 降, cue: 投降}
+
+  - say: 可事情还没完。第二年正月，邓艾被诬谋反，装进囚车押往京城。
+    year: 264
+    sources: [sgz-04]
+    show:
+      - act: {act: prison, at: 成都, text: 槛车征艾, cue: 囚车, for: 3.6}
+
+  - say: 钟会想在蜀地自立，真的反了，姜维也跟着他起事。没几天，魏军哗变，钟会、姜维都死在乱兵之中。
+    sources: [sgz-04, sgz-28]
+    camera: {focus: 成都, zoom: 6, move: 1.2}
+    show:
+      - exit: {who: 钟会, at: 成都, verb: 诛, portrait: true, side: right, cue: 钟会}
+      - exit: {who: 姜维, at: 成都, verb: 卒, portrait: true, cue: 乱兵}
+
+  - say: 邓艾，也在押解的路上被杀了。
+    sources: [sgz-04]
+    show:
+      - exit: {who: 邓艾, at: 绵竹, verb: 卒, portrait: true, cue: 被杀}
+      - sfx: {name: 退场钟, cue: 被杀}
+
+  - say: 刘禅被封为安乐公，送到了洛阳。据说司马昭问他：想念蜀地吗？他说：这里很快乐，不想。
+    sources: [sgz-04, sgz-33]
+    camera: {focus: [成都, 洛阳], zoom: fit, move: 1.4}
+    show:
+      - card: {title: 据说 · 乐不思蜀, body: 此间乐，不思蜀——后主传注引《汉晋春秋》, cue: 不想}
+
+  - say: 十几万人攻不下的剑阁，蜀汉怎么还是亡了？邓艾走了一条没人敢走的路，绕到了背后。
+    sources: [sgz-28]
+    camera: {focus: [阴平, 剑阁, 成都], zoom: fit, move: 1.4}
+
+  - say: 绵竹一败，成都里的人，已经没有守下去的心了。
+    sources: [sgz-28]
+    show:
+      - vignette: {image: illus_liushan_surrender, cue: 成都, for: 8, text: 面缚舆榇}
+
+  - say: 刘禅开城投降，你觉得是懦弱，还是保全了一城百姓？
+    audit_ok: [投降]
+    sources: [sgz-33]
+
+  - say: 灭了蜀，司马昭离皇位只差一步。这一步，他没走完，他的儿子替他走完了。
+    sources: [sgz-04]
+    camera: {focus: [洛阳, 成都], zoom: fit, move: 1.6}
+    show:
+      - enter: {who: 司马昭, side: right, cue: 司马昭, for: 3.4}
+      - title_bar: {text: 下集, sub: 三分归晋, cue: 儿子, delay: 0.4, for: 3.0}

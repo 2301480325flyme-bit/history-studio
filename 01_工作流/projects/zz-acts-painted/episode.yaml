@@ -1,0 +1,161 @@
+# 演示：手绘素材动作库（第 1、2 批素材）。只用占位配音，不合成语音，用来检查每个动作的画面。
+
+id: zz-acts-painted
+title: 动作库演示
+series: 演示
+year: 190
+
+map:
+  center: [114.0, 33.5]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  river_rank: 4
+
+sources_local:
+  - {id: demo, work: 演示, volume: 无, url: 'https://zh.wikisource.org/wiki/三國志'}
+
+factions: {汉室: '#b8462f', 关东: '#27587e'}
+
+territory:
+  cells: han-140
+  zhou_labels: true
+  jun_labels: false
+  polities:
+    汉室: {slot: salmon, main: true, label_at: 洛阳}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: left, tier: capital}
+  长安: {id: changan_han_city, label: left}
+  邺: {id: ye_city, label: right}
+  下邳: {id: xiapi, label: right}
+  寿春: {id: shouchun, label: below}
+  长社: {id: changshe, label: right}
+  宛: {id: wanxian, label: below}
+  陈留: {id: chenliu_han, label: right}
+
+camera:
+  focus: 洛阳
+  zoom: 1.6
+
+beats:
+  - say: 第一个是火攻，大火在长社城外烧起来，浓烟冲天，火光映红了半边天空。
+    sources: [demo]
+    owners: {汉室: [司隶, 豫州, 兖州, 徐州, 青州, 冀州, 幽州, 并州, 凉州, 荆州, 扬州, 益州, 交州]}
+    camera: {focus: 长社, zoom: 3.5, move: 1.0}
+    show:
+      - fire: {at: 长社, radius: 1.3, for: 5}
+      - stamp: {at: 洛阳, text: 赦}
+
+  - say: 第二个是箭雨，弓手从城外放箭，一大片箭落在宛城的敌营里。
+    sources: [demo]
+    camera: {focus: [洛阳, 宛], zoom: fit, move: 1.0}
+    show:
+      - act: {act: arrows, places: [洛阳, 宛], text: 箭雨}
+
+  - say: 第三个是水淹，决开河堤，大水灌进下邳城，城里一片汪洋。
+    sources: [demo]
+    camera: {focus: 下邳, zoom: 3.0, move: 1.0}
+    show:
+      - act: {act: flood, at: 下邳, text: 水淹下邳}
+
+  - say: 第四个是夜色，天黑下来，月亮升起，曹军趁着夜色悄悄出发。
+    sources: [demo]
+    show:
+      - act: {act: night, text: 夜袭}
+
+  - say: 第五个是雷电，乌云压在长安城头，几道闪电劈下来。
+    sources: [demo]
+    camera: {focus: 长安, zoom: 2.8, move: 1.0}
+    show:
+      - act: {act: thunder, at: 长安, text: 天象异变}
+
+  - say: 第六个是投石车，霹雳车从陈留把石头砸向邺城，城楼一座座倒塌。
+    sources: [demo]
+    camera: {focus: [陈留, 邺], zoom: fit, move: 1.0}
+    show:
+      - act: {act: catapult, places: [陈留, 邺], text: 霹雳车}
+
+  - say: 第七个是蝗灾，蝗虫遮天蔽日，飞过中原，庄稼一夜之间被吃光。
+    sources: [demo]
+    camera: {focus: 陈留, zoom: 2.2, move: 1.0}
+    show:
+      - act: {act: locusts, at: 陈留, text: 蝗灾}
+
+  - say: 第八个是城陷，城墙崩塌，浓烟升起，寿春城被攻破了。
+    sources: [demo]
+    camera: {focus: 寿春, zoom: 3.0, move: 1.0}
+    show:
+      - act: {act: fall, at: 寿春, text: 城破}
+
+  - say: 第九个是流民，百姓扶老携幼，从洛阳一路往西逃向长安。
+    sources: [demo]
+    camera: {focus: [洛阳, 长安], zoom: fit, move: 1.0}
+    show:
+      - act: {act: refugees, places: [洛阳, 长安], text: 迁都}
+
+  - say: 第十个是器物，孙坚在洛阳城里得到了传国玉玺，又拿到了调兵的虎符。
+    sources: [demo]
+    camera: {focus: 洛阳, zoom: 3.0, move: 1.0}
+    show:
+      - act: {act: prop, at: 洛阳, item: 玉玺, text: 传国玉玺}
+      - act: {act: prop, at: 邺, item: 虎符, cue: 虎符}
+
+  - say: 最后是旧动作的新画法，卖官、狂风、下狱、信使、烽火，都换成了手绘素材。
+    sources: [demo]
+    camera: {focus: [洛阳, 下邳, 邺, 宛], zoom: fit, move: 1.0}
+    show:
+      - act: {act: coins, at: 洛阳, text: 卖官, cue: 卖官}
+      - act: {act: wind, at: 宛, text: 大风, cue: 狂风}
+      - act: {act: prison, at: 邺, text: 下狱, cue: 下狱}
+      - act: {act: courier, places: [洛阳, 下邳], text: 密信, cue: 信使}
+      - act: {act: beacon, places: [陈留, 寿春, 下邳], text: 烽火, cue: 烽火}
+
+  - say: 第三批素材：骑兵从洛阳出发，步兵从陈留出发，两军都换成了手绘的兵俑。
+    sources: [demo]
+    camera: {focus: [洛阳, 陈留, 长社], zoom: fit, move: 1.0}
+    show:
+      - army: {from: 洛阳, to: 长社, faction: 汉室, banner: 皇甫, troops: cavalry, size: 2.5, cue: 骑兵, grow: 2.4}
+      - army: {from: 陈留, to: 长社, faction: 关东, banner: 曹, troops: infantry, size: 2.5, cue: 步兵, grow: 2.4}
+
+  - say: 两军在长社相遇，短兵相接，汉军大破敌军。
+    sources: [demo]
+    camera: {focus: 长社, zoom: 4, move: 1.0}
+    show:
+      - clash: {at: 长社, sides: [{faction: 汉室, banner: 皇甫, troops: cavalry}, {faction: 关东, banner: 曹, troops: infantry}], loser: 关东, cue: 相遇, title: 长社之战}
+
+  - say: 地标也有了：官渡的营寨、函谷的关隘、洛阳的宫殿、长安的帝陵。
+    sources: [demo]
+    camera: {focus: [洛阳, 长安, 陈留], zoom: fit, move: 1.0}
+    show:
+      - act: {act: prop, at: 陈留, item: 营寨, cue: 营寨}
+      - act: {act: prop, at: 宛, item: 关隘, text: 关隘, cue: 关隘}
+      - act: {act: prop, at: 洛阳, item: 宫殿, cue: 宫殿}
+      - act: {act: prop, at: 长安, item: 帝陵, cue: 帝陵}
+
+  - say: 弓手和弩手也有了，弓手从宛城出发，弩手从邺城出发，各自列队前进。
+    sources: [demo]
+    camera: {focus: [宛, 邺, 洛阳], zoom: fit, move: 1.0}
+    show:
+      - army: {from: 宛, to: 洛阳, faction: 关东, banner: 袁, troops: archer, size: 2.0, cue: 弓手, grow: 2.4}
+      - army: {from: 邺, to: 洛阳, faction: 汉室, banner: 麴, troops: crossbow, size: 2.0, cue: 弩手, grow: 2.4}
+
+  - say: 换章的时候，用一团墨晕铺满画面，再慢慢散开，进入下一章。
+    sources: [demo]
+    show:
+      - act: {act: inkwash, text: 官渡之战, sub: 第三章, cue: 墨晕, for: 3.2}
+
+  - say: 屯田的时候，许县周围的田地一块一块由黄变绿，粮食堆满了粮仓。
+    sources: [demo]
+    camera: {focus: 洛阳, zoom: 3.5, move: 1.0}
+    show:
+      - act: {act: farm, at: 洛阳, text: 许下屯田, cue: 屯田}
+      - card: {title: 屯田, body: 招募流民耕种，一年得谷百万斛, cue: 粮仓}
+
+  - say: 夜袭的时候，天色变暗，几处营地点起火把，标题用墨色笔刷压在画面中间。
+    sources: [demo]
+    camera: {focus: [陈留, 长社], zoom: fit, move: 1.0}
+    show:
+      - act: {act: night, places: [陈留, 长社], text: 夜袭, cue: 夜袭}
+      - headline: {text: 火烧乌巢, sub: 建安五年 · 公元200年, cue: 标题, for: 3.0}
+      - title_bar: {text: 动作库演示, sub: 第三批素材, cue: 笔刷, for: 2.8}

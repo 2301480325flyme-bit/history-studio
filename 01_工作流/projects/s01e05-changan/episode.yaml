@@ -1,0 +1,358 @@
+# 快节奏版（2026-10-13，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第5集：李傕郭汜攻破长安，曹操收编青州兵、血洗徐州、后院起火（192–195）
+# 2026-10-11 按故事稿写成旁白。关键原文均在本地语料核过：贾诩"一亭长能束君"（贾诩传 / 后汉书董卓传）；
+# 王允"奉身以死之"（后汉书·王允传）；吕布"卓死后六旬…出武关"（吕布传、武帝纪）；"青州黄巾众百万入兖州"、
+# 鲍信"刻木如信形状"、"受降卒三十余万，男女百余万口…号为青州兵"、"谷一斛五十余万钱，人相食；陶谦死，刘备代之"（武帝纪）；
+# "泗水为之不流"（陶谦传）；"所过多所残戮"（武帝纪）；"我若不还，往依孟卓"、"唯鄄城、东阿、范为太祖守"（张邈传）；
+# 荀彧"深根固本""将军当安所归乎"（荀彧传）；傕汜相攻（后汉书·董卓列传）。
+
+id: s01e05-changan
+title: 李傕郭汜破长安
+series: 三国 · 第5集
+year: 192
+
+notes:
+  - 主线问题：董卓死了，天下为什么更乱了？
+  - 曹嵩之死：武帝纪说"为陶谦所害"，裴注说法不一。旁白说"死在陶谦的地盘上，曹操认定是陶谦干的"。
+  - 屠徐州：不报具体杀人数（后汉书"数十万"可能夸大），只说"死者万数，泗水为之不流"和"所过多有屠戮"。
+  - 刘备接徐州不用"三让徐州"（演义加工）。
+
+map:
+  center: [114.0, 33.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  river_rank: 4
+
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 一句话，让十几万西凉兵杀回长安
+  big: [一亭长能束君]
+  hero: 贾诩
+  at: 30
+  summary: |
+    董卓一死，王允拒绝赦免西凉旧部。谋士贾诩一句话，让走投无路的李傕、郭汜杀回长安：吕布出逃，王允殉国，天子又落入武夫之手。
+    东边，曹操收编三十万青州兵起家，为父报仇两征徐州，却被老友张邈、谋士陈宫从背后捅了一刀，兖州只剩三座城。
+  tags: [李傕郭汜, 贾诩, 曹操, 吕布, 青州兵]
+  next: 落难天子，谁来接？
+
+sources_local:
+  - {id: sgz-01, work: 三国志, volume: 卷一·武帝纪, url: 'https://zh.wikisource.org/wiki/三國志/卷01'}
+  - {id: sgz-07, work: 三国志, volume: 卷七·吕布传、张邈传, url: 'https://zh.wikisource.org/wiki/三國志/卷07'}
+  - {id: sgz-08, work: 三国志, volume: 卷八·陶谦传, url: 'https://zh.wikisource.org/wiki/三國志/卷08'}
+  - {id: sgz-10, work: 三国志, volume: 卷十·荀彧传、贾诩传, url: 'https://zh.wikisource.org/wiki/三國志/卷10'}
+  - {id: hhs-66, work: 后汉书, volume: 卷六十六·王允传, url: 'https://zh.wikisource.org/wiki/後漢書/卷66'}
+  - {id: hhs-72, work: 后汉书, volume: 卷七十二·董卓列传, url: 'https://zh.wikisource.org/wiki/後漢書/卷72'}
+
+factions: {汉室: '#b8462f', 凉州军: '#5a4a6a', 吕布: '#8a3a2a', 曹操: '#2f5d3a', 黄巾: '#d9a521', 陶谦: '#3f6f7f', 刘备: '#5f8f3a', 袁绍: '#27587e', 刘岱: '#6b6258'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    汉室: {slot: stone, main: true, label_at: 寿春}
+    凉州军: {slot: lavender, label_at: 长安}
+    袁绍: {slot: sky, label_at: 邺}
+    公孙瓒: {slot: orange, label_at: 蓟}
+    刘岱: {slot: tan, label_at: 濮阳}
+    黄巾: {slot: lemon, label_at: 济北}
+    曹操: {slot: jade, label_at: 鄄城}
+    吕布: {slot: brick, label_at: 濮阳}
+    陶谦: {slot: aqua, label_at: 郯}
+    刘备: {slot: pink, label_at: 下邳}
+    袁术: {slot: rose, label_at: 鲁阳}
+    刘表: {slot: olive, label_at: 襄阳}
+    刘焉: {slot: lime, label_at: 绵竹}
+
+people:
+  李傕: {image: 03_素材/人物立绘/li_jue.png, title: 校尉, role: 董卓旧部, faction: 凉州军}
+  郭汜: {image: 03_素材/人物立绘/guo_si.png, title: 校尉, role: 董卓旧部, faction: 凉州军}
+  贾诩: {image: 03_素材/人物立绘/jia_xu.png, title: 讨虏校尉, role: 一言乱天下, faction: 凉州军}
+  吕布: {image: 03_素材/人物立绘/lv_bu.png, title: 奋威将军, role: 刺董之后, faction: 吕布}
+  王允: {image: 03_素材/人物立绘/wang_yun.png, title: 司徒, role: 守长安, faction: 汉室}
+  曹操: {image: 03_素材/人物立绘/cao_cao.png, title: 兖州牧, role: 收青州兵, faction: 曹操}
+  鲍信: {image: 03_素材/人物立绘/bao_xin.png, title: 济北相, role: 迎曹操, faction: 曹操}
+  陶谦: {image: 03_素材/人物立绘/tao_qian.png, title: 徐州牧, role: 坐镇郯城, faction: 陶谦}
+  张邈: {image: 03_素材/人物立绘/zhang_miao.png, title: 陈留太守, role: 叛迎吕布, faction: 吕布}
+  陈宫: {image: 03_素材/人物立绘/chen_gong.png, title: 曹操谋士, role: 叛迎吕布, faction: 吕布}
+  荀彧: {image: 03_素材/人物立绘/xun_yu.png, title: 司马, role: 守鄄城, faction: 曹操}
+  刘备: {image: 03_素材/人物立绘/liu_bei.png, title: 豫州刺史, role: 接掌徐州, faction: 刘备}
+
+places:
+  长安: {id: changan_han_city, label: below, tier: capital}
+  陕: {id: shan, label: right}
+  武关: {id: wuguan, label: right}
+  洛阳: {id: luoyang_han_wei, label: left}
+  临淄: {id: linzi, name: 青州, label: right}
+  济北: {id: jibei, label: right}
+  濮阳: {id: puyang_c, label: left}
+  鄄城: {id: juancheng, label: right}
+  范: {id: fan, label: above}
+  东阿: {id: donga, label: right}
+  陈留: {id: chenliu_han, label: below}
+  定陶: {id: dingtao, label: below}
+  彭城: {id: pengcheng, label: right}
+  郯: {id: tan, label: right}
+  下邳: {id: xiapi, label: right}
+  邺: {id: ye_city, label: right}
+  蓟: {id: ji_yan, label: right}
+  鲁阳: {id: luyang_county, label: right}
+  襄阳: {id: xiangyang, label: right}
+  寿春: {id: shouchun, label: right}
+  绵竹: {id: mianzhu_old, label: right}
+
+camera:
+  focus: [陕, 长安]
+  zoom: 2.4
+
+beats:
+  # ---------------- 第一章 长安之乱 ----------------
+  - say: 诸位要是扔下部队各自逃命，一个小小的亭长，就能把你们绑了！不如杀回长安！
+    map: '192-04'
+    year: 192
+    phase: 长安之乱
+    speaker: 贾诩
+    style: 冷静老辣，不紧不慢，句句扎心
+    scene: 军帐
+    to: 李傕
+    sources: [sgz-10, hhs-72]
+    show:
+      - sfx: 重拍转场
+
+  - say: 就这一句话，十几万西凉兵杀回了长安。董卓死了，天下反而更乱了。
+    sources: [sgz-10]
+    show:
+      - quote: {text: 诸君弃众单行，即一亭长能束君矣, source: 三国志·贾诩传, era: 初平三年}
+      - army: {from: 陕, to: 长安, faction: 凉州军, banner: 李, troops: cavalry, size: 3.2, grow: 3.0}
+      - sfx: {name: 骑兵行军, len: 6}
+
+  - say: 说回头。王允不肯赦免董卓的旧部，屯在陕县的李傕、郭汜正要散伙逃命，是贾诩拦住了他们。
+    sources: [hhs-72]
+    camera: {focus: [陕, 长安], zoom: fit, move: 2.0}
+    show:
+      - title_bar: {text: 李傕郭汜破长安, sub: 三国 · 第5集, for: 3.2}
+      - sfx: 片头鼓
+      - flag: {at: 陕, name: 李傕 · 郭汜, sub: 董卓旧部, faction: 凉州军, cue: 李傕}
+      - enter: {who: 贾诩, side: right, cue: 贾诩, for: 3}
+
+  - say: 长安城破。吕布带着几百骑兵往东逃走。离他刺杀董卓，还不到六十天。
+    sources: [sgz-07, sgz-01]
+    camera: {focus: [长安, 武关], zoom: fit, move: 1.4}
+    show:
+      - battle: {at: 长安, text: 长安城破, cue: 城破}
+      - flee: {from: 长安, to: 武关, faction: 吕布, cue: 往东逃走}
+
+  - say: 吕布招呼王允一起走。王允摇了摇头：
+    scene: 宫门
+    sources: [hhs-66]
+    camera: {focus: 长安, zoom: 4, move: 1.2}
+    show:
+      - versus: {left: 吕布, right: 王允, label: 去留, for: 6}
+
+  - say: 皇上年纪还小，只能依靠我。大难临头自己逃命，我做不到！
+    speaker: 王允
+    style: 苍凉悲壮，平静而决绝，视死如归
+    scene: 宫门
+    to: 吕布
+    sources: [hhs-66]
+
+  - say: 王允被杀。汉献帝，又落到了一群西凉武夫手里。
+    scene: 宫门
+    sources: [hhs-72, hhs-66]
+    map: '192-06'
+    show:
+      - exit: {who: 王允, at: 长安, verb: 殉, cue: 被杀, portrait: true}
+      - sfx: {name: 疆域易手, cue: 西凉武夫}
+
+  - say: 后来有人要给贾诩封侯。他说：那只是一条保命的计策，算什么功劳？
+    sources: [sgz-10]
+    show:
+      - card: {title: 救命之计, body: 贾诩："此救命之计，何功之有！", cue: 保命}
+
+  # ---------------- 第二章 青州兵 ----------------
+
+  - say: 再看东边。青州黄巾号称上百万，涌进了兖州。
+    phase: 青州兵
+    sources: [sgz-01]
+    camera: {focus: [临淄, 济北, 濮阳], zoom: fit, move: 1.6}
+    map: '192-07'
+    show:
+      - act: {act: refugees, places: [临淄, 济北], text: 黄巾百万, for: 4}
+      - sfx: {name: 民变, cue: 涌进}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 兖州刺史刘岱不听劝，硬要出城迎战，被黄巾杀了。
+    sources: [sgz-01]
+    show:
+      - flag: {at: 濮阳, name: 刘岱, sub: 兖州刺史, faction: 刘岱, cue: 刘岱}
+      - exit: {who: 刘岱, at: 濮阳, verb: 亡, cue: 杀了}
+
+  - say: 济北相鲍信，把东郡太守曹操请来，做了兖州牧。
+    sources: [sgz-01]
+    show:
+      - enter: {who: 曹操, at: 濮阳, side: right, cue: 曹操, settle: true, settle_sub: 兖州牧, guest: true}
+      - sfx: {name: 登场, cue: 曹操}
+
+  - say: 仗打得极苦。鲍信战死，连尸体都没找到，士兵们刻了个木头人，对着它痛哭。
+    sources: [sgz-01]
+    camera: {focus: [濮阳, 济北], zoom: fit, move: 1.2}
+    show:
+      - battle: {at: 济北, text: 鲍信战死}
+      - quote: {text: 购求信丧不得，众乃刻木如信形状，祭而哭焉, source: 三国志·武帝纪, era: 初平三年, cue: 木头人}
+
+  - say: 曹操一路追到济北，黄巾投降。他从三十多万降兵里挑出精锐，编成了青州兵。
+    sources: [sgz-01]
+    map: '192-12'
+    show:
+      - headline: {text: 青州兵, sub: 受降卒三十余万, cue: 青州兵, for: 3.2}
+      - card: {title: 青州兵 ≠ 青州, body: 投降的是流进兖州的青州黄巾；青州地盘仍在袁绍、公孙瓒手里争夺, cue: 编成}
+      - sfx: {name: 集结鼓, cue: 编成}
+      - defect: {who: 黄巾, at: 济北, to: 曹操, from: 黄巾, verb: 降, cue: 投降}
+      - sfx: {name: 插旗, cue: 投降}
+
+  - say: 这，就是曹操起家的本钱。
+    sources: [sgz-01]
+
+  # ---------------- 第三章 徐州血仇 ----------------
+
+  - say: 可就在这时，曹操的父亲曹嵩，死在了徐州牧陶谦的地盘上。
+    phase: 徐州血仇
+    sources: [sgz-01, sgz-08]
+    year: 193
+    camera: {focus: [鄄城, 郯], zoom: fit, move: 1.6}
+    map: '193-03'
+    show:
+      - enter: {who: 陶谦, at: 郯, side: right, cue: 陶谦, settle: true, settle_sub: 徐州牧}
+      - card: {title: 曹嵩之死, body: 武帝纪说"为陶谦所害"，裴注诸书说法不一}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 曹操两次东征徐州，杀得泗水都流不动了。史书写他：所过多所残戮。
+    sources: [sgz-08]
+    camera: {focus: [鄄城, 彭城, 郯], zoom: fit, move: 1.4}
+    show:
+      - army: {from: 鄄城, to: 彭城, faction: 曹操, banner: 曹, troops: cavalry, size: 2.4, cue: 东征, grow: 2.4}
+      - battle: {at: 彭城, text: 彭城大战}
+      - quote: {text: 死者万数，泗水为之不流, source: 三国志·陶谦传, era: 初平四年, cue: 泗水}
+      - army: {from: 彭城, to: 郯, faction: 曹操, banner: 曹, troops: infantry, size: 2.4, grow: 2.0}
+      - act: {act: fall, at: 郯, text: 残戮, cue: 残戮, for: 3}
+      - sfx: {name: 凄凉风}
+
+  # ---------------- 第四章 后院起火 ----------------
+
+  - say: 可就在他杀红了眼的时候，后院，着火了。
+    phase: 后院起火
+    sources: [sgz-07]
+    camera: {focus: [陈留, 濮阳, 鄄城], zoom: fit, move: 1.6}
+    show:
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 陈留太守张邈，是曹操最铁的老朋友。曹操出征前交代家人：我回不来，你们就去投奔张邈。
+    sources: [sgz-07]
+    show:
+      - enter: {who: 张邈, at: 陈留, side: left, cue: 张邈, for: 3.4}
+      - quote: {text: 我若不还，往依孟卓, source: 三国志·张邈传, era: 兴平元年, cue: 回不来}
+
+  - say: 可就是这个张邈，和谋士陈宫一起，把吕布迎进了兖州。
+    sources: [sgz-07]
+    show:
+      - enter: {who: 陈宫, side: right, cue: 陈宫, for: 2.8}
+      - army: {from: 武关, to: 濮阳, faction: 吕布, banner: 吕, troops: cavalry, size: 2.0, cue: 迎进, grow: 2.4}
+
+  - say: 兖州几乎全部倒向吕布，曹操只剩三座城：鄄城、范县、东阿。
+    sources: [sgz-07]
+    map: '194-06'
+    show:
+      - sfx: {name: 疆域易手, cue: 倒向吕布}
+      - act: {act: beacon, places: [鄄城, 范, 东阿], text: 仅存三城, cue: 三座城, step: 0.5, for: 4.4}
+
+  - say: 守住这三座城的，是荀彧和程昱。
+    sources: [sgz-07, sgz-10]
+    show:
+      - enter: {who: 荀彧, side: left, cue: 荀彧, for: 3}
+      - flag: {at: 鄄城, name: 荀彧 · 程昱, sub: 守鄄城, faction: 曹操, cue: 程昱}
+
+  - say: 曹操回师，跟吕布在濮阳死磕了一百多天。
+    sources: [sgz-01, sgz-07]
+    camera: {focus: [郯, 濮阳], zoom: fit, move: 1.4}
+    show:
+      - campaign:
+          at: 濮阳
+          title: 濮阳之战
+          clash: 死磕
+          sides:
+            - {from: 郯, faction: 曹操, banner: 曹, troops: infantry, size: 2.2}
+            - {from: 濮阳, faction: 吕布, banner: 吕, troops: cavalry, size: 2.2}
+
+  - say: 偏偏又闹蝗灾，一斛粮卖到五十多万钱，到处人吃人，两边只好收兵。
+    sources: [sgz-01, sgz-07]
+    camera: {focus: 濮阳, zoom: 3.4, move: 1.2}
+    show:
+      - act: {act: locusts, at: 濮阳, text: 蝗灾, cue: 蝗灾, for: 4}
+      - quote: {text: 是岁谷一斛五十余万钱，人相食, source: 三国志·武帝纪, era: 兴平元年, cue: 五十多万钱}
+
+  - say: 这一年，徐州的陶谦病死，临死前把徐州交给了刘备。
+    sources: [sgz-01, sgz-08]
+    camera: {focus: [濮阳, 郯, 下邳], zoom: fit, move: 1.4}
+    map: '194-12'
+    show:
+      - exit: {who: 陶谦, at: 郯, verb: 卒, cue: 病死}
+      - enter: {who: 刘备, at: 下邳, side: right, cue: 刘备, settle: true, settle_sub: 接掌徐州}
+      - sfx: {name: 登场, cue: 刘备}
+
+  # ---------------- 第五章 深根固本 ----------------
+
+  - say: 曹操又想先去抢徐州。荀彧拦住了他：
+    scene: 军帐
+    phase: 深根固本
+    sources: [sgz-10]
+    year: 195
+    show:
+      - versus: {left: 荀彧, right: 曹操, label: 进言, cue: 荀彧, for: 9}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 兖州，就是将军的根本！根本丢了，就算打下徐州，又回哪儿去？
+    speaker: 荀彧
+    style: 从容恳切，条理分明，语气坚定
+    scene: 军帐
+    to: 曹操
+    sources: [sgz-10]
+
+  - say: 曹操听了。第二年，他在定陶大败吕布，夺回了兖州。
+    sources: [sgz-01, sgz-07]
+    camera: {focus: [鄄城, 定陶, 濮阳], zoom: fit, move: 1.4}
+    map: '195-09'
+    show:
+      - battle: {at: 定陶, text: 定陶破吕布}
+      - sfx: {name: 疆域易手}
+
+  - say: 吕布无处可去，往东投奔了刘备。
+    sources: [sgz-07]
+    show:
+      - flee: {from: 定陶, to: 下邳, faction: 吕布, cue: 投奔}
+
+  - say: 而长安城里，李傕、郭汜为了争权，打成了一锅粥。汉献帝，趁乱逃了出去。
+    sources: [hhs-72]
+    camera: {focus: 长安, zoom: 3, move: 1.6}
+    show:
+      - versus: {left: 李傕, right: 郭汜, label: 相攻, for: 4}
+      - sfx: {name: 刀剑交击}
+      - march: {from: 长安, to: 洛阳, faction: 汉室, label: 天子东归, grow: 2.4}
+      - title_bar: {text: 下集, sub: 天子东归 · 曹操迎驾, cue: 趁乱, delay: 0.8, for: 3.0}
+
+  - say: 一个被武夫抢来抢去的皇帝，最后会落到谁手里？
+    sources: [hhs-72]
+

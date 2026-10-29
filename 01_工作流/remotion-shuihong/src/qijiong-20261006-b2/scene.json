@@ -1,0 +1,269 @@
+{
+  "id": "QJ-B2",
+  "durationSec": 26,
+  "fps": 30,
+  "projection": {
+    "center": [
+      113.5,
+      35.1
+    ],
+    "scale": 13318
+  },
+  "places": [
+    {
+      "id": "luoyang_han_wei",
+      "aliases": [
+        "Luoyang",
+        "洛阳",
+        "洛陽"
+      ],
+      "coordinates": [
+        112.6183,
+        34.7195
+      ],
+      "coordinatePrecision": "approximate Han-Wei Luoyang archaeological site point; not palace location",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q11133430",
+      "nameSource": "https://lysrd.henanrd.gov.cn/2025/07-16/223000.html",
+      "names": [
+        {
+          "text": "洛阳",
+          "from": 291,
+          "to": 306
+        }
+      ],
+      "tiers": [
+        {
+          "from": -202,
+          "to": 316,
+          "tier": "capital"
+        },
+        {
+          "from": 316,
+          "to": 494,
+          "tier": "seat"
+        },
+        {
+          "from": 494,
+          "to": 534,
+          "tier": "capital"
+        },
+        {
+          "from": 534,
+          "to": 9999,
+          "tier": "seat"
+        }
+      ],
+      "roles": [
+        "西晋都城，河南尹治所",
+        "都城 · 河南尹治所"
+      ],
+      "usedIn": [
+        "八王之乱-301",
+        "八王之乱-起兵",
+        "八王之乱-永嘉之乱",
+        "八王之乱-洛阳易手",
+        "八王之乱-诸王尽死"
+      ],
+      "reviewNote": "Western Jin capital was at the Han-Wei city site east of modern central Luoyang",
+      "coordinateStatus": "approximate",
+      "coordinatesAlt": [
+        {
+          "value": [
+            112.59631,
+            34.73157
+          ],
+          "source": "dynasty/*/{kings,labels}.json（各集数据）",
+          "deviationKm": 2.42,
+          "adopted": false
+        }
+      ],
+      "coordinateConflict": "recorded-not-resolved"
+    },
+    {
+      "id": "xuchang_approx",
+      "aliases": [
+        "Xuchang",
+        "許昌",
+        "许昌"
+      ],
+      "coordinates": [
+        114.00971,
+        33.99189
+      ],
+      "coordinatePrecision": "approximate modern Xuchang locality inherited from the pilot; not verified as the exact 301 CE city site",
+      "coordinateSource": "Legacy pilot approximation from director-v10a.json; no exact ancient-site georeference asserted",
+      "nameSource": "https://zh.wikisource.org/wiki/晉書/卷059",
+      "names": [
+        {
+          "text": "许昌",
+          "from": 0,
+          "to": 9999
+        }
+      ],
+      "tiers": [
+        {
+          "from": -202,
+          "to": 196,
+          "tier": "seat"
+        },
+        {
+          "from": 196,
+          "to": 220,
+          "tier": "capital"
+        },
+        {
+          "from": 220,
+          "to": 9999,
+          "tier": "seat"
+        }
+      ],
+      "roles": [
+        "颍川郡治，司马冏军镇",
+        "颍川郡治 · 冏起兵地"
+      ],
+      "usedIn": [
+        "八王之乱-301",
+        "八王之乱-起兵",
+        "八王之乱-永嘉之乱",
+        "八王之乱-洛阳易手",
+        "八王之乱-诸王尽死"
+      ],
+      "reviewNote": "Use only as a schematic map anchor for Sima Jiong's recorded association with Xuchang; keep the approximate qualifier visible in the label",
+      "coordinateStatus": "confirmed",
+      "coordinateConflict": "resolved-with-evidence",
+      "coordinateEvidence": {
+        "decision": "adopt-kings-value",
+        "authority": "汉魏许都故城，第七批全国重点文物保护单位（编号 7-0328-1-328）",
+        "authorityCoordinate": [
+          114.01926194,
+          33.98937194
+        ],
+        "adoptedDeviationKm": 0.92,
+        "rejectedValue": [
+          113.85,
+          34.03
+        ],
+        "rejectedReason": "该点位于现代许昌市区，距汉魏许都故城遗址约 16.2 km，非汉代城址；原 places_curated 的 reviewNote 亦自述为「legacy pilot approximation」",
+        "source": "维基百科「汉魏许都故城」（引全国重点文物保护单位公布坐标） + 许昌市建安区张潘镇古城村（村坐标 114.013258, 33.999383）"
+      }
+    },
+    {
+      "id": "yangzhai_approx",
+      "aliases": [
+        "阳翟"
+      ],
+      "coordinates": [
+        113.46706,
+        34.16249
+      ],
+      "coordinatePrecision": "UNVERIFIED — 仅在各集数据中出现，未经策展；需补 coordinateSource",
+      "coordinateSource": null,
+      "nameSource": null,
+      "names": [
+        {
+          "text": "阳翟",
+          "from": null,
+          "to": null,
+          "note": "年代范围未考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "颍川郡属，司马冏起兵屯兵处",
+        "颍川属县 · 冏屯兵处"
+      ],
+      "usedIn": [
+        "八王之乱-301",
+        "八王之乱-起兵",
+        "八王之乱-永嘉之乱",
+        "八王之乱-洛阳易手",
+        "八王之乱-诸王尽死"
+      ],
+      "reviewNote": "颍川属县，司马冏屯兵处。坐标未策展。",
+      "coordinateStatus": "approximate",
+      "coordinateConflict": "single-source-unverified"
+    }
+  ],
+  "camera": [
+    {
+      "t": 0,
+      "zoom": 1.4,
+      "x": 0,
+      "y": -165
+    },
+    {
+      "t": 4,
+      "zoom": 1.4,
+      "x": 0,
+      "y": -165
+    },
+    {
+      "t": 6,
+      "zoom": 1.6,
+      "x": 65,
+      "y": -230
+    },
+    {
+      "t": 12,
+      "zoom": 1.6,
+      "x": 65,
+      "y": -230
+    },
+    {
+      "t": 16,
+      "zoom": 1.45,
+      "x": 40,
+      "y": -175
+    },
+    {
+      "t": 18,
+      "zoom": 1.45,
+      "x": 40,
+      "y": -175
+    },
+    {
+      "t": 21,
+      "zoom": 1.65,
+      "x": 150,
+      "y": -145
+    },
+    {
+      "t": 26,
+      "zoom": 1.65,
+      "x": 150,
+      "y": -145
+    }
+  ],
+  "beats": [
+    {
+      "from": 0,
+      "to": 6,
+      "phase": "三月 · 阳翟集结",
+      "caption": "齐王冏起兵讨伦，屯于阳翟。"
+    },
+    {
+      "from": 6,
+      "to": 12,
+      "phase": "诸王响应 · 讨伦声势",
+      "caption": "传檄州郡，诸王举兵响应。"
+    },
+    {
+      "from": 12,
+      "to": 18,
+      "phase": "四月 · 阳翟战事",
+      "caption": "冏将于阳翟击败张泓。"
+    },
+    {
+      "from": 18,
+      "to": 23,
+      "phase": "四月 · 洛阳宫变",
+      "caption": "王舆等诛孙秀、逐伦，迎惠帝复位。"
+    },
+    {
+      "from": 23,
+      "to": 26,
+      "phase": "复位之后 · 伦败亡",
+      "caption": "司马伦随后被诛。"
+    }
+  ]
+}

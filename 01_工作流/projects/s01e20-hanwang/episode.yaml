@@ -1,0 +1,273 @@
+# 快节奏版（2026-10-14，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第20集：曹操病逝、曹丕代汉、刘备称帝、于禁之死、张飞遇害（220–221）
+# 本地语料核对：
+# 武帝纪"庚子，王崩于洛阳，年六十六。遗令曰：天下尚未安定，未得遵古也…敛以时服，无藏金玉珍宝"；
+# 文帝纪"汉帝以众望在魏…使兼御史大夫张音持节奉玺绶禅位…乃为坛于繁阳。庚午，王升坛即阼…改延康为黄初"；"以河内之山阳邑万户奉汉帝为山阳公，行汉正朔，以天子之礼郊祭，上书不称臣"；"孙权遣使奉章，并遣于禁等还…封吴王，加九锡"；
+# 先主传"魏文帝称尊号，改年曰黄初。或传闻汉帝见害，先主乃发丧制服…即皇帝位于成都武担之南…操子丕，载其凶逆，窃居神器…备宜修之"；
+# 于禁传"帝引见禁，须发皓白，形容憔瘁，泣涕顿首…欲遣使吴，先令北诣邺谒高陵。帝使豫于陵屋画关羽战克、庞德愤怒、禁降服之状。禁见，惭恚发病薨"；
+# 张飞传"先主常戒之曰：卿刑杀既过差，又日鞭挝健儿，而令在左右，此取祸之道也。飞犹不悛。先主伐吴，飞当率兵万人，自阆中会江州。临发，其帐下将张达、范强杀之，持其首，顺流而奔孙权。飞营都督表报先主，先主闻飞都督之有表也，曰：噫！飞死矣"。
+# 吴主传"二年四月，刘备称帝于蜀。权自公安都鄂，改名武昌"。
+# 不用：曹丕"舜禹之事，吾知之矣"（魏氏春秋，注文，本地语料未收）；七步诗（世说新语，不属正史）。
+
+id: s01e20-hanwang
+title: 汉亡
+series: 三国 · 第20集
+year: 220
+
+notes:
+  - 主线问题：四百年的大汉，怎么一仗没打就没了？——兵、地、官早就姓了曹；禅让，只是把最后一块招牌摘下来。
+  - 反差：改朝换代没流一滴血；被"让"掉皇位的汉献帝，反而好好地活了下去。
+  - 细节：曹操遗令"穿平常衣服下葬，不放金玉"；繁阳筑坛；于禁须发皓白，看见陵屋壁画羞愤而死；刘备一听是都督上表，就知道"飞死矣"。
+  - 动机：刘备称帝的理由——汉帝传闻遇害，曹丕"窃居神器"，汉朝的香火由他来接。
+  - 演义对照：曹植七步诗出自《世说新语》，不是正史。
+
+map:
+  center: [111.0, 32.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-17 史图风
+  river_rank: 4
+  palette: warm          # 2026-10-25 第18集起统一新样式（第27集试样通过）
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 四百年的大汉，一仗没打就没了
+  big: [汉亡]
+  hero: 曹丕
+  at: 30
+  summary: |
+    220 年正月，曹操在洛阳病逝，遗令"敛以时服，无藏金玉珍宝"。十月，汉献帝把皇位"让"给曹丕，曹丕在繁阳登坛称帝，东汉灭亡；献帝被封山阳公，好好活了下去。第二年，刘备在成都称帝，国号仍然叫汉。
+    孙权向曹丕称臣，送还于禁——这位老将须发皓白，被派去拜曹操陵墓，墙上画着他跪地投降的样子，他羞愤病死。刘备要东征报仇，张飞却在出发前被部下杀害。
+  tags: [曹丕称帝, 汉献帝, 刘备称帝, 张飞之死, 于禁]
+  next: 夷陵之战，陆逊火烧连营
+
+sources_local:
+  - {id: sgz-01, work: 三国志, volume: 卷一·武帝纪, url: 'https://zh.wikisource.org/wiki/三國志/卷01'}
+  - {id: sgz-02, work: 三国志, volume: 卷二·文帝纪, url: 'https://zh.wikisource.org/wiki/三國志/卷02'}
+  - {id: sgz-17, work: 三国志, volume: 卷十七·于禁传, url: 'https://zh.wikisource.org/wiki/三國志/卷17'}
+  - {id: sgz-32, work: 三国志, volume: 卷三十二·先主传, url: 'https://zh.wikisource.org/wiki/三國志/卷32'}
+  - {id: sgz-36, work: 三国志, volume: 卷三十六·张飞传, url: 'https://zh.wikisource.org/wiki/三國志/卷36'}
+  - {id: sgz-47, work: 三国志, volume: 卷四十七·吴主传, url: 'https://zh.wikisource.org/wiki/三國志/卷47'}
+
+factions: {曹操: '#2f5d3a', 魏: '#2f5d3a', 刘备: '#5f8f3a', 蜀汉: '#5f8f3a', 孙权: '#b0841f', 吴: '#b0841f'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    曹操: {slot: jade, label_at: 洛阳}
+    魏: {slot: jade, main: true, label_at: 洛阳}
+    刘备: {slot: pink, label_at: 成都}
+    蜀汉: {slot: pink, label_at: 成都}
+    孙权: {slot: lemon, label_at: 武昌}
+    吴: {slot: lemon, label_at: 武昌}
+
+people:
+  曹操: {image: 03_素材/人物立绘/cao_cao.png, title: 魏王, role: 病逝洛阳, faction: 曹操}
+  曹丕: {image: 03_素材/人物立绘/cao_pi.png, title: 魏文帝, role: 受禅称帝, faction: 魏}
+  汉献帝: {image: 03_素材/人物立绘/liu_xie.png, title: 汉献帝, role: 禅位, faction: 魏}
+  刘备: {image: 03_素材/人物立绘/liu_bei.png, title: 汉昭烈帝, role: 成都称帝, faction: 蜀汉}
+  孙权: {image: 03_素材/人物立绘/sun_quan.png, title: 吴王, role: 称藩于魏, faction: 吴}
+  于禁: {image: 03_素材/人物立绘/yu_jin.png, title: 安远将军, role: 惭恚而死, faction: 魏}
+  张飞: {image: 03_素材/人物立绘/zhang_fei.png, title: 车骑将军, role: 遇害阆中, faction: 蜀汉}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: right, tier: capital}
+  许: {id: xuchang_approx, label: right}
+  繁阳: {id: fanyang_ting, label: left}
+  邺: {id: ye_city, label: right}
+  成都: {id: chengdu_city, label: left, tier: capital}
+  阆中: {id: langzhong, name: 阆中, label: right}
+  江州: {id: jiangzhou_chongqing, label: right}
+  武昌: {id: wuchang_e, label: right}
+  公安: {id: gongan_han, label: left}
+  白帝: {id: baidicheng, label: right}
+
+camera:
+  focus: [洛阳, 成都, 武昌]
+  zoom: 2.0
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 四百年的大汉，没打一仗，就这么没了。
+    map: '219-12'
+    year: 220
+    phase: 汉亡
+    sources: [sgz-02]
+    camera: {focus: [洛阳, 许, 繁阳], zoom: fit, move: 1.6}
+    show:
+      - sfx: 重拍转场
+      - enter: {who: 汉献帝, side: right, cue: 大汉, for: 4}
+
+  - say: 送走它的，是曹操的儿子，曹丕。
+    sources: [sgz-02]
+    show:
+      - enter: {who: 曹丕, side: left, cue: 曹丕, for: 3.4}
+
+  # ---------------- 第一章 遗令 ----------------
+  - say: 公元二二零年正月，曹操在洛阳病逝，终年六十六岁。
+    phase: 遗令
+    sources: [sgz-01]
+    camera: {focus: 洛阳, zoom: 5, move: 1.2}
+    show:
+      - title_bar: {text: 汉亡, sub: 三国 · 第20集, for: 3.2}
+      - sfx: 片头鼓
+      - exit: {who: 曹操, at: 洛阳, verb: 卒, portrait: true, cue: 病逝}
+      - sfx: {name: 退场钟, cue: 病逝}
+
+  - say: 他留下遗言：天下还没安定，丧事从简。穿平常的衣服下葬，不放金玉珍宝。
+    sources: [sgz-01]
+    show:
+      - quote: {text: 敛以时服，无藏金玉珍宝, source: 三国志·武帝纪, era: 建安二十五年, cue: 平常的衣服, for: 4.4}
+
+  - say: 长子曹丕，接过了魏王的位子。
+    sources: [sgz-02]
+
+  # ---------------- 第二章 禅让 ----------------
+  - say: 这年十月，汉献帝派人捧着玉玺，把皇位"让"给了曹丕。
+    phase: 禅让
+    sources: [sgz-02]
+    camera: {focus: [许, 繁阳], zoom: 8, move: 1.2}
+    show:
+      - act: {act: prop, at: 许, item: 玉玺, text: 奉玺绶禅位, cue: 玉玺, size: 1.2, for: 4}
+
+  - say: 曹丕在繁阳筑起高坛，登坛即位，改年号黄初。东汉，灭亡了。
+    map: '220-10'
+    owners_cue: 灭亡
+    sources: [sgz-02]
+    show:
+      - act: {act: enthrone, who: 曹丕, cue: 登坛, for: 4}
+      - headline: {text: 魏代汉, sub: 黄初元年, cue: 灭亡, for: 3.4}
+      - sfx: {name: 铜锣, cue: 登坛}
+
+  - say: 汉献帝被封为山阳公，还能用天子的礼仪祭祀，给皇帝上书不用称臣。他好好地活了下去。
+    sources: [sgz-02]
+    show:
+      - vignette: {image: illus_caopi_altar, cue: 山阳公, for: 7, text: 繁阳受禅}
+
+  - say: 其实从曹操把他接到许县算起，二十多年了，皇帝早就只剩一个名号。
+    sources: [sgz-02]
+
+  # ---------------- 第三章 两个皇帝 ----------------
+  - say: 消息传到成都，还有传言说，汉献帝已经被害了。
+    audit_ok: [死亡]
+    phase: 两个皇帝
+    year: 221
+    sources: [sgz-32]
+    camera: {focus: [洛阳, 成都], zoom: fit, move: 1.6}
+
+  - say: 刘备给献帝发丧，第二年四月，在成都武担山南登基称帝，国号还叫汉。
+    map: '221-04'
+    owners_cue: 称帝
+    sources: [sgz-32]
+    camera: {focus: 成都, zoom: 5, move: 1.2}
+    show:
+      - enter: {who: 刘备, side: left, cue: 刘备, for: 3.6}
+      - headline: {text: 刘备称帝, sub: 章武元年, cue: 称帝, for: 3.2}
+
+  - say: 他的理由很直接：曹丕篡位，汉朝的香火，由我来接。
+    sources: [sgz-32]
+
+  - say: 孙权呢？他把都城搬到武昌，转头向曹丕称臣，还把关了两年的于禁送了回去。
+    sources: [sgz-47, sgz-02]
+    camera: {focus: [武昌, 洛阳], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 孙权, side: right, cue: 孙权, for: 3}
+      - act: {act: courier, places: [武昌, 洛阳], text: 奉章称藩, cue: 称臣, grow: 1.8, for: 3.4}
+
+  - say: 于禁回来时，胡子头发全白了，憔悴不堪，跪在地上直哭。
+    sources: [sgz-17]
+    show:
+      - enter: {who: 于禁, side: left, cue: 于禁, for: 4}
+
+  - say: 曹丕让他先去邺城，拜曹操的陵墓。陵屋的墙上，早就画好了：关羽得胜、庞德怒骂、于禁跪地投降。
+    audit_ok: [投降]
+    territory_hold: 拜陵，邺没有易手
+    scene: 陵屋
+    sources: [sgz-17]
+    camera: {focus: 邺, zoom: 6, move: 1.2}
+    show:
+      - card: {title: 陵屋壁画, body: 画关羽战克、庞德愤怒、禁降服之状, cue: 墙上}
+
+  - say: 于禁看了，又羞又恨，没多久就病死了。
+    sources: [sgz-17]
+    show:
+      - exit: {who: 于禁, at: 邺, verb: 卒, portrait: true, cue: 病死}
+
+  - say: 八月，曹丕封孙权为吴王。
+    map: '221-08'
+    owners_cue: 吴王
+    sources: [sgz-02]
+    camera: {focus: [洛阳, 成都, 武昌], zoom: fit, move: 1.4}
+
+  # ---------------- 第四章 张飞 ----------------
+  - say: 刘备称帝后的第一件大事：东征孙权，替关羽报仇。
+    phase: 张飞
+    sources: [sgz-36]
+    show:
+      - arrow: {from: 成都, to: 白帝, kind: direction, faction: 蜀汉, cue: 东征, grow: 1.6}
+
+  - say: 张飞带一万人，要从阆中出发，到江州会合。
+    sources: [sgz-36]
+    camera: {focus: [阆中, 江州, 成都], zoom: fit, move: 1.4}
+    tells: [e04]
+    show:
+      - enter: {who: 张飞, side: right, cue: 张飞, for: 3.4}
+      - flag: {at: 阆中, name: 张飞, sub: 率兵万人, faction: 蜀汉, cue: 阆中}
+      - arrow: {from: 阆中, to: 江州, kind: direction, faction: 蜀汉, cue: 江州, grow: 1.6}   # 2026-10-25 战事账：临发遇害，没有真的出发，只画打算
+
+  - say: 刘备早就警告过他：你杀人太多，又天天鞭打士兵，还把他们留在身边，迟早要出事。
+    sources: [sgz-36]
+
+  - say: 张飞没改。临出发，部将张达、范强杀了他，提着他的头，顺江投奔了孙权。
+    sources: [sgz-36]
+    camera: {focus: 阆中, zoom: 8, move: 1.2}
+    show:
+      - exit: {who: 张飞, at: 阆中, verb: 卒, portrait: true, cue: 杀了他}
+      - flee: {from: 阆中, to: 武昌, faction: 吴, cue: 投奔}
+
+  - say: 张飞营里的都督送来奏表。刘备一听是都督上表，不是张飞自己，就说：
+    sources: [sgz-36]
+
+  - say: 唉！张飞，死了。
+    audit_ok: [死亡]
+    speaker: 刘备
+    style: 一声长叹，声音发颤，强忍悲痛
+    sources: [sgz-36]
+
+  - say: 四百年的大汉，怎么一仗没打就没了？兵、地、官，早就姓了曹。禅让，只是把最后一块招牌摘了下来。
+    sources: [sgz-02]
+    camera: {focus: [洛阳, 成都, 武昌], zoom: fit, move: 1.6}
+    show:
+      - card: {title: 演义 vs 正史, body: 曹植七步诗出自《世说新语》，不是正史, cue: 招牌}
+
+  - say: 如今洛阳一个皇帝，成都一个皇帝，武昌还有一个吴王。
+    sources: [sgz-02, sgz-32, sgz-47]
+    show:
+      - headline: {text: 三国鼎立, sub: 公元二二一年, cue: 吴王, for: 3.2}
+
+  - say: 曹丕称帝，你觉得是篡位，还是水到渠成？
+    sources: [sgz-02]
+
+  - say: 刘备不听劝阻，亲率大军顺江东下。等着他的，是一个书生：陆逊。
+    sources: [sgz-32]
+    camera: {focus: [白帝, 公安, 武昌], zoom: fit, move: 1.6}
+    show:
+      - title_bar: {text: 下集, sub: 夷陵之战, cue: 陆逊, delay: 0.4, for: 3.0}

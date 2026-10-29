@@ -1,0 +1,308 @@
+# 快节奏版（2026-10-25）
+# 《三国到隋》第32集 · 两晋：赵王伦篡位，三王起兵（301）。大纲第 28 条。
+# 本地语料核对（晋书）：
+# 惠帝纪 p00098 永宁元年"春正月乙丑，赵王伦篡帝位。丙寅，迁帝于金墉城，号曰太上皇"；"三月，平东将军、齐王冏起兵以讨伦，传檄州郡，屯于阳翟。征北大将军、成都王颖，征西大将军、河间王颙…皆举兵应之，众数十万。伦遣其将闾和出伊阙，张泓、孙辅出堮坂以距冏，孙会、士猗、许超出黄桥以距颍"；"辛酉，左卫将军王舆…勒兵入宫，禽伦党孙秀…逐伦归第，即日乘舆反正"（正月乙丑至四月辛酉，中有闰三月，约一百一十六天，旁白说"一百多天"）；
+# 赵王伦传 p04588"秀使牙门赵奉诈为宣帝神语，命伦早入西宫…惠帝乘云母车，卤簿数百人，自华林西门出居金墉城"；"每朝会，貂蝉盈坐，时人为之颜曰：貂不足，狗尾续"；
+#   p04594 王舆"率营兵七百余人自南掖门入…秀闭中书南门。舆放兵登墙烧屋，秀及超、猗遽走出，左卫将军赵泉斩秀等以徇"；
+#   p04596"遣尚书袁敞持节赐伦死，饮以金屑苦酒。伦惭，以巾覆面，曰：孙秀误我！孙秀误我！…自兵兴六十余日，战所杀害仅十万人"；
+# 成都王颖传 p04625"至朝歌，众二十余万。赵骧至黄桥，为伦将士猗、许超所败，死者八千余人，士众震骇。颖欲退保朝歌，用卢志、王彦策，又使赵骧率众八万…未及温十余里，复大战，猗等奔溃。颖遂过河，乘胜长驱"；p04626 卢志劝葬黄桥战亡者，"颖乃造棺八千余枚…葬于黄桥北"；
+# 齐王冏传"冏屯军阳翟…冏军失利，坚垒自守。会成都军破伦众于黄桥，冏乃出军攻和等，大破之"；"率众入洛，顿军通章署，甲士数十万"；"大筑第馆…毁坏庐舍以百数…与西宫等"。
+# 不用：堮坂、通章署、南掖门的精确地点（未核，地图只画到伊阙、阳翟、黄桥、温、洛阳）；黄桥坐标只是候选（淇县西），旁白只说"黄桥"不说今地；伦被赐死的具体地点（金墉城，按惠帝纪"诛赵王伦"、伦传"赐伦死"画在洛阳）。
+
+id: s01e32-zhaowang
+title: 赵王伦篡位
+series: 两晋 · 第32集
+year: 301
+
+notes:
+  - 主线问题：赵王伦抢到了皇位，为什么只坐了一百多天？——他手里只有洛阳的禁军，而晋武帝早把兵分到了各地王府里；三个王一起兵，几十万人压过来，洛阳城里的人先倒了戈。
+  - 钩子候选：①"六十多天，死了将近十万人，只为赶走一个皇帝"（反差3 具体3 悬念3 兑现3=12）②"狗尾续貂，说的就是他"（反差2 具体2 悬念2 兑现3=9）③"他当了一百天皇帝，临死只喊一句：孙秀害我"（反差2 具体3 悬念2 兑现3=10）→ 选①，③做结尾高潮。
+  - 反差：孙秀找人扮司马懿显灵；貂尾不够用狗尾凑；黄桥大败八千人，成都王却没退，下一仗大胜；赶走篡位的赵王，迎来骄横的齐王。
+  - 细节：云母车、金墉城；狗尾续貂；八千口棺材；七百人从南掖门杀进宫、爬墙放火；头巾蒙脸"孙秀误我"。
+  - 动机：孙秀怕赵王只当相国不够稳；成都王听卢志的"退了士气就散了"。
+  - 演义对照卡：结尾卡用"成语出处"——狗尾续貂，出自本集。
+
+map:
+  center: [113.5, 34.5]
+  scale: 5000
+  extent: [86.0, 12.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas
+  river_rank: 4
+  palette: warm
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 六十多天，死了将近十万人，只为赶走一个皇帝
+  big: [赵王伦篡位, 狗尾续貂]
+  hero: 司马伦
+  at: 3
+  summary: |
+    301 年正月，赵王司马伦在孙秀撺掇下逼晋惠帝"禅让"，把傻皇帝用云母车送进金墉城，自己称帝；为收买人心滥封官爵，貂尾不够用狗尾凑，留下"狗尾续貂"。
+    三月齐王司马冏在许昌起兵，成都王司马颖、河间王司马颙响应，众数十万。成都王先锋在黄桥大败、死者八千余人，他听卢志的没有退，在温县附近大破伦军渡河；齐王也在阳翟反败为胜。四月王舆率七百人从南掖门杀进宫，斩孙秀，惠帝复位。赵王饮金屑酒前以巾覆面："孙秀误我！"六十余日的仗，死者近十万。随后齐王率数十万甲士入洛辅政，大修府第。
+  tags: [西晋, 赵王伦, 狗尾续貂, 齐王冏, 成都王颖, 八王之乱]
+  next: 长沙王成都王河间王混战
+
+sources_local:
+  - {id: js-04, work: 晋书, volume: 卷四·惠帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷004'}
+  - {id: js-59, work: 晋书, volume: 卷五十九·赵王伦传、齐王冏传、成都王颖传, url: 'https://zh.wikisource.org/wiki/晉書/卷059'}
+
+factions: {晋: '#2f5d3a', 齐王: '#d9822b', 成都王: '#3f8fc4', 河间王: '#8c7bb8'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    晋: {slot: jade, main: true, label_at: 洛阳}
+    齐王: {slot: orange, label_at: 许昌}
+    成都王: {slot: sky, label_at: 邺}
+    河间王: {slot: lavender, label_at: 长安}
+
+people:
+  司马伦: {image: 03_素材/人物立绘/sima_lun.png, title: 赵王, role: 篡位称帝, faction: 晋}
+  司马衷: {image: 03_素材/人物立绘/sima_zhong.png, title: 晋惠帝, role: 太上皇, faction: 晋}
+  司马冏: {image: 03_素材/人物立绘/sima_jiong.png, title: 齐王, role: 首倡起兵, faction: 齐王}
+  司马颖: {image: 03_素材/人物立绘/sima_ying.png, title: 成都王, role: 黄桥之战, faction: 成都王}
+  司马颙: {image: 03_素材/人物立绘/sima_yong.png, title: 河间王, role: 关中响应, faction: 河间王}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: right, tier: capital}
+  许昌: {id: xuchang_approx, name: 许昌, label: right}
+  阳翟: {id: yangzhai_approx, label: left}
+  邺: {id: ye_city, label: right}
+  长安: {id: changan_han_city, label: below}
+  黄桥: {id: huangqiao_301, label: right}
+  温: {id: wenxian, label: left}
+  伊阙: {id: yique, label: below, show: false}
+
+camera:
+  focus: [洛阳, 邺, 许昌]
+  zoom: fit
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 六十多天，死了将近十万人，只为赶走一个皇帝。
+    map: '291-03'
+    year: 301
+    phase: 篡位
+    sources: [js-59]
+    camera: {focus: [洛阳, 邺, 许昌, 长安], zoom: fit, move: 1.2}
+    show:
+      - sfx: 重拍转场
+      - headline: {text: 六十余日 · 十万人, sub: 自兵兴六十余日，战所杀害仅十万人, cue: 十万, for: 3.6}
+
+  - say: 这个皇帝，龙椅才坐了一百多天。
+    sources: [js-04]
+    show:
+      - sfx: {name: 悬疑, delay: 0.2}
+
+  - say: 他叫司马伦，赵王。
+    sources: [js-59]
+    show:
+      - enter: {who: 司马伦, side: right, cue: 司马伦, for: 3.6}
+      - sfx: {name: 帝王登场, cue: 司马伦}
+
+  # ---------------- 第一章 篡位 ----------------
+  - say: 贾南风死后，赵王当了相国。可他的谋士孙秀觉得：还不够。
+    sources: [js-59]
+    camera: {focus: 洛阳, zoom: 6, move: 1.4}
+    show:
+      - title_bar: {text: 赵王伦篡位, sub: 两晋 · 第32集, for: 3.2}
+      - sfx: 片头鼓
+      - flag: {at: 洛阳, name: 赵王, sub: 相国, faction: 晋, cue: 相国, until: beat+3}
+
+  - say: 孙秀找人假扮司马懿显灵，传话说：赵王早该住进皇宫。
+    sources: [js-59]
+    show:
+      - quote: {text: 秀使牙门赵奉诈为宣帝神语，命伦早入西宫, source: 晋书·赵王伦传, cue: 显灵, for: 4}
+      - sfx: {name: 悬疑, cue: 显灵}
+
+  - say: 三零一年正月，赵王逼傻皇帝让位，自己当了皇帝。
+    sources: [js-04]
+    camera: {focus: 洛阳, zoom: 8, move: 1.2}
+    show:
+      - act: {act: enthrone, who: 司马伦, at: 洛阳, text: 篡帝位, sub: 永宁元年正月, cue: 当了皇帝, for: 3.4}
+      - sfx: {name: 称帝, cue: 当了皇帝}
+
+  - say: 傻皇帝坐着云母车被送出宫，关进金墉城，号称太上皇。
+    sources: [js-04, js-59]
+    show:
+      - enter: {who: 司马衷, side: right, cue: 傻皇帝, for: 3.4}
+      - act: {act: prison, at: 洛阳, text: 金墉城, cue: 金墉城, for: 3.2}
+      - sfx: {name: 城门关闭, cue: 金墉城}
+
+  - say: 赵王拼命封官收买人心。官帽上要插貂尾，貂不够用了，就拿狗尾巴来凑。
+    sources: [js-59]
+    tells: [e01]
+    show:
+      - vignette: {image: illus_goutiao_court, cue: 封官, for: 7, text: 狗尾续貂}
+
+  # ---------------- 第二章 三王起兵 ----------------
+  - say: 三月，镇守许昌的齐王司马冏第一个起兵，传檄天下。
+    audit_ok: [遗忘]
+    phase: 三王
+    map: '301-03'
+    sources: [js-04]
+    camera: {focus: [洛阳, 许昌, 阳翟], zoom: fit, move: 1.4}
+    owners_cue: 起兵
+    tells: [e02]
+    show:
+      - enter: {who: 司马冏, side: right, cue: 齐王, for: 3.4}
+      - army: {head: 司马冏, from: 许昌, to: 阳翟, faction: 齐王, banner: 齐, troops: infantry, size: 2.6, cue: 传檄, grow: 1.4}
+      - sfx: {name: 誓师, cue: 起兵}
+
+  - say: 邺城的成都王司马颖、关中的河间王司马颙跟着响应，几十万人马。
+    sources: [js-04]
+    camera: {focus: [洛阳, 邺, 许昌, 长安], zoom: fit, move: 1.4}
+    show:
+      - flag: {at: 邺, name: 成都王, sub: 司马颖, faction: 成都王, cue: 成都王, until: beat+2}
+      - flag: {at: 长安, name: 河间王, sub: 司马颙, faction: 河间王, cue: 河间王, until: beat+2}
+      - sfx: {name: 大军号角, cue: 几十万}
+
+  - say: 赵王兵分三路：一路出伊阙，一路去阳翟顶住齐王，一路北上黄桥，挡成都王。
+    sources: [js-04]
+    camera: {focus: [洛阳, 阳翟, 黄桥], zoom: fit, move: 1.4}
+    tells: [e05, e07]
+    show:
+      - army: {unit: 闾和, from: 洛阳, to: 伊阙, faction: 晋, banner: 伦, troops: infantry, size: 1.8, cue: 伊阙, grow: 1.0, camp: false}
+      - army: {unit: 张泓, from: 洛阳, to: 阳翟, faction: 晋, banner: 伦, troops: infantry, size: 2.2, cue: 阳翟, grow: 1.6, camp: false}
+      - army: {unit: 孙会, from: 洛阳, via: [温], to: 黄桥, faction: 晋, banner: 伦, troops: cavalry, size: 2.4, cue: 黄桥, grow: 1.8}
+
+  - say: 成都王的先锋到了黄桥，一战大败，死了八千多人，全军都慌了。
+    sources: [js-59]
+    camera: {focus: [邺, 黄桥, 温], zoom: fit, move: 1.4}
+    tells: [e03, e08]
+    show:
+      - army: {unit: 赵骧, from: 邺, to: 黄桥, faction: 成都王, banner: 赵, troops: infantry, size: 2.2, cue: 先锋, grow: 1.4, stop: approach, camp: false}
+      - battle: {at: 黄桥, text: 死者八千余人, cue: 大败}
+      - sfx: {name: 刀剑交击, cue: 大败}
+
+  - say: 成都王想退。谋士卢志劝他：一退，士气就散了，再也用不上了。
+    sources: [js-59]
+    show:
+      - enter: {who: 司马颖, side: right, cue: 成都王, for: 3.4}
+
+  - say: 成都王咬牙再打。在温县城外十几里，他大破赵王的兵，渡过黄河，直奔洛阳。
+    sources: [js-59]
+    camera: {focus: [黄桥, 温, 洛阳], zoom: fit, move: 1.4}
+    show:
+      - army: {unit: 赵骧, from: 黄桥, to: 温, faction: 成都王, banner: 成都, troops: infantry, size: 3.0, cue: 再打, grow: 1.4, camp: false}
+      - battle: {at: 温, text: 猗等奔溃, cue: 大破}
+      - army: {unit: 赵骧, from: 温, to: 洛阳, faction: 成都王, banner: 成都, troops: infantry, size: 3.0, cue: 渡过黄河, grow: 1.4, camp: false}
+      - sfx: {name: 大军号角, cue: 渡过黄河}
+
+  - say: 后来，他还让人做了八千口棺材，把黄桥战死的人葬在桥北。
+    sources: [js-59]
+    show:
+      - vignette: {image: illus_huangqiao_coffins, cue: 八千口棺材, for: 5, text: 黄桥北 八千棺}
+
+  - say: 南边，齐王在阳翟先吃了败仗，只能守营。听说黄桥那边赢了，他才杀出来，大破赵军。
+    sources: [js-04, js-59]
+    camera: {focus: [洛阳, 阳翟], zoom: fit, move: 1.4}
+    tells: [e10]
+    show:
+      - battle: {at: 阳翟, text: 大破张泓, cue: 大破赵军}
+      - sfx: {name: 刀剑交击, cue: 杀出来}
+
+  # ---------------- 第三章 伦败 ----------------
+  - say: 四月，洛阳城里先倒了戈。左卫将军王舆带着七百人，从南掖门杀进宫。
+    audit_ok: [易手]
+    phase: 倒戈
+    sources: [js-04, js-59]
+    camera: {focus: 洛阳, zoom: 9, move: 1.2}
+    tells: [e11]
+    show:
+      - battle: {at: 洛阳, text: 南掖门, cue: 杀进宫}
+      - sfx: {name: 城门关闭, cue: 南掖门}
+
+  - say: 孙秀关紧中书省的大门，士兵们爬上墙，放火烧屋。孙秀被逼出来，当场斩首。
+    sources: [js-59]
+    show:
+      - fire: {at: 洛阳, cue: 放火, radius: 1.0, for: 3.6}
+      - sfx: {name: 点火, cue: 放火}
+      - sfx: {name: 处斩, cue: 斩首}
+
+  - say: 赵王被赶回府里。傻皇帝从金墉城接了回来，重新坐上龙椅。
+    sources: [js-04]
+    show:
+      - act: {act: enthrone, who: 司马衷, at: 洛阳, text: 反正, sub: 惠帝复位, cue: 龙椅, for: 3.2}
+
+  - say: 一杯金屑酒，送到赵王面前。他拿头巾蒙住脸，喊了两遍：
+    sources: [js-59]
+    scene: 宫中
+
+  - say: 孙秀害了我！孙秀害了我！
+    speaker: 司马伦
+    style: 又羞又悔，用头巾捂着脸，声音发闷，一遍比一遍绝望
+    scene: 宫中
+    quote: 孙秀误我！孙秀误我！
+    sources: [js-59]
+
+  - say: 从起兵到这天，六十多天，死了将近十万人。
+    sources: [js-59]
+    camera: {focus: [洛阳, 黄桥, 阳翟], zoom: fit, move: 1.4}
+    show:
+      - exit: {who: 司马伦, at: 洛阳, verb: 诛, portrait: true, cue: 这天}
+      - quote: {text: 自兵兴六十余日，战所杀害仅十万人, source: 晋书·赵王伦传, cue: 十万, for: 4}
+      - sfx: {name: 落幕锣, cue: 十万}
+
+  # ---------------- 第四章 齐王 ----------------
+  - say: 齐王带着几十万甲士进了洛阳，留下来辅政。
+    phase: 齐王
+    map: '301-06'
+    owners_cue: 进了洛阳
+    sources: [js-59]
+    camera: {focus: [洛阳, 许昌, 阳翟], zoom: fit, move: 1.4}
+    tells: [e12]
+    show:
+      - army: {head: 司马冏, from: 阳翟, to: 洛阳, faction: 齐王, banner: 齐, troops: infantry, size: 3.2, cue: 进了洛阳, grow: 1.6}
+      - sfx: {name: 凯旋, cue: 进了洛阳}
+
+  - say: 他马上大修府第，拆了上百家民房，盖得跟皇宫一样气派。
+    sources: [js-59]
+    camera: {focus: 洛阳, zoom: 8, move: 1.2}
+    show:
+      - act: {act: prop, at: 洛阳, item: 宫殿, text: 大筑第馆, cue: 府第, size: 1.2, for: 3.4}
+      - quote: {text: 大筑第馆…毁坏庐舍以百数…与西宫等, source: 晋书·齐王冏传, cue: 皇宫, for: 4}
+
+  # ---------------- 收 ----------------
+  - say: 赵王为什么只当了一百多天皇帝？他手里只有洛阳的禁军，而刀，早就分到了各地的王府里。
+    sources: [js-04]
+    camera: {focus: [洛阳, 邺, 许昌, 长安], zoom: fit, move: 1.6}
+    show:
+      - flag: {at: 邺, name: 成都王, faction: 成都王, cue: 王府}
+      - flag: {at: 长安, name: 河间王, faction: 河间王, cue: 王府}
+
+  - say: 赶走了一个篡位的王，迎来了一个骄横的王。
+    sources: [js-59]
+    show:
+      - headline: {text: 一个王走了, sub: 另一个王来了, cue: 骄横, for: 3.4}
+      - sfx: {name: 史诗冲击, cue: 骄横}
+
+  - say: 如果你是成都王，黄桥一仗死了八千人，退，还是打？
+    sources: [js-59]
+    show:
+      - card: {title: 成语出处, body: 狗尾续貂——晋书·赵王伦传：貂不足，狗尾续, cue: 退, for: 3.6}
+
+  - say: 齐王得意不到一年。他的堂弟长沙王司马乂，已经在洛阳城里磨刀了。
+    sources: [js-04]
+    show:
+      - enter: {who: 司马冏, side: right, cue: 齐王, for: 3.4}
+      - title_bar: {text: 下集, sub: 两晋 · 诸王混战, cue: 磨刀, delay: 0.4, for: 3.0}
+      - sfx: {name: 时代转折, cue: 磨刀}

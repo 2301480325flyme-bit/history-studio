@@ -1,0 +1,316 @@
+# 快节奏版（2026-10-25）
+# 《三国到隋》第36集 · 两晋：永嘉之乱，洛阳陷落（308–311）。大纲第 31 条。
+# 本地语料核对（晋书）：
+# 怀帝纪 p00110 永嘉二年"王弥寇青、徐、兗、豫四州。夏四月丁亥，入许昌…五月甲子，弥遂寇洛阳，司徒王衍帅众御之，弥退走"；"冬十月甲戌，刘元海僭帝号于平阳，仍称汉"；p00111"石勒攻陷冀州郡县百余壁"；"上党太守庞淳以郡降贼"；"聪至西明门，越御之，战于宣阳门外，大破之"；
+#   p00112 永嘉四年"六月，刘元海死，其子和嗣伪位，和弟聪杀和而自立"；"十一月甲戌，东海王越帅众出许昌，以行台自随。宫省无复守卫，荒馑日甚，殿内死人交横"；
+#   p00113 永嘉五年"四月戊子，石勒追东海王越丧，及于东郡，将军钱端战死，军溃，太尉王衍…皆遇害，王公已下死者十余万人"；"丁酉、刘曜、王弥入京师。帝开华林园门，出河阴藕池，欲幸长安，为曜等所追及。曜等遂焚烧宫庙"；
+# 东海王越传 p04648"永嘉五年，薨于项。秘不发丧…还葬东海。石勒追及于苦县宁平城…勒命焚越柩曰：此人乱天下，吾为天下报之，故烧其骨以告天地。于是数十万众，勒以骑围而射之，相践如山。王公士庶死者十余万"；
+# 王衍传 p03774"勒呼王公，与之相见，问衍以晋故。衍为陈祸败之由，云计不在己…因劝勒称尊号。勒怒曰：君名盖四海，身居重任，少壮登朝，至于白首，何得言不豫世事邪！破坏天下，正是君罪…使人夜排墙填杀之。衍将死，顾而言曰：呜呼！吾曹虽不如古人，向若不祖尚浮虚，戮力以匡天下，犹可不至今日。时年五十六"；
+# 刘聪载记 p07046 呼延晏"配禁兵二万七千，自宜阳入洛川…王师前后十二败，死者三万余人…王弥、刘曜至，复与晏会围洛阳。时城内饥甚，人皆相食…宣阳门陷…曜于是害诸王公及百官已下三万余人…迁帝…于平阳"。
+# 不用：怀帝纪"及于东郡"与越传"苦县宁平城"两说，地图按越传画在宁平城（坐标示意）；王弥弟璋"焚其余众，并食之"（过于残忍，不进旁白）；刘曜、王弥、石勒会师前各自路线（未载，不画）。
+
+id: s01e36-yongjia
+title: 永嘉之乱
+series: 两晋 · 第36集
+year: 308
+
+notes:
+  - 主线问题：洛阳是一国之都，怎么三年就丢了？——最能打的兵，被东海王带出城去；东海王一死，十几万人护着他的棺材，在宁平城被石勒一口气消灭。洛阳成了空城。
+  - 钩子候选：①"十几万人护着一口棺材赶路，被追上，全军覆没"（反差3 具体3 悬念3 兑现3=12）②"天下坏成这样，就是你的罪"（反差2 具体2 悬念2 兑现3=9）③"晋朝皇帝，被匈奴人抓走了"（反差2 具体2 悬念2 兑现3=9）→ 选①。
+  - 反差：十几万人对一支骑兵；名满天下的太尉，说自己"不管事"；不忍心用刀杀，就推墙压死。
+  - 细节：宫里没了守卫、殿内死人横着；秘不发丧；石勒烧了东海王的棺材；骑兵围成圈射、人踩人堆成山；王衍劝石勒称帝；推墙；王衍临死"要不是整天空谈"；华林园、河阴藕池。
+  - 演义对照卡：结尾卡"成语出处"——清谈误国（王衍传"祖尚浮虚"）。
+
+map:
+  center: [113.5, 34.5]
+  scale: 5000
+  extent: [86.0, 12.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas
+  river_rank: 4
+  palette: warm
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 十几万人护着一口棺材赶路，被石勒追上，全军覆没
+  big: [永嘉之乱, 洛阳陷落]
+  hero: 石勒
+  at: 3
+  summary: |
+    308 年匈奴刘渊在平阳称帝，国号汉；王弥转战河南、一度打到洛阳城下，石勒在河北攻下百余座坞壁；309 年上党太守以郡投降。310 年刘渊死，刘聪杀兄自立。同年冬，东海王司马越带着精兵和满朝官员出了洛阳，宫里连守卫都没了。
+    311 年三月东海王病死项城，部下秘不发丧，护灵柩东归，在苦县宁平城被石勒追上：石勒烧了他的棺材，骑兵围射，十几万人相践如山。被俘的太尉王衍推说"不管事"，还劝石勒称帝，石勒骂他"破坏天下，正是君罪"，夜里推墙把他压死；王衍临死叹"要不是整天空谈，何至于此"。六月，呼延晏、王弥、刘曜攻破洛阳，晋怀帝从华林园出逃被俘，宫庙被焚，三万多王公百官被杀。
+  tags: [西晋, 永嘉之乱, 石勒, 王衍, 宁平城之战, 晋怀帝]
+  next: 西晋灭亡
+
+sources_local:
+  - {id: js-05, work: 晋书, volume: 卷五·怀帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷005'}
+  - {id: js-43, work: 晋书, volume: 卷四十三·王衍传, url: 'https://zh.wikisource.org/wiki/晉書/卷043'}
+  - {id: js-59, work: 晋书, volume: 卷五十九·东海王越传, url: 'https://zh.wikisource.org/wiki/晉書/卷059'}
+  - {id: js-102, work: 晋书, volume: 卷一百二·刘聪载记, url: 'https://zh.wikisource.org/wiki/晉書/卷102'}
+
+factions: {晋: '#2f5d3a', 东海王: '#a0522d', 汉赵: '#7a3b2e', 成汉: '#7da03c'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    晋: {slot: jade, main: true, label_at: 洛阳}
+    汉赵: {slot: pink, label_at: 平阳}
+    成汉: {slot: lime, label_at: 成都}
+
+people:
+  刘渊: {image: 03_素材/人物立绘/liu_yuan.png, title: 汉帝, role: 平阳称帝, faction: 汉赵}
+  刘聪: {image: 03_素材/人物立绘/liu_cong.png, title: 汉帝, role: 杀兄自立, faction: 汉赵}
+  石勒: {image: 03_素材/人物立绘/shi_le.png, title: 汉国大将, role: 宁平城, faction: 汉赵}
+  王弥: {image: 03_素材/人物立绘/wang_mi.png, title: 汉国大将, role: 转战河南, faction: 汉赵}
+  刘曜: {image: 03_素材/人物立绘/liu_yao.png, title: 汉国大将, role: 攻破洛阳, faction: 汉赵}
+  司马越: {image: 03_素材/人物立绘/sima_yue.png, title: 东海王, role: 带兵出城, faction: 东海王}
+  王衍: {image: 03_素材/人物立绘/wang_yan.png, title: 太尉, role: 清谈领袖, faction: 晋}
+  司马炽: {image: 03_素材/人物立绘/sima_chi.png, title: 晋怀帝, role: 被俘, faction: 晋}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: right, tier: capital}
+  平阳: {id: pingyang_jin, label: left}
+  许昌: {id: xuchang_approx, name: 许昌, label: right}
+  项: {id: xiang_xiangcheng, label: right}
+  宁平城: {id: ningpingcheng, label: right}
+  宜阳: {id: yiyang, label: below}
+  邺: {id: ye_city, label: right}
+  长安: {id: changan_han_city, label: below}
+  东海: {id: tan, name: 东海, label: right}
+
+camera:
+  focus: [洛阳, 平阳, 宁平城]
+  zoom: fit
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 十几万人护着一口棺材赶路，被石勒的骑兵追上，全军覆没。
+    map: '307-05'
+    year: 311
+    phase: 汉国
+    sources: [js-59]
+    camera: {focus: [项, 宁平城], zoom: fit, move: 1.2}
+    show:
+      - sfx: 重拍转场
+      - battle: {at: 宁平城, text: 十余万人, cue: 全军覆没}
+
+  - say: 棺材里，躺着八王之乱最后的赢家，东海王。
+    sources: [js-59]
+    show:
+      - enter: {who: 司马越, side: right, cue: 东海王, for: 3.4}
+      - sfx: {name: 悬疑, cue: 东海王}
+
+  - say: 就在同一年，晋朝的首都洛阳，也丢了。
+    sources: [js-05]
+    camera: {focus: 洛阳, zoom: 5, move: 1.2}
+    show:
+      - fire: {at: 洛阳, cue: 丢了, radius: 1.0, for: 3.4}
+
+  # ---------------- 第一章 汉国 ----------------
+  - say: 先说三零八年。匈奴人刘渊在平阳称帝，国号汉。
+    phase: 汉国
+    year: 308
+    map: '308-10'
+    owners_cue: 称帝
+    sources: [js-05]
+    camera: {focus: [平阳, 洛阳, 邺], zoom: fit, move: 1.4}
+    show:
+      - title_bar: {text: 永嘉之乱, sub: 两晋 · 第36集, for: 3.2}
+      - sfx: 片头鼓
+      - enter: {who: 刘渊, side: right, cue: 刘渊, for: 3.4}
+      - act: {act: enthrone, who: 刘渊, at: 平阳, text: 汉, sub: 永嘉二年, cue: 称帝, for: 3}
+
+  - say: 他手下两员大将，到处攻城。王弥在河南、山东横冲直撞，石勒在河北，打下了一百多座坞堡。
+    sources: [js-05]
+    camera: {focus: [洛阳, 许昌, 邺], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 王弥, side: left, cue: 王弥, for: 3}
+      - enter: {who: 石勒, side: right, cue: 石勒, for: 3}
+      - spot: {at: 邺, text: 冀州百余壁, cue: 一百多座}
+
+  - say: 王弥一路打进许昌，又杀到洛阳城下，被晋军打了回去。
+    audit_ok: [易手]
+    sources: [js-05]
+    tells: [b04]
+    show:
+      - army: {unit: 王弥, from: 许昌, to: 洛阳, faction: 汉赵, banner: 王, troops: cavalry, size: 2.4, cue: 洛阳城下, grow: 1.6, stop: approach, camp: false}
+      - battle: {at: 洛阳, text: 弥退走, cue: 打了回去}
+
+  - say: 第二年，上党太守献城投降。刘渊的儿子刘聪，又打到洛阳的西门外，被东海王击退。
+    year: 309
+    map: '309-07'
+    owners_cue: 投降
+    sources: [js-05]
+    camera: {focus: [平阳, 洛阳], zoom: fit, move: 1.4}
+    tells: [b10]
+    show:
+      - army: {head: 刘聪, from: 平阳, to: 洛阳, faction: 汉赵, banner: 聪, troops: cavalry, size: 2.6, cue: 西门外, grow: 1.8, stop: approach}
+      - battle: {at: 洛阳, text: 宣阳门外 越大破之, cue: 击退}
+      - sfx: {name: 刀剑交击, cue: 击退}
+
+  - say: 三一零年六月，刘渊病死。刚即位的太子刘和，被弟弟刘聪杀了。刘聪当上了皇帝。
+    year: 310
+    sources: [js-05]
+    camera: {focus: 平阳, zoom: 6, move: 1.2}
+    map: '310-04'
+    show:
+      - exit: {who: 刘渊, at: 平阳, verb: 卒, portrait: true, cue: 病死}
+      - enter: {who: 刘聪, side: right, cue: 刘聪当上, for: 3.4}
+      - quote: {text: 刘元海死，其子和嗣伪位，和弟聪杀和而自立, source: 晋书·怀帝纪, era: 永嘉四年六月, cue: 杀了, for: 4}
+
+  # ---------------- 第二章 棺材 ----------------
+  - say: 这年冬天，东海王带着能打的兵和满朝大臣出了洛阳。宫里连守卫都没了，宫殿里死人横七竖八。
+    phase: 宁平城
+    sources: [js-05]
+    camera: {focus: [洛阳, 许昌, 项], zoom: fit, move: 1.4}
+    tells: [b13]
+    show:
+      - army: {head: 司马越, from: 洛阳, via: [许昌], to: 项, faction: 东海王, banner: 越, troops: infantry, size: 3.2, cue: 出了洛阳, grow: 2.2}
+      - quote: {text: 东海王越帅众出许昌，以行台自随。宫省无复守卫, source: 晋书·怀帝纪, era: 永嘉四年十一月, cue: 守卫, for: 4}
+
+  - say: 三一一年三月，东海王在项城病死。部下不敢声张，护着他的棺材，往东海老家走。
+    year: 311
+    sources: [js-59]
+    show:
+      - exit: {who: 司马越, at: 项, verb: 卒, portrait: true, cue: 病死}
+      - march: {from: 项, to: 宁平城, faction: 东海王, label: 还葬东海, cue: 往东海, grow: 1.4}
+      - sfx: {name: 退场钟, cue: 病死}
+
+  - say: 石勒的骑兵，在苦县宁平城追上了他们。他先把东海王的棺材烧了：
+    sources: [js-59]
+    camera: {focus: [项, 宁平城], zoom: 10, move: 1.2}
+    tells: [b14]
+    show:
+      - army: {head: 石勒, from: 许昌, to: 宁平城, faction: 汉赵, banner: 石, troops: cavalry, size: 3.0, cue: 追上, grow: 1.6}
+      - fire: {at: 宁平城, cue: 烧了, radius: 0.6, for: 3.4}
+
+  - say: 这个人祸乱天下，我替天下报仇，烧了他的骨头，祭告天地！
+    speaker: 石勒
+    style: 粗豪凶狠，居高临下，对着燃烧的棺木大声宣告
+    quote: 此人乱天下，吾为天下报之，故烧其骨以告天地
+    sources: [js-59]
+    show:
+      - enter: {who: 石勒, side: right, cue: 这个人, for: 6}
+      - sfx: {name: 燃烧, cue: 烧了}
+
+  - say: 然后骑兵围成一圈，往里放箭。十几万人互相踩踏，堆成了山，没有一个逃出去。
+    sources: [js-05, js-59]
+    tells: [b15]
+    show:
+      - battle: {at: 宁平城, text: 相践如山, cue: 放箭}
+      - vignette: {image: illus_ningping_ring, cue: 围成一圈, for: 6, text: 以骑围而射之}
+      - sfx: {name: 箭雨, cue: 放箭}
+
+  # ---------------- 第三章 王衍 ----------------
+  - say: 王公大臣全成了俘虏。石勒问太尉王衍：晋朝怎么败成了这样？
+    phase: 清谈
+    sources: [js-43]
+    show:
+      - enter: {who: 王衍, side: left, cue: 王衍, for: 3.4}
+
+  - say: 王衍说，这事怪不到我头上，我从小就不爱管事。他还劝石勒，干脆自己当皇帝。
+    sources: [js-43]
+    show:
+      - vignette: {image: illus_wangyan_shile, cue: 怪不到我, for: 9, text: 问衍以晋故}
+
+  - say: 石勒大怒：你名满天下，从年轻做官做到白头，还说不管事？天下坏成这样，正是你的罪！
+    sources: [js-43]
+    show:
+      - enter: {who: 石勒, side: right, cue: 大怒, for: 3.6}
+      - quote: {text: 破坏天下，正是君罪, source: 晋书·王衍传, cue: 你的罪, for: 3.6}
+      - sfx: {name: 重低音落地, cue: 你的罪}
+
+  - say: 石勒说，这种人不能用刀杀。半夜，让人推倒墙，把他们压死了。
+    audit_ok: [遗忘]
+    sources: [js-43]
+    show:
+      - exit: {who: 王衍, at: 宁平城, verb: 卒, portrait: true, cue: 压死了}
+
+  - say: 王衍临死前叹了一句：我们要是不整天空谈，齐心救天下，也不至于落到今天。
+    sources: [js-43]
+    show:
+      - quote: {text: 向若不祖尚浮虚，戮力以匡天下，犹可不至今日, source: 晋书·王衍传, era: 时年五十六, cue: 空谈, for: 4.6}
+
+  # ---------------- 第四章 洛阳 ----------------
+  - say: 洛阳，成了一座空城。六月，刘聪派大将呼延晏带两万七千人，从宜阳杀进来，晋军前后输了十二仗。
+    audit_ok: [遗忘]
+    phase: 洛阳
+    map: '311-06'
+    owners_cue: 杀进来
+    sources: [js-102]
+    camera: {focus: [宜阳, 洛阳, 平阳], zoom: fit, move: 1.4}
+    tells: [b16]
+    show:
+      - army: {unit: 呼延晏, from: 宜阳, to: 洛阳, faction: 汉赵, banner: 呼延, troops: infantry, size: 2.8, cue: 宜阳, grow: 1.6}
+      - quote: {text: 王师前后十二败，死者三万余人, source: 晋书·刘聪载记, cue: 十二仗, for: 3.6}
+
+  - say: 王弥、刘曜也到了，几路兵围住洛阳。城里饿得人吃人。
+    sources: [js-102]
+    show:
+      - enter: {who: 刘曜, side: right, cue: 刘曜, for: 3.4}
+      - army: {unit: 刘曜, from: 平阳, to: 洛阳, faction: 汉赵, banner: 曜, troops: cavalry, size: 3.0, cue: 围住, grow: 1.8, camp: false}
+      - sfx: {name: 战鼓, cue: 围住}
+
+  - say: 城门被攻破，皇宫被抢光，宫殿、宗庙，一把火全烧了。
+    audit_ok: [易手]
+    sources: [js-05, js-102]
+    camera: {focus: 洛阳, zoom: 9, move: 1.2}
+    tells: [b18, b21]
+    show:
+      - battle: {at: 洛阳, text: 宣阳门陷, cue: 攻破}
+      - fire: {at: 洛阳, cue: 一把火, radius: 1.4, flash: true, for: 4}
+      - sfx: {name: 火攻, cue: 一把火}
+
+  - say: 晋怀帝从华林园偷偷跑出来，想逃往长安，没跑多远，就被刘曜的兵追上抓住了。
+    sources: [js-05]
+    show:
+      - enter: {who: 司马炽, side: right, cue: 晋怀帝, for: 3.4}
+      - vignette: {image: illus_huailin_flight, cue: 华林园, for: 5, text: 出河阴藕池}
+
+  - say: 王公百官被杀了三万多人。晋朝的皇帝，被押去了平阳。
+    sources: [js-102]
+    camera: {focus: [洛阳, 平阳], zoom: fit, move: 1.4}
+    show:
+      - march: {from: 洛阳, to: 平阳, faction: 汉赵, label: 迁帝于平阳, cue: 押去了平阳, grow: 1.8}
+      - sfx: {name: 落幕锣, cue: 平阳}
+
+  # ---------------- 收 ----------------
+  - say: 一国之都，怎么三年就丢了？能打的兵被东海王带出了城，又在宁平城一口气全没了。
+    sources: [js-05, js-59]
+    camera: {focus: [洛阳, 宁平城, 平阳], zoom: fit, move: 1.6}
+    show:
+      - headline: {text: 永嘉之乱, sub: 精兵尽于宁平城, cue: 全没了, for: 3.4}
+
+  - say: 王衍那句话，说给整个西晋听：要不是整天空谈，何至于此。
+    sources: [js-43]
+    show:
+      - headline: {text: 清谈误国, sub: 祖尚浮虚，犹可不至今日, cue: 空谈, for: 3.4}
+      - sfx: {name: 史诗冲击, cue: 何至于此}
+
+  - say: 王衍说自己不管事，你觉得，这能当借口吗？
+    sources: [js-43]
+    show:
+      - card: {title: 成语出处, body: 清谈误国——王衍传：向若不祖尚浮虚…犹可不至今日, cue: 借口, for: 3.6}
+
+  - say: 洛阳没了。晋朝在长安，又立了一个十几岁的小皇帝。
+    sources: [js-05]
+    show:
+      - title_bar: {text: 下集, sub: 两晋 · 西晋灭亡, cue: 小皇帝, delay: 0.4, for: 3.0}
+      - sfx: {name: 时代转折, cue: 小皇帝}

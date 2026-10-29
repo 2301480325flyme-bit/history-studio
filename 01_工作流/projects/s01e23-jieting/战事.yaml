@@ -1,0 +1,448 @@
+episode: s01e23-jieting
+armies:
+  诸葛亮主力:
+    faction: 蜀汉
+    head: 诸葛亮
+    size: 未核
+    evidence:
+    - quote: 亮身率诸军攻祁山
+      para: 三国志-p01934
+  赵云邓芝疑军:
+    faction: 蜀汉
+    head: 赵云、邓芝
+    size: 未核
+    evidence:
+    - quote: 使赵云、邓芝为疑军，据箕谷
+      para: 三国志-p01934
+  马谡前锋:
+    faction: 蜀汉
+    head: 马谡
+    size: 未核
+    evidence:
+    - quote: 亮使马谡督诸军在前
+      para: 三国志-p01934
+  王平部:
+    faction: 蜀汉
+    head: 王平
+    size: 千人
+    evidence:
+    - quote: 率将士而还
+      para: 三国志-p02097
+  高详部:
+    faction: 蜀汉
+    head: 高详
+    size: 未核
+    evidence:
+    - quote: 高详屯列柳城
+      para: 三国志-p01705
+  曹真军:
+    faction: 魏
+    head: 曹真
+    size: 未核
+    evidence:
+    - quote: 魏大将军曹真举众拒之
+      para: 三国志-p01934
+  张郃军:
+    faction: 魏
+    head: 张郃
+    size: 未核
+    evidence:
+    - quote: 右将军张合击亮于街亭，大破之
+      para: 三国志-p00472
+  郭淮军:
+    faction: 魏
+    head: 郭淮
+    size: 未核
+    evidence:
+    - quote: 淮攻详营，皆破之
+      para: 三国志-p01705
+  周鲂诱敌行动:
+    faction: 吴
+    head: 周鲂
+    size: 未核
+    evidence:
+    - quote: 鄱阳太守周鲂伪叛，诱魏将曹休
+      para: 三国志-p02236
+  曹休军:
+    faction: 魏
+    head: 曹休
+    size: 步骑十万
+    evidence:
+    - quote: 休将步骑十万至皖城以迎鲂
+      para: 三国志-p02494
+  陆逊军:
+    faction: 吴
+    head: 陆逊
+    size: 未核
+    evidence:
+    - quote: 三道俱近
+      para: 三国志-p02536
+  诸葛亮冬季出兵:
+    faction: 蜀汉
+    head: 诸葛亮
+    size: 未核
+    evidence:
+    - quote: 十二月，诸葛亮围陈仓
+      para: 三国志-p00472
+  蜀汉响应诸郡:
+    faction: 蜀汉
+    head: 三郡吏民
+    size: 未核
+    evidence:
+    - quote: 天水、南安、安定三郡吏民叛应亮
+      para: 三国志-p00472
+events:
+- id: e01
+  army: 诸葛亮主力
+  kind: 屯驻
+  place: 汉中
+  from: null
+  via: []
+  date: 227
+  territory: null
+  note: 建兴五年驻汉中，未记月份。
+  evidence:
+  - quote: 五年，诸葛亮驻汉中
+    para: 三国志-p01966
+- id: e02
+  army: 赵云邓芝疑军
+  kind: 行军
+  place: 箕谷
+  from: 汉中
+  via: []
+  date: 228-02
+  territory: null
+  note: 声言由斜谷道取郿；此为扬声路线，实际行程未核。春季月份按疆域表标记。
+  evidence:
+  - quote: 扬声由斜谷道取眉，使赵云、邓芝为疑军，据箕谷
+    para: 三国志-p01934
+  - quote: 云、芝兵弱敌强，失利于箕谷，然敛众固守，不至大败
+    para: 三国志-p01966
+- id: e03
+  army: 曹真军
+  kind: 行军
+  place: 郿
+  from: 未核
+  via: []
+  date: 228-02
+  territory: null
+  note: 曹真督诸军驻郿，赵云、邓芝失利于箕谷（验收改：原记 place 箕谷，按《曹真传》「帝遣真督诸军军郿」改为郿）
+  evidence:
+  - quote: 魏大将军曹真举众拒之
+    para: 三国志-p01934
+  - quote: 帝遣真督诸军军郿
+    para: 三国志-p01203
+- id: e04
+  army: 诸葛亮主力
+  kind: 行军
+  place: 祁山
+  from: 汉中
+  via: []
+  date: 228-02
+  territory: null
+  note: 亲率诸军攻祁山，沿途路线未载。
+  evidence:
+  - quote: 亮身率诸军攻祁山
+    para: 三国志-p01934
+- id: e05
+  army: 蜀汉响应诸郡
+  kind: 投降
+  place: 南安、天水、安定
+  from: null
+  via: []
+  date: 228-02
+  territory:
+    jun: 汉阳郡
+    to: 争夺
+  note: 三郡吏民叛魏应亮；疆域表将汉阳、安定列不确定区，逐郡记录争夺。是否全郡易手未核。
+  evidence:
+  - quote: 天水、南安、安定三郡吏民叛应亮
+    para: 三国志-p00472
+  - quote: 南安、天水、永安三郡叛魏应亮
+    para: 三国志-p01934
+- id: e05b
+  army: 蜀汉响应诸郡
+  kind: 投降
+  place: 安定
+  from: null
+  via: []
+  date: 228-02
+  territory:
+    jun: 安定郡
+    to: 争夺
+  note: 叛魏应亮，控制范围及易手日未核。
+  evidence:
+  - quote: 天水、南安、安定三郡吏民叛应亮
+    para: 三国志-p00472
+- id: e06
+  army: 马谡前锋
+  kind: 行军
+  place: 街亭
+  from: 祁山
+  via: []
+  date: 228-02
+  territory: null
+  note: 马谡督诸军在前，具体路线未载。
+  evidence:
+  - quote: 亮使马谡督诸军在前，与邰战于街亭
+    para: 三国志-p01934
+- id: e07
+  army: 马谡前锋
+  kind: 屯驻
+  place: 南山
+  from: null
+  via: []
+  date: 228-02
+  territory: null
+  note: 依阻南山而不下据城，山名地望未核。
+  evidence:
+  - quote: 谡依阻南山，不下据城
+    para: 三国志-p01434
+  skip: 南山画成街亭的「舍水上山」旗，山名地望未核
+- id: e08
+  army: 张郃军
+  kind: 交战
+  place: 街亭
+  from: 未核
+  via: []
+  date: 228-02
+  territory: null
+  note: 张郃断汲道后击破马谡；汲道位置未核。
+  evidence:
+  - quote: 郃绝其汲道，击，大破之
+    para: 三国志-p01434
+  - quote: 右将军张合击亮于街亭，大破之
+    para: 三国志-p00472
+- id: e09
+  army: 王平部
+  kind: 撤退
+  place: 未核
+  from: 街亭
+  via: []
+  date: 228-02
+  territory: null
+  note: 收拢散兵后率将士而还，终点未载。
+  evidence:
+  - quote: 于是平徐徐收合诸营遗迸，率将士而还
+    para: 三国志-p02097
+  skip: 王平收兵终点未载
+- id: e10
+  army: 高详部
+  kind: 屯驻
+  place: 列柳城
+  from: null
+  via: []
+  date: 228-02
+  territory: null
+  note: 具体城址未核，秦安附近仅为示意。
+  evidence:
+  - quote: 高详屯列柳城
+    para: 三国志-p01705
+  skip: 旁白未讲高详、郭淮列柳城
+- id: e11
+  army: 郭淮军
+  kind: 交战
+  place: 列柳城
+  from: 未核
+  via: []
+  date: 228-02
+  territory: null
+  note: 攻破高详营，非明确郡级易手。
+  evidence:
+  - quote: 淮攻详营，皆破之
+    para: 三国志-p01705
+  skip: 旁白未讲高详、郭淮列柳城
+- id: e12
+  army: 诸葛亮主力
+  kind: 撤退
+  place: 汉中
+  from: 祁山
+  via: []
+  date: 228-05
+  territory: null
+  note: 拔西县千余家还汉中；西县故址未核，箭头从祁山画起。
+  evidence:
+  - quote: 亮拔西县千余家，还于汉中
+    para: 三国志-p01934
+  - quote: 亮进无所据，退军还汉中
+    para: 三国志-p02019
+- id: e13
+  army: 张郃军
+  kind: 攻占
+  place: 南安、天水、安定
+  from: null
+  via: []
+  date: 228-05
+  territory:
+    jun: 汉阳郡
+    to: 魏
+  note: 平定响应三郡；疆域表按汉阳、安定口径记，天水郡名口径待核。
+  evidence:
+  - quote: 南安、天水、安定郡反应亮，郃皆破平之
+    para: 三国志-p01434
+  - quote: 亮败走，三郡平
+    para: 三国志-p00472
+- id: e13b
+  army: 张郃军
+  kind: 攻占
+  place: 安定
+  from: null
+  via: []
+  date: 228-05
+  territory:
+    jun: 安定郡
+    to: 魏
+  note: 史称三郡平定，具体城邑易手日期未载。
+  evidence:
+  - quote: 亮败走，三郡平
+    para: 三国志-p00472
+- id: e14
+  army: 周鲂诱敌行动
+  kind: 出发
+  place: 鄱阳
+  from: 未核
+  via: []
+  date: 228-05
+  territory: null
+  note: 诈称叛吴诱曹休，未载具体出发地及路线。
+  evidence:
+  - quote: 夏五月，鄱阳太守周鲂伪叛，诱魏将曹休
+    para: 三国志-p02236
+  skip: 周鲂出发地未载
+- id: e15
+  army: 曹休军
+  kind: 行军
+  place: 皖
+  from: 未核
+  via: []
+  date: 228-09
+  territory: null
+  note: 率步骑十万至皖城迎周鲂；路线未载。
+  evidence:
+  - quote: 休将步骑十万至皖城以迎鲂
+    para: 三国志-p02494
+- id: e16
+  army: 陆逊军
+  kind: 行军
+  place: 皖口
+  from: 未核
+  via: []
+  date: 228-09
+  territory: null
+  note: 孙权至皖口命陆逊督诸军；皖口沿用皖城示意坐标。
+  evidence:
+  - quote: 秋八月，权至皖口，使将军陆逊督诸将大破休于石亭
+    para: 三国志-p02236
+  skip: 旁白未讲陆逊进军、追击和班师路线
+- id: e17
+  army: 陆逊军
+  kind: 交战
+  place: 石亭
+  from: 皖口
+  via: []
+  date: 228-09
+  territory: null
+  note: 吴主传记黄武七年八月，魏纪记太和二年九月；本账依疆域表标228-09。
+  evidence:
+  - quote: 三道俱近
+    para: 三国志-p02536
+  - quote: 秋八月，权至皖口，使将军陆逊督诸将大破休于石亭
+    para: 三国志-p02236
+  - quote: 秋九月，曹休率诸军至皖，与吴将陆议战于石亭，败绩
+    para: 三国志-p00472
+- id: e18
+  army: 陆逊军
+  kind: 行军
+  place: 夹石
+  from: 石亭
+  via: []
+  date: 228-09
+  territory: null
+  note: 战后追击至夹石，具体地望未核。
+  evidence:
+  - quote: 追亡逐北，径至夹石，斩获万余
+    para: 三国志-p02536
+  skip: 旁白未讲陆逊进军、追击和班师路线
+- id: e19
+  army: 曹休军
+  kind: 撤退
+  place: 皖
+  from: 石亭
+  via:
+  - 夹石
+  date: 228-09
+  territory: null
+  note: 战不利退还；完整退路未载。
+  evidence:
+  - quote: 休深入，战不利，退还宿石亭
+    para: 三国志-p01200
+  - quote: 休还，疽发背死
+    para: 三国志-p02536
+  skip: 曹休退路未载
+- id: e20
+  army: 陆逊军
+  kind: 撤退
+  place: 武昌
+  from: 皖
+  via: []
+  date: 228-09
+  territory: null
+  note: 战后振旅经过武昌，具体返程未载。
+  evidence:
+  - quote: 诸军振旅过武昌
+    para: 三国志-p02536
+  skip: 旁白未讲陆逊进军、追击和班师路线
+- id: e21
+  army: 诸葛亮冬季出兵
+  kind: 行军
+  place: 陈仓
+  from: 汉中
+  via: []
+  date: 228-12
+  territory: null
+  note: 十二月围陈仓，路线及具体日期未载。
+  evidence:
+  - quote: 十二月，诸葛亮围陈仓
+    para: 三国志-p00472
+  skip: 冬季出兵围陈仓放在下一集讲
+places_new:
+- name: 西县
+  lon: 105.3
+  lat: 33.75
+  precision: 未核
+  basis: 故址未由地名库确认，祁山—天水区域示意点
+  evidence:
+  - quote: 亮拔西县千余家，还于汉中
+    para: 三国志-p01934
+- name: 列柳城
+  lon: 105.55
+  lat: 34.85
+  precision: 未核
+  basis: 具体城址未核，秦安附近示意点
+  evidence:
+  - quote: 高详屯列柳城
+    para: 三国志-p01705
+- name: 南山
+  lon: 105.67
+  lat: 34.86
+  precision: 未核
+  basis: 史料只称街亭南山，街亭区域示意点
+  evidence:
+  - quote: 谡依阻南山，不下据城
+    para: 三国志-p01434
+- name: 夹石
+  lon: 117.05
+  lat: 30.98
+  precision: 未核
+  basis: 具体地望未核，暂置皖城以北山区示意点
+  evidence:
+  - quote: 追亡逐北，径至夹石
+    para: 三国志-p02536
+open_questions:
+- 三郡吏民叛应是否等同郡级疆域整体转属？疆域表列汉阳、安定为不确定区，天水与汉阳郡名口径待核。
+- 赵云邓芝所经斜谷道只是扬声所称；诸葛亮和魏军到战场的逐段路线多未见记载。
+- 西县、列柳城、南山、夹石地望未核，新增坐标都是示意点。
+- 石亭战吴主传记八月、魏纪九月；本账依疆域表标228-09，跨国纪月对齐口径待定。
+- 旁白称曹叡亲自坐镇长安，本地原文只称魏明帝西镇长安，与街亭战同月与否待核。
+- 孙权称帝为229-04，超出地图终点228-12；地图是否扩展待定。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

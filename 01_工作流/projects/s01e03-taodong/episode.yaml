@@ -1,0 +1,541 @@
+# 《三国到隋》第3集：关东诸侯讨董卓——十几万联军，为什么打不过一个董卓？
+# 2026-10-11 按"慢慢讲故事 + 人物亲口说"重写（旧稿：series/三国到隋/第03集-关东讨董.md 的 v1）。
+# 关键原文均在本地语料核过：臧洪盟辞（臧洪传）、曹操责诸将（武帝纪）、曹洪让马（曹洪传）、
+# 孙坚赤帻 / 阳人斩华雄 / 夜驰见袁术 / 拒李傕和亲（孙破虏传）、焚洛阳"二百里内无复孑遗"（后汉书·董卓传）、王匡河阳津（后汉书·董卓传）。
+
+id: s01e03-taodong
+title: 关东讨董
+series: 三国 · 第3集
+year: 190
+
+notes:
+  - 主线问题：十几万联军，为什么打不过一个董卓？答案：打的是讨董的旗号，算的是自己的地盘；真拼命的只有曹操、孙坚。
+  - 演义对照两处：十八路诸侯（史书点名十来家）；温酒斩华雄（史书是孙坚在阳人斩华雄）。
+  - 传国玉玺出自《三国志·孙坚传》注引《吴书》，旁白用"据说"。
+  - 孙坚梁东之败、赤帻、阳人之战在初平二年（191）；曹操汴水在初平元年（190）。
+  - 地点"阳人""孟津（河阳津）"为示意点（2026-10-11 入库，误差 5–15 km）。
+
+map:
+  center: [114.0, 33.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  river_rank: 4
+
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.3
+  tempo_target: 4.3
+  gap: 0.5
+  bed: none                  # 2026-10-13: replaced by the 底声 music track
+  bed_db: -26
+
+# 底声（03_素材/音乐/底声）：全程铺底，按章节换情绪
+music: {default: 底声·紧张, db: -14, duck_db: -6, fade: 3.0}
+
+publish:
+  hook: 十几万联军，为什么打不过一个董卓？
+  big: [斩华雄的, 不是关羽]
+  hero: 孙坚
+  at: 30
+  summary: |
+    公元190年，关东诸侯起兵讨董，号称十几万大军。可董卓烧了洛阳、挟天子西迁，酸枣的诸侯却天天喝酒开会，谁也不肯先打。
+    真正拼命的只有两个人：曹操兵败汴水，靠曹洪让马才捡回一命；孙坚丢了赤帻、斩了华雄、打进洛阳，却被自己人卡住军粮。小说说的"温酒斩华雄"，史书上其实是孙坚。
+  tags: [讨董卓, 孙坚, 曹操, 华雄, 十八路诸侯]
+  next: 袁绍一兵未动拿下冀州，董卓死在了干儿子手里
+  chapters:
+    - {beat: 1, title: 十几万大军三面围城}
+    - {beat: 10, title: 酸枣会盟}
+    - {beat: 14, title: 董卓火烧洛阳}
+    - {beat: 24, title: 诸侯天天喝酒不出兵}
+    - {beat: 28, title: 曹操汴水惨败}
+    - {beat: 37, title: 江东猛虎孙坚}
+    - {beat: 43, title: 斩华雄的不是关羽}
+    - {beat: 45, title: 袁术断粮}
+    - {beat: 51, title: 孙坚打进洛阳}
+    - {beat: 54, title: 联军散伙}
+
+sources_local:
+  - {id: sgz-01, work: 三国志, volume: 卷一·武帝纪, url: 'https://zh.wikisource.org/wiki/三國志/卷01'}
+  - {id: sgz-06, work: 三国志, volume: 卷六·董卓传（注引英雄记）, url: 'https://zh.wikisource.org/wiki/三國志/卷06'}
+  - {id: sgz-07, work: 三国志, volume: 卷七·臧洪传, url: 'https://zh.wikisource.org/wiki/三國志/卷07'}
+  - {id: sgz-09, work: 三国志, volume: 卷九·曹洪传, url: 'https://zh.wikisource.org/wiki/三國志/卷09'}
+  - {id: sgz-46, work: 三国志, volume: 卷四十六·孙破虏传（注引吴书、江表传）, url: 'https://zh.wikisource.org/wiki/三國志/卷46'}
+  - {id: hhs-72, work: 后汉书, volume: 卷七十二·董卓传, url: 'https://zh.wikisource.org/wiki/後漢書/卷72'}
+  - {id: hhs-74, work: 后汉书, volume: 卷七十四·袁绍袁术传, url: 'https://zh.wikisource.org/wiki/後漢書/卷74上'}
+  - {id: hhs-09, work: 后汉书, volume: 卷九·献帝纪, url: 'https://zh.wikisource.org/wiki/後漢書/卷9'}
+
+factions: {汉室: '#b8462f', 关东: '#27587e', 袁绍: '#27587e', 曹操: '#2f5d3a', 孙坚: '#b0841f', 袁术: '#7a5a8a', 董卓: '#6f4a8e', 刘岱: '#3f6f7f', 群雄: '#6b6258'}
+
+territory:
+  cells: han-140
+  zhou_labels: true
+  jun_labels: false
+  polities:
+    汉室: {slot: salmon, main: true, label_at: 长沙}
+    董卓: {slot: violet, label_at: 长安}
+    关东: {slot: sky, label_at: 酸枣}
+    群雄: {slot: tan, label_at: 酸枣}
+    刘岱: {slot: teal, label_at: 东郡}
+    刘焉: {slot: lime, label_at: 绵竹}
+
+people:
+  董卓: {image: 03_素材/人物立绘/dong_zhuo.png, title: 相国, role: 挟天子, faction: 董卓}
+  袁绍: {image: 03_素材/人物立绘/yuan_shao.png, title: 渤海太守, role: 联军盟主, faction: 袁绍}
+  袁术: {image: 03_素材/人物立绘/yuan_shu.png, title: 后将军, role: 屯鲁阳, faction: 袁术}
+  韩馥: {image: 03_素材/人物立绘/han_fu.png, title: 冀州牧, role: 供应军粮, faction: 关东}
+  张邈: {image: 03_素材/人物立绘/zhang_miao.png, title: 陈留太守, role: 屯酸枣, faction: 关东}
+  臧洪: {image: 03_素材/人物立绘/zang_hong.png, title: 广陵功曹, role: 酸枣主盟, faction: 关东,
+        voice: 三十岁左右的东汉文官，男声，嗓音洪亮激昂，慷慨悲壮，像在万人面前起誓,
+        voice_sample: 诸位！今日歃血为盟，生死与共！}
+  曹操: {image: 03_素材/人物立绘/cao_cao.png, title: 奋武将军, role: 独自西进, faction: 曹操, voice: 三十多岁的东汉男子，男声，嗓音低沉有磁性，冷静而城府深}
+  曹洪: {image: 03_素材/人物立绘/cao_hong.png, title: 曹操从弟, role: 让马救主, faction: 曹操,
+        voice: 三十岁左右的东汉武将，男声，嗓音粗犷急切，豪爽仗义，战场上喊话}
+  徐荣: {image: 03_素材/人物立绘/xu_rong.png, title: 中郎将, role: 董卓大将, faction: 董卓}
+  吕布: {image: 03_素材/人物立绘/lv_bu.png, title: 骑都尉, role: 发掘帝陵, faction: 董卓}
+  刘辩: {image: 03_素材/人物立绘/liu_bian.png, title: 弘农王, role: 被废少帝, faction: 汉室}
+  刘协: {image: 03_素材/人物立绘/liu_xie.png, title: 汉献帝, role: 被挟西迁, faction: 汉室}
+  孙坚: {image: 03_素材/人物立绘/sun_jian.png, title: 长沙太守, role: 江东猛虎, faction: 孙坚,
+        voice: 三十多岁的江东猛将，男声，嗓音浑厚刚烈，豪迈果决，说话斩钉截铁,
+        voice_sample: 大丈夫提剑上阵，岂能畏首畏尾！}
+  李傕: {image: 03_素材/人物立绘/li_jue.png, title: 董卓部将, role: 来求和亲, faction: 董卓}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: left, tier: capital}
+  长安: {id: changan_han_city, label: below}
+  河内: {id: henei_approx, label: above}
+  酸枣: {id: suanzao_county, label: right}
+  邺: {id: ye_city, label: right}
+  南皮: {id: nanpi, label: right}
+  鲁阳: {id: luyang_county, label: right}
+  颍川: {id: yangzhai_approx, name: 颍川, label: right}
+  东郡: {id: puyang_approx, name: 东郡, label: right}
+  陈留: {id: chenliu_han, label: below}
+  荥阳: {id: xingyang_county, label: below}
+  河阳津: {id: mengjin, name: 河阳津, label: above}
+  小平津: {id: xiaopingjin, label: right}
+  阳人: {id: yangren, label: left}
+  长沙: {id: changsha_c, label: right}
+  绵竹: {id: mianzhu_old, label: right}
+
+camera:
+  focus: [洛阳, 酸枣]
+  zoom: 1.4
+
+beats:
+  # ---------------- 第一章 三面围城 ----------------
+  - say: 上回说到，董卓废了少帝，独揽朝政。第二年正月，关东的州郡长官们同时起兵，要讨伐他。
+    phase: 三面围城
+    sources: [sgz-01]
+    year: 190
+    camera: {focus: [洛阳, 南皮, 鲁阳, 酸枣], zoom: fit, move: 2.0}
+    owners_cue: 起兵
+    map: '190-01'
+    show:
+      - title_bar: {text: 关东讨董, sub: 三国 · 第3集, cue: 上回, for: 3.2}
+      - sfx: 片头鼓
+      - alliance: {from: [南皮, 邺, 河内, 颍川, 鲁阳, 东郡], at: 酸枣, text: 起兵, cue: 起兵}
+      - sfx: {name: 战鼓, cue: 起兵}
+
+  - say: 小说里说是"十八路诸侯"，可史书上点了名的，其实只有十来家。
+    sources: [sgz-01]
+    show:
+      - card: {title: 演义 vs 正史, body: 《三国志》点名起兵者约十家，"十八路"出自小说, cue: 十八路}
+
+  - say: 大家推渤海太守袁绍做盟主，号称兵力十几万。
+    sources: [sgz-01, hhs-74]
+    camera: {focus: [南皮, 酸枣], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 袁绍, at: 南皮, side: left, cue: 袁绍, settle: true, settle_sub: 联军盟主, guest: true}
+      - sfx: {name: 登场, cue: 袁绍}
+
+  - say: 再看董卓那边，能打的西凉兵，不过几万。按说，这仗怎么打都该赢。
+    sources: [sgz-06]
+    camera: {focus: 洛阳, zoom: 2.6, move: 1.4}
+    show:
+      - flag: {at: 洛阳, name: 董卓, sub: 相国, faction: 董卓, cue: 董卓}
+
+  - say: 可结果，十几万大军，谁也没能打败董卓。问题出在哪儿？
+    sources: [sgz-01]
+    show:
+      - headline: {text: 讨伐董卓, sub: 初平元年 · 公元190年, cue: 十几万, for: 3.2}
+
+  - say: 先看他们怎么摆的阵：袁绍和河内太守王匡屯在河内，冀州牧韩馥坐镇邺城，负责供应军粮。
+    sources: [sgz-01, hhs-74]
+    camera: {focus: [洛阳, 河内, 邺], zoom: fit, move: 1.4}
+    show:
+      - flag: {at: 河内, name: 王匡, sub: 河内太守, faction: 关东, cue: 王匡}
+      - flag: {at: 邺, name: 韩馥, sub: 冀州牧, faction: 关东, cue: 韩馥}
+      - act: {act: prop, at: 邺, item: 粮草, text: 军粮, cue: 军粮, for: 2.6}
+
+  - say: 后将军袁术屯在南阳的鲁阳，豫州刺史孔伷驻在颍川。
+    sources: [sgz-01, hhs-74]
+    camera: {focus: [洛阳, 鲁阳, 颍川], zoom: fit, move: 1.4}
+    show:
+      - flag: {at: 鲁阳, name: 袁术, sub: 后将军, faction: 袁术, cue: 袁术, guest: true}
+      - flag: {at: 颍川, name: 孔伷, sub: 豫州刺史, faction: 关东, cue: 孔伷}
+
+  - say: 兖州刺史刘岱、陈留太守张邈、东郡太守桥瑁这些人，都聚在酸枣。
+    sources: [sgz-01]
+    camera: {focus: [洛阳, 酸枣, 东郡], zoom: fit, move: 1.4}
+    show:
+      - flag: {at: 酸枣, name: 酸枣诸军, sub: 刘岱 · 张邈 · 桥瑁, faction: 关东, cue: 酸枣}
+
+  - say: 北、东、南三面，把洛阳围了起来，看上去声势浩大。
+    sources: [sgz-01]
+    camera: {focus: [洛阳, 河内, 酸枣, 鲁阳], zoom: fit, move: 1.2}
+    show:
+      - arrow: {from: 河内, to: 洛阳, kind: direction, faction: 关东, cue: 北, grow: 1.0}
+      - arrow: {from: 酸枣, to: 洛阳, kind: direction, faction: 关东, cue: 东, grow: 1.0}
+      - arrow: {from: 鲁阳, to: 洛阳, kind: direction, faction: 袁术, cue: 南, grow: 1.0}
+      - siege: {at: 洛阳, text: 围, faction: 关东, cue: 围了起来, for: 2.4}
+
+  - say: 酸枣会盟那天，诸侯们你推我让，谁也不肯先登盟坛。最后，大家推出了一个小小的广陵功曹，叫臧洪。
+    sources: [sgz-07]
+    camera: {focus: 酸枣, zoom: 3.0, move: 1.4}
+    show:
+      - act: {act: prop, at: 酸枣, item: 会盟坛, text: 酸枣会盟, cue: 会盟, for: 4}
+
+  - say: 臧洪登上高坛，捧起血盘，高声宣读盟誓：
+    sources: [sgz-07]
+    show:
+      - sfx: {name: 古风擂鼓, cue: 登上高坛, for: 8}
+      - enter: {who: 臧洪, side: left, cue: 臧洪, for: 2.4}
+      - sfx: {name: 誓师, cue: 盟誓}
+
+  - say: 汉室不幸，贼臣董卓祸乱朝廷、残害百姓！凡我同盟，齐心协力，就算掉了脑袋，也绝无二心！
+    speaker: 臧洪
+    style: 慷慨激昂，声泪俱下，面对万人宣誓
+    sources: [sgz-07]
+
+  - say: 他说得声泪俱下，台下哪怕是做饭喂马的兵卒，都听得热血沸腾。
+    sources: [sgz-07]
+    show:
+      - quote: {text: 闻其言者，虽卒伍厮养，莫不激扬, source: 三国志·臧洪传, era: 初平元年, cue: 热血}
+
+  # ---------------- 第二章 火烧洛阳 ----------------
+  - say: 消息传到洛阳。董卓做的第一件事，是毒死被废的少帝弘农王，免得联军拥立他。
+    phase: 火烧洛阳
+    music: 底声·阴沉
+    sources: [sgz-01, hhs-09]
+    camera: {focus: 洛阳, zoom: 3.0, move: 1.4}
+    show:
+      - sfx: {name: 低音转场, delay: -0.3}
+      - exit: {who: 刘辩, at: 洛阳, verb: 鸩, cue: 毒死, portrait: true}
+      - sfx: {name: 退场钟, cue: 毒死}
+
+  - say: 接着，他要把都城迁到长安。大臣们大多反对，董卓就罢了带头者的官。
+    sources: [sgz-06, hhs-72]
+    show:
+      - act: {act: edict, at: 洛阳, text: 迁都, sub: 洛阳 → 长安, side: left, cue: 迁到长安, for: 3.2}
+
+  - say: 当初推荐关东官员的伍琼、周毖，也被他杀了。
+    sources: [sgz-06]
+    show:
+      - act: {act: execute, at: 洛阳, text: 诛, cue: 伍琼, for: 2.4}
+      - sfx: {name: 处斩, cue: 伍琼}
+
+  - say: 二月，董卓挟持着汉献帝西去长安，还把洛阳几百万百姓，一起往西赶。
+    sources: [sgz-06, hhs-72]
+    camera: {focus: [洛阳, 长安], zoom: fit, move: 1.6}
+    show:
+      - army: {from: 洛阳, to: 长安, faction: 董卓, banner: 董, troops: cavalry, size: 1.6, cue: 西去长安, grow: 3.0}
+      - act: {act: refugees, places: [洛阳, 长安], text: 驱民西迁, cue: 几百万百姓, for: 5}
+      - sfx: {name: 溃败哭喊, cue: 往西赶}
+
+  - say: 骑兵在后面驱赶，百姓互相踩踏，饿死的、被抢的，尸体堆满了道路。
+    sources: [hhs-72]
+    show:
+      - quote: {text: 步骑驱蹙，更相蹈藉，饥饿寇掠，积尸盈路, source: 后汉书·董卓传, era: 初平元年, cue: 尸体}
+
+  - say: 临走前，董卓下令：宫殿、官府、民宅，一把火全部烧光。
+    sources: [hhs-72]
+    camera: {focus: 洛阳, zoom: 3.4, move: 1.2}
+    show:
+      - fire: {at: 洛阳, cue: 烧光, radius: 1.6, for: 8}
+      - sfx: {name: 燃烧, cue: 烧光}
+
+  - say: 方圆二百里，再也看不到人烟。
+    sources: [hhs-72]
+    show:
+      - stamp: {at: 洛阳, text: 焚, cue: 二百里}
+
+  - say: 他还让吕布带人挖开历代皇帝的陵墓，把里面的珍宝全部抢走。
+    sources: [hhs-72]
+    show:
+      - enter: {who: 吕布, side: right, cue: 吕布, for: 2.8}
+      - act: {act: prop, at: 洛阳, item: 帝陵, text: 掘陵, cue: 陵墓, for: 3}
+
+  - say: 董卓自己留在洛阳城外的毕圭苑，跟联军对峙。
+    sources: [hhs-72]
+    show:
+      - flag: {at: 洛阳, name: 董卓, sub: 屯毕圭苑, faction: 董卓, cue: 毕圭苑}
+
+  - say: 天子被劫，都城被烧，这正是联军进攻的最好时机。可酸枣的十几万人马，在干什么呢？
+    sources: [sgz-01]
+    camera: {focus: [洛阳, 酸枣], zoom: fit, move: 1.4}
+    show:
+      - spot: {at: 酸枣, cue: 酸枣}
+
+  # ---------------- 第三章 酸枣按兵 ----------------
+  - say: 他们每天摆酒设宴，高谈阔论，就是不出兵。
+    scene: 宴席
+    phase: 酸枣按兵
+    music: 底声·紧张
+    sources: [sgz-01]
+    camera: {focus: 酸枣, zoom: 3.2, move: 1.4}
+    show:
+      - sfx: {name: 古风转场, delay: -0.3}
+      - act: {act: prop, at: 酸枣, item: 宴饮, text: 日置酒高会, cue: 摆酒, for: 4}
+
+  - say: 只有一个人坐不住。曹操当着诸侯的面说：
+    scene: 宴席
+    sources: [sgz-01]
+    show:
+      - enter: {who: 曹操, side: right, cue: 曹操, for: 2.6}
+
+  - say: 我们举义兵，就是来诛杀暴乱的！如今董卓烧宫室、劫天子，正是天要亡他的时候，一战就能定天下，诸位还犹豫什么？
+    speaker: 曹操
+    style: 急切激愤，掷地有声，当众质问
+    scene: 宴席
+    to: 张邈
+    sources: [sgz-01]
+
+  - say: 没有人响应。曹操只好自己带着几千人西进，陈留太守张邈派了一支兵跟着他。
+    sources: [sgz-01]
+    camera: {focus: [酸枣, 荥阳], zoom: fit, move: 1.4}
+    show:
+      - army: {from: 酸枣, to: 荥阳, faction: 曹操, banner: 曹, troops: cavalry, size: 1.2, cue: 西进, grow: 2.4}
+
+  - say: 走到荥阳汴水，迎面撞上了董卓的大将徐荣。
+    sources: [sgz-01]
+    camera: {focus: [洛阳, 荥阳], zoom: fit, move: 1.2}
+    show:
+      - sfx: {name: 刀剑交击, cue: 撞上}
+      - campaign:
+          at: 荥阳
+          title: 汴水之战
+          clash: 撞上
+          loser: 曹操
+          sides:
+            - {from: 酸枣, faction: 曹操, banner: 曹, troops: cavalry, size: 1.2}
+            - {from: 洛阳, faction: 董卓, banner: 徐, troops: cavalry, size: 2.4}
+      - person_card: {who: 徐荣, cue: 徐荣, for: 3}
+
+  - say: 曹军死伤惨重，曹操中了一箭，坐骑也受了伤。危急关头，堂弟曹洪跳下马，把自己的马让给他：
+    sources: [sgz-01, sgz-09]
+    camera: {focus: 荥阳, zoom: 6, move: 1.2}
+    show:
+      - sfx: {name: 中箭, cue: 中了一箭}
+      - act: {act: arrows, places: [荥阳], cue: 中了一箭, for: 2.4}
+      - act: {act: prop, at: 荥阳, item: 惊马, text: 让马, cue: 让给他, for: 3}
+
+  - say: 天下可无洪，不可无君！
+    speaker: 曹洪
+    style: 急切决绝，战场上嘶声大喊，催他快走
+    sources: [sgz-09]
+
+  - say: 靠着这匹马，曹操连夜逃了出去。徐荣见他兵少却死战了一整天，觉得酸枣不好打，也收兵回去了。
+    sources: [sgz-01, sgz-09]
+    camera: {focus: [荥阳, 酸枣], zoom: fit, move: 1.4}
+    show:
+      - act: {act: night, cue: 连夜, for: 3}
+      - rout: {at: 荥阳, to: 酸枣, faction: 曹操, banner: 曹, cue: 逃了出去, size: 1}
+
+  - say: 曹操回到酸枣，又给诸侯出了一套分兵进逼、虚张声势的计策，最后说了一句重话：
+    scene: 宴席
+    sources: [sgz-01]
+    camera: {focus: 酸枣, zoom: 3.2, move: 1.2}
+
+  - say: 如今兵以义动，却迟疑不进，让天下人失望。我替诸位感到羞耻！
+    speaker: 曹操
+    style: 冷峻愤懑，压着火气，一字一顿
+    scene: 宴席
+    to: 张邈
+    sources: [sgz-01]
+
+  - say: 张邈这些人，还是不听。
+    sources: [sgz-01]
+    show:
+      - enter: {who: 张邈, side: left, cue: 张邈, for: 2.4}
+
+  - say: 北边也不顺。王匡屯兵河阳津，董卓派疑兵在正面挑战，暗中让精兵从小平津渡过黄河，绕到他背后。
+    sources: [hhs-72, sgz-06]
+    camera: {focus: [洛阳, 河阳津, 小平津], zoom: 9, move: 1.4}
+    show:
+      - flag: {at: 河阳津, name: 王匡, sub: 河内太守, faction: 关东, cue: 王匡, guest: true}
+      - march: {from: 洛阳, to: 小平津, faction: 董卓, cue: 精兵, grow: 1.4}
+      - march: {from: 小平津, to: 河阳津, faction: 董卓, cue: 绕到他背后, grow: 1.4}
+
+  - say: 王匡几乎全军覆没。
+    sources: [hhs-72]
+    show:
+      - battle: {at: 河阳津, text: 王匡大败, cue: 全军覆没}
+      - exit: {who: 王匡, at: 河阳津, verb: 败, cue: 覆没}
+
+  # ---------------- 第四章 江东猛虎 ----------------
+  - say: 联军里真正敢跟董卓硬碰硬的，只有南边一路：长沙太守孙坚。
+    phase: 江东猛虎
+    sources: [sgz-46]
+    year: 191
+    camera: {focus: [长沙, 鲁阳], zoom: fit, move: 1.6}
+    show:
+      - sfx: {name: 低音转场, delay: -0.3}
+      - enter: {who: 孙坚, at: 鲁阳, side: right, cue: 孙坚, settle: true, settle_sub: 长沙太守}
+      - replay: {path: [长沙, 鲁阳], faction: 孙坚, label: 孙坚北上, cue: 长沙}
+      - sfx: {name: 登场, cue: 孙坚}
+
+  - say: 孙坚是吴郡人，十七岁就敢只身吓退海盗，打黄巾时也立过大功。他北上投奔袁术，屯兵鲁阳。
+    sources: [sgz-46]
+
+  - say: 可他第一次跟董卓军交手，就在梁县东边吃了败仗，被徐荣的骑兵一路追赶。
+    sources: [sgz-46]
+    camera: {focus: [鲁阳, 阳人, 洛阳], zoom: fit, move: 1.4}
+    show:
+      - sfx: {name: 挥刀, cue: 骑兵}
+      - battle: {at: 阳人, text: 梁东之败, cue: 败仗}
+      - rout: {at: 阳人, to: 鲁阳, faction: 孙坚, banner: 孙, cue: 追赶, size: 1}
+
+  - say: 孙坚平时戴着一顶红头巾，很好认。危急时，他把头巾摘下来，让部将祖茂戴上。
+    sources: [sgz-46]
+    camera: {focus: 阳人, zoom: 6, move: 1.2}
+    show:
+      - act: {act: prop, at: 阳人, item: 赤帻, text: 赤帻, cue: 红头巾, size: 1.3, for: 5}
+
+  - say: 董卓的骑兵都追着红头巾跑。祖茂把头巾挂在一根烧焦的木桩上，自己藏进草丛。
+    sources: [sgz-46]
+    show:
+      - act: {act: prop, at: 阳人, item: 赤帻, text: 帻挂烧柱, cue: 木桩, size: 1.1, for: 3.4}
+
+  - say: 骑兵围着木桩转了好几圈，才发现上当。孙坚，早已从小路逃脱。
+    sources: [sgz-46]
+    show:
+      - flee: {from: 阳人, to: 鲁阳, faction: 孙坚, cue: 小路}
+
+  - say: 孙坚收拢残兵，在阳人跟董卓军再战。这一次大获全胜，还斩了董卓的都督华雄。
+    sources: [sgz-46]
+    camera: {focus: [洛阳, 阳人, 鲁阳], zoom: fit, move: 1.2}
+    show:
+      - campaign:
+          at: 阳人
+          title: 阳人之战
+          clash: 再战
+          loser: 董卓
+          sides:
+            - {from: 鲁阳, faction: 孙坚, banner: 孙, troops: infantry, size: 2}
+            - {from: 洛阳, faction: 董卓, banner: 华, troops: cavalry, size: 2}
+      - act: {act: execute, at: 阳人, text: 枭华雄, cue: 华雄, for: 2.6}
+      - sfx: {name: 处斩, cue: 华雄}
+
+  - say: 没错，就是小说里"温酒斩华雄"的那个华雄。史书上写得清清楚楚：斩华雄的，是孙坚，不是关羽。
+    sources: [sgz-46]
+    show:
+      - card: {title: 演义 vs 正史, body: 《孙破虏传》：坚"大破卓军，枭其都督华雄", cue: 温酒斩华雄}
+
+  - say: 可就在这时，有人在袁术耳边嘀咕：孙坚要是拿下洛阳，就管不住了。袁术起了疑心，扣着军粮不发。
+    sources: [sgz-46]
+    camera: {focus: [阳人, 鲁阳], zoom: fit, move: 1.2}
+    show:
+      - enter: {who: 袁术, side: left, cue: 袁术, for: 2.6}
+      - act: {act: prop, at: 鲁阳, item: 粮草, text: 扣粮, cue: 扣着军粮, for: 3}
+
+  - say: 孙坚连夜骑马跑了一百多里，赶回鲁阳，在地上画着形势，当面对袁术说：
+    sources: [sgz-46]
+    show:
+      - act: {act: night, cue: 连夜, for: 3}
+      - army: {from: 阳人, to: 鲁阳, faction: 孙坚, banner: 孙, troops: cavalry, size: 0.8, cue: 骑马, grow: 1.6}
+
+  - say: 我豁出性命，上为国家讨贼，下为将军报家仇！我跟董卓无冤无仇，将军却听信小人的话，反倒怀疑我！
+    speaker: 孙坚
+    style: 又急又怒，满腔委屈，当面质问
+    scene: 军帐
+    to: 袁术
+    sources: [sgz-46]
+    show:
+      - versus: {left: 孙坚, right: 袁术, label: 争粮, for: 6}
+
+  - say: 袁术被说得局促不安，当场调发了军粮。
+    scene: 军帐
+    sources: [sgz-46]
+
+  - say: 董卓怕了。他派李傕来讲和，许诺让孙家子弟去当刺史、太守。孙坚当场回绝：
+    scene: 军帐
+    sources: [sgz-46]
+    show:
+      - enter: {who: 李傕, side: right, cue: 李傕, for: 2.6}
+
+  - say: 董卓逆天无道，颠覆王室！今天不灭你三族、悬首示众，我死不瞑目，还谈什么和亲！
+    speaker: 孙坚
+    style: 怒不可遏，斩钉截铁，厉声痛斥
+    scene: 军帐
+    to: 李傕
+    sources: [sgz-46]
+    show:
+      - sfx: {name: 拔剑, delay: 0.1}
+      - versus: {left: 孙坚, right: 李傕, label: 拒和, for: 6}
+
+  - say: 孙坚进军大谷，离洛阳只剩九十里。董卓扛不住了，烧了洛阳，退回长安。
+    sources: [sgz-46, sgz-06]
+    camera: {focus: [长安, 洛阳, 阳人], zoom: fit, move: 1.4}
+    show:
+      - army: {from: 阳人, to: 洛阳, faction: 孙坚, banner: 孙, troops: infantry, size: 2, cue: 进军大谷, grow: 2.0}
+      - army: {from: 洛阳, to: 长安, faction: 董卓, banner: 董, troops: cavalry, size: 1.6, cue: 退回长安, grow: 2.4}
+
+  - say: 孙坚开进洛阳，眼前只剩一片废墟。他把被挖开的皇陵，一座座重新填好。
+    music: 底声·舒展
+    sources: [sgz-46]
+    camera: {focus: 洛阳, zoom: 3.2, move: 1.2}
+    show:
+      - sfx: {name: 萧声, cue: 废墟}
+      - flag: {at: 洛阳, name: 孙坚, sub: 入洛阳, faction: 孙坚, cue: 开进洛阳}
+      - act: {act: fall, at: 洛阳, text: 废墟, cue: 废墟, for: 3}
+      - act: {act: prop, at: 洛阳, item: 帝陵, text: 修诸陵, cue: 皇陵, for: 3}
+
+  - say: 据说，他还在城南的一口井里，捞出了一方玉玺：传国玉玺。
+    sources: [sgz-46]
+    show:
+      - act: {act: prop, at: 洛阳, item: 传国玉玺, text: 传国玉玺, cue: 玉玺, size: 1.3, for: 4}
+      - card: {title: 据说, body: 得玺一事见《三国志》注引《吴书》, cue: 据说}
+      - sfx: {name: 帝王登场, cue: 玉玺}
+
+  # ---------------- 第五章 名存实亡 ----------------
+  - say: 而另一边的酸枣，粮食吃光了，诸侯们一哄而散。
+    phase: 名存实亡
+    sources: [sgz-01]
+    camera: {focus: [酸枣, 东郡, 陈留], zoom: fit, move: 1.4}
+    owners_cue: 一哄而散
+    map: '191-04'
+    show:
+      - sfx: {name: 古风转场, delay: -0.3}
+      - exit: {who: 酸枣诸军, at: 酸枣, verb: 散, cue: 一哄而散}
+
+  - say: 兖州刺史刘岱跟东郡太守桥瑁不和，干脆杀了桥瑁，吞了东郡。
+    sources: [sgz-01]
+    map: '191-05'
+    owners_cue: 吞了东郡
+    show:
+      - act: {act: execute, at: 东郡, text: 杀桥瑁, cue: 杀了桥瑁, for: 2.4}
+      - takeover: {at: 东郡, to: 刘岱, cue: 吞了东郡, name: 刘岱, sub: 兖州刺史, camera: false}
+
+  - say: 十几万联军，为什么打不过一个董卓？因为他们打的，是讨伐董卓的旗号；心里算的，却是自己的地盘。
+    sources: [sgz-01]
+    camera: {focus: [洛阳, 南皮, 鲁阳, 酸枣], zoom: fit, move: 1.4}
+    show:
+      - headline: {text: 名存实亡, sub: 讨董联盟瓦解, cue: 地盘, for: 3.4}
+
+  - say: 真正跟董卓拼过命的，只有两个人：曹操兵败汴水，孙坚被自己人卡着军粮。
+    sources: [sgz-01, sgz-46]
+    show:
+      - versus: {left: 曹操, right: 孙坚, label: 死战, cue: 两个人, for: 5}
+
+  - say: 而盟主袁绍，眼睛早就盯上了另一块地方：韩馥手里，富得流油的冀州。
+    sources: [hhs-74]
+    camera: {focus: [南皮, 邺], zoom: fit, move: 1.6}
+    show:
+      - meanwhile: {from: 南皮, to: 邺, text: 冀州, faction: 袁绍, flag: {name: 韩馥, sub: 冀州牧, faction: 关东}}
+      - title_bar: {text: 下集, sub: 袁绍夺冀州 · 董卓之死, cue: 冀州, delay: 1.0, for: 3.0}

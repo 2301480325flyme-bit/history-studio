@@ -1,0 +1,411 @@
+# 快节奏版（2026-10-25）
+# 《三国到隋》第43集 · 十六国：冉闵杀胡建魏，前秦在关中立国（349–352）。大纲第 37 条。
+# 史料包：projects/s01e43-ranmin/research/史料包.yaml（Codex）；战事账：战事.yaml。
+# 本地语料核对（晋书）：
+# 石季龙载记下 p07374 石遵"努力事成，以尔为储贰。既而立衍，闵甚失望…遵召石鉴等入议…皆请诛之"；"乃杀之于琨华殿"；p07376 石鉴"夜诛闵农于琨华殿，不克"；
+#   p07378"孙伏都、刘铢等结羯士三千伏于胡天，亦欲诛闵等…横尸相枕，流血成渠。宣令内外六夷敢称兵杖者斩之…令城内曰：与官同心者住，不同心者各任所之…于是赵人百里内悉入城，胡羯去者填门。闵知胡之不为己用也，班令内外赵人斩一胡首送凤阳门者，文官进位三等，武职悉拜牙门。一日之中，斩首数万…死者二十余万…于时高鼻多须至有滥死者半"；
+#   p07383"闵字永曾，小字棘奴，季龙之养孙也。父瞻…本姓冉，名良，魏郡内黄人也"；p07384"僭即皇帝位于南郊…国号大魏，复姓冉氏"；p07385"石祗闻鉴死，僭称尊号于襄国，诸六夷据州郡拥兵者皆应之"；
+#   p07387"闵率步骑十万攻石祗于襄国…攻襄国百余日…弋仲复遣其子襄率骑三万八千…俊遣将军悦绾率甲卒三万…三方劲卒合十余万…卫将军王泰谏…道士法饶进曰：太白经昴，当杀胡王，一战百克，不可失也。闵攘袂大言曰：吾战决矣，敢谏者斩！…姚襄、悦绾、石琨等三面攻之，祗冲其后，闵师大败。闵潜于襄国行宫，与十余骑奔邺…诸将士死者十余万"；
+#   p07390"遂入襄国，诛显"；p07391"与慕容恪相遇于魏昌城…闵怒曰：吾成师以出，将平幽州，斩慕容俊；今遇恪而避之，人将侮我矣。乃与恪遇，十战皆败之。恪乃以铁锁连马…闵所乘赤马曰朱龙，日行千里，左杖双刃矛，右执钩戟，顺风击之，斩鲜卑三百余级。俄而燕骑大至，围之数周…跃马溃围东走，行二十余里，马无故而死，为恪所擒…俊立闵而问之曰：汝奴仆下才，何自妄称天子？闵曰：天下大乱，尔曹夷狄，人面兽心，尚欲篡逆；我一时英雄，何为不可作帝王邪！"；
+#   p07393"俊送闵既至龙城，斩于遏陉山。山左右七里草木悉枯，蝗虫大起，五月不雨，至于十二月"；
+# 苻洪载记 p07569"既而秋因宴鸩洪…洪将死，谓健曰：…关中形胜，吾亡后便可鼓行而西"；苻健载记 p07571"缮宫室于枋头，课所部种麦，示无西意，有知而不种者，健杀之以徇…起浮桥于盟津以济…兄子菁自轵关入河东。健执菁手曰：事若不捷，汝死河北，我死河南，不及黄泉无相见也。既济，焚桥…三辅略定。健引兵至长安…入而都之"；p07572"永和七年，僭称天王、大单于"；
+# 穆帝纪 p00183-p00185：350 闰月冉闵称天王国号魏；八月苻健帅众入关；十一月冉闵围襄国；351 正月苻健称王国号秦；二月石祗大败冉闵于襄国；四月刘显杀石祗；352 正月冉闵杀刘显；四月冉闵为慕容隽所灭，隽称帝于中山；八月冉智以邺降。
+# 不用：曝尸、野犬食尸、"无贵贱男女少长皆斩之"（过于残酷；旁白只说史书记载的人数）；"连环马"侧翼包抄等后世演绎（只用晋书"铁锁连马"）；"汉人英雄"作为定论（旁白只引冉闵自辩，结尾交给观众）。
+
+id: s01e43-ranmin
+title: 冉闵
+series: 十六国 · 第43集
+year: 350
+
+notes:
+  - 主线问题：石虎死后一年换了三个皇帝，石虎的养孙冉闵怎么从辅政大将变成魏国皇帝，又为什么三年就亡了？同时，枋头的苻家如何趁乱西进，在关中建了秦。
+  - 钩子候选：①"一道命令下去，邺城一天之内杀了几万人"（反差2 具体3 悬念3 兑现3=11）②"他是石虎的养孙，最后却把石家杀了个干净"（反差3 具体2 悬念3 兑现3=11）→ 合并：先说命令，再揭身份。
+  - 反差：养孙灭了石家；打开城门任人去留，汉人涌进、胡人挤出；苻健种麦装作不走，突然西进烧桥；冉闵十战十胜，最后一仗马无故而死。
+  - 细节：努力事成以尔为储贰；六夷敢称兵杖者斩；赵人入城胡羯填门；斩一胡首文官进位三等；高鼻多须滥死；课所部种麦；汝死河北我死河南；既济焚桥；太白经昴；吾战决矣敢谏者斩；十余骑奔邺；十战皆败之；铁锁连马；赤马朱龙；马无故而死；汝奴仆下才；我一时英雄；遏陉山草木悉枯。
+  - 演义对照卡：结尾卡"史书怎么写"（冉闵自辩"我一时英雄，何为不可作帝王邪"——这是他自己的话，不是史家评语）。
+
+map:
+  center: [114.0, 36.5]
+  scale: 5000
+  extent: [86.0, 12.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas
+  river_rank: 4
+  palette: warm
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 一道命令下去，邺城一天之内杀了几万人。下令的，是石虎的养孙
+  big: [冉闵, 前秦立国]
+  hero: 冉闵
+  at: 3
+  summary: |
+    349 年石虎死，儿子们一年里换了三个皇帝。石虎的养孙冉闵本姓冉，是魏郡内黄的汉人，先帮石遵杀石世夺位，石遵许他做太子又反悔、想杀他，冉闵便杀石遵、立石鉴，石鉴又谋杀他未成。羯族卫士作乱被平后，冉闵下令"六夷敢称兵杖者斩"，打开城门任人去留，汉人涌入、胡羯填门而出；又令送一胡首者进官，史书记死者二十余万，高鼻多须者多被滥杀。350 年闰正月他杀石鉴称帝，国号魏，复姓冉。石祗在襄国称帝，各地胡人兵马都附石祗。
+    枋头的氐帅苻洪被麻秋毒死，临终叫儿子苻健西取关中。苻健在枋头种麦装作不走，350 年秋突然全军西进，盟津架桥渡河、过河焚桥，对侄子苻菁说"汝死河北，我死河南"，三辅略定，入长安，351 年称天王、国号秦。
+    冉闵围襄国百余日，羌、燕援军十余万赶到，他不听劝谏，信道士"太白经昴，当杀胡王"，说"吾战决矣，敢谏者斩"，三面受敌大败，带十余骑逃回邺。352 年他在魏昌城遇慕容恪，十战皆胜，慕容恪以铁锁连马结方阵，冉闵骑赤马朱龙杀三百余人后突围，马无故而死被擒。他对慕容儁说"我一时英雄，何为不可作帝王邪"，被斩于龙城遏陉山。同年慕容儁称帝，邺入前燕。
+  tags: [十六国, 冉闵, 冉魏, 杀胡令, 前秦, 苻健, 慕容恪, 前燕]
+  next: 桓温北伐
+
+sources_local:
+  - {id: js-08, work: 晋书, volume: 卷八·穆帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷008'}
+  - {id: js-107, work: 晋书, volume: 卷一百七·石季龙载记下（附冉闵）, url: 'https://zh.wikisource.org/wiki/晉書/卷107'}
+  - {id: js-112, work: 晋书, volume: 卷一百十二·苻洪载记、苻健载记, url: 'https://zh.wikisource.org/wiki/晉書/卷112'}
+
+factions: {后赵: '#3f6a8a', 冉魏: '#a0662a', 前秦: '#9a3a4a', 前燕: '#5a5a9a', 晋: '#2f5d3a', 羌: '#6a7a3a'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    晋: {slot: jade, main: true, label_at: 建康}
+    后赵: {slot: sky, label_at: 襄国}
+    冉魏: {slot: orange, label_at: 邺}
+    前秦: {slot: rose, label_at: 长安}
+    前燕: {slot: violet, label_at: 龙城}
+
+people:
+  冉闵: {image: 03_素材/人物立绘/ran_min.png, title: 魏天王, role: 杀胡建魏, faction: 冉魏}
+  石遵: {image: 03_素材/人物立绘/shi_zun.png, title: 后赵皇帝, role: 被冉闵所杀, faction: 后赵}
+  石鉴: {image: 03_素材/人物立绘/shi_jian.png, title: 后赵皇帝, role: 被冉闵所杀, faction: 后赵}
+  石祗: {image: 03_素材/人物立绘/shi_zhi.png, title: 后赵皇帝, role: 襄国称帝, faction: 后赵}
+  苻洪: {image: 03_素材/人物立绘/fu_hong.png, title: 三秦王, role: 被毒死, faction: 前秦}
+  苻健: {image: 03_素材/人物立绘/fu_jian_jianye.png, title: 秦天王, role: 入关立国, faction: 前秦}
+  慕容恪: {image: 03_素材/人物立绘/murong_ke.png, title: 前燕大将, role: 擒冉闵, faction: 前燕}
+  慕容儁: {image: 03_素材/人物立绘/murong_jun.png, title: 燕王, role: 中山称帝, faction: 前燕}
+  姚弋仲: {image: 03_素材/人物立绘/yao_yizhong.png, title: 羌帅, role: 救襄国, faction: 羌}
+
+places:
+  邺: {id: ye_city, label: right, tier: capital}
+  襄国: {id: xiangguo, label: right}
+  枋头: {id: fangtou, label: right}
+  盟津: {id: mengjin, name: 盟津, label: below}
+  潼关: {id: tongguan, label: below, show: false}
+  长安: {id: changan_han_city, label: below, tier: capital}
+  蓟: {id: ji_yan, label: right}
+  中山: {id: zhongshan_lunu, label: right}
+  魏昌城: {id: weichang, label: left}
+  龙城: {id: longcheng_yan, label: right}
+  建康: {id: nanjing_ancient_city, name: 建康, label: right, show: false}
+
+camera:
+  focus: [长安, 邺, 龙城]
+  zoom: fit
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 一道命令下去，邺城一天之内，杀了几万人。
+    map: '349-11'
+    year: 350
+    phase: 杀胡
+    sources: [js-107]
+    camera: {focus: 邺, zoom: 7, move: 1.2}
+    show:
+      - sfx: 重拍转场
+      - act: {act: edict, at: 邺, text: 六夷敢称兵杖者斩, cue: 一道命令, for: 3.6}
+
+  - say: 下令的人，是石虎的养孙。可他自己，本是汉人。
+    sources: [js-107]
+    show:
+      - quote: {text: 季龙之养孙也…本姓冉，魏郡内黄人也, source: 晋书·石季龙载记下, cue: 养孙, for: 4}
+      - sfx: {name: 悬疑, cue: 汉人}
+
+  - say: 他叫冉闵。
+    sources: [js-107]
+    show:
+      - enter: {who: 冉闵, side: right, cue: 冉闵, for: 3.4}
+      - sfx: {name: 登场, cue: 冉闵}
+
+  # ---------------- 第一章 夺权 ----------------
+  - say: 先说三四九年。石虎一死，儿子们抢皇位，一年换了三个皇帝。
+    year: 349
+    phase: 夺权
+    sources: [js-107]
+    camera: {focus: [邺, 襄国], zoom: 7, move: 1.4}
+    show:
+      - title_bar: {text: 冉闵, sub: 十六国 · 第43集, for: 3.2}
+      - sfx: 片头鼓
+
+  - say: 石遵夺位前，许诺冉闵：事成了，立你当太子。
+    sources: [js-107]
+    show:
+      - enter: {who: 石遵, side: left, cue: 石遵, for: 3.2}
+      - quote: {text: 努力，事成，以尔为储贰, source: 晋书·石季龙载记下, cue: 太子, for: 3.6}
+
+  - say: 冉闵替他杀进邺城。可石遵坐稳后不认账，还想杀他。
+    audit_ok: [易手]
+    sources: [js-107]
+    show:
+      - act: {act: execute, at: 邺, text: 废杀石世, cue: 杀进邺城, for: 2.6}
+
+  - say: 冉闵先下手杀了石遵，立了石鉴。石鉴又派人半夜杀他，没成。
+    sources: [js-107]
+    show:
+      - exit: {who: 石遵, at: 邺, verb: 杀, portrait: true, cue: 杀了石遵}
+      - enter: {who: 石鉴, side: left, cue: 石鉴, for: 3}
+
+  # ---------------- 第二章 杀胡 ----------------
+  - say: 宫里三千羯兵起兵杀他，被杀得血流成河。冉闵下令：胡人敢拿兵器的，斩！
+    phase: 杀胡
+    sources: [js-107]
+    camera: {focus: 邺, zoom: 8, move: 1.2}
+    show:
+      - battle: {at: 邺, text: 流血成渠, cue: 血流成河}
+      - quote: {text: 宣令内外六夷敢称兵杖者斩之, source: 晋书·石季龙载记下, cue: 斩, for: 3.6}
+
+  - say: 他又打开城门：跟我一条心的留下，不愿意的随便走。
+    sources: [js-107]
+    show:
+      - act: {act: prop, at: 邺, item: 城门, text: 不同心者各任所之, cue: 打开城门, for: 3.4}
+
+  - say: 方圆百里的汉人都涌进城，胡人、羯人挤满城门往外逃。
+    sources: [js-107]
+    show:
+      - vignette: {image: illus_yecheng_gate, cue: 涌进城, for: 5.5, text: 赵人百里内悉入城，胡羯去者填门}
+
+  - say: 冉闵又下令：送一颗胡人的头来，文官升三级，武官封牙门将。
+    sources: [js-107]
+    show:
+      - card: {title: 赏格, body: 赵人斩一胡首送凤阳门者，文官进位三等，武职悉拜牙门, cue: 文官升三级, for: 5}
+
+  - say: 史书记载，一天斩首几万，前后死了二十多万人，很多高鼻多须的汉人也被错杀。
+    sources: [js-107]
+    show:
+      - quote: {text: 一日之中，斩首数万…死者二十余万, source: 晋书·石季龙载记下, cue: 二十多万, for: 4}
+      - sfx: {name: 不祥鼓, cue: 二十多万}
+
+  - say: 三五零年闰正月，冉闵杀了石鉴，自己当了皇帝，国号魏，改回本姓冉。
+    map: '350-01'
+    owners_cue: 国号魏
+    sources: [js-08, js-107]
+    camera: {focus: [邺, 襄国, 长安], zoom: fit, move: 1.4}
+    show:
+      - exit: {who: 石鉴, at: 邺, verb: 杀, portrait: true, cue: 杀了石鉴}
+      - act: {act: enthrone, who: 冉闵, at: 邺, text: 国号大魏, sub: 复姓冉氏, cue: 当了皇帝, for: 3.2}
+
+  - say: 石虎的儿子石祗，在襄国也称了帝，各地胡人兵马都投了他。
+    sources: [js-107]
+    show:
+      - enter: {who: 石祗, side: left, cue: 石祗, for: 3}
+      - spot: {at: 襄国, text: 石祗僭称尊号, cue: 称了帝, for: 3}
+
+  # ---------------- 第三章 前秦 ----------------
+  - say: 北边，慕容家趁乱拿下蓟城。枋头的氐族首领苻洪，也想争天下。
+    map: '350-03'
+    owners_cue: 蓟城
+    phase: 前秦
+    sources: [js-107, js-112]
+    camera: {focus: [枋头, 蓟, 长安], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 苻洪, side: right, cue: 苻洪, for: 3.2}
+      - camp: {at: 枋头, unit: 苻洪, faction: 前秦, text: 苻洪 · 众十万, cue: 枋头}
+
+  - say: 可他被降将麻秋毒死。临死前对儿子苻健说：关中形胜，往西打。
+    sources: [js-08, js-112]
+    show:
+      - exit: {who: 苻洪, at: 枋头, verb: 卒, portrait: true, cue: 毒死}
+      - quote: {text: 关中形胜，吾亡后便可鼓行而西, source: 晋书·苻洪载记, cue: 往西打, for: 4}
+
+  - say: 苻健偏装作不想走，在枋头修宫殿、种麦子，谁不种，就杀谁。
+    sources: [js-112]
+    tells: [e17]
+    show:
+      - enter: {who: 苻健, side: right, cue: 苻健, for: 3.2}
+      - vignette: {image: illus_zhongmai, cue: 种麦子, for: 5, text: 课所部种麦，示无西意}
+
+  - say: 这年秋天，他突然全军西进，在盟津架桥过河，拉着侄子苻菁的手说：
+    sources: [js-08, js-112]
+    camera: {focus: [枋头, 盟津, 长安], zoom: fit, move: 1.4}
+    tells: [e18]
+    show:
+      - army: {head: 苻健, from: 枋头, to: 盟津, faction: 前秦, banner: 健, troops: cavalry, size: 3.0, cue: 全军西进, grow: 1.6, camp: false}
+      - act: {act: pontoon, at: 盟津, text: 起浮桥于盟津以济, cue: 架桥, for: 3.6}
+
+  - say: 这一仗要是败了，你死在河北，我死在河南，到了黄泉，都别再见面！
+    speaker: 苻健
+    style: 紧握对方的手，压着情绪，斩钉截铁，诀别的口吻
+    quote: 事若不捷，汝死河北，我死河南，不及黄泉无相见也
+    sources: [js-112]
+    show:
+      - enter: {who: 苻健, side: right, cue: 这一仗, for: 5}
+
+  - say: 过了河就烧桥。一路连战连胜，进了长安。
+    map: '350-11'
+    owners_cue: 进了长安
+    sources: [js-112]
+    tells: [e20, e22]
+    show:
+      - vignette: {image: illus_mengjin_bridge, cue: 烧桥, for: 4.5, text: 既济，焚桥}
+      - army: {head: 苻健, from: 盟津, via: [潼关], to: 长安, faction: 前秦, banner: 健, troops: cavalry, size: 3.0, cue: 连战连胜, grow: 1.8}
+      - battle: {at: 潼关, text: 逆击破张先, cue: 连战连胜}
+
+  - say: 第二年正月，苻健自称天王，国号秦。史称前秦。
+    audit_ok: [遗忘]
+    year: 351
+    sources: [js-08, js-112]
+    show:
+      - act: {act: enthrone, who: 苻健, at: 长安, text: 天王 · 国号秦, sub: 永和七年, cue: 国号秦, for: 3.2}
+
+  # ---------------- 第四章 襄国 ----------------
+  - say: 再说冉闵。他带十万大军围襄国，打了一百多天。
+    year: 350
+    phase: 襄国
+    sources: [js-08, js-107]
+    camera: {focus: [邺, 襄国, 蓟], zoom: fit, move: 1.4}
+    show:
+      - army: {head: 冉闵, from: 邺, to: 襄国, faction: 冉魏, banner: 闵, troops: infantry, size: 3.4, cue: 十万大军, grow: 1.6, stop: approach}
+      - siege: {at: 襄国, text: 攻襄国百余日, faction: 冉魏, cue: 一百多天}
+
+  - say: 石祗向羌人、鲜卑求救，十几万援军压了过来。
+    year: 351
+    sources: [js-107]
+    tells: [e12]
+    show:
+      - enter: {who: 姚弋仲, side: left, cue: 羌人, for: 2.8}
+      - army: {unit: 悦绾, from: 蓟, to: 襄国, faction: 前燕, banner: 燕, troops: cavalry, size: 2.6, cue: 援军, grow: 1.6, stop: approach, camp: false}
+
+  - say: 大将王泰劝他别出战。一个道士却说：太白经昴，该杀胡王，一战百胜！
+    sources: [js-107]
+    show:
+      - vignette: {image: illus_taibai, cue: 一个道士, for: 6, text: 太白经昴，当杀胡王}
+
+  - say: 冉闵一挥袖子：我决心已定，再劝的，斩！
+    sources: [js-107]
+    show:
+      - quote: {text: 吾战决矣，敢谏者斩, source: 晋书·石季龙载记下, cue: 再劝的, for: 3.4}
+
+  - say: 结果三面受敌，十几万人死在襄国城下。冉闵只带着十几个骑兵，逃回了邺城。
+    sources: [js-08, js-107]
+    tells: [e10, e13]
+    show:
+      - battle: {at: 襄国, text: 闵师大败, cue: 三面受敌}
+      - rout: {at: 襄国, to: 邺, faction: 冉魏, banner: 闵, head: 冉闵, cue: 逃回了邺城, size: 1}
+      - sfx: {name: 溃败哭喊, cue: 死在襄国城下}
+
+  - say: 没多久，石祗被自己的部将刘显杀了。后赵，彻底亡了。
+    map: '351-04'
+    owners_cue: 亡了
+    sources: [js-08]
+    show:
+      - exit: {who: 石祗, at: 襄国, verb: 杀, portrait: true, cue: 杀了}
+      - sfx: {name: 落幕锣, cue: 亡了}
+
+  # ---------------- 第五章 魏昌城 ----------------
+  - say: 三五二年，冉闵重整兵马，打进襄国，杀了刘显。可北边的前燕，已经压到了冀州。
+    year: 352
+    map: '352-01'
+    owners_cue: 打进襄国
+    phase: 魏昌城
+    sources: [js-08, js-107]
+    camera: {focus: [邺, 中山, 蓟], zoom: fit, move: 1.4}
+    tells: [e16]
+    show:
+      - camp: {at: 邺, unit: 冉闵, faction: 冉魏, text: 冉闵, cue: 重整兵马}
+      - army: {head: 冉闵, from: 邺, to: 襄国, faction: 冉魏, banner: 闵, troops: cavalry, size: 2.8, cue: 打进襄国, grow: 1.2}
+
+  - say: 冉闵带兵迎上去，在魏昌城撞上了慕容恪。
+    sources: [js-107]
+    show:
+      - army: {head: 冉闵, from: 襄国, to: 魏昌城, faction: 冉魏, banner: 闵, troops: cavalry, size: 2.8, cue: 迎上去, grow: 1.4, stop: approach}
+      - army: {head: 慕容恪, from: 中山, to: 魏昌城, faction: 前燕, banner: 恪, troops: cavalry, size: 3.2, cue: 慕容恪, grow: 1.2, stop: approach}
+      - enter: {who: 慕容恪, side: left, cue: 撞上了, for: 3}
+
+  - say: 部将劝他避一避。冉闵大怒：遇上慕容恪就躲，人家要笑话我！
+    sources: [js-107]
+    show:
+      - quote: {text: 今遇恪而避之，人将侮我矣, source: 晋书·石季龙载记下, cue: 笑话我, for: 3.6}
+
+  - say: 前后十仗，冉闵仗仗都赢。
+    sources: [js-107]
+    tells: [e25]
+    show:
+      - battle: {at: 魏昌城, text: 十战皆败之, cue: 十仗}
+
+  - say: 慕容恪就用铁锁把战马连在一起，排成方阵，一步一步压过来。
+    sources: [js-107]
+    show:
+      - vignette: {image: illus_tiesuo, cue: 铁锁, for: 6, text: 恪乃以铁锁连马，方阵而前}
+
+  - say: 冉闵骑着赤马朱龙，左手双刃矛，右手钩戟，一口气杀了三百多人。
+    sources: [js-107]
+    show:
+      - enter: {who: 冉闵, side: right, cue: 赤马朱龙, for: 4}
+      - sfx: {name: 刀剑交击, cue: 三百多人}
+
+  - say: 可燕军越围越多。他突围跑了二十多里，战马无故倒地而死。冉闵被擒。
+    map: '352-04'
+    owners_cue: 被擒
+    sources: [js-08, js-107]
+    show:
+      - battle: {at: 魏昌城, text: 围之数周, cue: 越围越多}
+      - exit: {who: 冉闵, at: 魏昌城, verb: 囚, portrait: true, cue: 被擒}
+
+  - say: 慕容儁问他：你一个奴才，凭什么自称天子？
+    sources: [js-107]
+    show:
+      - enter: {who: 慕容儁, side: left, cue: 慕容儁, for: 4}
+
+  - say: 天下大乱，你们这些人面兽心的，都想篡位当皇帝。我一时英雄，凭什么不能当！
+    speaker: 冉闵
+    style: 被缚仍昂头，怒极反笑，一字一顿地顶回去
+    quote: 天下大乱，尔曹夷狄，人面兽心，尚欲篡逆；我一时英雄，何为不可作帝王邪
+    sources: [js-107]
+    show:
+      - enter: {who: 冉闵, side: right, cue: 天下大乱, for: 6}
+      - sfx: {name: 重低音落地, cue: 凭什么不能当}
+
+  - say: 冉闵在龙城遏陉山被斩。史书说，山上七里草木全枯，大半年没下雨。
+    sources: [js-107]
+    camera: {focus: [魏昌城, 龙城], zoom: fit, move: 1.4}
+    tells: [e26, e27]
+    show:
+      - march: {from: 魏昌城, via: [蓟], to: 龙城, faction: 前燕, label: 送闵于龙城, cue: 龙城, grow: 1.8}
+      - exit: {who: 冉闵, at: 龙城, verb: 诛, portrait: true, cue: 被斩}
+      - quote: {text: 山左右七里草木悉枯…五月不雨，至于十二月, source: 晋书·石季龙载记下, cue: 草木全枯, for: 4}
+
+  - say: 同一年，慕容儁在中山称帝。八月，邺城也落进了前燕手里。
+    map: '352-08'
+    owners_cue: 邺城
+    sources: [js-08]
+    camera: {focus: [长安, 邺, 龙城], zoom: fit, move: 1.6}
+    tells: [e28]
+    show:
+      - act: {act: enthrone, who: 慕容儁, at: 中山, text: 燕帝, sub: 永和八年, cue: 称帝, for: 3}
+
+  # ---------------- 收 ----------------
+  - say: 冉闵为什么三年就亡？靠杀戮立国，四面八方都是仇人，再能打也守不住。
+    sources: [js-107]
+    show:
+      - headline: {text: 三年冉魏, sub: 四面皆敌, cue: 四面八方, for: 3.6}
+
+  - say: 北方从此成了前燕、前秦，加上南边东晋，三家对峙。
+    sources: [js-08]
+    show:
+      - faction_bar: {left: 前燕, right: 前秦, cue: 三家对峙, for: 3.4}
+      - sfx: {name: 史诗冲击, cue: 三家对峙}
+
+  - say: 后世有人说冉闵是英雄，也有人说他是屠夫。你怎么看？
+    sources: [js-107]
+    show:
+      - card: {title: 史书怎么写, body: 这是冉闵自己说的：我一时英雄，何为不可作帝王邪, cue: 你怎么看, for: 4}
+
+  - say: 北方大乱，东晋的桓温，坐不住了。
+    sources: [js-08]
+    show:
+      - title_bar: {text: 下集, sub: 两晋 · 桓温北伐, cue: 坐不住了, delay: 0.4, for: 3.0}
+      - sfx: {name: 时代转折, cue: 坐不住了}

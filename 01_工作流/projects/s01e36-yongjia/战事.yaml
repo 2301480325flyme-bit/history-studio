@@ -1,0 +1,373 @@
+episode: s01e36-yongjia
+armies:
+  汉赵呼延晏前军:
+    faction: 汉赵
+    head: 呼延晏
+    size: 二万七千（《晋书》载记）
+    evidence:
+    - quote: 配禁兵二万七千，自宜阳入洛川
+      para: 晋书-p07046
+    note_faction: 汉（汉赵）
+  汉赵刘曜军:
+    faction: 汉赵
+    head: 刘曜
+    size: 未核
+    evidence:
+    - quote: 命王弥、刘曜及镇军石勒进师会之
+      para: 晋书-p07046
+    note_faction: 汉（汉赵）
+  汉赵王弥军:
+    faction: 汉赵
+    head: 王弥
+    size: 未核
+    evidence:
+    - quote: 命王弥、刘曜及镇军石勒进师会之
+      para: 晋书-p07046
+    note_faction: 汉（汉赵）
+  汉赵石勒军:
+    faction: 汉赵
+    head: 石勒
+    size: 未核
+    evidence:
+    - quote: 命王弥、刘曜及镇军石勒进师会之
+      para: 晋书-p07046
+    note_faction: 汉（汉赵）
+  晋司马越行台军:
+    faction: 东海王
+    head: 司马越；王衍军司
+    size: 诸军总数未核；记载有王公士庶众多
+    evidence:
+    - quote: 东海王越帅众出许昌，以行台自随。宫省无复守卫
+      para: 晋书-p00112
+    note_faction: 晋
+  晋洛阳留守军:
+    faction: 晋
+    head: 河南尹刘默等
+    size: 未核
+    evidence:
+    - quote: 怀帝遣河南尹刘默距之，王师败于社门
+      para: 晋书-p07046
+    note_faction: 晋
+  晋王浚军:
+    faction: 晋
+    head: 王浚
+    size: 鲜卑骑兵人数未核
+    evidence:
+    - quote: 安北将军王浚讨破之
+      para: 晋书-p00110
+    note_faction: 晋
+events:
+- id: b01
+  army: 石勒军
+  kind: 出发
+  date: 308-01/02
+  via: []
+  note: （原记：常山，from 未详）纪载寇常山，未载起点及途经关津。
+  evidence:
+  - quote: 石勒寇常山，安北将军王浚讨破之。
+    para: 晋书-p00110
+  place: 常山
+  skip: 石勒寇常山、赵郡，王弥寇青徐兖豫、入许昌，用"转战"一句概括
+- id: b02
+  army: 王弥军
+  kind: 行军
+  date: 308-02/04
+  via: []
+  note: （原记：青、徐、兖、豫，from 青州/东莱（起点概略））纪仅列州域，不能复原逐县路线。
+  evidence:
+  - quote: 王弥寇青、徐、兗、豫四州。
+    para: 晋书-p00110
+  place: 许昌
+  skip: 石勒寇常山、赵郡，王弥寇青徐兖豫、入许昌，用"转战"一句概括
+- id: b03
+  army: 王弥军
+  kind: 攻占
+  date: 308-04
+  via: []
+  note: （原记：许昌，from 未详）入许昌、守将奔走；未证明整郡转手。
+  evidence:
+  - quote: 夏四月丁亥，入许昌，诸郡守将皆奔走。
+    para: 晋书-p00110
+  place: 许昌
+  skip: 石勒寇常山、赵郡，王弥寇青徐兖豫、入许昌，用"转战"一句概括
+- id: b04
+  army: 王弥军
+  kind: 交战
+  date: 308-05
+  via: []
+  note: （原记：洛阳城外，from 许昌方向）攻洛被王衍所御而退，不记攻占。
+  evidence:
+  - quote: 五月甲子，弥遂寇洛阳，司徒王衍帅众御之，弥退走。
+    para: 晋书-p00110
+  place: 洛阳
+- id: b05
+  army: 石勒军
+  kind: 交战
+  date: 308-09
+  via: []
+  note: （原记：赵郡，from 未详）寇赵郡，未载具体交战地。
+  evidence:
+  - quote: 九月，石勒寇赵郡，征北将军和郁自鄴奔于卫国。
+    para: 晋书-p00110
+  place: 邺
+  skip: 石勒寇常山、赵郡，王弥寇青徐兖豫、入许昌，用"转战"一句概括
+- id: b06
+  army: 刘聪、王弥军
+  kind: 交战
+  date: 309-07
+  from: 未详
+  via: []
+  note: 壶关围城；郡级归属有投降记载，属疆域逐条核对项。（围城按固定 kind 枚举归入交战）
+  evidence:
+  - quote: 刘元海遣子聪及王弥寇上党，围壶关。
+    para: 晋书-p00111
+  place: 壶关
+  skip: 壶关之战细节不讲，只讲上党以郡降（疆域 309-07）
+- id: b07
+  army: 刘琨援军
+  kind: 行军
+  date: 309-07
+  from: 未详
+  via: []
+  territory: null
+  note: 救援军败退；出发地、路线未载。
+  evidence:
+  - quote: 并州刺史刘琨使兵救之，为聪所败。
+    para: 晋书-p00111
+  place: 上党、壶关
+  skip: 壶关之战细节不讲，只讲上党以郡降（疆域 309-07）
+- id: b08
+  army: 王旷军
+  kind: 交战
+  date: 309-07
+  from: 未详
+  via: []
+  territory: null
+  note: 与刘聪战败；施融、曹超死。
+  evidence:
+  - quote: 淮南内史王旷、将军施融、曹超及聪战，又败，超、融死之。
+    para: 晋书-p00111
+  place: 上党战区
+  skip: 壶关之战细节不讲，只讲上党以郡降（疆域 309-07）
+- id: b09
+  army: 汉赵军
+  kind: 投降
+  date: 309-07
+  from: 上党
+  via: []
+  note: 庞淳以郡降；正式 territory 记郡级易手，具体控制范围仍需疆域数据核验。
+  evidence:
+  - quote: 上党太守庞淳以郡降贼。
+    para: 晋书-p00111
+  place: 上党郡
+  skip: 壶关之战细节不讲，只讲上党以郡降（疆域 309-07）
+- id: b10
+  army: 刘聪军
+  kind: 交战
+  date: 309-09
+  via: []
+  territory: null
+  note: （原记：浚仪，from 未详）晋军败绩；未明言占城或接收郡治。（围城按固定 kind 枚举归入交战）
+  evidence:
+  - quote: 九月丙寅，刘聪围浚仪，遣平北将军曹武讨之。丁丑，王师败绩。
+    para: 晋书-p00111
+  place: 洛阳
+- id: b11
+  army: 刘聪军
+  kind: 行军
+  date: 309-09
+  via: []
+  territory: null
+  note: （原记：洛阳西明门、宣阳门外，from 浚仪方向）至西明门，在宣阳门外战败退却；未记城占。
+  evidence:
+  - quote: 聪至西明门，越御之，战于宣阳门外，大破之。
+    para: 晋书-p00111
+  place: 洛阳
+  skip: 浚仪之战不讲
+- id: b12
+  army: 刘曜、石勒军
+  kind: 交战
+  date: 310-07
+  from: 未详
+  via: []
+  territory: null
+  note: 围怀及援军战败，未见县郡控制转移明文。（围城按固定 kind 枚举归入交战）
+  evidence:
+  - quote: 刘聪从弟曜及其将石勒围怀，诏征虏将军宋抽救之，为曜所败，抽死之。
+    para: 晋书-p00112
+  place: 怀县
+  skip: 怀县之战不讲
+- id: b13
+  army: 司马越行台军
+  kind: 行军
+  date: 310-11
+  from: 洛阳
+  via:
+  - 许昌
+  territory: null
+  note: （原记：项城，from 许昌）越出许昌、军次项；“项”作驻军地，不等于郡级易手。
+  evidence:
+  - quote: 东海王越帅众出许昌，以行台自随。
+    para: 晋书-p00112
+  - quote: 越军次项，自领豫州牧，以太尉王衍为军司。
+    para: 晋书-p00112
+  place: 项
+- id: b14
+  army: 石勒军
+  kind: 行军
+  date: 311-03/04
+  via: []
+  territory: null
+  note: 石勒追越丧至苦县宁平城（怀帝纪作东郡，按越传画宁平城）；起点未载，箭头自许昌方向画（示意）。
+  evidence:
+  - quote: 石勒追东海王越丧，及于东郡
+    para: 晋书-p00113
+  - quote: 石勒追及于苦县宁平城
+    para: 晋书-p04648
+  place: 宁平城
+- id: b15
+  army: 司马越军
+  kind: 交战
+  date: 311-03/04
+  via: []
+  territory: null
+  note: （原记：宁平城，from 项城方向）钱端出战死、军溃；王衍等被杀，十余万为史籍统计数。
+  evidence:
+  - quote: 将军钱端出兵距勒，战死，军溃
+    para: 晋书-p04648
+  - quote: 太尉王衍、吏部尚书刘望、廷尉诸葛铨、尚书郑豫、武陵王澹等皆遇害，王公已下死者十余万人。
+    para: 晋书-p00113
+  place: 宁平城
+- id: b16
+  army: 呼延晏前军
+  kind: 行军
+  date: 311-06癸未
+  from: 宜阳
+  via: []
+  territory: null
+  note: （原记：洛川、河南，from 宜阳）载记明确宜阳入洛川；中间逐站及关隘未载。
+  evidence:
+  - quote: 配禁兵二万七千，自宜阳入洛川
+    para: 晋书-p07046
+  place: 洛阳
+- id: b17
+  army: 呼延晏前军
+  kind: 行军
+  date: 311-06癸未
+  from: 洛川
+  via: []
+  territory: null
+  note: 辎重留置故垒；确切位置未定。
+  evidence:
+  - quote: 留辎重于张方故垒
+    para: 晋书-p07046
+  place: 张方故垒
+  skip: 洛川、张方故垒、社门未定位，合在呼延晏入洛一条箭头里
+- id: b18
+  army: 呼延晏前军
+  kind: 攻占
+  date: 311-06癸未
+  via: []
+  note: （原记：洛阳平昌门、东阳门、宣阳门，from 张方故垒）破门入城及焚门府寺，不等于郡级疆域整体易手。
+  evidence:
+  - quote: 遂寇洛阳，攻陷平昌门，焚东阳、宣阳诸门及诸府寺。
+    para: 晋书-p07046
+  place: 洛阳
+- id: b19
+  army: 晋洛阳留守军
+  kind: 交战
+  date: 311-06癸未
+  via: []
+  territory: null
+  note: （原记：社门，from 洛阳城内）河南尹刘默拒战败；城内门战。
+  evidence:
+  - quote: 怀帝遣河南尹刘默距之，王师败于社门。
+    para: 晋书-p07046
+  place: 洛阳
+  skip: 洛川、张方故垒、社门未定位，合在呼延晏入洛一条箭头里
+- id: b20
+  army: 晋朝廷及护卫
+  kind: 撤退
+  date: 311-06庚寅/丁酉
+  from: 洛阳
+  via: []
+  territory: null
+  note: 三处为逃亡/渡河节点；未完成有序撤退，帝被追及。
+  evidence:
+  - quote: 司空荀籓、光禄大夫荀组奔轘辕，太子左率温几夜开广莫门奔小平津。
+    para: 晋书-p00113
+  - quote: 帝开华林园门，出河阴藕池，欲幸长安，为曜等所追及。
+    para: 晋书-p00113
+  place: 轘辕、小平津、河阴藕池
+  skip: 怀帝出逃路线（华林园—河阴藕池）未定位，用引文表示
+- id: b21
+  army: 刘曜、王弥军
+  kind: 攻占
+  date: 311-06丁酉
+  via: []
+  note: （原记：洛阳京师，from 河南方向（会师前各自起点未详））刘曜、王弥入京；宫庙被焚、怀帝被俘。郡级是否整郡易手按疆域条目复核。
+  evidence:
+  - quote: 丁酉、刘曜、王弥入京师。
+    para: 晋书-p00113
+  - quote: 曜等遂焚烧宫庙
+    para: 晋书-p00113
+  place: 洛阳
+places_new:
+- name: 宁平城
+  lon: null
+  lat: null
+  precision: 区域/未核，暂勿落精确坐标
+  basis: 今河南鹿邑附近区域推定，城址待考；studio.py places 查询未提供可确认的 gazetteer 点位。
+  evidence:
+  - quote: 苦县宁平城
+    para: 晋书-p04648
+- name: 张方故垒
+  lon: null
+  lat: null
+  precision: 区域/未核，暂勿落精确坐标
+  basis: 洛阳周边，具体位置未核；studio.py places 查询未提供可确认的 gazetteer 点位。
+  evidence:
+  - quote: 张方故垒
+    para: 晋书-p07046
+- name: 轘辕
+  lon: null
+  lat: null
+  precision: 区域/未核，暂勿落精确坐标
+  basis: 河南登封附近区域，精确坐标待核；studio.py places 查询未提供可确认的 gazetteer 点位。
+  evidence:
+  - quote: 奔轘辕
+    para: 晋书-p00113
+- name: 小平津
+  lon: null
+  lat: null
+  precision: 区域/未核，暂勿落精确坐标
+  basis: 黄河渡口区域，精确坐标待核；studio.py places 查询未提供可确认的 gazetteer 点位。
+  evidence:
+  - quote: 小平津
+    para: 晋书-p00113
+- name: 河阴藕池
+  lon: null
+  lat: null
+  precision: 区域/未核，暂勿落精确坐标
+  basis: 洛阳北黄河沿岸区域，精确坐标待核；studio.py places 查询未提供可确认的 gazetteer 点位。
+  evidence:
+  - quote: 河阴藕池
+    para: 晋书-p00113
+- name: 洛川
+  lon: null
+  lat: null
+  precision: 区域/未核，暂勿落精确坐标
+  basis: 史书路线区域，非单一城址；studio.py places 查询未提供可确认的 gazetteer 点位。
+  evidence:
+  - quote: 洛川
+    para: 晋书-p07046
+open_questions:
+- 资治通鉴卷八十五至九十：本地 studio.py sources 对“晋书 资治通鉴”组合未检出通鉴段落；需补录通鉴原文或确认语料缺卷，当前各事件不能声称通鉴互证。
+- 疆域.yaml 308–311年郡级事件逐条比对尚待直接核读：尤其308王弥入许昌、309庞淳以郡降汉、311洛阳陷落；缺失项建议由Claude决定是否补疆域事件。
+- 石勒、王弥河北河南完整路线：纪传仅能复原常山—赵郡、青徐兖豫—许昌—洛阳等区域性节点，起点、道路、河渡、山口多未载；不得用现代直线补中间站。
+- 宁平城与东郡记载差异：《怀帝纪》说追至东郡，《司马越传》说苦县宁平城；项城病死与宁平城追及应分作两事件，战场行政归属待核。
+- 洛阳进攻不是已证实的“三条完整路线”：呼延晏路线有宜阳—洛川—张方故垒—平昌门；刘曜、王弥、石勒只知被命令会师，进军起点及会师前路径待考。
+- 晋军“十余万”“数十万”以及呼延晏行军中十二战死三万余，均为史书记数，统计口径不明；王衍在宁平是否主动投降/对话的流行叙述本地引文未核。
+- 检查疆域.yaml 中成汉与汉赵等 polity 名称、事件层级是否一致；本集“汉”具体按项目内部 polity 命名应统一为汉赵。
+- 疆域.yaml 核查结果：308–311 年没有疆域事件；最后相关项为 307-05（魏郡 uncertain，汲桑、石勒陷鄴但未确认郡级易手）。需Claude决定是否增补 309 上党归汉赵及 311 河南尹/洛阳事件。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

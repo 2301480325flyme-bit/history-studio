@@ -1,0 +1,812 @@
+{
+  "version": 1,
+  "note": "纪年换算表。把二十四史的年号/干支纪年换算为公元年。这是纯机械劳动，做一次全项目复用。当前覆盖项目主用的西晋 + 东晋；其余朝代按需追加。",
+  "conventions": {
+    "ganzhi": "干支纪年：公元 Y 年的干支序号 = (Y - 4) mod 60，0 对应「甲子」。公元前用负数，取模后同样适用。",
+    "eraYear": "年号纪年：先定位年号（注意年内改元，同一年可能有前后两个年号），再按年号起始年 + (序年 - 1) 得公元年。",
+    "regencyYear": "帝王在位年：如「汉武帝元朔三年」= 年号起始年 + 2。需与年号表配合，不能直接用帝王即位年。",
+    "shiyue": "史书月份为农历月，与公历月不完全对齐；本表只做年级换算，不做月日精度换算。",
+    "intercalation": "闰月不单独建表；如需月级精度，另行查历。"
+  },
+  "ganzhi": {
+    "stems": [
+      "甲",
+      "乙",
+      "丙",
+      "丁",
+      "戊",
+      "己",
+      "庚",
+      "辛",
+      "壬",
+      "癸"
+    ],
+    "branches": [
+      "子",
+      "丑",
+      "寅",
+      "卯",
+      "辰",
+      "巳",
+      "午",
+      "未",
+      "申",
+      "酉",
+      "戌",
+      "亥"
+    ],
+    "cycle": [
+      "甲子",
+      "乙丑",
+      "丙寅",
+      "丁卯",
+      "戊辰",
+      "己巳",
+      "庚午",
+      "辛未",
+      "壬申",
+      "癸酉",
+      "甲戌",
+      "乙亥",
+      "丙子",
+      "丁丑",
+      "戊寅",
+      "己卯",
+      "庚辰",
+      "辛巳",
+      "壬午",
+      "癸未",
+      "甲申",
+      "乙酉",
+      "丙戌",
+      "丁亥",
+      "戊子",
+      "己丑",
+      "庚寅",
+      "辛卯",
+      "壬辰",
+      "癸巳",
+      "甲午",
+      "乙未",
+      "丙申",
+      "丁酉",
+      "戊戌",
+      "己亥",
+      "庚子",
+      "辛丑",
+      "壬寅",
+      "癸卯",
+      "甲辰",
+      "乙巳",
+      "丙午",
+      "丁未",
+      "戊申",
+      "己酉",
+      "庚戌",
+      "辛亥",
+      "壬子",
+      "癸丑",
+      "甲寅",
+      "乙卯",
+      "丙辰",
+      "丁巳",
+      "戊午",
+      "己未",
+      "庚申",
+      "辛酉",
+      "壬戌",
+      "癸亥"
+    ],
+    "anchor": "公元 4 年为甲子年"
+  },
+  "eras": [
+    {
+      "id": "guanghe",
+      "dynasty": "eastern_han",
+      "name": "光和",
+      "from": 178,
+      "to": 184,
+      "ruler": "刘宏",
+      "rulerTitle": "汉灵帝"
+    },
+    {
+      "id": "zhongping",
+      "dynasty": "eastern_han",
+      "name": "中平",
+      "from": 184,
+      "to": 189,
+      "ruler": "刘宏",
+      "rulerTitle": "汉灵帝",
+      "note": "189 年内先后改元光熹、昭宁、永汉，年末复称中平六年"
+    },
+    {
+      "id": "chuping",
+      "dynasty": "eastern_han",
+      "name": "初平",
+      "from": 190,
+      "to": 193,
+      "ruler": "刘协",
+      "rulerTitle": "汉献帝"
+    },
+    {
+      "id": "xingping",
+      "dynasty": "eastern_han",
+      "name": "兴平",
+      "from": 194,
+      "to": 195,
+      "ruler": "刘协",
+      "rulerTitle": "汉献帝"
+    },
+    {
+      "id": "jianan",
+      "dynasty": "eastern_han",
+      "name": "建安",
+      "from": 196,
+      "to": 220,
+      "ruler": "刘协",
+      "rulerTitle": "汉献帝",
+      "note": "220 年内改元延康"
+    },
+    {
+      "id": "yankang",
+      "dynasty": "eastern_han",
+      "name": "延康",
+      "from": 220,
+      "to": 220,
+      "ruler": "刘协",
+      "rulerTitle": "汉献帝"
+    },
+    {
+      "id": "huangchu",
+      "dynasty": "cao_wei",
+      "name": "黄初",
+      "from": 220,
+      "to": 226,
+      "ruler": "曹丕",
+      "rulerTitle": "魏文帝"
+    },
+    {
+      "id": "zhangwu",
+      "dynasty": "shu_han",
+      "name": "章武",
+      "from": 221,
+      "to": 223,
+      "ruler": "刘备",
+      "rulerTitle": "汉昭烈帝"
+    },
+    {
+      "id": "huangwu",
+      "dynasty": "sun_wu",
+      "name": "黄武",
+      "from": 222,
+      "to": 229,
+      "ruler": "孙权",
+      "rulerTitle": "吴大帝"
+    },
+    {
+      "id": "jianxing_shu",
+      "dynasty": "shu_han",
+      "name": "建兴",
+      "from": 223,
+      "to": 237,
+      "ruler": "刘禅",
+      "rulerTitle": "后主"
+    },
+    {
+      "id": "taihe_wei",
+      "dynasty": "cao_wei",
+      "name": "太和",
+      "from": 227,
+      "to": 233,
+      "ruler": "曹叡",
+      "rulerTitle": "魏明帝"
+    },
+    {
+      "id": "huanglong",
+      "dynasty": "sun_wu",
+      "name": "黄龙",
+      "from": 229,
+      "to": 231,
+      "ruler": "孙权",
+      "rulerTitle": "吴大帝"
+    },
+    {
+      "id": "jiahe",
+      "dynasty": "sun_wu",
+      "name": "嘉禾",
+      "from": 232,
+      "to": 238,
+      "ruler": "孙权",
+      "rulerTitle": "吴大帝"
+    },
+    {
+      "id": "qinglong",
+      "dynasty": "cao_wei",
+      "name": "青龙",
+      "from": 233,
+      "to": 237,
+      "ruler": "曹叡",
+      "rulerTitle": "魏明帝"
+    },
+    {
+      "id": "jingchu",
+      "dynasty": "cao_wei",
+      "name": "景初",
+      "from": 237,
+      "to": 239,
+      "ruler": "曹叡",
+      "rulerTitle": "魏明帝"
+    },
+    {
+      "id": "chiwu",
+      "dynasty": "sun_wu",
+      "name": "赤乌",
+      "from": 238,
+      "to": 251,
+      "ruler": "孙权",
+      "rulerTitle": "吴大帝"
+    },
+    {
+      "id": "yanxi",
+      "dynasty": "shu_han",
+      "name": "延熙",
+      "from": 238,
+      "to": 257,
+      "ruler": "刘禅",
+      "rulerTitle": "后主"
+    },
+    {
+      "id": "zhengshi",
+      "dynasty": "cao_wei",
+      "name": "正始",
+      "from": 240,
+      "to": 249,
+      "ruler": "曹芳",
+      "rulerTitle": "齐王"
+    },
+    {
+      "id": "jiaping",
+      "dynasty": "cao_wei",
+      "name": "嘉平",
+      "from": 249,
+      "to": 254,
+      "ruler": "曹芳",
+      "rulerTitle": "齐王"
+    },
+    {
+      "id": "taiyuan_wu",
+      "dynasty": "sun_wu",
+      "name": "太元",
+      "from": 251,
+      "to": 252,
+      "ruler": "孙权",
+      "rulerTitle": "吴大帝"
+    },
+    {
+      "id": "shenfeng",
+      "dynasty": "sun_wu",
+      "name": "神凤",
+      "from": 252,
+      "to": 252,
+      "ruler": "孙权",
+      "rulerTitle": "吴大帝"
+    },
+    {
+      "id": "jianxing_wu",
+      "dynasty": "sun_wu",
+      "name": "建兴",
+      "from": 252,
+      "to": 253,
+      "ruler": "孙亮",
+      "rulerTitle": "会稽王"
+    },
+    {
+      "id": "zhengyuan",
+      "dynasty": "cao_wei",
+      "name": "正元",
+      "from": 254,
+      "to": 256,
+      "ruler": "曹髦",
+      "rulerTitle": "高贵乡公"
+    },
+    {
+      "id": "wufeng",
+      "dynasty": "sun_wu",
+      "name": "五凤",
+      "from": 254,
+      "to": 256,
+      "ruler": "孙亮",
+      "rulerTitle": "会稽王"
+    },
+    {
+      "id": "taiping_wu",
+      "dynasty": "sun_wu",
+      "name": "太平",
+      "from": 256,
+      "to": 258,
+      "ruler": "孙亮",
+      "rulerTitle": "会稽王"
+    },
+    {
+      "id": "ganlu_wei",
+      "dynasty": "cao_wei",
+      "name": "甘露",
+      "from": 256,
+      "to": 260,
+      "ruler": "曹髦",
+      "rulerTitle": "高贵乡公"
+    },
+    {
+      "id": "jingyao",
+      "dynasty": "shu_han",
+      "name": "景耀",
+      "from": 258,
+      "to": 263,
+      "ruler": "刘禅",
+      "rulerTitle": "后主"
+    },
+    {
+      "id": "yongan_wu",
+      "dynasty": "sun_wu",
+      "name": "永安",
+      "from": 258,
+      "to": 264,
+      "ruler": "孙休",
+      "rulerTitle": "吴景帝"
+    },
+    {
+      "id": "jingyuan",
+      "dynasty": "cao_wei",
+      "name": "景元",
+      "from": 260,
+      "to": 264,
+      "ruler": "曹奂",
+      "rulerTitle": "魏元帝"
+    },
+    {
+      "id": "yanxing",
+      "dynasty": "shu_han",
+      "name": "炎兴",
+      "from": 263,
+      "to": 263,
+      "ruler": "刘禅",
+      "rulerTitle": "后主"
+    },
+    {
+      "id": "xianxi",
+      "dynasty": "cao_wei",
+      "name": "咸熙",
+      "from": 264,
+      "to": 265,
+      "ruler": "曹奂",
+      "rulerTitle": "魏元帝"
+    },
+    {
+      "id": "yuanxing_wu",
+      "dynasty": "sun_wu",
+      "name": "元兴",
+      "from": 264,
+      "to": 265,
+      "ruler": "孙皓",
+      "rulerTitle": "吴末帝"
+    },
+    {
+      "id": "ganlu_wu",
+      "dynasty": "sun_wu",
+      "name": "甘露",
+      "from": 265,
+      "to": 266,
+      "ruler": "孙皓",
+      "rulerTitle": "吴末帝"
+    },
+    {
+      "id": "taishi",
+      "dynasty": "western_jin",
+      "name": "泰始",
+      "from": 265,
+      "to": 274,
+      "ruler": "司马炎",
+      "rulerTitle": "晋武帝"
+    },
+    {
+      "id": "baoding",
+      "dynasty": "sun_wu",
+      "name": "宝鼎",
+      "from": 266,
+      "to": 269,
+      "ruler": "孙皓",
+      "rulerTitle": "吴末帝"
+    },
+    {
+      "id": "jianheng",
+      "dynasty": "sun_wu",
+      "name": "建衡",
+      "from": 269,
+      "to": 271,
+      "ruler": "孙皓",
+      "rulerTitle": "吴末帝"
+    },
+    {
+      "id": "fenghuang",
+      "dynasty": "sun_wu",
+      "name": "凤皇",
+      "from": 272,
+      "to": 274,
+      "ruler": "孙皓",
+      "rulerTitle": "吴末帝",
+      "aliases": [
+        "凤凰"
+      ],
+      "note": "《三国志·三嗣主传》作\"凤皇\""
+    },
+    {
+      "id": "tiance",
+      "dynasty": "sun_wu",
+      "name": "天册",
+      "from": 275,
+      "to": 276,
+      "ruler": "孙皓",
+      "rulerTitle": "吴末帝"
+    },
+    {
+      "id": "xianning",
+      "dynasty": "western_jin",
+      "name": "咸宁",
+      "from": 275,
+      "to": 280,
+      "ruler": "司马炎",
+      "rulerTitle": "晋武帝"
+    },
+    {
+      "id": "tianxi",
+      "dynasty": "sun_wu",
+      "name": "天玺",
+      "from": 276,
+      "to": 276,
+      "ruler": "孙皓",
+      "rulerTitle": "吴末帝"
+    },
+    {
+      "id": "tianji",
+      "dynasty": "sun_wu",
+      "name": "天纪",
+      "from": 277,
+      "to": 280,
+      "ruler": "孙皓",
+      "rulerTitle": "吴末帝"
+    },
+    {
+      "id": "taikang",
+      "dynasty": "western_jin",
+      "name": "太康",
+      "from": 280,
+      "to": 289,
+      "ruler": "司马炎",
+      "rulerTitle": "晋武帝",
+      "note": "280 年内改元（咸宁六年→太康元年）"
+    },
+    {
+      "id": "taixi",
+      "dynasty": "western_jin",
+      "name": "太熙",
+      "from": 290,
+      "to": 290,
+      "ruler": "司马炎",
+      "rulerTitle": "晋武帝",
+      "note": "同年四月武帝崩，惠帝改元永熙"
+    },
+    {
+      "id": "yongxi",
+      "dynasty": "western_jin",
+      "name": "永熙",
+      "from": 290,
+      "to": 290,
+      "ruler": "司马衷",
+      "rulerTitle": "晋惠帝",
+      "sameYearAs": "taixi"
+    },
+    {
+      "id": "yongping",
+      "dynasty": "western_jin",
+      "name": "永平",
+      "from": 291,
+      "to": 291,
+      "ruler": "司马衷",
+      "rulerTitle": "晋惠帝"
+    },
+    {
+      "id": "yuankang",
+      "dynasty": "western_jin",
+      "name": "元康",
+      "from": 291,
+      "to": 299,
+      "ruler": "司马衷",
+      "rulerTitle": "晋惠帝",
+      "note": "291 年内改元（永平元年→元康元年）"
+    },
+    {
+      "id": "yongkang",
+      "dynasty": "western_jin",
+      "name": "永康",
+      "from": 300,
+      "to": 301,
+      "ruler": "司马衷",
+      "rulerTitle": "晋惠帝"
+    },
+    {
+      "id": "jianzhi_usurp",
+      "dynasty": "western_jin",
+      "name": "建始",
+      "from": 301,
+      "to": 301,
+      "ruler": "司马伦",
+      "rulerTitle": "赵王",
+      "sameYearAs": "yongning",
+      "note": "篡位年号，仅数月，属八王之乱关键年份"
+    },
+    {
+      "id": "yongning",
+      "dynasty": "western_jin",
+      "name": "永宁",
+      "from": 301,
+      "to": 302,
+      "ruler": "司马衷",
+      "rulerTitle": "晋惠帝",
+      "note": "301 年内改元；同年赵王伦篡位改元建始，旋败复位"
+    },
+    {
+      "id": "taian",
+      "dynasty": "western_jin",
+      "name": "太安",
+      "from": 302,
+      "to": 303,
+      "ruler": "司马衷",
+      "rulerTitle": "晋惠帝"
+    },
+    {
+      "id": "yongan1",
+      "dynasty": "western_jin",
+      "name": "永安",
+      "from": 304,
+      "to": 304,
+      "ruler": "司马衷",
+      "rulerTitle": "晋惠帝"
+    },
+    {
+      "id": "jianwu",
+      "dynasty": "western_jin",
+      "name": "建武",
+      "from": 304,
+      "to": 304,
+      "ruler": "司马衷",
+      "rulerTitle": "晋惠帝",
+      "sameYearAs": "yongan1"
+    },
+    {
+      "id": "yongan2",
+      "dynasty": "western_jin",
+      "name": "永安",
+      "from": 304,
+      "to": 305,
+      "ruler": "司马衷",
+      "rulerTitle": "晋惠帝",
+      "sameYearAs": "jianwu",
+      "note": "304 年内三次改元（永安→建武→永安→永兴）"
+    },
+    {
+      "id": "yongxing",
+      "dynasty": "western_jin",
+      "name": "永兴",
+      "from": 304,
+      "to": 306,
+      "ruler": "司马衷",
+      "rulerTitle": "晋惠帝",
+      "sameYearAs": "yongan2"
+    },
+    {
+      "id": "guangxi",
+      "dynasty": "western_jin",
+      "name": "光熙",
+      "from": 306,
+      "to": 306,
+      "ruler": "司马衷",
+      "rulerTitle": "晋惠帝",
+      "note": "同年惠帝崩，怀帝即位"
+    },
+    {
+      "id": "yongjia",
+      "dynasty": "western_jin",
+      "name": "永嘉",
+      "from": 307,
+      "to": 313,
+      "ruler": "司马炽",
+      "rulerTitle": "晋怀帝",
+      "note": "311 年永嘉之乱，洛阳陷落"
+    },
+    {
+      "id": "jianxing",
+      "dynasty": "western_jin",
+      "name": "建兴",
+      "from": 313,
+      "to": 317,
+      "ruler": "司马邺",
+      "rulerTitle": "晋愍帝",
+      "note": "316 年长安陷，西晋亡"
+    },
+    {
+      "id": "dj_jianwu",
+      "dynasty": "eastern_jin",
+      "name": "建武",
+      "from": 317,
+      "to": 318,
+      "ruler": "司马睿",
+      "rulerTitle": "晋元帝"
+    },
+    {
+      "id": "taixing",
+      "dynasty": "eastern_jin",
+      "name": "太兴",
+      "from": 318,
+      "to": 321,
+      "ruler": "司马睿",
+      "rulerTitle": "晋元帝"
+    },
+    {
+      "id": "yongchang",
+      "dynasty": "eastern_jin",
+      "name": "永昌",
+      "from": 322,
+      "to": 323,
+      "ruler": "司马睿",
+      "rulerTitle": "晋元帝"
+    },
+    {
+      "id": "taining",
+      "dynasty": "eastern_jin",
+      "name": "太宁",
+      "from": 323,
+      "to": 326,
+      "ruler": "司马绍",
+      "rulerTitle": "晋明帝"
+    },
+    {
+      "id": "xianhe",
+      "dynasty": "eastern_jin",
+      "name": "咸和",
+      "from": 326,
+      "to": 334,
+      "ruler": "司马衍",
+      "rulerTitle": "晋成帝"
+    },
+    {
+      "id": "xiankang",
+      "dynasty": "eastern_jin",
+      "name": "咸康",
+      "from": 335,
+      "to": 342,
+      "ruler": "司马衍",
+      "rulerTitle": "晋成帝"
+    },
+    {
+      "id": "jianyuan",
+      "dynasty": "eastern_jin",
+      "name": "建元",
+      "from": 343,
+      "to": 344,
+      "ruler": "司马岳",
+      "rulerTitle": "晋康帝"
+    },
+    {
+      "id": "yonghe",
+      "dynasty": "eastern_jin",
+      "name": "永和",
+      "from": 345,
+      "to": 356,
+      "ruler": "司马聃",
+      "rulerTitle": "晋穆帝"
+    },
+    {
+      "id": "shengping",
+      "dynasty": "eastern_jin",
+      "name": "升平",
+      "from": 357,
+      "to": 361,
+      "ruler": "司马聃",
+      "rulerTitle": "晋穆帝"
+    },
+    {
+      "id": "longhe",
+      "dynasty": "eastern_jin",
+      "name": "隆和",
+      "from": 362,
+      "to": 362,
+      "ruler": "司马丕",
+      "rulerTitle": "晋哀帝"
+    },
+    {
+      "id": "xingning",
+      "dynasty": "eastern_jin",
+      "name": "兴宁",
+      "from": 363,
+      "to": 365,
+      "ruler": "司马丕",
+      "rulerTitle": "晋哀帝"
+    },
+    {
+      "id": "taihe",
+      "dynasty": "eastern_jin",
+      "name": "太和",
+      "from": 366,
+      "to": 371,
+      "ruler": "司马奕",
+      "rulerTitle": "晋废帝"
+    },
+    {
+      "id": "xianan",
+      "dynasty": "eastern_jin",
+      "name": "咸安",
+      "from": 371,
+      "to": 372,
+      "ruler": "司马昱",
+      "rulerTitle": "晋简文帝"
+    },
+    {
+      "id": "ningkang",
+      "dynasty": "eastern_jin",
+      "name": "宁康",
+      "from": 373,
+      "to": 375,
+      "ruler": "司马曜",
+      "rulerTitle": "晋孝武帝"
+    },
+    {
+      "id": "taiyuan",
+      "dynasty": "eastern_jin",
+      "name": "太元",
+      "from": 376,
+      "to": 396,
+      "ruler": "司马曜",
+      "rulerTitle": "晋孝武帝",
+      "note": "383 年淝水之战"
+    },
+    {
+      "id": "longan",
+      "dynasty": "eastern_jin",
+      "name": "隆安",
+      "from": 397,
+      "to": 401,
+      "ruler": "司马德宗",
+      "rulerTitle": "晋安帝"
+    },
+    {
+      "id": "yuanxing",
+      "dynasty": "eastern_jin",
+      "name": "元兴",
+      "from": 402,
+      "to": 404,
+      "ruler": "司马德宗",
+      "rulerTitle": "晋安帝"
+    },
+    {
+      "id": "yixi",
+      "dynasty": "eastern_jin",
+      "name": "义熙",
+      "from": 405,
+      "to": 418,
+      "ruler": "司马德宗",
+      "rulerTitle": "晋安帝",
+      "note": "417 年刘裕灭后秦"
+    },
+    {
+      "id": "yuanxi",
+      "dynasty": "eastern_jin",
+      "name": "元熙",
+      "from": 419,
+      "to": 420,
+      "ruler": "司马德文",
+      "rulerTitle": "晋恭帝",
+      "note": "420 年禅位于刘裕，东晋亡"
+    }
+  ],
+  "sources_note": "东汉末年号（中平—延康）据《后汉书·灵帝纪、献帝纪》补入，2026-10-07。 三国年号（曹魏黄初—咸熙、蜀汉章武—炎兴、孙吴黄武—天纪）及东汉光和，据《三国志》各帝纪补入，2026-10-07。"
+}

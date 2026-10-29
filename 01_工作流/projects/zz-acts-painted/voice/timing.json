@@ -1,0 +1,115 @@
+{
+ "mode": "placeholder",
+ "beats": [
+  {
+   "file_start": 0.3,
+   "file_end": 8.58,
+   "voice_onset": 0.45,
+   "voice_offset": 8.46
+  },
+  {
+   "file_start": 8.76,
+   "file_end": 15.8,
+   "voice_onset": 8.91,
+   "voice_offset": 15.68
+  },
+  {
+   "file_start": 15.98,
+   "file_end": 22.82,
+   "voice_onset": 16.13,
+   "voice_offset": 22.7
+  },
+  {
+   "file_start": 23.0,
+   "file_end": 30.08,
+   "voice_onset": 23.15,
+   "voice_offset": 29.96
+  },
+  {
+   "file_start": 30.26,
+   "file_end": 36.34,
+   "voice_onset": 30.41,
+   "voice_offset": 36.22
+  },
+  {
+   "file_start": 36.52,
+   "file_end": 44.04,
+   "voice_onset": 36.67,
+   "voice_offset": 43.92
+  },
+  {
+   "file_start": 44.22,
+   "file_end": 51.54,
+   "voice_onset": 44.37,
+   "voice_offset": 51.42
+  },
+  {
+   "file_start": 51.72,
+   "file_end": 58.08,
+   "voice_onset": 51.87,
+   "voice_offset": 57.96
+  },
+  {
+   "file_start": 58.26,
+   "file_end": 64.82,
+   "voice_onset": 58.41,
+   "voice_offset": 64.7
+  },
+  {
+   "file_start": 65.0,
+   "file_end": 73.0,
+   "voice_onset": 65.15,
+   "voice_offset": 72.88
+  },
+  {
+   "file_start": 73.18,
+   "file_end": 82.06,
+   "voice_onset": 73.33,
+   "voice_offset": 81.94
+  },
+  {
+   "file_start": 82.24,
+   "file_end": 90.76,
+   "voice_onset": 82.39,
+   "voice_offset": 90.64
+  },
+  {
+   "file_start": 90.94,
+   "file_end": 96.06,
+   "voice_onset": 91.09,
+   "voice_offset": 95.94
+  },
+  {
+   "file_start": 96.24,
+   "file_end": 103.84,
+   "voice_onset": 96.39,
+   "voice_offset": 103.72
+  },
+  {
+   "file_start": 104.02,
+   "file_end": 112.06,
+   "voice_onset": 104.17,
+   "voice_offset": 111.94
+  },
+  {
+   "file_start": 112.24,
+   "file_end": 119.32,
+   "voice_onset": 112.39,
+   "voice_offset": 119.2
+  },
+  {
+   "file_start": 119.5,
+   "file_end": 127.02,
+   "voice_onset": 119.65,
+   "voice_offset": 126.9
+  },
+  {
+   "file_start": 127.2,
+   "file_end": 135.72,
+   "voice_onset": 127.35,
+   "voice_offset": 135.6
+  }
+ ],
+ "narration": null,
+ "measurement": "placeholder estimate: 0.24 s/char + 0.28 s/pause; NO AUDIO"
+}

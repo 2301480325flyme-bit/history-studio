@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "note": "事件序列模板。verb 是砖，本文件是墙 —— 给定谓词就能生成一串分镜。对应白虹说「1. 2. 3. 4.」分点结构的机器版。",
+  "verbRef": "见 01_工作流/视觉符号与动画库-v1.md 第三部分 L1（15 个事件动词）",
+  "templates": [
+    {
+      "id": "raise-and-march",
+      "name": "起兵模板",
+      "usedFor": "某人自某地起兵，攻向目标城",
+      "required": ["actor", "from", "to"],
+      "optional": ["rival"],
+      "sequence": [
+        {"verb": "raise",   "params": {"actor": "{actor}", "place": "{from}"}, "beats": 1, "camera": "dolly_in"},
+        {"verb": "march",   "params": {"actor": "{actor}", "from": "{from}", "to": "{to}"}, "beats": 2, "camera": "track"},
+        {"verb": "defeat",  "params": {"winner": "{actor}", "loser": "{rival}", "place": "{to}"}, "beats": 2, "optional": true, "camera": "shake"},
+        {"verb": "capture", "params": {"place": "{to}", "actor": "{actor}"}, "beats": 2, "camera": "hold"},
+        {"verb": "aftermath","params": {"place": "{to}"}, "beats": 1, "camera": "dolly_out"}
+      ]
+    },
+    {
+      "id": "usurp-and-purge",
+      "name": "篡位模板",
+      "usedFor": "权臣夺位并清洗",
+      "required": ["actor", "victim", "capital"],
+      "sequence": [
+        {"verb": "depose",  "params": {"actor": "{actor}", "victim": "{victim}"}, "beats": 1},
+        {"verb": "usurp",   "params": {"actor": "{actor}", "place": "{capital}"}, "beats": 2, "camera": "dolly_in"},
+        {"verb": "kill",    "params": {"killer": "{actor}", "victim": "{victim}", "stamp": "诛"}, "beats": 1},
+        {"verb": "ascend",  "params": {"actor": "{actor}", "place": "{capital}"}, "beats": 2, "camera": "hold"}
+      ]
+    },
+    {
+      "id": "siege-and-fall",
+      "name": "灭亡模板",
+      "usedFor": "都城被围至陷落，政权终结",
+      "required": ["place", "actor", "regime"],
+      "sequence": [
+        {"verb": "siege",   "params": {"place": "{place}", "actor": "{actor}"}, "beats": 2, "camera": "dolly_in"},
+        {"verb": "fall",    "params": {"place": "{place}", "actor": "{actor}"}, "beats": 2, "camera": "shake"},
+        {"verb": "defect",  "params": {"actor": "{regime}"}, "beats": 1},
+        {"verb": "aftermath","params": {"place": "{place}"}, "beats": 1, "camera": "dolly_out"}
+      ]
+    },
+    {
+      "id": "northern-expedition",
+      "name": "北伐模板",
+      "usedFor": "南方政权北伐（如桓温、刘裕、萧衍）",
+      "required": ["actor", "from", "to"],
+      "optional": ["rival"],
+      "sequence": [
+        {"verb": "raise",   "params": {"actor": "{actor}", "place": "{from}"}, "beats": 1},
+        {"verb": "march",   "params": {"actor": "{actor}", "from": "{from}", "to": "{to}"}, "beats": 3, "camera": "track"},
+        {"verb": "siege",   "params": {"place": "{to}", "actor": "{actor}"}, "beats": 2, "camera": "dolly_in"},
+        {"verb": "defeat",  "params": {"winner": "{actor}", "loser": "{rival}", "place": "{to}"}, "beats": 2, "camera": "shake"},
+        {"verb": "aftermath","params": {"place": "{to}"}, "beats": 1, "camera": "dolly_out", "note": "北伐多无果，用拉镜收束"}
+      ]
+    }
+  ]
+}

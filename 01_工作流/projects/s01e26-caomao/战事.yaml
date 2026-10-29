@@ -1,0 +1,971 @@
+episode: s01e26-caomao
+armies:
+  魏辽东讨伐军:
+    faction: 魏
+    head: 司马懿
+    size: 四万人
+    evidence:
+    - quote: 遂以四万人行
+      para: 三国志-p00558
+    - quote: 明年，帝遣太尉司马宣王统中军及俭等众数万讨渊
+      para: 三国志-p01736
+  公孙渊军:
+    faction: 燕（公孙氏）
+    head: 公孙渊
+    size: 数万步骑
+    evidence:
+    - quote: 渊遣将军卑衍、杨祚等步骑数万屯辽隧
+      para: 三国志-p01140
+  司马懿平王凌军:
+    faction: 魏
+    head: 司马懿
+    size: 中军，人数未核
+    evidence:
+    - quote: 帝自帅中军，泛舟沿流，九日而到甘城
+      para: 晋书-p00029
+  王凌军:
+    faction: 魏
+    head: 王凌
+    size: 未核
+    evidence:
+    - quote: 闻太尉王凌谋废帝，立楚王彪
+      para: 三国志-p00602
+  毌丘俭文钦军:
+    faction: 魏
+    head: 毌丘俭、文钦
+    size: 五六万；《晋书》作六万
+    evidence:
+    - quote: 俭、钦自将五六万众渡淮
+      para: 三国志-p01738
+    - quote: 俭、钦帅众六万，渡淮而西
+      para: 晋书-p00035
+  司马师征讨军:
+    faction: 魏
+    head: 司马师
+    size: 中军步骑十余万，另征三方兵
+    evidence:
+    - quote: 帝统中军步骑十余万以征之
+      para: 晋书-p00035
+  王基军:
+    faction: 魏
+    head: 王基
+    size: 未核
+    evidence:
+    - quote: 帝遣荆州刺史王基进据南顿以逼俭
+      para: 晋书-p00035
+  邓艾乐嘉军:
+    faction: 魏
+    head: 邓艾
+    size: 泰山诸军，人数未核
+    evidence:
+    - quote: 邓艾督太山诸军进屯乐嘉
+      para: 晋书-p00035
+  司马琏追击军:
+    faction: 魏
+    head: 司马琏
+    size: 骁骑八千
+    evidence:
+    - quote: 帝遣左长史司马琏督骁骑八千翼而追之
+      para: 晋书-p00035
+  孙峻援寿春军:
+    faction: 吴
+    head: 孙峻
+    size: 号十万（实数未核）
+    evidence:
+    - quote: 峻及骠骑将军吕据、左将军留赞率兵袭寿春
+      para: 三国志-p02268
+  文钦降吴部:
+    faction: 吴
+    head: 文钦
+    size: 淮南余众数万口
+    evidence:
+    - quote: 钦诣峻降，淮南余众数万口来奔
+      para: 三国志-p02268
+  诸葛诞军:
+    faction: 魏
+    head: 诸葛诞
+    size: 寿春守军及淮南众，具体数未核
+    evidence:
+    - quote: 田口十余万官兵，扬州新附胜兵者四五万人
+      para: 三国志-p01741
+  司马昭围寿春军:
+    faction: 魏
+    head: 司马昭
+    size: 二十六万；《三国志》另处作二十余万
+    evidence:
+    - quote: 大将军司马文王督中外诸军二十六万众
+      para: 三国志-p01741
+    - quote: 魏悉中外军二十余万增诞之围
+      para: 三国志-p02684
+  吴文钦唐咨全端救援军:
+    faction: 吴
+    head: 文钦、唐咨、全端
+    size: 步骑三万
+    evidence:
+    - quote: 使文钦、唐咨、全端等步骑三万救诞
+      para: 三国志-p02271
+  吴孙綝救援军:
+    faction: 吴
+    head: 孙綝
+    size: 丁奉等介士五万
+    evidence:
+    - quote: 綝使异为前部督，与丁奉等将介士五万解围
+      para: 三国志-p02271
+  朱异夏口军:
+    faction: 吴
+    head: 朱异
+    size: 未核
+    evidence:
+    - quote: 朱异自虎林率众袭夏口
+      para: 三国志-p02271
+  朱异救寿春军:
+    faction: 吴
+    head: 朱异
+    size: 先率三万，后与丁奉等五万
+    evidence:
+    - quote: 朱异帅三万人屯安丰城
+      para: 三国志-p02684
+    - quote: 复遣异率将军丁奉、黎斐等五万人攻魏
+      para: 三国志-p02684
+  姜维军:
+    faction: 蜀汉
+    head: 姜维
+    size: 数万人
+    evidence:
+    - quote: 复率数万人出骆谷，径至沈岭
+      para: 三国志-p02124
+  司马望邓艾拒姜维军:
+    faction: 魏
+    head: 司马望、邓艾
+    size: 未核
+    evidence:
+    - quote: 魏大将军司马望拒之，邓艾亦自陇右，皆军于长城
+      para: 三国志-p02124
+events:
+- id: e01
+  army: 魏辽东讨伐军
+  kind: 出发
+  place: 洛阳
+  from: null
+  via: []
+  date: 238-春
+  territory: null
+  note: 发四万人征辽东；四千里道路和中途关隘未载。
+  evidence:
+  - quote: 发卒四万人
+    para: 三国志-p00558
+  skip: 辽东之役上一集已讲
+- id: e02
+  army: 魏辽东讨伐军
+  kind: 行军
+  place: 辽隧
+  from: 洛阳
+  via: []
+  date: 238-06
+  territory: null
+  note: 司马懿军抵辽东，卑衍、杨祚等屯辽隧，具体途中站点未核。
+  evidence:
+  - quote: 六月，军至辽东
+    para: 三国志-p01140
+  - quote: 步骑数万屯辽隧
+    para: 三国志-p01140
+  skip: 辽东之役上一集已讲
+- id: e03
+  army: 魏辽东讨伐军
+  kind: 交战
+  place: 辽隧
+  from: null
+  via: []
+  date: 238-夏
+  territory: null
+  note: 胡遵击破卑衍；魏军穿围佯向东南、急转东北趋襄平。
+  evidence:
+  - quote: 宣王遣将军胡遵等击破之
+    para: 三国志-p01140
+  - quote: 引兵东南向，而急东北，即趋襄平
+    para: 三国志-p01140
+  skip: 辽东之役上一集已讲
+- id: e04
+  army: 魏辽东讨伐军
+  kind: 行军
+  place: 襄平
+  from: 辽隧
+  via:
+  - 首山
+  date: 238-夏
+  territory: null
+  note: 卑衍夜退，魏军再破迎战部队，进至襄平城下；具体月未核。
+  evidence:
+  - quote: 诸军进至首山
+    para: 三国志-p01140
+  - quote: 遂进军造城下
+    para: 三国志-p01140
+  skip: 辽东之役上一集已讲
+- id: e05
+  army: 魏辽东讨伐军
+  kind: 屯驻
+  place: 襄平
+  from: null
+  via:
+  - 辽口水运
+  date: 238-夏
+  territory: null
+  note: 围城；霖雨三十余日，辽水涨，运船由辽口直至城下。
+  evidence:
+  - quote: 会霖雨三十余日，辽水暴长
+    para: 三国志-p01140
+  - quote: 运船自辽口径至城下
+    para: 三国志-p01140
+  skip: 辽东之役上一集已讲
+- id: e06
+  army: 魏辽东讨伐军
+  kind: 攻占
+  place: 襄平
+  from: null
+  via: []
+  date: 238-08
+  territory:
+    jun: 辽东郡
+    to: 魏
+  note: 襄平陷、公孙渊父子被斩；疆域.yaml同月记辽东、玄菟、乐浪平定，逐郡接管日未载。
+  evidence:
+  - quote: 围公孙渊于襄平，大破之，传渊首于京都，海东诸郡平
+    para: 三国志-p00558
+  skip: 辽东之役上一集已讲
+- id: e07
+  army: 王凌军
+  kind: 出发
+  place: 寿春
+  from: 未核
+  via: []
+  date: 251-04
+  territory: null
+  note: 王凌谋立楚王彪；是否实际调兵离开寿春、部队路线未核。
+  evidence:
+  - quote: 闻太尉王凌谋废帝，立楚王彪
+    para: 三国志-p00602
+  skip: 王凌是否调兵未核，用寿春的旗表示
+- id: e08
+  army: 司马懿平王凌军
+  kind: 行军
+  place: 甘城
+  from: 洛阳
+  via:
+  - 沿流水路
+  date: 251-04
+  territory: null
+  note: 司马懿率中军泛舟九日到甘城；河流、起航地点原文未明。
+  evidence:
+  - quote: 帝自帅中军，泛舟沿流，九日而到甘城
+    para: 晋书-p00029
+  skip: 甘城、武丘古址未核，司马懿的箭头直接画到寿春
+- id: e09
+  army: 司马懿平王凌军
+  kind: 会合
+  place: 武丘
+  from: 甘城
+  via: []
+  date: 251-04
+  territory: null
+  note: 王凌至水边面缚迎降；甘城、武丘的具体古址未核。
+  evidence:
+  - quote: 乃迎于武丘，面缚水次
+    para: 晋书-p00029
+  skip: 甘城、武丘古址未核，司马懿的箭头直接画到寿春
+- id: e10
+  army: 司马懿平王凌军
+  kind: 行军
+  place: 项
+  from: 寿春
+  via: []
+  date: 251-04
+  territory: null
+  note: 押王凌回京，经贾逵庙至项；甘城、武丘古址未核，箭头从寿春画起。
+  evidence:
+  - quote: 道经贾逵庙
+    para: 晋书-p00029
+  - quote: 即以凌归于京师
+    para: 晋书-p00029
+- id: e11
+  army: 毌丘俭文钦军
+  kind: 出发
+  place: 寿春
+  from: 未核
+  via: []
+  date: 255-01
+  territory:
+    jun: 九江郡
+    to: 争夺
+  note: 矫诏移檄、筑坛盟誓，迫淮南屯军及吏民入城；没有攻下全郡的记载。
+  evidence:
+  - quote: 遂矫太后诏
+    para: 三国志-p01738
+  - quote: 为坛于城西，歃血称兵为盟
+    para: 三国志-p01738
+- id: e12
+  army: 毌丘俭文钦军
+  kind: 行军
+  place: 项
+  from: 寿春
+  via: []
+  date: 255-02
+  territory: null
+  note: 五六万渡淮西至项；《晋书》作六万。俭坚守，钦为游兵。
+  evidence:
+  - quote: 俭、钦自将五六万众渡淮，西至项
+    para: 三国志-p01738
+  - quote: 俭、钦帅众六万，渡淮而西
+    para: 晋书-p00035
+- id: e13
+  army: 司马师征讨军
+  kind: 行军
+  place: 许昌
+  from: 洛阳
+  via: []
+  date: 255-02
+  territory: null
+  note: 司马师统步骑十余万倍道兼行，会陈许之郊；「陈许之郊」画在许昌（验收改）。
+  evidence:
+  - quote: 帝统中军步骑十余万以征之
+    para: 晋书-p00035
+  - quote: 大会于陈许之郊
+    para: 晋书-p00035
+- id: e14
+  army: 司马师征讨军
+  kind: 行军
+  place: 隐桥
+  from: 陈许
+  via: []
+  date: 255-02
+  territory: null
+  note: 甲申次隐桥，史招、李绩相继来降；隐桥地望未核。
+  evidence:
+  - quote: 甲申，次于隐桥，俭将史招、李绩相次来降
+    para: 晋书-p00035
+  skip: 旁白未讲王基、史招李绩、邓艾屯乐嘉
+- id: e15
+  army: 王基军
+  kind: 行军
+  place: 南顿
+  from: 未核
+  via: []
+  date: 255-02
+  territory: null
+  note: 王基进据南顿逼俭，原文未载其出发点。
+  evidence:
+  - quote: 帝遣荆州刺史王基进据南顿以逼俭
+    para: 晋书-p00035
+  skip: 旁白未讲王基、史招李绩、邓艾屯乐嘉
+- id: e16
+  army: 邓艾乐嘉军
+  kind: 屯驻
+  place: 乐嘉
+  from: 未核
+  via: []
+  date: 255-02
+  territory: null
+  note: 邓艾督泰山诸军进屯乐嘉示弱诱敌。
+  evidence:
+  - quote: 邓艾督太山诸军进屯乐嘉，示弱以诱之
+    para: 晋书-p00035
+  skip: 旁白未讲王基、史招李绩、邓艾屯乐嘉
+- id: e17
+  army: 司马师征讨军
+  kind: 行军
+  place: 乐嘉
+  from: 许昌
+  via: []
+  date: 255-02
+  territory: null
+  note: 司马师潜军轻进至乐嘉；原记自汝阳，汝阳未定位，箭头自许昌画（验收改）。
+  evidence:
+  - quote: 帝屯汝阳
+    para: 晋书-p00035
+  - quote: 帝潜军衔枚，轻造乐嘉，与钦相遇
+    para: 晋书-p00035
+- id: e18
+  army: 毌丘俭文钦军
+  kind: 交战
+  place: 乐嘉
+  from: 项
+  via: []
+  date: 255-02
+  territory: null
+  note: 文钦攻邓艾营；文鸯夜间三次鼓噪，文钦未应而退。破钦在闰月，地图按疆域.yaml的255-02记。
+  evidence:
+  - quote: 钦进军将攻艾
+    para: 晋书-p00035
+  - quote: 闰月己亥，破钦于乐嘉
+    para: 三国志-p00639
+- id: e19
+  army: 司马琏追击军
+  kind: 行军
+  place: 沙阳
+  from: 乐嘉
+  via: []
+  date: 255-02
+  territory: null
+  note: 司马琏督骁骑八千、乐林继以步兵追文钦，至沙阳多次陷阵。
+  evidence:
+  - quote: 帝遣左长史司马琏督骁骑八千翼而追之
+    para: 晋书-p00035
+  - quote: 比至沙阳，频陷钦阵
+    para: 晋书-p00035
+  skip: 旁白只一句「兵败被杀，逃到东吴」：追击、慎县、安风津、孙峻援军不画
+- id: e20
+  army: 毌丘俭文钦军
+  kind: 撤退
+  place: 项
+  from: 沙阳
+  via: []
+  date: 255-02
+  territory: null
+  note: 文钦父子与部曲败退保项。
+  evidence:
+  - quote: 钦父子与麾下走保项
+    para: 晋书-p00035
+  skip: 旁白只一句「兵败被杀，逃到东吴」：追击、慎县、安风津、孙峻援军不画
+- id: e21
+  army: 毌丘俭文钦军
+  kind: 撤退
+  place: 淮南
+  from: 项
+  via: []
+  date: 255-02
+  territory: null
+  note: 毌丘俭弃众夜逃淮南，后至慎县被追。
+  evidence:
+  - quote: 俭闻钦败，弃众宵遁淮南
+    para: 晋书-p00035
+  skip: 旁白只一句「兵败被杀，逃到东吴」：追击、慎县、安风津、孙峻援军不画
+- id: e22
+  army: 毌丘俭文钦军
+  kind: 交战
+  place: 安风津
+  from: 慎县
+  via: []
+  date: 255-02
+  territory: null
+  note: 安风津都尉追斩俭；《三国志》说其至慎县后左右散去，精确斩杀点未核。
+  evidence:
+  - quote: 比至慎县，左右人兵稍弃俭去
+    para: 三国志-p01739
+  - quote: 安风津都尉追俭，斩之
+    para: 晋书-p00035
+  skip: 旁白只一句「兵败被杀，逃到东吴」：追击、慎县、安风津、孙峻援军不画
+- id: e23
+  army: 孙峻援寿春军
+  kind: 出发
+  place: 寿春
+  from: 吴
+  via: []
+  date: 255-02
+  territory: null
+  note: 孙峻率吕据、留赞袭寿春，出发城邑和路线未载。
+  evidence:
+  - quote: 峻及骠骑将军吕据、左将军留赞率兵袭寿春
+    para: 三国志-p02268
+  skip: 旁白只一句「兵败被杀，逃到东吴」：追击、慎县、安风津、孙峻援军不画
+- id: e24
+  army: 孙峻援寿春军
+  kind: 行军
+  place: 东兴
+  from: 寿春
+  via: []
+  date: 255-02
+  territory: null
+  note: 到东兴听闻乐嘉败讯，续进橐皋。
+  evidence:
+  - quote: 军及东兴，闻钦等败
+    para: 三国志-p02268
+  skip: 旁白只一句「兵败被杀，逃到东吴」：追击、慎县、安风津、孙峻援军不画
+- id: e25
+  army: 孙峻援寿春军
+  kind: 行军
+  place: 橐皋
+  from: 东兴
+  via: []
+  date: 255-02
+  territory: null
+  note: 壬寅进至橐皋，文钦至孙峻处。
+  evidence:
+  - quote: 壬寅，兵进于橐皋
+    para: 三国志-p02268
+  skip: 旁白只一句「兵败被杀，逃到东吴」：追击、慎县、安风津、孙峻援军不画
+- id: e26
+  army: 文钦降吴部
+  kind: 投降
+  place: 橐皋
+  from: 项
+  via: []
+  date: 255-02
+  territory: null
+  note: 文钦投孙峻，淮南余众数万口来吴；不代表九江郡易手。
+  evidence:
+  - quote: 钦诣峻降，淮南余众数万口来奔
+    para: 三国志-p02268
+  skip: 旁白只一句「兵败被杀，逃到东吴」：追击、慎县、安风津、孙峻援军不画
+- id: e27
+  army: 孙峻援寿春军
+  kind: 撤退
+  place: 吴
+  from: 橐皋
+  via: []
+  date: 255-02
+  territory: null
+  note: 诸葛诞入寿春后孙峻引军还，路线未载。
+  evidence:
+  - quote: 魏诸葛诞入寿春，峻引军还
+    para: 三国志-p02268
+  skip: 旁白只一句「兵败被杀，逃到东吴」：追击、慎县、安风津、孙峻援军不画
+- id: e28
+  army: 诸葛诞军
+  kind: 屯驻
+  place: 寿春
+  from: 未核
+  via: []
+  date: 257-05
+  territory:
+    jun: 九江郡
+    to: 争夺
+  note: 诸葛诞杀乐綝、保寿春并向吴求援；据守一城，九江郡记争夺（验收改：原记「出发」，实为据城自守）。
+  evidence:
+  - quote: 五月，魏征东大将军诸葛诞以淮南之众保寿春城
+    para: 三国志-p02271
+  - quote: 诞杀扬州刺史乐綝，以淮南作乱
+    para: 晋书-p00039
+- id: e29
+  army: 吴文钦唐咨全端救援军
+  kind: 出发
+  place: 未核
+  from: 吴
+  via: []
+  date: 257-06
+  territory: null
+  note: 吴派三万步骑救诞，具体出发点及路线未载。
+  evidence:
+  - quote: 六月，使文钦、唐咨、全端等步骑三万救诞
+    para: 三国志-p02271
+  skip: 旁白未讲吴援军路线、王基围城、丘头大营
+- id: e30
+  army: 吴文钦唐咨全端救援军
+  kind: 行军
+  place: 寿春
+  from: 未核
+  via:
+  - 城东北
+  - 山险
+  date: 257-06
+  territory: null
+  note: 援军由城东北依山险突入，魏围未合。
+  evidence:
+  - quote: 咨、钦等从城东北，因山乘险，得将其众突入城
+    para: 三国志-p01741
+  skip: 旁白未讲吴援军路线、王基围城、丘头大营
+- id: e31
+  army: 王基军
+  kind: 屯驻
+  place: 寿春
+  from: 未核
+  via: []
+  date: 257-06
+  territory: null
+  note: 王基围城未合；其后魏军加固内外重围。
+  evidence:
+  - quote: 督诸军围寿春，未合
+    para: 三国志-p01741
+  skip: 旁白未讲吴援军路线、王基围城、丘头大营
+- id: e32
+  army: 司马昭围寿春军
+  kind: 行军
+  place: 项
+  from: 洛阳
+  via: []
+  date: 257-07
+  territory: null
+  note: 司马昭奉帝及皇太后东征，四方与关中游军集淮北，师次项；督中外军二十六万。
+  evidence:
+  - quote: 秋七月，奉天子及皇太后东征
+    para: 晋书-p00039
+  - quote: 师次于项
+    para: 晋书-p00039
+  - quote: 大将军司马文王督中外诸军二十六万众
+    para: 三国志-p01741
+- id: e33
+  army: 司马昭围寿春军
+  kind: 屯驻
+  place: 丘头
+  from: 项
+  via: []
+  date: 257-07
+  territory: null
+  note: 司马昭进军丘头；王基、陈骞等四面合围，堑垒甚峻。
+  evidence:
+  - quote: 甲戌，帝进军丘头
+    para: 晋书-p00039
+  - quote: 使基及安东将军陈骞等四面合围，表里再重
+    para: 三国志-p01741
+  skip: 旁白未讲吴援军路线、王基围城、丘头大营
+- id: e34
+  army: 朱异夏口军
+  kind: 行军
+  place: 夏口
+  from: 虎林
+  via: []
+  date: 257-06
+  territory:
+    jun: 江夏郡
+    to: 争夺
+  note: 朱异袭夏口，督孙壹奔魏；原文未说城池被攻下，故不据此判定郡级易手。
+  evidence:
+  - quote: 朱异自虎林率众袭夏口，夏口督孙壹奔魏
+    para: 三国志-p02271
+  skip: 旁白未讲朱异、孙綝
+- id: e35
+  army: 吴孙綝救援军
+  kind: 屯驻
+  place: 镬里
+  from: 吴
+  via: []
+  date: 257-07
+  territory: null
+  note: 孙綝率众救寿春，驻镬里；到达路线未载。
+  evidence:
+  - quote: 綝率众救寿春，次于镬里
+    para: 三国志-p02271
+  skip: 旁白未讲朱异、孙綝
+- id: e36
+  army: 朱异救寿春军
+  kind: 行军
+  place: 黎浆
+  from: 夏口
+  via:
+  - 安丰
+  - 都陆
+  date: 257-08
+  territory: null
+  note: 朱异至自夏口，奉命为前部督；在都陆留辎重，吴军与魏石苞、州泰交战。
+  evidence:
+  - quote: 朱异至自夏口
+    para: 三国志-p02271
+  - quote: 朱异帅三万人屯安丰城
+    para: 三国志-p02684
+  - quote: 留辎重于都陆
+    para: 三国志-p02684
+  skip: 旁白未讲朱异、孙綝
+- id: e37
+  army: 朱异救寿春军
+  kind: 交战
+  place: 黎浆
+  from: 安丰
+  via: []
+  date: 257-08
+  territory: null
+  note: 朱异与丁奉、黎斐等五万攻魏；魏军破吴军浮桥营，朱异退却。
+  evidence:
+  - quote: 复遣异率将军丁奉、黎斐等五万人攻魏
+    para: 三国志-p02684
+  - quote: 于屯西六里为浮桥夜渡，筑偃月垒
+    para: 三国志-p02684
+  skip: 旁白未讲朱异、孙綝
+- id: e38
+  army: 吴孙綝救援军
+  kind: 撤退
+  place: 建业
+  from: 镬里
+  via: []
+  date: 257-09
+  territory: null
+  note: 朱异因乏食引还，孙綝杀朱异后自镬里返建业。
+  evidence:
+  - quote: 朱异以军士乏食引还
+    para: 三国志-p02271
+  - quote: 綝自镬里还建业
+    para: 三国志-p02271
+  skip: 旁白未讲朱异、孙綝
+- id: e39
+  army: 吴文钦唐咨全端救援军
+  kind: 投降
+  place: 寿春
+  from: 寿春
+  via:
+  - 东城门
+  date: 257-12
+  territory: null
+  note: 全端、全怿等开东城门降魏，城中离心，但全城尚未陷落。
+  evidence:
+  - quote: 全端、怿等自寿春城诣司马文王
+    para: 三国志-p02271
+  - quote: 遂将所领开东城门出降
+    para: 三国志-p01758
+- id: e40
+  army: 诸葛诞军
+  kind: 交战
+  place: 寿春
+  from: null
+  via: []
+  date: 258-01
+  territory: null
+  note: 诸葛诞杀文钦；部下蒋班、焦彝离营降魏的确切日期未核。
+  evidence:
+  - quote: 三年春正月，诸葛诞杀文钦
+    para: 三国志-p02272
+  skip: 诸葛诞杀文钦未讲
+- id: e41
+  army: 司马昭围寿春军
+  kind: 攻占
+  place: 寿春
+  from: 丘头
+  via: []
+  date: 258-02
+  territory:
+    jun: 九江郡
+    to: 魏
+  note: 寿春陷，诸葛诞被杀，左右战死，吏士投降；三国志吴纪另记三月，疆域.yaml采用二月。
+  evidence:
+  - quote: 三年春二月，大将军司马文王陷寿春城，斩诸葛诞
+    para: 三国志-p00673
+  - quote: 诞左右战死，将吏已下皆降
+    para: 三国志-p02272
+- id: e42
+  army: 姜维军
+  kind: 行军
+  place: 沈岭
+  from: 汉中
+  via:
+  - 骆谷
+  date: 257-秋
+  territory: null
+  note: 旁白未提及的牵制线：姜维率数万人出骆谷至沈岭，后驻芒水。
+  evidence:
+  - quote: 复率数万人出骆谷，径至沈岭
+    para: 三国志-p02124
+  skip: 旁白未讲姜维出骆谷牵制
+- id: e43
+  army: 姜维军
+  kind: 屯驻
+  place: 芒水
+  from: 沈岭
+  via: []
+  date: 257-秋
+  territory: null
+  note: 姜维倚山为营；司马望、邓艾在长城傍渭坚围而不应战。
+  evidence:
+  - quote: 维前住芒水，皆倚山为营
+    para: 三国志-p02124
+  - quote: 望、艾傍渭坚围，维数下挑战，望、艾不应
+    para: 三国志-p02124
+  skip: 旁白未讲姜维出骆谷牵制
+- id: e44
+  army: 司马望邓艾拒姜维军
+  kind: 屯驻
+  place: 长城
+  from: 陇右
+  via: []
+  date: 257-秋
+  territory: null
+  note: 司马望拒姜维，邓艾自陇右来同屯；具体起行地、会合日未核。
+  evidence:
+  - quote: 邓艾亦自陇右，皆军于长城
+    para: 三国志-p02124
+  skip: 旁白未讲姜维出骆谷牵制
+places_new:
+- name: 辽隧
+  lon: 123.45
+  lat: 41.55
+  precision: 约略
+  basis: 辽东襄平西部战场示意，古址未核；坐标只作示意。
+  evidence:
+  - quote: 屯辽隧
+    para: 三国志-p01140
+- name: 襄平
+  lon: 123.17
+  lat: 41.27
+  precision: 约略
+  basis: 今辽宁辽阳一带古城址近似点；坐标只作示意。
+  evidence:
+  - quote: 围公孙渊于襄平
+    para: 三国志-p00558
+- name: 首山
+  lon: 123.1
+  lat: 41.3
+  precision: 约略
+  basis: 辽阳首山传统比定，作襄平南侧示意；坐标只作示意。
+  evidence:
+  - quote: 诸军进至首山
+    para: 三国志-p01140
+- name: 辽口
+  lon: 121.8
+  lat: 39
+  precision: 未核
+  basis: 水运起点及古岸线未核，辽东湾入口示意；坐标只作示意。
+  evidence:
+  - quote: 运船自辽口径至城下
+    para: 三国志-p01140
+- name: 甘城
+  lon: 116.25
+  lat: 32.63
+  precision: 约略
+  basis: 后世地理记载系于今安徽颍上县，三国城址未核；坐标只作示意。
+  evidence:
+  - quote: 九日而到甘城
+    para: 晋书-p00029
+- name: 武丘
+  lon: 116.35
+  lat: 32.7
+  precision: 未核
+  basis: 元和郡县图志联系百尺堰、王凌面缚处，精确位置未核；坐标只作示意。
+  evidence:
+  - quote: 乃迎于武丘，面缚水次
+    para: 晋书-p00029
+- name: 贾逵庙
+  lon: 116.5
+  lat: 32.5
+  precision: 未核
+  basis: 原文只记押送路经，庙址未核；坐标只作示意。
+  evidence:
+  - quote: 道经贾逵庙
+    para: 晋书-p00029
+- name: 隐桥
+  lon: 114.9
+  lat: 34.05
+  precision: 未核
+  basis: 晋书所记今地未核，以陈许至项间示意；坐标只作示意。
+  evidence:
+  - quote: 次于隐桥
+    para: 晋书-p00035
+- name: 陈许
+  lon: 114
+  lat: 34
+  precision: 约略
+  basis: 陈郡、许昌郡望区域合称，取中间示意点；坐标只作示意。
+  evidence:
+  - quote: 大会于陈许之郊
+    para: 晋书-p00035
+- name: 南顿
+  lon: 114.88
+  lat: 33.27
+  precision: 约略
+  basis: 传统地望在今河南项城南顿镇一带；坐标只作示意。
+  evidence:
+  - quote: 进据南顿以逼俭
+    para: 晋书-p00035
+- name: 汝阳
+  lon: 114.36
+  lat: 33.72
+  precision: 约略
+  basis: 按今河南汝南县一带示意，古治沿革未核；坐标只作示意。
+  evidence:
+  - quote: 帝屯汝阳
+    para: 晋书-p00035
+- name: 沙阳
+  lon: 114.7
+  lat: 33.45
+  precision: 未核
+  basis: 文钦败退路上地名未核，以乐嘉至项间示意；坐标只作示意。
+  evidence:
+  - quote: 比至沙阳，频陷钦阵
+    para: 晋书-p00035
+- name: 安风津
+  lon: 116.3
+  lat: 32.32
+  precision: 约略
+  basis: 淮南西部古渡口，取今霍邱附近示意；坐标只作示意。
+  evidence:
+  - quote: 安风津都尉追俭
+    para: 晋书-p00035
+- name: 慎县
+  lon: 115.27
+  lat: 32.63
+  precision: 未核
+  basis: 毌丘俭被追至慎县，古县治未核；坐标只作示意。
+  evidence:
+  - quote: 比至慎县
+    para: 三国志-p01739
+- name: 东兴
+  lon: 117.8
+  lat: 31.62
+  precision: 约略
+  basis: 巢湖东兴堤及附近战区示意点；坐标只作示意。
+  evidence:
+  - quote: 军及东兴
+    para: 三国志-p02268
+- name: 橐皋
+  lon: 117.9
+  lat: 31.7
+  precision: 约略
+  basis: 传统地望在今安徽巢湖东北一带；坐标只作示意。
+  evidence:
+  - quote: 兵进于橐皋
+    para: 三国志-p02268
+- name: 虎林
+  lon: 117.2
+  lat: 31.7
+  precision: 未核
+  basis: 吴军出发地名未核，以巢湖西侧示意；坐标只作示意。
+  evidence:
+  - quote: 朱异自虎林率众袭夏口
+    para: 三国志-p02271
+- name: 镬里
+  lon: 116.9
+  lat: 32.25
+  precision: 未核
+  basis: 孙綝驻地未核，以寿春东南战区示意；坐标只作示意。
+  evidence:
+  - quote: 綝率众救寿春，次于镬里
+    para: 三国志-p02271
+- name: 黎浆
+  lon: 116.7
+  lat: 32.3
+  precision: 未核
+  basis: 吴魏交战地未核，以寿春东南战区示意；坐标只作示意。
+  evidence:
+  - quote: 异屯黎浆
+    para: 三国志-p02684
+- name: 安丰
+  lon: 116.3
+  lat: 32.53
+  precision: 约略
+  basis: 淮南安丰古城区域示意，确址未核；坐标只作示意。
+  evidence:
+  - quote: 朱异帅三万人屯安丰城
+    para: 三国志-p02684
+- name: 都陆
+  lon: 116.8
+  lat: 32.35
+  precision: 未核
+  basis: 吴军辎重营地未核，以黎浆附近示意；坐标只作示意。
+  evidence:
+  - quote: 留辎重于都陆
+    para: 三国志-p02684
+- name: 沈岭
+  lon: 108.85
+  lat: 33.7
+  precision: 未核
+  basis: 姜维至地未核，以骆谷北侧秦岭示意；坐标只作示意。
+  evidence:
+  - quote: 径至沈岭
+    para: 三国志-p02124
+- name: 芒水
+  lon: 108.7
+  lat: 34.05
+  precision: 未核
+  basis: 驻军水道未核，以渭南秦岭北麓示意；坐标只作示意。
+  evidence:
+  - quote: 维前住芒水，皆倚山为营
+    para: 三国志-p02124
+- name: 长城
+  lon: 108.6
+  lat: 34.1
+  precision: 未核
+  basis: 此处屯驻古城未核，以渭水南侧示意；坐标只作示意。
+  evidence:
+  - quote: 皆军于长城
+    para: 三国志-p02124
+open_questions:
+- 王凌案《晋书》记沿流九日到甘城、武丘面缚、经贾逵庙至项，但河流、起航点及多处古址未核；示意坐标不能当作定论。
+- 毌丘俭、文钦起兵与破钦分别记正月、闰月，地图疆域.yaml按255-01、255-02标注；闰月与公历月的换算及事件排序需统一。
+- 全怿、全端开寿春东门投降不等于全城陷落；夏口督孙壹奔魏但原文未说夏口失守。是否把九江、江夏显示为争夺及如何画局部易手需核。
+- 寿春陷落日期《三国志》吴纪记三月、少帝纪记二月；本账按疆域.yaml取258-02，需确认画面排序口径。
+- 诸葛诞围城时姜维出骆谷至沈岭、驻芒水，史载牵制魏军但旁白未提；是否在地图补线由Claude决定。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

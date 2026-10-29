@@ -1,0 +1,409 @@
+{
+ "mode": "mimo",
+ "beats": [
+  {
+   "file_start": 0.3,
+   "file_end": 3.603,
+   "voice_onset": 0.39,
+   "voice_offset": 3.35
+  },
+  {
+   "file_start": 3.603,
+   "file_end": 6.722,
+   "voice_onset": 3.883,
+   "voice_offset": 6.643
+  },
+  {
+   "file_start": 7.022,
+   "file_end": 11.026,
+   "voice_onset": 7.112,
+   "voice_offset": 10.812
+  },
+  {
+   "file_start": 11.026,
+   "file_end": 17.075,
+   "voice_onset": 11.296,
+   "voice_offset": 16.826
+  },
+  {
+   "file_start": 17.075,
+   "file_end": 19.77,
+   "voice_onset": 17.365,
+   "voice_offset": 19.665
+  },
+  {
+   "file_start": 20.07,
+   "file_end": 24.585,
+   "voice_onset": 20.18,
+   "voice_offset": 24.28
+  },
+  {
+   "file_start": 24.585,
+   "file_end": 29.455,
+   "voice_onset": 24.655,
+   "voice_offset": 29.265
+  },
+  {
+   "file_start": 29.455,
+   "file_end": 37.097,
+   "voice_onset": 29.705,
+   "voice_offset": 36.865
+  },
+  {
+   "file_start": 37.097,
+   "file_end": 42.527,
+   "voice_onset": 37.377,
+   "voice_offset": 42.527
+  },
+  {
+   "file_start": 42.827,
+   "file_end": 46.979,
+   "voice_onset": 42.867,
+   "voice_offset": 46.737
+  },
+  {
+   "file_start": 46.979,
+   "file_end": 53.078,
+   "voice_onset": 47.269,
+   "voice_offset": 52.809
+  },
+  {
+   "file_start": 53.078,
+   "file_end": 57.62,
+   "voice_onset": 53.348,
+   "voice_offset": 57.368
+  },
+  {
+   "file_start": 57.62,
+   "file_end": 63.806,
+   "voice_onset": 57.9,
+   "voice_offset": 63.58
+  },
+  {
+   "file_start": 63.806,
+   "file_end": 68.712,
+   "voice_onset": 64.096,
+   "voice_offset": 68.456
+  },
+  {
+   "file_start": 68.712,
+   "file_end": 76.893,
+   "voice_onset": 68.992,
+   "voice_offset": 76.662
+  },
+  {
+   "file_start": 76.893,
+   "file_end": 80.707,
+   "voice_onset": 77.193,
+   "voice_offset": 80.463
+  },
+  {
+   "file_start": 80.707,
+   "file_end": 83.413,
+   "voice_onset": 80.997,
+   "voice_offset": 83.407
+  },
+  {
+   "file_start": 83.713,
+   "file_end": 87.864,
+   "voice_onset": 83.873,
+   "voice_offset": 87.613
+  },
+  {
+   "file_start": 87.864,
+   "file_end": 91.728,
+   "voice_onset": 88.144,
+   "voice_offset": 91.494
+  },
+  {
+   "file_start": 91.728,
+   "file_end": 98.148,
+   "voice_onset": 92.028,
+   "voice_offset": 97.898
+  },
+  {
+   "file_start": 98.148,
+   "file_end": 104.507,
+   "voice_onset": 98.438,
+   "voice_offset": 104.258
+  },
+  {
+   "file_start": 104.507,
+   "file_end": 109.511,
+   "voice_onset": 104.787,
+   "voice_offset": 109.467
+  },
+  {
+   "file_start": 109.811,
+   "file_end": 112.061,
+   "voice_onset": 109.811,
+   "voice_offset": 111.831
+  },
+  {
+   "file_start": 112.361,
+   "file_end": 119.9,
+   "voice_onset": 112.421,
+   "voice_offset": 119.571
+  },
+  {
+   "file_start": 119.9,
+   "file_end": 124.632,
+   "voice_onset": 119.94,
+   "voice_offset": 124.38
+  },
+  {
+   "file_start": 124.632,
+   "file_end": 128.236,
+   "voice_onset": 124.912,
+   "voice_offset": 127.982
+  },
+  {
+   "file_start": 128.236,
+   "file_end": 133.937,
+   "voice_onset": 128.526,
+   "voice_offset": 133.836
+  }
+ ],
+ "narration": "D:\\history\\codx_3 history studio\\01_工作流\\projects\\s01e20-hanwang\\voice\\narration.wav",
+ "asr": [
+  {
+   "beat": 1,
+   "chapter": 1,
+   "text": "四百年的大汉，没打一仗，就这么没了。送走它的，是曹操的儿子，曹丕。",
+   "heard": "四百年的大汉，没打一仗就这么没了。送走他的是曹操的儿子，曹丕。",
+   "ratio": 0.963,
+   "diff": [
+    "「它」→「他」"
+   ]
+  },
+  {
+   "beat": 3,
+   "chapter": 2,
+   "text": "公元二二零年正月，曹操在洛阳病逝，终年六十六岁。他留下遗言：天下还没安定，丧事从简。穿平常的衣服下葬，不放金玉珍宝。掌子曹丕，接过了魏王的位子。",
+   "heard": "公元二二零年正月，曹操在洛阳病逝，终年六十六岁。他留下遗言：天下还没安定，丧事从简，穿平常的衣服下葬，不放金玉珍宝。长子曹丕接过了魏王的位子。",
+   "ratio": 0.984,
+   "diff": [
+    "「掌」→「长」"
+   ]
+  },
+  {
+   "beat": 6,
+   "chapter": 3,
+   "text": "这年十月，汉献帝派人捧着玉玺，把皇位\"让\"给了曹丕。曹丕在繁阳筑起高坛，登坛即位，改年号黄初。东汉，灭亡了。汉献帝被封为山阳公，还能用天子的礼仪祭祀，给皇帝上书不用称臣。他好好地活了下去。其实从曹操把他接到许县算起，二十多年了，皇帝早就只剩一个名号。",
+   "heard": "这年十月，汉献帝派人捧着玉玺，把皇位让给了曹丕。曹丕在繁阳筑起高坛，登坛即位，改年号黄初。东汉灭亡了。汉献帝被封为山阳公，还能用天子的礼仪祭祀，给皇帝上书不用称臣。他好好的活了下去。其实从曹操把他接到许县算起，二十多年了，皇帝早就只剩一个名号。",
+   "ratio": 0.991,
+   "diff": [
+    "「地」→「的」"
+   ]
+  },
+  {
+   "beat": 10,
+   "chapter": 4,
+   "text": "消息传到成都，还有传言说，汉献帝已经被害了。刘备给献帝发丧，第二年四月，在成都武担山南登基称帝，国号还叫汉。他的理由很直接：曹丕篡位，汉朝的香火，由我来接。孙权呢？他把都城搬到武昌，转头向曹丕称臣，还把关了两年的于禁送了回去。于禁回来时，胡子头发全白了，憔悴不堪，跪在地上直哭。曹丕让他先去邺城，拜曹操的陵墓。陵屋的墙上，早就画好了：关羽得胜、庞德怒骂、于禁跪地投降。于禁看了，又羞又恨，没多久就病死了。八月，曹丕封孙权为吴王。",
+   "heard": "萧许川到成都，还有传言说汉献帝已经被害了。刘备给献帝发丧，第二年四月，在成都武担山南登基称帝，国号还叫汉。他的理由很直接：曹丕篡位，汉朝的香火由我来接。孙权呢，他把都城搬到武昌，转头向曹丕称臣，还把关了两年的于禁送了回去。于禁回来时，胡子头发全白了，憔悴不堪，跪在地上直哭。曹丕让他先去邺城拜曹操的陵墓，灵屋的墙上早就画好了：关羽得胜，庞德怒骂，于禁跪地投降。于禁看了又羞又恨，没多久就病死了。八月，曹丕封孙权为吴王。",
+   "ratio": 0.978,
+   "diff": [
+    "「消息传」→「萧许川」",
+    "「陵」→「灵」"
+   ]
+  },
+  {
+   "beat": 18,
+   "chapter": 5,
+   "text": "刘备称帝后的第一件大事：东征孙权，替关羽报仇。张飞带一万人，要从浪中出发，到江州会合。刘备早就警告过他：你杀人太多，又天天鞭打士兵，还把他们留在身边，迟早要出事。张飞没改。临出发，部将张达、范强杀了他，提着他的头，顺江投奔了孙权。张飞营里的都督送来奏表。刘备一听是都督上表，不是张飞自己，就说：",
+   "heard": "刘备称帝后的第一件大事，东征孙权，替关羽报仇。张飞带一万人，要从阆中出发，到江州会合。刘备早就警告过他：“你杀人太多，又天天鞭打士兵，还把他们留在身边，迟早要出事。”张飞没改。临出发，部将张达、范强杀了他，提着他的头，顺江投奔了孙权。张飞营里的都督送来奏表，刘备一听是都督上表，不是张飞自己，就说。",
+   "ratio": 0.992,
+   "diff": [
+    "「浪」→「阆」"
+   ]
+  },
+  {
+   "beat": 23,
+   "speaker": "刘备",
+   "text": "唉！张飞，死了。",
+   "heard": "张飞死了。",
+   "ratio": 0.889,
+   "diff": [
+    "「唉」→「」"
+   ]
+  },
+  {
+   "beat": 24,
+   "chapter": 7,
+   "text": "四百年的大汉，怎么一仗没打就没了？兵、地、官，早就姓了曹。善让，只是把最后一块招牌摘了下来。如今洛阳一个皇帝，成都一个皇帝，武昌还有一个吴王。曹丕称帝，你觉得是篡位，还是水到渠成？刘备不听劝阻，亲率大军顺江东下。等着他的，是一个书生：陆逊。",
+   "heard": "四百年的大汉，怎么一仗没打就没了？兵、地、官早就姓了曹，禅让只是把最后一块招牌摘了下来。如今洛阳一个皇帝，成都一个皇帝，武昌还有一个吴王。曹丕称帝，你觉得是篡位还是水到渠成？刘备不听劝阻，亲率大军顺江东下，等着他的是一个书生，陆逊。",
+   "ratio": 0.99,
+   "diff": [
+    "「善」→「禅」"
+   ]
+  }
+ ],
+ "speaker_pace": [
+  {
+   "beat": 23,
+   "speaker": "刘备",
+   "rate_before": 2.5,
+   "speed": 1.0,
+   "rate": 2.5
+  }
+ ],
+ "tempo": [
+  {
+   "chapter": 1,
+   "raw_rate": 3.91,
+   "factor": 1.154
+  },
+  {
+   "chapter": 2,
+   "raw_rate": 4.47,
+   "factor": 1.154
+  },
+  {
+   "chapter": 3,
+   "raw_rate": 4.44,
+   "factor": 1.154
+  },
+  {
+   "chapter": 4,
+   "raw_rate": 4.2,
+   "factor": 1.154
+  },
+  {
+   "chapter": 5,
+   "raw_rate": 4.5,
+   "factor": 1.154
+  },
+  {
+   "chapter": 7,
+   "raw_rate": 4.32,
+   "factor": 1.154
+  }
+ ],
+ "chapter_match": {
+  "eq_max_db": [
+   5.0,
+   1.5,
+   3.4,
+   3.2,
+   4.0,
+   1.5
+  ],
+  "level_before_db": [
+   -29.2,
+   -24.4,
+   -28.1,
+   -25.4,
+   -24.8,
+   -25.3
+  ],
+  "level_after_db": -26.2
+ },
+ "splits": [
+  {
+   "beat": 1,
+   "ratio": 1.0
+  },
+  {
+   "beat": 2,
+   "ratio": 0.917
+  },
+  {
+   "beat": 3,
+   "ratio": 1.0
+  },
+  {
+   "beat": 4,
+   "ratio": 1.0
+  },
+  {
+   "beat": 5,
+   "ratio": 0.917
+  },
+  {
+   "beat": 6,
+   "ratio": 1.0
+  },
+  {
+   "beat": 7,
+   "ratio": 0.93
+  },
+  {
+   "beat": 8,
+   "ratio": 0.933
+  },
+  {
+   "beat": 9,
+   "ratio": 1.0
+  },
+  {
+   "beat": 10,
+   "ratio": 0.895
+  },
+  {
+   "beat": 11,
+   "ratio": 1.0
+  },
+  {
+   "beat": 12,
+   "ratio": 1.0
+  },
+  {
+   "beat": 13,
+   "ratio": 1.0
+  },
+  {
+   "beat": 14,
+   "ratio": 1.0
+  },
+  {
+   "beat": 15,
+   "ratio": 1.0
+  },
+  {
+   "beat": 16,
+   "ratio": 1.0
+  },
+  {
+   "beat": 17,
+   "ratio": 1.0
+  },
+  {
+   "beat": 18,
+   "ratio": 1.0
+  },
+  {
+   "beat": 19,
+   "ratio": 0.941
+  },
+  {
+   "beat": 20,
+   "ratio": 1.0
+  },
+  {
+   "beat": 21,
+   "ratio": 1.0
+  },
+  {
+   "beat": 22,
+   "ratio": 1.0
+  },
+  {
+   "beat": 24,
+   "ratio": 0.921
+  },
+  {
+   "beat": 25,
+   "ratio": 1.0
+  },
+  {
+   "beat": 26,
+   "ratio": 1.0
+  },
+  {
+   "beat": 27,
+   "ratio": 1.0
+  }
+ ],
+ "measurement": "10ms RMS>.004 after peak normalisation; phrase-level, not forced syllable alignment",
+ "cleaned": "0 breath/noise islands gated out"
+}

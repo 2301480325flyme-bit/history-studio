@@ -1,0 +1,173 @@
+episode: s01e32-zhaowang
+title: 赵王伦篡位，三王起兵
+year: 301
+handoff:
+  - 接第29集杨骏居太极殿、贾南风盯上杨骏；本集不重复杨骏掌权和被诛。
+  - 以伦称帝、诸王响应、战事、宫廷内应、惠帝复位、冏辅政为范围；乂讨冏作下集钩子。
+  - “三王”是简称，惠帝纪还列常山王乂及地方将领响应。
+  - 本地sources未返回通鉴段落；通鉴异文附在线原文，para: 无。
+events:
+  - id: e01
+    date: 301-01
+    people: [司马伦, 孙秀]
+    place: 洛阳
+    event: 伦篡位称帝、改元建始；滥封官爵，出现“貂不足，狗尾续”谚。
+    evidence:
+      - {quote: "乃僭即帝位，大赦，改元建始。", para: 晋书-p04589}
+      - {quote: "每朝会，貂蝉盈坐，时人为之颜曰：‘貂不足，狗尾续。’", para: 晋书-p04589}
+    note: 两句同出赵王伦传，典故直接出处仅此一处。
+  - id: e02
+    date: 301-01
+    people: [司马伦, 司马衷]
+    place: 金墉城
+    event: 惠帝被迁出宫城、尊为太上皇；惠帝纪称改金墉为永昌宫。
+    evidence:
+      - {quote: "丙寅，迁帝于金墉城，号曰太上皇，改金墉曰永昌宫。", para: 晋书-p00098}
+      - {quote: "惠帝乘云母车，卤簿数百人，自华林西门出居金墉城。", para: 晋书-p04588}
+    note: 金墉城宫址未核。
+  - id: e03
+    date: 301-03
+    people: [司马冏, 司马颖, 司马颙, 司马乂, 李毅, 王彦, 司马歆]
+    place: 许昌、阳翟、邺、长安
+    event: 冏起兵讨伦、屯阳翟；颖、颙、常山王乂及地方将领响应。阳翟是前沿屯点，不是许昌城。
+    evidence:
+      - {quote: "平东将军、齐王冏起兵以讨伦，传檄州郡，屯于阳翟。", para: 晋书-p00098}
+      - {quote: "征北大将军、成都王颖，征西大将军、河间王颙，常山王乂，豫州刺史李毅，兗州刺史王彦，南中朗将、新野公歆，皆举兵应之，众数十万。", para: 晋书-p00098}
+  - id: e04
+    date: 301-03
+    people: [闾和, 张泓, 孙辅, 孙会, 士猗, 许超]
+    place: 伊阙、堮坂、黄桥
+    event: 伦军分路出击：闾和出伊阙，张泓孙辅出堮坂，孙会士猗许超出黄桥迎颖军。
+    evidence:
+      - {quote: "伦遣其将闾和出伊阙，张泓、孙辅出堮坂以距冏，孙会、士猗、许超出黄桥以距颍。", para: 晋书-p00098}
+      - {quote: "伦遣其将闾和、张泓、孙辅出堮坂，与冏交战。", para: 晋书-p04599}
+    note: 两传路线有差异，不选唯一说法。
+  - id: e05
+    date: 301-03
+    people: [司马颖, 赵骧, 石超, 孙会, 士猗, 许超]
+    place: 黄桥
+    event: 黄桥交战；伦传记杀伤万余，颖传称赵骧初到黄桥死者八千余，或属不同阶段/口径。
+    evidence:
+      - {quote: "许超等与成都王颖军战于黄桥，杀伤万余人。", para: 晋书-p04593}
+      - {quote: "赵骧至黄桥，为伦将士猗、许超所败，死者八千余人，士众震骇。", para: 晋书-p04625}
+  - id: e06
+    date: 301-03
+    people: [赵骧, 石超, 孙会]
+    place: 湨水（本地惠帝纪作溴水）
+    event: 赵骧、石超与孙会军战，孙会军败走；河名及战序有异文。
+    evidence:
+      - {quote: "及颖将赵骧、石超战于溴水，会等大败，弃军走。", para: 晋书-p00098}
+    note: 本地未索引通鉴；在线晋书与通鉴考异有湨/激异文（在线校勘线索：https://www.shidianguji.com/book/LS0005/chapter/LS0005_49；https://guwensou.com/book/zizhitongjian/a3885609.html），verify_quotes仅核本地引文；地名资料释为济源—孟州漭河水系，河段未核。
+  - id: e07
+    date: 301-04
+    people: [何勖, 张泓, 孙辅, 司马冏]
+    place: 阳翟
+    event: 冏军大破张泓、斩孙辅等，之后率军入洛。
+    evidence:
+      - {quote: "冏将何勖等击张泓于阳翟，大破之，斩孙辅等。", para: 晋书-p00098}
+      - {quote: "冏屯军阳翟，伦遣其将闾和、张泓、孙辅出堮坂，与冏交战。冏军失利，坚垒自守。会成都军破伦众于黄桥，冏乃出军攻和等，大破之。", para: 晋书-p04599}
+  - id: e08
+    date: 301-04
+    people: [王舆, 淮陵王漼, 孙秀, 孙会, 许超, 士猗, 骆休, 司马伦]
+    place: 洛阳宫城、南掖门
+    event: 王舆率七百余营兵从南掖门入宫，宫兵响应、杀孙秀等伦党；伦被逐归第，惠帝当日复位。伦最终死法及地点未由目标段落核实。
+    evidence:
+      - {quote: "左卫将军王舆与尚书、淮陵王漼勒兵入宫，禽伦党孙秀、孙会、许超、士猗、骆休等，皆斩之。", para: 晋书-p00098}
+      - {quote: "王舆反之，率营兵七百余人自南掖门入，敕宫中兵各守卫诸门，三部司马为应于内。舆自往攻秀，秀闭中书南门。舆放兵登墙烧屋，秀及超、猗遽走出，左卫将军赵泉斩秀等以徇。", para: 晋书-p04594}
+  - id: e09
+    date: 301-04
+    people: [司马衷, 司马伦, 司马冏]
+    place: 洛阳
+    event: 伦败、惠帝复位，冏率军入洛；没有郡级易手。
+    evidence:
+      - {quote: "逐伦归第，即日乘舆反正。", para: 晋书-p00098}
+      - {quote: "及王舆废伦，惠帝反正，冏诛讨贼党既毕，率众入洛，顿军通章署，甲士数十万，旌旗器械之盛，震于京都。", para: 晋书-p04599}
+  - id: e10
+    date: 301-06
+    people: [司马冏, 司马衷]
+    place: 洛阳
+    event: 冏留洛辅政、坐拜百官、符敕台府、大筑宅第。疆域.yaml记许昌归晋在301-06。
+    evidence:
+      - {quote: "齐王冏既诛赵王伦，因留辅政，坐拜百官，符敕台府", para: 晋书-p02513}
+      - {quote: "大筑第馆，北取五谷市，南开诸署，毁坏庐舍以百数，使大匠营制，与西宫等。", para: 晋书-p04600}
+  - id: e11
+    date: 303-12（钩子）
+    people: [司马乂, 司马冏]
+    place: 洛阳
+    event: 颖、颙后来檄长沙王乂讨冏，乂奉惠帝攻杀冏；只作下集钩子。
+    evidence:
+      - {quote: "河间王颙表齐王冏窥伺神器，有无君之心，与成都王颍、新野王歆、范阳王虓同会洛阳，请废冏还第。长沙王乂奉乘舆屯南止车门，攻冏，杀之。", para: 晋书-p00099}
+      - {quote: "是月，成都、河间檄长沙王乂讨之，冏、乂交战，攻焚宫阙，冏兵败，夷灭。", para: 晋书-p00630}
+
+people:
+  - {name: 司马衷, lifespan: "259?–306（常用生年，本地未核）", age_301: "约42（301-259，生日未核）", office: 惠帝；一度太上皇后复位, portrait: "有 sima_zhong.png；相貌档案无条目", evidence: [{quote: "迁帝于金墉城，号曰太上皇", para: 晋书-p00098}]}
+  - {name: 司马伦, lifespan: "？–301", age_301: 未核, office: 赵王、篡位称帝, portrait: "有 sima_lun.png；相貌档案无条目", evidence: [{quote: "赵王伦篡帝位", para: 晋书-p00098}]}
+  - {name: 司马冏, lifespan: "？–302", age_301: 未核, office: 齐王、平东将军、后大司马辅政, portrait: "有 sima_jiong.png；相貌档案无条目", evidence: [{quote: "平东将军、齐王冏起兵以讨伦", para: 晋书-p00098}]}
+  - {name: 司马颖, lifespan: "？–306", age_301: 未核, office: 成都王、征北大将军, portrait: "有 sima_ying.png；相貌档案无条目", evidence: [{quote: "征北大将军、成都王颖", para: 晋书-p00098}]}
+  - {name: 司马颙, lifespan: "？–306", age_301: 未核, office: 河间王、征西大将军, portrait: "有 sima_yong.png；相貌档案无条目", evidence: [{quote: "征西大将军、河间王颙", para: 晋书-p00098}]}
+  - {name: 司马乂, lifespan: "277?–304（生年未核）", age_301: "约24（估算，非定论）", office: 起兵时常山王、后长沙王太尉, portrait: "有 sima_yi2.png；相貌档案无条目", evidence: [{quote: "常山王乂", para: 晋书-p00098}, {quote: "以长沙王乂为太尉、都督中外诸军", para: 晋书-p00099}]}
+  - {name: 孙秀, lifespan: "？–301", age_301: 未核, office: 伦谋主、中书监，宫变被杀, portrait: 无, evidence: [{quote: "左卫将军赵泉斩秀等以徇", para: 晋书-p04594}]}
+  - {name: 王舆, lifespan: ？, age_301: 未核, office: 左卫将军、宫廷内应主事, portrait: 无, evidence: [{quote: "率营兵七百余人自南掖门入", para: 晋书-p04594}]}
+  - {name: 淮陵王漼, lifespan: ？, age_301: 未核, office: 尚书、淮陵王、参与夺门, portrait: 无, evidence: [{quote: "王舆与尚书、淮陵王漼勒兵入宫", para: 晋书-p00098}]}
+  - {name: 赵骧, lifespan: ？, age_301: 未核, office: 颖将、督护, portrait: 无, evidence: [{quote: "赵骧至黄桥，为伦将士猗、许超所败", para: 晋书-p04625}]}
+  - {name: 石超, lifespan: ？, age_301: 未核, office: 颖将, portrait: 无, evidence: [{quote: "及颖将赵骧、石超战于溴水", para: 晋书-p00098}]}
+  - {name: 孙会, lifespan: ？, age_301: 未核, office: 孙秀之子、伦军将领, portrait: 无, evidence: [{quote: "孙会、士猗、许超出黄桥以距颍", para: 晋书-p00098}]}
+  - {name: 士猗, lifespan: ？, age_301: 未核, office: 伦军将领, portrait: 无, evidence: [{quote: "许超、士猗、孙弼、谢惔、殷浑与秀为王舆所诛", para: 晋书-p04597}]}
+  - {name: 许超, lifespan: ？, age_301: 未核, office: 伦军将领, portrait: 无, evidence: [{quote: "许超等与成都王颖军战于黄桥，杀伤万余人。", para: 晋书-p04593}]}
+  - {name: 张泓, lifespan: ？, age_301: 未核, office: 伦军将领, portrait: 无, evidence: [{quote: "冏将何勖等击张泓于阳翟，大破之", para: 晋书-p00098}]}
+  - {name: 孙辅, lifespan: ？, age_301: 未核, office: 伦军将领，战败被杀, portrait: 无, evidence: [{quote: "大破之，斩孙辅等", para: 晋书-p00098}]}
+  - {name: 闾和, lifespan: ？, age_301: 未核, office: 伦军将领, portrait: 无, evidence: [{quote: "伦遣其将闾和出伊阙", para: 晋书-p00098}]}
+  - {name: 何勖, lifespan: ？, age_301: 未核, office: 冏部将、击败张泓, portrait: 无, evidence: [{quote: "冏将何勖等击张泓于阳翟", para: 晋书-p00098}]}
+  - {name: 李毅, lifespan: ？, age_301: 未核, office: 豫州刺史、响应冏, portrait: 无, evidence: [{quote: "豫州刺史李毅……皆举兵应之", para: 晋书-p00098}]}
+  - {name: 王彦, lifespan: ？, age_301: 未核, office: 兖州刺史、响应冏, portrait: 无, evidence: [{quote: "兗州刺史王彦……皆举兵应之", para: 晋书-p00098}]}
+  - {name: 司马歆, lifespan: ？, age_301: 未核, office: 新野公、南中郎将、响应冏, portrait: 无, evidence: [{quote: "南中朗将、新野公歆，皆举兵应之", para: 晋书-p00098}]}
+  - {name: 张华, lifespan: 232–300, age_301: "69（前史）", office: 司空，300年遇害、本集不重讲, portrait: 有 zhang_hua.png, evidence: [{quote: "司空张华、尚书仆射裴頠皆遇害", para: 晋书-p00097}]}
+  - {name: 裴頠, lifespan: 267–300, age_301: "34（前史）", office: 尚书仆射，300年遇害、本集不重讲, portrait: 有 pei_wei.png, evidence: [{quote: "司空张华、尚书仆射裴頠皆遇害", para: 晋书-p00097}]}
+
+  - {name: 骆休, lifespan: ？, age_301: 未核, office: 华林令、伦党内应者，后被王舆方诛, portrait: 无, evidence: [{quote: "禽伦党孙秀、孙会、许超、士猗、骆休等，皆斩之。", para: 晋书-p00098}]}
+places:
+  - {ancient: 洛阳, modern: 河南洛阳汉魏故城附近（非宫殿点）, gazetteer: "有 luoyang_han_wei；第29集已用", tier: 首都/城邑, coordinates: [112.6183, 34.7195]}
+  - {ancient: 金墉城, modern: 汉魏故城西北附近、精确宫址未核, gazetteer: 无, tier: 附属宫城、不作郡级疆域, coordinates: null}
+  - {ancient: 许昌, modern: 河南许昌市, gazetteer: "有 xuchang_approx，古城点未核", tier: 城邑/齐王驻地, coordinates: [114.00971, 33.99189]}
+  - {ancient: 阳翟, modern: 河南禹州阳翟故城附近, gazetteer: "有 yangzhai_approx，未经策展", tier: 县城屯点, coordinates: [113.46706, 34.16249]}
+  - {ancient: 邺, modern: 河北临漳邺城遗址, gazetteer: 有ye_city, tier: 城邑、疆域只示意魏郡, coordinates: [114.4002, 36.2748]}
+  - {ancient: 长安/关中, modern: 陕西西安汉长安遗址附近, gazetteer: 有changan_han_city, tier: 城址不等于全关中}
+  - {ancient: 伊阙, modern: 洛阳南郊龙门山伊河阙口, gazetteer: 无, tier: 关隘, coordinates: [112.470, 34.570], note: 区域约略点}
+  - {ancient: 堮坂, modern: 未核、字形和坂口待查, gazetteer: 无, tier: 关坂, coordinates: null}
+  - {ancient: 黄桥, modern: 二手考证称河南淇县西黄泽，缺方志/考古点佐证, gazetteer: 无, tier: 桥梁战场, coordinates: [114.20, 35.61], note: 县域候选非精确战场}
+  - {ancient: 湨水/溴水/激水, modern: 资料释作济源—孟州漭河水系、河段未核, gazetteer: 无, tier: 河流战场, coordinates: [112.80, 35.10]}
+  - {ancient: 颍阴, modern: 许昌附近颍水流域候选，故城未核, gazetteer: 无, tier: 县城、不等于安徽颍上, coordinates: null}
+  - {ancient: 颍上, modern: 颍水岸段、非今颍上县已证, gazetteer: 无, tier: 河岸战术点, coordinates: null}
+  - {ancient: 通章署, modern: 洛阳城内署址未定位, gazetteer: 无, tier: 城内营地, coordinates: null}
+  - {ancient: 南掖门/宣化闼/中书南门, modern: 洛阳宫城门官署、301年点位未核, gazetteer: 无, tier: 宫城战术点, coordinates: null}
+  - {ancient: 河桥, modern: 黄河桥渡未定, gazetteer: 无, tier: 渡口, coordinates: null}
+
+differences_and_disputes:
+  - 演义：此为西晋八王之乱，《三国演义》无可核对应情节；网络转述戏剧化处以纪传为准。
+  - 水名：本地惠帝纪溴水，在线晋书湨水，通鉴考异引赵王伦传激水，不统一改字。
+  - 战序：惠帝纪压缩黄桥与湨/溴水；伦传、冏传叙述顺序及冏军胜负阶段不同。
+  - 伤亡：伦传杀伤万余、颖传死者八千余，可能不同阶段/口径，不合并。
+  - “众数十万”是响应军总数；伦军三路合计2.4万非全军数。
+  - 金墉改名惠帝纪作永昌宫，五行志作永安宫（晋书-p02573）。
+  - 伦被逐归第后的赐死时间、方式、地点未核；多数人物生年未核。
+pronunciation_risks:
+  - {word: 冏, reading: jiǒng, note: 司马冏}
+  - {word: 颙, reading: yóng, note: 司马颙}
+  - {word: 乂, reading: yì, note: 301年先称常山王}
+  - {word: 颖/颍, reading: yǐng, note: 人名地名形近}
+  - {word: 漼, reading: cuǐ, note: 淮陵王漼}
+  - {word: 猗, reading: yī, note: 士猗}
+  - {word: 闾, reading: lǘ, note: 闾和}
+  - {word: 堮坂, reading: "è bǎn（暂按字面）", note: 字形地点待核}
+  - {word: 湨水, reading: jú shuǐ, note: 本地异作溴水}
+  - {word: 溴水, reading: "xiù shuǐ（按字面）", note: 水名异文待核}
+  - {word: 伊阙, reading: yī què, note: 阙读què}
+  - {word: 阳翟, reading: "yáng dí（播音前复核）", note: 翟多音字}
+  - {word: 颍阴, reading: yǐng yīn, note: 非今安徽颍上}
+illustration_and_tactical_scenes:
+  - {scene: 金墉迁帝, source: [{quote: "惠帝乘云母车，卤簿数百人，自华林西门出居金墉城。", para: 晋书-p04588}]}
+  - {scene: 伦称帝、貂蝉满座, source: [{quote: "每朝会，貂蝉盈坐，时人为之颜曰：‘貂不足，狗尾续。’", para: 晋书-p04589}]}
+  - {scene: 诸王檄书和伦军多路出击, source: [{quote: "齐王冏起兵以讨伦，传檄州郡，屯于阳翟。", para: 晋书-p00098}, {quote: "伦遣其将闾和出伊阙，张泓、孙辅出堮坂以距冏，孙会、士猗、许超出黄桥以距颍。", para: 晋书-p00098}]}
+  - {scene: 黄桥战后敛葬（阶段待核）, source: [{quote: "颖乃造棺八千余枚，以成都国秩为衣服，敛祭，葬于黄桥北。", para: 晋书-p04626}]}
+  - {scene: 南掖门内应、七百兵入宫, source: [{quote: "率营兵七百余人自南掖门入，敕宫中兵各守卫诸门，三部司马为应于内。", para: 晋书-p04594}]}
+  - {scene: 冏军入洛、辅政后扩宅, source: [{quote: "率众入洛，顿军通章署，甲士数十万，旌旗器械之盛，震于京都。", para: 晋书-p04599}, {quote: "大筑第馆，北取五谷市，南开诸署，毁坏庐舍以百数。", para: 晋书-p04600}]}

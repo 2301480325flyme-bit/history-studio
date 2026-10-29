@@ -1,0 +1,383 @@
+# 快节奏版（2026-10-13，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第12集：曹操南下荆州，长坂坡，孙刘结盟，赤壁之战（208）
+# 2026-10-11 写成（原大纲第11集，因第10集拆分顺延）。关键原文核对：
+# 本地语料："太祖军到襄阳，琮举州降"（刘表传注）；张飞"据水断桥，瞋目横矛曰：身是张益德也，可来共决死"；赵云"身抱弱子，即后主也"（关张马黄赵传）；
+# 鲁肃"今肃可迎操耳，如将军，不可也…将军迎操，欲安所归"（鲁肃传）；诸葛亮"若能以吴、越之众与中国抗衡，不如早与之绝；若不能当，何不案兵束甲，北面而事之…田横，齐之壮士耳"、
+# 孙权"吾不能举全吴之地，十万之众，受制于人"（诸葛亮传）；周瑜"操虽托名汉相，其实汉贼也…况操自送死，而可迎之耶"（周瑜传）；
+# 黄盖"今寇众我寡，难与持久。然观操军船舰，首尾相接，可烧而走也"…"先书报曹公，欺以欲降…时风盛猛，悉延烧岸上营落"（周瑜传）；
+# 华容道"悉使羸兵负草填之…刘备，吾俦也。但得计少晚"（武帝纪注引山阳公载记）。
+# Wikisource 核对（本地语料未收）：曹公与权书"今治水军八十万众，方与将军会猎于吴"（吴主传注引江表传）；孙权"拔刀斫前奏案…与此案同"（周瑜传注引江表传）。
+
+id: s01e13-chibi
+title: 赤壁之战
+series: 三国 · 第13集
+year: 208
+
+notes:
+  - 主线问题：曹操号称八十万，怎么一夜之间就输了？——北方兵不习水战、染上疾病，船连在一起，一把火。
+  - 演义对照：草船借箭、借东风、苦肉计、连环计（庞统献计）都是小说；史书只有黄盖诈降火攻。"八十万"是曹操自己信里的说法，周瑜估计实际十五六万。
+  - 华容道"关羽义释曹操"是小说；史书是曹操让羸兵填路，自己说"刘备，吾俦也"。
+
+map:
+  center: [114.0, 33.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-19 史图风（与 E10–E11 统一）
+  river_rank: 4
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 号称八十万大军，怎么一夜就输了？
+  big: [火烧赤壁]
+  hero: 周瑜
+  at: 30
+  summary: |
+    刘表病死，刘琮举荆州投降，曹操追刘备到当阳长阪，张飞据水断桥一声吼，赵云怀抱阿斗突围。曹操一封"治水军八十万众，方与将军会猎于吴"，吓得江东群臣纷纷劝降。
+    鲁肃一句"将军迎操，欲安所归"，诸葛亮一番激将，周瑜一句"操自送死"，孙权拔刀斫案。赤壁一把东南风，黄盖诈降的几十艘火船，烧出了三分天下。
+  tags: [赤壁之战, 周瑜, 诸葛亮, 孙权, 长坂坡]
+  next: 刘备借荆州
+
+sources_local:
+  - {id: sgz-01, work: 三国志, volume: 卷一·武帝纪（注引山阳公载记）, url: 'https://zh.wikisource.org/wiki/三國志/卷01'}
+  - {id: sgz-06, work: 三国志, volume: 卷六·刘表传（注）, url: 'https://zh.wikisource.org/wiki/三國志/卷06'}
+  - {id: sgz-35, work: 三国志, volume: 卷三十五·诸葛亮传, url: 'https://zh.wikisource.org/wiki/三國志/卷35'}
+  - {id: sgz-36, work: 三国志, volume: 卷三十六·张飞传、赵云传, url: 'https://zh.wikisource.org/wiki/三國志/卷36'}
+  - {id: sgz-47, work: 三国志, volume: 卷四十七·吴主传（注引江表传）, url: 'https://zh.wikisource.org/wiki/三國志/卷47'}
+  - {id: sgz-54, work: 三国志, volume: 卷五十四·周瑜传、鲁肃传（注引江表传）, url: 'https://zh.wikisource.org/wiki/三國志/卷54'}
+
+factions: {曹操: '#2f5d3a', 刘备: '#5f8f3a', 孙权: '#b0841f', 刘表: '#6b7a2e'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    汉室: {slot: stone, main: true, label_at: 洛阳}
+    凉州军: {slot: lavender, label_at: 长安}
+    曹操: {slot: jade, label_at: 许}
+    孙权: {slot: lemon, label_at: 吴}
+    刘表: {slot: olive, label_at: 襄阳}
+    刘备: {slot: pink, label_at: 夏口}
+    刘璋: {slot: lime, label_at: 成都}
+
+people:
+  曹操: {image: 03_素材/人物立绘/cao_cao.png, title: 丞相, role: 南下荆州, faction: 曹操}
+  刘琮: {image: 03_素材/人物立绘/liu_cong.png, title: 荆州之主, role: 举州投降, faction: 刘表}
+  刘备: {image: 03_素材/人物立绘/liu_bei.png, title: 左将军, role: 南逃江陵, faction: 刘备}
+  张飞: {image: 03_素材/人物立绘/zhang_fei.png, title: 刘备部将, role: 据水断桥, faction: 刘备}
+  赵云: {image: 03_素材/人物立绘/zhao_yun.png, title: 刘备主骑, role: 怀抱后主, faction: 刘备}
+  诸葛亮: {image: 03_素材/人物立绘/zhuge_liang.png, title: 军师, role: 出使江东, faction: 刘备}
+  孙权: {image: 03_素材/人物立绘/sun_quan.png, title: 讨虏将军, role: 决计抗曹, faction: 孙权}
+  鲁肃: {image: 03_素材/人物立绘/lu_su.png, title: 孙权谋士, role: 力主联刘, faction: 孙权}
+  周瑜: {image: 03_素材/人物立绘/zhou_yu.png, title: 中护军, role: 赤壁主帅, faction: 孙权}
+  黄盖: {image: 03_素材/人物立绘/huang_gai.png, title: 周瑜部将, role: 诈降火攻, faction: 孙权}
+
+places:
+  许: {id: xuchang_approx, name: 许, label: right, tier: capital}
+  宛: {id: wanxian, label: left}
+  新野: {id: xinye, label: right}
+  樊城: {id: fancheng, label: left}
+  襄阳: {id: xiangyang, label: right}
+  当阳: {id: changban, name: 长阪, label: left}
+  江陵: {id: jiangling, label: left}
+  夏口: {id: xiakou, label: right}
+  柴桑: {id: chaisang, label: right}
+  赤壁: {id: chibi_site, label: below}
+  乌林: {id: wulin, label: above}
+  华容: {id: huarong_han, label: left}
+  吴: {id: wu_city, label: right}
+  成都: {id: chengdu_city, label: right}
+  洛阳: {id: luoyang_han_wei, label: left}
+  长安: {id: changan_han_city, label: below}
+
+camera:
+  focus: [许, 襄阳]
+  zoom: 2.0
+
+beats:
+  # ---------------- 第一章 荆州易主 ----------------
+  - say: 号称八十万大军，怎么一夜之间就输了？
+    map: '206-03'
+    year: 208
+    phase: 一刀
+    sources: [sgz-54]
+
+
+  - say: 建安十三年七月，平定北方的曹操，亲率大军南下荆州。
+    phase: 荆州易主
+    sources: [sgz-01]
+    camera: {focus: [许, 襄阳], zoom: fit, move: 2.0}
+    show:
+      - title_bar: {text: 赤壁之战, sub: 三国 · 第13集, for: 3.2}
+      - sfx: 片头鼓
+      - army: {from: 许, to: 宛, faction: 曹操, banner: 曹, troops: cavalry, size: 3.4, cue: 南下, grow: 2.4}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 荆州牧刘表病死，小儿子刘琮连仗都没打，就带着整个荆州投降了。
+    sources: [sgz-06]
+    map: '208-09'
+    show:
+      - defect: {who: 刘琮, at: 襄阳, to: 曹操, from: 刘表, verb: 降, cue: 投降}
+      - sfx: {name: 疆域易手, cue: 投降}
+      - enter: {who: 刘琮, at: 襄阳, side: right, cue: 刘琮, for: 3.4}
+
+  - say: 屯在樊城的刘备竟然不知道，只好往江陵逃。
+    sources: [sgz-35, sgz-36]
+    camera: {focus: [樊城, 襄阳, 江陵], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 刘备, side: left, cue: 刘备, for: 3}
+      - march: {from: 樊城, to: 当阳, faction: 刘备, label: 南奔江陵, grow: 2.2}
+
+  - say: 十几万百姓跟着他走，一天只走十几里。
+    sources: [sgz-35]
+    show:
+      - act: {act: refugees, places: [襄阳, 当阳], text: 十余万人, for: 4}
+
+  # ---------------- 第二章 长坂坡 ----------------
+
+  - say: 曹操带五千精骑，一天一夜狂奔三百多里，在长阪追上了刘备。
+    phase: 长坂坡
+    sources: [sgz-36, sgz-35]
+    camera: {focus: [襄阳, 当阳], zoom: fit, move: 1.2}
+    show:
+      - army: {from: 襄阳, to: 当阳, faction: 曹操, banner: 曹, troops: cavalry, size: 2.2, cue: 狂奔, grow: 2.0}
+      - sfx: {name: 骑兵行军, cue: 狂奔, len: 5}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 刘备丢下妻儿逃走，让张飞带二十骑断后。
+    sources: [sgz-36]
+    camera: {focus: 当阳, zoom: 8, move: 1.2}
+    show:
+      - flee: {from: 当阳, to: 江陵, faction: 刘备}
+
+  - say: 张飞拆断河桥，横矛瞪眼，大吼：
+    sources: [sgz-36]
+    show:
+      - act: {act: prop, at: 当阳, item: 桥, text: 据水断桥, cue: 桥, size: 1.3, for: 4}
+
+  - say: 我就是张益德！谁敢过来，一决死战！
+    speaker: 张飞
+    style: 声如炸雷，怒目横矛，暴吼
+    sources: [sgz-36]
+
+  - say: 曹军没有一个人敢靠近。
+    sources: [sgz-36]
+
+  - say: 乱军之中，赵云抱着刚出生的阿斗，护着甘夫人，也平安脱险。
+    sources: [sgz-36]
+    show:
+      - enter: {who: 赵云, side: right, cue: 赵云, for: 3.6}
+
+  - say: 刘备逃到汉津，遇上关羽的船队，一起到了夏口。
+    sources: [sgz-36]
+    camera: {focus: [当阳, 江陵, 夏口], zoom: fit, move: 1.4}
+    show:
+      - march: {from: 当阳, to: 夏口, faction: 刘备, label: 至夏口, cue: 夏口, grow: 2.0}
+      - flag: {at: 夏口, name: 刘备, sub: 退保夏口, faction: 刘备, cue: 夏口}
+
+  # ---------------- 第三章 迎还是战 ----------------
+
+  - say: 曹操拿下江陵，给孙权写了一封信：
+    phase: 迎还是战
+    sources: [sgz-47]
+    camera: {focus: [江陵, 柴桑, 吴], zoom: fit, move: 1.4}
+    show:
+      - army: {from: 当阳, to: 江陵, faction: 曹操, banner: 曹, troops: infantry, size: 2.6, cue: 拿下江陵, grow: 1.6}
+      - act: {act: courier, places: [江陵, 柴桑], text: 曹公书, cue: 写了一封信, grow: 1.8, for: 3.4}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 如今我率领水军八十万，正要和将军在吴地一起打猎。
+    scene: none
+    speaker: 曹操
+    style: 傲慢轻松，居高临下，笑里藏刀
+    sources: [sgz-47]
+    show:
+      - quote: {text: 今治水军八十万众，方与将军会猎于吴, source: 三国志·吴主传注引江表传, era: 建安十三年, for: 6}
+
+  - say: 江东群臣都劝孙权投降。只有鲁肃追到屋檐下：
+    scene: 朝堂
+    sources: [sgz-54]
+    camera: {focus: 柴桑, zoom: 3.4, move: 1.2}
+    show:
+      - enter: {who: 鲁肃, side: left, cue: 鲁肃, for: 2.4}
+
+  - say: 我鲁肃可以投降曹操，将军您却不行。将军投降，又能去哪儿呢？
+    speaker: 鲁肃
+    style: 压低声音，推心置腹，恳切急迫
+    scene: 朝堂
+    sources: [sgz-54]
+    show:
+      - versus: {left: 鲁肃, right: 孙权, label: 欲安所归, for: 7}
+
+  - say: 诸葛亮也来到柴桑，故意激孙权：
+    scene: 朝堂
+    sources: [sgz-35]
+    show:
+      - enter: {who: 诸葛亮, side: left, cue: 诸葛亮, for: 2.4}
+
+  - say: 打得过，就早点和他断绝；打不过，为什么不向他称臣呢！
+    speaker: 诸葛亮
+    style: 从容激将，语带锋芒，似劝实激
+    scene: 朝堂
+    sources: [sgz-35]
+    show:
+      - versus: {left: 诸葛亮, right: 孙权, label: 激将, for: 12}
+
+  - say: 孙权反问：那刘备为什么不投降？诸葛亮说：
+    scene: 朝堂
+    sources: [sgz-35]
+
+  - say: 刘豫州是皇室后代，英才盖世！怎么能屈居人下！
+    speaker: 诸葛亮
+    style: 慷慨凛然，昂首而言，掷地有声
+    scene: 朝堂
+    sources: [sgz-35]
+
+  - say: 孙权勃然变色：
+    scene: 朝堂
+    sources: [sgz-35]
+
+  - say: 我不能拿整个江东、十万兵马，受制于人！
+    speaker: 孙权
+    style: 勃然大怒，斩钉截铁，年轻气盛
+    scene: 朝堂
+    sources: [sgz-35]
+
+  - say: 周瑜也被召了回来。他说：
+    scene: 朝堂
+    sources: [sgz-54]
+    show:
+      - enter: {who: 周瑜, side: right, cue: 周瑜, for: 2.6}
+
+  - say: 曹操放弃鞍马，跟咱们在水上争高下；又是寒冬，北方兵水土不服。这是他自己来送死！
+    speaker: 周瑜
+    style: 意气风发，层层剖析，越说越有底气
+    scene: 朝堂
+    sources: [sgz-54]
+
+  - say: 孙权拔刀，一刀砍在面前的奏案上。
+    scene: 朝堂
+    sources: [sgz-54]
+    show:
+      - sfx: 重拍转场
+
+  - say: 谁要是再敢说投降曹操，就跟这张桌子一样！
+    speaker: 孙权
+    style: 拔刀怒斥，厉声决断，杀气凛然
+    scene: 朝堂
+    sources: [sgz-54]
+
+  - say: 这一刀砍下去，江东就跟号称八十万的曹军，开战了。
+    scene: 朝堂
+    sources: [sgz-54]
+    show:
+      - card: {title: 据说, body: 拔刀斫案出自周瑜传注引《江表传》}
+
+  - say: 孙权派周瑜、程普各领一万兵，跟刘备合兵，逆流而上。
+    sources: [sgz-54, sgz-47]
+    camera: {focus: [柴桑, 夏口, 赤壁], zoom: fit, move: 1.4}
+    show:
+      - army: {from: 柴桑, to: 赤壁, faction: 孙权, banner: 周, troops: infantry, size: 2.4, cue: 各领一万兵, grow: 2.4}
+      - arrow: {from: 夏口, to: 赤壁, kind: relation, faction: 刘备, cue: 合兵, grow: 1.2}
+      - headline: {text: 孙刘联盟, sub: 建安十三年, cue: 合兵, for: 3}
+
+  # ---------------- 第四章 赤壁 ----------------
+
+  - say: 两军在赤壁相遇。曹军染上疾病，一交战就败退到江北乌林。
+    phase: 赤壁
+    sources: [sgz-54]
+    camera: {focus: [赤壁, 乌林, 江陵], zoom: fit, move: 1.4}
+    show:
+      - campaign:
+          at: 赤壁
+          title: 赤壁之战
+          clash: 相遇
+          sides:
+            - {from: 柴桑, faction: 孙权, banner: 周, troops: infantry, size: 2}
+            - {from: 江陵, faction: 曹操, banner: 曹, troops: infantry, size: 3.2}
+      - flag: {at: 乌林, name: 曹操, sub: 屯乌林, faction: 曹操, cue: 乌林, guest: true}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 周瑜的部将黄盖说：
+    scene: 楼船
+    sources: [sgz-54]
+    show:
+      - enter: {who: 黄盖, side: left, cue: 黄盖, for: 2.6}
+
+  - say: 曹军的战船首尾相接，可以一把火烧了它！
+    speaker: 黄盖
+    style: 老成沉稳，眯眼盯着对岸，语气坚定
+    scene: 楼船
+    to: 周瑜
+    sources: [sgz-54]
+
+  - say: 黄盖挑了几十艘战船，装满干柴，灌上油，写信给曹操诈降。
+    sources: [sgz-54]
+    camera: {focus: [赤壁, 乌林], zoom: 10, move: 1.2}
+    show:
+      - act: {act: prop, at: 赤壁, item: 战船, text: 火船, cue: 战船, size: 1.3, for: 4}
+      - act: {act: courier, places: [赤壁, 乌林], text: 诈降书, cue: 写信, grow: 1.2, for: 3}
+
+  - say: 那天，东南风正猛。曹军伸长脖子看热闹：黄盖来投降了。
+    sources: [sgz-54]
+    show:
+      - act: {act: wind, at: 赤壁, text: 时风盛猛, cue: 风, for: 4}
+      - sfx: {name: 狂风, cue: 风}
+
+  - say: 离得近了，几十艘船同时点火！
+    sources: [sgz-54]
+    show:
+      - march: {from: 赤壁, to: 乌林, faction: 孙权, label: 火船, cue: 点火, grow: 1.4}
+      - sfx: {name: 点火, cue: 点火}
+
+  - say: 火借风势烧到岸上，烟火冲天，人马烧死、淹死的不计其数。
+    sources: [sgz-54]
+    show:
+      - fire: {at: 乌林, cue: 烧到岸上, radius: 1.8, for: 8}
+      - sfx: {name: 火攻, cue: 烟火冲天}
+
+  - say: 曹操带着残兵，从华容道狼狈撤退，一路烂泥，人马互相踩踏。
+    sources: [sgz-01]
+    camera: {focus: [乌林, 华容, 江陵], zoom: fit, move: 1.4}
+    show:
+      - rout: {at: 乌林, to: 华容, faction: 曹操, banner: 曹, cue: 华容道, size: 2}
+
+  - say: 逃出来以后，曹操居然大笑：
+    sources: [sgz-01]
+
+  - say: 刘备跟我是一类人。可惜他的计谋晚了一步，要是早点放火，我们就全完了！
+    speaker: 曹操
+    style: 狼狈之中放声大笑，又惊又幸
+    sources: [sgz-01]
+
+  - say: 八十万怎么一夜就输了？不习水战、染上疾病、战船相连，再加一场东南风，和一个敢诈降的老将。
+    sources: [sgz-54]
+    camera: {focus: [江陵, 赤壁, 夏口], zoom: fit, move: 1.4}
+    show:
+      - headline: {text: 赤壁之战, sub: 建安十三年 · 火烧连营, for: 3.4}
+      - card: {title: 演义 vs 正史, body: 草船借箭、借东风、苦肉计、华容道义释都是小说, cue: 东南风}
+
+  - say: 如果孙权当时投降了，还会有三国吗？
+    sources: [sgz-54]
+    camera: {focus: [江陵, 赤壁, 夏口], zoom: fit, move: 1.4}
+
+  - say: 曹操退回北方。荆州，成了孙权、刘备都想要的地方。
+    sources: [sgz-54]
+    show:
+      - versus: {left: 孙权, right: 刘备, label: 争荆州, cue: 荆州, for: 4}
+      - title_bar: {text: 下集, sub: 刘备借荆州, cue: 想要, delay: 0.6, for: 3.0}

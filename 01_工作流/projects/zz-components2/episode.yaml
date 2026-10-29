@@ -1,0 +1,82 @@
+# 动画组件库演示（第二批：地图动作）。内部样例，情节仅为演示组件，不对外发布。
+id: zz-components2
+title: 动画组件库 · 第二批
+series: History Studio · 组件演示
+year: 190
+
+map:
+  center: [113.0, 34.8]
+  scale: 9000
+  extent: [100, 26, 125, 43]
+  basemap: dem
+  river_rank: 5
+  focus_zoom: 2.0
+  watermark: 东汉
+
+voice: {mode: placeholder}
+sources_local:
+  - {id: demo, work: 组件演示, volume: 内部}
+
+factions: {联军: red, 董卓: black, 孙坚: gold}
+
+territory:
+  cells: han-140
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    联军: {slot: salmon, label_at: 酸枣}
+    董卓: {slot: violet, label_at: 洛阳}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: left}
+  长安: {id: changan_han_city, label: below}
+  河内: {id: henei_approx, label: above}
+  酸枣: {id: suanzao_county, label: right}
+  鲁阳: {id: luyang_county, label: right}
+  荥阳: {id: xingyang_county, label: below}
+  邺: {id: ye_city, name: 邺城, label: right}
+
+camera: {focus: [洛阳, 酸枣, 鲁阳, 河内], zoom: fit}
+
+beats:
+  - say: 多路进军：北、东、南三路兵马，同时指向洛阳。
+    sources: [demo]
+    owners: {联军: [兖州, 冀州], 董卓: [司隶]}
+    show:
+      - multi_march: {to: 洛阳, label: 三路进逼, routes: [{from: 河内, faction: 联军}, {from: 酸枣, faction: 联军}, {from: 鲁阳, faction: 孙坚}]}
+
+  - say: 围城：大军压境，荥阳被团团围住。
+    sources: [demo]
+    camera: {focus: 荥阳, zoom: 2.4}
+    show:
+      - siege: {at: 荥阳, text: 围, faction: 董卓, cue: 围住}
+
+  - say: 逃亡：兵败之后，残部连夜奔回酸枣。
+    sources: [demo]
+    show:
+      - flee: {from: 荥阳, to: 酸枣, cue: 奔回, grow: 1.2}
+
+  - say: 易手：洛阳换了主人，城点颜色随之改变。
+    sources: [demo]
+    camera: {focus: 洛阳, zoom: 2.2}
+    show:
+      - capture: {at: 洛阳, faction: 孙坚, text: 易手, cue: 换了主人}
+
+  - say: 会盟：各路诸侯向酸枣靠拢，歃血为盟。
+    sources: [demo]
+    camera: {focus: [河内, 酸枣, 鲁阳], zoom: fit}
+    show:
+      - alliance: {from: [河内, 鲁阳, 邺], at: 酸枣, text: 会盟}
+
+  - say: 路线回放：从洛阳到长安，再看一遍西迁的路线。
+    sources: [demo]
+    camera: {focus: [洛阳, 长安], zoom: fit}
+    show:
+      - replay: {path: [洛阳, 长安], label: 西迁, cue: 再看}
+
+  - say: 地点高亮与势力呼吸：此刻，联军控制的地盘在闪动。
+    sources: [demo]
+    camera: {focus: [洛阳, 酸枣, 邺], zoom: fit}
+    show:
+      - spot: {at: 邺, text: 邺城}
+      - breathe: {faction: 联军, cue: 联军}

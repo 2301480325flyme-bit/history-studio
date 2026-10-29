@@ -1,0 +1,1042 @@
+{
+  "layer": "approximate",
+  "note": "⚠️ 临时近似坐标层。与 places.json（可考证层）分开管理，运行时叠加、随时可弃。**本层所有条目 coordinateStatus=approximate，不得当作已考证坐标使用或升级为 confirmed。**",
+  "places": [
+    {
+      "id": "region_荆州",
+      "aliases": [
+        "荆州"
+      ],
+      "coordinates": [
+        112.2394,
+        30.3352
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "荆州",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（湖北荆州）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_豫州",
+      "aliases": [
+        "豫州"
+      ],
+      "coordinates": [
+        114.3542,
+        32.98
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "豫州",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（河南汝南）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_扬州",
+      "aliases": [
+        "扬州"
+      ],
+      "coordinates": [
+        116.7857,
+        32.5762
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "扬州",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（安徽寿县）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_益州",
+      "aliases": [
+        "益州"
+      ],
+      "coordinates": [
+        104.0665,
+        30.5723
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "益州",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（四川成都）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_雍州",
+      "aliases": [
+        "雍州"
+      ],
+      "coordinates": [
+        108.9398,
+        34.3416
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "雍州",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（陕西西安）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_兖州",
+      "aliases": [
+        "兖州"
+      ],
+      "coordinates": [
+        116.8263,
+        35.5521
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "兖州",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（山东兖州）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_凉州",
+      "aliases": [
+        "凉州"
+      ],
+      "coordinates": [
+        102.638,
+        37.9283
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "凉州",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（甘肃武威）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_并州",
+      "aliases": [
+        "并州"
+      ],
+      "coordinates": [
+        112.5489,
+        37.8706
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "并州",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（山西太原）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_幽州",
+      "aliases": [
+        "幽州"
+      ],
+      "coordinates": [
+        116.4074,
+        39.9042
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "幽州",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（北京）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_冀州",
+      "aliases": [
+        "冀州"
+      ],
+      "coordinates": [
+        115.5794,
+        37.5509
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "冀州",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（河北衡水冀州）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_秦州",
+      "aliases": [
+        "秦州"
+      ],
+      "coordinates": [
+        105.7249,
+        34.5809
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "秦州",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（甘肃天水）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_青州",
+      "aliases": [
+        "青州"
+      ],
+      "coordinates": [
+        118.4797,
+        36.6846
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "青州",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（山东青州）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_梁州",
+      "aliases": [
+        "梁州"
+      ],
+      "coordinates": [
+        107.0319,
+        33.0776
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "梁州",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（陕西汉中）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_江州",
+      "aliases": [
+        "江州"
+      ],
+      "coordinates": [
+        115.9928,
+        29.7125
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "江州",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（江西九江）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_广州",
+      "aliases": [
+        "广州"
+      ],
+      "coordinates": [
+        113.2644,
+        23.1291
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "广州",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（广东广州）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_司州",
+      "aliases": [
+        "司州"
+      ],
+      "coordinates": [
+        112.6183,
+        34.7195
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "司州",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（河南洛阳）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_平州",
+      "aliases": [
+        "平州"
+      ],
+      "coordinates": [
+        118.1802,
+        39.6304
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "平州",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（河北卢龙）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_宁州",
+      "aliases": [
+        "宁州"
+      ],
+      "coordinates": [
+        102.7123,
+        25.0406
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "宁州",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（云南昆明）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_武陵",
+      "aliases": [
+        "武陵"
+      ],
+      "coordinates": [
+        111.6915,
+        29.0402
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "武陵",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（湖南常德）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_吴郡",
+      "aliases": [
+        "吴郡"
+      ],
+      "coordinates": [
+        120.6196,
+        31.2994
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "吴郡",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（江苏苏州）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_彭城",
+      "aliases": [
+        "彭城"
+      ],
+      "coordinates": [
+        117.284,
+        34.2618
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "彭城",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（江苏徐州（同徐州））"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_广陵",
+      "aliases": [
+        "广陵"
+      ],
+      "coordinates": [
+        119.4129,
+        32.3942
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "广陵",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（江苏扬州）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_宣城",
+      "aliases": [
+        "宣城"
+      ],
+      "coordinates": [
+        118.7588,
+        30.9456
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "宣城",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（安徽宣城）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_魏郡",
+      "aliases": [
+        "魏郡"
+      ],
+      "coordinates": [
+        114.5391,
+        36.63
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "魏郡",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（河北邯郸临漳）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_会稽",
+      "aliases": [
+        "会稽"
+      ],
+      "coordinates": [
+        120.582,
+        29.997
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "会稽",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（浙江绍兴）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_丹阳",
+      "aliases": [
+        "丹阳"
+      ],
+      "coordinates": [
+        118.7969,
+        32.0584
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "丹阳",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（江苏南京）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_南郡",
+      "aliases": [
+        "南郡"
+      ],
+      "coordinates": [
+        112.1906,
+        30.3503
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "南郡",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（湖北荆州（江陵））"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    },
+    {
+      "id": "region_襄阳",
+      "aliases": [
+        "襄阳"
+      ],
+      "coordinates": [
+        112.122,
+        32.009
+      ],
+      "coordinatePrecision": "州级示意——取现代同名城市坐标；非当时州治位置，非州域范围",
+      "coordinateSource": "现代同名城市坐标（地名同源）；非历史州治考证结论",
+      "nameSource": "《二十四史》原文（corpus/*.jsonl 高频地名）",
+      "names": [
+        {
+          "text": "襄阳",
+          "from": null,
+          "to": null,
+          "note": "州级；年代范围未单独考证"
+        }
+      ],
+      "tiers": [],
+      "roles": [
+        "州级示意点（湖北襄阳）"
+      ],
+      "usedIn": [],
+      "coordinateConflict": "region-schematic",
+      "coordinateStatus": "approximate",
+      "provenance": {
+        "kind": "temporary-approximation",
+        "method": "现代同名城市坐标",
+        "reason": "项目内无西晋州级坐标源（CHGIS v6 西晋条目仅 51 个南方郡，北方大州缺失；郡县坐标更无从取得）",
+        "notAHistoricalClaim": "本条**不是**历史州治/州域的考证结论，仅为沙盘锚定用的示意点",
+        "promoteTo": "confirmed 前必须补：文物局公布坐标 / CHGIS 州级几何 / Wikidata listed 坐标",
+        "sourceFile": "add_region_places.py"
+      },
+      "reviewNote": "州级示意点。坐标取现代同名城市，用于沙盘宏观锚定；如需精确州治/州域，须另找西晋政区数据源。"
+    }
+  ]
+}

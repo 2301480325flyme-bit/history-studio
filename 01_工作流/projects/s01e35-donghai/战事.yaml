@@ -1,0 +1,425 @@
+episode: s01e35-donghai
+campaign: 西迎惠帝与洛阳复辟（304背景、305–306主体）
+armies:
+  王浚军:
+    faction: 晋
+    head: 王浚
+    size: 乌丸骑等，具体兵数未核
+    evidence:
+    - quote: 安北将军王浚遣乌丸骑攻成都王颖于鄴，大败之。
+      para: 晋书-p00101
+    note_faction: 晋廷/幽州
+  司马腾军:
+    faction: 晋
+    head: 司马腾
+    size: 未核
+    evidence:
+    - quote: 平北将军腾各守本镇。
+      para: 晋书-p00101
+    note_faction: 晋廷/并州
+  司马越军:
+    faction: 东海王
+    head: 司马越
+    size: 西进甲卒三万
+    evidence:
+    - quote: 率甲卒三万，西次萧县。
+      para: 晋书-p04641
+    note_faction: 晋廷/徐州
+  田徽突骑:
+    faction: 东海王
+    head: 田徽
+    size: 八百骑
+    evidence:
+    - quote: 范阳王虓遣督护田徽以突骑八百迎越。
+      para: 晋书-p04641
+    note_faction: 晋廷/范阳王虓
+  祁弘迎驾军:
+    faction: 东海王
+    head: 祁弘（与宋胄、司马纂）
+    size: 未核（有鲜卑骑兵）
+    evidence:
+    - quote: 越遣其将祁弘、宋胄、司马纂等迎帝。
+      para: 晋书-p00103
+    note_faction: 晋廷/司马越
+  司马颙关中军:
+    faction: 河间王
+    head: 司马颙
+    size: 迎驾步骑三万（未必等于湖地守军）
+    evidence:
+    - quote: 河间王颙帅官属步骑三万，迎于霸上。
+      para: 晋书-p00101
+    note_faction: 晋廷/河间王颙
+  彭随刁默军:
+    faction: 河间王
+    head: 彭随、刁默
+    size: 未核
+    evidence:
+    - quote: 颙遣弘农太守彭随、北地太守刁默距祁弘等于湖。
+      para: 晋书-p00103
+    note_faction: 晋廷/河间王颙
+  张方军:
+    faction: 河间王
+    head: 张方
+    size: 二万甲卒往救颖（另记迎帝时骑三千，不等于全军）
+    evidence:
+    - quote: 河间王颙遣张方率甲卒二万救颖。
+      para: 晋书-p04630
+    note_faction: 晋廷/河间王颙
+  汲桑、石勒军:
+    faction: 胡
+    head: 汲桑（前锋石勒）
+    size: 众数万（汲桑起事总众，鄴战参战数未详）
+    evidence:
+    - quote: 汲桑聚众反，败魏郡太守冯嵩，遂陷鄴城
+      para: 晋书-p00109
+    - quote: 勒与汲桑帅牧人乘苑马数百骑以赴之
+      para: 晋书-p07147
+    note_faction: 反晋/汲桑、石勒
+events:
+- id: e01
+  army: 王浚军、司马腾军
+  kind: 出发
+  place: 鄴
+  from: 幽州、并州（治所/分路未详）
+  via:
+  - 冀州
+  date: 304-08
+  territory: null
+  note: 背景：王浚、东嬴公腾结乌丸、羯朱兵击颖；疆域已有304-08魏郡记录，不重复添加。各路具体路线未核。
+  evidence:
+  - quote: 安北将军王浚、宁北将军东嬴公腾杀颖所置幽州刺史和演，颖征浚，浚屯冀州不进，与腾及乌丸、羯硃袭颖。
+    para: 晋书-p04630
+  skip: 上一集（荡阴之战）已讲
+- id: e02
+  army: 王浚军、司马腾军
+  kind: 交战
+  place: 鄴
+  from: null
+  via: []
+  date: 304-08
+  territory: null
+  note: 击败颖军后颖挟帝逃洛；取城的郡级后果已有疆域304-08条，故本事件territory为null。
+  evidence:
+  - quote: 颖遣幽州刺史王斌及石超、李毅等距浚，为羯硃等所败。鄴中大震，百僚奔走，士卒分散。
+    para: 晋书-p04630
+  - quote: 安北将军王浚遣乌丸骑攻成都王颖于鄴，大败之。
+    para: 晋书-p00101
+  skip: 上一集（荡阴之战）已讲
+- id: e03
+  army: 司马颖败军与惠帝车驾
+  kind: 撤退
+  place: 洛阳
+  from: 鄴
+  via:
+  - 朝歌
+  date: 304-08
+  territory: null
+  note: 颖挟帝单车逃亡，五日至洛；追兵到朝歌未及。不是郡级领土变化。
+  evidence:
+  - quote: 颖惧，将帐下数十骑，拥天子，与中书监虑志单车而走，五日至洛。羯硃追至朝歌，不及而还。
+    para: 晋书-p04630
+  skip: 上一集（荡阴之战）已讲
+- id: e04
+  army: 张方军
+  kind: 行军
+  place: 洛阳
+  from: 关中（具体起点未详）
+  via: []
+  date: 304-08
+  territory: null
+  note: 颙派张方率二万甲卒救颖；到洛后挟帝、颖等归长安，不记郡级易手。
+  evidence:
+  - quote: 河间王颙遣张方率甲卒二万救颖，至洛，方乃挟帝，拥颖及豫章王并高光、虑志等归于长安。
+    para: 晋书-p04630
+  skip: 上一集（荡阴之战）已讲
+- id: e05
+  army: 张方军、惠帝车驾
+  kind: 行军
+  place: 长安
+  from: 洛阳
+  via:
+  - 新安
+  - 霸上
+  date: 304-11
+  territory: null
+  note: 劫驾西迁明确有新安中途、颙军在霸上迎接；渡河、关隘、宿营点未载。此为304背景，不可当作306还洛路线。
+  evidence:
+  - quote: 方逼帝升车，左右中黄门鼓吹十二人步从，唯中书监卢志侍侧。
+    para: 晋书-p00101
+  - quote: 行次新安，寒甚，帝堕马伤足。
+    para: 晋书-p00101
+  - quote: 河间王颙帅官属步骑三万，迎于霸上。
+    para: 晋书-p00101
+  skip: 上一集（荡阴之战）已讲
+- id: e06
+  army: 司马越军
+  kind: 行军
+  place: 萧
+  from: 东海
+  via: []
+  date: 305-07
+  territory: null
+  note: 越率甲卒三万西次萧县（验收：原记出发·萧县 from 徐方；越原在东海国，画成自东海出发）。
+  evidence:
+  - quote: 唱义奉迎大驾，还复旧都，率甲卒三万，西次萧县。
+    para: 晋书-p04641
+  - quote: 东海王越严兵徐方，将西迎大驾。
+    para: 晋书-p00102
+- id: e07
+  army: 司马越军
+  kind: 交战
+  place: 萧
+  from: 萧县方向
+  via: []
+  date: 305-07
+  territory: null
+  note: 刘祐首战处未载，越军西次萧县后败，交战标在萧县（示意）。
+  evidence:
+  - quote: 豫州刺史刘乔不受越命，遣子祐距之，越军败。
+    para: 晋书-p04641
+- id: e08
+  army: 田徽突骑
+  kind: 交战
+  place: 谯
+  from: 未详
+  via: []
+  date: 305-07
+  territory: null
+  note: 田徽八百骑迎越、在谯遇刘祐并击溃其众。县级会战，不作谯郡易手。
+  evidence:
+  - quote: 范阳王虓遣督护田徽以突骑八百迎越，遇祐于谯，祐众溃。
+    para: 晋书-p04641
+- id: e09
+  army: 司马越军
+  kind: 行军
+  place: 阳武
+  from: 萧
+  via:
+  - 谯
+  date: 305-08
+  territory: null
+  note: 刘祐众溃后越屯阳武；古县治点待核，无郡级变化。
+  evidence:
+  - quote: 祐众溃，越进屯阳武。
+    para: 晋书-p04641
+- id: e10
+  army: 司马越军、祁弘迎驾军
+  kind: 行军
+  place: 洛阳方向
+  from: 阳武（越军）/未详（祁弘军）
+  via: []
+  date: 306-01
+  territory: null
+  note: 宋胄先破楼裒、逼近洛阳，越派祁弘等迎驾；原文未给各部起点、路线和关隘。
+  evidence:
+  - quote: 宋胄等破颖将楼裒，进逼洛阳，颖奔长安。
+    para: 晋书-p00103
+  skip: 祁弘迎驾军出发地未详，越屯温见 e12
+- id: e11
+  army: 司马颙方面（具体执行者未详）
+  kind: 交战
+  place: 未详（张方死地不载）
+  from: null
+  via: []
+  date: 306-01
+  territory: null
+  note: 此项记录张方死亡，非会战。河间王颙闻刘乔败后杀方并传首越处；史书未说明行刑者、死地或确日。kind枚举无“杀/处决”，暂以交战类记录，地点留空信息，不应画成战场阵亡。
+  evidence:
+  - quote: 河间王颙闻刘乔破，大惧，遂杀张方，请和于东海王越
+    para: 晋书-p00103
+  - quote: 河间王颙闻乔败，斩张方，传首于越
+    para: 晋书-p03440
+  skip: 张方死地与执行者不载，用送首求和表示
+- id: e12
+  army: 司马越军
+  kind: 屯驻
+  place: 温
+  from: 洛阳方向
+  via: []
+  date: 306-04
+  territory: null
+  note: 越军屯温；gazetteer现有温县点为未经策展近似坐标，需复核。
+  evidence:
+  - quote: 夏四月己巳，东海王越屯于温。
+    para: 晋书-p00103
+  skip: 越屯温不单独画，祁弘一路自温西进（示意）
+- id: e13
+  army: 彭随刁默军、祁弘迎驾军
+  kind: 交战
+  place: 湖
+  from: null
+  via: []
+  date: 306-05
+  territory: null
+  note: 祁弘军击败刁默；司马颙、司马颖走南山至宛。湖地古今比定不牢，且未有整郡易手证据，territory为null。
+  evidence:
+  - quote: 颙遣弘农太守彭随、北地太守刁默距祁弘等于湖。
+    para: 晋书-p00103
+  - quote: 祁弘等与刁默战，默大败，颙、颍走南山，奔于宛。
+    para: 晋书-p00103
+- id: e14
+  army: 司马颙、司马颖
+  kind: 撤退
+  place: 宛
+  from: 长安
+  via: []
+  date: 306-05
+  territory: null
+  note: 颙、颖走南山，奔于宛；南山具体山岭未详，画成自长安逃往宛。
+  evidence:
+  - quote: 颙、颍走南山，奔于宛。
+    para: 晋书-p00103
+- id: e15
+  army: 祁弘迎驾军
+  kind: 行军
+  place: 洛阳
+  from: 长安
+  via: []
+  date: 306-05
+  territory: null
+  note: 奉惠帝东还；只确认起终点和牛车、公卿步行，没有任何确切沿途关隘渡口可画。不能套用304年西迁经过的新安。
+  evidence:
+  - quote: 己亥，弘等奉帝还洛阳，帝乘牛车，行宫藉草，公卿跋涉。
+    para: 晋书-p00103
+  - quote: 六月丙辰朔，至自长安，升旧殿，哀感流涕。
+    para: 晋书-p00103
+- id: e16
+  army: 冯嵩所部
+  kind: 交战
+  place: 鄴（颖被害处未明）
+  from: 顿丘
+  via: []
+  date: 306-09/10
+  territory: null
+  note: 冯嵩捕颖送鄴；其后刘舆杀颖，但杀人地点未载。未证实魏郡易手。
+  evidence:
+  - quote: 九月，顿丘太守冯嵩执成都王颖，送之于鄴。
+    para: 晋书-p00103
+  - quote: 虓长史刘舆害成都王颖。
+    para: 晋书-p00103
+  skip: 成都王被执、被杀地点不明，只用退场表示
+- id: e17
+  army: 司马模军
+  kind: 交战
+  place: 雍谷（未定位）
+  from: 未详
+  via: []
+  date: 306-12
+  territory: null
+  note: 史书记司马模杀颙，不记交战细节、路线；无郡级易手证据。
+  evidence:
+  - quote: 南阳王模杀河间王颙于雍谷。
+    para: 晋书-p00108
+  skip: 雍谷未定位，河间王之死只用退场表示
+- id: e18
+  army: 汲桑、石勒军
+  kind: 攻占
+  place: 邺
+  from: 赵魏（起兵具体地未详）
+  via: []
+  date: 307-05
+  territory:
+    jun: 魏郡
+    to: 争夺
+  note: 汲桑聚众反，石勒任前锋都督，击败冯嵩、攻陷鄴城并杀司马腾，焚鄴宫。城市易手可见，但不能据此断言魏郡全郡稳定归汲桑；按格式标争夺。
+  evidence:
+  - quote: 夏五月，马牧帅汲桑聚众反，败魏郡太守冯嵩，遂陷鄴城，害新蔡王腾。
+    para: 晋书-p00109
+  - quote: 桑进军攻鄴，以勒为前锋都督，大败腾将冯嵩，因长驱入鄴，遂害腾
+    para: 晋书-p07147
+- id: e19
+  army: 司马越军
+  kind: 屯驻
+  place: 官渡
+  from: 未详
+  via: []
+  date: 307-07
+  territory: null
+  note: 司马越进屯官渡讨汲桑；此前出发点和沿途关隘未详。无可确认郡级转手。
+  evidence:
+  - quote: 秋七月己酉朔，东海王越进屯官渡，以讨汲桑。
+    para: 晋书-p00109
+  skip: 旁白未讲越屯官渡
+- id: e20
+  army: null
+  kind: 行军
+  place: 平阳
+  from: 未详
+  via: []
+  date: 308-10
+  territory: null
+  note: 片尾钩子；刘元海称帝不等于本段发生了新郡级易手，是否加疆域节点交Claude决定。
+  evidence:
+  - quote: 冬十月甲戌，刘元海僭帝号于平阳，仍称汉。
+    para: 晋书-p00110
+  skip: 刘渊称帝只立旗
+places_new:
+- name: 萧县
+  lon: 116.94
+  lat: 34.18
+  precision: 约略（现代县城代理）
+  basis: 安徽宿州萧县；晋治所精确点待考
+  evidence:
+  - quote: 西次萧县。
+    para: 晋书-p04641
+- name: 谯
+  lon: 115.78
+  lat: 33.85
+  precision: 约略（现代谯城区代理）
+  basis: 安徽亳州谯城区，古城范围未考古定位
+  evidence:
+  - quote: 遇祐于谯，祐众溃。
+    para: 晋书-p04641
+- name: 阳武
+  lon: 113.96
+  lat: 35.07
+  precision: 约略（现代原阳代理）
+  basis: 河南原阳县城；晋代治所待考
+  evidence:
+  - quote: 越进屯阳武。
+    para: 晋书-p04641
+- name: 湖（湖县/湖地）
+  lon: 110.9
+  lat: 34.5
+  precision: 低（区域级）
+  basis: 暂置灵宝附近，仅作区域标识；古县比定及战场坐标未核，勿用作精确战术点
+  evidence:
+  - quote: 祁弘等与刁默战，默大败。
+    para: 晋书-p00103
+- name: 霸上
+  lon: 109.03
+  lat: 34.27
+  precision: 区域级约略
+  basis: 今西安东郊灞桥一带；霸上是区域名
+  evidence:
+  - quote: 河间王颙帅官属步骑三万，迎于霸上。
+    para: 晋书-p00101
+- name%3A 新安: null
+  lon: 112.15
+  lat: 34.73
+  precision: 现代县城约略
+  basis: 河南洛阳新安县，仅标304年西迁
+  evidence:
+  - quote: 行次新安，寒甚，帝堕马伤足。
+    para: 晋书-p00101
+- name: 雍谷
+  lon: 109.3
+  lat: 34.5
+  precision: 未核占位，不宜落图
+  basis: 仅暂示关中区域；没有可靠比定
+  evidence:
+  - quote: 南阳王模杀河间王颙于雍谷。
+    para: 晋书-p00108
+open_questions:
+- 越军徐方—萧县—谯—阳武之后的完整西进行程、津渡、关隘未载，勿直线补造。
+- 越军初败刘祐的准确交战地点不详；史文仅能确定田徽在谯再遇祐。
+- 祁弘迎驾军从何处出发、赴湖及转往长安路线未详；湖地精确位置需考证。
+- 惠帝306年还洛只有长安—洛阳起终点，途中关隘渡口、驿站无原文依据。
+- 张方确由颙杀/斩、首级送越，但日期、死地、执行者不详；传首地不可当死地。
+- 刘舆杀司马颖地点未载；鄴仅确定为冯嵩送达处。
+- 雍谷、南山均未能可靠落点。
+- 疆域.yaml没有302–303、305–307年条目；已有304-08魏郡、304-10汉赵/成汉记录。请逐项判断305–307是否应补刘乔与越争郡、长安/洛阳控制、司马腾在307年五月被汲桑、石勒攻鄴杀害（已由帝纪与载记互证）。现有战事未确认完整郡级转手，均记territory:null。
+- 308刘元海称帝是政权节点而非已证实的郡界变化，是否在疆域增加该事件待Claude决定。
+- 汲桑、石勒攻鄴的准确出发地、行军路线及关隘未载；司马越七月屯官渡的前一营地亦未明。
+note_split: 2026-10-25 Claude：Codex 按「第34集」整理，因第33集拆成两集，本账用于第35集（305–307）；304 年事件归第34集。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

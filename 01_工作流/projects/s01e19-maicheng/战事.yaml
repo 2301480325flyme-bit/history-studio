@@ -1,0 +1,677 @@
+episode: s01e19-maicheng
+armies:
+  关羽军:
+    faction: 刘备
+    head: 关羽
+    size: 未详
+    evidence:
+    - quote: 羽率众攻曹仁于樊
+      para: 三国志-p01955
+  曹仁守军:
+    faction: 曹操
+    head: 曹仁
+    size: 数千人（樊城守军；原文概数）
+    evidence:
+    - quote: 仁人马数千人守城
+      para: 三国志-p01195
+  于禁七军:
+    faction: 曹操
+    head: 于禁
+    size: 七军，人数未详
+    evidence:
+    - quote: 遣于禁助曹仁击关羽
+      para: 三国志-p00296
+  庞德部:
+    faction: 曹操
+    head: 庞德
+    size: 未详（于禁所督七军之一部）
+    evidence:
+    - quote: 禁等七军皆没
+      para: 三国志-p01431
+  徐晃军:
+    faction: 曹操
+    head: 徐晃
+    size: 未详；后有十二营增援
+    evidence:
+    - quote: 未攻，太祖前后遣殷署、朱盖等凡十二营诣晃
+      para: 三国志-p01439
+  梁郏陆浑群盗:
+    faction: 刘备
+    head: 未详
+    size: 未详
+    evidence:
+    - quote: 梁、郏、陆浑群盗或遥受羽印号
+      para: 三国志-p01955
+  吕蒙军:
+    faction: 孙权
+    head: 吕蒙
+    size: 未详
+    evidence:
+    - quote: 蒙至寻阳，尽伏其精兵舳舻中
+      para: 三国志-p02431
+  士仁守军:
+    faction: 刘备
+    head: 士仁
+    size: 未详
+    evidence:
+    - quote: 将军傅士仁屯公安
+      para: 三国志-p01955
+  糜芳守军:
+    faction: 刘备
+    head: 糜芳
+    size: 未详
+    evidence:
+    - quote: 南郡太守糜芳在江陵
+      para: 三国志-p01955
+  陆逊军:
+    faction: 孙权
+    head: 陆逊
+    size: 未详
+    evidence:
+    - quote: 陆逊别取宜都
+      para: 三国志-p02226
+  朱然潘璋军:
+    faction: 孙权
+    head: 朱然、潘璋
+    size: 未详
+    evidence:
+    - quote: 权先使朱然、潘璋断其径路
+      para: 三国志-p02226
+  马忠部:
+    faction: 孙权
+    head: 马忠（潘璋司马）
+    size: 未详
+    evidence:
+    - quote: 璋司马马忠获羽及其子平
+      para: 三国志-p02226
+events:
+- id: e01
+  army: 关羽军
+  kind: 行军
+  place: 樊城
+  from: 江陵
+  via: []
+  date: 219
+  territory: null
+  note: 旁白说关羽从江陵北上；《三国志》只记率众攻樊，未记出发月日和沿途点，江陵出发依据旁白，路线细节未核。
+  evidence:
+  - quote: 羽率众攻曹仁于樊
+    para: 三国志-p01955
+- id: e02
+  army: 关羽军
+  kind: 交战
+  place: 樊城
+  from: null
+  via: []
+  date: 219
+  territory: null
+  note: 关羽围攻樊城；樊城未被攻下，襄阳郡未因此易手。
+  evidence:
+  - quote: 羽率众攻曹仁于樊
+    para: 三国志-p01955
+  - quote: 羽围仁于樊
+    para: 三国志-p01439
+  skip: 围城画成曹仁被围的旗
+- id: e03
+  army: 曹仁守军
+  kind: 屯驻
+  place: 樊城
+  from: null
+  via: []
+  date: 219
+  territory: null
+  note: 曹仁此前奉命屯樊；本年具体驻守起始月未载。
+  evidence:
+  - quote: 镇荆州。侯音以宛叛，略傍县众数千人，仁率诸军攻破音，斩其首，还屯樊
+    para: 三国志-p01195
+- id: e04
+  army: 于禁七军
+  kind: 行军
+  place: 樊城
+  from: 未核
+  via: []
+  date: 219-07
+  territory: null
+  note: 魏纪记七月遣于禁助曹仁；出发地、路线和具体抵达日未载。
+  evidence:
+  - quote: 秋七月，以夫人卞氏为王后。遣于禁助曹仁击关羽
+    para: 三国志-p00296
+- id: e05
+  army: 于禁七军
+  kind: 交战
+  place: 樊城
+  from: null
+  via: []
+  date: 219-08
+  territory: null
+  note: 八月汉水暴涨，所督七军覆没；原文没有记双方在水灾中的具体交战过程，地点依樊城战事上下文。
+  evidence:
+  - quote: 八月，汉水溢，灌禁军，军没，羽获禁，遂围仁
+    para: 三国志-p00296
+  - quote: 秋，大霖雨，汉水溢，平地水数丈，禁等七军皆没
+    para: 三国志-p01431
+- id: e06
+  army: 于禁七军
+  kind: 投降
+  place: 樊城
+  from: null
+  via: []
+  date: 219-08
+  territory: null
+  note: 于禁降关羽；这是部队投降，不是樊城或襄阳郡易手。
+  evidence:
+  - quote: 禁降羽
+    para: 三国志-p01955
+  - quote: 禁遂降
+    para: 三国志-p01431
+- id: e07
+  army: 庞德部
+  kind: 交战
+  place: 樊城
+  from: null
+  via: []
+  date: 219-08
+  territory: null
+  note: 庞德在洪水中船覆、被关羽军擒获，拒绝投降后被杀；原文未给单独的擒获地点，樊城为该战役定位。
+  evidence:
+  - quote: 惟庞德不屈节而死
+    para: 三国志-p01431
+  - quote: 羽又斩将军庞德
+    para: 三国志-p01955
+  skip: 庞德被擒画成庞德之死
+- id: e08
+  army: 徐晃军
+  kind: 屯驻
+  place: 宛
+  from: 未核
+  via: []
+  date: 219
+  territory: null
+  note: 徐晃奉命援曹仁并屯宛；原文未记起行地与月份。
+  evidence:
+  - quote: 复遣晃助曹仁讨关羽，屯宛
+    para: 三国志-p01439
+  skip: 旁白只一句「派徐晃增援」，徐晃屯宛、阳陵陂、取偃城、攻四冢地望多未核
+- id: e09
+  army: 徐晃军
+  kind: 屯驻
+  place: 阳陵陂
+  from: 宛
+  via: []
+  date: 219-秋
+  territory: null
+  note: 徐晃率新卒先屯阳陵陂；此地现无本地坐标记录，具体地望未核。
+  evidence:
+  - quote: 晃所将多新卒，以羽难与争锋，遂前至阳陵陂屯
+    para: 三国志-p01439
+  skip: 旁白只一句「派徐晃增援」，徐晃屯宛、阳陵陂、取偃城、攻四冢地望多未核
+- id: e10
+  army: 徐晃军
+  kind: 行军
+  place: 偃城
+  from: 阳陵陂
+  via: []
+  date: 219-秋
+  territory: null
+  note: 偃城为关羽军据点；徐晃设堑示意断其后，守军焚屯撤走，路线中间点未载。
+  evidence:
+  - quote: 贼屯偃城。晃到，诡道作都堑，示欲截其后，贼烧屯走
+    para: 三国志-p01439
+  skip: 旁白只一句「派徐晃增援」，徐晃屯宛、阳陵陂、取偃城、攻四冢地望多未核
+- id: e11
+  army: 徐晃军
+  kind: 攻占
+  place: 偃城
+  from: null
+  via: []
+  date: 219-秋
+  territory: null
+  note: 徐晃取得的是偃城军屯，不代表襄阳郡归属改变；遗址地望未核。
+  evidence:
+  - quote: 晃得偃城，两面连营
+    para: 三国志-p01439
+  skip: 旁白只一句「派徐晃增援」，徐晃屯宛、阳陵陂、取偃城、攻四冢地望多未核
+- id: e36
+  army: 关羽军
+  kind: 屯驻
+  place: 围头屯
+  from: null
+  via: []
+  date: 219-秋
+  territory: null
+  note: 徐晃对四冢佯称要攻的营屯；原文说明关羽军在围头另有屯驻点，位置未核。
+  evidence:
+  - quote: 贼围头有屯，又别屯四冢
+    para: 三国志-p01439
+  skip: 旁白只一句「派徐晃增援」，徐晃屯宛、阳陵陂、取偃城、攻四冢地望多未核
+- id: e12
+  army: 徐晃军
+  kind: 交战
+  place: 四冢
+  from: null
+  via: []
+  date: 219-秋
+  territory: null
+  note: 徐晃声言攻围头屯、实攻四冢；关羽率步骑五千来战，徐晃击退并冲入围阵。四冢具体地望未核。
+  evidence:
+  - quote: 晃扬声当攻围头屯，而密攻四冢
+    para: 三国志-p01439
+  - quote: 羽见四冢欲坏，自将步骑五千出战，晃击之，退走
+    para: 三国志-p01439
+  skip: 旁白只一句「派徐晃增援」，徐晃屯宛、阳陵陂、取偃城、攻四冢地望多未核
+- id: e13
+  army: 关羽军
+  kind: 撤退
+  place: 未核
+  from: 樊城
+  via: []
+  date: 219-秋
+  territory: null
+  note: 徐晃击退关羽后，关羽引军退还；本次撤退的直接目的地与沿线地点未载。其后吴主传另记关羽还当阳、西保麦城，分列于后。
+  evidence:
+  - quote: 羽退走
+    para: 三国志-p01195
+  - quote: 关羽还当阳，西保麦城
+    para: 三国志-p02226
+  skip: 撤退合在第20拍的还当阳、保麦城
+- id: e14
+  army: 梁郏陆浑群盗
+  kind: 投降
+  place: 梁
+  from: null
+  via: []
+  date: 219-秋
+  territory: null
+  note: 群盗中有人遥受关羽印号；不是梁地被关羽军攻占，具体人数与日次不载。
+  evidence:
+  - quote: 梁、郏、陆浑群盗或遥受羽印号
+    para: 三国志-p01955
+  skip: 梁、郏、陆浑远在洛阳以南，不画成樊城附近（旁白「附近的盗贼」不确，记入疑点）
+- id: e15
+  army: 梁郏陆浑群盗
+  kind: 投降
+  place: 郏
+  from: null
+  via: []
+  date: 219-秋
+  territory: null
+  note: 同一条纪传记载中的另一地名；“或”表明并非所有群盗都已归附。
+  evidence:
+  - quote: 梁、郏、陆浑群盗或遥受羽印号
+    para: 三国志-p01955
+  skip: 梁、郏、陆浑远在洛阳以南，不画成樊城附近（旁白「附近的盗贼」不确，记入疑点）
+- id: e16
+  army: 梁郏陆浑群盗
+  kind: 投降
+  place: 陆浑
+  from: null
+  via: []
+  date: 219-秋
+  territory: null
+  note: 此地距樊城较远，不应照旁白“附近的盗贼”理解为樊城附近；精确地望与归附者未详。
+  evidence:
+  - quote: 梁、郏、陆浑群盗或遥受羽印号
+    para: 三国志-p01955
+  skip: 梁、郏、陆浑远在洛阳以南，不画成樊城附近（旁白「附近的盗贼」不确，记入疑点）
+- id: e17
+  army: 吕蒙军
+  kind: 行军
+  place: 寻阳
+  from: 陆口
+  via: []
+  date: 219-闰月
+  territory: null
+  note: 吕蒙由陆口所驻方向前往寻阳；吴主传只记“闰月”出兵，农历闰月与地图月标219-11的换算口径待核。
+  evidence:
+  - quote: 蒙西屯陆口
+    para: 三国志-p02430
+  - quote: 蒙至寻阳，尽伏其精兵舳舻中
+    para: 三国志-p02431
+  skip: 从寻阳画起
+- id: e18
+  army: 吕蒙军
+  kind: 途经
+  place: 未核
+  from: null
+  via: []
+  date: 219-闰月
+  territory: null
+  note: 吕蒙军昼夜兼行，途中突袭并缚住关羽沿江所设哨候；史书没有给这些哨所专名或确切位置。
+  evidence:
+  - quote: 至羽所置江边屯候，尽收缚之
+    para: 三国志-p02431
+  skip: 哨所位置史书未载
+- id: e19
+  army: 吕蒙军
+  kind: 行军
+  place: 公安
+  from: 寻阳
+  via: []
+  date: 219-闰月
+  territory: null
+  note: 白衣摇橹、昼夜兼行沿江上溯；沿江哨候的次序和具体点位未载。
+  evidence:
+  - quote: 使白衣摇橹，作商贾人服，昼夜兼行
+    para: 三国志-p02431
+  - quote: 先遣吕蒙袭公安
+    para: 三国志-p02226
+- id: e20
+  army: 士仁守军
+  kind: 投降
+  place: 公安
+  from: null
+  via: []
+  date: 219-闰月
+  note: 士仁开公安迎降，先失一城；公安（孱陵）汉属武陵郡，武陵郡记争夺，到关羽败亡后整郡归孙权（验收改）。
+  evidence:
+  - quote: 先遣吕蒙袭公安，获将军士仁
+    para: 三国志-p02226
+  - quote: 士仁、麋芳皆降
+    para: 三国志-p02431
+  territory:
+    jun: 武陵郡
+    to: 争夺
+- id: e21
+  army: 糜芳守军
+  kind: 投降
+  place: 江陵
+  from: null
+  via: []
+  date: 219-闰月
+  note: 糜芳以江陵城降；此条记城池失守，尚待吕蒙据江陵明确南郡归属。（验收：城降与吕蒙据江陵同在第17拍，南郡直接记为归孙权，不另画争夺）
+  evidence:
+  - quote: 南郡太守糜芳以城降
+    para: 三国志-p02226
+  - quote: 士仁、麋芳皆降
+    para: 三国志-p02431
+- id: e22
+  army: 吕蒙军
+  kind: 攻占
+  place: 江陵
+  from: null
+  via: []
+  date: 219-闰月
+  territory:
+    jun: 南郡
+    to: 孙权
+  note: 吕蒙入据江陵，疆域时间线记219-11南郡转孙权；闰月与地图月标的换算待统一。
+  evidence:
+  - quote: 蒙据江陵
+    para: 三国志-p02226
+  - quote: 蒙入据城
+    para: 三国志-p02431
+- id: e23
+  army: 陆逊军
+  kind: 攻占
+  place: 宜都
+  from: 未核
+  via: []
+  date: 219-闰月
+  note: 原文称陆逊别取宜都并获三县；“宜都”作为郡级边界的控制日期和是否全郡转属，疆域.yaml目前未单列，先记争夺待审。
+  evidence:
+  - quote: 陆逊别取宜都，获秭归、枝江、夷道
+    para: 三国志-p02226
+  skip: 旁白未讲陆逊取宜都；宜都郡不在本系列郡格里，随南郡归孙权
+- id: e24
+  army: 陆逊军
+  kind: 攻占
+  place: 秭归
+  from: null
+  via: []
+  date: 219-闰月
+  note: 吴军占据的县邑；宜都郡归属表达见开放问题。
+  evidence:
+  - quote: 获秭归、枝江、夷道
+    para: 三国志-p02226
+  skip: 旁白未讲陆逊取宜都；宜都郡不在本系列郡格里，随南郡归孙权
+- id: e25
+  army: 陆逊军
+  kind: 攻占
+  place: 枝江
+  from: null
+  via: []
+  date: 219-闰月
+  note: 吴军占据的县邑；精确地望按后世同名县区近似，古县位置仍需核。
+  evidence:
+  - quote: 获秭归、枝江、夷道
+    para: 三国志-p02226
+  skip: 旁白未讲陆逊取宜都；宜都郡不在本系列郡格里，随南郡归孙权
+- id: e26
+  army: 陆逊军
+  kind: 攻占
+  place: 夷道
+  from: null
+  via: []
+  date: 219-闰月
+  note: 吴军占据的县邑；精确地望未核。
+  evidence:
+  - quote: 获秭归、枝江、夷道
+    para: 三国志-p02226
+  skip: 旁白未讲陆逊取宜都；宜都郡不在本系列郡格里，随南郡归孙权
+- id: e27
+  army: 陆逊军
+  kind: 屯驻
+  place: 夷陵
+  from: 未核
+  via: []
+  date: 219-闰月
+  territory: null
+  note: 陆逊收取宜都等县后退驻夷陵、守峡口备蜀；具体由哪支部队驻守何点未载。
+  evidence:
+  - quote: 还屯夷陵，守峡口以备蜀
+    para: 三国志-p02226
+  skip: 旁白未讲陆逊取宜都；宜都郡不在本系列郡格里，随南郡归孙权
+- id: e28
+  army: 陆逊军
+  kind: 屯驻
+  place: 峡口
+  from: 夷陵
+  via: []
+  date: 219-闰月
+  territory: null
+  note: “峡口”是防守方向，确切关口位置未核；不应扩写成史书未载的具体山岭或渡口。
+  evidence:
+  - quote: 还屯夷陵，守峡口以备蜀
+    para: 三国志-p02226
+  skip: 旁白未讲陆逊取宜都；宜都郡不在本系列郡格里，随南郡归孙权
+- id: e29
+  army: 关羽军
+  kind: 撤退
+  place: 当阳
+  from: 樊城
+  via: []
+  date: 219-闰月
+  territory: null
+  note: 关羽退回当阳；起始日与路线未载，吴主传将此事记在吕蒙袭取荆州的叙事之后。
+  evidence:
+  - quote: 关羽还当阳
+    para: 三国志-p02226
+- id: e30
+  army: 关羽军
+  kind: 退守
+  place: 麦城
+  from: 当阳
+  via: []
+  date: 219-闰月
+  territory: null
+  note: 关羽由当阳向西保麦城；当地旧城与今地对应需依既有地名库。
+  evidence:
+  - quote: 西保麦城
+    para: 三国志-p02226
+- id: e31
+  army: 朱然潘璋军
+  kind: 行军
+  place: 临沮
+  from: 未核
+  via:
+  - 麦城
+  date: 219-12
+  territory: null
+  note: 朱然、潘璋奉命截关羽逃路；出发点和截路地点未载，临沮仅为较大范围定位。
+  evidence:
+  - quote: 权先使朱然、潘璋断其径路
+    para: 三国志-p02226
+  skip: 朱然、潘璋截路的出发点与地点未载
+- id: e32
+  army: 关羽军
+  kind: 投降
+  place: 麦城
+  from: null
+  via: []
+  date: 219-12
+  territory: null
+  note: 这是关羽诈降而逃，不是真投降；城头立幡旗和象人后部众解散。
+  evidence:
+  - quote: 羽伪降，立幡旗为象人于城上
+    para: 三国志-p02226
+- id: e33
+  army: 关羽军
+  kind: 撤退
+  place: 临沮
+  from: 麦城
+  via: []
+  date: 219-12
+  territory: null
+  note: 吴主传作西至漳乡，关羽传记被斩于临沮；此处临沮是县级范围，不是精确捕获点。
+  evidence:
+  - quote: 西至漳乡，众皆委羽而降
+    para: 三国志-p02431
+  - quote: 斩羽及子平于临沮
+    para: 三国志-p01955
+- id: e34
+  army: 马忠部
+  kind: 攻占
+  place: 章乡
+  from: null
+  via: []
+  date: 219-12
+  territory:
+    jun: 零陵郡
+    to: 孙权
+  note: 实际行动为截路、生擒并杀关羽父子，史文不记攻下章乡城；疆域时间线把荆州最终归吴记在十二月，零陵郡的具体接收节点未载。
+  evidence:
+  - quote: 璋司马马忠获羽及其子平、都督赵累等于章乡
+    para: 三国志-p02226
+  - quote: 遂定荆州
+    para: 三国志-p02226
+- id: e35
+  army: 马忠部
+  kind: 攻占
+  place: 章乡
+  from: null
+  via: []
+  date: 219-12
+  territory:
+    jun: 武陵郡
+    to: 孙权
+  note: 同为“遂定荆州”的疆域终点记账；捕获发生在章乡，不等于在章乡城直接攻取两郡。
+  evidence:
+  - quote: 璋司马马忠获羽及其子平、都督赵累等于章乡
+    para: 三国志-p02226
+  - quote: 遂定荆州
+    para: 三国志-p02226
+places_new:
+- name: 阳陵陂
+  lon: 112.13
+  lat: 32.12
+  precision: 未核
+  basis: 本地studio places无登记。仅按徐晃由宛向樊城推进的叙述，在襄樊北侧放示意点；古地精确位置未核，不可作考定坐标。
+  evidence:
+  - quote: 遂前至阳陵陂屯
+    para: 三国志-p01439
+- name: 偃城
+  lon: 112.14
+  lat: 32.1
+  precision: 未核
+  basis: 本地studio places无登记。按原文其为樊城围战中的军屯，暂置襄樊近郊示意；遗址与精确方位未核。
+  evidence:
+  - quote: 贼屯偃城
+    para: 三国志-p01439
+- name: 四冢
+  lon: 112.13
+  lat: 32.08
+  precision: 未核
+  basis: 本地studio places无登记。依其为樊城围战的外围营地，仅在樊城近郊示意；古地位置未核。
+  evidence:
+  - quote: 而密攻四冢
+    para: 三国志-p01439
+- name: 陆口
+  lon: 113.55
+  lat: 29.88
+  precision: 未核
+  basis: 本地studio places无登记。仅作长江中游沿江示意点；旧地具体位置及现代地名对应未核。
+  evidence:
+  - quote: 蒙西屯陆口
+    para: 三国志-p02430
+- name: 宜都
+  lon: 111.45
+  lat: 30.39
+  precision: 约略
+  basis: 依今宜都市一带作约略点；东汉末宜都郡的边界与治所对应仍需核。
+  evidence:
+  - quote: 陆逊别取宜都
+    para: 三国志-p02226
+- name: 枝江
+  lon: 111.76
+  lat: 30.43
+  precision: 约略
+  basis: 依今湖北枝江市一带作约略点；古县治位置未核。
+  evidence:
+  - quote: 获秭归、枝江、夷道
+    para: 三国志-p02226
+- name: 夷道
+  lon: 111.36
+  lat: 30.39
+  precision: 未核
+  basis: 古县位置未核，暂依今宜都市西部近似区域作示意点；不能当作已考定治所。
+  evidence:
+  - quote: 获秭归、枝江、夷道
+    para: 三国志-p02226
+- name: 峡口
+  lon: 111.18
+  lat: 30.72
+  precision: 未核
+  basis: 本地studio places无登记。原文只说守峡口备蜀，未指明具体峡口；暂在夷陵西侧江峡通道置示意点。
+  evidence:
+  - quote: 守峡口以备蜀
+    para: 三国志-p02226
+- name: 围头屯
+  lon: 112.11
+  lat: 32.07
+  precision: 未核
+  basis: 本地studio places无登记。只按与四冢同属樊城外围军屯的叙述在襄樊近郊放示意点；具体位置未核。
+  evidence:
+  - quote: 贼围头有屯
+    para: 三国志-p01439
+- name: 梁
+  lon: 112.9
+  lat: 34.17
+  precision: 未核
+  basis: 本地studio places无登记。原文仅作“梁”，具体县邑指称与古址未核；坐标仅作群盗活动区域示意，不能当作定位。
+  evidence:
+  - quote: 梁、郏、陆浑群盗或遥受羽印号
+    para: 三国志-p01955
+- name: 郏
+  lon: 112.85
+  lat: 34.13
+  precision: 未核
+  basis: 本地studio places无登记。原文作“郏”，具体古县治位置未核；坐标仅按今郏县附近作粗略示意。
+  evidence:
+  - quote: 梁、郏、陆浑群盗或遥受羽印号
+    para: 三国志-p01955
+- name: 陆浑
+  lon: 112.05
+  lat: 34.02
+  precision: 未核
+  basis: 本地studio places无登记。陆浑古地具体对应未核；坐标仅按今陆浑水库附近区域作粗略示意。
+  evidence:
+  - quote: 梁、郏、陆浑群盗或遥受羽印号
+    para: 三国志-p01955
+open_questions:
+- 徐晃救樊、于禁七军行进路线，及樊城周边阳陵陂、偃城、围头屯、四冢的位置均缺少足以确定路线与坐标的原文；本账未把推测点当作已核史址。
+- 吕蒙出兵记作吴主传的“闰月”，而疆域.yaml和地图用219-11；农历闰月与地图年月的换算及江边哨候具体位置仍需统一核定。
+- 吴主传作关羽于章乡被获，吕蒙传作漳乡，关羽传称于临沮被斩；章/漳异文及其与今湖北远安、临沮县治的关系未能由本地材料定点。
+- 吴主传明记陆逊“别取宜都，获秭归、枝江、夷道”，但疆域.yaml的219-11、219-12事件没有单列宜都郡；是否应补宜都郡疆域变化及其起止月，交Claude验收决定。
+- “梁、郏、陆浑群盗或遥受羽印号”只表示部分群盗远距离接受官印，不表示三地城邑被关羽军攻占；各地具体人数和接触路线未载。
+- 关羽从樊城撤回当阳、麦城的准确先后日期与沿线地点未载；吴主传将其记在公安、江陵失守之后，关羽传只概称“引军退还”。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

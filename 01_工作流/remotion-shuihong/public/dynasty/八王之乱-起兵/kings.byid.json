@@ -1,0 +1,572 @@
+{
+ "year": 301,
+ "dynasty": "西晋",
+ "title": "八王之乱",
+ "note": "八王之乱名义上只有一个晋朝，故不按政权分色；kings.color 表示诸王控制区色，cities.control 为城池归属时间线，events 驱动攻取动画。",
+ "kings": [
+  {
+   "id": "sima_lun",
+   "name": "司马伦",
+   "title": "赵王",
+   "color": "#8d6e63",
+   "note": "篡位，301年正月篡惠帝，后被赐死",
+   "realm": "赵国",
+   "lon": 114.4637,
+   "lat": 36.5849,
+   "realm_valid": "219~317",
+   "aliases": [
+    "司马伦",
+    "赵王",
+    "赵王伦"
+   ]
+  },
+  {
+   "id": "sima_jiong",
+   "name": "司马冏",
+   "title": "齐王",
+   "color": "#c2185b",
+   "note": "齐献王司马攸之子，嗣齐王爵。301 年起兵讨赵王伦，302 年为长沙王乂所杀。",
+   "realm": "齐国",
+   "lon": 118.2875,
+   "lat": 36.8096,
+   "realm_valid": "-127~316",
+   "aliases": [
+    "司马冏",
+    "齐王",
+    "齐王冏"
+   ]
+  },
+  {
+   "id": "sima_ying",
+   "name": "司马颖",
+   "title": "成都王",
+   "color": "#1565c0",
+   "note": "镇邺，304年立皇太弟，306年败死",
+   "realm": "成都国",
+   "lon": 104.078,
+   "lat": 30.6504,
+   "realm_valid": "289~309",
+   "aliases": [
+    "司马颖",
+    "成都王",
+    "成都王颖"
+   ]
+  },
+  {
+   "id": "sima_yong",
+   "name": "司马颙",
+   "title": "河间王",
+   "color": "#6a1b9a",
+   "note": "镇河内，304年起兵，306年被杀",
+   "realm": "河间国",
+   "lon": 116.213,
+   "lat": 38.1445,
+   "realm_valid": "37~317",
+   "aliases": [
+    "司马颙",
+    "河间王",
+    "河间王颙"
+   ]
+  },
+  {
+   "id": "sima_yue",
+   "name": "司马越",
+   "title": "东海王",
+   "color": "#00695c",
+   "note": "304年击败颙颖，311年死，东晋开��",
+   "realm": "东海国",
+   "lon": 118.29,
+   "lat": 34.9,
+   "realm_note": "近似：郯城一带",
+   "realm_valid": "无301年记录",
+   "aliases": [
+    "东海王",
+    "东海王越",
+    "司马越"
+   ]
+  },
+  {
+   "id": "sima_yi",
+   "name": "司马乂",
+   "title": "长沙王",
+   "color": "#ef6c00",
+   "note": "303年洛阳宫变杀贾后，304年被张方所杀",
+   "realm": "长沙国",
+   "lon": 112.9,
+   "lat": 28.2,
+   "realm_note": "近似：临湘一带",
+   "realm_valid": "无301年记录",
+   "aliases": [
+    "司马乂",
+    "长沙王",
+    "长沙王乂"
+   ]
+  },
+  {
+   "id": "sima_chi",
+   "name": "司马炽",
+   "title": "豫章王",
+   "color": "#4527a0",
+   "note": "先封豫章王，后立为皇太弟，继惠帝即位为晋怀帝。311 年永嘉之乱被俘遇害。",
+   "realm": "河内国",
+   "lon": 113.26,
+   "lat": 35.03,
+   "realm_note": "近似：怀县",
+   "realm_valid": "无301年记录",
+   "aliases": [
+    "司马炽",
+    "豫章王",
+    "豫章王炽"
+   ]
+  },
+  {
+   "id": "sima_you",
+   "name": "司马攸",
+   "title": "齐王",
+   "color": "#00838f",
+   "note": "司马昭之子、晋武帝司马炎之弟，封齐王，官至大司马。太康四年薨。其子司马冏嗣齐王爵 —— 父子先后为齐王，注意区分。",
+   "realm": "常山国",
+   "lon": 114.57,
+   "lat": 38.03,
+   "realm_note": "近似：真定一带",
+   "realm_valid": "无301年记录",
+   "aliases": [
+    "司马攸",
+    "齐王",
+    "齐王攸"
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "name": "洛阳",
+   "role": "都城 · 河南尹治所",
+   "control": [
+    [
+     290,
+     300,
+     null
+    ],
+    [
+     300,
+     301,
+     "sima_lun"
+    ],
+    [
+     301,
+     301,
+     "sima_lun"
+    ],
+    [
+     301,
+     302,
+     "sima_jiong"
+    ],
+    [
+     302,
+     304,
+     "sima_yi"
+    ],
+    [
+     304,
+     304,
+     "sima_ying"
+    ],
+    [
+     304,
+     305,
+     "sima_yong"
+    ],
+    [
+     305,
+     306,
+     "sima_yue"
+    ],
+    [
+     306,
+     311,
+     "sima_yue"
+    ],
+    [
+     311,
+     9999,
+     null
+    ]
+   ],
+   "placeId": "luoyang_han_wei"
+  },
+  {
+   "name": "邺",
+   "role": "邯郸郡治 · 颖镇所",
+   "control": [
+    [
+     290,
+     306,
+     "sima_ying"
+    ],
+    [
+     306,
+     9999,
+     null
+    ]
+   ],
+   "placeId": "ye_city"
+  },
+  {
+   "name": "许昌",
+   "role": "颍川郡治 · 冏起兵地",
+   "control": [
+    [
+     290,
+     301,
+     null
+    ],
+    [
+     301,
+     302,
+     "sima_jiong"
+    ],
+    [
+     302,
+     9999,
+     "sima_ying"
+    ]
+   ],
+   "placeId": "xuchang_approx"
+  },
+  {
+   "name": "阳翟",
+   "role": "颍川属县 · 冏屯兵处",
+   "control": [
+    [
+     301,
+     302,
+     "sima_jiong"
+    ],
+    [
+     302,
+     9999,
+     null
+    ]
+   ],
+   "placeId": "yangzhai_approx"
+  },
+  {
+   "name": "河内",
+   "role": "河内郡治 · 颙镇所",
+   "control": [
+    [
+     290,
+     306,
+     "sima_yong"
+    ],
+    [
+     306,
+     9999,
+     null
+    ]
+   ],
+   "placeId": "henei_approx"
+  },
+  {
+   "name": "长安",
+   "role": "京兆尹治所 · 颙据地",
+   "control": [
+    [
+     290,
+     306,
+     "sima_yong"
+    ],
+    [
+     306,
+     9999,
+     null
+    ]
+   ],
+   "placeId": "changan_han_city"
+  },
+  {
+   "name": "建康",
+   "role": "丹阳郡治 · 南渡后都城",
+   "control": [
+    [
+     290,
+     9999,
+     null
+    ]
+   ],
+   "placeId": "nanjing_ancient_city"
+  },
+  {
+   "name": "温县",
+   "role": "河内属县",
+   "control": [
+    [
+     290,
+     9999,
+     null
+    ]
+   ],
+   "placeId": "wenxian_approx"
+  },
+  {
+   "name": "成皋",
+   "role": "洛阳东门户 · 虎牢",
+   "control": [
+    [
+     301,
+     302,
+     "sima_jiong"
+    ],
+    [
+     302,
+     9999,
+     null
+    ]
+   ],
+   "placeId": "chenggao_approx"
+  }
+ ],
+ "events": [
+  {
+   "year": 300,
+   "month": 4,
+   "type": "杀",
+   "actor": "sima_lun",
+   "target": "洛阳",
+   "text": "赵王伦杀贾后，专朝政"
+  },
+  {
+   "year": 301,
+   "month": 1,
+   "type": "篡位",
+   "actor": "sima_lun",
+   "target": "洛阳",
+   "text": "赵王伦篡惠帝，改元建始"
+  },
+  {
+   "year": 301,
+   "month": 4,
+   "type": "攻取",
+   "actor": "sima_jiong",
+   "from": "许昌",
+   "to": "洛阳",
+   "text": "齐王冏自许昌起兵，与颖、颙共讨伦"
+  },
+  {
+   "year": 301,
+   "month": 4,
+   "type": "攻取",
+   "actor": "sima_ying",
+   "from": "邺",
+   "to": "洛阳",
+   "text": "成都王颖发自邺，会师洛阳"
+  },
+  {
+   "year": 301,
+   "month": 6,
+   "type": "杀",
+   "actor": "sima_jiong",
+   "target": "洛阳",
+   "text": "伦败，赐死；惠帝复位"
+  },
+  {
+   "year": 302,
+   "month": 12,
+   "type": "攻取",
+   "actor": "sima_yi",
+   "from": "洛阳",
+   "to": "洛阳",
+   "text": "长沙王乂杀齐王冏，执政洛阳"
+  },
+  {
+   "year": 304,
+   "month": 1,
+   "type": "攻取",
+   "actor": "sima_ying",
+   "from": "邺",
+   "to": "洛阳",
+   "text": "颖、颙联兵讨乂，张方入洛"
+  },
+  {
+   "year": 304,
+   "month": 2,
+   "type": "杀",
+   "actor": "sima_yong",
+   "target": "洛阳",
+   "text": "张方焚洛阳，乂被烧杀"
+  },
+  {
+   "year": 304,
+   "month": 3,
+   "type": "攻取",
+   "actor": "sima_ying",
+   "from": "邺",
+   "to": "洛阳",
+   "text": "颖立为皇太弟，还镇邺"
+  },
+  {
+   "year": 305,
+   "month": 8,
+   "type": "起兵",
+   "actor": "sima_yue",
+   "from": "徐州",
+   "to": "洛阳",
+   "text": "东海王越起兵讨颖、颙"
+  },
+  {
+   "year": 306,
+   "month": 1,
+   "type": "攻取",
+   "actor": "sima_yue",
+   "from": "徐州",
+   "to": "洛阳",
+   "text": "越大破颖、颙，入洛阳专政"
+  },
+  {
+   "year": 311,
+   "month": 6,
+   "type": "陷落",
+   "actor": null,
+   "target": "洛阳",
+   "text": "永嘉之乱：刘曜破洛阳，怀帝被俘"
+  }
+ ],
+ "_provenance": {
+  "source": "kings.json",
+  "resolvedBy": "maindata/resolve_dynasty.py",
+  "mainTable": "maindata/places.json",
+  "coordsChanged": 4,
+  "changes": [
+   {
+    "action": "person-corrected",
+    "person": "司马伦",
+    "field": "note",
+    "from": "301年正月篡位，同年败死",
+    "to": "篡位，301年正月篡惠帝，后被赐死"
+   },
+   {
+    "action": "person-corrected",
+    "person": "司马冏",
+    "field": "note",
+    "from": "301年起兵讨伦，302年被乂杀",
+    "to": "齐献王司马攸之子，嗣齐王爵。301 年起兵讨赵王伦，302 年为长沙王乂所杀。"
+   },
+   {
+    "action": "person-corrected",
+    "person": "司马颖",
+    "field": "note",
+    "from": "镇邺，304年入洛立皇太弟，306年败死",
+    "to": "镇邺，304年立皇太弟，306年败死"
+   },
+   {
+    "action": "person-corrected",
+    "person": "司马颙",
+    "field": "note",
+    "from": "镇关中，304年遣张方入洛，306年被杀",
+    "to": "镇河内，304年起兵，306年被杀"
+   },
+   {
+    "action": "person-corrected",
+    "person": "司马越",
+    "field": "note",
+    "from": "305年起兵，306年入洛专政，311年死",
+    "to": "304年击败颙颖，311年死，东晋开��"
+   },
+   {
+    "action": "person-corrected",
+    "person": "司马乂",
+    "field": "note",
+    "from": "302年杀冏执政，304年被张方烧杀",
+    "to": "303年洛阳宫变杀贾后，304年被张方所杀"
+   },
+   {
+    "action": "person-corrected",
+    "person": "司马炽",
+    "field": "title",
+    "from": "河内王",
+    "to": "豫章王"
+   },
+   {
+    "action": "person-corrected",
+    "person": "司马炽",
+    "field": "note",
+    "from": "继惠帝为怀帝，311年永嘉之乱遇害",
+    "to": "先封豫章王，后立为皇太弟，继惠帝即位为晋怀帝。311 年永嘉之乱被俘遇害。"
+   },
+   {
+    "action": "person-corrected",
+    "person": "司马攸",
+    "field": "title",
+    "from": "常山王",
+    "to": "齐王"
+   },
+   {
+    "action": "person-corrected",
+    "person": "司马攸",
+    "field": "note",
+    "from": "300年遇害",
+    "to": "司马昭之子、晋武帝司马炎之弟，封齐王，官至大司马。太康四年薨。其子司马冏嗣齐王爵 —— 父子先后为齐王，注意区分。"
+   },
+   {
+    "place": "洛阳",
+    "placeId": "luoyang_han_wei",
+    "action": "coord-unified",
+    "from": [
+     112.59631,
+     34.73157
+    ],
+    "to": [
+     112.6183,
+     34.7195
+    ],
+    "deviationKm": 2.42
+   },
+   {
+    "place": "邺",
+    "placeId": "ye_city",
+    "action": "coord-unified",
+    "from": [
+     114.41195,
+     36.27238
+    ],
+    "to": [
+     114.4002,
+     36.2748
+    ],
+    "deviationKm": 1.09
+   },
+   {
+    "place": "长安",
+    "placeId": "changan_han_city",
+    "action": "coord-unified",
+    "from": [
+     108.93719,
+     34.31799
+    ],
+    "to": [
+     108.8931,
+     34.2941
+    ],
+    "deviationKm": 4.85
+   },
+   {
+    "place": "建康",
+    "placeId": "nanjing_ancient_city",
+    "action": "coord-unified",
+    "from": [
+     118.76899,
+     32.05256
+    ],
+    "to": [
+     118.796389,
+     32.058333
+    ],
+    "deviationKm": 2.66
+   }
+  ],
+  "coordinatesStripped": true,
+  "coordinatesSource": "maindata/places.json（由渲染层按 placeId 解析）",
+  "note": "本文件不含坐标；渲染前须用主表补全 lon/lat"
+ }
+}

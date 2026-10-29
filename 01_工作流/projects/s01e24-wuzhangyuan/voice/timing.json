@@ -1,0 +1,406 @@
+{
+ "mode": "mimo",
+ "beats": [
+  {
+   "file_start": 0.3,
+   "file_end": 6.265,
+   "voice_onset": 0.42,
+   "voice_offset": 6.21
+  },
+  {
+   "file_start": 6.565,
+   "file_end": 9.661,
+   "voice_onset": 6.685,
+   "voice_offset": 9.365
+  },
+  {
+   "file_start": 9.961,
+   "file_end": 14.319,
+   "voice_onset": 10.071,
+   "voice_offset": 14.261
+  },
+  {
+   "file_start": 14.619,
+   "file_end": 19.051,
+   "voice_onset": 14.729,
+   "voice_offset": 18.779
+  },
+  {
+   "file_start": 19.051,
+   "file_end": 26.806,
+   "voice_onset": 19.341,
+   "voice_offset": 26.331
+  },
+  {
+   "file_start": 26.806,
+   "file_end": 33.276,
+   "voice_onset": 26.896,
+   "voice_offset": 33.276
+  },
+  {
+   "file_start": 33.576,
+   "file_end": 39.57,
+   "voice_onset": 33.746,
+   "voice_offset": 39.246
+  },
+  {
+   "file_start": 39.57,
+   "file_end": 42.816,
+   "voice_onset": 39.67,
+   "voice_offset": 42.57
+  },
+  {
+   "file_start": 42.816,
+   "file_end": 49.027,
+   "voice_onset": 43.096,
+   "voice_offset": 48.616
+  },
+  {
+   "file_start": 49.027,
+   "file_end": 54.013,
+   "voice_onset": 49.177,
+   "voice_offset": 54.007
+  },
+  {
+   "file_start": 54.313,
+   "file_end": 60.909,
+   "voice_onset": 54.443,
+   "voice_offset": 60.573
+  },
+  {
+   "file_start": 60.909,
+   "file_end": 64.683,
+   "voice_onset": 60.979,
+   "voice_offset": 64.419
+  },
+  {
+   "file_start": 64.683,
+   "file_end": 70.782,
+   "voice_onset": 64.993,
+   "voice_offset": 70.523
+  },
+  {
+   "file_start": 70.782,
+   "file_end": 77.671,
+   "voice_onset": 71.102,
+   "voice_offset": 77.412
+  },
+  {
+   "file_start": 77.671,
+   "file_end": 83.75,
+   "voice_onset": 77.991,
+   "voice_offset": 83.471
+  },
+  {
+   "file_start": 83.75,
+   "file_end": 88.992,
+   "voice_onset": 84.05,
+   "voice_offset": 88.72
+  },
+  {
+   "file_start": 88.992,
+   "file_end": 96.362,
+   "voice_onset": 89.292,
+   "voice_offset": 96.332
+  },
+  {
+   "file_start": 96.662,
+   "file_end": 100.992,
+   "voice_onset": 96.872,
+   "voice_offset": 100.532
+  },
+  {
+   "file_start": 101.292,
+   "file_end": 106.693,
+   "voice_onset": 101.432,
+   "voice_offset": 106.462
+  },
+  {
+   "file_start": 106.693,
+   "file_end": 112.707,
+   "voice_onset": 107.013,
+   "voice_offset": 112.553
+  },
+  {
+   "file_start": 112.707,
+   "file_end": 115.342,
+   "voice_onset": 112.907,
+   "voice_offset": 115.097
+  },
+  {
+   "file_start": 115.342,
+   "file_end": 121.769,
+   "voice_onset": 115.672,
+   "voice_offset": 121.532
+  },
+  {
+   "file_start": 121.769,
+   "file_end": 129.778,
+   "voice_onset": 122.109,
+   "voice_offset": 129.499
+  },
+  {
+   "file_start": 129.778,
+   "file_end": 134.851,
+   "voice_onset": 130.088,
+   "voice_offset": 134.588
+  },
+  {
+   "file_start": 134.851,
+   "file_end": 138.643,
+   "voice_onset": 135.161,
+   "voice_offset": 138.381
+  },
+  {
+   "file_start": 138.643,
+   "file_end": 143.392,
+   "voice_onset": 138.953,
+   "voice_offset": 143.383
+  }
+ ],
+ "narration": "D:\\history\\codx_3 history studio\\01_工作流\\projects\\s01e24-wuzhangyuan\\voice\\narration.wav",
+ "asr": [
+  {
+   "beat": 1,
+   "chapter": 1,
+   "text": "诸葛亮死后，司马懿走进他留下的营寨，一处一处看过去，最后只说了一句：",
+   "heard": "诸葛亮死后，司马懿走进他留下的营寨，一处一处看过去，最后只说了一句。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 2,
+   "speaker": "司马懿",
+   "text": "此人，真是天下奇才！",
+   "heard": "此人真是天下奇才。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 3,
+   "chapter": 3,
+   "text": "可这位奇才北伐了一次又一次，为什么始终没打下来？",
+   "heard": "可这位奇才北伐了一次又一次，为什么始终没打下来？",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 4,
+   "chapter": 4,
+   "text": "街亭失败的那年冬天，诸葛亮又出散关，围住陈仓。可曹真早就料到他会走陈仓，提前派郝昭加固了城墙。蜀军攻不下来，粮食吃完，只好撤退。第二年，诸葛亮派陈式拿下了武都、阴平两个郡。刘善恢复了他的丞相之位。",
+   "heard": "街亭失败的那年冬天，诸葛亮又出散关，围住陈仓。可曹真早就料到他会走陈仓，提前派郝昭加固了城墙。蜀军攻不下来，粮食吃完，只好撤退。第二年，诸葛亮派陈式拿下了武都、阴平两个郡，刘禅恢复了他的丞相职位。",
+   "ratio": 0.977,
+   "diff": [
+    "「善」→「禅」",
+    "「之」→「职」"
+   ]
+  },
+  {
+   "beat": 7,
+   "chapter": 5,
+   "text": "二三一年，诸葛亮再出祁山。这一次，他用上了一种新的运粮工具：木牛。对面来救祁山的，是司马懿和张郃。可粮食还是接不上。夏天，蜀军退兵。张郃追到木门，右膝中了一箭，死了。负责督运粮草的李严，也因为这次运粮的事，被撤职流放。",
+   "heard": "二三一年，诸葛亮再出祁山，这次他用上了一种新的运粮工具——木牛。对面来救祁山的是司马懿和张郃，可粮食还是接不上。夏天，蜀军退兵，张郃追到木门，右膝中了一箭，死了。负责督运粮草的李严也因为这次运粮的事被撤职流放。",
+   "ratio": 0.995,
+   "diff": [
+    "「一」→「」"
+   ]
+  },
+  {
+   "beat": 11,
+   "chapter": 6,
+   "text": "二三四年春，诸葛亮带着全部人马，出斜谷，用流马运粮，在五丈原扎下大营。隔着渭水，司马懿扎下营寨，就是不出战。诸葛亮每次都愁粮食接不上。这一回，他干脆分兵种地，准备长期耗下去。蜀军就在渭水边，和当地百姓一起耕田。百姓照样安居，军中没有一个人侵扰他们。据说，诸葛亮还派人给司马懿送去一套女人的头巾和衣服，笑他不敢出战。司马懿不生气，只问来使：诸葛公睡得怎么样，吃得多少，忙不忙？使者说：丞相起早贪黑，打二十军棍以上的处罚，都要亲自过问；一天吃的不过几升米。",
+   "heard": "二三四年春，诸葛亮带着全部人马出斜谷，用流马运粮，在五丈原扎下大营。隔着渭水，司马懿扎下营寨，就是不出战。诸葛亮每次都愁粮食接不上，这一回他干脆分兵种地，准备长期耗下去。蜀军就在渭水边和当地百姓一起耕田，百姓照样安居，军中没有一个人侵扰他们。据说诸葛亮还派人给司马懿送去一套女人的头巾和衣服，笑他不敢出战。司马懿不生气，只问来使：“诸葛公睡得怎么样？吃得多多少？忙不忙？”使者说：“丞相起早贪黑，打二十军棍以上的处罚都要亲自过问，一天吃的不过几升米。”",
+   "ratio": 0.997,
+   "diff": [
+    "「」→「多」"
+   ]
+  },
+  {
+   "beat": 18,
+   "speaker": "司马懿",
+   "text": "诸葛亮吃得这么少，事情这么多，还能撑多久？",
+   "heard": "诸葛亮吃的这么少，事情这么多，还能撑多久？",
+   "ratio": 0.944,
+   "diff": [
+    "「得」→「的」"
+   ]
+  },
+  {
+   "beat": 19,
+   "chapter": 8,
+   "text": "两军对峙了一百多天。这年八月，诸葛亮病逝在军中，只有五十四岁。他一死，大将魏延和掌史杨仪争权，带兵互相攻打。魏延兵败被杀。杨仪带着全军，退回了成都。等蜀军走远了，司马懿才走进他留下的营寨。这就是开头那一句：天下奇才。北伐为什么一直没成？诸葛亮自己最怕的，就是粮食接不上。何况对面，还是一个最能熬的司马懿。白帝城那句\"竭尽全力，到死为止\"，他用一辈子兑现了。如果诸葛亮多活十年，你觉得他能打下长安吗？诸葛亮走了。三国里最能熬的那个人，只剩下了司马懿。",
+   "heard": "两军对峙了一百多天，这年八月，诸葛亮病逝在军中，只有五十四岁。他一死，大将魏延和长史杨仪争权，带兵互相攻打。魏延兵败被杀，杨仪带着全军退回了成都。等蜀军走远了，司马懿才走进他留下的营寨。这就是开头那一句“天下奇才”。北伐为什么一直没成？诸葛亮自己最怕的就是粮食接不上，何况对面还是一个最能熬的司马懿。白帝城那句“竭尽全力，到死为止”，他用一辈子兑现了。如果诸葛亮多活十年，你觉得他能打下长安吗？诸葛亮走了，三国里最能熬的那个人，只剩下了司马懿。",
+   "ratio": 0.995,
+   "diff": [
+    "「掌」→「长」"
+   ]
+  }
+ ],
+ "speaker_pace": [
+  {
+   "beat": 2,
+   "speaker": "司马懿",
+   "rate_before": 2.28,
+   "speed": 1.35,
+   "rate": 3.07
+  },
+  {
+   "beat": 18,
+   "speaker": "司马懿",
+   "rate_before": 4.97,
+   "speed": 1.0,
+   "rate": 4.97
+  }
+ ],
+ "tempo": [
+  {
+   "chapter": 1,
+   "raw_rate": 4.81,
+   "factor": 1.063
+  },
+  {
+   "chapter": 3,
+   "raw_rate": 4.75,
+   "factor": 1.063
+  },
+  {
+   "chapter": 4,
+   "raw_rate": 4.64,
+   "factor": 1.063
+  },
+  {
+   "chapter": 5,
+   "raw_rate": 4.67,
+   "factor": 1.063
+  },
+  {
+   "chapter": 6,
+   "raw_rate": 4.72,
+   "factor": 1.063
+  },
+  {
+   "chapter": 8,
+   "raw_rate": 4.71,
+   "factor": 1.063
+  }
+ ],
+ "chapter_match": {
+  "eq_max_db": [
+   5.0,
+   5.0,
+   3.9,
+   3.2,
+   2.3,
+   2.8
+  ],
+  "level_before_db": [
+   -27.4,
+   -24.1,
+   -25.2,
+   -25.3,
+   -26.5,
+   -25.6
+  ],
+  "level_after_db": -25.7
+ },
+ "splits": [
+  {
+   "beat": 1,
+   "ratio": 1.0
+  },
+  {
+   "beat": 3,
+   "ratio": 1.0
+  },
+  {
+   "beat": 4,
+   "ratio": 0.95
+  },
+  {
+   "beat": 5,
+   "ratio": 1.0
+  },
+  {
+   "beat": 6,
+   "ratio": 0.933
+  },
+  {
+   "beat": 7,
+   "ratio": 1.0
+  },
+  {
+   "beat": 8,
+   "ratio": 1.0
+  },
+  {
+   "beat": 9,
+   "ratio": 0.926
+  },
+  {
+   "beat": 10,
+   "ratio": 0.957
+  },
+  {
+   "beat": 11,
+   "ratio": 1.0
+  },
+  {
+   "beat": 12,
+   "ratio": 1.0
+  },
+  {
+   "beat": 13,
+   "ratio": 1.0
+  },
+  {
+   "beat": 14,
+   "ratio": 1.0
+  },
+  {
+   "beat": 15,
+   "ratio": 1.0
+  },
+  {
+   "beat": 16,
+   "ratio": 1.0
+  },
+  {
+   "beat": 17,
+   "ratio": 1.0
+  },
+  {
+   "beat": 19,
+   "ratio": 1.0
+  },
+  {
+   "beat": 20,
+   "ratio": 0.962
+  },
+  {
+   "beat": 21,
+   "ratio": 1.0
+  },
+  {
+   "beat": 22,
+   "ratio": 1.0
+  },
+  {
+   "beat": 23,
+   "ratio": 1.0
+  },
+  {
+   "beat": 24,
+   "ratio": 1.0
+  },
+  {
+   "beat": 25,
+   "ratio": 1.0
+  },
+  {
+   "beat": 26,
+   "ratio": 1.0
+  }
+ ],
+ "measurement": "10ms RMS>.004 after peak normalisation; phrase-level, not forced syllable alignment",
+ "cleaned": "0 breath/noise islands gated out"
+}

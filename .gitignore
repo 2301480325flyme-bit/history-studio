@@ -1,0 +1,24 @@
+# 媒体（字体、立绘、音效、配音、底图、成片）放 Google Drive，不进 git
+*.ttf
+*.otf
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.pdf
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+out/
+*.log
+.env
+.env.*
+05_项目/
+02_数据/
+03_素材/
+01_工作流/corpus/

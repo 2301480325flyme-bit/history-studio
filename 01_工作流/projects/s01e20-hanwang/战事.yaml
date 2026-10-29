@@ -1,0 +1,250 @@
+episode: s01e20-hanwang
+armies:
+  潘璋军:
+    faction: 孙权
+    head: 潘璋（部下司马马忠）
+    size: 未核
+    evidence:
+    - quote: 十二月，璋司马马忠获羽及其子平、都督赵累等于章乡，遂定荆州。
+      para: 三国志-p02226
+  张飞军:
+    faction: 蜀汉
+    head: 张飞
+    size: 一万人
+    evidence:
+    - quote: 先主伐吴，飞当率兵万人，自阆中会江州。
+      para: 三国志-p01959
+  张达范强:
+    faction: 蜀汉
+    head: 张达、范强
+    size: 二人（仅记二名帐下将）
+    evidence:
+    - quote: 临发，其帐下将张达、范强杀之，持其首，顺流而奔孙权。
+      para: 三国志-p01959
+  刘备伐吴军:
+    faction: 蜀汉
+    head: 刘备
+    size: 未核
+    evidence:
+    - quote: 初，先主忿孙权之袭关羽，将东征，秋七月，遂帅诸军伐吴。
+      para: 三国志-p01870
+  巫秭归吴守军:
+    faction: 孙权
+    head: 陆议、李异、刘阿
+    size: 未核
+    evidence:
+    - quote: 吴将陆议、李异、刘阿等屯巫、秭归；
+      para: 三国志-p01870
+  吴班冯习军:
+    faction: 蜀汉
+    head: 冯习、吴班
+    size: 未核
+    evidence:
+    - quote: 将军吴班、冯习自巫攻破异等，军次秭归，
+      para: 三国志-p01870
+events:
+- id: e01
+  army: 潘璋军
+  kind: 交战
+  place: 章乡
+  from: 麦城方向
+  via: []
+  date: 219-12
+  territory: null
+  note: 马忠于章乡擒关羽、关平、赵累；原文未载交战细节或具体日。章乡属临沮境内，具体位置有争议。
+  evidence:
+  - quote: 关羽还当阳，西保麦城。
+    para: 三国志-p02226
+  - quote: 十二月，璋司马马忠获羽及其子平、都督赵累等于章乡，遂定荆州。
+    para: 三国志-p02226
+  skip: 上一集已讲关羽被擒、荆州易手；本集开头的疆域即 219-12 之后
+- id: e02
+  army: 潘璋军
+  kind: 攻占
+  place: 章乡
+  from: null
+  via: []
+  date: 219-12
+  territory:
+    jun: 零陵郡
+    to: 孙权
+  note: 依疆域.yaml的219-12归属节点拆记；原文仅说擒关羽后“遂定荆州”，未逐郡记载零陵交接地点或日期，此条不是章乡发生了零陵郡内的战斗。
+  evidence:
+  - quote: 十二月，璋司马马忠获羽及其子平、都督赵累等于章乡，遂定荆州。
+    para: 三国志-p02226
+  skip: 上一集已讲关羽被擒、荆州易手；本集开头的疆域即 219-12 之后
+- id: e03
+  army: 潘璋军
+  kind: 攻占
+  place: 章乡
+  from: null
+  via: []
+  date: 219-12
+  territory:
+    jun: 武陵郡
+    to: 孙权
+  note: 依疆域.yaml的219-12归属节点拆记；原文仅说擒关羽后“遂定荆州”，未逐郡记载武陵交接地点或日期，此条不是章乡发生了武陵郡内的战斗。
+  evidence:
+  - quote: 十二月，璋司马马忠获羽及其子平、都督赵累等于章乡，遂定荆州。
+    para: 三国志-p02226
+  skip: 上一集已讲关羽被擒、荆州易手；本集开头的疆域即 219-12 之后
+- id: e04
+  army: 张飞军
+  kind: 屯驻
+  place: 阆中
+  from: null
+  via: []
+  date: 221-06
+  territory: null
+  note: 张飞军拟自阆中赴江州会合刘备；“临发”即遇害，史料没有说部队已实际出发或走过沿线地点，本条只记其出发前所在，不画成已完成的行军线。
+  evidence:
+  - quote: 先主伐吴，飞当率兵万人，自阆中会江州。
+    para: 三国志-p01959
+- id: e05
+  army: 张飞军
+  kind: 交战
+  place: 阆中
+  from: null
+  via: []
+  date: 221-06
+  territory: null
+  note: 张飞在临出发时被帐下张达、范强杀害；纪事置于六月，具体日和营地位置未载，阆中仅作概略落点。此为军中刺杀，不是两军会战。
+  evidence:
+  - quote: 六月，以子永为鲁王，理为梁王。车骑将军张飞为其左右所害。
+    para: 三国志-p01870
+  - quote: 临发，其帐下将张达、范强杀之，持其首，顺流而奔孙权。
+    para: 三国志-p01959
+  skip: 帐下刺杀，不是两军交战；画成张飞之死（exit）
+- id: e06
+  army: 张达范强
+  kind: 撤退
+  place: 未核
+  from: 阆中
+  via: []
+  date: 221-06
+  territory: null
+  note: 二人携张飞首级顺流奔孙权；原文未记所乘水道、经过点和投奔地点，起点仅据张飞临发前所驻的阆中概略记账。
+  evidence:
+  - quote: 临发，其帐下将张达、范强杀之，持其首，顺流而奔孙权。
+    para: 三国志-p01959
+  skip: 张达、范强投奔路线和地点史书未载
+- id: e07
+  army: 张达范强
+  kind: 投降
+  place: 未核
+  from: 未核
+  via: []
+  date: 221-06
+  territory: null
+  note: 原文仅记二人顺流奔孙权，未说是否正式受降或地点；按“投奔”记作归附，具体地点未核，不涉及可确认的郡级易手。
+  evidence:
+  - quote: 临发，其帐下将张达、范强杀之，持其首，顺流而奔孙权。
+    para: 三国志-p01959
+  skip: 张达、范强投奔路线和地点史书未载
+- id: e08
+  army: 刘备伐吴军
+  kind: 出发
+  place: 未核
+  from: 未核
+  via: []
+  date: 221-07
+  territory: null
+  note: 史书记秋七月刘备率诸军伐吴，未记发兵所在城、启程日及到巫山前路线；旁白说“顺江东下”，不据此补造沿线地点。
+  evidence:
+  - quote: 初，先主忿孙权之袭关羽，将东征，秋七月，遂帅诸军伐吴。
+    para: 三国志-p01870
+  skip: 东征经过放在下一集（夷陵之战）讲
+- id: e09
+  army: 刘备伐吴军
+  kind: 行军
+  place: 巫
+  from: 未核
+  via: []
+  date: '221'
+  territory: null
+  note: 《吴主传》仅记该年刘备军来伐至巫山、秭归；起点、两地间水陆路线及月份日次均未载。此处用巫作区域落点。
+  evidence:
+  - quote: 是岁，刘备师军来伐，至巫山、秭归，
+    para: 三国志-p02228
+  skip: 东征经过放在下一集（夷陵之战）讲
+- id: e10
+  army: 巫秭归吴守军
+  kind: 屯驻
+  place: 巫
+  from: null
+  via: []
+  date: 221-07
+  territory: null
+  note: 陆议、李异、刘阿等驻巫；置于七月伐吴叙事序列，原文只记年，驻屯月份及日期未明。
+  evidence:
+  - quote: 吴将陆议、李异、刘阿等屯巫、秭归；
+    para: 三国志-p01870
+  skip: 东征经过放在下一集（夷陵之战）讲
+- id: e11
+  army: 巫秭归吴守军
+  kind: 屯驻
+  place: 秭归
+  from: null
+  via: []
+  date: 221-07
+  territory: null
+  note: 陆议、李异、刘阿等另屯秭归；置于七月伐吴叙事序列，原文只记年，驻屯月份及日期未明。
+  evidence:
+  - quote: 吴将陆议、李异、刘阿等屯巫、秭归；
+    para: 三国志-p01870
+  skip: 东征经过放在下一集（夷陵之战）讲
+- id: e12
+  army: 吴班冯习军
+  kind: 行军
+  place: 巫
+  from: 未核
+  via: []
+  date: 221-07
+  territory: null
+  note: 吴班、冯习由巫方向进攻吴军；原文未说明两将更早出发地或抵巫路线。
+  evidence:
+  - quote: 将军吴班、冯习自巫攻破异等，军次秭归，
+    para: 三国志-p01870
+  skip: 东征经过放在下一集（夷陵之战）讲
+- id: e13
+  army: 吴班冯习军
+  kind: 交战
+  place: 巫
+  from: null
+  via: []
+  date: 221-07
+  territory: null
+  note: 吴班、冯习击破李异等吴军；战斗日次、兵力及具体战场位置未载。
+  evidence:
+  - quote: 将军吴班、冯习自巫攻破异等，军次秭归，
+    para: 三国志-p01870
+  skip: 东征经过放在下一集（夷陵之战）讲
+- id: e14
+  army: 吴班冯习军
+  kind: 屯驻
+  place: 秭归
+  from: 巫
+  via: []
+  date: 221-07
+  territory: null
+  note: 战后军队进至秭归，原文只说“军次秭归”，未说攻下城邑或南郡易手；巫、秭归县级分属与战后控制状态仍需核。
+  evidence:
+  - quote: 将军吴班、冯习自巫攻破异等，军次秭归，
+    para: 三国志-p01870
+  skip: 东征经过放在下一集（夷陵之战）讲
+places_new:
+- name: 巫
+  lon: 109.88
+  lat: 31.08
+  precision: 约略
+  basis: 以今重庆巫山县城附近作古巫县/巫山区域示意点；古今治所未必重合，具体古城址未核
+  evidence:
+  - quote: 吴将陆议、李异、刘阿等屯巫、秭归；
+    para: 三国志-p01870
+  - quote: 是岁，刘备师军来伐，至巫山、秭归，
+    para: 三国志-p02228
+open_questions:
+- 《吴主传》把关羽被擒与“遂定荆州”连记，未逐郡、逐城记录零陵、武陵的接收过程；本账依疆域.yaml记于219-12，两郡能否同时对应章乡这一战事节点，需结合疆域检查器决定。
+- 张飞遇害只记“临发”，未记营地准确位置；张达、范强“顺流而奔孙权”未给水道、途中地点或正式受降地点，地图只能标阆中概略起点和未核终点。
+- 刘备伐吴记于221年秋七月，且军次秭归；本集疆域时间止于221-08。巫、秭归所在郡的县级归属与占领状态需核，本账只按南郡记争夺，不宣称郡域易手。东征后续战事延续至222年猇亭，超出本集时段，未提前画入。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

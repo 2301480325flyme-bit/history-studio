@@ -1,0 +1,347 @@
+# 《三国到隋》第8集：袁术死在一碗蜜水上，公孙瓒易京自焚，孙策据江东，刘备反曹（199–200）
+# 2026-10-11 按故事稿写成旁白。关键原文均在本地语料核过：
+# 袁术"欲得蜜浆，又无蜜…袁术至于此乎！…呕血斗余而死"（袁术传注引吴书）；"术欲从下邳北过，公遣刘备、朱灵要之"（武帝纪）；
+# 易京"积谷三百万斛…百楼不攻。今吾楼橹千重，食尽此谷，足知天下之事矣"（公孙瓒传）；"悉缢其姊妹妻子，然后引火自焚"（后汉书·公孙瓒传）；
+# 孙策"美姿颜，好笑语""刘繇弃军遁逃""策自领会稽太守"（孙策传）；
+# "今天下英雄，唯使君与操耳…先主方食，失匕箸"、董承"辞受帝衣带中密诏"、"杀徐州刺史车胄，留关羽守下邳"（先主传）；
+# "夫刘备，人杰也…袁绍虽有大志，而见事迟，必不动也"（武帝纪）；关羽"拜为偏将军，礼之甚厚"（关羽传）。
+
+id: s01e08-yijing
+title: 易京与衣带诏
+series: 三国 · 第8集
+year: 199
+
+notes:
+  - 主线问题：群雄割据十年，北方为什么只剩下袁、曹两家？
+  - 演义对照：煮酒论英雄只有"天下英雄唯使君与操""失匕箸"是史书原文，青梅煮酒、借雷掩饰是小说；"衣带诏"史书说董承"辞受"（自称接到），真假存疑；关羽"约三事""降汉不降曹"不讲。
+  - 小霸王是小说称号，不用；用史书"美姿颜，好笑语"。
+  - 江亭、离寿春八十里出自注引《吴书》。
+
+map:
+  center: [114.0, 33.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  river_rank: 4
+
+voice:
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.3
+  tempo_target: 4.3
+  gap: 0.5
+  bed: original
+  bed_db: -26
+
+publish:
+  hook: 他当过皇帝，临死却讨不到一碗蜜水
+  big: [袁术, 至于此乎]
+  hero: 袁术
+  at: 20
+  summary: |
+    称帝两年，袁术众叛亲离，退到江亭时只剩麦屑三十斛，想喝一碗蜜水都没有，吐血而死；公孙瓒守着"楼橹千重"的易京，被袁绍挖空楼基，点火自焚。
+    曹操对刘备说"今天下英雄，唯使君与操耳"，刘备吓得掉了筷子，转身就杀车胄、据徐州反曹——北方，只剩袁曹两家。
+  tags: [袁术, 公孙瓒, 煮酒论英雄, 刘备, 衣带诏]
+  next: 官渡之战
+
+sources_local:
+  - {id: sgz-01, work: 三国志, volume: 卷一·武帝纪, url: 'https://zh.wikisource.org/wiki/三國志/卷01'}
+  - {id: sgz-06, work: 三国志, volume: 卷六·袁术传（注引吴书）, url: 'https://zh.wikisource.org/wiki/三國志/卷06'}
+  - {id: sgz-08, work: 三国志, volume: 卷八·公孙瓒传, url: 'https://zh.wikisource.org/wiki/三國志/卷08'}
+  - {id: sgz-32, work: 三国志, volume: 卷三十二·先主传, url: 'https://zh.wikisource.org/wiki/三國志/卷32'}
+  - {id: sgz-36, work: 三国志, volume: 卷三十六·关羽传, url: 'https://zh.wikisource.org/wiki/三國志/卷36'}
+  - {id: sgz-46, work: 三国志, volume: 卷四十六·孙策传, url: 'https://zh.wikisource.org/wiki/三國志/卷46'}
+  - {id: hhs-73, work: 后汉书, volume: 卷七十三·公孙瓒列传, url: 'https://zh.wikisource.org/wiki/後漢書/卷73'}
+  - {id: hhs-74, work: 后汉书, volume: 卷七十四上·袁绍传, url: 'https://zh.wikisource.org/wiki/後漢書/卷74上'}
+
+factions: {曹操: '#2f5d3a', 刘备: '#5f8f3a', 袁术: '#7a5a8a', 袁绍: '#27587e', 公孙瓒: '#b06a2a', 孙策: '#b0841f', 汉室: '#b8462f'}
+
+territory:
+  cells: han-140
+  zhou_labels: true
+  jun_labels: false
+  polities:
+    汉室: {slot: stone, main: true, label_at: 洛阳}
+    凉州军: {slot: lavender, label_at: 长安}
+    袁绍: {slot: sky, label_at: 邺}
+    公孙瓒: {slot: orange, label_at: 蓟}
+    曹操: {slot: jade, label_at: 许}
+    刘备: {slot: pink, label_at: 下邳}
+    袁术: {slot: rose, label_at: 寿春}
+    孙策: {slot: lemon, label_at: 吴}
+    刘表: {slot: olive, label_at: 襄阳}
+    张绣: {slot: tan, label_at: 宛}
+    刘璋: {slot: lime, label_at: 成都}
+
+people:
+  袁术: {image: 03_素材/人物立绘/yuan_shu.png, title: 仲家皇帝, role: 众叛亲离, faction: 袁术}
+  袁绍: {image: 03_素材/人物立绘/yuan_shao.png, title: 大将军, role: 雄踞河北, faction: 袁绍}
+  公孙瓒: {image: 03_素材/人物立绘/gongsun_zan.png, title: 前将军, role: 困守易京, faction: 公孙瓒}
+  孙策: {image: 03_素材/人物立绘/sun_ce.png, title: 讨逆将军, role: 据有江东, faction: 孙策}
+  曹操: {image: 03_素材/人物立绘/cao_cao.png, title: 司空, role: 奉天子, faction: 曹操}
+  刘备: {image: 03_素材/人物立绘/liu_bei.png, title: 左将军, role: 寄身许都, faction: 刘备}
+  董承: {image: 03_素材/人物立绘/dong_cheng.png, title: 车骑将军, role: 衣带诏, faction: 汉室}
+  关羽: {image: 03_素材/人物立绘/guan_yu.png, title: 刘备部将, role: 守下邳, faction: 刘备}
+  袁谭: {image: 03_素材/人物立绘/yuan_tan.png, title: 青州刺史, role: 袁绍长子, faction: 袁绍}
+
+places:
+  寿春: {id: shouchun, label: right}
+  江亭: {id: jiangting, label: left}
+  下邳: {id: xiapi, label: right}
+  小沛: {id: xiaopei, label: left}
+  临淄: {id: linzi, name: 青州, label: right}
+  易京: {id: yijing, label: right}
+  蓟: {id: ji_yan, label: right}
+  邺: {id: ye_city, label: right}
+  南皮: {id: nanpi, label: right}
+  许: {id: xuchang_approx, name: 许, label: right, tier: capital}
+  曲阿: {id: qua, label: right}
+  吴: {id: wu_city, label: right}
+  会稽: {id: region_会稽, name: 会稽, label: right}
+  庐江: {id: lujiang, label: left}
+  黎阳: {id: liyang, label: right}
+  洛阳: {id: luoyang_han_wei, label: left}
+  长安: {id: changan_han_city, label: below}
+  襄阳: {id: xiangyang, label: right}
+  宛: {id: wanxian, label: left}
+  成都: {id: chengdu_city, label: right}
+
+camera:
+  focus: [寿春, 下邳]
+  zoom: 2.4
+
+beats:
+  # ---------------- 第一章 一碗蜜水 ----------------
+  - say: 上回说到，吕布死了。而寿春的袁术，日子也到头了。
+    phase: 一碗蜜水
+    sources: [sgz-06]
+    year: 199
+    camera: {focus: 寿春, zoom: 2.6, move: 2.0}
+    map: '198-12'
+    show:
+      - title_bar: {text: 易京与衣带诏, sub: 三国 · 第8集, cue: 上回, for: 3.2}
+      - sfx: 片头鼓
+      - flag: {at: 寿春, name: 袁术, sub: 仲家皇帝, faction: 袁术, cue: 袁术}
+
+  - say: 称帝两年，他众叛亲离，粮食吃光，连自己的部将都不肯收留他。
+    sources: [sgz-06]
+    show:
+      - enter: {who: 袁术, side: right, cue: 众叛亲离, for: 3.4}
+
+  - say: 走投无路，袁术决定把皇帝的名号让给堂兄袁绍，自己北上青州，去投奔侄子袁谭。
+    sources: [sgz-01, sgz-06]
+    camera: {focus: [寿春, 下邳, 临淄], zoom: fit, move: 1.4}
+    show:
+      - arrow: {from: 寿春, to: 临淄, kind: direction, faction: 袁术, cue: 北上青州, grow: 1.8}
+      - flag: {at: 临淄, name: 袁谭, sub: 青州刺史, faction: 袁绍, cue: 袁谭}
+
+  - say: 去青州，必须从下邳往北走。曹操派刘备、朱灵带兵堵住了路。袁术过不去，只好往回走。
+    sources: [sgz-01, sgz-32]
+    show:
+      - army: {from: 许, to: 下邳, faction: 曹操, banner: 刘, troops: infantry, size: 1.6, cue: 堵住了路, grow: 2.0}
+      - march: {from: 下邳, to: 寿春, faction: 袁术, cue: 往回走, grow: 1.4}
+
+  - say: 走到离寿春八十里的江亭，一问厨房，只剩下三十斛麦屑。
+    sources: [sgz-06]
+    camera: {focus: [寿春, 江亭], zoom: 14, move: 1.4}
+    show:
+      - flag: {at: 江亭, name: 袁术, sub: 退至江亭, faction: 袁术, cue: 江亭}
+      - act: {act: prop, at: 江亭, item: 粮仓, text: 麦屑三十斛, cue: 麦屑, size: 0.8, for: 3}
+
+  - say: 正是盛夏，袁术想喝一碗蜜水，可连蜂蜜也没有。
+    sources: [sgz-06]
+    show:
+      - act: {act: prop, at: 江亭, item: 蜜水碗, text: 欲得蜜浆，又无蜜, cue: 蜜水, size: 1.3, for: 4.4}
+
+  - say: 他坐在床上，叹息了很久，突然大喊一声：
+    sources: [sgz-06]
+
+  - say: 我袁术……竟然落到了这个地步！
+    speaker: 袁术
+    voice_text: （嘶哑绝望）我袁术……竟然落到了这个地步！
+    style: 嘶哑绝望，长叹之后猛地大喊，悲愤难平
+    sources: [sgz-06]
+
+  - say: 喊完一头栽倒在床下，吐了一斗多的血，死了。
+    sources: [sgz-06]
+    owners_cue: 死了
+    map: '199-02'
+    show:
+      - exit: {who: 袁术, at: 江亭, verb: 卒, cue: 死了, portrait: true}
+      - sfx: {name: 凄凉风, cue: 栽倒}
+      - sfx: {name: 退场钟, cue: 死了}
+
+  # ---------------- 第二章 楼橹千重 ----------------
+  - say: 再看北边。公孙瓒自从界桥兵败，一路退守，在易县修了一座城，叫"易京"。
+    phase: 楼橹千重
+    sources: [sgz-08]
+    camera: {focus: [蓟, 易京, 邺], zoom: fit, move: 1.6}
+    show:
+      - enter: {who: 公孙瓒, at: 易京, side: right, cue: 公孙瓒, settle: true, settle_sub: 困守易京, guest: true}
+
+  - say: 外面挖了十道壕沟，壕沟里堆起五六丈高的土台，台上再盖楼。他自己住在正中间，一座十丈高的楼里，囤了三百万斛粮食。
+    sources: [sgz-08]
+    camera: {focus: 易京, zoom: 6, move: 1.2}
+    show:
+      - act: {act: prop, at: 易京, item: 望楼, text: 易京, cue: 十丈高, size: 1.5, for: 5}
+      - act: {act: prop, at: 易京, item: 粮仓, text: 积谷三百万斛, cue: 三百万斛, for: 3}
+
+  - say: 他得意地说：
+    sources: [sgz-08]
+
+  - say: 兵法上说，一百座楼都不要去攻。我这里楼橹上千重，吃完这些粮食，天下大事早就定了！
+    speaker: 公孙瓒
+    style: 刚愎自负，得意洋洋，拍着城墙说
+    sources: [sgz-08]
+
+  - say: 袁绍连年围攻，攻不下来。他干脆让士兵挖地道，一直挖到楼底下，把楼基一座座挖空，再放火烧塌。
+    sources: [sgz-08, hhs-73]
+    camera: {focus: [邺, 易京], zoom: fit, move: 1.4}
+    show:
+      - army: {from: 邺, to: 易京, faction: 袁绍, banner: 袁, troops: infantry, size: 3, cue: 连年围攻, grow: 2.4}
+      - siege: {at: 易京, text: 围, faction: 袁绍, cue: 挖地道, for: 3}
+
+  - say: 一百九十九年三月，公孙瓒自知守不住了。他带着全家，点起一把大火，死在了易京。
+    sources: [hhs-73]
+    camera: {focus: 易京, zoom: 6, move: 1.2}
+    show:
+      - quote: {text: 悉缢其姊妹妻子，然后引火自焚, source: 后汉书·公孙瓒传, era: 建安四年, cue: 全家}
+      - fire: {at: 易京, cue: 大火, radius: 1.2, for: 5}
+      - exit: {who: 公孙瓒, at: 易京, verb: 亡, cue: 死在了易京, portrait: true}
+      - sfx: {name: 燃烧, cue: 大火}
+
+  - say: 从此，冀州、青州、幽州、并州，河北四州全归了袁绍。他手下的兵马几十万，成了天下最强的诸侯。
+    sources: [hhs-74]
+    camera: {focus: [邺, 蓟, 临淄], zoom: fit, move: 1.6}
+    owners_cue: 四州
+    map: '199-03'
+    show:
+      - sfx: {name: 疆域易手, cue: 四州}
+      - headline: {text: 河北一统, sub: 袁绍兼有四州, cue: 最强, for: 3.2}
+
+  # ---------------- 第三章 江东 ----------------
+  - say: 南边的长江下游，也冒出了一股新势力。孙坚的长子孙策，从袁术手里讨回了父亲的旧部，渡过长江。
+    phase: 江东
+    sources: [sgz-46]
+    camera: {focus: [寿春, 曲阿, 吴, 会稽], zoom: fit, move: 1.6}
+    show:
+      - enter: {who: 孙策, side: right, cue: 孙策, for: 3.4}
+      - army: {from: 寿春, to: 曲阿, faction: 孙策, banner: 孙, troops: infantry, size: 1.6, cue: 渡过长江, grow: 2.2}
+
+  - say: 扬州刺史刘繇不战而逃，孙策又南下占了会稽，自己当了会稽太守。袁术称帝后，他跟袁术一刀两断。
+    sources: [sgz-46]
+    owners_cue: 会稽
+    map: '199-08'
+    show:
+      - replay: {path: [曲阿, 吴, 会稽], faction: 孙策, label: 孙策平江东, cue: 南下}
+      - sfx: {name: 疆域易手, cue: 会稽}
+
+  - say: 史书说他"美姿颜，好笑语"：长得俊，爱说笑，善于用人，江东的人见了他，都愿意替他卖命。
+    sources: [sgz-46]
+    show:
+      - quote: {text: 美姿颜，好笑语，性阔达听受，善于用人, source: 三国志·孙策传, era: 兴平二年, cue: 美姿颜}
+
+  # ---------------- 第四章 天下英雄 ----------------
+  - say: 再说刘备。他投奔曹操以后，曹操待他极好，出门同坐一辆车，坐下同坐一张席。
+    phase: 天下英雄
+    year: 199
+    sources: [sgz-32]
+    camera: {focus: 许, zoom: 3.4, move: 1.6}
+    show:
+      - versus: {left: 曹操, right: 刘备, label: 同舆, cue: 同坐一辆车, for: 4}
+
+  - say: 有一天，曹操不紧不慢地对刘备说：
+    scene: 宴席
+    sources: [sgz-32]
+
+  - say: 如今天下的英雄，只有你和我曹操罢了。袁绍那些人，根本不值一提。
+    speaker: 曹操
+    style: 不紧不慢，似笑非笑，意味深长地试探
+    scene: 宴席
+    to: 刘备
+    sources: [sgz-32]
+    show:
+      - versus: {left: 曹操, right: 刘备, label: 论英雄, for: 5}
+
+  - say: 刘备正在吃饭，吓得筷子都掉了。
+    scene: 宴席
+    sources: [sgz-32]
+    show:
+      - card: {title: 演义 vs 正史, body: 史书只有"唯使君与操""失匕箸"；青梅煮酒、借雷掩饰是小说, cue: 筷子}
+
+  - say: 刘备怕的不只是这句话。车骑将军董承暗中找过他，说自己接到了汉献帝藏在衣带里的密诏：诛杀曹操。
+    sources: [sgz-32]
+    show:
+      - enter: {who: 董承, side: left, cue: 董承, for: 3}
+      - act: {act: prop, at: 许, item: 衣带诏, text: 衣带中密诏, cue: 衣带, size: 1.4, for: 4.4}
+
+  - say: 这封"衣带诏"到底是真是假，史书只说董承"自称接到"，历来有争议。
+    sources: [sgz-32]
+    show:
+      - card: {title: 衣带诏, body: 先主传：董承"辞受帝衣带中密诏"，真伪存疑, cue: 争议}
+
+  - say: 正好袁术要北上，刘备主动请命去拦截。出了许县，他就像鸟出了笼子。
+    sources: [sgz-32, sgz-01]
+    camera: {focus: [许, 下邳], zoom: fit, move: 1.4}
+    show:
+      - army: {from: 许, to: 下邳, faction: 刘备, banner: 刘, troops: infantry, size: 1.4, cue: 请命, grow: 2.2}
+
+  - say: 到了下邳，刘备杀了曹操任命的徐州刺史车胄，留关羽守下邳，自己屯在小沛，公开反了曹操。
+    sources: [sgz-32]
+    camera: {focus: [下邳, 小沛], zoom: fit, move: 1.2}
+    owners_cue: 反了曹操
+    map: '199-12'
+    show:
+      - act: {act: execute, at: 下邳, text: 杀车胄, cue: 车胄, for: 2.4}
+      - flag: {at: 下邳, name: 关羽, sub: 守下邳, faction: 刘备, cue: 关羽}
+      - flag: {at: 小沛, name: 刘备, sub: 反曹, faction: 刘备, cue: 小沛}
+      - sfx: {name: 疆域易手, cue: 反了曹操}
+
+  - say: 第二年正月，董承等人密谋败露，全部被杀。曹操要亲自东征刘备。
+    sources: [sgz-01]
+    year: 200
+    camera: {focus: [许, 小沛], zoom: fit, move: 1.4}
+    show:
+      - act: {act: execute, at: 许, text: 诛董承, cue: 全部被杀, for: 2.6}
+      - exit: {who: 董承, at: 许, verb: 诛, cue: 全部被杀}
+
+  - say: 将领们都慌了：跟您争天下的是袁绍，现在跑去打刘备，袁绍从背后打过来怎么办？曹操说：
+    scene: 军帐
+    sources: [sgz-01]
+    show:
+      - spot: {at: 邺, cue: 袁绍}
+
+  - say: 刘备是人中豪杰，现在不打，必成后患！袁绍虽有大志，可是见事太迟，一定不会马上动。
+    speaker: 曹操
+    style: 果断冷静，胸有成竹，语速干脆
+    scene: 军帐
+    sources: [sgz-01]
+
+  - say: 果然，曹操大军一到，刘备大败，独自逃往河北投奔袁绍。妻子儿女被俘，关羽也被擒。
+    sources: [sgz-32, sgz-36]
+    owners_cue: 大败
+    map: '200-01'
+    show:
+      - army: {from: 许, to: 小沛, faction: 曹操, banner: 曹, troops: cavalry, size: 2.4, cue: 大军一到, grow: 2.0}
+      - flee: {from: 小沛, to: 邺, faction: 刘备, cue: 逃往河北}
+      - defect: {who: 关羽, at: 下邳, to: 曹操, from: 刘备, verb: 擒, cue: 被擒}
+
+  - say: 曹操爱惜关羽，拜他做偏将军，待他极其优厚。
+    sources: [sgz-36]
+    show:
+      - enter: {who: 关羽, side: right, cue: 关羽, for: 3.4}
+
+  - say: 至此，北方只剩下两个人：河北的袁绍，和挟天子的曹操。
+    sources: [sgz-01]
+    camera: {focus: [邺, 许, 黎阳], zoom: fit, move: 1.4}
+    show:
+      - versus: {left: 袁绍, right: 曹操, label: 争天下, cue: 两个人, for: 4.6}
+
+  - say: 袁绍终于下了决心。十万大军，向黄河边的黎阳集结。一场决定北方命运的大战，就要开始了。
+    sources: [sgz-01]
+    show:
+      - army: {from: 邺, to: 黎阳, faction: 袁绍, banner: 袁, troops: infantry, size: 3.4, cue: 十万大军, grow: 2.4}
+      - title_bar: {text: 下集, sub: 官渡之战, cue: 大战, delay: 0.6, for: 3.0}

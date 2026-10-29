@@ -1,0 +1,9214 @@
+{
+ "note": "History Studio shared gazetteer. Added by agents/editors per episode; each entry carries source and precision. reviewStatus=agent means not yet human-reviewed.",
+ "places": [
+  {
+   "id": "suanzao_county",
+   "aliases": [
+    "酸枣",
+    "酸棗",
+    "酸枣县"
+   ],
+   "coordinates": [
+    114.19667,
+    35.14694
+   ],
+   "coordinatePrecision": "东汉酸枣县治近似点（Wikidata 旧县条目坐标，今河南延津一带）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q113652019",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "酸枣",
+     "from": -221,
+     "to": 581
+    }
+   ],
+   "tiers": [
+    {
+     "from": -221,
+     "to": 581,
+     "tier": "city"
+    }
+   ],
+   "note": "190年关东联军张邈、刘岱、桥瑁、袁遗等屯驻地",
+   "reviewStatus": "agent",
+   "added": "2026-10-07"
+  },
+  {
+   "id": "xingyang_county",
+   "aliases": [
+    "荥阳",
+    "滎陽",
+    "荥阳县"
+   ],
+   "coordinates": [
+    113.39194,
+    34.78778
+   ],
+   "coordinatePrecision": "古荥阳县治近似点（Wikidata 古代行政区划条目坐标）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q113491194",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "荥阳",
+     "from": -221,
+     "to": 1911
+    }
+   ],
+   "tiers": [
+    {
+     "from": -221,
+     "to": 1911,
+     "tier": "city"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-07"
+  },
+  {
+   "id": "luyang_county",
+   "aliases": [
+    "鲁阳",
+    "魯陽",
+    "鲁阳县"
+   ],
+   "coordinates": [
+    112.89793,
+    33.74008
+   ],
+   "coordinatePrecision": "东汉鲁阳县治近似：今鲁山县城（鲁阳街道）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q11173178 ; 水经注卷31（滍水东迳鲁阳县故城）https://zh.wikisource.org/zh-hans/水經注_(四庫全書本)/卷31",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "鲁阳",
+     "from": -221,
+     "to": 589
+    }
+   ],
+   "tiers": [
+    {
+     "from": -221,
+     "to": 589,
+     "tier": "city"
+    }
+   ],
+   "note": "190–191年袁术屯驻、孙坚治兵之地",
+   "reviewStatus": "agent",
+   "added": "2026-10-07"
+  },
+  {
+   "id": "guangzong",
+   "aliases": [
+    "广宗"
+   ],
+   "coordinates": [
+    115.13898,
+    37.07176
+   ],
+   "coordinatePrecision": "今广宗县驻地近似（坐标取 Wikidata「广宗县」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1196437",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "广宗",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：黄巾张角据点",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "changshe",
+   "aliases": [
+    "长社",
+    "长葛"
+   ],
+   "coordinates": [
+    113.76944,
+    34.21889
+   ],
+   "coordinatePrecision": "今长葛市一带近似（坐标取 Wikidata「长社」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q123582465",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "长社",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：皇甫嵩破黄巾",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "xiapi",
+   "aliases": [
+    "下邳"
+   ],
+   "coordinates": [
+    117.94111,
+    33.90083
+   ],
+   "coordinatePrecision": "下邳故城或今邳州近似（坐标取 Wikidata「下邳」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q123584725",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "下邳",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：吕布败亡",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "xiaopei",
+   "aliases": [
+    "小沛",
+    "沛",
+    "沛县"
+   ],
+   "coordinates": [
+    116.93261,
+    34.72794
+   ],
+   "coordinatePrecision": "今沛县驻地近似（坐标取 Wikidata「沛县」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1361247",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "小沛",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：刘备屯驻",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "shouchun",
+   "aliases": [
+    "寿春",
+    "寿县"
+   ],
+   "coordinates": [
+    116.77938,
+    32.57822
+   ],
+   "coordinatePrecision": "今寿县驻地近似（坐标取 Wikidata「寿县」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1349884",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "寿春",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "province",
+     "note": "魏晋扬州治寿春，兼淮南军政中心；215为审核边界，非州治始置年。魏前过渡依汉官注推定。",
+     "sourceIds": [
+      "HHS112",
+      "SONG35",
+      "SGZ28"
+     ],
+     "confidence": "inferred",
+     "from": 215,
+     "to": 279,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷112",
+      "https://zh.wikisource.org/wiki/宋書/卷35",
+      "https://zh.wikisource.org/wiki/三國志/卷28"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "commandery",
+     "note": "晋平吴扬州治迁建业，寿春仍淮南郡治及军镇。",
+     "sourceIds": [
+      "SONG35",
+      "JIN15"
+     ],
+     "confidence": "confirmed",
+     "from": 280,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/宋書/卷35",
+      "https://zh.wikisource.org/wiki/晉書/卷015"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：袁术称帝、淮南三叛；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [],
+   "tierTransitions": [
+    {
+     "year": 280,
+     "event": "平吴后扬州州治迁建业",
+     "fromTier": "province",
+     "toTier": "commandery",
+     "sourceIds": [
+      "SONG35"
+     ],
+     "month": null,
+     "calendar": "traditional_lunar",
+     "precision": "event"
+    }
+   ],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "xiangyang",
+   "aliases": [
+    "襄阳"
+   ],
+   "coordinates": [
+    112.15307,
+    32.06536
+   ],
+   "coordinatePrecision": "襄阳古城或今襄阳近似（坐标取 Wikidata「襄阳市」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q71284",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "襄阳",
+     "from": -200,
+     "to": 1911
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "commandery",
+     "note": "208置襄阳郡后郡治/重镇；269羊祜镇襄阳是荆州都督军府，不等于州刺史治所迁来。",
+     "sourceIds": [
+      "JIN15",
+      "SONG37",
+      "SGZ1"
+     ],
+     "confidence": "inferred",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/晉書/卷015",
+      "https://zh.wikisource.org/wiki/宋書/卷37",
+      "https://zh.wikisource.org/wiki/三國志/卷01"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 1911,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：刘表治所、樊城之战；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "fancheng",
+   "aliases": [
+    "樊城"
+   ],
+   "coordinates": [
+    112.12947,
+    32.04685
+   ],
+   "coordinatePrecision": "今樊城区近似（坐标取 Wikidata「樊城区」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1349369",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "樊城",
+     "from": -200,
+     "to": 1911
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "stronghold",
+     "note": "有城防的军事据点；汉志县目无独立樊县，不未经考证称郡治或县治。219曹仁守樊。",
+     "sourceIds": [
+      "HHS112",
+      "SGZ1",
+      "SGZ36"
+     ],
+     "confidence": "inferred",
+     "featureType": "fortified_city",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷112",
+      "https://zh.wikisource.org/wiki/三國志/卷01",
+      "https://zh.wikisource.org/wiki/三國志/卷36"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 1911,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：关羽围樊；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "jiangling",
+   "aliases": [
+    "江陵"
+   ],
+   "coordinates": [
+    112.25,
+    30.31667
+   ],
+   "coordinatePrecision": "荆州古城（江陵）近似（坐标取 Wikidata「江陵」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q124208750",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "江陵",
+     "from": -200,
+     "to": 1911
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "commandery",
+     "note": "南郡治兼荆州军事重镇；吴时州治位置存在讨论，暂不据后世一句话整段升州治。",
+     "sourceIds": [
+      "HHS112",
+      "SGZ47",
+      "JIN15",
+      "SONG37"
+     ],
+     "confidence": "inferred",
+     "from": 215,
+     "to": 279,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷112",
+      "https://zh.wikisource.org/wiki/三國志/卷47",
+      "https://zh.wikisource.org/wiki/晉書/卷015",
+      "https://zh.wikisource.org/wiki/宋書/卷37"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "province",
+     "note": "晋平吴后荆州治江陵，兼南郡治取州治；宋志魏晋治江陵中魏字疑误，不能据此宣称曹魏州治江陵。",
+     "sourceIds": [
+      "JIN15",
+      "SONG37"
+     ],
+     "confidence": "inferred",
+     "from": 280,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/晉書/卷015",
+      "https://zh.wikisource.org/wiki/宋書/卷37"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 1911,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：荆州重镇；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "吴时是否应取州治待专题核；暂郡治+守将。",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "chengdu_city",
+   "aliases": [
+    "成都",
+    "益州"
+   ],
+   "coordinates": [
+    104.06333,
+    30.66
+   ],
+   "coordinatePrecision": "今成都市驻地近似（坐标取 Wikidata「成都市」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q30002",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "成都",
+     "from": -300,
+     "to": 1911
+    }
+   ],
+   "tiers": [
+    {
+     "from": -300,
+     "to": 214,
+     "tier": "capital"
+    },
+    {
+     "tier": "province",
+     "note": "益州牧治与蜀郡治；刘备214定成都，称帝前为主公驻地而非帝都。",
+     "sourceIds": [
+      "SGZ32",
+      "JIN14"
+     ],
+     "confidence": "confirmed",
+     "from": 215,
+     "to": 220,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷32",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "capital",
+     "note": "221四月即皇帝位于成都；221年初仍州治，须读事件转换。",
+     "sourceIds": [
+      "SGZ32",
+      "SGZ33"
+     ],
+     "confidence": "confirmed",
+     "from": 221,
+     "to": 262,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷32",
+      "https://zh.wikisource.org/wiki/三國志/卷33"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "province",
+     "note": "263十一月刘禅降魏后不再皇都，仍益州与蜀郡中枢；263年此前须保留都城状态。",
+     "sourceIds": [
+      "SGZ28",
+      "SGZ33",
+      "JIN14"
+     ],
+     "confidence": "confirmed",
+     "from": 263,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷28",
+      "https://zh.wikisource.org/wiki/三國志/卷33",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 1911,
+     "tier": "capital"
+    }
+   ],
+   "note": "三国数据包：蜀汉都城；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [
+    {
+     "kind": "ruler_seat",
+     "person": "刘备",
+     "note": "214得成都；219汉中王主要驻地仍成都，沔阳仅设坛。",
+     "sourceIds": [
+      "SGZ32"
+     ],
+     "from": 214,
+     "to": 220,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷32"
+     ]
+    },
+    {
+     "kind": "imperial_court",
+     "person": "蜀汉皇帝",
+     "note": "至263十一月降魏。",
+     "sourceIds": [
+      "SGZ32",
+      "SGZ33"
+     ],
+     "startMonth": [
+      221,
+      4
+     ],
+     "endMonthExclusive": [
+      263,
+      11
+     ],
+     "calendar": "traditional_lunar",
+     "requiresEventTiming": true,
+     "from": 221,
+     "to": 263,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷32",
+      "https://zh.wikisource.org/wiki/三國志/卷33"
+     ]
+    }
+   ],
+   "tierTransitions": [
+    {
+     "year": 221,
+     "event": "四月刘备称帝",
+     "fromTier": "province",
+     "toTier": "capital",
+     "sourceIds": [
+      "SGZ32"
+     ],
+     "month": 4,
+     "calendar": "traditional_lunar",
+     "precision": "month"
+    },
+    {
+     "year": 263,
+     "event": "十一月刘禅降魏",
+     "fromTier": "capital",
+     "toTier": "province",
+     "sourceIds": [
+      "SGZ28",
+      "SGZ33"
+     ],
+     "month": 11,
+     "calendar": "traditional_lunar",
+     "precision": "month"
+    }
+   ],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "nanzheng",
+   "aliases": [
+    "南郑",
+    "汉中"
+   ],
+   "coordinates": [
+    107.02598,
+    33.07938
+   ],
+   "coordinatePrecision": "今汉中市近似（坐标取 Wikidata「汉中市」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q515573",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "南郑",
+     "from": -300,
+     "to": 1911
+    }
+   ],
+   "tiers": [
+    {
+     "from": -300,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "commandery",
+     "note": "汉中郡治；守汉中/北伐大本营不等同帝都。",
+     "sourceIds": [
+      "HHS113",
+      "SGZ32",
+      "JIN14"
+     ],
+     "confidence": "confirmed",
+     "from": 215,
+     "to": 266,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷113",
+      "https://zh.wikisource.org/wiki/三國志/卷32",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "province",
+     "note": "晋志梁州专条267置州于汉中，益州条另记266。本次采用专条267，边界待核。",
+     "sourceIds": [
+      "JIN14"
+     ],
+     "confidence": "uncertain",
+     "from": 267,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 1911,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：张鲁据点、汉中之战；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "266/267异载；汉中郡域与南郑城点须分开。",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "wu_city",
+   "aliases": [
+    "吴",
+    "吴县",
+    "苏州"
+   ],
+   "coordinates": [
+    120.61944,
+    31.3
+   ],
+   "coordinatePrecision": "今苏州市近似（坐标取 Wikidata「苏州市」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q42622",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "吴",
+     "from": -500,
+     "to": 1911
+    }
+   ],
+   "tiers": [
+    {
+     "from": -500,
+     "to": 1911,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：孙氏江东根基",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "chaisang",
+   "aliases": [
+    "柴桑",
+    "九江"
+   ],
+   "coordinates": [
+    115.80167,
+    29.61083
+   ],
+   "coordinatePrecision": "今九江柴桑一带近似（坐标取 Wikidata「柴桑区」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1335940",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "柴桑",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "county",
+     "note": "汉豫章、吴武昌郡属柴桑县；军屯不改变县级；304置寻阳郡在窗口外。",
+     "sourceIds": [
+      "HHS112",
+      "JIN15"
+     ],
+     "confidence": "inferred",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷112",
+      "https://zh.wikisource.org/wiki/晉書/卷015"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：孙权驻军、赤壁前夕；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "wuchang_e",
+   "aliases": [
+    "武昌",
+    "鄂",
+    "鄂城"
+   ],
+   "coordinates": [
+    114.88418,
+    30.39724
+   ],
+   "coordinatePrecision": "今鄂州市近似（孙吴武昌）（坐标取 Wikidata「鄂州市」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q71305",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "from": 215,
+     "to": 220,
+     "text": "鄂"
+    },
+    {
+     "from": 221,
+     "to": 290,
+     "text": "武昌"
+    },
+    {
+     "text": "武昌",
+     "from": 291,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "tier": "county",
+     "note": "汉鄂县，非今武汉武昌区；221迁治前不提前画都城。",
+     "sourceIds": [
+      "HHS112",
+      "SGZ47"
+     ],
+     "confidence": "confirmed",
+     "from": 215,
+     "to": 220,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷112",
+      "https://zh.wikisource.org/wiki/三國志/卷47"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "commandery",
+     "note": "221四月孙权自公安都鄂、改武昌置郡；吴王府另列附标，区分229帝都。",
+     "sourceIds": [
+      "SGZ47",
+      "JIN15"
+     ],
+     "confidence": "confirmed",
+     "from": 221,
+     "to": 228,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷47",
+      "https://zh.wikisource.org/wiki/晉書/卷015"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "commandery",
+     "note": "229四月称帝到九月迁建业短暂为皇都；年末回郡治，须读事件两次转换。",
+     "sourceIds": [
+      "SGZ47"
+     ],
+     "confidence": "confirmed",
+     "from": 229,
+     "to": 264,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷47"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "capital",
+     "note": "265九月孙皓迁都武昌，年末为皇都；当年前八月非都。",
+     "sourceIds": [
+      "SGZ48"
+     ],
+     "confidence": "confirmed",
+     "from": 265,
+     "to": 265,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷48"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "commandery",
+     "note": "266十二月还都建业，年末后保留郡治及军镇。",
+     "sourceIds": [
+      "SGZ48",
+      "JIN15"
+     ],
+     "confidence": "confirmed",
+     "from": 266,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷48",
+      "https://zh.wikisource.org/wiki/晉書/卷015"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "capital"
+    }
+   ],
+   "note": "三国数据包：孙权一度定都；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [
+    {
+     "kind": "ruler_seat",
+     "person": "孙权驻地／吴王府",
+     "note": "221四月迁鄂、八月受封吴王；229四月称帝前显示驻地附标。",
+     "sourceIds": [
+      "SGZ47"
+     ],
+     "startMonth": [
+      221,
+      4
+     ],
+     "endMonthExclusive": [
+      229,
+      4
+     ],
+     "calendar": "traditional_lunar",
+     "requiresEventTiming": true,
+     "from": 221,
+     "to": 229,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷47"
+     ]
+    },
+    {
+     "kind": "imperial_court",
+     "person": "孙权",
+     "note": "仅229四月至九月，非全年。",
+     "sourceIds": [
+      "SGZ47"
+     ],
+     "startMonth": [
+      229,
+      4
+     ],
+     "endMonthExclusive": [
+      229,
+      9
+     ],
+     "calendar": "traditional_lunar",
+     "requiresEventTiming": true,
+     "from": 229,
+     "to": 229,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷47"
+     ]
+    },
+    {
+     "kind": "imperial_court",
+     "person": "孙皓",
+     "note": "265九月至266十二月。",
+     "sourceIds": [
+      "SGZ48"
+     ],
+     "startMonth": [
+      265,
+      9
+     ],
+     "endMonthExclusive": [
+      266,
+      12
+     ],
+     "calendar": "traditional_lunar",
+     "requiresEventTiming": true,
+     "from": 265,
+     "to": 266,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷48"
+     ]
+    }
+   ],
+   "tierTransitions": [
+    {
+     "year": 229,
+     "event": "四月孙权称帝",
+     "fromTier": "commandery",
+     "toTier": "capital",
+     "sourceIds": [
+      "SGZ47"
+     ],
+     "month": 4,
+     "calendar": "traditional_lunar",
+     "precision": "month"
+    },
+    {
+     "year": 229,
+     "event": "九月迁建业",
+     "fromTier": "capital",
+     "toTier": "commandery",
+     "sourceIds": [
+      "SGZ47"
+     ],
+     "month": 9,
+     "calendar": "traditional_lunar",
+     "precision": "month"
+    },
+    {
+     "year": 265,
+     "event": "九月孙皓迁入",
+     "fromTier": "commandery",
+     "toTier": "capital",
+     "sourceIds": [
+      "SGZ48"
+     ],
+     "month": 9,
+     "calendar": "traditional_lunar",
+     "precision": "month"
+    },
+    {
+     "year": 266,
+     "event": "十二月还都建业",
+     "fromTier": "capital",
+     "toTier": "commandery",
+     "sourceIds": [
+      "SGZ48"
+     ],
+     "month": 12,
+     "calendar": "traditional_lunar",
+     "precision": "month"
+    }
+   ],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "xiakou",
+   "aliases": [
+    "夏口",
+    "沙羡"
+   ],
+   "coordinates": [
+    114.2975,
+    30.595
+   ],
+   "coordinatePrecision": "今武汉一带近似（坐标取 Wikidata「武汉市」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q11746",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "夏口",
+     "from": 200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": 200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "ferry",
+     "note": "汉水入江口津渡/屯军节点，不等于沙羡县治；不据此断言此前没有城防。",
+     "sourceIds": [
+      "JIN15",
+      "SGZ47"
+     ],
+     "confidence": "inferred",
+     "from": 215,
+     "to": 222,
+     "sources": [
+      "https://zh.wikisource.org/wiki/晉書/卷015",
+      "https://zh.wikisource.org/wiki/三國志/卷47"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "stronghold",
+     "note": "吴主传223记城江夏山，夏口为水陆守备据点；精确对应城点仍待核。",
+     "sourceIds": [
+      "SGZ47",
+      "JIN15"
+     ],
+     "confidence": "uncertain",
+     "featureType": "fortified_city",
+     "from": 223,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷47",
+      "https://zh.wikisource.org/wiki/晉書/卷015"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：江夏、赤壁前后；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "武汉近似点与沙羡县治/夏口军城不可直接等同，223对应点待考古互核。",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "chibi_site",
+   "aliases": [
+    "赤壁"
+   ],
+   "coordinates": [
+    113.63333,
+    29.88333
+   ],
+   "coordinatePrecision": "赤壁之战战场示意（今赤壁市一带，具体地点有争议）（坐标取 Wikidata「赤壁市」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q615021",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "赤壁",
+     "from": 208,
+     "to": 208
+    }
+   ],
+   "tiers": [
+    {
+     "from": 208,
+     "to": 208,
+     "tier": "pass"
+    }
+   ],
+   "note": "三国数据包：赤壁之战",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "changban",
+   "aliases": [
+    "长坂",
+    "当阳"
+   ],
+   "coordinates": [
+    111.79098,
+    30.8258
+   ],
+   "coordinatePrecision": "今当阳一带示意（坐标取 Wikidata「当阳市」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1159699",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "长坂",
+     "from": 208,
+     "to": 208
+    }
+   ],
+   "tiers": [
+    {
+     "from": 208,
+     "to": 208,
+     "tier": "pass"
+    }
+   ],
+   "note": "三国数据包：长坂之战",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "maicheng",
+   "aliases": [
+    "麦城"
+   ],
+   "coordinates": [
+    111.93333,
+    30.7
+   ],
+   "coordinatePrecision": "今当阳东南一带示意（坐标取 Wikidata「麦城」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q124385791",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "麦城",
+     "from": 219,
+     "to": 219
+    }
+   ],
+   "tiers": [
+    {
+     "tier": "stronghold",
+     "note": "219关羽退守的城防据点，未证独立郡县治，不强作县治。",
+     "sourceIds": [
+      "SGZ36",
+      "SGZ47"
+     ],
+     "confidence": "inferred",
+     "featureType": "fortified_city",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷36",
+      "https://zh.wikisource.org/wiki/三國志/卷47"
+     ],
+     "auditBatch": "12"
+    }
+   ],
+   "note": "三国数据包：关羽败走；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "yiling",
+   "aliases": [
+    "夷陵",
+    "西陵"
+   ],
+   "coordinates": [
+    111.31955,
+    30.77596
+   ],
+   "coordinatePrecision": "今宜昌夷陵一带近似（坐标取 Wikidata「夷陵区」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1199218",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "夷陵",
+     "from": -200,
+     "to": 214
+    },
+    {
+     "from": 215,
+     "to": 221,
+     "text": "夷陵"
+    },
+    {
+     "from": 222,
+     "to": 279,
+     "text": "西陵"
+    },
+    {
+     "from": 280,
+     "to": 290,
+     "text": "夷陵"
+    },
+    {
+     "text": "夷陵",
+     "from": 291,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "county",
+     "note": "汉属县、吴改西陵、晋280复夷陵；重要督镇不等于已证郡治，按县城+守将表现。",
+     "sourceIds": [
+      "HHS112",
+      "SONG37",
+      "SGZ58"
+     ],
+     "confidence": "inferred",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷112",
+      "https://zh.wikisource.org/wiki/宋書/卷37",
+      "https://zh.wikisource.org/wiki/三國志/卷58"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：夷陵之战；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "不以现代区划/宜都郡域/后世西陵郡名反推同点等级。",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "xiaoting",
+   "aliases": [
+    "猇亭"
+   ],
+   "coordinates": [
+    111.42383,
+    30.53028
+   ],
+   "coordinatePrecision": "今宜昌猇亭区近似（坐标取 Wikidata「猇亭区」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1199234",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "猇亭",
+     "from": 222,
+     "to": 222
+    }
+   ],
+   "tiers": [
+    {
+     "tier": "region",
+     "note": "夷陵战役亭/战场名，无已核关署或独立郡县治依据。",
+     "sourceIds": [
+      "SGZ32",
+      "SGZ58"
+     ],
+     "confidence": "confirmed",
+     "featureType": "battlefield",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷32",
+      "https://zh.wikisource.org/wiki/三國志/卷58"
+     ],
+     "auditBatch": "12"
+    }
+   ],
+   "note": "三国数据包：陆逊火烧连营；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "baidicheng",
+   "aliases": [
+    "白帝城",
+    "永安",
+    "鱼复"
+   ],
+   "coordinates": [
+    109.57054,
+    31.04349
+   ],
+   "coordinatePrecision": "白帝城遗址或今奉节近似（坐标取 Wikidata「白帝城」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q803709",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "白帝城",
+     "from": -200,
+     "to": 1911
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "stronghold"
+    },
+    {
+     "tier": "stronghold",
+     "note": "本id锚定白帝军事堡城，不等同鱼复县治/巴东郡治；刘备退守与永安托孤见本传。",
+     "sourceIds": [
+      "SGZ32",
+      "SONG37"
+     ],
+     "confidence": "confirmed",
+     "featureType": "fortified_city",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷32",
+      "https://zh.wikisource.org/wiki/宋書/卷37"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 1911,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "三国数据包：刘备托孤；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [
+    {
+     "kind": "temporary_court",
+     "person": "刘备",
+     "note": "222退白帝、223永安托孤，短期驻跸非迁都。",
+     "sourceIds": [
+      "SGZ32"
+     ],
+     "from": 222,
+     "to": 223,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷32"
+     ]
+    }
+   ],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "原库鱼复/永安/白帝城作别名，行政城与堡城范围不必共点，宜拆点。",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "hefei",
+   "aliases": [
+    "合肥"
+   ],
+   "coordinates": [
+    117.28083,
+    31.86389
+   ],
+   "coordinatePrecision": "今合肥市近似（汉魏合肥城在其北）（坐标取 Wikidata「合肥市」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q185684",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "合肥",
+     "from": -200,
+     "to": 1911
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 1911,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "三国数据包：合肥之战",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "ruxu",
+   "aliases": [
+    "濡须",
+    "濡须口"
+   ],
+   "coordinates": [
+    117.95667,
+    31.48694
+   ],
+   "coordinatePrecision": "濡须口一带示意（坐标取 Wikidata「濡须口」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q109412790",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "濡须",
+     "from": 212,
+     "to": 253
+    }
+   ],
+   "tiers": [
+    {
+     "from": 212,
+     "to": 253,
+     "tier": "pass"
+    }
+   ],
+   "note": "三国数据包：濡须之战",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "baima",
+   "aliases": [
+    "白马"
+   ],
+   "coordinates": [
+    114.51894,
+    35.57797
+   ],
+   "coordinatePrecision": "今滑县一带近似（坐标取 Wikidata「滑县」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q386212",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "白马",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：白马之围、斩颜良",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "yanjin",
+   "aliases": [
+    "延津"
+   ],
+   "coordinates": [
+    114.19661,
+    35.14705
+   ],
+   "coordinatePrecision": "今延津县近似（延津渡在其北）（坐标取 Wikidata「延津县」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1198603",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "延津",
+     "from": 200,
+     "to": 200
+    }
+   ],
+   "tiers": [
+    {
+     "from": 200,
+     "to": 200,
+     "tier": "pass"
+    }
+   ],
+   "note": "三国数据包：诛文丑",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "guandu_site",
+   "aliases": [
+    "官渡"
+   ],
+   "coordinates": [
+    114.01083,
+    34.72639
+   ],
+   "coordinatePrecision": "官渡古战场示意（今中牟东北）（坐标取 Wikidata「中牟县」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q113491852",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "官渡",
+     "from": 200,
+     "to": 200
+    }
+   ],
+   "tiers": [
+    {
+     "from": 200,
+     "to": 200,
+     "tier": "pass"
+    }
+   ],
+   "note": "三国数据包：官渡之战",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "liucheng",
+   "aliases": [
+    "柳城",
+    "白狼山"
+   ],
+   "coordinates": [
+    120.44856,
+    41.57567
+   ],
+   "coordinatePrecision": "今朝阳市一带近似（坐标取 Wikidata「朝阳市」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q75336",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "柳城",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：曹操征乌桓",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "tongguan",
+   "aliases": [
+    "潼关"
+   ],
+   "coordinates": [
+    110.2408,
+    34.54433
+   ],
+   "coordinatePrecision": "今潼关县近似（坐标取 Wikidata「潼关县」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q733141",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "潼关",
+     "from": 200,
+     "to": 1911
+    }
+   ],
+   "tiers": [
+    {
+     "from": 200,
+     "to": 1911,
+     "tier": "pass"
+    }
+   ],
+   "note": "三国数据包：潼关之战",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "dingjunshan",
+   "aliases": [
+    "定军山"
+   ],
+   "coordinates": [
+    106.66194,
+    33.1125
+   ],
+   "coordinatePrecision": "定军山（今勉县南）（坐标取 Wikidata「定军山」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q124357027",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "定军山",
+     "from": 219,
+     "to": 219
+    }
+   ],
+   "tiers": [
+    {
+     "tier": "region",
+     "note": "先主传记定军作营、黄忠乘高攻，是山地战场，不是行政城或有建制的关。",
+     "sourceIds": [
+      "SGZ32",
+      "SGZ36"
+     ],
+     "confidence": "confirmed",
+     "featureType": "mountain",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷32",
+      "https://zh.wikisource.org/wiki/三國志/卷36"
+     ],
+     "auditBatch": "12"
+    }
+   ],
+   "note": "三国数据包：黄忠斩夏侯渊；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "yangpingguan",
+   "aliases": [
+    "阳平关"
+   ],
+   "coordinates": [
+    106.05539,
+    32.96135
+   ],
+   "coordinatePrecision": "阳平关一带示意（今勉县西）（坐标取 Wikidata「阳平关」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q15931079",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "阳平关",
+     "from": 200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": 200,
+     "to": 214,
+     "tier": "pass"
+    },
+    {
+     "tier": "pass",
+     "note": "张鲁/夏侯渊与刘备争汉中的关口，关隘性质明确。",
+     "sourceIds": [
+      "SGZ9",
+      "SGZ32"
+     ],
+     "confidence": "confirmed",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷09",
+      "https://zh.wikisource.org/wiki/三國志/卷32"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "pass"
+    }
+   ],
+   "note": "三国数据包：汉中门户；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "原经度106.055与“今勉县西”注释有地望冲突，古关和今同名镇须另核；本批不改坐标。",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "jieting",
+   "aliases": [
+    "街亭"
+   ],
+   "coordinates": [
+    105.66723,
+    34.86193
+   ],
+   "coordinatePrecision": "街亭示意（今秦安东北，有争议）（坐标取 Wikidata「秦安县」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1201152",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "街亭",
+     "from": 228,
+     "to": 228
+    }
+   ],
+   "tiers": [
+    {
+     "tier": "region",
+     "note": "228战场与道路节点；不能因亭字或山险画成关城，行政治级与地望未定。",
+     "sourceIds": [
+      "SGZ35",
+      "SGZ28"
+     ],
+     "confidence": "confirmed",
+     "featureType": "battlefield",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷35",
+      "https://zh.wikisource.org/wiki/三國志/卷28"
+     ],
+     "auditBatch": "12"
+    }
+   ],
+   "note": "三国数据包：马谡失街亭；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "qishan",
+   "aliases": [
+    "祁山"
+   ],
+   "coordinates": [
+    105.39139,
+    34.27972
+   ],
+   "coordinatePrecision": "祁山堡一带（今礼县东）示意（坐标取 Wikidata「祁山」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q124350496",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "祁山",
+     "from": 228,
+     "to": 234
+    }
+   ],
+   "tiers": [
+    {
+     "tier": "region",
+     "note": "北伐山地防线；不把后世祁山堡实物倒推为228已核郡县城。守军另用营寨。",
+     "sourceIds": [
+      "SGZ35",
+      "SGZ28"
+     ],
+     "confidence": "confirmed",
+     "featureType": "mountain",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷35",
+      "https://zh.wikisource.org/wiki/三國志/卷28"
+     ],
+     "auditBatch": "12"
+    }
+   ],
+   "note": "三国数据包：诸葛亮北伐；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "chencang",
+   "aliases": [
+    "陈仓"
+   ],
+   "coordinates": [
+    107.37906,
+    34.35473
+   ],
+   "coordinatePrecision": "今宝鸡陈仓一带近似（坐标取 Wikidata「陈仓区」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1069849",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "陈仓",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "stronghold"
+    },
+    {
+     "tier": "county",
+     "note": "右扶风/扶风属县；郝昭守城是军事功能，不能因此改作无行政级的堡寨。",
+     "sourceIds": [
+      "HHS109",
+      "JIN14",
+      "SGZ35"
+     ],
+     "confidence": "inferred",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷109",
+      "https://zh.wikisource.org/wiki/晉書/卷014",
+      "https://zh.wikisource.org/wiki/三國志/卷35"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "三国数据包：郝昭守陈仓；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "wuzhangyuan",
+   "aliases": [
+    "五丈原"
+   ],
+   "coordinates": [
+    107.61667,
+    34.28333
+   ],
+   "coordinatePrecision": "五丈原（今岐山南）（坐标取 Wikidata「五丈原」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q124139360",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "五丈原",
+     "from": 234,
+     "to": 234
+    }
+   ],
+   "tiers": [
+    {
+     "tier": "region",
+     "note": "234驻军与病逝的原地/战场，不是关隘。",
+     "sourceIds": [
+      "SGZ35"
+     ],
+     "confidence": "confirmed",
+     "featureType": "plateau",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷35"
+     ],
+     "auditBatch": "12"
+    }
+   ],
+   "note": "三国数据包：诸葛亮病逝；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "jiange",
+   "aliases": [
+    "剑阁",
+    "剑门关"
+   ],
+   "coordinates": [
+    105.56333,
+    32.215
+   ],
+   "coordinatePrecision": "剑门关一带（坐标取 Wikidata「剑门关」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q6191827",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "剑阁",
+     "from": 200,
+     "to": 1911
+    }
+   ],
+   "tiers": [
+    {
+     "from": 200,
+     "to": 214,
+     "tier": "pass"
+    },
+    {
+     "tier": "pass",
+     "note": "蜀道关防与姜维拒钟会险要；关隘性质，不复原具体关楼。",
+     "sourceIds": [
+      "SGZ28",
+      "SGZ44"
+     ],
+     "confidence": "confirmed",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷28",
+      "https://zh.wikisource.org/wiki/三國志/卷44"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 1911,
+     "tier": "pass"
+    }
+   ],
+   "note": "三国数据包：姜维拒钟会；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "mianzhu_old",
+   "aliases": [
+    "绵竹"
+   ],
+   "coordinates": [
+    104.19941,
+    31.34463
+   ],
+   "coordinatePrecision": "今绵竹一带近似（汉绵竹在其南）（坐标取 Wikidata「绵竹市」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1209118",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "绵竹",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "county",
+     "note": "汉广汉、晋新都属县；263诸葛瞻守战不升级州郡治。",
+     "sourceIds": [
+      "HHS113",
+      "SGZ28",
+      "JIN14"
+     ],
+     "confidence": "confirmed",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷113",
+      "https://zh.wikisource.org/wiki/三國志/卷28",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：诸葛瞻战死；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "yinping",
+   "aliases": [
+    "阴平"
+   ],
+   "coordinates": [
+    104.67775,
+    32.94432
+   ],
+   "coordinatePrecision": "今文县一带近似（坐标取 Wikidata「文县」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q519605",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "阴平",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "pass"
+    },
+    {
+     "tier": "region",
+     "note": "第27集表示郡境/邪径起点，非一概关城；郡县治点与示意坐标未合证，暂区域锚。",
+     "sourceIds": [
+      "SGZ28",
+      "JIN14"
+     ],
+     "confidence": "uncertain",
+     "featureType": "administrative_region",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷28",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "pass"
+    }
+   ],
+   "note": "三国数据包：邓艾偷渡阴平；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "xiangping_c",
+   "aliases": [
+    "襄平",
+    "辽东"
+   ],
+   "coordinates": [
+    123.1772,
+    41.26432
+   ],
+   "coordinatePrecision": "今辽阳市近似（坐标取 Wikidata「辽阳市」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q75203",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "襄平",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "commandery",
+     "note": "辽东郡治兼公孙氏统治中心；燕王僭号另列，不作皇都。",
+     "sourceIds": [
+      "HHS113",
+      "JIN14",
+      "SGZ28"
+     ],
+     "confidence": "confirmed",
+     "from": 215,
+     "to": 237,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷113",
+      "https://zh.wikisource.org/wiki/晉書/卷014",
+      "https://zh.wikisource.org/wiki/三國志/卷28"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "commandery",
+     "note": "平辽后辽东郡及护东夷校尉驻所；魏平州置废确年不明，不整段强定州治。",
+     "sourceIds": [
+      "JIN14",
+      "SGZ28"
+     ],
+     "confidence": "inferred",
+     "from": 238,
+     "to": 275,
+     "sources": [
+      "https://zh.wikisource.org/wiki/晉書/卷014",
+      "https://zh.wikisource.org/wiki/三國志/卷28"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "province",
+     "note": "晋咸宁二年十月置平州，襄平为州级驻所兼辽东国治；非274。",
+     "sourceIds": [
+      "JIN14"
+     ],
+     "confidence": "inferred",
+     "from": 276,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：公孙氏据辽东、司马懿平辽；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [
+    {
+     "kind": "ruler_seat",
+     "person": "公孙氏",
+     "note": "地方统治中心，237称燕王非称帝。",
+     "sourceIds": [
+      "SGZ28",
+      "JIN14"
+     ],
+     "from": 215,
+     "to": 238,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷28",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ]
+    }
+   ],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "wanxian",
+   "aliases": [
+    "宛",
+    "南阳"
+   ],
+   "coordinates": [
+    112.53426,
+    33.00568
+   ],
+   "coordinatePrecision": "今南阳宛城区近似（坐标取 Wikidata「宛城区」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1198725",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "宛",
+     "from": -300,
+     "to": 1911
+    }
+   ],
+   "tiers": [
+    {
+     "from": -300,
+     "to": 1911,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：张绣、曹操",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "pengcheng",
+   "aliases": [
+    "彭城",
+    "徐州"
+   ],
+   "coordinates": [
+    117.18587,
+    34.26104
+   ],
+   "coordinatePrecision": "今徐州市近似（坐标取 Wikidata「徐州市」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q57719",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "彭城",
+     "from": -300,
+     "to": 1911
+    }
+   ],
+   "tiers": [
+    {
+     "from": -300,
+     "to": 1911,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：徐州治所",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "changsha_c",
+   "aliases": [
+    "长沙",
+    "临湘"
+   ],
+   "coordinates": [
+    112.97087,
+    28.19874
+   ],
+   "coordinatePrecision": "今长沙市近似（坐标取 Wikidata「长沙市」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q174091",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "长沙",
+     "from": -300,
+     "to": 1911
+    }
+   ],
+   "tiers": [
+    {
+     "from": -300,
+     "to": 1911,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：孙坚、荆南",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "weixian_nz",
+   "aliases": [
+    "味县",
+    "南中"
+   ],
+   "coordinates": [
+    103.80287,
+    25.51018
+   ],
+   "coordinatePrecision": "今曲靖一带近似（坐标取 Wikidata「曲靖市」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q496405",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "味县",
+     "from": -100,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -100,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：诸葛亮南征",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "dingtao",
+   "aliases": [
+    "定陶"
+   ],
+   "coordinates": [
+    115.59111,
+    35.1425
+   ],
+   "coordinatePrecision": "今定陶区近似（坐标取 Wikidata「定陶区」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1198464",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "定陶",
+     "from": -300,
+     "to": 1911
+    }
+   ],
+   "tiers": [
+    {
+     "from": -300,
+     "to": 1911,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：兖州之战",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "puyang_c",
+   "aliases": [
+    "濮阳"
+   ],
+   "coordinates": [
+    115.01746,
+    35.70523
+   ],
+   "coordinatePrecision": "今濮阳县近似（坐标取 Wikidata「濮阳县」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1168628",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "濮阳",
+     "from": -300,
+     "to": 1911
+    }
+   ],
+   "tiers": [
+    {
+     "from": -300,
+     "to": 1911,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：曹操吕布濮阳之战",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "nanpi",
+   "aliases": [
+    "南皮"
+   ],
+   "coordinates": [
+    116.6965,
+    38.0405
+   ],
+   "coordinatePrecision": "今南皮县近似（坐标取 Wikidata「南皮县」）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q175721",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "南皮",
+     "from": -200,
+     "to": 1911
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 1911,
+     "tier": "city"
+    }
+   ],
+   "note": "三国数据包：袁谭败亡",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo"
+  },
+  {
+   "id": "gaoping",
+   "aliases": [
+    "高平陵"
+   ],
+   "coordinates": [
+    112.62,
+    34.55
+   ],
+   "coordinatePrecision": "洛阳城南大石山（今万安山北麓）一带示意；魏明帝高平陵在大石山（《水经注》），具体陵址未定",
+   "coordinateSource": "《水经注》卷十五；《三国志·曹爽传》\"车驾朝高平陵\"",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "高平陵",
+     "from": 249,
+     "to": 249
+    }
+   ],
+   "tiers": [
+    {
+     "tier": "region",
+     "note": "魏帝陵与249政变叙事地标，不是关隘；原库陵址仍为示意。",
+     "sourceIds": [
+      "SGZ4",
+      "SGZ28"
+     ],
+     "confidence": "confirmed",
+     "featureType": "tomb",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷04",
+      "https://zh.wikisource.org/wiki/三國志/卷28"
+     ],
+     "auditBatch": "12"
+    }
+   ],
+   "note": "三国数据包：司马懿政变；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-07",
+   "pack": "sanguo",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "具体陵址未定，不声称精确定位。",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "julu_yingtao",
+   "aliases": [
+    "巨鹿"
+   ],
+   "coordinates": [
+    114.95,
+    37.58
+   ],
+   "coordinatePrecision": "东汉巨鹿郡治瘿陶县近似点（今河北宁晋县西南），谭图核对",
+   "coordinateSource": "《后汉书·郡国志》巨鹿郡治瘿陶",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "巨鹿",
+     "from": -200,
+     "to": 300
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 300,
+     "tier": "city"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-08"
+  },
+  {
+   "id": "xiaquyang",
+   "aliases": [
+    "下曲阳"
+   ],
+   "coordinates": [
+    115.02,
+    38.03
+   ],
+   "coordinatePrecision": "东汉下曲阳县近似点（今河北晋州市西），谭图核对",
+   "coordinateSource": "《后汉书·郡国志》巨鹿郡下曲阳",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "下曲阳",
+     "from": -200,
+     "to": 400
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 400,
+     "tier": "city"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-08"
+  },
+  {
+   "id": "linzi",
+   "aliases": [
+    "临淄"
+   ],
+   "coordinates": [
+    118.35,
+    36.85
+   ],
+   "coordinatePrecision": "齐国故都临淄城址（今淄博市临淄区）",
+   "coordinateSource": "临淄齐国故城遗址",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "临淄",
+     "from": -800,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -800,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "province",
+     "note": "青州州治兼齐国治；宋志明确追述青州刺史治临淄，不将311后广固新治提前。",
+     "sourceIds": [
+      "HHS112",
+      "JIN15",
+      "SONG36"
+     ],
+     "confidence": "confirmed",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷112",
+      "https://zh.wikisource.org/wiki/晉書/卷015",
+      "https://zh.wikisource.org/wiki/宋書/卷36"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-08",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "heishan",
+   "aliases": [
+    "黑山"
+   ],
+   "coordinates": [
+    113.9,
+    36.9
+   ],
+   "coordinatePrecision": "太行山东麓黑山军活动区示意点，非具体城址",
+   "coordinateSource": "《三国志·张燕传》黑山贼",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "黑山",
+     "from": 180,
+     "to": 210
+    }
+   ],
+   "tiers": [
+    {
+     "from": 180,
+     "to": 210,
+     "tier": "city"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-08"
+  },
+  {
+   "id": "baibogu",
+   "aliases": [
+    "白波谷"
+   ],
+   "coordinates": [
+    111.4,
+    35.9
+   ],
+   "coordinatePrecision": "白波谷示意点（今山西襄汾一带），白波军起事地",
+   "coordinateSource": "《后汉书·灵帝纪》中平五年白波贼",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "白波谷",
+     "from": 180,
+     "to": 200
+    }
+   ],
+   "tiers": [
+    {
+     "from": 180,
+     "to": 200,
+     "tier": "city"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-08"
+  },
+  {
+   "id": "anyi_han",
+   "aliases": [
+    "安邑",
+    "河东"
+   ],
+   "coordinates": [
+    111.21583,
+    35.13917
+   ],
+   "coordinatePrecision": "东汉河东郡治安邑近似（Wikidata 安邑縣条目坐标，今夏县禹王城一带）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q123753335",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "安邑",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-09"
+  },
+  {
+   "id": "jinyang_han",
+   "aliases": [
+    "晋阳"
+   ],
+   "coordinates": [
+    112.48,
+    37.71
+   ],
+   "coordinatePrecision": "晋阳古城遗址（太原晋源）近似点，按 Wikidata 晋阳湖坐标附近手工估计，未逐点核对",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q11089409",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "晋阳",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-09"
+  },
+  {
+   "id": "chenliu_han",
+   "aliases": [
+    "陈留"
+   ],
+   "coordinates": [
+    114.52917,
+    34.67111
+   ],
+   "coordinatePrecision": "陈留县近似（Wikidata 陳留縣条目坐标，今开封陈留镇）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q15936314",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "陈留",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-09"
+  },
+  {
+   "id": "lintao_han",
+   "aliases": [
+    "临洮",
+    "陇西"
+   ],
+   "coordinates": [
+    104.03917,
+    34.4375
+   ],
+   "coordinatePrecision": "汉临洮县近似（Wikidata 臨洮条目坐标，今甘肃岷县）",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q123583539",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "临洮",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-09"
+  },
+  {
+   "id": "beimang",
+   "aliases": [
+    "北芒",
+    "北邙",
+    "邙山"
+   ],
+   "coordinates": [
+    112.62,
+    34.78
+   ],
+   "coordinatePrecision": "示意：洛阳城北的邙山（北芒）一带，手工点，非精确地点",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q15927798",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "北芒",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "pass"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-09"
+  },
+  {
+   "id": "xiaopingjin",
+   "aliases": [
+    "小平津"
+   ],
+   "coordinates": [
+    112.72,
+    34.88
+   ],
+   "coordinatePrecision": "示意：洛阳以北黄河渡口，按《后汉书》'走小平津'手工估点，非精确地点",
+   "coordinateSource": "后汉书·灵帝纪",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "小平津",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "pass"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-09"
+  },
+  {
+   "id": "jieqiao",
+   "aliases": [
+    "界桥"
+   ],
+   "coordinates": [
+    115.33,
+    37.02
+   ],
+   "coordinatePrecision": "示意：今河北威县东北，界桥之战处，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "界桥",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "guangchuan",
+   "aliases": [
+    "广川"
+   ],
+   "coordinates": [
+    116.08,
+    37.63
+   ],
+   "coordinatePrecision": "示意：今河北景县广川镇一带，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "广川",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "xianshan",
+   "aliases": [
+    "岘山"
+   ],
+   "coordinates": [
+    112.17,
+    31.99
+   ],
+   "coordinatePrecision": "示意：今湖北襄阳城南岘山，孙坚战死处，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "岘山",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "pass"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "mei",
+   "aliases": [
+    "郿"
+   ],
+   "coordinates": [
+    107.84,
+    34.29
+   ],
+   "coordinatePrecision": "示意：今陕西眉县东，董卓郿坞，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "郿",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": 214,
+     "tier": "stronghold"
+    },
+    {
+     "tier": "county",
+     "note": "汉右扶风、晋扶风属县；董卓郿坞是另一设施，不能代替228郿县。",
+     "sourceIds": [
+      "HHS109",
+      "JIN14",
+      "SGZ35"
+     ],
+     "confidence": "confirmed",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷109",
+      "https://zh.wikisource.org/wiki/晉書/卷014",
+      "https://zh.wikisource.org/wiki/三國志/卷35"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": null,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料；第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-11",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "wuguan",
+   "aliases": [
+    "武关"
+   ],
+   "coordinates": [
+    110.65,
+    33.56
+   ],
+   "coordinatePrecision": "示意：今陕西丹凤县东南武关镇，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "武关",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "pass"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "juancheng",
+   "aliases": [
+    "鄄城"
+   ],
+   "coordinates": [
+    115.45,
+    35.69
+   ],
+   "coordinatePrecision": "示意：今山东鄄城县北旧城一带，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "鄄城",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "fan",
+   "aliases": [
+    "范"
+   ],
+   "coordinates": [
+    115.58,
+    35.83
+   ],
+   "coordinatePrecision": "示意：今河南范县东南，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "范",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "donga",
+   "aliases": [
+    "东阿"
+   ],
+   "coordinates": [
+    116.0,
+    36.15
+   ],
+   "coordinatePrecision": "示意：今山东阳谷县阿城镇一带，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "东阿",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "tan",
+   "aliases": [
+    "郯"
+   ],
+   "coordinates": [
+    118.35,
+    34.65
+   ],
+   "coordinatePrecision": "示意：今山东郯城县北，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "郯",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "jibei",
+   "aliases": [
+    "济北"
+   ],
+   "coordinates": [
+    116.62,
+    36.45
+   ],
+   "coordinatePrecision": "示意：济北国治卢县，今济南长清区西南，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "济北",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "caoyang",
+   "aliases": [
+    "曹阳"
+   ],
+   "coordinates": [
+    111.05,
+    34.7
+   ],
+   "coordinatePrecision": "示意：曹阳亭（涧），今河南灵宝与三门峡之间，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "曹阳",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "hongnong",
+   "aliases": [
+    "弘农"
+   ],
+   "coordinates": [
+    110.89,
+    34.62
+   ],
+   "coordinatePrecision": "示意：弘农县，今河南灵宝市北（函谷关旧城一带），按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "弘农",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "shan",
+   "aliases": [
+    "陕"
+   ],
+   "coordinates": [
+    111.19,
+    34.78
+   ],
+   "coordinatePrecision": "示意：今河南三门峡市陕州故城，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "陕",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "xuyi",
+   "aliases": [
+    "盱眙"
+   ],
+   "coordinates": [
+    118.53,
+    33.0
+   ],
+   "coordinatePrecision": "示意：今江苏盱眙县，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "盱眙",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "huaiyin",
+   "aliases": [
+    "淮阴"
+   ],
+   "coordinates": [
+    118.98,
+    33.55
+   ],
+   "coordinatePrecision": "示意：今江苏淮安市淮阴区西南（码头镇一带），按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "淮阴",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "wuyin",
+   "aliases": [
+    "舞阴"
+   ],
+   "coordinates": [
+    113.05,
+    32.95
+   ],
+   "coordinatePrecision": "示意：今河南社旗县东南，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "舞阴",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "yijing",
+   "aliases": [
+    "易京"
+   ],
+   "coordinates": [
+    116.0,
+    39.05
+   ],
+   "coordinatePrecision": "示意：今河北雄县西北，公孙瓒易京，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "易京",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "ji_yan",
+   "aliases": [
+    "蓟"
+   ],
+   "coordinates": [
+    116.35,
+    39.89
+   ],
+   "coordinatePrecision": "示意：今北京西南（广安门一带），按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "蓟",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "jiangting",
+   "aliases": [
+    "江亭"
+   ],
+   "coordinates": [
+    116.85,
+    32.4
+   ],
+   "coordinatePrecision": "示意：袁术死处，大致在寿春附近，确切位置不详，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "江亭",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "qua",
+   "aliases": [
+    "曲阿"
+   ],
+   "coordinates": [
+    119.58,
+    32.0
+   ],
+   "coordinatePrecision": "示意：今江苏丹阳市，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "曲阿",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "lujiang",
+   "aliases": [
+    "庐江"
+   ],
+   "coordinates": [
+    117.25,
+    31.2
+   ],
+   "coordinatePrecision": "示意：庐江郡治舒县，今安徽庐江县西南，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "庐江",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "yuzhang",
+   "aliases": [
+    "豫章"
+   ],
+   "coordinates": [
+    115.89,
+    28.68
+   ],
+   "coordinatePrecision": "示意：豫章郡治南昌，今江西南昌，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "豫章",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "liyang",
+   "aliases": [
+    "黎阳"
+   ],
+   "coordinates": [
+    114.58,
+    35.7
+   ],
+   "coordinatePrecision": "示意：今河南浚县东北，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "黎阳",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "wuchao",
+   "aliases": [
+    "乌巢"
+   ],
+   "coordinates": [
+    114.38,
+    35.17
+   ],
+   "coordinatePrecision": "示意：今河南延津县东南、封丘西一带，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "乌巢",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "dantu",
+   "aliases": [
+    "丹徒"
+   ],
+   "coordinates": [
+    119.45,
+    32.13
+   ],
+   "coordinatePrecision": "示意：今江苏镇江丹徒一带，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "丹徒",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "wuzhong",
+   "aliases": [
+    "无终"
+   ],
+   "coordinates": [
+    117.41,
+    40.04
+   ],
+   "coordinatePrecision": "示意：今天津蓟州区，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "无终",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "lulongsai",
+   "aliases": [
+    "卢龙塞"
+   ],
+   "coordinates": [
+    118.4,
+    40.42
+   ],
+   "coordinatePrecision": "示意：今河北迁西县喜峰口一带，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "卢龙塞",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "pass"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "xinye",
+   "aliases": [
+    "新野"
+   ],
+   "coordinates": [
+    112.36,
+    32.52
+   ],
+   "coordinatePrecision": "示意：今河南新野县，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "新野",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "longzhong",
+   "aliases": [
+    "隆中"
+   ],
+   "coordinates": [
+    112.0,
+    32.03
+   ],
+   "coordinatePrecision": "示意：今湖北襄阳城西古隆中，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "隆中",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "yangren",
+   "aliases": [
+    "阳人"
+   ],
+   "coordinates": [
+    112.7,
+    34.17
+   ],
+   "coordinatePrecision": "示意：阳人聚，今河南汝州市西，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "阳人",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "mengjin",
+   "aliases": [
+    "孟津"
+   ],
+   "coordinates": [
+    112.62,
+    34.85
+   ],
+   "coordinatePrecision": "示意：黄河孟津渡，今河南孟州南、孟津东北，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "孟津",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "pass"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "pingyuan",
+   "aliases": [
+    "平原"
+   ],
+   "coordinates": [
+    116.43,
+    37.16
+   ],
+   "coordinatePrecision": "示意：平原郡治平原县，今山东平原县南，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "平原",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "beihai",
+   "aliases": [
+    "北海"
+   ],
+   "coordinates": [
+    118.75,
+    36.75
+   ],
+   "coordinatePrecision": "示意：北海国治剧县，今山东昌乐西北，按今地手工估点（误差约 5–15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "北海",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 为第3–10集备料",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "bailangshan",
+   "aliases": [
+    "白狼山"
+   ],
+   "coordinates": [
+    119.95,
+    41.15
+   ],
+   "coordinatePrecision": "示意：今辽宁喀左大阳山一带，按今地手工估点（误差约 10–20 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "白狼山",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "pass"
+    }
+   ],
+   "note": "2026-10-11 第11集北征乌桓",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "wulin",
+   "aliases": [
+    "乌林"
+   ],
+   "coordinates": [
+    113.55,
+    29.97
+   ],
+   "coordinatePrecision": "示意：今湖北洪湖市乌林镇一带（赤壁对岸），按今地手工估点（误差约 10 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "乌林",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "2026-10-11 第12集赤壁",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "huarong_han",
+   "aliases": [
+    "华容"
+   ],
+   "coordinates": [
+    112.75,
+    30.25
+   ],
+   "coordinatePrecision": "示意：东汉华容县，今湖北潜江西南、监利北一带，按今地手工估点（误差约 15 km），非精确地点",
+   "coordinateSource": "Claude 依今地近似，待核",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "华容",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "city"
+    }
+   ],
+   "note": "2026-10-11 第12集赤壁·华容道",
+   "reviewStatus": "agent",
+   "added": "2026-10-11"
+  },
+  {
+   "id": "gongan_han",
+   "aliases": [
+    "公安",
+    "油江口"
+   ],
+   "coordinates": [
+    112.23,
+    30.06
+   ],
+   "coordinatePrecision": "今湖北公安县一带近似（油江口，刘备改名公安）；手工估计",
+   "coordinateSource": "三国志·先主传；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "公安",
+     "from": 209,
+     "to": 280
+    }
+   ],
+   "tiers": [
+    {
+     "from": 209,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "county",
+     "note": "油江口改名的县级城与刘备一度驻地；荆州牧驻地另列，不据驻军直接升郡治。",
+     "sourceIds": [
+      "SGZ32",
+      "SGZ47",
+      "JIN15"
+     ],
+     "confidence": "inferred",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷32",
+      "https://zh.wikisource.org/wiki/三國志/卷47",
+      "https://zh.wikisource.org/wiki/晉書/卷015"
+     ],
+     "auditBatch": "12"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [
+    {
+     "kind": "ruler_seat",
+     "person": "刘备",
+     "note": "领荆州牧治公安，211入蜀；215返公安属于短期统军。",
+     "sourceIds": [
+      "SGZ32",
+      "SGZ47"
+     ],
+     "from": 209,
+     "to": 211,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷32",
+      "https://zh.wikisource.org/wiki/三國志/卷47"
+     ]
+    },
+    {
+     "kind": "ruler_seat",
+     "person": "孙权",
+     "note": "取荆州后驻公安；221四月自公安迁鄂，到达确月与驻治性另核。",
+     "sourceIds": [
+      "SGZ47"
+     ],
+     "from": 219,
+     "to": 220,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷47"
+     ]
+    }
+   ],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "baqiu_yueyang",
+   "aliases": [
+    "巴丘"
+   ],
+   "coordinates": [
+    113.13,
+    29.37
+   ],
+   "coordinatePrecision": "今湖南岳阳近似；周瑜卒地巴丘另有江西峡江一说，此处取岳阳说；手工估计",
+   "coordinateSource": "三国志·周瑜传；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "巴丘",
+     "from": 200,
+     "to": 280
+    }
+   ],
+   "tiers": [
+    {
+     "from": 200,
+     "to": 280,
+     "tier": "city"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-14"
+  },
+  {
+   "id": "jingkou",
+   "aliases": [
+    "京口",
+    "京",
+    "丹徒"
+   ],
+   "coordinates": [
+    119.43,
+    32.2
+   ],
+   "coordinatePrecision": "今江苏镇江近似；手工估计",
+   "coordinateSource": "三国志·先主传、鲁肃传；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "京口",
+     "from": 200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": 200,
+     "to": 208,
+     "tier": "city"
+    },
+    {
+     "tier": "county",
+     "note": "京口/丹徒县级城，209刘备诣京见孙权可证驻地；孙权更早治京口确年未核，不提前称南徐州治。",
+     "sourceIds": [
+      "SGZ32",
+      "SGZ56",
+      "JIN15"
+     ],
+     "confidence": "inferred",
+     "from": 209,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷32",
+      "https://zh.wikisource.org/wiki/三國志/卷56",
+      "https://zh.wikisource.org/wiki/晉書/卷015"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [
+    {
+     "kind": "ruler_seat",
+     "person": "孙权",
+     "note": "209刘备诣京见权可证；此前治京开始年未定。",
+     "sourceIds": [
+      "SGZ32",
+      "SGZ56"
+     ],
+     "from": 209,
+     "to": 210,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷32",
+      "https://zh.wikisource.org/wiki/三國志/卷56"
+     ]
+    }
+   ],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     209,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "不在18–29集places，补迁治链。",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "linyuan",
+   "aliases": [
+    "临沅",
+    "武陵"
+   ],
+   "coordinates": [
+    111.69,
+    29.03
+   ],
+   "coordinatePrecision": "今湖南常德近似（武陵郡治）；手工估计",
+   "coordinateSource": "后汉书·郡国志；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "临沅",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-14"
+  },
+  {
+   "id": "chen_guiyang",
+   "aliases": [
+    "郴",
+    "桂阳"
+   ],
+   "coordinates": [
+    113.01,
+    25.77
+   ],
+   "coordinatePrecision": "今湖南郴州近似（桂阳郡治）；手工估计",
+   "coordinateSource": "后汉书·郡国志；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "郴",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-14"
+  },
+  {
+   "id": "quanling",
+   "aliases": [
+    "泉陵",
+    "零陵"
+   ],
+   "coordinates": [
+    111.61,
+    26.22
+   ],
+   "coordinatePrecision": "今湖南永州零陵近似（零陵郡治）；手工估计",
+   "coordinateSource": "后汉书·郡国志；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "泉陵",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-14"
+  },
+  {
+   "id": "pubanjin",
+   "aliases": [
+    "蒲阪津",
+    "蒲阪",
+    "蒲坂津"
+   ],
+   "coordinates": [
+    110.31,
+    34.83
+   ],
+   "coordinatePrecision": "今山西永济蒲州古城西黄河渡口近似；手工估计",
+   "coordinateSource": "三国志·武帝纪；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "蒲阪津",
+     "from": -300,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -300,
+     "to": 600,
+     "tier": "pass"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-14"
+  },
+  {
+   "id": "weinan_camp",
+   "aliases": [
+    "渭南",
+    "渭口"
+   ],
+   "coordinates": [
+    110.05,
+    34.6
+   ],
+   "coordinatePrecision": "示意：渭水入河口以南、华阴以西的曹军营地，手工估点",
+   "coordinateSource": "三国志·武帝纪",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "渭南",
+     "from": 211,
+     "to": 211
+    }
+   ],
+   "tiers": [
+    {
+     "from": 211,
+     "to": 211,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-14"
+  },
+  {
+   "id": "jincheng_han",
+   "aliases": [
+    "金城"
+   ],
+   "coordinates": [
+    103.83,
+    36.06
+   ],
+   "coordinatePrecision": "今甘肃兰州近似（汉金城郡一带）；手工估计",
+   "coordinateSource": "后汉书·郡国志；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "金城",
+     "from": -100,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -100,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-14"
+  },
+  {
+   "id": "linjing_anding",
+   "aliases": [
+    "安定",
+    "临泾"
+   ],
+   "coordinates": [
+    107.2,
+    35.68
+   ],
+   "coordinatePrecision": "今甘肃镇原近似（安定郡治临泾）；手工估计",
+   "coordinateSource": "后汉书·郡国志；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "安定",
+     "from": -100,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -100,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-14"
+  },
+  {
+   "id": "fu_mianyang",
+   "aliases": [
+    "涪",
+    "涪城",
+    "涪县"
+   ],
+   "coordinates": [
+    104.74,
+    31.47
+   ],
+   "coordinatePrecision": "今四川绵阳近似（汉涪县）；手工估计",
+   "coordinateSource": "三国志·先主传；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "涪",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "county",
+     "note": "汉广汉属县；蜀置梓潼郡后涪城为属县，非梓潼郡治。",
+     "sourceIds": [
+      "HHS113",
+      "JIN14"
+     ],
+     "confidence": "inferred",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷113",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "jiameng",
+   "aliases": [
+    "葭萌",
+    "葭萌关"
+   ],
+   "coordinates": [
+    105.85,
+    32.3
+   ],
+   "coordinatePrecision": "今四川广元昭化古城近似；手工估计",
+   "coordinateSource": "三国志·先主传；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "葭萌",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 600,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-14"
+  },
+  {
+   "id": "baishuiguan",
+   "aliases": [
+    "白水关",
+    "关头"
+   ],
+   "coordinates": [
+    105.95,
+    32.7
+   ],
+   "coordinatePrecision": "示意：今四川广元青川—朝天一带，白水关址有多说；手工估点",
+   "coordinateSource": "三国志·先主传",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "白水关",
+     "from": 190,
+     "to": 280
+    }
+   ],
+   "tiers": [
+    {
+     "from": 190,
+     "to": 280,
+     "tier": "pass"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-14"
+  },
+  {
+   "id": "luo_guanghan",
+   "aliases": [
+    "雒",
+    "雒城",
+    "雒县"
+   ],
+   "coordinates": [
+    104.27,
+    30.99
+   ],
+   "coordinatePrecision": "今四川广汉近似（汉雒县）；手工估计",
+   "coordinateSource": "三国志·先主传、庞统传；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "雒",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "commandery",
+     "note": "汉广汉郡治；晋置新都郡治雒、285并广汉，郡名改变不等于等级改变。蜀中段治所仍有考证空间。",
+     "sourceIds": [
+      "HHS113",
+      "JIN14"
+     ],
+     "confidence": "inferred",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷113",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "jiangzhou_chongqing",
+   "aliases": [
+    "江州",
+    "巴郡"
+   ],
+   "coordinates": [
+    106.57,
+    29.56
+   ],
+   "coordinatePrecision": "今重庆渝中半岛近似（汉巴郡治江州）；手工估计",
+   "coordinateSource": "三国志·张飞传；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "江州",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "commandery",
+     "note": "巴郡治江州与蜀江州督军镇；不是晋江州州治。",
+     "sourceIds": [
+      "HHS113",
+      "JIN14",
+      "SGZ32"
+     ],
+     "confidence": "confirmed",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷113",
+      "https://zh.wikisource.org/wiki/晉書/卷014",
+      "https://zh.wikisource.org/wiki/三國志/卷32"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "xiaoyaojin",
+   "aliases": [
+    "逍遥津"
+   ],
+   "coordinates": [
+    117.3,
+    31.88
+   ],
+   "coordinatePrecision": "今合肥逍遥津公园一带近似（汉魏合肥城东北的渡口）；手工估计",
+   "coordinateSource": "三国志·吴主传、甘宁传；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "逍遥津",
+     "from": 200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": 200,
+     "to": 600,
+     "tier": "pass"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-14"
+  },
+  {
+   "id": "yiyang_han",
+   "aliases": [
+    "益阳"
+   ],
+   "coordinates": [
+    112.36,
+    28.55
+   ],
+   "coordinatePrecision": "今湖南益阳近似；手工估计",
+   "coordinateSource": "三国志·鲁肃传、先主传；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "益阳",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-14"
+  },
+  {
+   "id": "langzhong",
+   "aliases": [
+    "阆中",
+    "巴中",
+    "巴西"
+   ],
+   "coordinates": [
+    105.97,
+    31.58
+   ],
+   "coordinatePrecision": "今四川阆中近似（巴西一带）；手工估计",
+   "coordinateSource": "三国志·张鲁传；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "阆中",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "commandery",
+     "note": "巴西郡治与张飞镇所；驻将不改变郡治等级。",
+     "sourceIds": [
+      "SGZ36",
+      "JIN14"
+     ],
+     "confidence": "confirmed",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷36",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "mianyang_han",
+   "aliases": [
+    "沔阳"
+   ],
+   "coordinates": [
+    106.78,
+    33.16
+   ],
+   "coordinatePrecision": "今陕西勉县旧州铺一带近似（汉沔阳县）；手工估计",
+   "coordinateSource": "三国志·先主传；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "沔阳",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "county",
+     "note": "汉中郡属县；219设坛称王、228屯军均不使沔阳成为王国都城。",
+     "sourceIds": [
+      "HHS113",
+      "SGZ32",
+      "JIN14"
+     ],
+     "confidence": "confirmed",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷113",
+      "https://zh.wikisource.org/wiki/三國志/卷32",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "xiegu",
+   "aliases": [
+    "斜谷",
+    "斜谷口"
+   ],
+   "coordinates": [
+    107.75,
+    34.2
+   ],
+   "coordinatePrecision": "今陕西眉县斜峪关（褒斜道北口）近似；手工估计",
+   "coordinateSource": "三国志·武帝纪；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "斜谷",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "pass"
+    },
+    {
+     "tier": "region",
+     "note": "褒斜道谷口/通道；不据后世斜峪关名画汉魏固定关楼。",
+     "sourceIds": [
+      "SGZ1",
+      "SGZ35"
+     ],
+     "confidence": "confirmed",
+     "featureType": "valley",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷01",
+      "https://zh.wikisource.org/wiki/三國志/卷35"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "pass"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "linju",
+   "aliases": [
+    "临沮",
+    "章乡",
+    "漳乡"
+   ],
+   "coordinates": [
+    111.64,
+    31.06
+   ],
+   "coordinatePrecision": "今湖北远安一带近似（汉临沮县）；关羽被擒之章乡在其境内，具体位置有争议；手工估计",
+   "coordinateSource": "三国志·关羽传、吴主传；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "临沮",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "county",
+     "note": "汉南郡临沮县、魏晋属襄阳郡；章乡在县境，县治点非精确被擒点。",
+     "sourceIds": [
+      "HHS112",
+      "JIN15",
+      "SONG37"
+     ],
+     "confidence": "confirmed",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷112",
+      "https://zh.wikisource.org/wiki/晉書/卷015",
+      "https://zh.wikisource.org/wiki/宋書/卷37"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "xunyang_han",
+   "aliases": [
+    "寻阳"
+   ],
+   "coordinates": [
+    115.95,
+    29.95
+   ],
+   "coordinatePrecision": "今湖北黄梅西南近似（汉寻阳县）；手工估计",
+   "coordinateSource": "三国志·吕蒙传；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "寻阳",
+     "from": -200,
+     "to": 400
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "county",
+     "note": "汉庐江寻阳县、221入武昌郡，晋仍县；304寻阳郡在窗口外。",
+     "sourceIds": [
+      "HHS112",
+      "SGZ47",
+      "JIN15"
+     ],
+     "confidence": "confirmed",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷112",
+      "https://zh.wikisource.org/wiki/三國志/卷47",
+      "https://zh.wikisource.org/wiki/晉書/卷015"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 400,
+     "tier": "city"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "fanyang_ting",
+   "aliases": [
+    "繁阳",
+    "繁昌",
+    "受禅台"
+   ],
+   "coordinates": [
+    113.97,
+    33.92
+   ],
+   "coordinatePrecision": "今河南临颍繁城镇近似（受禅台所在）；手工估计",
+   "coordinateSource": "三国志·文帝纪；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "繁阳",
+     "from": 220,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "tier": "region",
+     "note": "颍阴县内亭级地点，不是独立郡县治或军事堡寨。",
+     "sourceIds": [
+      "SGZ2"
+     ],
+     "confidence": "confirmed",
+     "featureType": "ceremonial_site",
+     "from": 215,
+     "to": 219,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷02"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "county",
+     "note": "220十一月以颍阴繁阳亭置繁昌县；受禅时尚为亭/坛场，不能倒置县级。",
+     "sourceIds": [
+      "SGZ2",
+      "JIN14"
+     ],
+     "confidence": "confirmed",
+     "from": 220,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷02",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [
+    {
+     "year": 220,
+     "event": "十一月繁阳亭升县，受禅时尚为亭",
+     "fromTier": "region",
+     "toTier": "county",
+     "sourceIds": [
+      "SGZ2"
+     ],
+     "month": 11,
+     "calendar": "traditional_lunar",
+     "precision": "month"
+    }
+   ],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "zigui",
+   "aliases": [
+    "秭归"
+   ],
+   "coordinates": [
+    110.98,
+    30.83
+   ],
+   "coordinatePrecision": "今湖北秭归归州镇一带近似；手工估计",
+   "coordinateSource": "三国志·先主传；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "秭归",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "county",
+     "note": "汉南郡后宜都属县；刘备临时驻军不升级都城或州治。",
+     "sourceIds": [
+      "HHS112",
+      "SONG37",
+      "SGZ32"
+     ],
+     "confidence": "confirmed",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷112",
+      "https://zh.wikisource.org/wiki/宋書/卷37",
+      "https://zh.wikisource.org/wiki/三國志/卷32"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "guangling_city",
+   "aliases": [
+    "广陵"
+   ],
+   "coordinates": [
+    119.43,
+    32.42
+   ],
+   "coordinatePrecision": "今江苏扬州蜀冈广陵故城近似；手工估计",
+   "coordinateSource": "三国志·文帝纪；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "广陵",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "county",
+     "note": "旧广陵县城；魏郡治内徙淮阴，不能把后世扬州府/南兖州治倒推曹丕南征；215–219内迁边界未核，保守县级。",
+     "sourceIds": [
+      "HHS111",
+      "JIN15",
+      "DF23"
+     ],
+     "confidence": "uncertain",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷111",
+      "https://zh.wikisource.org/wiki/晉書/卷015",
+      "https://zh.wikisource.org/wiki/讀史方輿紀要/卷二十三"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "224–225用县城；215–219郡治内迁确年待核。",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "qiao_bozhou",
+   "aliases": [
+    "谯",
+    "谯县"
+   ],
+   "coordinates": [
+    115.78,
+    33.85
+   ],
+   "coordinatePrecision": "今安徽亳州近似（谯县，曹氏故里）；手工估计",
+   "coordinateSource": "三国志·文帝纪；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "谯",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "commandery",
+     "note": "魏武分沛立谯郡、治谯；曹氏故里与五都名号另列，不作常驻帝都。",
+     "sourceIds": [
+      "JIN14",
+      "SGZ2"
+     ],
+     "confidence": "confirmed",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/晉書/卷014",
+      "https://zh.wikisource.org/wiki/三國志/卷02"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [
+    {
+     "kind": "secondary_capital",
+     "person": "曹魏",
+     "note": "魏略所记五都之一，不等同洛阳主廷；晋不自动继承此名号。",
+     "sourceIds": [
+      "SGZ2"
+     ],
+     "from": 221,
+     "to": 265,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷02"
+     ]
+    }
+   ],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "dianchi_han",
+   "aliases": [
+    "滇池",
+    "南中",
+    "益州郡"
+   ],
+   "coordinates": [
+    102.72,
+    24.9
+   ],
+   "coordinatePrecision": "今云南昆明晋宁一带近似（益州郡治滇池县）；手工估计",
+   "coordinateSource": "后汉书·郡国志；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "滇池",
+     "from": -100,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -100,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "commandery",
+     "note": "东汉益州郡治滇池；晋志改建宁记224、华阳国志南征治味记225，迁治显示边界取225。",
+     "sourceIds": [
+      "HHS113",
+      "HY4",
+      "JIN14"
+     ],
+     "confidence": "inferred",
+     "from": 215,
+     "to": 224,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷113",
+      "https://zh.wikisource.org/wiki/華陽國志/卷四",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "county",
+     "note": "南征后建宁郡治味县，滇池保留属县；224–225改名/迁治记年有出入，不称确定日月。",
+     "sourceIds": [
+      "HY4",
+      "JIN14"
+     ],
+     "confidence": "inferred",
+     "from": 225,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/華陽國志/卷四",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "坐标102.72/24.9与注释晋宁一带不完全一致，不改坐标，待核。",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "qiongdu",
+   "aliases": [
+    "越巂",
+    "邛都"
+   ],
+   "coordinates": [
+    102.26,
+    27.89
+   ],
+   "coordinatePrecision": "今四川西昌近似（越巂郡治邛都）；手工估计",
+   "coordinateSource": "后汉书·郡国志；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "越巂",
+     "from": -100,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -100,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "commandery",
+     "note": "汉越巂治邛都；汉末乱局实际治所变化须谨慎。",
+     "sourceIds": [
+      "HHS113",
+      "SGZ43"
+     ],
+     "confidence": "inferred",
+     "from": 215,
+     "to": 224,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷113",
+      "https://zh.wikisource.org/wiki/三國志/卷43"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "region",
+     "note": "太守因乱避治安上，225节点表示越巂一带，不冒称邛都仍有正常郡府。",
+     "sourceIds": [
+      "SGZ43"
+     ],
+     "confidence": "inferred",
+     "featureType": "displaced_seat",
+     "from": 225,
+     "to": 238,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷43"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "commandery",
+     "note": "张嶷复旧郡；239由254归朝前在郡十五年逆推。晋志会无列首，后续确切治所仍待核。",
+     "sourceIds": [
+      "SGZ43",
+      "JIN14"
+     ],
+     "confidence": "uncertain",
+     "from": 239,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷43",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "邛都与安上应拆点；239非原文直接给出的迁治年，晋治所连续性待核。",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "zangke_han",
+   "aliases": [
+    "牂牁",
+    "且兰"
+   ],
+   "coordinates": [
+    107.5,
+    26.6
+   ],
+   "coordinatePrecision": "示意：今贵州福泉—黄平一带（牂牁郡治且兰，地望有争议）；手工估点",
+   "coordinateSource": "后汉书·郡国志",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "牂牁",
+     "from": -100,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -100,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "commandery",
+     "note": "东汉治故且兰；第22集南征段暂作郡治。晋志万寿列首，迁治确年未核，后续连续性待考。",
+     "sourceIds": [
+      "HHS113",
+      "JIN14"
+     ],
+     "confidence": "uncertain",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷113",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "福泉—黄平地望多说；225后不能无条件视为已核郡治，应拆且兰/万寿点。",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "jigu",
+   "aliases": [
+    "箕谷"
+   ],
+   "coordinates": [
+    106.95,
+    33.35
+   ],
+   "coordinatePrecision": "示意：褒斜道南段，今陕西汉中褒城以北的褒谷一带；手工估点",
+   "coordinateSource": "三国志·诸葛亮传",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "箕谷",
+     "from": 200,
+     "to": 300
+    }
+   ],
+   "tiers": [
+    {
+     "from": 200,
+     "to": 214,
+     "tier": "pass"
+    },
+    {
+     "tier": "region",
+     "note": "赵云邓芝疑军据箕谷，是谷道，非已证行政城或关城。",
+     "sourceIds": [
+      "SGZ35",
+      "SGZ36"
+     ],
+     "confidence": "confirmed",
+     "featureType": "valley",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷35",
+      "https://zh.wikisource.org/wiki/三國志/卷36"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 300,
+     "tier": "pass"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "ji_tianshui",
+   "aliases": [
+    "冀",
+    "天水",
+    "冀县"
+   ],
+   "coordinates": [
+    105.25,
+    34.74
+   ],
+   "coordinatePrecision": "今甘肃甘谷县东近似（汉阳郡/天水郡治冀县）；手工估计",
+   "coordinateSource": "后汉书·郡国志；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "冀",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "commandery",
+     "note": "东汉汉阳治冀，魏复天水名；228剧集以冀城代表天水，郡治迁上邽确年未核。",
+     "sourceIds": [
+      "HHS113",
+      "SGZ44",
+      "JIN14"
+     ],
+     "confidence": "uncertain",
+     "from": 215,
+     "to": 268,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷113",
+      "https://zh.wikisource.org/wiki/三國志/卷44",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "province",
+     "note": "269复秦州镇冀城，282罢；按年末状态。",
+     "sourceIds": [
+      "JIN14"
+     ],
+     "confidence": "confirmed",
+     "from": 269,
+     "to": 281,
+     "sources": [
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "county",
+     "note": "282罢秦州；287复置改镇上邽，冀仍属县，不沿用秦州治。",
+     "sourceIds": [
+      "JIN14"
+     ],
+     "confidence": "confirmed",
+     "from": 282,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "天水郡域与冀/上邽城点应分开；228郡治位置待复核。",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "wan_qianshan",
+   "aliases": [
+    "皖",
+    "皖城",
+    "皖口"
+   ],
+   "coordinates": [
+    116.57,
+    30.63
+   ],
+   "coordinatePrecision": "今安徽潜山近似（皖城）；手工估计",
+   "coordinateSource": "三国志·吴主传、周鲂传；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "皖",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "commandery",
+     "note": "吴庐江太守治皖说据晚出地理考证，和魏庐江郡治分开；不混同同名异治郡府。",
+     "sourceIds": [
+      "HHS112",
+      "SGZ47",
+      "DF26"
+     ],
+     "confidence": "inferred",
+     "from": 215,
+     "to": 279,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷112",
+      "https://zh.wikisource.org/wiki/三國志/卷47",
+      "https://zh.wikisource.org/wiki/讀史方輿紀要/卷二十六"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "county",
+     "note": "晋庐江以阳泉列首，皖为属县；不提前画后世安庆府治。",
+     "sourceIds": [
+      "JIN15"
+     ],
+     "confidence": "inferred",
+     "from": 280,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/晉書/卷015"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "shiting",
+   "aliases": [
+    "石亭"
+   ],
+   "coordinates": [
+    116.75,
+    30.85
+   ],
+   "coordinatePrecision": "示意：今安徽潜山—舒城之间，石亭地望有多说；手工估点",
+   "coordinateSource": "三国志·明帝纪、陆逊传",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "石亭",
+     "from": 228,
+     "to": 228
+    }
+   ],
+   "tiers": [
+    {
+     "tier": "region",
+     "note": "228战场，地望多说，无本次可靠依据证明郡县治或固定堡城。",
+     "sourceIds": [
+      "SGZ47",
+      "SGZ58"
+     ],
+     "confidence": "confirmed",
+     "featureType": "battlefield",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷47",
+      "https://zh.wikisource.org/wiki/三國志/卷58"
+     ],
+     "auditBatch": "12"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "sanguan",
+   "aliases": [
+    "散关",
+    "大散关"
+   ],
+   "coordinates": [
+    106.98,
+    34.25
+   ],
+   "coordinatePrecision": "今陕西宝鸡南大散关近似；手工估计",
+   "coordinateSource": "三国志·诸葛亮传；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "散关",
+     "from": -200,
+     "to": 900
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "pass"
+    },
+    {
+     "tier": "pass",
+     "note": "秦蜀军事关口，关隘性质明确。",
+     "sourceIds": [
+      "SGZ35"
+     ],
+     "confidence": "confirmed",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷35"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 900,
+     "tier": "pass"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "mumen",
+   "aliases": [
+    "木门",
+    "木门道"
+   ],
+   "coordinates": [
+    105.55,
+    34.42
+   ],
+   "coordinatePrecision": "示意：今甘肃天水西南木门道一带；手工估点",
+   "coordinateSource": "三国志·张郃传",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "木门",
+     "from": 200,
+     "to": 300
+    }
+   ],
+   "tiers": [
+    {
+     "from": 200,
+     "to": 214,
+     "tier": "pass"
+    },
+    {
+     "tier": "region",
+     "note": "张郃追军中箭的谷道战场，无已核关署建制/关城形制证据。",
+     "sourceIds": [
+      "SGZ17"
+     ],
+     "confidence": "confirmed",
+     "featureType": "valley",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷17"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 300,
+     "tier": "pass"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "xiabian",
+   "aliases": [
+    "武都",
+    "下辨"
+   ],
+   "coordinates": [
+    105.72,
+    33.75
+   ],
+   "coordinatePrecision": "今甘肃成县西近似（武都郡治下辨）；手工估计",
+   "coordinateSource": "后汉书·郡国志；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "武都",
+     "from": -100,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -100,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "commandery",
+     "note": "汉武都治下辨、晋志下辨列首；武都郡域名不等于精确城点保证。",
+     "sourceIds": [
+      "HHS113",
+      "JIN14",
+      "SGZ35"
+     ],
+     "confidence": "inferred",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷113",
+      "https://zh.wikisource.org/wiki/晉書/卷014",
+      "https://zh.wikisource.org/wiki/三國志/卷35"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "lejia",
+   "aliases": [
+    "乐嘉"
+   ],
+   "coordinates": [
+    114.75,
+    33.55
+   ],
+   "coordinatePrecision": "示意：今河南商水—项城一带（乐嘉城地望有争议）；手工估点",
+   "coordinateSource": "晋书·景帝纪",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "乐嘉",
+     "from": 200,
+     "to": 300
+    }
+   ],
+   "tiers": [
+    {
+     "from": 200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "region",
+     "note": "255东征屯军及渡水相关地点；郡县治级、具体地望未核，暂为战役地标，不硬写县治或正式津。",
+     "sourceIds": [
+      "SGZ28"
+     ],
+     "confidence": "uncertain",
+     "featureType": "battlefield",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷28"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 300,
+     "tier": "city"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "xiang_xiangcheng",
+   "aliases": [
+    "项",
+    "项县"
+   ],
+   "coordinates": [
+    114.9,
+    33.44
+   ],
+   "coordinatePrecision": "今河南沈丘—项城一带近似（项县）；手工估计",
+   "coordinateSource": "三国志·王凌传；今地名坐标",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "项",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 214,
+     "tier": "city"
+    },
+    {
+     "tier": "county",
+     "note": "汉汝南、晋梁国属县项；军屯不升级。",
+     "sourceIds": [
+      "HHS110",
+      "JIN14",
+      "SGZ28"
+     ],
+     "confidence": "confirmed",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/後漢書/卷110",
+      "https://zh.wikisource.org/wiki/晉書/卷014",
+      "https://zh.wikisource.org/wiki/三國志/卷28"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "jiangyou_guan",
+   "aliases": [
+    "江由",
+    "江油",
+    "江油关"
+   ],
+   "coordinates": [
+    104.95,
+    32.2
+   ],
+   "coordinatePrecision": "示意：今四川平武南坝一带（江油关），地望有争议；手工估点",
+   "coordinateSource": "三国志·邓艾传",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "江由",
+     "from": 200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": 200,
+     "to": 214,
+     "tier": "pass"
+    },
+    {
+     "tier": "stronghold",
+     "note": "邓艾传记守将马邈迎降，守备据点可证；不据后世江油关名证明当时同名关制。",
+     "sourceIds": [
+      "SGZ28"
+     ],
+     "confidence": "inferred",
+     "featureType": "guard_post",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷28"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 600,
+     "tier": "pass"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "地望多说；不改坐标。",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "tazhong",
+   "aliases": [
+    "沓中"
+   ],
+   "coordinates": [
+    104.37,
+    33.78
+   ],
+   "coordinatePrecision": "示意：今甘肃舟曲一带（姜维屯田处）；手工估点",
+   "coordinateSource": "三国志·姜维传",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "沓中",
+     "from": 250,
+     "to": 270
+    }
+   ],
+   "tiers": [
+    {
+     "tier": "region",
+     "note": "姜维屯田地域；未证此点为一座固定郡县城或坞堡。",
+     "sourceIds": [
+      "SGZ44",
+      "SGZ28"
+     ],
+     "confidence": "confirmed",
+     "featureType": "field_camp",
+     "from": 215,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷44",
+      "https://zh.wikisource.org/wiki/三國志/卷28"
+     ],
+     "auditBatch": "12"
+    }
+   ],
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent",
+   "added": "2026-10-14",
+   "politicalRoles": [],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   }
+  },
+  {
+   "id": "chen_county",
+   "aliases": [
+    "陈"
+   ],
+   "coordinates": [
+    114.88,
+    33.73
+   ],
+   "coordinatePrecision": "东汉陈国治所陈县近似（今周口市淮阳区老城一带），现代同名地近似",
+   "coordinateSource": "https://zh.wikipedia.org/wiki/淮阳区",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "陈",
+     "from": -200,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -200,
+     "to": 600,
+     "tier": "city"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-15"
+  },
+  {
+   "id": "changan_han_city",
+   "aliases": [
+    "Chang'an",
+    "Changan",
+    "長安",
+    "长安"
+   ],
+   "coordinates": [
+    108.8931,
+    34.2941
+   ],
+   "coordinatePrecision": "approximate Han Chang'an archaeological area point; not palace location",
+   "coordinateSource": "https://wantulu.com/heritage/shaanxi/heritage_mrktnx7j8dea97/",
+   "nameSource": "https://zh.wikisource.org/wiki/資治通鑑/卷085",
+   "names": [
+    {
+     "from": 215,
+     "to": 290,
+     "text": "长安"
+    },
+    {
+     "text": "长安",
+     "from": 291,
+     "to": 306
+    }
+   ],
+   "tiers": [
+    {
+     "from": -202,
+     "to": 25,
+     "tier": "capital"
+    },
+    {
+     "from": 25,
+     "to": 214,
+     "tier": "seat"
+    },
+    {
+     "tier": "commandery",
+     "note": "京兆尹/京兆郡治兼西线军事中枢；五都名号另列，魏雍州实际治所不据晋志倒推。",
+     "sourceIds": [
+      "JIN14",
+      "SGZ2"
+     ],
+     "confidence": "confirmed",
+     "from": 215,
+     "to": 264,
+     "sources": [
+      "https://zh.wikisource.org/wiki/晉書/卷014",
+      "https://zh.wikisource.org/wiki/三國志/卷02"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "province",
+     "note": "晋志记晋初于长安置雍州；265是新朝起的年度显示边界，非已核设州日月。",
+     "sourceIds": [
+      "JIN14"
+     ],
+     "confidence": "inferred",
+     "from": 265,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 313,
+     "tier": "seat"
+    },
+    {
+     "from": 313,
+     "to": 316,
+     "tier": "capital"
+    },
+    {
+     "from": 316,
+     "to": 618,
+     "tier": "seat"
+    },
+    {
+     "from": 618,
+     "to": 904,
+     "tier": "capital"
+    },
+    {
+     "from": 904,
+     "to": 9999,
+     "tier": "seat"
+    }
+   ],
+   "roles": [
+    "京兆尹治所",
+    "京兆尹治所 · 颙据地"
+   ],
+   "usedIn": [
+    "八王之乱-301",
+    "八王之乱-起兵",
+    "八王之乱-永嘉之乱",
+    "八王之乱-洛阳易手",
+    "八王之乱-诸王尽死"
+   ],
+   "reviewNote": "Region-level placement for the 304–306 imperial migration, not a reconstructed palace or wall",
+   "coordinateStatus": "approximate",
+   "coordinatesAlt": [
+    {
+     "value": [
+      108.93719,
+      34.31799
+     ],
+     "source": "dynasty/*/{kings,labels}.json（各集数据）",
+     "deviationKm": 4.85,
+     "adopted": false
+    }
+   ],
+   "coordinateConflict": "recorded-not-resolved",
+   "politicalRoles": [
+    {
+     "kind": "secondary_capital",
+     "person": "曹魏",
+     "note": "魏略所记五都之一，不等同洛阳主廷；晋不自动继承此名号。",
+     "sourceIds": [
+      "SGZ2"
+     ],
+     "from": 221,
+     "to": 265,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷02"
+     ]
+    }
+   ],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   },
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent"
+  },
+  {
+   "id": "luoyang_han_wei",
+   "aliases": [
+    "Luoyang",
+    "洛阳",
+    "洛陽"
+   ],
+   "coordinates": [
+    112.6183,
+    34.7195
+   ],
+   "coordinatePrecision": "approximate Han-Wei Luoyang archaeological site point; not palace location",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q11133430",
+   "nameSource": "https://lysrd.henanrd.gov.cn/2025/07-16/223000.html",
+   "names": [
+    {
+     "from": 196,
+     "to": 290,
+     "text": "洛阳"
+    },
+    {
+     "text": "洛阳",
+     "from": 291,
+     "to": 306
+    }
+   ],
+   "tiers": [
+    {
+     "from": -202,
+     "to": 195,
+     "tier": "capital"
+    },
+    {
+     "tier": "commandery",
+     "note": "汉廷196迁许，洛阳是旧都及河南尹中心，不再主要朝廷所在地；毁坏不等于废县。",
+     "sourceIds": [
+      "SGZ1",
+      "SGZ2",
+      "JIN14"
+     ],
+     "confidence": "confirmed",
+     "from": 196,
+     "to": 219,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷01",
+      "https://zh.wikisource.org/wiki/三國志/卷02",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "capital",
+     "note": "220十二月曹丕幸洛阳并营宫；265晋承魏都，年内前段须事件切换。",
+     "sourceIds": [
+      "SGZ2",
+      "JIN14"
+     ],
+     "confidence": "confirmed",
+     "from": 220,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷02",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 316,
+     "tier": "capital"
+    },
+    {
+     "from": 316,
+     "to": 494,
+     "tier": "seat"
+    },
+    {
+     "from": 494,
+     "to": 534,
+     "tier": "capital"
+    },
+    {
+     "from": 534,
+     "to": 9999,
+     "tier": "seat"
+    }
+   ],
+   "roles": [
+    "西晋都城，河南尹治所",
+    "都城 · 河南尹治所"
+   ],
+   "usedIn": [
+    "八王之乱-301",
+    "八王之乱-起兵",
+    "八王之乱-永嘉之乱",
+    "八王之乱-洛阳易手",
+    "八王之乱-诸王尽死"
+   ],
+   "reviewNote": "Western Jin capital was at the Han-Wei city site east of modern central Luoyang",
+   "coordinateStatus": "approximate",
+   "coordinatesAlt": [
+    {
+     "value": [
+      112.59631,
+      34.73157
+     ],
+     "source": "dynasty/*/{kings,labels}.json（各集数据）",
+     "deviationKm": 2.42,
+     "adopted": false
+    }
+   ],
+   "coordinateConflict": "recorded-not-resolved",
+   "politicalRoles": [
+    {
+     "kind": "imperial_court",
+     "person": "曹魏／西晋",
+     "note": "220十二月经营洛阳；265魏晋易代不改主要都城点。",
+     "sourceIds": [
+      "SGZ2",
+      "JIN14"
+     ],
+     "startMonth": [
+      220,
+      12
+     ],
+     "endMonthExclusive": null,
+     "calendar": "traditional_lunar",
+     "requiresEventTiming": true,
+     "from": 220,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷02",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ]
+    }
+   ],
+   "tierTransitions": [
+    {
+     "year": 220,
+     "event": "十二月曹丕幸洛阳营宫",
+     "fromTier": "commandery",
+     "toTier": "capital",
+     "sourceIds": [
+      "SGZ2"
+     ],
+     "month": 12,
+     "calendar": "traditional_lunar",
+     "precision": "month"
+    }
+   ],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     196,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   },
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent"
+  },
+  {
+   "id": "nanjing_ancient_city",
+   "aliases": [
+    "Jiankang",
+    "Jianye",
+    "建业",
+    "建康",
+    "建業",
+    "建邺",
+    "建鄴",
+    "秣陵"
+   ],
+   "coordinates": [
+    118.796389,
+    32.058333
+   ],
+   "coordinatePrecision": "approximate ancient-city point; not a 300 CE wall or gate position",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1330294",
+   "nameSource": "https://www.xwzf.gov.cn/zjxw/xwgk/lsyg/",
+   "names": [
+    {
+     "from": 211,
+     "to": 211,
+     "text": "秣陵"
+    },
+    {
+     "from": 212,
+     "to": 279,
+     "text": "建业"
+    },
+    {
+     "from": 280,
+     "to": 281,
+     "text": "秣陵"
+    },
+    {
+     "from": 282,
+     "to": 290,
+     "text": "建邺"
+    },
+    {
+     "text": "建邺",
+     "from": 291,
+     "to": 312
+    },
+    {
+     "text": "建康",
+     "from": 313,
+     "to": 589
+    }
+   ],
+   "tiers": [
+    {
+     "from": -202,
+     "to": 210,
+     "tier": "seat"
+    },
+    {
+     "tier": "county",
+     "note": "211徙秣陵、212改建业，为孙权军府驻地而非帝都。",
+     "sourceIds": [
+      "SGZ47"
+     ],
+     "confidence": "confirmed",
+     "from": 211,
+     "to": 220,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷47"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "commandery",
+     "note": "孙权迁武昌后吕范领丹阳太守治建业，郡治可证。",
+     "sourceIds": [
+      "SGZ56"
+     ],
+     "confidence": "confirmed",
+     "from": 221,
+     "to": 228,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷56"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "capital",
+     "note": "229九月才迁都建业；同年四月至九月皇都在武昌。",
+     "sourceIds": [
+      "SGZ47",
+      "SGZ48"
+     ],
+     "confidence": "confirmed",
+     "from": 229,
+     "to": 264,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷47",
+      "https://zh.wikisource.org/wiki/三國志/卷48"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "commandery",
+     "note": "265九月孙皓迁武昌，留丁固诸葛靓镇建业；年末非当前皇都。",
+     "sourceIds": [
+      "SGZ48",
+      "SGZ56"
+     ],
+     "confidence": "confirmed",
+     "from": 265,
+     "to": 265,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷48",
+      "https://zh.wikisource.org/wiki/三國志/卷56"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "capital",
+     "note": "266十二月还都建业；到280孙皓降晋前仍吴都。",
+     "sourceIds": [
+      "SGZ48"
+     ],
+     "confidence": "confirmed",
+     "from": 266,
+     "to": 279,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷48"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "province",
+     "note": "晋平吴扬州州治迁建业；280称秣陵、282北部分建邺，州治不同于皇都。",
+     "sourceIds": [
+      "SONG35",
+      "JIN15"
+     ],
+     "confidence": "confirmed",
+     "from": 280,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/宋書/卷35",
+      "https://zh.wikisource.org/wiki/晉書/卷015"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 317,
+     "tier": "seat"
+    },
+    {
+     "from": 317,
+     "to": 589,
+     "tier": "capital"
+    },
+    {
+     "from": 589,
+     "to": 9999,
+     "tier": "seat"
+    }
+   ],
+   "roles": [
+    "丹阳郡治，晋室南渡后都城",
+    "丹阳郡治 · 南渡后都城"
+   ],
+   "usedIn": [
+    "八王之乱-301",
+    "八王之乱-起兵",
+    "八王之乱-永嘉之乱",
+    "八王之乱-洛阳易手",
+    "八王之乱-诸王尽死"
+   ],
+   "reviewNote": "Name ranges follow Nanjing Xuanwu district history; point is an approximate locality",
+   "coordinateStatus": "approximate",
+   "coordinatesAlt": [
+    {
+     "value": [
+      118.76899,
+      32.05256
+     ],
+     "source": "dynasty/*/{kings,labels}.json（各集数据）",
+     "deviationKm": 2.66,
+     "adopted": false
+    }
+   ],
+   "coordinateConflict": "recorded-not-resolved",
+   "politicalRoles": [
+    {
+     "kind": "ruler_seat",
+     "person": "孙权",
+     "note": "211徙秣陵、212改建业；219西征到公安。",
+     "sourceIds": [
+      "SGZ47"
+     ],
+     "from": 211,
+     "to": 218,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷47"
+     ]
+    },
+    {
+     "kind": "imperial_court",
+     "person": "吴皇帝",
+     "note": "自229九月至265九月迁武昌前。",
+     "sourceIds": [
+      "SGZ47",
+      "SGZ48"
+     ],
+     "startMonth": [
+      229,
+      9
+     ],
+     "endMonthExclusive": [
+      265,
+      9
+     ],
+     "calendar": "traditional_lunar",
+     "requiresEventTiming": true,
+     "from": 229,
+     "to": 265,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷47",
+      "https://zh.wikisource.org/wiki/三國志/卷48"
+     ]
+    },
+    {
+     "kind": "imperial_court",
+     "person": "吴皇帝",
+     "note": "266十二月至280三月降晋。",
+     "sourceIds": [
+      "SGZ48"
+     ],
+     "startMonth": [
+      266,
+      12
+     ],
+     "endMonthExclusive": [
+      280,
+      3
+     ],
+     "calendar": "traditional_lunar",
+     "requiresEventTiming": true,
+     "from": 266,
+     "to": 280,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷48"
+     ]
+    }
+   ],
+   "tierTransitions": [
+    {
+     "year": 229,
+     "event": "九月迁都建业",
+     "fromTier": "commandery",
+     "toTier": "capital",
+     "sourceIds": [
+      "SGZ47"
+     ],
+     "month": 9,
+     "calendar": "traditional_lunar",
+     "precision": "month"
+    },
+    {
+     "year": 265,
+     "event": "九月迁武昌",
+     "fromTier": "capital",
+     "toTier": "commandery",
+     "sourceIds": [
+      "SGZ48"
+     ],
+     "month": 9,
+     "calendar": "traditional_lunar",
+     "precision": "month"
+    },
+    {
+     "year": 266,
+     "event": "十二月还都",
+     "fromTier": "commandery",
+     "toTier": "capital",
+     "sourceIds": [
+      "SGZ48"
+     ],
+     "month": 12,
+     "calendar": "traditional_lunar",
+     "precision": "month"
+    },
+    {
+     "year": 280,
+     "event": "三月孙皓降晋，随后扬州治建业",
+     "fromTier": "capital",
+     "toTier": "province",
+     "sourceIds": [
+      "SGZ48",
+      "SONG35"
+     ],
+     "month": 3,
+     "calendar": "traditional_lunar",
+     "precision": "month"
+    }
+   ],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     211,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   },
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent"
+  },
+  {
+   "id": "xuchang_approx",
+   "aliases": [
+    "Xuchang",
+    "許昌",
+    "许昌",
+    "许"
+   ],
+   "coordinates": [
+    114.00971,
+    33.99189
+   ],
+   "coordinatePrecision": "approximate modern Xuchang locality inherited from the pilot; not verified as the exact 301 CE city site",
+   "coordinateSource": "Legacy pilot approximation from director-v10a.json; no exact ancient-site georeference asserted",
+   "nameSource": "https://zh.wikisource.org/wiki/晉書/卷059",
+   "names": [
+    {
+     "text": "许昌",
+     "from": 0,
+     "to": 195
+    },
+    {
+     "from": 196,
+     "to": 220,
+     "text": "许"
+    },
+    {
+     "from": 221,
+     "to": 290,
+     "text": "许昌"
+    },
+    {
+     "text": "许昌",
+     "from": 291,
+     "to": 9999
+    }
+   ],
+   "tiers": [
+    {
+     "from": -202,
+     "to": 195,
+     "tier": "seat"
+    },
+    {
+     "tier": "capital",
+     "note": "汉献帝196迁许至220十月禅位前为汉廷主都，不是曹操称帝都。",
+     "sourceIds": [
+      "SGZ1",
+      "SGZ2",
+      "JIN14"
+     ],
+     "confidence": "confirmed",
+     "from": 196,
+     "to": 219,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷01",
+      "https://zh.wikisource.org/wiki/三國志/卷02",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "commandery",
+     "note": "魏禅后非主都；221五都及宫室武库可证。颍川迁治确年未核，暂按郡级中心，不能把220当郡治始年。",
+     "sourceIds": [
+      "SGZ2",
+      "JIN14"
+     ],
+     "confidence": "uncertain",
+     "from": 220,
+     "to": 264,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷02",
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "commandery",
+     "note": "晋颍川郡治许昌，等级明确；晋初具体迁治年月仍不作精确断言。",
+     "sourceIds": [
+      "JIN14"
+     ],
+     "confidence": "confirmed",
+     "from": 265,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/晉書/卷014"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 9999,
+     "tier": "seat"
+    }
+   ],
+   "roles": [
+    "颍川郡治，司马冏军镇",
+    "颍川郡治 · 冏起兵地"
+   ],
+   "usedIn": [
+    "八王之乱-301",
+    "八王之乱-起兵",
+    "八王之乱-永嘉之乱",
+    "八王之乱-洛阳易手",
+    "八王之乱-诸王尽死"
+   ],
+   "reviewNote": "Use only as a schematic map anchor for Sima Jiong's recorded association with Xuchang; keep the approximate qualifier visible in the label",
+   "coordinateStatus": "confirmed",
+   "coordinateConflict": "resolved-with-evidence",
+   "coordinateEvidence": {
+    "decision": "adopt-kings-value",
+    "authority": "汉魏许都故城，第七批全国重点文物保护单位（编号 7-0328-1-328）",
+    "authorityCoordinate": [
+     114.01926194,
+     33.98937194
+    ],
+    "adoptedDeviationKm": 0.92,
+    "rejectedValue": [
+     113.85,
+     34.03
+    ],
+    "rejectedReason": "该点位于现代许昌市区，距汉魏许都故城遗址约 16.2 km，非汉代城址；原 places_curated 的 reviewNote 亦自述为「legacy pilot approximation」",
+    "source": "维基百科「汉魏许都故城」（引全国重点文物保护单位公布坐标） + 许昌市建安区张潘镇古城村（村坐标 114.013258, 33.999383）"
+   },
+   "politicalRoles": [
+    {
+     "kind": "imperial_court",
+     "person": "汉献帝",
+     "note": "220十月禅位结束；汉廷与曹操军府分开。",
+     "sourceIds": [
+      "SGZ1",
+      "SGZ2"
+     ],
+     "startMonth": [
+      196,
+      8
+     ],
+     "endMonthExclusive": [
+      220,
+      10
+     ],
+     "calendar": "traditional_lunar",
+     "requiresEventTiming": true,
+     "from": 196,
+     "to": 220,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷01",
+      "https://zh.wikisource.org/wiki/三國志/卷02"
+     ]
+    },
+    {
+     "kind": "secondary_capital",
+     "person": "曹魏",
+     "note": "魏略所记五都之一，不等同洛阳主廷；晋不自动继承此名号。",
+     "sourceIds": [
+      "SGZ2"
+     ],
+     "from": 221,
+     "to": 265,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷02"
+     ]
+    }
+   ],
+   "tierTransitions": [
+    {
+     "year": 196,
+     "event": "八月迁许",
+     "fromTier": "county",
+     "toTier": "capital",
+     "sourceIds": [
+      "SGZ1"
+     ],
+     "month": 8,
+     "calendar": "traditional_lunar",
+     "precision": "month"
+    },
+    {
+     "year": 220,
+     "event": "十月汉帝禅位",
+     "fromTier": "capital",
+     "toTier": "commandery",
+     "sourceIds": [
+      "SGZ2"
+     ],
+     "month": 10,
+     "calendar": "traditional_lunar",
+     "precision": "month"
+    }
+   ],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     196,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   },
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent"
+  },
+  {
+   "id": "ye_city",
+   "aliases": [
+    "Ye",
+    "Yecheng",
+    "邺",
+    "邺城",
+    "鄴",
+    "鄴城"
+   ],
+   "coordinates": [
+    114.4002,
+    36.2748
+   ],
+   "coordinatePrecision": "approximate archaeological site point; not city-wall geometry",
+   "coordinateSource": "https://www.wikidata.org/wiki/Q1274372",
+   "nameSource": "https://wenwu.hebei.gov.cn/system/2023/10/16/030257950.shtml",
+   "names": [
+    {
+     "from": 215,
+     "to": 290,
+     "text": "邺"
+    },
+    {
+     "text": "邺城",
+     "from": 291,
+     "to": 306
+    }
+   ],
+   "tiers": [
+    {
+     "from": -202,
+     "to": 204,
+     "tier": "seat"
+    },
+    {
+     "from": 204,
+     "to": 214,
+     "tier": "capital"
+    },
+    {
+     "tier": "province",
+     "note": "曹操为冀州牧治邺，兼魏郡治与魏公/王府，非汉廷帝都。",
+     "sourceIds": [
+      "SGZ1",
+      "WEI106"
+     ],
+     "confidence": "confirmed",
+     "from": 215,
+     "to": 219,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷01",
+      "https://zh.wikisource.org/wiki/魏書/卷106上"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "commandery",
+     "note": "魏冀州改治信都；寰宇记追述黄初中迁，确年未定。220仅为曹魏起的暂定显示边界，黄初前后状态须人工核，不冒称220已迁。",
+     "sourceIds": [
+      "WEI106",
+      "HYJ63",
+      "SGZ2"
+     ],
+     "confidence": "uncertain",
+     "from": 220,
+     "to": 226,
+     "sources": [
+      "https://zh.wikisource.org/wiki/魏書/卷106上",
+      "https://www.shidianguji.com/book/SK0968/chapter/1la2itcdddc7e",
+      "https://zh.wikisource.org/wiki/三國志/卷02"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "tier": "commandery",
+     "note": "魏晋冀州治信都，邺保留魏郡治及五都名号，不能因旧冀州牧军府整段升州治。",
+     "sourceIds": [
+      "WEI106",
+      "JIN14",
+      "SGZ2"
+     ],
+     "confidence": "confirmed",
+     "from": 227,
+     "to": 290,
+     "sources": [
+      "https://zh.wikisource.org/wiki/魏書/卷106上",
+      "https://zh.wikisource.org/wiki/晉書/卷014",
+      "https://zh.wikisource.org/wiki/三國志/卷02"
+     ],
+     "auditBatch": "12"
+    },
+    {
+     "from": 291,
+     "to": 335,
+     "tier": "seat"
+    },
+    {
+     "from": 335,
+     "to": 370,
+     "tier": "capital"
+    },
+    {
+     "from": 370,
+     "to": 494,
+     "tier": "seat"
+    },
+    {
+     "from": 494,
+     "to": 577,
+     "tier": "capital"
+    },
+    {
+     "from": 577,
+     "to": 9999,
+     "tier": "seat"
+    }
+   ],
+   "roles": [
+    "邯郸郡治，司马颖镇所",
+    "邯郸郡治 · 颖镇所"
+   ],
+   "usedIn": [
+    "八王之乱-301",
+    "八王之乱-起兵",
+    "八王之乱-永嘉之乱",
+    "八王之乱-洛阳易手",
+    "八王之乱-诸王尽死"
+   ],
+   "reviewNote": "Approximate Ye archaeological locality for the 291–306 narrative; not an exact wall or palace location",
+   "coordinateStatus": "approximate",
+   "coordinatesAlt": [
+    {
+     "value": [
+      114.41195,
+      36.27238
+     ],
+     "source": "dynasty/*/{kings,labels}.json（各集数据）",
+     "deviationKm": 1.09,
+     "adopted": false
+    }
+   ],
+   "coordinateConflict": "recorded-not-resolved",
+   "politicalRoles": [
+    {
+     "kind": "ruler_seat",
+     "person": "曹操／曹丕魏王府",
+     "note": "204得邺后主要军府；213魏公、216魏王，非皇帝行在。",
+     "sourceIds": [
+      "SGZ1",
+      "SGZ2"
+     ],
+     "from": 204,
+     "to": 220,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷01",
+      "https://zh.wikisource.org/wiki/三國志/卷02"
+     ]
+    },
+    {
+     "kind": "secondary_capital",
+     "person": "曹魏",
+     "note": "魏略所记五都之一，不等同洛阳主廷；晋不自动继承此名号。",
+     "sourceIds": [
+      "SGZ2"
+     ],
+     "from": 221,
+     "to": 265,
+     "sources": [
+      "https://zh.wikisource.org/wiki/三國志/卷02"
+     ]
+    }
+   ],
+   "tierTransitions": [],
+   "tierReview": {
+    "date": "2026-10-24",
+    "batch": "12",
+    "scope": [
+     215,
+     290
+    ],
+    "status": "agent-research",
+    "issues": "冀州迁信都为黄初年间，220–226确年待核；220年度值仅暂定，年内不得据此冒称州府已迁。",
+    "outsideScope": "原有条目保留，未在本次复核；不应借本批扩大为已核年代。",
+    "researchFile": "03_素材/动画素材/第12批/研究/等级研究.json"
+   },
+   "note": "第12批等级研究：见tierReview、分段tiers及politicalRoles；带uncertain者待核。",
+   "reviewStatus": "agent"
+  },
+  {
+   "id": "didao_county",
+   "aliases": [
+    "狄道"
+   ],
+   "coordinates": [
+    103.86,
+    35.37
+   ],
+   "coordinatePrecision": "汉狄道县治近似点（今甘肃临洮县城）；东汉陇西郡治",
+   "coordinateSource": "https://zh.wikipedia.org/wiki/临洮县",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "狄道",
+     "from": -280,
+     "to": 600
+    }
+   ],
+   "tiers": [
+    {
+     "from": -280,
+     "to": 600,
+     "tier": "commandery"
+    }
+   ],
+   "note": "史实审读 2026-10-24：晋书·文帝纪「使邓艾自狄道攻姜维于沓中」",
+   "reviewStatus": "agent",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "luogu",
+   "aliases": [
+    "骆谷"
+   ],
+   "coordinates": [
+    108.1,
+    33.8
+   ],
+   "coordinatePrecision": "今陕西周至县西南骆峪一带传统比定，约略",
+   "coordinateSource": "三国志·钟会传；Codex 战事账 2026-10-25",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "骆谷",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "pass"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "qiangchuankou",
+   "aliases": [
+    "强川口",
+    "漒川口"
+   ],
+   "coordinates": [
+    104.65,
+    33.35
+   ],
+   "coordinatePrecision": "强川（漒川）水口，具体地望未核，低精度示意",
+   "coordinateSource": "三国志·邓艾传；Codex 战事账 2026-10-25",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "强川口",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "pass"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "yinping_qiaotou",
+   "aliases": [
+    "桥头",
+    "阴平桥头"
+   ],
+   "coordinates": [
+    104.75,
+    32.9
+   ],
+   "coordinatePrecision": "依读史方舆纪要在今文县东南白水上，桥址有异说，示意",
+   "coordinateSource": "三国志·姜维传；Codex 战事账 2026-10-25",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "桥头",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "pass"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "wujie",
+   "aliases": [
+    "武街"
+   ],
+   "coordinates": [
+    105.45,
+    33.8
+   ],
+   "coordinatePrecision": "今甘肃成县西北一带传统比定，示意",
+   "coordinateSource": "三国志·姜维传；Codex 战事账 2026-10-25",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "武街",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "ziwugu",
+   "aliases": [
+    "子午谷"
+   ],
+   "coordinates": [
+    108.9,
+    33.7
+   ],
+   "coordinatePrecision": "今西安南秦岭子午道一带传统比定，约略",
+   "coordinateSource": "三国志·钟会传；Codex 战事账 2026-10-25",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "子午谷",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "pass"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "wuxian",
+   "aliases": [
+    "巫"
+   ],
+   "coordinates": [
+    109.88,
+    31.08
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "第21集战事账（Codex 2026-10-25）：巫县约今重庆巫山县城附近",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "巫",
+     "from": -221,
+     "to": 589
+    }
+   ],
+   "tiers": [
+    {
+     "from": -221,
+     "to": 589,
+     "tier": "county"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "jieshi",
+   "aliases": [
+    "碣石"
+   ],
+   "coordinates": [
+    119.25,
+    39.7
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "第25集战事账（Codex 2026-10-25）：传统比定今河北昌黎北",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "碣石",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "region"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "guzhu",
+   "aliases": [
+    "孤竹"
+   ],
+   "coordinates": [
+    118.87,
+    39.88
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "古孤竹国故地，今河北卢龙一带（晋书宣帝纪「经孤竹，越碣石」）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "孤竹",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "region"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "wenxian",
+   "aliases": [
+    "温"
+   ],
+   "coordinates": [
+    112.96,
+    34.92
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "河内郡温县，今河南温县一带（第25集战事账）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "温",
+     "from": -221,
+     "to": 589
+    }
+   ],
+   "tiers": [
+    {
+     "from": -221,
+     "to": 589,
+     "tier": "county"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "huangqiao_301",
+   "aliases": [
+    "黄桥"
+   ],
+   "coordinates": [
+    114.1,
+    35.6
+   ],
+   "coordinatePrecision": "候选",
+   "coordinateSource": "第32集战事账（Codex 2026-10-25）：二手考证称淇县西黄泽，仅县域候选点；成都王颖传：至朝歌…赵骧至黄桥…颖欲退保朝歌",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "黄桥",
+     "from": 301,
+     "to": 301
+    }
+   ],
+   "tiers": [
+    {
+     "from": 301,
+     "to": 301,
+     "tier": "region"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "yique",
+   "aliases": [
+    "伊阙"
+   ],
+   "coordinates": [
+    112.47,
+    34.57
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "今洛阳龙门伊河阙口（第32集战事账）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "伊阙",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "pass"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "yiyang",
+   "aliases": [
+    "宜阳"
+   ],
+   "coordinates": [
+    112.18,
+    34.52
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "今河南宜阳一带（第33集战事账：皇甫商距张方于宜阳）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "宜阳",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "county"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "dangyin",
+   "aliases": [
+    "荡阴"
+   ],
+   "coordinates": [
+    114.36,
+    35.92
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "今河南汤阴一带（第33集战事账：六军败绩于荡阴）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "荡阴",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "county"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "anyang_jin",
+   "aliases": [
+    "安阳"
+   ],
+   "coordinates": [
+    114.36,
+    36.1
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "汉晋安阳县，今河南安阳一带（第33集战事账）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "安阳",
+     "from": -221,
+     "to": 589
+    }
+   ],
+   "tiers": [
+    {
+     "from": -221,
+     "to": 589,
+     "tier": "county"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "zhaoge",
+   "aliases": [
+    "朝歌"
+   ],
+   "coordinates": [
+    114.2,
+    35.62
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "朝歌故城，今河南淇县一带",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "朝歌",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "county"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "zuoguocheng",
+   "aliases": [
+    "左国城",
+    "离石"
+   ],
+   "coordinates": [
+    111.14,
+    37.52
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "左国城，今山西离石一带（刘元海载记：元海至左国城…都于离石）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "左国城",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "pixian",
+   "aliases": [
+    "郫"
+   ],
+   "coordinates": [
+    103.89,
+    30.81
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "郫县，今成都郫都区一带",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "郫",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "county"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "xiaoxian",
+   "aliases": [
+    "萧"
+   ],
+   "coordinates": [
+    116.94,
+    34.18
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "萧县，今安徽萧县一带（第35集战事账：越…西次萧县）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "萧",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "county"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "yangwu",
+   "aliases": [
+    "阳武"
+   ],
+   "coordinates": [
+    113.96,
+    35.07
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "阳武县，今河南原阳一带（越进屯阳武）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "阳武",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "county"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "huxian_hongnong",
+   "aliases": [
+    "湖"
+   ],
+   "coordinates": [
+    110.85,
+    34.53
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "弘农郡湖县，今河南灵宝西一带（颙遣彭随、刁默距祁弘等于湖）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "湖",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "county"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "pingyang_jin",
+   "aliases": [
+    "平阳"
+   ],
+   "coordinates": [
+    111.5,
+    36.05
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "平阳郡治平阳，今山西临汾一带（刘元海僭帝号于平阳）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "平阳",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "commandery"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "ningpingcheng",
+   "aliases": [
+    "宁平城"
+   ],
+   "coordinates": [
+    115.3,
+    33.7
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "苦县宁平城，今河南郸城东北宁平一带（示意；第36集战事账未给坐标，越传：石勒追及于苦县宁平城）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "宁平城",
+     "from": 311,
+     "to": 311
+    }
+   ],
+   "tiers": [
+    {
+     "from": 311,
+     "to": 311,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "beidi_niyang",
+   "aliases": [
+    "北地"
+   ],
+   "coordinates": [
+    108.98,
+    34.95
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "西晋北地郡治泥阳，今陕西耀州一带（示意；愍帝纪：刘曜攻北地）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "北地",
+     "from": 220,
+     "to": 420
+    }
+   ],
+   "tiers": [
+    {
+     "from": 220,
+     "to": 420,
+     "tier": "commandery"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "xiangguo",
+   "aliases": [
+    "襄国"
+   ],
+   "coordinates": [
+    114.5,
+    37.07
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "襄国，今河北邢台一带（石勒据襄国）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "襄国",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "county"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "junyi",
+   "aliases": [
+    "浚仪"
+   ],
+   "coordinates": [
+    114.35,
+    34.8
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "浚仪县，今河南开封一带（第38集战事账：陈川以浚仪叛）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "浚仪",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "county"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "yongqiu",
+   "aliases": [
+    "雍丘"
+   ],
+   "coordinates": [
+    114.78,
+    34.55
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "雍丘县，今河南杞县一带（祖逖镇雍丘，卒于雍丘）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "雍丘",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "county"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "fengqiu",
+   "aliases": [
+    "封丘"
+   ],
+   "coordinates": [
+    114.42,
+    35.04
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "封丘县，今河南封丘一带（逖使潜进屯封丘）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "封丘",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "county"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "shitoucheng",
+   "aliases": [
+    "石头城",
+    "石头"
+   ],
+   "coordinates": [
+    118.74,
+    32.06
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "石头城，今南京清凉山一带（建康西侧临江城垒）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "石头城",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "yuhu",
+   "aliases": [
+    "于湖"
+   ],
+   "coordinates": [
+    118.53,
+    31.48
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "于湖县，今安徽当涂南一带（王敦下屯于湖）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "于湖",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "county"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "gushu",
+   "aliases": [
+    "姑孰"
+   ],
+   "coordinates": [
+    118.49,
+    31.56
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "姑孰，今安徽当涂一带",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "姑孰",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "county"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "liyang_jiang",
+   "aliases": [
+    "历阳"
+   ],
+   "coordinates": [
+    118.35,
+    31.71
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "历阳，今安徽和县一带（苏峻为历阳太守）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "历阳",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "county"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "niuzhu",
+   "aliases": [
+    "牛渚"
+   ],
+   "coordinates": [
+    118.45,
+    31.65
+   ],
+   "coordinatePrecision": "约略",
+   "coordinateSource": "牛渚（采石矶），今安徽马鞍山采石一带（峻济自横江，登牛渚）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "牛渚",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "ferry"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "jinyong",
+   "aliases": [
+    "金墉"
+   ],
+   "coordinates": [
+    112.6,
+    34.735
+   ],
+   "coordinatePrecision": "约略：汉魏洛阳故城西北角金墉城遗址一带",
+   "coordinateSource": "晋书·刘曜载记（攻石生于金墉）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "金墉",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "gaohou",
+   "aliases": [
+    "高候"
+   ],
+   "coordinates": [
+    111.25,
+    35.36
+   ],
+   "coordinatePrecision": "示意：一说今山西闻喜一带高候原，地望未核",
+   "coordinateSource": "晋书·刘曜载记、成帝纪（战于高候）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "高候",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "shanggui",
+   "aliases": [
+    "上邽"
+   ],
+   "coordinates": [
+    105.72,
+    34.58
+   ],
+   "coordinatePrecision": "约略：今甘肃天水秦州区",
+   "coordinateSource": "晋书·成帝纪（奔于上邽）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "上邽",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "commandery"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "chibi_hedong",
+   "aliases": [
+    "赤壁"
+   ],
+   "coordinates": [
+    110.72,
+    35.6
+   ],
+   "coordinatePrecision": "示意：河东赤壁，河津说未核（非湖北赤壁）",
+   "coordinateSource": "晋书·刘曜载记（至于赤壁）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "赤壁",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "lingchangjin",
+   "aliases": [
+    "灵昌津",
+    "大堨"
+   ],
+   "coordinates": [
+    114.4,
+    35.38
+   ],
+   "coordinatePrecision": "约略：今河南延津东北—滑县西南黄河古渡，旧说",
+   "coordinateSource": "晋书·石勒载记下（命曰灵昌津）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "灵昌津",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "ferry"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "gongxian",
+   "aliases": [
+    "巩"
+   ],
+   "coordinates": [
+    112.96,
+    34.76
+   ],
+   "coordinatePrecision": "约略：今河南巩义",
+   "coordinateSource": "晋书·石勒载记下（出于巩訾之间）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "巩",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "county"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "jicheng_murong",
+   "aliases": [
+    "棘城"
+   ],
+   "coordinates": [
+    120.45,
+    41.57
+   ],
+   "coordinatePrecision": "约略：今辽宁朝阳一带，精确位置有异说",
+   "coordinateSource": "晋书·慕容皝载记",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "棘城",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "lingzhi",
+   "aliases": [
+    "令支"
+   ],
+   "coordinates": [
+    118.65,
+    40.05
+   ],
+   "coordinatePrecision": "约略：今河北迁安一带，县治待考",
+   "coordinateSource": "晋书·慕容皝载记（季龙进入令支）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "令支",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "county"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "pengmo",
+   "aliases": [
+    "彭模"
+   ],
+   "coordinates": [
+    103.95,
+    30.1
+   ],
+   "coordinatePrecision": "约略：今四川彭山东南岷江东岸",
+   "coordinateSource": "晋书·桓温传、李势载记",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "彭模",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "zuoqiao",
+   "aliases": [
+    "笮桥"
+   ],
+   "coordinates": [
+    104.04,
+    30.62
+   ],
+   "coordinatePrecision": "示意：成都近郊古桥，遗址未核",
+   "coordinateSource": "晋书·李势载记（战于笮桥）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "笮桥",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "zhiguan",
+   "aliases": [
+    "轵关"
+   ],
+   "coordinates": [
+    112.45,
+    35.1
+   ],
+   "coordinatePrecision": "约略：今河南济源西轵关陉口",
+   "coordinateSource": "晋书·刘曜载记（自轵关西入伐曜）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "轵关",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "pass"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "fangtou",
+   "aliases": [
+    "枋头"
+   ],
+   "coordinates": [
+    114.35,
+    35.6
+   ],
+   "coordinatePrecision": "约略：今河南浚县西南淇门渡一带",
+   "coordinateSource": "晋书·苻洪载记（处于枋头）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "枋头",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "ferry"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "weichang",
+   "aliases": [
+    "魏昌城",
+    "廉台"
+   ],
+   "coordinates": [
+    114.98,
+    38.22
+   ],
+   "coordinatePrecision": "示意：魏昌县在今河北无极一带；廉台位置有无极西、定州两说",
+   "coordinateSource": "晋书·石季龙载记下（与慕容恪相遇于魏昌城）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "魏昌城",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "longcheng_yan",
+   "aliases": [
+    "龙城"
+   ],
+   "coordinates": [
+    120.45,
+    41.59
+   ],
+   "coordinatePrecision": "约略：前燕龙城在今辽宁朝阳",
+   "coordinateSource": "晋书·石季龙载记下（俊送闵既至龙城）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "龙城",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "capital"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "handan",
+   "aliases": [
+    "邯郸"
+   ],
+   "coordinates": [
+    114.48,
+    36.6
+   ],
+   "coordinatePrecision": "约略：今河北邯郸",
+   "coordinateSource": "晋书·穆帝纪（琨攻冉闵将王泰于邯郸）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "邯郸",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "county"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "cangting",
+   "aliases": [
+    "苍亭"
+   ],
+   "coordinates": [
+    115.85,
+    36.18
+   ],
+   "coordinatePrecision": "示意：今山东阳谷一带黄河古渡，未核",
+   "coordinateSource": "晋书·石季龙载记下（战于苍亭）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "苍亭",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "stronghold"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  },
+  {
+   "id": "zhongshan_lunu",
+   "aliases": [
+    "中山"
+   ],
+   "coordinates": [
+    115.0,
+    38.52
+   ],
+   "coordinatePrecision": "约略：中山国治卢奴，今河北定州",
+   "coordinateSource": "晋书·穆帝纪（隽僭帝号于中山）",
+   "coordinateStatus": "approximate",
+   "names": [
+    {
+     "text": "中山",
+     "from": null,
+     "to": null
+    }
+   ],
+   "tiers": [
+    {
+     "from": null,
+     "to": null,
+     "tier": "commandery"
+    }
+   ],
+   "note": "",
+   "reviewStatus": "agent",
+   "added": "2026-10-25"
+  }
+ ],
+ "tierSchemaV2": {
+  "version": "2026-10-24-b12",
+  "tierValues": [
+   "capital",
+   "province",
+   "commandery",
+   "county",
+   "stronghold",
+   "pass",
+   "ferry",
+   "region"
+  ],
+  "timeConvention": "from/to包含；年度默认年末；同年先后必须读取transitions/事件。215与290通常是审核边界，非始置或废止年。",
+  "note": "新枚举和年内转换尚需用户接入程序；现行Registry setdefault与显式episode tier会阻止本数据生效。旧成片不重建。"
+ }
+}

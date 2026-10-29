@@ -1,0 +1,23 @@
+# 三国立绘上图测试（内部）
+id: zz-portrait-test
+title: 立绘测试
+year: 200
+map: {center: [114.5, 35.0], scale: 9000, extent: [104, 28, 124, 42], basemap: dem, river_rank: 5}
+voice: {mode: placeholder}
+sources_local: [{id: demo, work: 测试, volume: 内部}]
+factions: {曹操: red, 袁绍: blue}
+people:
+  曹操: {image: 03_素材/人物立绘/三国立绘/cao_cao.png, title: 司空, role: 奉天子都许, faction: 曹操}
+  袁绍: {image: 03_素材/人物立绘/三国立绘/yuan_shao.png, title: 大将军, role: 兼领四州, faction: 袁绍}
+places:
+  许: {id: xuchang_approx, name: 许}
+  邺: {id: ye_city, name: 邺城}
+beats:
+  - say: 曹操奉迎天子，定都许县。
+    sources: [demo]
+    show:
+      - enter: {who: 曹操, at: 许, side: left, for: 3.6}
+  - say: 官渡一线，袁绍与曹操对峙。
+    sources: [demo]
+    show:
+      - versus: {left: 曹操, right: 袁绍, label: 斗, text: 官渡对峙, for: 3.4}

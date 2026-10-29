@@ -1,0 +1,59 @@
+{
+  "places": [
+    {
+      "id": "ye_city",
+      "aliases": ["邺", "鄴", "邺城", "鄴城", "Ye", "Yecheng"],
+      "coordinates": [114.4002, 36.2748],
+      "coordinatePrecision": "approximate archaeological site point; not city-wall geometry",
+      "names": [
+        {"text": "邺城", "from": 291, "to": 306}
+      ],
+      "nameSource": "https://wenwu.hebei.gov.cn/system/2023/10/16/030257950.shtml",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q1274372",
+      "reviewNote": "Approximate Ye archaeological locality for the 291–306 narrative; not an exact wall or palace location"
+    },
+    {
+      "id": "luoyang_han_wei",
+      "aliases": ["洛阳", "洛陽", "Luoyang"],
+      "coordinates": [112.6183, 34.7195],
+      "coordinatePrecision": "approximate Han-Wei Luoyang archaeological site point; not palace location",
+      "names": [{"text": "洛阳", "from": 291, "to": 306}],
+      "nameSource": "https://lysrd.henanrd.gov.cn/2025/07-16/223000.html",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q11133430",
+      "reviewNote": "Western Jin capital was at the Han-Wei city site east of modern central Luoyang"
+    },
+    {
+      "id": "changan_han_city",
+      "aliases": ["长安", "長安", "Changan", "Chang'an"],
+      "coordinates": [108.8931, 34.2941],
+      "coordinatePrecision": "approximate Han Chang'an archaeological area point; not palace location",
+      "names": [{"text": "长安", "from": 291, "to": 306}],
+      "nameSource": "https://zh.wikisource.org/wiki/資治通鑑/卷085",
+      "coordinateSource": "https://wantulu.com/heritage/shaanxi/heritage_mrktnx7j8dea97/",
+      "reviewNote": "Region-level placement for the 304–306 imperial migration, not a reconstructed palace or wall"
+    },
+    {
+      "id": "xuchang_approx",
+      "aliases": ["许昌", "許昌", "Xuchang"],
+      "coordinates": [113.85, 34.03],
+      "coordinatePrecision": "approximate modern Xuchang locality inherited from the pilot; not verified as the exact 301 CE city site",
+      "names": [{"text": "许昌", "from": 0, "to": 9999}],
+      "nameSource": "https://zh.wikisource.org/wiki/晉書/卷059",
+      "coordinateSource": "Legacy pilot approximation from director-v10a.json; no exact ancient-site georeference asserted",
+      "reviewNote": "Use only as a schematic map anchor for Sima Jiong's recorded association with Xuchang; keep the approximate qualifier visible in the label"
+    },
+    {
+      "id": "nanjing_ancient_city",
+      "aliases": ["建业", "建業", "建邺", "建鄴", "建康", "Jianye", "Jiankang"],
+      "coordinates": [118.796389, 32.058333],
+      "coordinatePrecision": "approximate ancient-city point; not a 300 CE wall or gate position",
+      "names": [
+        {"text": "建邺", "from": 282, "to": 312},
+        {"text": "建康", "from": 313, "to": 589}
+      ],
+      "nameSource": "https://www.xwzf.gov.cn/zjxw/xwgk/lsyg/",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q1330294",
+      "reviewNote": "Name ranges follow Nanjing Xuanwu district history; point is an approximate locality"
+    }
+  ]
+}

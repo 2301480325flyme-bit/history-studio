@@ -1,0 +1,598 @@
+{
+ "mode": "mimo",
+ "beats": [
+  {
+   "file_start": 0.3,
+   "file_end": 5.525,
+   "voice_onset": 0.47,
+   "voice_offset": 5.31
+  },
+  {
+   "file_start": 5.525,
+   "file_end": 9.808,
+   "voice_onset": 5.835,
+   "voice_offset": 9.555
+  },
+  {
+   "file_start": 9.808,
+   "file_end": 14.044,
+   "voice_onset": 10.098,
+   "voice_offset": 14.038
+  },
+  {
+   "file_start": 14.344,
+   "file_end": 18.259,
+   "voice_onset": 14.384,
+   "voice_offset": 18.044
+  },
+  {
+   "file_start": 18.259,
+   "file_end": 23.73,
+   "voice_onset": 18.569,
+   "voice_offset": 23.499
+  },
+  {
+   "file_start": 23.73,
+   "file_end": 27.943,
+   "voice_onset": 24.04,
+   "voice_offset": 27.71
+  },
+  {
+   "file_start": 27.943,
+   "file_end": 31.842,
+   "voice_onset": 28.243,
+   "voice_offset": 31.583
+  },
+  {
+   "file_start": 31.842,
+   "file_end": 37.742,
+   "voice_onset": 32.132,
+   "voice_offset": 37.432
+  },
+  {
+   "file_start": 37.742,
+   "file_end": 41.762,
+   "voice_onset": 37.802,
+   "voice_offset": 41.572
+  },
+  {
+   "file_start": 41.762,
+   "file_end": 45.906,
+   "voice_onset": 41.872,
+   "voice_offset": 45.902
+  },
+  {
+   "file_start": 46.206,
+   "file_end": 51.896,
+   "voice_onset": 46.256,
+   "voice_offset": 51.516
+  },
+  {
+   "file_start": 51.896,
+   "file_end": 56.256,
+   "voice_onset": 51.966,
+   "voice_offset": 56.246
+  },
+  {
+   "file_start": 56.556,
+   "file_end": 63.678,
+   "voice_onset": 56.696,
+   "voice_offset": 63.436
+  },
+  {
+   "file_start": 63.978,
+   "file_end": 69.01,
+   "voice_onset": 64.068,
+   "voice_offset": 68.788
+  },
+  {
+   "file_start": 69.01,
+   "file_end": 72.204,
+   "voice_onset": 69.32,
+   "voice_offset": 72.17
+  },
+  {
+   "file_start": 72.504,
+   "file_end": 78.552,
+   "voice_onset": 72.564,
+   "voice_offset": 78.294
+  },
+  {
+   "file_start": 78.552,
+   "file_end": 82.083,
+   "voice_onset": 78.662,
+   "voice_offset": 81.752
+  },
+  {
+   "file_start": 82.083,
+   "file_end": 86.279,
+   "voice_onset": 82.253,
+   "voice_offset": 86.023
+  },
+  {
+   "file_start": 86.279,
+   "file_end": 90.394,
+   "voice_onset": 86.569,
+   "voice_offset": 90.049
+  },
+  {
+   "file_start": 90.394,
+   "file_end": 95.546,
+   "voice_onset": 90.544,
+   "voice_offset": 95.494
+  },
+  {
+   "file_start": 95.846,
+   "file_end": 101.219,
+   "voice_onset": 95.876,
+   "voice_offset": 101.006
+  },
+  {
+   "file_start": 101.219,
+   "file_end": 105.904,
+   "voice_onset": 101.499,
+   "voice_offset": 105.659
+  },
+  {
+   "file_start": 105.904,
+   "file_end": 111.446,
+   "voice_onset": 106.204,
+   "voice_offset": 111.144
+  },
+  {
+   "file_start": 111.446,
+   "file_end": 117.144,
+   "voice_onset": 111.546,
+   "voice_offset": 116.916
+  },
+  {
+   "file_start": 117.144,
+   "file_end": 121.536,
+   "voice_onset": 117.444,
+   "voice_offset": 121.534
+  },
+  {
+   "file_start": 121.836,
+   "file_end": 124.213,
+   "voice_onset": 121.946,
+   "voice_offset": 124.066
+  },
+  {
+   "file_start": 124.213,
+   "file_end": 128.392,
+   "voice_onset": 124.503,
+   "voice_offset": 128.043
+  },
+  {
+   "file_start": 128.392,
+   "file_end": 133.138,
+   "voice_onset": 128.572,
+   "voice_offset": 132.942
+  },
+  {
+   "file_start": 133.138,
+   "file_end": 138.174,
+   "voice_onset": 133.358,
+   "voice_offset": 138.158
+  },
+  {
+   "file_start": 138.474,
+   "file_end": 142.411,
+   "voice_onset": 138.544,
+   "voice_offset": 142.114
+  },
+  {
+   "file_start": 142.711,
+   "file_end": 145.88,
+   "voice_onset": 142.771,
+   "voice_offset": 145.871
+  },
+  {
+   "file_start": 146.18,
+   "file_end": 151.573,
+   "voice_onset": 146.21,
+   "voice_offset": 151.36
+  },
+  {
+   "file_start": 151.573,
+   "file_end": 153.549,
+   "voice_onset": 151.853,
+   "voice_offset": 153.343
+  },
+  {
+   "file_start": 153.549,
+   "file_end": 157.876,
+   "voice_onset": 153.859,
+   "voice_offset": 157.599
+  },
+  {
+   "file_start": 157.876,
+   "file_end": 163.111,
+   "voice_onset": 158.156,
+   "voice_offset": 162.866
+  },
+  {
+   "file_start": 163.111,
+   "file_end": 168.022,
+   "voice_onset": 163.401,
+   "voice_offset": 167.781
+  },
+  {
+   "file_start": 168.022,
+   "file_end": 174.06,
+   "voice_onset": 168.312,
+   "voice_offset": 173.832
+  },
+  {
+   "file_start": 174.06,
+   "file_end": 177.558,
+   "voice_onset": 174.35,
+   "voice_offset": 177.33
+  },
+  {
+   "file_start": 177.558,
+   "file_end": 182.556,
+   "voice_onset": 177.868,
+   "voice_offset": 182.318
+  },
+  {
+   "file_start": 182.556,
+   "file_end": 187.304,
+   "voice_onset": 182.846,
+   "voice_offset": 187.296
+  }
+ ],
+ "narration": "D:\\history\\codx_3 history studio\\01_工作流\\projects\\s01e41-erzhao\\voice\\narration.wav",
+ "asr": [
+  {
+   "beat": 1,
+   "chapter": 1,
+   "text": "一场决定北方归谁的大战，开打前，一个皇帝先喝了好几斗酒。打到一半，他醉得栽下马，摔在冰面上，被敌人活捉。他叫刘曜，前赵的皇帝。抓他的，是后赵的石勒。",
+   "heard": "一场决定北方归谁的大战，开打前，一个皇帝先喝了好几斗酒，打到一半，他醉得栽下马，摔在冰面上，被敌人活捉。他叫刘曜，前赵的皇帝，抓他的是后赵的石勒。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 4,
+   "chapter": 2,
+   "text": "先说三一八年。汉国皇帝刘聪病死，儿子刘粲即位。一个月后，外戚靳准在平阳起兵，杀了刘粲和刘家宗族，自称汉王。西边长安的刘曜，东边襄国的石勒，同时扑向平阳。刘曜走到赤壁，平阳逃出来的大臣，拥他当了皇帝。平阳城里有人杀了靳准，捧着传国玉玺投降。投的却是刘曜，石勒白打了。靳家剩下的人投奔刘曜，被杀得男女老少一个不留。石勒烧了平阳的宫殿，把浑天仪、乐器搬回了襄国。",
+   "heard": "先说三一八年，汉国皇帝刘聪病死，儿子刘粲继位。一个月后，外戚靳准在平阳起兵，杀了刘粲和刘家宗族，自称汉王。西边长安的刘曜，东边襄国的石勒，同时扑向平阳。刘曜走到赤壁，平阳逃出来的大臣拥他当了皇帝。平阳城里有人杀了靳准，捧着传国玉玺投降，投的却是刘曜，石勒白打了。靳家剩下的人投奔刘曜，被杀的男女老少一个不留。石勒烧了平阳的宫殿，把浑天仪、乐器搬回了襄国。",
+   "ratio": 0.987,
+   "diff": [
+    "「即」→「继」",
+    "「得」→「的」"
+   ]
+  },
+  {
+   "beat": 11,
+   "chapter": 3,
+   "text": "三一九年，刘曜把都城定在长安，国号改成赵，封石勒做赵王。可刘曜听信谗言，杀了石勒的使者，赵王也不封了。",
+   "heard": "三一九年，刘曜把都城定在长安，国号改成赵，封石勒做赵王。可刘曜听信谗言，杀了石勒的使者，赵王也不封了。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 13,
+   "speaker": "石勒",
+   "text": "赵王也好，赵帝也好，我自己拿！名号大小，轮不到他来定！",
+   "heard": "赵王也好，赵帝也好，我自己拿。名号大小，轮不到他来定。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 14,
+   "chapter": 5,
+   "text": "这年冬天，石勒在襄国自称赵王。北方，有了两个赵国。两国对峙将近十年，后赵越打越大。",
+   "heard": "这年冬天，石勒在襄国自称赵王，北方有了两个赵国，两国对峙将近十年，后赵越打越大。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 16,
+   "chapter": 6,
+   "text": "三二八年，石虎带四万人从轵关西进打蒲坂，河东五十多个县都倒向了他。刘曜带全国精兵来救，在高候大败石虎。后赵兵的尸体铺了两百多里，石虎逃到了招歌。刘曜乘胜围了洛阳，还掘开千金堨，放水灌城。可围了一百天也没打下来。刘曜天天跟亲信喝酒赌钱，谁劝就杀谁。",
+   "heard": "三二八年，石虎带四万人从四关西进打蒲坂，河东五十多个县都倒向了他。刘曜带全国精兵来救，在高厚大败石虎，后赵兵的尸体铺了两百多里，石虎逃到了朝歌。刘曜乘胜围了洛阳，还掘开千金宛放水灌城，可围了一百天也没打下来。刘曜天天跟亲信喝酒赌钱，谁劝就杀谁。",
+   "ratio": 0.964,
+   "diff": [
+    "「轵」→「四」",
+    "「候」→「厚」",
+    "「招」→「朝」",
+    "「堨」→「宛」"
+   ]
+  },
+  {
+   "beat": 21,
+   "chapter": 7,
+   "text": "石勒要亲自去救，大臣们死命拦着。石勒按着剑，把他们骂了出去。他说，刘曜十万人打一座城，一百天打不下，早就累垮了。这年冬天，石勒让石虎收拢残兵，自己带四万步骑南下，渡过黄河。他说：刘曜要是守住成皋关，是上策；坐在洛阳不动，就等着被我抓。到了成皋，一个守兵都没有。石勒举手指天：天意啊！",
+   "heard": "石勒要亲自去救，大臣们死命拦着。石勒按着剑把他们骂了出去。他说：“刘曜十万人打一座城，一百天打不下，早就累垮了。”这年冬天，石勒让石虎收拢残兵，自己带四万步骑南下，渡过黄河。他说：“刘曜要是守住成皋关是上策，坐在洛阳不动，就等着被我抓。”到了成皋，一个守兵都没有。石勒举手指天：“天意呀！”",
+   "ratio": 0.992,
+   "diff": [
+    "「啊」→「呀」"
+   ]
+  },
+  {
+   "beat": 26,
+   "chapter": 8,
+   "text": "决战前，刘曜又灌了好几斗酒。平时骑的红马无故跪倒，他换了匹小马，又喝了一斗多。石勒、石虎、石堪三路杀到，在洛阳西阳门三面夹击。前赵军大溃。刘曜醉着往回跑，马陷进石渠，他摔在冰上，被活捉。",
+   "heard": "决战前，刘曜又灌了好几斗酒。平时骑的红马无故跪倒，他换了匹小马，又喝了一斗多。石勒、石虎、石堪三路杀到，在洛阳西阳门三面夹击，前赵军大溃。刘曜醉着往回跑，马陷进石渠，他摔在冰上，被活捉。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 30,
+   "speaker": "刘曜",
+   "text": "石王，你还记得当年我们的盟约吗？",
+   "heard": "兽王，你还记得当年我们的盟约吗？",
+   "ratio": 0.929,
+   "diff": [
+    "「石」→「兽」"
+   ]
+  },
+  {
+   "beat": 31,
+   "chapter": 10,
+   "text": "石勒让人回他：今天这事，是老天安排的。",
+   "heard": "石勒让人回他：“今天这事儿是老天安排的。”",
+   "ratio": 0.97,
+   "diff": [
+    "「」→「儿」"
+   ]
+  },
+  {
+   "beat": 32,
+   "chapter": 11,
+   "text": "石勒让他写信叫太子投降。刘曜却写：守好国家，别管我。后来，石勒杀了他。第二年正月，太子丢下长安，带着百官逃到上归。九月，石虎攻进上归，把刘家宗室杀了个干净。前赵，亡了。三三零年，石勒称帝，大半个北方都归了后赵。刘曜为什么输？赢了一仗就围城喝酒，石勒最怕的成皋，他一个兵都没放。一场决定北方的大战，输给了几斗酒。石勒说是天意。你觉得，是天意，还是刘曜自己作的？后赵坐稳了北方。可石勒的侄子石虎，正盯着他的皇位。",
+   "heard": "石勒让他写信叫太子投降，刘曜却写：“守好国家，别管我。”后来石勒杀了他。第二年正月，太子丢下长安，带着百官逃到上邽。九月，石虎攻进上邽，把刘家宗室杀了个干净。前赵亡了。三三零年，石勒称帝，大半个北方都归了后赵。刘曜为什么输？赢了一仗就围城喝酒，石勒最怕的城高，他一个兵都没放。一场决定北方的大战，输给了几斗酒。石勒说是天意。你觉得是天意，还是刘曜自己作的？后赵坐稳了北方，可石勒的侄子石虎正盯着他的皇位。",
+   "ratio": 0.977,
+   "diff": [
+    "「归」→「邽」",
+    "「归」→「邽」",
+    "「成皋」→「城高」"
+   ]
+  }
+ ],
+ "speaker_pace": [
+  {
+   "beat": 13,
+   "speaker": "石勒",
+   "rate_before": 2.44,
+   "speed": 1.35,
+   "rate": 3.3
+  },
+  {
+   "beat": 30,
+   "speaker": "刘曜",
+   "rate_before": 2.92,
+   "speed": 1.35,
+   "rate": 3.94
+  }
+ ],
+ "tempo": [
+  {
+   "chapter": 1,
+   "raw_rate": 4.28,
+   "factor": 1.144
+  },
+  {
+   "chapter": 2,
+   "raw_rate": 4.76,
+   "factor": 1.144
+  },
+  {
+   "chapter": 3,
+   "raw_rate": 4.09,
+   "factor": 1.144
+  },
+  {
+   "chapter": 5,
+   "raw_rate": 3.92,
+   "factor": 1.144
+  },
+  {
+   "chapter": 6,
+   "raw_rate": 4.57,
+   "factor": 1.144
+  },
+  {
+   "chapter": 7,
+   "raw_rate": 4.38,
+   "factor": 1.144
+  },
+  {
+   "chapter": 8,
+   "raw_rate": 4.57,
+   "factor": 1.144
+  },
+  {
+   "chapter": 10,
+   "raw_rate": 4.41,
+   "factor": 1.144
+  },
+  {
+   "chapter": 11,
+   "raw_rate": 4.06,
+   "factor": 1.144
+  }
+ ],
+ "chapter_match": {
+  "eq_max_db": [
+   2.1,
+   3.8,
+   3.4,
+   4.7,
+   2.2,
+   5.0,
+   3.5,
+   5.0,
+   2.7
+  ],
+  "level_before_db": [
+   -26.3,
+   -26.3,
+   -24.5,
+   -24.8,
+   -24.7,
+   -25.6,
+   -25.9,
+   -26.3,
+   -26.3
+  ],
+  "level_after_db": -25.6
+ },
+ "splits": [
+  {
+   "beat": 1,
+   "ratio": 1.0
+  },
+  {
+   "beat": 2,
+   "ratio": 1.0
+  },
+  {
+   "beat": 3,
+   "ratio": 1.0
+  },
+  {
+   "beat": 4,
+   "ratio": 0.95
+  },
+  {
+   "beat": 5,
+   "ratio": 1.0
+  },
+  {
+   "beat": 6,
+   "ratio": 1.0
+  },
+  {
+   "beat": 7,
+   "ratio": 1.0
+  },
+  {
+   "beat": 8,
+   "ratio": 1.0
+  },
+  {
+   "beat": 9,
+   "ratio": 0.905
+  },
+  {
+   "beat": 10,
+   "ratio": 1.0
+  },
+  {
+   "beat": 11,
+   "ratio": 1.0
+  },
+  {
+   "beat": 12,
+   "ratio": 1.0
+  },
+  {
+   "beat": 14,
+   "ratio": 1.0
+  },
+  {
+   "beat": 15,
+   "ratio": 1.0
+  },
+  {
+   "beat": 16,
+   "ratio": 0.967
+  },
+  {
+   "beat": 17,
+   "ratio": 0.938
+  },
+  {
+   "beat": 18,
+   "ratio": 0.947
+  },
+  {
+   "beat": 19,
+   "ratio": 0.944
+  },
+  {
+   "beat": 20,
+   "ratio": 1.0
+  },
+  {
+   "beat": 21,
+   "ratio": 0.963
+  },
+  {
+   "beat": 22,
+   "ratio": 0.905
+  },
+  {
+   "beat": 23,
+   "ratio": 1.0
+  },
+  {
+   "beat": 24,
+   "ratio": 0.962
+  },
+  {
+   "beat": 25,
+   "ratio": 0.9
+  },
+  {
+   "beat": 26,
+   "ratio": 1.0
+  },
+  {
+   "beat": 27,
+   "ratio": 1.0
+  },
+  {
+   "beat": 28,
+   "ratio": 1.0
+  },
+  {
+   "beat": 29,
+   "ratio": 1.0
+  },
+  {
+   "beat": 31,
+   "ratio": 0.97
+  },
+  {
+   "beat": 32,
+   "ratio": 1.0
+  },
+  {
+   "beat": 33,
+   "ratio": 0.714
+  },
+  {
+   "beat": 34,
+   "ratio": 0.947
+  },
+  {
+   "beat": 35,
+   "ratio": 0.857
+  },
+  {
+   "beat": 36,
+   "ratio": 0.947
+  },
+  {
+   "beat": 37,
+   "ratio": 0.931
+  },
+  {
+   "beat": 38,
+   "ratio": 1.0
+  },
+  {
+   "beat": 39,
+   "ratio": 0.95
+  },
+  {
+   "beat": 40,
+   "ratio": 1.0
+  }
+ ],
+ "measurement": "10ms RMS>.004 after peak normalisation; phrase-level, not forced syllable alignment",
+ "cleaned": "0 breath/noise islands gated out"
+}

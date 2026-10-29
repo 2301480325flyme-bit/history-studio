@@ -1,0 +1,275 @@
+# 快节奏版（2026-10-13，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第11集：北征乌桓、白狼山斩蹋顿；三顾茅庐、隆中对（207）
+# 2026-10-11 由原第10集故事稿下半拆出。关键原文均在本地语料核过：
+# 郭嘉"表，坐谈客耳…虽虚国远征，公无忧矣""兵贵神速…不如留辎重，轻兵兼道以出，掩其不意"（郭嘉传）；
+# 田畴"陷坏断绝，垂二百载，而尚有微径可从…蹋顿之首可不战而擒也""署大木表…方今暑夏，道路不通，且俟秋冬，乃复进军。虏候骑见之，诚以为大军去也"（田畴传）；
+# "登白狼山，卒与虏遇…车重在后，被甲者少，左右皆惧。公登高，望虏陈不整…使张辽为先锋，虏众大崩，斩蹋顿…胡、汉降者二十余万口"、
+# "吾方使康斩送尚、熙首，不烦兵矣""彼素畏尚等，吾急之则并力，缓之则自相图，其势然也"（武帝纪）；
+# 徐庶"诸葛孔明者，卧龙也…此人可就见，不可屈致也"、"凡三往，乃见"、刘备"汉室倾颓，奸臣窃命，主上蒙尘…君谓计将安出"、隆中对全文（诸葛亮传）。
+
+id: s01e11-wuhuan
+title: 北征乌桓
+series: 三国 · 第11集
+year: 207
+
+notes:
+  - 主线问题：东奔西跑二十多年、还没有一块根据地的刘备，凭什么后来能三分天下？——这一年，他找到了诸葛亮。
+  - 三顾茅庐的风雪、午睡、张飞要放火都是小说；史书只有"凡三往，乃见"。《魏略》另说诸葛亮先见刘备，用卡片提一句。
+  - 郭嘉遗计定辽东是小说；史书是曹操自己判断公孙康会杀二袁。
+  - 郭嘉卒年岁数本地语料未核到，旁白不说年龄。诸葛亮二十七岁按卒年推算。
+  - 用户未定：隆中对两路北伐箭头默认画出（伏笔）。
+
+map:
+  center: [114.0, 33.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-17 史图风
+  river_rank: 4
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 一块木牌，骗过了整个乌桓
+  big: [一块木牌]
+  hero: 曹操
+  at: 30
+  summary: |
+    袁尚、袁熙逃到长城外的乌桓。曹操听郭嘉"兵贵神速"，在路边立了块"道路不通、秋冬再来"的木牌骗过乌桓，跟着田畴走一条荒废两百年的旧道出卢龙塞。
+    白狼山一战斩蹋顿，又等着公孙康把二袁的人头送来——北方平定，郭嘉却在回军前后病死，年仅三十八岁。
+  tags: [北征乌桓, 曹操, 郭嘉, 白狼山, 田畴]
+  next: 三顾茅庐，隆中对
+
+sources_local:
+  - {id: sgz-01, work: 三国志, volume: 卷一·武帝纪, url: 'https://zh.wikisource.org/wiki/三國志/卷01'}
+  - {id: sgz-11, work: 三国志, volume: 卷十一·田畴传, url: 'https://zh.wikisource.org/wiki/三國志/卷11'}
+  - {id: sgz-14, work: 三国志, volume: 卷十四·郭嘉传, url: 'https://zh.wikisource.org/wiki/三國志/卷14'}
+  - {id: sgz-35, work: 三国志, volume: 卷三十五·诸葛亮传, url: 'https://zh.wikisource.org/wiki/三國志/卷35'}
+
+factions: {曹操: '#2f5d3a', 乌桓: '#7a5a3a', 袁绍: '#27587e', 袁尚: '#1f4a6e', 刘备: '#5f8f3a', 孙权: '#b0841f', 刘表: '#6b7a2e', 刘璋: '#5f8f3a'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    汉室: {slot: stone, main: true, label_at: 洛阳}
+    凉州军: {slot: lavender, label_at: 长安}
+    曹操: {slot: jade, label_at: 许}
+    孙权: {slot: lemon, label_at: 吴}
+    刘表: {slot: olive, label_at: 襄阳}
+    刘璋: {slot: lime, label_at: 成都}
+
+people:
+  曹操: {image: 03_素材/人物立绘/cao_cao.png, title: 司空, role: 北征乌桓, faction: 曹操}
+  郭嘉: {image: 03_素材/人物立绘/guo_jia.png, title: 军师祭酒, role: 力主远征, faction: 曹操}
+  田畴: {image: 03_素材/人物立绘/tian_chou.png, title: 无终名士, role: 向导, faction: 曹操}
+  张辽: {image: 03_素材/人物立绘/zhang_liao.png, title: 中坚将军, role: 白狼山先锋, faction: 曹操}
+  蹋顿: {image: 03_素材/人物立绘/ta_dun.png, title: 辽西乌桓首领, role: 收留二袁, faction: 乌桓}
+  公孙康: {image: 03_素材/人物立绘/gongsun_kang.png, title: 辽东太守, role: 斩送二袁, faction: 公孙康}
+  刘备: {image: 03_素材/人物立绘/liu_bei.png, title: 左将军, role: 寄居新野, faction: 刘备}
+  徐庶: {image: 03_素材/人物立绘/xu_shu.png, title: 刘备幕僚, role: 荐卧龙, faction: 刘备}
+  诸葛亮: {image: 03_素材/人物立绘/zhuge_liang.png, title: 卧龙, role: 躬耕隆中, faction: 刘备}
+  孙权: {image: 03_素材/人物立绘/sun_quan.png, title: 讨虏将军, role: 据江东, faction: 孙权}
+
+places:
+  许: {id: xuchang_approx, name: 许, label: right, tier: capital}
+  邺: {id: ye_city, label: right}
+  易: {id: yijing, name: 易, label: right}
+  无终: {id: wuzhong, label: left}
+  卢龙塞: {id: lulongsai, label: right}
+  白狼山: {id: bailangshan, label: left}
+  柳城: {id: liucheng, label: right}
+  襄平: {id: xiangping_c, label: right}
+  新野: {id: xinye, label: right}
+  隆中: {id: longzhong, label: left}
+  襄阳: {id: xiangyang, label: right}
+  宛: {id: wanxian, label: left}
+  洛阳: {id: luoyang_han_wei, label: left}
+  长安: {id: changan_han_city, label: below}
+  成都: {id: chengdu_city, label: right}
+  吴: {id: wu_city, label: right}
+
+camera:
+  focus: [邺, 柳城]
+  zoom: 1.6
+
+beats:
+  # ---------------- 第一章 兵贵神速 ----------------
+  - say: 曹操在路边立了块大木牌：现在是盛夏，道路不通，等秋冬再进军。
+    map: '206-03'
+    year: 207
+    phase: 一块木牌
+    sources: [sgz-11]
+    show:
+      - act: {act: prop, at: 无终, item: 竹简, text: 俟秋冬乃复进军, cue: 大木牌, for: 4}
+      - sfx: 重拍转场
+
+  - say: 乌桓的探子看见了，真以为曹军撤了。
+    sources: [sgz-11]
+
+  - say: 可曹军正悄悄钻进一条荒废了两百年的山路，绕向乌桓的背后。
+    sources: [sgz-11]
+
+  - say: 这一仗，得从袁家兄弟说起。袁尚、袁熙逃到长城外，投奔了乌桓首领蹋顿。
+    phase: 兵贵神速
+    sources: [sgz-01]
+    camera: {focus: [邺, 柳城], zoom: fit, move: 2.0}
+    show:
+      - title_bar: {text: 北征乌桓, sub: 三国 · 第11集, for: 3.2}
+      - sfx: 片头鼓
+      - enter: {who: 蹋顿, at: 柳城, side: right, cue: 蹋顿, settle: true, settle_sub: 辽西乌桓}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 曹操要远征乌桓。将领们反对：荆州的刘表要是派刘备偷袭许县，怎么办？
+    sources: [sgz-14]
+    camera: {focus: [许, 襄阳, 柳城], zoom: fit, move: 1.4}
+    show:
+      - arrow: {from: 襄阳, to: 许, kind: direction, faction: 刘表, cue: 偷袭许县, grow: 1.4}
+
+  - say: 只有郭嘉力主出兵：
+    scene: 军帐
+    sources: [sgz-14]
+    show:
+      - enter: {who: 郭嘉, side: left, cue: 郭嘉, for: 2.6}
+
+  - say: 刘表不过是个坐着空谈的人，他管不住刘备。主公就算倾国远征，也不用担心！
+    speaker: 郭嘉
+    style: 轻快自信，带着几分不屑，笃定地劝
+    scene: 军帐
+    to: 曹操
+    sources: [sgz-14]
+
+  - say: 大军走到易县，郭嘉又说：
+    scene: 军帐
+    sources: [sgz-14]
+    camera: {focus: [邺, 易], zoom: fit, move: 1.2}
+
+  - say: 兵贵神速！把辎重留下，轻兵日夜兼程，打他个措手不及！
+    speaker: 郭嘉
+    style: 果决干脆，语速明快，斩钉截铁
+    scene: 军帐
+    to: 曹操
+    sources: [sgz-14]
+    show:
+      - quote: {text: 兵贵神速, source: 三国志·郭嘉传, era: 建安十二年, cue: 兵贵神速}
+
+  # ---------------- 第二章 卢龙塞 ----------------
+
+  - say: 七月大雨，沿海的大路被水淹了，车马过不去。
+    phase: 卢龙塞
+    sources: [sgz-01, sgz-11]
+    camera: {focus: [无终, 卢龙塞, 柳城], zoom: fit, move: 1.4}
+    show:
+      - act: {act: thunder, at: 无终, cue: 大雨, for: 3}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 当地名士田畴出了个主意：
+    scene: 军帐
+    sources: [sgz-11]
+
+  - say: 有条小路从卢龙口出去，直通柳城。从这里绕过去，蹋顿的人头，不用打就能拿下！
+    speaker: 田畴
+    style: 沉稳笃定，熟门熟路地比划，压低声音献计
+    scene: 军帐
+    to: 曹操
+    sources: [sgz-11]
+
+  - say: 于是就有了开头那块木牌。曹军开山填谷，走了五百多里。
+    sources: [sgz-01, sgz-11]
+    show:
+      - replay: {path: [无终, 卢龙塞, 白狼山], faction: 曹操, label: 出卢龙塞}
+      - sfx: {name: 骑兵行军, len: 5}
+
+  # ---------------- 第三章 白狼山 ----------------
+
+  - say: 八月，曹军登上白狼山，迎面撞上了蹋顿的几万骑兵。
+    phase: 白狼山
+    sources: [sgz-01]
+    camera: {focus: [白狼山, 柳城], zoom: 8, move: 1.4}
+    show:
+      - campaign:
+          at: 白狼山
+          title: 白狼山之战
+          clash: 撞上
+          sides:
+            - {from: 卢龙塞, faction: 曹操, banner: 曹, troops: cavalry, size: 1.6}
+            - {from: 柳城, faction: 乌桓, banner: 蹋, troops: cavalry, size: 3.2}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 辎重都在后面，穿铠甲的人很少，左右的人都怕了。
+    sources: [sgz-01]
+
+  - say: 曹操登高一看：敌阵不整齐！立刻让张辽打头阵，冲下山去。
+    sources: [sgz-01]
+    show:
+      - enter: {who: 张辽, side: left, cue: 张辽, for: 3}
+      - march: {from: 白狼山, to: 柳城, faction: 曹操, cue: 冲下山去, grow: 1.2}
+      - sfx: {name: 刀剑交击, cue: 冲下山去}
+
+  - say: 乌桓大军一下子崩溃，蹋顿被斩，投降的有二十多万口。
+    sources: [sgz-01]
+    show:
+      - act: {act: execute, at: 白狼山, text: 斩蹋顿, cue: 蹋顿被斩, for: 2.6}
+      - exit: {who: 蹋顿, at: 柳城, verb: 斩, cue: 蹋顿被斩, portrait: true}
+      - headline: {text: 白狼山之战, sub: 斩蹋顿 · 降者二十余万, cue: 二十多万, for: 3.2}
+
+  - say: 袁尚、袁熙又逃到辽东。有人劝曹操追，曹操却说：
+    sources: [sgz-01]
+    camera: {focus: [柳城, 襄平], zoom: fit, move: 1.4}
+    show:
+      - flee: {from: 柳城, to: 襄平, faction: 袁尚, cue: 辽东}
+      - flag: {at: 襄平, name: 公孙康, sub: 辽东太守, faction: 公孙康}
+
+  - say: 我正等着公孙康，把他们的人头送来。
+    speaker: 曹操
+    style: 胸有成竹，轻描淡写，嘴角带笑
+    sources: [sgz-01]
+
+  - say: 曹操撤军。没过多久，公孙康果然送来了二袁的人头。
+    sources: [sgz-01]
+    show:
+      - act: {act: courier, places: [襄平, 柳城], text: 传首, grow: 1.6, for: 3}
+
+  - say: 将领们问为什么。曹操说：
+    scene: 军帐
+    sources: [sgz-01]
+
+  - say: 我逼得急，他们就联手；放一放，他们自己就会互相算计。
+    speaker: 曹操
+    style: 从容解释，带着几分得意
+    scene: 军帐
+    sources: [sgz-01]
+    show:
+      - card: {title: 演义 vs 正史, body: 郭嘉遗计定辽东是小说；史书是曹操自己的判断}
+
+  - say: 北方平定了。可就在回军前后，郭嘉病死了。
+    sources: [sgz-14]
+    show:
+      - exit: {who: 郭嘉, at: 易, verb: 卒, cue: 病死, portrait: true}
+      - sfx: {name: 退场钟, cue: 病死}
+
+  # ---------------- 第四章 三顾茅庐 ----------------
+
+  - say: 如果郭嘉没死，后来的赤壁，曹操还会输吗？
+    sources: [sgz-14]
+
+  - say: 同一年，荆州新野，寄居在刘表手下的刘备，正在找一个人。
+    sources: [sgz-35]
+    camera: {focus: [新野, 襄阳, 隆中], zoom: fit, move: 1.8}
+    show:
+      - enter: {who: 刘备, at: 新野, side: right, cue: 刘备, settle: true, settle_sub: 寄居新野}
+

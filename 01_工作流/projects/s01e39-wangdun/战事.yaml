@@ -1,0 +1,962 @@
+episode: s01e39-wangdun
+armies:
+  王敦第一次进军军:
+    faction: 王敦
+    head: 王敦
+    size: 未核
+    evidence:
+    - quote: 大将军王敦举兵于武昌，以诛刘隗为名。
+      para: 晋书-p00140
+    note_faction: 晋（王敦叛军）
+  沈充响应军:
+    faction: 王敦
+    head: 沈充
+    size: 未核
+    evidence:
+    - quote: 龙骧将军沈充帅众应之。
+      para: 晋书-p00140
+    note_faction: 晋（王敦叛军）
+  建康朝廷军（322）:
+    faction: 晋
+    head: 王导、戴若思、刘隗、周顗
+    size: 六军，人数未核
+    evidence:
+    - quote: 戴若思、刘隗帅众攻之，王导、周顗、郭逸、虞潭等三道出战。
+      para: 晋书-p00140
+    note_faction: 晋廷
+  王敦第二次进军军:
+    faction: 王敦
+    head: 王含、钱凤、周抚、邓岳（王敦统筹）
+    size: 水陆五万
+    evidence:
+    - quote: 敦遣其兄含及钱凤、周抚、邓岳等水陆五万，至于南岸。
+      para: 晋书-p00147
+    note_faction: 晋（王敦叛军）
+  明帝讨王敦军:
+    faction: 王敦
+    head: 司马绍、温峤
+    size: 夜渡甲卒千人
+    evidence:
+    - quote: 甲卒千人渡水，掩其未备。
+      para: 晋书-p00147
+    note_faction: 晋廷
+  苏峻祖约军:
+    faction: 晋
+    head: 苏峻、祖约
+    size: 苏峻所率万人；其余未核
+    evidence:
+    - quote: 峻自率涣、柳众万人，乘风济自横江。
+      para: 晋书-p07005
+    note_faction: 晋（叛军）
+  韩晃张健军:
+    faction: 晋
+    head: 韩晃、张健
+    size: 未核
+    evidence:
+    - quote: 峻遣将韩晃、张健等袭姑孰。
+      para: 晋书-p07005
+    note_faction: 晋（叛军）
+  温峤西路义军:
+    faction: 晋
+    head: 温峤、王愆期、邓岳、纪睦
+    size: 未核
+    evidence:
+    - quote: 温峤帅师救京师，次于寻阳，遣督护王愆期、西阳太守邓岳、鄱阳太守纪睦为前锋。
+      para: 晋书-p00155
+    note_faction: 晋廷义军
+  陶侃荆州军:
+    faction: 晋
+    head: 陶侃、龚登
+    size: 未核
+    evidence:
+    - quote: 征西大将军陶侃遣督护龚登受峤节度。
+      para: 晋书-p00155
+    note_faction: 晋廷义军
+  郗鉴江北义军:
+    faction: 晋
+    head: 郗鉴、王舒、虞潭
+    size: 未核
+    evidence:
+    - quote: 鉴筑白石垒而据之。
+      para: 晋书-p05054
+    note_faction: 晋廷义军
+  苏峻横江渡江军:
+    faction: 晋
+    head: 苏峻、祖涣、许柳
+    size: 二万人（《资治通鉴》）
+    evidence:
+    - quote: 苏峻帅祖涣、许柳等众二万人，济自横江，登牛渚，军于陵口。
+      url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+      para: 无
+    note_faction: 晋（叛军）
+  江东三吴义军:
+    faction: 晋
+    head: 王舒、虞潭、庾冰
+    size: 庾冰所率一万人
+    evidence:
+    - quote: 会稽内史王舒以庾冰行奋武将军，使将兵一万，西渡浙江。
+      url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+      para: 无
+    note_faction: 晋廷义军
+  苑城宫城守军:
+    faction: 晋
+    head: 陆晔、陆玩、毛宝、邓岳
+    size: 未核
+    evidence:
+    - quote: 陶侃命毛宝守南城，邓岳守西城。
+      url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+      para: 无
+    note_faction: 晋廷义军
+  石头攻城联军:
+    faction: 晋
+    head: 陶侃、温峤、庾亮
+    size: 水军、步兵合计未核；此前联军约四万
+    evidence:
+    - quote: 侃督水军向石头。庾亮、温嶠、赵胤帅步兵万人从白石南上，欲挑战。
+      url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+      para: 无
+    note_faction: 晋廷义军
+events:
+- id: e01
+  army: 王敦第一次进军军
+  kind: 出发
+  place: 武昌
+  from: null
+  via: []
+  date: 322-01
+  territory: null
+  note: 以诛刘隗为名起兵；内部叛乱，不构成郡级易手。
+  evidence:
+  - quote: 戊辰，大将军王敦举兵于武昌。
+    para: 晋书-p00140
+  - quote: 戊辰敦举兵于武昌，上疏罪状刘隗。沈充亦起兵于吴兴以应敦。
+    url: https://zh.wikisource.org/zh-hans/資治通鑑_(四庫全書本)/卷092
+    para: 无
+- id: e02
+  army: 沈充响应军
+  kind: 出发
+  place: 吴兴（具体起点未核）
+  from: null
+  via: []
+  date: 322-01
+  territory: null
+  note: 沈充响应，至建康的具体路线未载。
+  evidence:
+  - quote: 龙骧将军沈充帅众应之。
+    para: 晋书-p00140
+  skip: 旁白不讲沈充、金城与江乘
+- id: e03
+  army: 建康朝廷军（322）
+  kind: 屯驻
+  place: 金城
+  from: null
+  via: []
+  date: 322-03
+  territory: null
+  note: 刘隗驻金城；金城点位待考。
+  evidence:
+  - quote: 刘隗军于金城。
+    para: 晋书-p00140
+  skip: 旁白不讲沈充、金城与江乘
+- id: e04
+  army: 建康朝廷军（322）
+  kind: 屯驻
+  place: 石头城
+  from: null
+  via: []
+  date: 322-03
+  territory: null
+  note: 周札守城，后开门应王敦。
+  evidence:
+  - quote: 右将军周札守石头。
+    para: 晋书-p00140
+  skip: 朝廷屯石头被周札开门，合在攻石头一拍
+- id: e05
+  army: 王敦第一次进军军
+  kind: 行军
+  place: 石头城
+  from: 武昌
+  via: []
+  date: 322-04
+  territory: null
+  note: （原记：石头城，from 武昌）资治通鉴补记王敦进抵芜湖；本纪记前锋攻石头。逐站沿江航路仍未载。
+  evidence:
+  - quote: 四月，敦前锋攻石头。
+    para: 晋书-p00140
+  - quote: 敦至芜湖，又上表罪状刁协。
+    url: https://zh.wikisource.org/zh-hans/資治通鑑_(四庫全書本)/卷092
+    para: 晋书-p06852
+- id: e06
+  army: 王敦第一次进军军
+  kind: 攻占
+  place: 石头城
+  via: []
+  date: 322-04
+  territory: null
+  note: （原记：石头城，from None）周札开门后王敦据石头；都城据点短期易手，不是郡级归属变化。丹阳郡斜纹待裁决。
+  evidence:
+  - quote: 周札开城门应之……敦据石头。
+    para: 晋书-p00140
+  - quote: 札开门应敦，故王师败绩。
+    para: 晋书-p04536
+- id: e07
+  army: 建康朝廷军（322）
+  kind: 交战
+  place: 石头城
+  via: []
+  date: 322-04
+  territory: null
+  note: （原记：石头城外，from None）朝廷诸军三路出战而败。 侯礼死于石头城战；周顗、戴若思败后被害，但本纪未详处刑地点。
+  evidence:
+  - quote: 王导、周顗、郭逸、虞潭等三道出战，六军败绩。
+    para: 晋书-p00140
+- id: e08
+  army: null
+  kind: 交战
+  place: 江乘
+  from: 建康
+  via: []
+  date: 322-04
+  territory: null
+  note: 刁协逃往江乘被害，具体地点未核。
+  evidence:
+  - quote: 刁协奔于江乘，为贼所害。
+    para: 晋书-p00140
+  skip: 旁白不讲沈充、金城与江乘
+- id: e09
+  army: null
+  kind: 撤退
+  place: 石勒辖境（地点未核）
+  from: 建康
+  via: []
+  date: 322-04
+  territory: null
+  note: 刘隗奔石勒，不是郡级转属。
+  evidence:
+  - quote: 刘隗奔于石勒。
+    para: 晋书-p00140
+  skip: 刘隗投奔石勒的地点未核，用引文表示
+- id: e10
+  army: 王敦第二次进军军
+  kind: 行军
+  place: 于湖
+  from: 武昌
+  via: []
+  date: 324-04
+  territory: null
+  note: （原记：于湖，from 姑孰）于湖与姑孰须分别定位；王敦屯军不代表郡级易手。
+  evidence:
+  - quote: 敦下屯于湖。
+    para: 晋书-p00146
+  - quote: 王敦下据姑孰。
+    para: 晋书-p02575
+- id: e11
+  army: 明帝讨王敦军
+  kind: 途经
+  place: 于湖
+  via:
+  - 道路未核
+  date: 324-06
+  territory: null
+  note: （原记：于湖，from 建康）明帝微服至于湖侦察；原文未载具体出城路线。
+  evidence:
+  - quote: 帝密知之，乃乘巴滇骏马微行，至于湖，阴察敦营垒而出。
+    para: 晋书-p00147
+- id: e12
+  army: 王敦第二次进军军
+  kind: 行军
+  place: 建康
+  from: 于湖
+  via: []
+  date: 324-07
+  territory: null
+  note: （原记：南岸，from 武昌方向（具体路线未核））王含、钱凤等率水陆军至南岸。
+  evidence:
+  - quote: 敦遣其兄含及钱凤、周抚、邓岳等水陆五万，至于南岸。
+    para: 晋书-p00147
+- id: e13
+  army: 明帝讨王敦军
+  kind: 屯驻
+  place: 水北
+  from: null
+  via: []
+  date: 324-07
+  territory: null
+  note: 温峤移屯水北并烧朱雀桁。
+  evidence:
+  - quote: 温峤移屯水北，烧硃雀桁，以挫其锋。
+    para: 晋书-p00147
+  skip: 水北屯驻合在越城夜袭
+- id: e14
+  army: 明帝讨王敦军
+  kind: 交战
+  place: 建康
+  via:
+  - 长江/秦淮水系（渡点未核）
+  date: 324-07
+  territory: null
+  note: （原记：越城，from 水北）千名甲士夜渡，黎明击破王敦军、斩何康；丹阳郡争夺斜纹待裁决。
+  evidence:
+  - quote: 甲卒千人渡水，掩其未备。平旦，战于越城，大破之，斩其前锋将何康。
+    para: 晋书-p00147
+  - quote: 癸酉夜，募壮士……帅甲卒千人渡水，掩其未备。平旦，战于越城，大破之。
+    url: https://zh.wikisource.org/zh-hans/資治通鑑/卷093
+    para: 无
+- id: e15
+  army: 王敦第二次进军军
+  kind: 撤退
+  place: 吴兴
+  from: 建康外围
+  via:
+  - 湖熟方向未核
+  date: 324-07
+  territory: null
+  note: 钱凤败退后走至阖庐洲，被周光斩杀；沈充余部还吴兴后被官军追击，沈充父子被杀。沈充具体遇害处未核。
+  evidence:
+  - quote: 凤等败退，沈充将其党还吴兴，官军踵之。
+    para: 晋书-p02633
+  - quote: 王敦愤惋而死。
+    para: 晋书-p00147
+  skip: 钱凤、沈充余部退吴兴不讲
+- id: e16
+  army: 苏峻祖约军
+  kind: 出发
+  place: 历阳
+  from: null
+  via: []
+  date: 327-11
+  territory: null
+  note: 苏峻、祖约起兵，未形成稳定郡级易手。
+  evidence:
+  - quote: 十一月，豫州刺史祖约、历阳太守苏峻等反。
+    para: 晋书-p00154
+  - quote: 峻遂与祖约俱举兵反。
+    para: 晋书-p05329
+  - quote: 十一月，约遣兄子沛内史涣、女婿淮南太守许柳以兵会峻。
+    url: https://zh.wikisource.org/zh-hans/資治通鑑/卷093
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e17
+  army: 韩晃张健军
+  kind: 行军
+  place: 姑孰
+  from: 历阳方向
+  via:
+  - 长江沿岸（停靠点未核）
+  date: 327-12
+  territory: null
+  note: 韩晃入姑孰，城邑控制变化不等于整郡易手。
+  evidence:
+  - quote: 苏峻使其将韩晃入姑孰。
+    para: 晋书-p00154
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e18
+  army: 韩晃张健军
+  kind: 攻占
+  place: 于湖
+  from: null
+  via: []
+  date: 327-12
+  territory: null
+  note: “屠于湖”，territory:null，因无郡级归属变化。
+  evidence:
+  - quote: 屠于湖。
+    para: 晋书-p00154
+  - quote: 杀于湖令陶馥及振威将军司马流。
+    para: 晋书-p07005
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e19
+  army: 韩晃张健军
+  kind: 交战
+  place: 慈湖
+  from: 姑孰/于湖
+  via: []
+  date: 327-12
+  territory: null
+  note: 司马流败死，具体战场点未核。
+  evidence:
+  - quote: 战于慈湖，流败，死之。
+    para: 晋书-p00154
+  - quote: 进逼慈湖，杀于湖令陶馥及振威将军司马流。
+    para: 晋书-p07005
+  - quote: 韩晃袭司马流于慈湖；流素懦怯，将战，食炙不知口处，兵败而死。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e20
+  army: 苏峻祖约军
+  kind: 行军
+  place: 牛渚
+  from: 横江
+  via:
+  - 长江渡口（横江位置待考）
+  date: 328-01
+  territory: null
+  note: 咸和三年正月丁未渡江；《通鉴》记兵二万、军于陵口。327为起兵年，陷建康在328年。
+  evidence:
+  - quote: 丁未，峻济自横江，登牛渚。
+    para: 晋书-p00155
+  - quote: 苏峻帅祖涣、许柳等众二万人，济自横江，登牛渚，军于陵口。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e21
+  army: 苏峻祖约军
+  kind: 行军
+  place: 陵口
+  from: 牛渚
+  via:
+  - 江南岸沿线（未核）
+  date: 328-01
+  territory: null
+  note: 《苏峻传》记次陵口，精确位置与先后次序待核。
+  evidence:
+  - quote: 乘风济自横江，次于陵口。
+    para: 晋书-p07005
+  - quote: 济自横江，登牛渚，军于陵口。台兵御之，屡败。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e22
+  army: 苏峻祖约军
+  kind: 交战
+  place: 蒋陵、覆舟山
+  from: 陵口
+  via: []
+  date: 328-01
+  territory: null
+  note: 苏峻连胜据山；丹阳郡斜纹候选。
+  evidence:
+  - quote: 与王师战，频捷，遂据蒋陵覆舟山。
+    para: 晋书-p07005
+  - quote: 峻至于蒋山。
+    para: 晋书-p00155
+  - quote: 二月，庚戌，峻至蒋陵覆舟山。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e25
+  army: 温峤西路义军
+  kind: 行军
+  place: 寻阳
+  from: 武昌
+  via:
+  - 长江水路
+  date: 328-01
+  territory: null
+  note: 温峤部七千，由寻阳向建康；卷九十四另记陶侃会师后全军约四万。
+  evidence:
+  - quote: 温峤帅师救京师，次于寻阳。
+    para: 晋书-p00155
+  - quote: 峤屯寻阳，遣督护王愆期、西阳太守邓岳
+    para: 晋书-p05030
+  - quote: 温嶠入救建康，军于寻阳。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e23
+  army: 苏峻祖约军
+  kind: 攻占
+  place: 青溪栅、台城/宫城
+  from: null
+  via: []
+  date: 328-02
+  territory: null
+  note: 因风纵火攻青溪栅，陷宫城；属于丹阳郡内短期控制权变化，非郡级易手。卞壸、羊曼、周导、陶瞻战死。
+  evidence:
+  - quote: 峻攻青溪栅，因风纵火，王师又大败。
+    para: 晋书-p00155
+  - quote: 遂陷宫城，纵兵大掠。
+    para: 晋书-p07005
+  - quote: 峻攻青溪栅，因风纵火，烧台省及诸营寺署，一时荡尽。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e24
+  army: 苏峻祖约军
+  kind: 退守
+  place: 石头城
+  from: 台城
+  via: []
+  date: 328-02
+  territory: null
+  note: 苏峻挟持成帝迁石头；仍属晋内乱，territory:null。 329年苏逸派任让入宫杀钟雅、刘超，地点为石头宫中。
+  evidence:
+  - quote: 峻遂迁天子于石头。
+    para: 晋书-p07006
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e26
+  army: 温峤西路义军
+  kind: 行军
+  place: 湓口
+  from: 寻阳
+  via:
+  - 长江水路
+  date: 328-03
+  territory: null
+  note: 温峤檄告诸藩，郭默等相继到湓口；各军出发日期尚需核。
+  evidence:
+  - quote: 辄屯次湓口。
+    para: 晋书-p05031
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e27
+  army: 陶侃荆州军
+  kind: 行军
+  place: 石头城
+  from: 江陵/荆州（确切起点未核）
+  via:
+  - 长江水路
+  - 茄子浦（前锋驻次）
+  date: 328-05
+  territory: null
+  note: 陶侃由荆州东下至寻阳，与温峤、庾亮会师后同向建康，联军约四万人。毛宝先前锋驻茄子浦。
+  evidence:
+  - quote: 五月，与温峤、庾亮等俱会石头。
+    para: 晋书-p04997
+  - quote: 宝领千人为峤前锋，俱次茄子浦。
+    para: 晋书-p05840
+  - quote: 五月，陶侃帅众至寻阳。……遂与亮、嶠同趣建康。戎卒四万，旌旗七百余里。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e28
+  army: 郗鉴江北义军
+  kind: 会合
+  place: 茄子浦
+  from: 京口/丹徒
+  via:
+  - 渡江水路
+  date: 328-05
+  territory: null
+  note: 王舒、虞潭受郗鉴节度渡江与陶侃会师。
+  evidence:
+  - quote: 率众渡江，与侃会于茄子浦。
+    para: 晋书-p05054
+  - quote: 郗鉴帅众渡江，与侃等会与于茄子浦。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e29
+  army: 郗鉴江北义军
+  kind: 屯驻
+  place: 白石垒
+  from: 茄子浦
+  via: []
+  date: 328-05
+  territory: null
+  note: 筑垒固守江岸，为联军支点。
+  evidence:
+  - quote: 鉴筑白石垒而据之。
+    para: 晋书-p05054
+  - quote: 侃等夜筑白石垒，至晓而成。
+    para: 晋书-p05673
+  - quote: 既而屡战无功，监军部将李根请筑白石垒，侃从之。夜筑垒，至晓而成。侃使庾亮以二千人守白石。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e35
+  army: 苏峻祖约军
+  kind: 退守
+  place: 石头城
+  from: 姑孰
+  via:
+  - 长江沿岸
+  date: 328-05
+  territory: null
+  note: 陶侃、温峤西军逼近，苏峻自姑孰回据石头，分兵拒敌。 这是晋内乱或部队败退，territory:null。
+  evidence:
+  - quote: 苏峻闻西方兵起，用参军贾宁计，自姑孰还据石头，分兵以拒侃等。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e36
+  army: 陶侃荆州军
+  kind: 会合
+  place: 寻阳
+  from: 江陵/荆州（具体出发点未核）
+  via:
+  - 长江水路
+  date: 328-05
+  territory: null
+  note: 陶侃军到寻阳后与温峤、庾亮合军东进，联军约四万。 这是晋内乱或部队败退，territory:null。
+  evidence:
+  - quote: 五月，陶侃帅众至寻阳。……遂与亮、嶠同趣建康。戎卒四万。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e37
+  army: 温峤西路义军
+  kind: 行军
+  place: 蔡洲
+  from: 寻阳
+  via:
+  - 长江水路
+  date: 328-05
+  territory: null
+  note: 联军舟师直趋石头，先抵蔡洲；陶侃屯查浦、温峤屯沙门浦。 这是晋内乱或部队败退，territory:null。
+  evidence:
+  - quote: 丙辰，侃等舟师直指石头，至于蔡洲，侃屯查浦，嶠屯沙门浦。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e30
+  army: 郗鉴江北义军
+  kind: 屯驻
+  place: 丹徒、大业、曲阿、庱亭
+  from: 白石
+  via: []
+  date: 328-06
+  territory: null
+  note: 郗鉴、郭默退守并筑三垒；贼军张健来攻大业。
+  evidence:
+  - quote: 鉴与后将军郭默还丹徒，立大业、曲阿、庱亭三垒以距贼。
+    para: 晋书-p05054
+  - quote: 侃乃令鉴与后将军郭默还据京口，立大业、曲阿、庱亭三垒以分峻之兵势。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e31
+  army: 王舒吴中义军
+  kind: 交战
+  place: 吴中、于湖周边
+  from: null
+  via: []
+  date: 328-06
+  territory: null
+  note: 王舒、虞潭及王允之各路与韩晃、张健交战；地名和日期部分未核，不添加郡级易手。
+  evidence:
+  - quote: 冰率众击健走之，于是乘胜西进，赴于京都。
+    para: 晋书-p05357
+  - quote: 战击于湖，潭以强弩射之，晃等退走。
+    para: 晋书-p05536
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e38
+  army: 苏峻祖约军
+  kind: 交战
+  place: 白石垒
+  from: 石头城
+  via:
+  - 步骑由石头外围
+  date: 328-06
+  territory: null
+  note: 苏峻率步骑万余围攻白石垒，未克；白石由二千晋军守。 这是晋内乱或部队败退，territory:null。
+  evidence:
+  - quote: 侃使庾亮以二千人守白石，峻帅步骑万余四面攻之，不克。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e39
+  army: 温峤西路义军
+  kind: 交战
+  place: 白木陂
+  from: 石头城北侧
+  via:
+  - 骑兵冲阵
+  date: 328-09
+  territory: null
+  note: 苏峻乘醉突阵，马失前蹄坠地，被彭世、李千等投矛刺杀；苏峻军溃，余众立苏逸。 这是晋内乱或部队败退，territory:null。
+  evidence:
+  - quote: 峻乘醉望见胤走……捨其众，與数骑北下突陈……马躓，侃部将彭世、李千等投之以矛，峻坠马；斩首。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e32
+  army: 王舒吴中义军
+  kind: 交战
+  place: 溧阳
+  from: 延陵湖
+  via: []
+  date: 329-01
+  territory: null
+  note: 王允之战胜苏逸并俘获；乙未的具体公历日未核。
+  evidence:
+  - quote: 苏逸以万余人自延陵湖将入吴兴。乙未，将军王允之及逸战于溧阳，获之。
+    para: 晋书-p00156
+  - quote: 张健疑弘徽等贰于己，皆杀之，帅舟师自延陵将入吴兴。乙未，扬烈将军王允之与战，大破之。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e34
+  army: 王舒吴中义军
+  kind: 行军
+  place: 浙江西岸/江北
+  from: 浙江东岸
+  via:
+  - 渡浙江
+  date: 329-01
+  territory: null
+  note: 王舒令庾冰率一万人西渡浙江，与吴兴、吴郡等义军响应。 这是晋内乱或部队败退，territory:null。
+  evidence:
+  - quote: 会稽内史王舒以庾冰行奋武将军，使将兵一万，西渡浙江。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e43
+  army: 苏峻祖约军
+  kind: 撤退
+  place: 后赵辖境（具体地点待核）
+  from: 历阳
+  via:
+  - 未载
+  date: 329-01
+  territory: null
+  note: 祖约于历阳夜奔后赵，部将牵腾率众出降；不是郡级疆域转移。
+  evidence:
+  - quote: 约夜帅左右数百人奔后赵，其将牵腾帅众出降。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e44
+  army: 苏峻祖约军
+  kind: 投降
+  place: 历阳
+  from: null
+  via: []
+  date: 329-01
+  territory: null
+  note: 祖约败逃后，部将牵腾率众投降；未发生晋与后赵之间的郡级归属确认，本事件 territory:null。
+  evidence:
+  - quote: 约夜帅左右数百人奔后赵，其将牵腾帅众出降。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e33
+  army: 温峤西路义军
+  kind: 攻占
+  place: 石头城
+  from: 白石/石头周边
+  via: []
+  date: 329-02
+  territory: null
+  note: 329年二月攻克石头、斩苏逸；属晋内乱平定，郡级领土未换政权。
+  evidence:
+  - quote: 及石头平，惧侃致讨。
+    para: 晋书-p04998
+  - quote: 远近兵乱，至四年乃息。
+    para: 晋书-p00670
+  - quote: 二月，丙戌，诸军攻石头。建成长史滕含击苏逸，大破之。西军获苏逸，斩之。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e40
+  army: 王舒吴中义军
+  kind: 行军
+  place: 吴兴
+  from: 延陵
+  via:
+  - 舟师沿水路
+  date: 329-02
+  territory: null
+  note: 张健余部自延陵乘舟向吴兴，王允之于溧阳击败并俘获苏逸/其部。 这是晋内乱或部队败退，territory:null。
+  evidence:
+  - quote: 张健……帅舟师自延陵将入吴兴。乙未，扬烈将军王允之与战，大破之。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e41
+  army: 石头攻城联军
+  kind: 交战
+  place: 石头城
+  from: 蔡洲/白石
+  via:
+  - 水军攻石头；步军由白石南上
+  date: 329-02
+  territory: null
+  note: 联军攻石头；滕含大破苏逸并斩之。苏硕渡淮作战时被温峤击斩；另记苏峻在白木陂坠马被彭世、李千刺杀。晋内乱平定，territory:null。
+  evidence:
+  - quote: 二月，丙戌，诸军攻石头。建成长史滕含击苏逸，大破之。西军获苏逸，斩之。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+- id: e42
+  army: 王舒吴中义军
+  kind: 撤退
+  place: 平陵山
+  from: 故鄣
+  via:
+  - 西趋故鄣的陆路
+  date: 329-02
+  territory: null
+  note: 张健、韩晃等趋故鄣，郗鉴派李閎追及平陵山，斩之。 这是晋内乱或部队败退，territory:null。
+  evidence:
+  - quote: 健复与韩晃、马雄等轻军西趋故鄣，郗鉴遣军李閎追之，及于平陵山，皆斩之。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+  skip: 苏峻之乱在下一集（第40集）讲
+places_new:
+- name: 石头城
+  lon: 118.74
+  lat: 32.08
+  precision: 约略
+  basis: 南京城西临江古城区域示意；六朝城垣精确点未核。
+  evidence:
+  - quote: 敦前锋攻石头。
+    para: 晋书-p00140
+- name: 姑孰
+  lon: 118.49
+  lat: 31.57
+  precision: 约略
+  basis: 今当涂县城附近；与于湖县址分开处理。
+  evidence:
+  - quote: 韩晃入姑孰。
+    para: 晋书-p00154
+- name: 于湖
+  lon: 118.45
+  lat: 31.45
+  precision: 低精度示意
+  basis: 旧志多系今当涂南，位置争议；复旦地名数据库讨论姑孰与于湖有别：https://tgaz.fudan.edu.cn/tgaz/placename/hvd_41365
+  evidence:
+  - quote: 敦下屯于湖。
+    para: 晋书-p00146
+- name: 横江
+  lon: 118.55
+  lat: 32.05
+  precision: 渡江河段示意
+  basis: 渡口未定，坐标不代表精确登陆点。
+  evidence:
+  - quote: 乘风济自横江。
+    para: 晋书-p07005
+- name: 牛渚
+  lon: 118.47
+  lat: 31.67
+  precision: 约略
+  basis: 传统地志多系今采石矶一带，作山矶示意。
+  evidence:
+  - quote: 登牛渚。
+    para: 晋书-p00155
+- name: 陵口
+  lon: 118.7
+  lat: 32.0
+  precision: 未定区域示意
+  basis: 本地地名库无点，坐标只标待考区域。
+  evidence:
+  - quote: 次于陵口。
+    para: 晋书-p07005
+- name: 越城
+  lon: 118.78
+  lat: 32.0
+  precision: 近郊示意
+  basis: 建康南侧战场，精确城址未核。
+  evidence:
+  - quote: 平旦，战于越城。
+    para: 晋书-p00147
+- name: 白石垒
+  lon: null
+  lat: null
+  precision: 未核（战区标记）
+  basis: studio places 查询无本地条目；精确地点未核，仅可作区域示意。
+  evidence:
+  - quote: 侃等夜筑白石垒，至晓而成。
+    para: 晋书-p05673
+- name: 茄子浦
+  lon: null
+  lat: null
+  precision: 未核（战区标记）
+  basis: studio places 查询无本地条目；精确地点未核，仅可作区域示意。
+  evidence:
+  - quote: 宝领千人为峤前锋，俱次茄子浦。
+    para: 晋书-p05840
+- name: 直渎
+  lon: null
+  lat: null
+  precision: 未核（战区标记）
+  basis: studio places 查询无本地条目；精确地点未核，仅可作区域示意。
+  evidence:
+  - quote: 王愆期、邓岳等次直渎。
+    para: 晋书-p00155
+- name: 慈湖
+  lon: null
+  lat: null
+  precision: 未核（战区标记）
+  basis: studio places 查询无本地条目；精确地点未核，仅可作区域示意。
+  evidence:
+  - quote: 战于慈湖，流败，死之。
+    para: 晋书-p00154
+- name: 蔡洲
+  lon: null
+  lat: null
+  precision: 未核（战区标记）
+  basis: 长江洲渚，联军水师到达石头前的会师点；精确洲址未核。
+  evidence:
+  - quote: 至于蔡洲。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+- name: 查浦
+  lon: null
+  lat: null
+  precision: 未核（战区标记）
+  basis: 石头城附近水滨，陶侃舟师驻屯处；精确地望未核。
+  evidence:
+  - quote: 侃屯查浦。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 晋书-p05040
+- name: 沙门浦
+  lon: null
+  lat: null
+  precision: 未核（战区标记）
+  basis: 建康临江水滨，温峤舟师驻处；精确地望未核。
+  evidence:
+  - quote: 嶠屯沙门浦。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 晋书-p05040
+- name: 白木陂
+  lon: null
+  lat: null
+  precision: 未核（战区标记）
+  basis: 建康北侧战场，苏峻坠马处；精确遗址未核。
+  evidence:
+  - quote: 马躓，侃部将彭世、李千等投之以矛。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+- name: 小丹阳南道
+  lon: null
+  lat: null
+  precision: 未核（战区标记）
+  basis: 建康南部陆路，苏峻军由此步行接近京邑；具体路线未核。
+  evidence:
+  - quote: 峻果自小丹杨来，迷失道，夜行。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+- name: 故鄣
+  lon: null
+  lat: null
+  precision: 未核（战区标记）
+  basis: 今浙江安吉/安徽广德交界方向的县级区域，精确晋县治点待核。
+  evidence:
+  - quote: 西趋故鄣。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+- name: 平陵山
+  lon: null
+  lat: null
+  precision: 未核（战区标记）
+  basis: 故鄣方向山地，追击战场；确切地望未核。
+  evidence:
+  - quote: 及于平陵山，皆斩之。
+    url: https://zh.wikisource.org/wiki/資治通鑑/卷094
+    para: 无
+- name: 大业
+  lon: null
+  lat: null
+  precision: 未核（战区标记）
+  basis: studio places 查询无本地条目；精确地点未核。
+  evidence:
+  - quote: 立大业、曲阿、庱亭三垒以距贼。
+    para: 晋书-p05054
+- name: 庱亭
+  lon: null
+  lat: null
+  precision: 未核（战区标记）
+  basis: studio places 查询无本地条目；精确地点未核。
+  evidence:
+  - quote: 立大业、曲阿、庱亭三垒以距贼。
+    para: 晋书-p05054
+open_questions:
+- 疆域.yaml 当前缺少322–329年事件。候选斜纹：322丹阳郡石头/建康受威胁；324丹阳郡南岸、越城交战；328丹阳郡台城短期失守；328–329丹阳、宣城、吴兴、吴、会稽等区域军队往复。请Claude按郡界和片中画面裁决。
+- 对照疆域.yaml 308–311的郡级记法：本账叛军是晋内战，不是汉赵/后赵/成汉取得郡县；攻占、投降均 territory:null 并说明是城邑短控或内乱。
+- 王敦从武昌到石头、324年王含军抵南岸的中途站未载；不补造关隘渡口。
+- 上一集 s01e38-dongjin 文件不存在，无法按 episode.yaml 做精确承接去重。
+- 苏峻准确干支日未核；《资治通鉴》卷九十四明确记其死于白木陂，故可以标战场和年份段，日期不补造。
+- 《资治通鉴》卷九十四补出：苏峻二万人、温峤寻阳军七千、陶侃等合军约四万；攻城时步军由白石南上，陶侃水军向石头。相应路线详见新增e34–e43。
+- studio places 查无本地条目的新地名均单列于 places_new；曲阿已有 gazetteer id qua（坐标精度约5–15km），故未列为新地点。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

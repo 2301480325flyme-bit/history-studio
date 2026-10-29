@@ -1,0 +1,294 @@
+# 快节奏版（2026-10-25）
+# 《三国到隋》第39集 · 东晋：王敦之乱（322–324）。大纲第 34 条前半（苏峻之乱拆到第 40 集）。
+# 本地语料核对（晋书）：
+# 元帝纪 p00140 永昌元年"戊辰，大将军王敦举兵于武昌，以诛刘隗为名"；"四月，敦前锋攻石头，周札开城门应之…王导、周顗、郭逸、虞潭等三道出战，六军败绩。尚书令刁协奔于江乘，为贼所害。镇北将军刘隗奔于石勒"；"戴若思…周顗为敦所害"；
+# 王导传 p04940"王敦之反也，刘隗劝帝悉诛王氏…导率群从昆弟子侄二十余人，每旦诣台待罪。帝以导忠节有素，特还朝服，召见之…帝跣而执之曰：茂弘，方托百里之命于卿，是何言邪"；
+# 周顗传 p05180"敦既得志，问导曰：周顗、戴若思南北之望，当登三司…导不答…敦曰：若不尔，正当诛尔。导又无言。导后料检中书故事，见顗表救己…导执表流涕…曰：吾虽不杀伯仁，伯仁由我而死"；
+# 天文志 p00546"元帝屈辱，制于强臣，即而晏驾，大耻不雪"；p00669"闰十二月，帝崩"；
+# 明帝纪 p00146"夏四月，敦下屯于湖"；p00147"六月，敦将举兵内向，帝密知之，乃乘巴滇骏马微行，至于湖，阴察敦营垒而出…敦正书寝，梦日环其城，惊起曰：此必黄须鲜卑奴来也。帝母荀氏，燕代人，帝状类外氏，须黄…于是使五骑物色追帝。帝亦驰去，马有遗粪，辄以水灌之。见逆旅卖食妪，以七宝鞭与之…五骑传玩，稽留遂久，又见马粪冷，以为信远而止不追"；"敦遣其兄含及钱凤…水陆五万，至于南岸。温峤移屯水北，烧硃雀桁，以挫其锋…甲卒千人渡水，掩其未备。平旦，战于越城，大破之…王敦愤惋而死"。
+# 不用：王敦"以如意击唾壶""老骥伏枥"（与本集主线无关）；王敦死后"出尸斩首"（本地语料未检到）；元帝"忧愤而死"（史料包：不宜写作确定病因，旁白只说"一辈子受制于强臣"）。
+
+id: s01e39-wangdun
+title: 王敦之乱
+series: 东晋 · 第39集
+year: 322
+
+notes:
+  - 主线问题：王敦两次带兵打向建康，为什么始终没坐上那把椅子？——第一次他赢了兵，赢不了人：王家人自己跪在宫门外请罪；第二次，他碰上一个敢亲自去看他营寨的年轻皇帝，病死在了军中。
+  - 钩子候选：①"堂兄起兵造反，他每天带着全家跪在宫门外请罪"（反差3 具体3 悬念3 兑现3=12）②"我没杀伯仁，伯仁却因我而死"（反差2 具体3 悬念2 兑现3=10）③"皇帝往马粪上浇水"（反差3 具体3 悬念2 兑现3=11）→ 选①开场，③放高潮。
+  - 反差：造反的是王家人，跪着请罪的也是王家人；皇帝光着脚迎请罪的臣子；王导一句话没说，好友就被杀；皇帝亲自当探子。
+  - 细节：二十多口人每天一早跪宫门；周札开门；王敦问三次王导都不答；周顗的救人奏章；黄胡子鲜卑小子；往马粪上浇水；七宝鞭送卖饭老太太；烧朱雀桥；千人夜渡。
+  - 演义对照卡：结尾卡"成语出处"——"伯仁由我而死"（周顗传）。
+
+map:
+  center: [117.0, 31.5]
+  scale: 5000
+  extent: [86.0, 12.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas
+  river_rank: 4
+  palette: warm
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 堂兄起兵造反，他每天带着全家跪在宫门外请罪
+  big: [王敦之乱, 伯仁由我而死]
+  hero: 王导
+  at: 3
+  summary: |
+    322 年正月，镇守武昌的大将军王敦以"诛刘隗"为名起兵。刘隗劝晋元帝杀尽王氏，王导便带二十多个族人每天一早到宫门外请罪，元帝光着脚扶起他："我还要把天下托付给你。"四月王敦前锋到石头城，守将周札开门，朝廷三路出兵皆败，刁协被杀、刘隗北逃。王敦三次问王导该不该杀周顗，王导都不说话，周顗遂被杀；后来王导翻到周顗上书救自己的奏章，流泪说："吾虽不杀伯仁，伯仁由我而死。"
+    323 年元帝在屈辱中去世，太子司马绍即位为晋明帝。324 年病重的王敦再度东下屯于湖，明帝骑快马亲自去看他的营寨，王敦惊呼"黄须鲜卑奴来了"，派骑兵追赶；明帝往马粪上浇水、把七宝鞭送给卖饭老妪，骗过追兵。七月温峤烧朱雀桁，千人夜渡在越城大破叛军，王敦愤惋而死。
+  tags: [东晋, 王敦之乱, 王导, 晋明帝, 伯仁由我而死, 王与马共天下]
+  next: 苏峻之乱
+
+sources_local:
+  - {id: js-06, work: 晋书, volume: 卷六·元帝纪、明帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷006'}
+  - {id: js-12, work: 晋书, volume: 卷十二·天文志中, url: 'https://zh.wikisource.org/wiki/晉書/卷012'}
+  - {id: js-65, work: 晋书, volume: 卷六十五·王导传, url: 'https://zh.wikisource.org/wiki/晉書/卷065'}
+  - {id: js-69, work: 晋书, volume: 卷六十九·周顗传, url: 'https://zh.wikisource.org/wiki/晉書/卷069'}
+  - {id: js-49, work: 晋书, volume: 卷四十九·谢鲲传, url: 'https://zh.wikisource.org/wiki/晉書/卷049'}
+
+factions: {晋: '#2f5d3a', 王敦: '#8a5a2b'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    晋: {slot: jade, main: true, label_at: 建康}
+    汉赵: {slot: pink, label_at: 平阳}
+    成汉: {slot: lime, label_at: 成都}
+
+people:
+  王导: {image: 03_素材/人物立绘/wang_dao.png, title: 司空, role: 待罪宫门, faction: 晋}
+  王敦: {image: 03_素材/人物立绘/wang_dun.png, title: 大将军, role: 起兵武昌, faction: 王敦}
+  司马睿: {image: 03_素材/人物立绘/sima_rui.png, title: 晋元帝, role: 受制强臣, faction: 晋}
+  司马绍: {image: 03_素材/人物立绘/sima_shao.png, title: 晋明帝, role: 微服窥营, faction: 晋}
+  刘隗: {image: 03_素材/人物立绘/liu_wei.png, title: 镇北将军, role: 劝诛王氏, faction: 晋}
+  温峤: {image: 03_素材/人物立绘/wen_qiao.png, title: 中垒将军, role: 烧朱雀桁, faction: 晋}
+
+places:
+  建康: {id: nanjing_ancient_city, name: 建康, label: right, tier: capital}
+  石头城: {id: shitoucheng, label: left}
+  武昌: {id: wuchang_e, name: 武昌, label: left}
+  于湖: {id: yuhu, label: left}
+
+camera:
+  focus: [建康, 武昌]
+  zoom: fit
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 堂兄起兵造反，他每天一早，带着全家二十多口人，跪在宫门外请罪。
+    map: '321-09'
+    year: 322
+    phase: 起兵
+    sources: [js-65]
+    camera: {focus: 建康, zoom: 7, move: 1.2}
+    show:
+      - sfx: 重拍转场
+      - spot: {at: 建康, text: 诣台待罪, cue: 跪在宫门外}
+
+  - say: 跪着的人，是丞相王导。造反的，是他的堂兄王敦。
+    sources: [js-65]
+    show:
+      - enter: {who: 王导, side: left, cue: 王导, for: 3.4}
+      - enter: {who: 王敦, side: right, cue: 王敦, for: 3.4}
+      - sfx: {name: 悬疑, cue: 造反}
+
+  # ---------------- 第一章 起兵 ----------------
+  - say: 先说祖逖死后第二年，三二二年正月。王敦在武昌起兵，说要清除皇帝身边的奸臣刘隗。
+    sources: [js-06]
+    camera: {focus: [武昌, 建康], zoom: fit, move: 1.4}
+    show:
+      - title_bar: {text: 王敦之乱, sub: 东晋 · 第39集, for: 3.2}
+      - sfx: 片头鼓
+      - flag: {at: 武昌, name: 王敦, sub: 以诛刘隗为名, faction: 王敦, cue: 起兵, until: beat+2}
+      - sfx: {name: 誓师, cue: 起兵}
+
+  - say: 刘隗劝皇帝：把王家的人，全杀了。王导就带着二十多个族人，天天一早去宫门外跪着。
+    sources: [js-65]
+    camera: {focus: 建康, zoom: 7, move: 1.2}
+    show:
+      - enter: {who: 刘隗, side: right, cue: 刘隗, for: 3}
+      - vignette: {image: illus_wangdao_kneel, cue: 跪着, for: 8, text: 每旦诣台待罪}
+
+  - say: 晋元帝光着脚迎上去，拉住他的手：我还要把天下托付给你呢！
+    sources: [js-65]
+    show:
+      - enter: {who: 司马睿, side: right, cue: 晋元帝, for: 3.4}
+
+  - say: 四月，王敦的兵打到石头城，守将周札开门迎了进去。朝廷三路出兵，全败了。
+    sources: [js-06]
+    camera: {focus: [武昌, 石头城, 建康], zoom: fit, move: 1.4}
+    tells: [e01, e05, e06, e07]
+    show:
+      - army: {head: 王敦, from: 武昌, to: 石头城, faction: 王敦, banner: 王, troops: infantry, size: 3.0, cue: 石头城, grow: 2.4}
+      - battle: {at: 石头城, text: 周札开门 · 六军败绩, cue: 全败了}
+      - sfx: {name: 刀剑交击, cue: 全败了}
+
+  - say: 刘隗逃到了北方石勒那里，另一个大臣刁协在逃跑路上被杀。
+    audit_ok: [死亡]
+    sources: [js-06]
+    show:
+      - quote: {text: 尚书令刁协奔于江乘，为贼所害。镇北将军刘隗奔于石勒, source: 晋书·元帝纪, era: 永昌元年四月, cue: 刁协, for: 4}
+
+  - say: 王敦问王导：周顗该不该杀？连问了几遍，王导一句话也不说。王敦就把周顗杀了。
+    sources: [js-69]
+    camera: {focus: [石头城, 建康], zoom: fit, move: 1.2}
+    show:
+      - quote: {text: 敦曰：若不尔，正当诛尔。导又无言, source: 晋书·周顗传, cue: 一句话也不说, for: 4}
+      - sfx: {name: 处斩, cue: 杀了}
+
+  - say: 后来王导翻旧文书，才发现周顗当初上书，拼命为他求过情。他捧着奏章，哭着说：
+    sources: [js-69]
+    scene: 书房
+
+  - say: 我虽然没有杀伯仁，伯仁却是因为我而死的！
+    speaker: 王导
+    style: 捧着旧奏章，悔恨交加，泣不成声
+    scene: 书房
+    quote: 吾虽不杀伯仁，伯仁由我而死
+    sources: [js-69]
+
+  # ---------------- 第二章 强臣 ----------------
+  - say: 王敦杀了一批忠臣，却连皇帝的面都不去见，说自己病了，回了上游的武昌。
+    phase: 强臣
+    sources: [js-49]
+    camera: {focus: [武昌, 建康], zoom: fit, move: 1.4}
+    show:
+      - army: {head: 王敦, from: 石头城, to: 武昌, faction: 王敦, banner: 王, troops: infantry, size: 2.6, cue: 武昌, grow: 2.2}
+
+  - say: 从此朝廷的大事，都得看他的脸色。
+    sources: [js-49]
+    show:
+      - flag: {at: 武昌, name: 王敦, sub: 遥控朝廷, faction: 王敦, cue: 脸色}
+
+  - say: 第二年闰十二月，晋元帝死了。史书说他一辈子受制于强臣，大耻未雪。
+    year: 323
+    sources: [js-12]
+    camera: {focus: 建康, zoom: 6, move: 1.2}
+    show:
+      - exit: {who: 司马睿, at: 建康, verb: 卒, portrait: true, cue: 死了}
+      - quote: {text: 元帝屈辱，制于强臣，即而晏驾，大耻不雪, source: 晋书·天文志, cue: 强臣, for: 4}
+
+  - say: 太子司马绍即位，就是晋明帝，二十多岁。他的母亲是北方燕代人，他长着一把黄胡子。
+    sources: [js-06]
+    show:
+      - enter: {who: 司马绍, side: right, cue: 司马绍, for: 3.6}
+      - act: {act: enthrone, who: 司马绍, at: 建康, text: 即位, sub: 晋明帝, cue: 即位, for: 3}
+
+  # ---------------- 第三章 黄须 ----------------
+  - say: 三二四年，病重的王敦又带兵东下，屯在于湖，离建康只有一百多里。
+    phase: 黄须
+    year: 324
+    sources: [js-06]
+    camera: {focus: [武昌, 于湖, 建康], zoom: fit, move: 1.4}
+    tells: [e10]
+    show:
+      - army: {head: 王敦, from: 武昌, to: 于湖, faction: 王敦, banner: 王, troops: infantry, size: 3.0, cue: 东下, grow: 2.2}
+
+  - say: 六月，年轻的皇帝骑着一匹快马，偷偷跑到于湖，把王敦的营寨看了个遍。
+    sources: [js-06]
+    camera: {focus: [于湖, 建康], zoom: 9, move: 1.2}
+    tells: [e11]
+    show:
+      - march: {from: 建康, to: 于湖, faction: 晋, label: 微行察营, cue: 偷偷, grow: 1.4}
+      - sfx: {name: 马嘶, cue: 快马}
+
+  - say: 王敦正在睡午觉，梦见太阳绕着城转，惊醒大喊：
+    sources: [js-06]
+    scene: 军帐
+
+  - say: 一定是那个黄胡子的鲜卑小子来了！
+    speaker: 王敦
+    style: 病中惊醒，又惊又怒，声音沙哑却凶狠
+    scene: 军帐
+    quote: 此必黄须鲜卑奴来也
+    sources: [js-06]
+
+  - say: 他派五个骑兵去追。皇帝一边跑，一边往马粪上浇水，让粪凉下来。
+    sources: [js-06]
+    camera: {focus: [于湖, 建康], zoom: 9, move: 1.2}
+    show:
+      - quote: {text: 帝亦驰去，马有遗粪，辄以水灌之, source: 晋书·明帝纪, cue: 浇水, for: 4}
+
+  - say: 他还把七宝马鞭送给路边卖饭的老太太：后面有人追来，就给他们看。
+    sources: [js-06]
+    show:
+      - vignette: {image: illus_mingdi_whip, cue: 马鞭, for: 8, text: 以七宝鞭与之}
+
+  - say: 追兵围着鞭子传着看，耽误了半天。一摸马粪是凉的，以为追不上了。
+    sources: [js-06]
+    show:
+      - quote: {text: 五骑传玩，稽留遂久，又见马粪冷，以为信远而止不追, source: 晋书·明帝纪, cue: 凉的, for: 4.4}
+
+  - say: 七月，王敦的哥哥王含带五万人杀到秦淮河南岸。温峤一把火烧了朱雀桥，叛军过不了河。
+    sources: [js-06]
+    camera: {focus: [于湖, 建康], zoom: fit, move: 1.4}
+    tells: [e12]
+    show:
+      - army: {unit: 王含, from: 于湖, to: 建康, faction: 王敦, banner: 含, troops: infantry, size: 3.0, cue: 南岸, grow: 1.6, stop: approach}
+      - enter: {who: 温峤, side: right, cue: 温峤, for: 3}
+      - vignette: {image: illus_zhuque_fire, cue: 一把火, for: 5, text: 烧朱雀桁}
+      - fire: {at: 建康, cue: 一把火, radius: 0.6, for: 3.4}
+
+  - say: 半夜，皇帝派一千人偷偷渡河，天亮在越城大破叛军。
+    sources: [js-06]
+    tells: [e14]
+    show:
+      - act: {act: night, places: [建康], cue: 半夜, for: 3}
+      - battle: {at: 建康, text: 越城大破之, cue: 大破}
+      - sfx: {name: 刀剑交击, cue: 大破}
+
+  - say: 王敦听到消息，又气又恨，病死在军中。
+    sources: [js-06]
+    show:
+      - exit: {who: 王敦, at: 于湖, verb: 卒, portrait: true, cue: 病死}
+      - sfx: {name: 落幕锣, cue: 病死}
+
+  # ---------------- 收 ----------------
+  - say: 王敦为什么当不了皇帝？第一次，他赢了兵，没赢人心，连王导都不站他那边。
+    sources: [js-06, js-65]
+    camera: {focus: [武昌, 于湖, 建康], zoom: fit, move: 1.6}
+    show:
+      - enter: {who: 王导, side: left, cue: 王导, for: 3}
+
+  - say: 第二次，他碰上了一个敢亲自去看敌营的皇帝。
+    sources: [js-06]
+    show:
+      - versus: {left: 司马绍, right: 王敦, label: 黄须, cue: 皇帝, for: 3.6}
+
+  - say: 王家撑起了东晋，也差一点掀翻了东晋。
+    sources: [js-65]
+    show:
+      - headline: {text: 王与马，共天下, sub: 也差点掀翻天下, cue: 掀翻, for: 3.4}
+      - sfx: {name: 史诗冲击, cue: 掀翻}
+
+  - say: 王导眼看好友被杀，一句话没说。你觉得，他有没有罪？
+    audit_ok: [死亡]
+    sources: [js-69]
+    show:
+      - card: {title: 成语出处, body: 伯仁由我而死——周顗传：吾虽不杀伯仁，伯仁由我而死, cue: 有没有罪, for: 3.6}
+
+  - say: 王敦死了。三年后，又一个手握重兵的人，打进了建康。
+    audit_ok: [死亡, 易手]
+    sources: [js-06]
+    show:
+      - title_bar: {text: 下集, sub: 东晋 · 苏峻之乱, cue: 打进了建康, delay: 0.4, for: 3.0}
+      - sfx: {name: 时代转折, cue: 打进了建康}

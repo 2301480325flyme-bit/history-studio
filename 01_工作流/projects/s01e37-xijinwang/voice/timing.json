@@ -1,0 +1,387 @@
+{
+ "mode": "mimo",
+ "beats": [
+  {
+   "file_start": 0.3,
+   "file_end": 4.913,
+   "voice_onset": 0.42,
+   "voice_offset": 4.69
+  },
+  {
+   "file_start": 4.913,
+   "file_end": 7.303,
+   "voice_onset": 5.223,
+   "voice_offset": 7.143
+  },
+  {
+   "file_start": 7.603,
+   "file_end": 13.554,
+   "voice_onset": 7.693,
+   "voice_offset": 13.293
+  },
+  {
+   "file_start": 13.554,
+   "file_end": 19.469,
+   "voice_onset": 13.844,
+   "voice_offset": 19.194
+  },
+  {
+   "file_start": 19.469,
+   "file_end": 25.791,
+   "voice_onset": 19.599,
+   "voice_offset": 25.419
+  },
+  {
+   "file_start": 25.791,
+   "file_end": 31.014,
+   "voice_onset": 25.901,
+   "voice_offset": 30.981
+  },
+  {
+   "file_start": 31.314,
+   "file_end": 37.858,
+   "voice_onset": 31.444,
+   "voice_offset": 37.594
+  },
+  {
+   "file_start": 37.858,
+   "file_end": 44.88,
+   "voice_onset": 38.148,
+   "voice_offset": 44.618
+  },
+  {
+   "file_start": 44.88,
+   "file_end": 51.503,
+   "voice_onset": 45.17,
+   "voice_offset": 51.25
+  },
+  {
+   "file_start": 51.503,
+   "file_end": 59.079,
+   "voice_onset": 51.793,
+   "voice_offset": 59.043
+  },
+  {
+   "file_start": 59.379,
+   "file_end": 63.865,
+   "voice_onset": 59.549,
+   "voice_offset": 63.609
+  },
+  {
+   "file_start": 64.165,
+   "file_end": 71.56,
+   "voice_onset": 64.235,
+   "voice_offset": 71.355
+  },
+  {
+   "file_start": 71.56,
+   "file_end": 76.882,
+   "voice_onset": 71.9,
+   "voice_offset": 76.64
+  },
+  {
+   "file_start": 76.882,
+   "file_end": 83.159,
+   "voice_onset": 77.182,
+   "voice_offset": 82.902
+  },
+  {
+   "file_start": 83.159,
+   "file_end": 85.79,
+   "voice_onset": 83.449,
+   "voice_offset": 85.749
+  },
+  {
+   "file_start": 86.09,
+   "file_end": 91.692,
+   "voice_onset": 86.26,
+   "voice_offset": 91.31
+  },
+  {
+   "file_start": 91.992,
+   "file_end": 99.058,
+   "voice_onset": 92.022,
+   "voice_offset": 98.722
+  },
+  {
+   "file_start": 99.058,
+   "file_end": 104.787,
+   "voice_onset": 99.238,
+   "voice_offset": 104.678
+  },
+  {
+   "file_start": 105.087,
+   "file_end": 108.319,
+   "voice_onset": 105.207,
+   "voice_offset": 108.107
+  },
+  {
+   "file_start": 108.319,
+   "file_end": 114.076,
+   "voice_onset": 108.549,
+   "voice_offset": 113.809
+  },
+  {
+   "file_start": 114.076,
+   "file_end": 121.052,
+   "voice_onset": 114.366,
+   "voice_offset": 120.776
+  },
+  {
+   "file_start": 121.052,
+   "file_end": 125.09,
+   "voice_onset": 121.272,
+   "voice_offset": 124.912
+  },
+  {
+   "file_start": 125.09,
+   "file_end": 128.994,
+   "voice_onset": 125.45,
+   "voice_offset": 128.75
+  },
+  {
+   "file_start": 128.994,
+   "file_end": 135.121,
+   "voice_onset": 129.304,
+   "voice_offset": 135.004
+  }
+ ],
+ "narration": "D:\\history\\codx_3 history studio\\01_工作流\\projects\\s01e37-xijinwang\\voice\\narration.wav",
+ "asr": [
+  {
+   "beat": 1,
+   "chapter": 1,
+   "text": "晋朝两个皇帝，都穿着仆人的青衣，给匈奴皇帝倒过酒。这是西晋最后的样子。",
+   "heard": "晋朝两个皇帝都穿着仆人的青衣，给匈奴皇帝倒过酒，这是西晋最后的样子。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 3,
+   "chapter": 2,
+   "text": "先说洛阳陷落之后。晋朝的大臣逃到长安，立十几岁的秦王司马邺当了皇太子。平阳这边，刘聪大宴群臣，让被俘的晋怀帝穿上青衣，给客人一个个倒酒。在座的晋朝旧臣忍不住大哭。刘聪很不痛快。没过多久，晋怀帝被杀，三十岁。消息传到长安，司马邺即位，就是晋朝最后一个皇帝，晋愍帝。",
+   "heard": "先说洛阳陷落之后，晋朝的大臣逃到长安，立十几岁的秦王司马邺当了皇太子。平阳这边，刘聪大宴群臣，让被俘的晋怀帝穿上青衣，给客人一个个倒酒。在座的晋朝旧臣忍不住大哭，刘聪很不痛快。没过多久，晋怀帝被杀，三十岁。消息传到长安，司马邺即位，就是晋朝最后一个皇帝晋愍帝。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 7,
+   "chapter": 3,
+   "text": "北方，晋朝还剩几根柱子。并州的刘琨孤守晋阳；幽州的王俊，手里有鲜卑骑兵。石勒想吃掉王俊，先装孙子。王俊送他一把麈尾，他不敢拿，挂在墙上，早晚对着拜。三一四年三月，石勒说要去幽州给王俊上尊号。一进城，就杀了王俊，烧了城。南边也有人不甘心。早在一年前，祖替带着一百多户乡亲渡江北上。船到江心，他敲着船桨发誓：",
+   "heard": "北方晋朝还剩几根柱子，并州的刘琨孤守晋阳，幽州的王浚手里有鲜卑骑兵。石勒想吃掉王浚，先装孙子。王浚送他一把楚尾，他不敢拿，挂在墙上，早晚对着拜。三一四年三月，石勒说要去幽州给王浚上尊号，一进城就杀了王浚，烧了城。南边也有人不甘心。早在一年前，祖逖带着一百多户乡亲渡江北上，船到江心，他敲着船桨发誓。",
+   "ratio": 0.947,
+   "diff": [
+    "「俊」→「浚」",
+    "「俊」→「浚」",
+    "「俊」→「浚」",
+    "「麈」→「楚」",
+    "「俊」→「浚」",
+    "「俊」→「浚」",
+    "「替」→「逖」"
+   ]
+  },
+  {
+   "beat": 11,
+   "speaker": "祖逖",
+   "text": "我祖替要是收复不了中原，就像这大江，一去不回！",
+   "heard": "我祖逖要是收复不了中原，就像这大江，一去不回。",
+   "ratio": 0.95,
+   "diff": [
+    "「替」→「逖」"
+   ]
+  },
+  {
+   "beat": 12,
+   "chapter": 5,
+   "text": "可长安，等不到援军了。三一六年七月，刘曜进攻关中，三万晋军去救北地，还没打，就散了。长安被团团围住。城里一斗米卖二两金子，人吃人，死了一大半。粮仓里只剩几块酒曲，大臣磨成粉，熬粥给皇帝吃。最后，连这个也吃完了。十几岁的皇帝哭着对大臣说：",
+   "heard": "可长安等不到援军了。三一六年七月，刘曜进攻关中，三万晋军去救北地，还没打就散了。长安被团团围住，城里一斗米卖二两金子，人吃人，死了一大半。粮仓里只剩几块酒曲，大臣磨成粉熬粥给皇帝吃，最后连这个也吃完了。十几岁的皇帝哭着对大臣说。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 16,
+   "speaker": "司马邺",
+   "text": "为国而死，是我该做的。可我不忍心让全城百姓，跟着我被屠杀。",
+   "heard": "为国而死，是我该做的。可我不忍心让全城百姓跟着我被屠杀。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 17,
+   "chapter": 7,
+   "text": "十一月，晋愍帝坐着羊车，光着上身，嘴里衔着玉璧，让人抬着棺材，出城投降。后来，他也被押到平阳，也穿上青衣，给刘聪倒酒。西晋，亡了。",
+   "heard": "十一月，晋愍帝坐着羊车，光着上身，嘴里衔着玉璧，让人抬着棺材出城投降。后来，他也被押到平阳，也穿上青衣给刘聪倒酒。西晋亡了。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 19,
+   "chapter": 8,
+   "text": "中原的士族，十个里有六七个逃过了长江。三一七年三月，琅邪王司马睿在建康称晋王。第二年，他称帝，史称东晋。统一天下的西晋，为什么只撑了三十多年？八个王把兵打光了，北边的人，直接走进了空门。一个统一的天下，在皇帝倒酒的那一刻，碎了。晋愍帝出城投降，你觉得，他该不该死守到底？长江以北，进入了十六国的乱世。长江以南，一个新的晋朝，开始了。",
+   "heard": "中原的士族，十个里有六七个逃过了长江。三一七年三月，琅邪王司马睿在建康称晋王。第二年，他称帝，史称东晋。统一天下的西晋，为什么只撑了三十多年？八个王把兵打光了，北边的人直接走进了空门。一个统一的天下，在皇帝倒酒的那一刻碎了。晋明帝出城投降，你觉得他该不该死守到底？长江以北进入了十六国的乱世，长江以南，一个新的晋朝开始了。",
+   "ratio": 0.993,
+   "diff": [
+    "「愍」→「明」"
+   ]
+  }
+ ],
+ "speaker_pace": [
+  {
+   "beat": 11,
+   "speaker": "祖逖",
+   "rate_before": 3.81,
+   "speed": 1.31,
+   "rate": 5.0
+  },
+  {
+   "beat": 16,
+   "speaker": "司马邺",
+   "rate_before": 3.73,
+   "speed": 1.34,
+   "rate": 5.0
+  }
+ ],
+ "tempo": [
+  {
+   "chapter": 1,
+   "raw_rate": 4.2,
+   "factor": 1.129
+  },
+  {
+   "chapter": 2,
+   "raw_rate": 4.68,
+   "factor": 1.129
+  },
+  {
+   "chapter": 3,
+   "raw_rate": 4.38,
+   "factor": 1.129
+  },
+  {
+   "chapter": 5,
+   "raw_rate": 4.4,
+   "factor": 1.129
+  },
+  {
+   "chapter": 7,
+   "raw_rate": 3.85,
+   "factor": 1.129
+  },
+  {
+   "chapter": 8,
+   "raw_rate": 4.61,
+   "factor": 1.129
+  }
+ ],
+ "chapter_match": {
+  "eq_max_db": [
+   3.1,
+   3.3,
+   2.1,
+   2.3,
+   4.1,
+   2.8
+  ],
+  "level_before_db": [
+   -25.7,
+   -23.2,
+   -25.5,
+   -24.5,
+   -24.7,
+   -26.7
+  ],
+  "level_after_db": -25.1
+ },
+ "splits": [
+  {
+   "beat": 1,
+   "ratio": 1.0
+  },
+  {
+   "beat": 2,
+   "ratio": 1.0
+  },
+  {
+   "beat": 3,
+   "ratio": 1.0
+  },
+  {
+   "beat": 4,
+   "ratio": 1.0
+  },
+  {
+   "beat": 5,
+   "ratio": 1.0
+  },
+  {
+   "beat": 6,
+   "ratio": 1.0
+  },
+  {
+   "beat": 7,
+   "ratio": 0.968
+  },
+  {
+   "beat": 8,
+   "ratio": 0.906
+  },
+  {
+   "beat": 9,
+   "ratio": 0.933
+  },
+  {
+   "beat": 10,
+   "ratio": 0.974
+  },
+  {
+   "beat": 12,
+   "ratio": 1.0
+  },
+  {
+   "beat": 13,
+   "ratio": 1.0
+  },
+  {
+   "beat": 14,
+   "ratio": 1.0
+  },
+  {
+   "beat": 15,
+   "ratio": 1.0
+  },
+  {
+   "beat": 17,
+   "ratio": 1.0
+  },
+  {
+   "beat": 18,
+   "ratio": 1.0
+  },
+  {
+   "beat": 19,
+   "ratio": 1.0
+  },
+  {
+   "beat": 20,
+   "ratio": 1.0
+  },
+  {
+   "beat": 21,
+   "ratio": 1.0
+  },
+  {
+   "beat": 22,
+   "ratio": 1.0
+  },
+  {
+   "beat": 23,
+   "ratio": 0.944
+  },
+  {
+   "beat": 24,
+   "ratio": 1.0
+  }
+ ],
+ "measurement": "10ms RMS>.004 after peak normalisation; phrase-level, not forced syllable alignment",
+ "cleaned": "0 breath/noise islands gated out"
+}

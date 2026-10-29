@@ -1,0 +1,389 @@
+# 快节奏版（2026-10-25）
+# 《三国到隋》第42集 · 十六国：石虎暴政，桓温灭成汉（333–349）。大纲第 36 条。
+# 史料包：projects/s01e42-shihu/research/史料包.yaml（Codex）；战事账：战事.yaml。
+# 本地语料核对（晋书）：
+# 石季龙载记上 p07282"季龙自以勋高一时，谓勒即位之后，大单于必在己，而更以授其子弘，季龙深恨之，私谓其子邃曰：主上自都襄国以来，端拱指授，而以吾躬当矢石二十余年…成大赵之业者我也。大单于之望实在于我，而授黄吻婢儿，每一忆此，令人不复能寝食"；
+#   p07283"咸康元年，季龙废勒子弘…且可称居摄赵天王"；成帝纪 p00671"十一月废弘自立，遂幽杀之"；
+#   p07299"于襄国起太武殿，于鄴造东西宫…太武殿基高二丈八尺"；p07319"合鄴城旧军满五十万，具船万艘，自河通海"；
+#   p07304 石邃"我欲至冀州杀石宣，有不从者斩…季龙大怒，废邃为庶人，其夜杀邃及妻张氏并男女二十六人，同埋于一棺之中"；
+#   p07360 宣光殿"梁长九丈。宣视而大怒，斩匠，截梁而去。韬怒，增之十丈"；"韬既死，主上必亲临丧，因行大事"；
+#   p07361"积柴邺北…送宣于标所…四面纵火…宣小子年数岁，季龙甚爱之，抱之而泣。儿曰：非儿罪。季龙欲赦之，其大臣不听，遂于抱中取而戮之，儿犹挽季龙衣而大叫…季龙因此发病"；
+# 慕容皝载记 p07437"季龙进入令支…至于棘城，戎卒数十万…相持旬余…遣子恪等率骑二千，晨出击之。季龙诸军惊扰，弃甲而遁"；石季龙载记 p07307"诸门皆若有师出者，四面如云，季龙大惊，弃甲而遁"；成帝纪 p00164"慕容皝自立为燕王"；
+# 穆帝纪 p00179"桓温帅征虏将军周抚…伐蜀，拜表辄行"；袁乔传 p05968"今溯流万里，经历天险…师次彭模…不如全军而进，弃去釜甑，赍三日粮…去成都十里，与贼大战，前锋失利，乔军亦退，矢及马首…乔因麾而进"；
+#   桓温传 p06880"势于是悉众与温战于笮桥，参军龚护战没，众惧欲退，而鼓吏误鸣进鼓，于是攻之，势众大溃…势遂夜遁九十里，至晋寿葭萌城…面缚舆榇请命"；穆帝纪 p00180"丁亥，李势降，益州平"；p00182"石季龙僭即皇帝位于鄴…石季龙死"。
+# 不用：石宣受刑细节（拔发抽舌、斫眼溃腹，过于残酷；旁白只说"烧死"）；石邃杀人煮食（同上）；棘城"斩获三万余级"（载记战果可能夸大）。
+
+id: s01e42-shihu
+title: 石虎暴政
+series: 十六国 · 第42集
+year: 338
+
+notes:
+  - 主线问题：石虎抢了石勒儿子的江山，为什么他自己的家，一代都没撑住？——他抢侄子的位，儿子们也学着抢他的；同一时期东晋桓温一战灭了成汉，北方大乱的种子已经埋下。
+  - 钩子候选：①"他先后杀了两个太子。杀第二个那天，孙子扯着他的衣服喊：不是我的错"（反差3 具体3 悬念3 兑现3=12）②"鼓手敲错了一下鼓，灭了一个国"（反差3 具体3 悬念2 兑现3=11）→ 选①，②留作第五章高潮。
+  - 反差：江山是我打的却给了黄毛小儿；不称皇帝称天王；几十万人被两千骑吓跑；太子要杀弟弟、弟弟被哥哥杀；敲错鼓反而大胜。
+  - 细节：黄吻婢儿；居摄赵天王；太武殿基高二丈八尺；五十万人、船万艘；晨出二千骑、四面如云、弃甲而遁；二十六人同埋一棺；梁九丈截梁、增之十丈；非儿罪；拜表辄行；弃去釜甑赍三日粮；鼓吏误鸣进鼓；面缚舆榇。
+  - 演义对照卡：结尾卡"史书怎么写"（桓温传：鼓吏误鸣进鼓，于是攻之，势众大溃）。
+
+map:
+  center: [112.0, 34.0]
+  scale: 5000
+  extent: [86.0, 12.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas
+  river_rank: 4
+  palette: warm
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 他先后杀了两个太子。杀第二个那天，孙子扯着他的衣服喊：不是我的错
+  big: [石虎暴政, 桓温灭成汉]
+  hero: 石虎
+  at: 3
+  summary: |
+    333 年石勒死，儿子石弘即位。石虎早就不服："成大赵之业者我也"，却给了"黄吻婢儿"。他把持朝政，次年废杀石弘，自称居摄赵天王，迁都邺城，大修宫殿、征发五十万人造船运粮。338 年他率数十万大军攻慕容皝的棘城，围了十几天，慕容恪率两千骑晨出，后赵军以为四面都是敌兵，弃甲而逃。
+    家里更乱：太子石邃扬言要杀弟弟石宣，被石虎一夜杀了全家二十六口；新太子石宣又杀了弟弟石韬，348 年被石虎烧死，连几岁的孙子也没保住，孩子扯着他的衣服喊"非儿罪"。石虎从此病倒，349 年称帝，四个月后病死。
+    同一时期，东晋荆州的桓温 346 年冬上表就出兵伐蜀，在彭模听袁乔"弃去釜甑，赍三日粮"全军直进，347 年笮桥之战前锋失利，鼓手误敲进军鼓，晋军反攻大胜，李势出降，成汉亡。
+  tags: [十六国, 后赵, 石虎, 慕容皝, 慕容恪, 棘城之战, 桓温, 灭成汉, 笮桥之战]
+  next: 冉闵
+
+sources_local:
+  - {id: js-07, work: 晋书, volume: 卷七·成帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷007'}
+  - {id: js-08, work: 晋书, volume: 卷八·穆帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷008'}
+  - {id: js-83, work: 晋书, volume: 卷八十三·袁乔传, url: 'https://zh.wikisource.org/wiki/晉書/卷083'}
+  - {id: js-98, work: 晋书, volume: 卷九十八·桓温传, url: 'https://zh.wikisource.org/wiki/晉書/卷098'}
+  - {id: js-106, work: 晋书, volume: 卷一百六·石季龙载记上, url: 'https://zh.wikisource.org/wiki/晉書/卷106'}
+  - {id: js-107, work: 晋书, volume: 卷一百七·石季龙载记下, url: 'https://zh.wikisource.org/wiki/晉書/卷107'}
+  - {id: js-109, work: 晋书, volume: 卷一百九·慕容皝载记, url: 'https://zh.wikisource.org/wiki/晉書/卷109'}
+  - {id: js-121, work: 晋书, volume: 卷一百二十一·李势载记, url: 'https://zh.wikisource.org/wiki/晉書/卷121'}
+
+factions: {后赵: '#8a4b2a', 前燕: '#5a5a9a', 晋: '#2f5d3a', 成汉: '#7da03c'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    晋: {slot: jade, main: true, label_at: 建康}
+    后赵: {slot: sky, label_at: 邺}
+    前燕: {slot: violet, label_at: 棘城}
+    成汉: {slot: lime, label_at: 成都}
+
+people:
+  石虎: {image: 03_素材/人物立绘/shi_hu.png, title: 居摄赵天王, role: 暴政, faction: 后赵}
+  石勒: {image: 03_素材/人物立绘/shi_le.png, title: 后赵皇帝, role: 病死, faction: 后赵}
+  石弘: {image: 03_素材/人物立绘/shi_hong.png, title: 后赵太子, role: 被废杀, faction: 后赵}
+  石邃: {image: 03_素材/人物立绘/shi_sui.png, title: 后赵太子, role: 谋逆被杀, faction: 后赵}
+  石宣: {image: 03_素材/人物立绘/shi_xuan.png, title: 后赵太子, role: 杀弟被焚, faction: 后赵}
+  石韬: {image: 03_素材/人物立绘/shi_tao.png, title: 秦公, role: 被兄所杀, faction: 后赵}
+  慕容皝: {image: 03_素材/人物立绘/murong_huang.png, title: 燕王, role: 守棘城, faction: 前燕}
+  慕容恪: {image: 03_素材/人物立绘/murong_ke.png, title: 慕容皝之子, role: 晨出破敌, faction: 前燕}
+  桓温: {image: 03_素材/人物立绘/huan_wen.png, title: 安西将军, role: 灭成汉, faction: 晋}
+  袁乔: {image: 03_素材/人物立绘/yuan_qiao.png, title: 江夏相, role: 弃釜甑, faction: 晋}
+  李势: {image: 03_素材/人物立绘/li_shi.png, title: 成汉皇帝, role: 出降, faction: 成汉}
+
+places:
+  襄国: {id: xiangguo, label: right}
+  长安: {id: changan_han_city, label: below}
+  邺: {id: ye_city, label: right, tier: capital}
+  建康: {id: nanjing_ancient_city, name: 建康, label: right}
+  令支: {id: lingzhi, label: below}
+  棘城: {id: jicheng_murong, label: right}
+  易京: {id: yijing, label: left, show: false}
+  江陵: {id: jiangling, label: left}
+  鱼复: {id: baidicheng, name: 鱼复, label: above, show: false}
+  彭模: {id: pengmo, label: left}
+  成都: {id: chengdu_city, label: left}
+  笮桥: {id: zuoqiao, label: right, show: false}
+  葭萌: {id: jiameng, label: right, show: false}
+
+camera:
+  focus: [邺, 棘城, 成都, 建康]
+  zoom: fit
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 一个皇帝，先后杀了自己的两个太子。
+    map: '329-09'
+    year: 348
+    phase: 父子
+    sources: [js-106, js-107]
+    camera: {focus: [长安, 邺, 棘城], zoom: fit, move: 1.4}
+    show:
+      - sfx: 重拍转场
+      - act: {act: execute, at: 邺, text: 杀二太子, cue: 两个太子, for: 3}
+
+  - say: 杀第二个那天，太子的小儿子扯着他的衣服大喊：不是我的错！
+    sources: [js-107]
+    show:
+      - quote: {text: 儿曰：非儿罪, source: 晋书·石季龙载记下, cue: 不是我的错, for: 3.6}
+      - sfx: {name: 悬疑, cue: 不是我的错}
+
+  - say: 他叫石虎，后赵的暴君。
+    sources: [js-106]
+    show:
+      - enter: {who: 石虎, side: right, cue: 石虎, for: 3.6}
+      - sfx: {name: 登场, cue: 石虎}
+
+  # ---------------- 第一章 篡位 ----------------
+  - say: 先说三三三年。石勒病死，儿子石弘即位。
+    year: 333
+    phase: 篡位
+    sources: [js-07]
+    camera: {focus: [襄国, 邺], zoom: 6, move: 1.4}
+    show:
+      - title_bar: {text: 石虎暴政, sub: 十六国 · 第42集, for: 3.2}
+      - sfx: 片头鼓
+      - exit: {who: 石勒, at: 襄国, verb: 卒, portrait: true, cue: 病死}
+      - enter: {who: 石弘, side: left, cue: 石弘, for: 2.8}
+
+  - say: 石勒的侄子石虎，早就憋着一肚子火：
+    sources: [js-106]
+    show:
+      - enter: {who: 石虎, side: right, cue: 石虎, for: 3}
+
+  - say: 这赵国江山，是我拼了二十多年打下来的！凭什么交给那个黄毛小儿！
+    speaker: 石虎
+    style: 咬牙切齿，满腹怨恨，压低嗓子对儿子发狠
+    quote: 成大赵之业者我也…而授黄吻婢儿
+    sources: [js-106]
+    show:
+      - enter: {who: 石虎, side: right, cue: 这赵国江山, for: 5}
+      - quote: {text: 成大赵之业者我也，而授黄吻婢儿, source: 晋书·石季龙载记上, cue: 黄毛小儿, for: 3.6}
+
+  - say: 石勒一死，他就把持了朝政。第二年，废了石弘，关起来杀了。
+    year: 334
+    sources: [js-07, js-106]
+    show:
+      - act: {act: execute, at: 襄国, text: 废弘自立, cue: 废了石弘, for: 3}
+
+  - say: 他不称皇帝，自称居摄赵天王，又把都城从襄国搬到了邺城。
+    year: 335
+    sources: [js-106]
+    camera: {focus: [襄国, 邺], zoom: 8, move: 1.2}
+    show:
+      - act: {act: enthrone, who: 石虎, at: 邺, text: 居摄赵天王, sub: 建武元年, cue: 赵天王, for: 3}
+      - march: {from: 襄国, to: 邺, faction: 后赵, label: 迁都于邺, cue: 邺城, grow: 1.2}
+
+  # ---------------- 第二章 暴政 ----------------
+  - say: 他在邺城、襄国大修宫殿，光一座太武殿，台基就有两丈八尺高。
+    phase: 暴政
+    sources: [js-106]
+    camera: {focus: [长安, 邺, 棘城], zoom: fit, move: 1.4}
+    show:
+      - act: {act: prop, at: 邺, item: 宫殿, text: 太武殿基高二丈八尺, cue: 太武殿, for: 3.6}
+
+  - say: 为了打仗，他一次征发五十万人，造船一万艘，从黄河一直运粮到海边。
+    sources: [js-106]
+    show:
+      - quote: {text: 合鄴城旧军满五十万，具船万艘，自河通海, source: 晋书·石季龙载记上, cue: 五十万人, for: 4}
+
+  # ---------------- 第三章 棘城 ----------------
+  - say: 他要打的，是东北的慕容皝。三三七年，慕容皝在棘城自称燕王。
+    year: 337
+    map: '337-11'
+    owners_cue: 自称燕王
+    phase: 棘城
+    sources: [js-07, js-109]
+    camera: {focus: [邺, 棘城], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 慕容皝, side: right, cue: 慕容皝, for: 3.4}
+      - spot: {at: 棘城, text: 慕容皝自立为燕王, cue: 燕王, for: 3.4}
+
+  - say: 第二年，石虎带着几十万大军北上，过令支，一直杀到棘城下。
+    year: 338
+    sources: [js-109]
+    tells: [e01, e02]
+    show:
+      - army: {head: 石虎, from: 邺, via: [令支], to: 棘城, faction: 后赵, banner: 虎, troops: infantry, size: 3.6, cue: 北上, grow: 2.2, stop: approach}
+      - quote: {text: 至于棘城，戎卒数十万, source: 晋书·慕容皝载记, cue: 几十万, for: 3.4}
+
+  - say: 围了十几天，打不下来。一天清早，慕容皝的儿子慕容恪，带两千骑兵冲出城门。
+    sources: [js-109]
+    tells: [e03, e04]
+    camera: {focus: 棘城, zoom: 9, move: 1.2}
+    show:
+      - siege: {at: 棘城, text: 相持旬余, faction: 后赵, cue: 十几天}
+      - enter: {who: 慕容恪, side: left, cue: 慕容恪, for: 3.4}
+      - flag: {at: 棘城, name: 慕容恪, sub: 骑二千, faction: 前燕, cue: 慕容恪, until: beat+1}
+      - battle: {at: 棘城, text: 晨出击之, cue: 冲出城门}
+
+  - say: 城里好像每个门都有兵杀出来。后赵军吓坏了，丢下盔甲就跑。
+    sources: [js-106, js-109]
+    tells: [e05]
+    show:
+      - vignette: {image: illus_jicheng_dawn, cue: 每个门, for: 5.5, text: 诸门皆若有师出者，四面如云}
+      - rout: {at: 棘城, via: [令支], to: 易京, faction: 后赵, banner: 虎, head: 石虎, cue: 丢下盔甲, size: 1.4}
+      - sfx: {name: 骑兵行军, cue: 就跑}
+
+  - say: 几十万人，被两千骑兵追着打。慕容家从此在东北站稳了脚跟。
+    map: '338-05'
+    owners_cue: 站稳了脚跟
+    sources: [js-109]
+    camera: {focus: [邺, 棘城], zoom: fit, move: 1.4}
+    show:
+      - headline: {text: 棘城之战, sub: 二千骑破数十万, cue: 两千骑兵, for: 3.4}
+
+  # ---------------- 第四章 父子 ----------------
+  - say: 外头打仗，家里也不太平。太子石邃喝醉了，对手下说：我要去冀州杀了石宣，谁不跟就砍谁。
+    audit_ok: [死亡]
+    year: 337
+    phase: 父子
+    sources: [js-106]
+    camera: {focus: [长安, 邺, 棘城], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 石邃, side: left, cue: 石邃, for: 3}
+      - quote: {text: 我欲至冀州杀石宣，有不从者斩, source: 晋书·石季龙载记上, cue: 杀了石宣, for: 4}
+
+  - say: 石虎知道后，废了太子，当天夜里，把他一家二十六口全杀了，埋进同一口棺材。
+    sources: [js-106]
+    show:
+      - act: {act: execute, at: 邺, text: 杀太子邃, cue: 全杀了, for: 2.8}
+      - quote: {text: 杀邃及妻张氏并男女二十六人，同埋于一棺之中, source: 晋书·石季龙载记上, cue: 同一口棺材, for: 4}
+
+  # ---------------- 第五章 桓温 ----------------
+  - say: 同一时期，南边东晋出了个狠角色，荆州的桓温。
+    year: 346
+    phase: 灭蜀
+    sources: [js-98]
+    camera: {focus: [江陵, 成都, 建康], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 桓温, side: right, cue: 桓温, for: 3.6}
+
+  - say: 三四六年冬，他上了奏表，不等朝廷回复，就带兵逆长江而上，去打成都的成汉。
+    sources: [js-08, js-98]
+    tells: [e06, e07]
+    show:
+      - quote: {text: 伐蜀，拜表辄行, source: 晋书·穆帝纪, cue: 不等朝廷, for: 3.4}
+      - army: {head: 桓温, from: 江陵, via: [鱼复], to: 彭模, faction: 晋, banner: 桓, troops: infantry, size: 3.0, cue: 逆长江而上, grow: 2.4}
+
+  - say: 朝廷都替他捏把汗：蜀道万里，他兵又少。
+    sources: [js-98]
+    show:
+      - quote: {text: 朝廷以蜀险远而温兵寡少，深入敌场，甚以为忧, source: 晋书·桓温传, cue: 捏把汗, for: 4}
+
+  - say: 到了彭模，有人主张分兵两路。参军袁乔不同意：深入万里，只有拼死一战。
+    sources: [js-83]
+    camera: {focus: [彭模, 成都], zoom: 9, move: 1.2}
+    show:
+      - enter: {who: 袁乔, side: right, cue: 袁乔, for: 3.4}
+
+  - say: 扔掉锅，只带三天口粮，全军一起上！
+    sources: [js-83]
+    tells: [e08, e09]
+    show:
+      - vignette: {image: illus_fuzeng, cue: 扔掉锅, for: 5, text: 弃去釜甑，赍三日粮}
+      - battle: {at: 彭模, text: 三战三捷, cue: 全军一起上}
+
+  - say: 三四七年春，晋军打到成都城外的笮桥，前锋打输了，眼看要撤。
+    year: 347
+    sources: [js-83, js-98]
+    tells: [e10]
+    show:
+      - army: {head: 桓温, from: 彭模, to: 成都, faction: 晋, banner: 桓, troops: infantry, size: 3.0, cue: 笮桥, grow: 1.4, stop: approach}
+      - battle: {at: 成都, text: 前锋失利, cue: 打输了}
+
+  - say: 慌乱中，鼓手敲错了，敲成了进军鼓。晋军一听，掉头就冲，成汉军反而大溃。
+    sources: [js-98]
+    tells: [e11]
+    show:
+      - vignette: {image: illus_wrong_drum, cue: 敲错了, for: 5, text: 鼓吏误鸣进鼓}
+      - battle: {at: 成都, text: 势众大溃, cue: 大溃}
+      - sfx: {name: 战鼓, cue: 进军鼓}
+
+  - say: 成汉皇帝李势连夜逃走，后来绑着自己，抬着棺材来投降。成汉，亡了。
+    map: '347-03'
+    owners_cue: 亡了
+    sources: [js-08, js-98]
+    tells: [e24, e25]
+    show:
+      - enter: {who: 李势, side: left, cue: 李势, for: 3}
+      - march: {from: 成都, to: 葭萌, faction: 成汉, label: 夜遁九十里, cue: 连夜逃走, grow: 1.4}
+      - quote: {text: 面缚舆榇请命, source: 晋书·桓温传, cue: 抬着棺材, for: 3.6}
+      - sfx: {name: 落幕锣, cue: 亡了}
+
+  - say: 桓温这一仗，一战成名。
+    sources: [js-98]
+    camera: {focus: [成都, 江陵, 建康], zoom: fit, move: 1.4}
+    show:
+      - headline: {text: 桓温灭成汉, sub: 益州平, cue: 一战成名, for: 3.2}
+
+  # ---------------- 第六章 石宣 ----------------
+  - say: 再回到邺城。新太子石宣，又和弟弟石韬争宠。
+    phase: 父子
+    sources: [js-107]
+    camera: {focus: [长安, 邺, 棘城], zoom: fit, move: 1.4}
+    show:
+      - versus: {left: 石宣, right: 石韬, label: 争宠, cue: 争宠, for: 3.6}
+
+  - say: 石韬盖了座殿，大梁九丈长。石宣看了大怒，砍了工匠，截断大梁。
+    sources: [js-107]
+    show:
+      - card: {title: 兄弟斗气, body: 梁长九丈。宣视而大怒，斩匠，截梁而去。韬怒，增之十丈, cue: 截断大梁, for: 5}
+
+  - say: 石韬一赌气，加长到十丈。
+    sources: [js-107]
+
+  - say: 三四八年，石宣派人杀了石韬，还打算趁父亲来吊丧，连父亲一起干掉。
+    year: 348
+    sources: [js-107]
+    show:
+      - quote: {text: 韬既死，主上必亲临丧，因行大事, source: 晋书·石季龙载记下, cue: 吊丧, for: 4}
+      - exit: {who: 石韬, at: 邺, verb: 诛, portrait: true, cue: 杀了石韬}
+
+  - say: 石虎查了出来，在邺城北边堆起柴堆，把石宣活活烧死。
+    sources: [js-107]
+    show:
+      - fire: {at: 邺, cue: 烧死, radius: 0.6, for: 3.4}
+      - act: {act: execute, at: 邺, text: 焚石宣, cue: 柴堆, for: 2.8}
+
+  - say: 石宣的小儿子才几岁，石虎最疼他，抱着直哭，想饶了他。大臣不答应，孩子被从他怀里拖走杀了。
+    sources: [js-107]
+    show:
+      - vignette: {image: illus_feierzui, cue: 小儿子, for: 6, text: 儿曰：非儿罪}
+
+  - say: 石虎从此一病不起。
+    sources: [js-107]
+    show:
+      - sfx: {name: 退场钟, cue: 一病不起}
+
+  # ---------------- 收 ----------------
+  - say: 三四九年正月，石虎终于称了皇帝。四个月后，病死在邺城。
+    year: 349
+    sources: [js-08]
+    camera: {focus: [长安, 邺, 棘城], zoom: fit, move: 1.4}
+    show:
+      - act: {act: enthrone, who: 石虎, at: 邺, text: 即皇帝位, sub: 太宁元年, cue: 称了皇帝, for: 3}
+      - exit: {who: 石虎, at: 邺, verb: 卒, portrait: true, cue: 病死}
+
+  - say: 石虎为什么家破人亡？他抢了石勒儿子的位子，他的儿子们，也学着抢他的。
+    sources: [js-106]
+    show:
+      - headline: {text: 石虎暴政, sub: 父子相残, cue: 学着抢, for: 3.6}
+      - sfx: {name: 史诗冲击, cue: 学着抢}
+
+  - say: 鼓手敲错一下鼓，灭了一个国。你觉得，这是运气，还是成汉本来就撑不住了？
+    sources: [js-98]
+    show:
+      - card: {title: 史书怎么写, body: 桓温传：鼓吏误鸣进鼓，于是攻之，势众大溃, cue: 运气, for: 4}
+
+  - say: 石虎一死，后赵乱成一锅粥。他的一个养孙，要出手了。
+    sources: [js-107]
+    show:
+      - title_bar: {text: 下集, sub: 十六国 · 冉闵, cue: 出手, delay: 0.4, for: 3.0}
+      - sfx: {name: 时代转折, cue: 出手}

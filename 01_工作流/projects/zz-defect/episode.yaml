@@ -1,0 +1,60 @@
+# 演示：复合动作 3 · 势力归附（defect）
+id: zz-defect
+title: 组件演示 · 韩馥让冀州
+series: History Studio 复合动作
+year: 191
+
+notes:
+  - 初平二年秋七月袁绍取冀州（《武帝纪》"袁绍胁韩馥，取冀州"；《袁绍传》"乃让绍，绍遂领冀州牧"）。
+  - 让州前袁绍为勃海太守，此处按勃海郡示意其根基；冀州其余各郡归韩馥。
+
+map:
+  center: [115.5, 37.0]
+  scale: 3500
+  extent: [82.0, 4.0, 145.0, 52.0]
+  basemap: dem
+  river_rank: 4
+  focus_zoom: 2.2
+  watermark: 东汉
+
+voice: {mode: placeholder}
+
+sources_local:
+  - {id: sgz-01, work: 三国志, volume: 卷一·武帝纪, url: 'https://zh.wikisource.org/wiki/三國志/卷01'}
+  - {id: sgz-06, work: 三国志, volume: 卷六·袁绍传, url: 'https://zh.wikisource.org/wiki/三國志/卷06'}
+
+factions: {韩馥: blue, 袁绍: gold}
+
+territory:
+  cells: han-140
+  jun_labels: true
+  polities:
+    汉室: {slot: tan, label_at: 洛阳, main: true}
+    韩馥: {slot: sky, label_at: 邺}
+    袁绍: {slot: lemon, label_at: 南皮}
+
+places:
+  洛阳: {id: luoyang_han_wei, show: false}
+  邺: {id: ye_city, label: right}
+  南皮: {id: nanpi, label: right}
+
+camera:
+  focus: [邺, 南皮]
+  zoom: fit
+
+beats:
+  - say: 初平二年，袁绍还只是个渤海太守，地盘不大，冀州的主人是韩馥。
+    year: 191
+    sources: [sgz-06]
+    owners: {汉室: [兖州, 豫州, 司隶, 青州, 徐州, 并州, 幽州], 韩馥: [冀州], 袁绍: [勃海郡]}
+    show:
+      - flag: {at: 邺, name: 韩馥, sub: 冀州牧, faction: 韩馥, until: beat+1}
+      - flag: {at: 南皮, name: 袁绍, sub: 勃海太守, faction: 袁绍, until: end}
+
+  - say: 袁绍软硬兼施，韩馥扛不住压力，干脆把整个冀州让给了袁绍。
+    sources: [sgz-01, sgz-06]
+    show:
+      - defect: {who: 韩馥, at: 邺, to: 袁绍, joins: 南皮, cue: 让给, text: 让冀州, verb: 让, sub: 归附袁绍, gain: [冀州]}
+
+  - say: 袁绍一跃成为冀州牧，河北第一大势力就此诞生。
+    sources: [sgz-06]

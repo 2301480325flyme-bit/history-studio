@@ -1,0 +1,551 @@
+{
+ "mode": "mimo",
+ "beats": [
+  {
+   "file_start": 0.3,
+   "file_end": 3.708,
+   "voice_onset": 0.38,
+   "voice_offset": 3.7
+  },
+  {
+   "file_start": 3.708,
+   "file_end": 6.858,
+   "voice_onset": 3.708,
+   "voice_offset": 6.848
+  },
+  {
+   "file_start": 7.158,
+   "file_end": 12.326,
+   "voice_onset": 7.288,
+   "voice_offset": 12.058
+  },
+  {
+   "file_start": 12.326,
+   "file_end": 15.756,
+   "voice_onset": 12.626,
+   "voice_offset": 15.496
+  },
+  {
+   "file_start": 15.756,
+   "file_end": 22.52,
+   "voice_onset": 16.066,
+   "voice_offset": 22.496
+  },
+  {
+   "file_start": 22.82,
+   "file_end": 28.859,
+   "voice_onset": 23.01,
+   "voice_offset": 28.46
+  },
+  {
+   "file_start": 29.159,
+   "file_end": 35.76,
+   "voice_onset": 29.299,
+   "voice_offset": 35.499
+  },
+  {
+   "file_start": 35.76,
+   "file_end": 40.373,
+   "voice_onset": 36.06,
+   "voice_offset": 40.12
+  },
+  {
+   "file_start": 40.373,
+   "file_end": 43.127,
+   "voice_onset": 40.683,
+   "voice_offset": 43.123
+  },
+  {
+   "file_start": 43.427,
+   "file_end": 47.227,
+   "voice_onset": 43.677,
+   "voice_offset": 46.757
+  },
+  {
+   "file_start": 47.527,
+   "file_end": 53.527,
+   "voice_onset": 47.617,
+   "voice_offset": 53.357
+  },
+  {
+   "file_start": 53.827,
+   "file_end": 61.648,
+   "voice_onset": 53.977,
+   "voice_offset": 61.337
+  },
+  {
+   "file_start": 61.948,
+   "file_end": 68.17,
+   "voice_onset": 62.008,
+   "voice_offset": 67.948
+  },
+  {
+   "file_start": 68.17,
+   "file_end": 70.481,
+   "voice_onset": 68.51,
+   "voice_offset": 70.26
+  },
+  {
+   "file_start": 70.481,
+   "file_end": 76.621,
+   "voice_onset": 70.781,
+   "voice_offset": 76.361
+  },
+  {
+   "file_start": 76.621,
+   "file_end": 80.513,
+   "voice_onset": 76.931,
+   "voice_offset": 80.271
+  },
+  {
+   "file_start": 80.513,
+   "file_end": 87.402,
+   "voice_onset": 80.833,
+   "voice_offset": 87.043
+  },
+  {
+   "file_start": 87.402,
+   "file_end": 94.731,
+   "voice_onset": 87.532,
+   "voice_offset": 94.722
+  },
+  {
+   "file_start": 95.031,
+   "file_end": 99.684,
+   "voice_onset": 95.181,
+   "voice_offset": 99.241
+  },
+  {
+   "file_start": 99.984,
+   "file_end": 104.874,
+   "voice_onset": 100.044,
+   "voice_offset": 104.644
+  },
+  {
+   "file_start": 104.874,
+   "file_end": 108.591,
+   "voice_onset": 105.204,
+   "voice_offset": 108.584
+  },
+  {
+   "file_start": 108.891,
+   "file_end": 113.051,
+   "voice_onset": 108.971,
+   "voice_offset": 112.771
+  },
+  {
+   "file_start": 113.051,
+   "file_end": 116.81,
+   "voice_onset": 113.361,
+   "voice_offset": 116.801
+  },
+  {
+   "file_start": 117.11,
+   "file_end": 122.064,
+   "voice_onset": 117.34,
+   "voice_offset": 121.62
+  },
+  {
+   "file_start": 122.364,
+   "file_end": 127.633,
+   "voice_onset": 122.564,
+   "voice_offset": 127.414
+  },
+  {
+   "file_start": 127.933,
+   "file_end": 131.55,
+   "voice_onset": 128.013,
+   "voice_offset": 131.163
+  },
+  {
+   "file_start": 131.85,
+   "file_end": 137.453,
+   "voice_onset": 131.97,
+   "voice_offset": 137.21
+  },
+  {
+   "file_start": 137.453,
+   "file_end": 141.475,
+   "voice_onset": 137.773,
+   "voice_offset": 141.223
+  },
+  {
+   "file_start": 141.475,
+   "file_end": 146.764,
+   "voice_onset": 141.795,
+   "voice_offset": 146.495
+  },
+  {
+   "file_start": 146.764,
+   "file_end": 151.082,
+   "voice_onset": 147.054,
+   "voice_offset": 150.844
+  },
+  {
+   "file_start": 151.082,
+   "file_end": 155.215,
+   "voice_onset": 151.392,
+   "voice_offset": 154.952
+  },
+  {
+   "file_start": 155.215,
+   "file_end": 161.929,
+   "voice_onset": 155.515,
+   "voice_offset": 161.845
+  }
+ ],
+ "narration": "D:\\history\\codx_3 history studio\\01_工作流\\projects\\s01e21-yiling\\voice\\narration.wav",
+ "asr": [
+  {
+   "beat": 1,
+   "chapter": 1,
+   "text": "几百里的连营，被一把茅草，烧光了。点火的，是一个被老将们看不起的书生。",
+   "heard": "几百里的连营被一把茅草烧光了。点火的是一个被老将们看不起的书生。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 3,
+   "chapter": 2,
+   "text": "二二一年秋，刘备亲率大军东征，顺江而下，一路打到秭归。孙权任命陆逊做大都督，带五万人迎战。东吴的将领，有的是跟过孙策的老将，有的是皇亲国戚，谁也不服这个书生。陆逊按着剑说：",
+   "heard": "二二一年秋，刘备亲率大军东征，顺江而下，一路打到秭归。孙权任命陆逊做大都督，带五万人迎战。东吴的将领，有的是跟过孙策的老将，有的是皇亲国戚，谁也不服这个书生。陆逊按着剑说。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 6,
+   "speaker": "陆逊",
+   "text": "我虽然是个书生，可主上把军令交给了我。军令如山，谁也别想违反！",
+   "heard": "我虽然是个书生，可主上把军令交给了我，军令如山，谁也别想违反。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 7,
+   "chapter": 4,
+   "text": "第二年二月，刘备沿着山岭推进，在猇亭扎下大营。营寨一座连一座，绵延几百里。吴军将领个个想出战。陆逊就是不打，一守就是七八个月。远在洛阳的曹丕听说了，冷笑一声：",
+   "heard": "第二年二月，刘备沿着山岭推进，在猇亭扎下大营，营寨一座连一座，绵延几百里。吴军将领个个想出战，陆逊就是不打，一守就是七八个月。远在洛阳的曹丕听说了，冷笑一声。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 10,
+   "speaker": "曹丕",
+   "text": "刘备不懂打仗！哪有扎七百里营来拒敌的！",
+   "heard": "刘备不懂打仗，哪有这七百里营来拒敌的？",
+   "ratio": 0.941,
+   "diff": [
+    "「扎」→「这」"
+   ]
+  },
+  {
+   "beat": 11,
+   "chapter": 6,
+   "text": "吴军将领也急了：要打早该打，现在险要都被他守住了，还怎么打？陆逊说：",
+   "heard": "五军将领也急了，要打早该打，现在险要都被他守住了，还怎么打？陆逊说。",
+   "ratio": 0.966,
+   "diff": [
+    "「吴」→「五」"
+   ]
+  },
+  {
+   "beat": 12,
+   "speaker": "陆逊",
+   "text": "刘备是老江湖，刚来时心思专一，碰不得。现在拖久了，兵疲了，气泄了，正是时候！",
+   "heard": "刘备是老江湖，刚来时心思专一，碰不得。现在拖久了，兵疲了，气泄了，正是时候。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 13,
+   "chapter": 8,
+   "text": "陆逊先试攻一座营，没打下来。将领们说：白白送死。陆逊说：我已经知道怎么破了。他下令：每人拿一把茅草。火一点着，各营跟着烧了起来。吴军全线出击，一口气攻破四十多座营寨。刘备退上马鞍山，被四面围住，死了上万人。夜里，刘备突围。驿站的人背着铠甲在山路上烧起来，挡住追兵，刘备才逃进白帝城。船只、军械、粮草全丢光了，尸体顺着江水漂下来，堵满了江面。刘备又羞又恨：",
+   "heard": "陆逊先是攻一座营没打下来，将领们说白白送死。陆逊说我已经知道怎么破了。他下令每人拿一把茅草，火一点着，各营跟着烧了起来。吴军全线出击，一口气攻破四十多座营寨。刘备退上马鞍山，被四面围住，死了上万人。夜里，刘备突围，驿站的人背着铠甲在山路上烧起来，挡住追兵，刘备才逃进白帝城。船只、军械、粮草全丢光了，尸体顺着江水漂下来，堵满了江面。刘备又羞又恨。",
+   "ratio": 0.993,
+   "diff": [
+    "「试」→「是」"
+   ]
+  },
+  {
+   "beat": 19,
+   "speaker": "刘备",
+   "text": "我竟然被陆逊羞辱到这个地步，难道不是天意吗！",
+   "heard": "竟然被陆逊羞辱到这个地步，难道不是天意吗？",
+   "ratio": 0.974,
+   "diff": [
+    "「我」→「」"
+   ]
+  },
+  {
+   "beat": 20,
+   "chapter": 10,
+   "text": "江北的黄权退路被切断，只好投降了魏。有人要抓他的家人。刘备说：是我对不起黄权，不是黄权对不起我。",
+   "heard": "江北的黄权退路被切断，只好投降了魏。有人要抓他的家人，刘备说：“是我对不起黄权，不是黄权对不起我。”",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 22,
+   "chapter": 11,
+   "text": "刘备没有回成都，留在了白帝城，把这里改名永安。第二年春天，他病重，把诸葛亮从成都召了过来。",
+   "heard": "刘备没有回成都，留在了白帝城，把这里改名永安。第二年春天，他病重，把诸葛亮从成都召了过来。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 24,
+   "speaker": "刘备",
+   "text": "你的才能是曹丕的十倍，一定能安定国家，成就大事。",
+   "heard": "你的才能是曹丕的十倍，一定能安定国家，成就大事。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 25,
+   "speaker": "刘备",
+   "text": "我儿子要是扶得起，你就辅佐他；要是不成器，你可以自己来。",
+   "heard": "我儿子要是扶得起，你就辅佐他；要是不成器，你可以自己来。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 26,
+   "speaker": "诸葛亮",
+   "text": "臣一定竭尽全力，忠贞到底，到死为止！",
+   "heard": "臣一定竭尽全力，忠贞到底，到死为止。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 27,
+   "chapter": 15,
+   "text": "刘备又给儿子刘善留下诏书：你跟着丞相做事，要像对待父亲一样。二二三年四月，刘备病逝于永安，六十三岁。打了一辈子仗的刘备，怎么输给了书生？陆逊不跟他抢第一口气。先等，等他兵疲了、营扎死了，再一把火。君可自取这四个字，你觉得是真心，还是试探？十七岁的刘善即位。南中叛乱，吴蜀断交，一副烂摊子，全压在了诸葛亮身上。",
+   "heard": "刘备又给儿子刘禅留下诏书：“你跟着丞相做事，要像对待父亲一样。”二二三年四月，刘备病逝于永安，六十三岁。打了一辈子仗的刘备，怎么输给了书生？陆逊不跟他抢第一口气，先等，等他兵疲了，营扎死了，再一把火。“君可自取”这四个字，你觉得是真心还是试探？十七岁的刘禅即位，南中叛乱，吴蜀断交，一副烂摊子全压在了诸葛亮身上。",
+   "ratio": 0.985,
+   "diff": [
+    "「善」→「禅」",
+    "「善」→「禅」"
+   ]
+  }
+ ],
+ "speaker_pace": [
+  {
+   "beat": 6,
+   "speaker": "陆逊",
+   "rate_before": 4.09,
+   "speed": 1.22,
+   "rate": 5.0
+  },
+  {
+   "beat": 10,
+   "speaker": "曹丕",
+   "rate_before": 5.56,
+   "speed": 1.0,
+   "rate": 5.56
+  },
+  {
+   "beat": 12,
+   "speaker": "陆逊",
+   "rate_before": 3.14,
+   "speed": 1.35,
+   "rate": 4.24
+  },
+  {
+   "beat": 19,
+   "speaker": "刘备",
+   "rate_before": 4.87,
+   "speed": 1.03,
+   "rate": 5.0
+  },
+  {
+   "beat": 24,
+   "speaker": "刘备",
+   "rate_before": 4.88,
+   "speed": 1.02,
+   "rate": 5.0
+  },
+  {
+   "beat": 25,
+   "speaker": "刘备",
+   "rate_before": 4.57,
+   "speed": 1.09,
+   "rate": 5.0
+  },
+  {
+   "beat": 26,
+   "speaker": "诸葛亮",
+   "rate_before": 3.9,
+   "speed": 1.28,
+   "rate": 5.0
+  }
+ ],
+ "tempo": [
+  {
+   "chapter": 1,
+   "raw_rate": 4.24,
+   "factor": 1.082
+  },
+  {
+   "chapter": 2,
+   "raw_rate": 4.78,
+   "factor": 1.082
+  },
+  {
+   "chapter": 4,
+   "raw_rate": 4.84,
+   "factor": 1.082
+  },
+  {
+   "chapter": 6,
+   "raw_rate": 4.49,
+   "factor": 1.082
+  },
+  {
+   "chapter": 8,
+   "raw_rate": 4.62,
+   "factor": 1.082
+  },
+  {
+   "chapter": 10,
+   "raw_rate": 4.82,
+   "factor": 1.082
+  },
+  {
+   "chapter": 11,
+   "raw_rate": 4.81,
+   "factor": 1.082
+  },
+  {
+   "chapter": 15,
+   "raw_rate": 4.46,
+   "factor": 1.082
+  }
+ ],
+ "chapter_match": {
+  "eq_max_db": [
+   3.5,
+   3.3,
+   4.2,
+   4.7,
+   3.3,
+   5.0,
+   5.0,
+   4.8
+  ],
+  "level_before_db": [
+   -24.4,
+   -25.6,
+   -22.8,
+   -26.7,
+   -24.8,
+   -25.8,
+   -22.9,
+   -26.4
+  ],
+  "level_after_db": -24.9
+ },
+ "splits": [
+  {
+   "beat": 1,
+   "ratio": 1.0
+  },
+  {
+   "beat": 2,
+   "ratio": 1.0
+  },
+  {
+   "beat": 3,
+   "ratio": 1.0
+  },
+  {
+   "beat": 4,
+   "ratio": 1.0
+  },
+  {
+   "beat": 5,
+   "ratio": 1.0
+  },
+  {
+   "beat": 7,
+   "ratio": 1.0
+  },
+  {
+   "beat": 8,
+   "ratio": 1.0
+  },
+  {
+   "beat": 9,
+   "ratio": 1.0
+  },
+  {
+   "beat": 11,
+   "ratio": 0.966
+  },
+  {
+   "beat": 13,
+   "ratio": 0.969
+  },
+  {
+   "beat": 14,
+   "ratio": 1.0
+  },
+  {
+   "beat": 15,
+   "ratio": 1.0
+  },
+  {
+   "beat": 16,
+   "ratio": 1.0
+  },
+  {
+   "beat": 17,
+   "ratio": 1.0
+  },
+  {
+   "beat": 18,
+   "ratio": 1.0
+  },
+  {
+   "beat": 20,
+   "ratio": 1.0
+  },
+  {
+   "beat": 21,
+   "ratio": 1.0
+  },
+  {
+   "beat": 22,
+   "ratio": 1.0
+  },
+  {
+   "beat": 23,
+   "ratio": 1.0
+  },
+  {
+   "beat": 27,
+   "ratio": 0.963
+  },
+  {
+   "beat": 28,
+   "ratio": 1.0
+  },
+  {
+   "beat": 29,
+   "ratio": 1.0
+  },
+  {
+   "beat": 30,
+   "ratio": 1.0
+  },
+  {
+   "beat": 31,
+   "ratio": 1.0
+  },
+  {
+   "beat": 32,
+   "ratio": 0.967
+  }
+ ],
+ "measurement": "10ms RMS>.004 after peak normalisation; phrase-level, not forced syllable alignment",
+ "cleaned": "0 breath/noise islands gated out"
+}

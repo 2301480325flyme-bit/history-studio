@@ -1,0 +1,298 @@
+# 快节奏版（2026-10-14，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第28集：司马炎代魏、羊祜镇荆州、王濬楼船、孙皓出降，三分归晋（265–280）——三国篇收官
+# 本地语料核对（晋书为主）：
+# 羊祜传"祜卒二岁而吴平，群臣上寿，帝执爵流涕曰：此羊太傅之功也"；"祜之始至也，军无百日之粮，及至季年，有十年之积"；"在军常轻裘缓带，身不被甲"；
+#   "抗尝病，祜馈之药，抗服之无疑心。人多谏抗，抗曰：羊祜岂鸩人者！…抗每告其戍曰：彼专为德，我专为暴，是不战而自服也。各保分界而已"；
+#   "祜叹曰：天下不如意，恒十居七八，故有当断不断"；"疾渐笃，乃举杜预自代。寻卒，时年五十八…南州人征市日闻祜丧，莫不号恸，罢市，巷哭者声相接。吴守边将士亦为之泣"；
+# 武帝纪"泰始元年冬十二月丙寅，设坛于南郊…封魏帝为陈留王"；"浚进破夏口、武昌，遂泛舟东下，所至皆平…三月壬申，王浚以舟师至于建邺之石头，孙皓大惧，面缚舆榇，降于军门…收其图籍，得州四，郡四十三，县三百一十三，户五十二万三千…男女口二百三十万"；"甲戌，杜预克江陵"；
+# 王濬传"吴人于江险碛要害之处，并以铁锁横截之，又作铁锥长丈余，暗置江中，以逆距船…濬乃作大筏数十，亦方百余步，缚草为人，被甲持杖，令善水者以筏先行，筏遇铁锥，锥辄著筏去。又作火炬，长十余丈，大数十围，灌以麻油，在船前，遇锁，然炬烧之，须臾，融液断绝"。
+# 不用：刘禹锡"一片降幡出石头"（唐诗，只在卡片里点到）。
+
+id: s01e28-guijin
+title: 三分归晋
+series: 三国 · 第28集
+year: 280
+
+notes:
+  - 主线问题：一个没赶上灭吴之战的人，凭什么是灭吴头功？——羊祜在荆州十年，攒下了粮，收服了人心，留下了方略和接班人；灭吴那一仗，十年前就开始了。
+  - 反差：庆功宴上皇帝端着酒杯哭的，是一个死了两年的人；敌将生病，他送去的是药。
+  - 细节：军中存粮从不够一百天到够吃十年；轻裘缓带、身不披甲；"羊祜岂鸩人者"；铁锁铁锥 vs 草人木筏和麻油火炬；孙皓面缚舆榇。
+  - 动机：羊祜屡次请战被朝议阻拦，"天下不如意，恒十居七八"。
+  - 收官：从黄巾起义到三分归晋，九十六年。
+
+map:
+  center: [114.0, 31.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-17 史图风
+  river_rank: 4
+  palette: warm          # 2026-10-25 第18集起统一新样式（第27集试样通过）
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 灭吴庆功宴上，皇帝为一个死人流泪
+  big: [三分归晋]
+  hero: 羊祜
+  at: 30
+  summary: |
+    265 年，司马炎受魏禅，建立晋朝，天下只剩晋与吴。羊祜镇守荆州十年，来时军粮不够百日，后来存粮够吃十年；对面的陆抗病了，他送去良药，陆抗说"羊祜岂鸩人者"。羊祜屡次请战不成，临终推荐杜预接班，襄阳百姓罢市痛哭。
+    280 年，王濬楼船顺江而下，草人木筏带走水下铁锥，灌油火炬烧断拦江铁锁；杜预克江陵，王濬直抵建业石头城，孙皓面缚出降。庆功宴上，晋武帝端着酒杯哭了："此羊太傅之功也。"三国九十六年，至此归晋。
+  tags: [三分归晋, 羊祜, 陆抗, 王濬, 司马炎]
+  next: 合集二·两晋开篇
+
+sources_local:
+  - {id: js-03, work: 晋书, volume: 卷三·武帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷003'}
+  - {id: js-34, work: 晋书, volume: 卷三十四·羊祜传, url: 'https://zh.wikisource.org/wiki/晉書/卷034'}
+  - {id: js-42, work: 晋书, volume: 卷四十二·王濬传, url: 'https://zh.wikisource.org/wiki/晉書/卷042'}
+
+factions: {晋: '#2f5d3a', 魏: '#2f5d3a', 吴: '#b0841f'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    魏: {slot: jade, main: true, label_at: 洛阳}
+    晋: {slot: jade, main: true, label_at: 洛阳}
+    吴: {slot: lemon, label_at: 建业}
+
+people:
+  司马炎: {image: 03_素材/人物立绘/sima_yan.png, title: 晋武帝, role: 受禅灭吴, faction: 晋}
+  羊祜: {image: 03_素材/人物立绘/yang_hu.png, title: 征南大将军, role: 镇荆州十年, faction: 晋}
+  陆抗: {image: 03_素材/人物立绘/lu_kang.png, title: 吴大司马, role: 对峙羊祜, faction: 吴}
+  杜预: {image: 03_素材/人物立绘/du_yu.png, title: 镇南大将军, role: 克江陵, faction: 晋}
+  王濬: {image: 03_素材/人物立绘/wang_jun.png, title: 龙骧将军, role: 楼船东下, faction: 晋}
+  孙皓: {image: 03_素材/人物立绘/sun_hao.png, title: 吴末帝, role: 面缚出降, faction: 吴}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: right, tier: capital}
+  襄阳: {id: xiangyang, label: right}
+  江陵: {id: jiangling, label: left}
+  西陵: {id: yiling, name: 西陵, label: above}
+  成都: {id: chengdu_city, label: left}
+  夏口: {id: xiakou, label: right}
+  武昌: {id: wuchang_e, label: below}
+  建业: {id: nanjing_ancient_city, name: 建业, label: right, tier: capital}
+
+camera:
+  focus: [洛阳, 建业]
+  zoom: 2.0
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 灭吴的庆功宴上，晋武帝司马炎端着酒杯，流下了眼泪：
+    map: '263-11'
+    year: 280
+    phase: 执爵流涕
+    scene: 宴席
+    sources: [js-34]
+    show:
+      - sfx: 重拍转场
+
+  - say: 这一仗的功劳，是羊太傅的啊！
+    speaker: 司马炎
+    style: 举杯哽咽，泪流满面，感慨万千
+    scene: 宴席
+    sources: [js-34]
+    show:
+      - quote: {text: 此羊太傅之功也, source: 晋书·羊祜传, era: 太康元年, for: 4}
+
+  - say: 可羊祜，两年前就死了。一个没赶上灭吴之战的人，凭什么是头功？
+    audit_ok: [死亡]
+    sources: [js-34]
+    camera: {focus: [洛阳, 襄阳, 建业], zoom: fit, move: 1.6}
+    show:
+      - enter: {who: 羊祜, side: left, cue: 羊祜, for: 4}
+
+  # ---------------- 第一章 晋代魏 ----------------
+  - say: 时间回到二六五年。司马昭去世，儿子司马炎接了班。
+    phase: 晋代魏
+    year: 265
+    sources: [js-03]
+    camera: {focus: 洛阳, zoom: 5, move: 1.4}
+    show:
+      - title_bar: {text: 三分归晋, sub: 三国 · 第28集, for: 3.2}
+      - sfx: 片头鼓
+      - enter: {who: 司马炎, side: right, cue: 司马炎, for: 3.4}
+
+  - say: 这年十二月，魏帝让位。司马炎在洛阳南郊设坛登基，国号叫晋。
+    scene: 祭坛
+    sources: [js-03]
+    show:
+      - sfx: {name: 铜锣, cue: 登基}
+
+  - say: 曹魏立国四十五年，也像汉朝一样，被禅让掉了。
+    map: '265-12'
+    owners_cue: 禅让
+    sources: [js-03]
+    camera: {focus: [洛阳, 建业], zoom: fit, move: 1.6}
+    show:
+      - headline: {text: 晋代魏, sub: 泰始元年, cue: 禅让, for: 3.2}
+      - sfx: {name: 疆域易手, cue: 禅让}
+
+  - say: 天下只剩两家：北边的晋，南边的吴。
+    sources: [js-03]
+
+  # ---------------- 第二章 十年 ----------------
+  - say: 晋武帝派羊祜镇守荆州，准备灭吴。他刚到襄阳时，军中的粮食撑不过一百天。
+    phase: 十年
+    year: 269
+    sources: [js-34]
+    camera: {focus: [襄阳, 江陵], zoom: 6, move: 1.4}
+    tells: [e01]
+    show:
+      - flag: {at: 襄阳, name: 羊祜, sub: 都督荆州, faction: 晋, cue: 襄阳, guest: true}   # 襄阳属晋，郡级格子画在吴的南郡（斜纹）里
+
+  - say: 几年后，存粮够吃十年。
+    sources: [js-34]
+    show:
+      - quote: {text: 军无百日之粮，及至季年，有十年之积, source: 晋书·羊祜传, era: 泰始年间, cue: 十年, for: 4.4}
+      - act: {act: prop, at: 襄阳, item: 粮仓, text: 十年之积, cue: 存粮, size: 1.2, for: 3.6}
+
+  - say: 他在军营里穿着轻便的皮衣，不披铠甲。对面的吴将陆抗病了，羊祜派人送去了药。
+    sources: [js-34]
+    show:
+      - enter: {who: 陆抗, side: right, cue: 陆抗, for: 3.4}
+      - act: {act: courier, places: [襄阳, 江陵], text: 祜馈之药, cue: 送去了药, grow: 1.2, for: 3}
+
+  - say: 部下劝他别吃，陆抗说：
+    sources: [js-34]
+
+  - say: 羊祜哪里是下毒害人的人！
+    speaker: 陆抗
+    style: 坦荡一笑，毫不迟疑，端起药碗
+    sources: [js-34]
+
+  - say: 陆抗还告诉守军：他专门讲德，我们专门讲暴，不用打就输了。各守边界就行。
+    sources: [js-34]
+    show:
+      - versus: {left: 羊祜, right: 陆抗, label: 交和, cue: 讲德, for: 4}
+
+  - say: 羊祜一次次上书请战，朝中反对的人太多。他叹气说：
+    sources: [js-34]
+
+  - say: 天下不如意的事，十件里常有七八件啊！
+    speaker: 羊祜
+    style: 长叹一声，无奈惋惜，语气低沉
+    sources: [js-34]
+
+  - say: 二七八年，羊祜病重，推荐杜预接替自己，不久去世，五十八岁。
+    audit_ok: [死亡]
+    map: '271-07'
+    year: 278
+    sources: [js-34]
+    show:
+      - exit: {who: 羊祜, at: 襄阳, verb: 卒, portrait: true, cue: 去世}
+      - enter: {who: 杜预, side: right, cue: 杜预, for: 3}
+
+  - say: 襄阳百姓听说了，罢市痛哭。连吴国守边的将士，也为他落泪。
+    sources: [js-34]
+    show:
+      - vignette: {image: illus_xiangyang_mourning, cue: 罢市, for: 5.5, text: 襄阳罢市哭羊祜}
+      - sfx: {name: 退场钟, cue: 痛哭}
+
+  # ---------------- 第三章 楼船 ----------------
+  - say: 第二年冬天，晋军六路伐吴。益州的王濬带着楼船，从成都顺江而下。
+    map: '279-12'
+    phase: 楼船
+    year: 279
+    sources: [js-03, js-42]
+    camera: {focus: [成都, 西陵, 江陵], zoom: fit, move: 1.6}
+    tells: [e08]
+    show:
+      - enter: {who: 王濬, side: left, cue: 王濬, for: 3}
+      - army: {head: 王濬, from: 成都, to: 西陵, faction: 晋, banner: 王, troops: infantry, size: 3.0, cue: 顺江而下, grow: 2.4}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 吴人在江中险要处拉起铁锁，又在水下埋了一丈多长的铁锥，专门挡船。
+    sources: [js-42]
+    camera: {focus: 西陵, zoom: 10, move: 1.2}
+    show:
+      - card: {title: 拦江铁锁, body: 并以铁锁横截之，又作铁锥长丈余，暗置江中, cue: 铁锁}
+
+  - say: 王濬先放出几十只大木筏，上面扎着草人，穿甲持杖。水下的铁锥扎进木筏，就被带走了。
+    sources: [js-42]
+    show:
+      - act: {act: prop, at: 西陵, item: 小船, text: 缚草为人, cue: 木筏, size: 1.2, for: 4}
+
+  - say: 再做十几丈长的火炬，灌满麻油，挂在船头。遇到铁锁就点火烧，铁锁很快熔断。
+    sources: [js-42]
+    show:
+      - fire: {at: 西陵, cue: 点火, radius: 0.8, for: 4}
+      - quote: {text: 然炬烧之，须臾，融液断绝, source: 晋书·王濬传, era: 太康元年, cue: 熔断, for: 4}
+
+  - say: 二八零年二月，王濬攻破西陵，杜预拿下江陵。楼船一路东下，夏口、武昌，望风而降。
+    audit_ok: [遗忘]
+    map: '280-02'
+    owners_cue: 拿下江陵
+    year: 280
+    sources: [js-03]
+    camera: {focus: [西陵, 江陵, 夏口, 武昌], zoom: fit, move: 1.6}
+    tells: [e12, e14, e21, e22, e23]
+    show:
+      - army: {head: 杜预, from: 襄阳, to: 江陵, faction: 晋, banner: 杜, troops: infantry, size: 2.4, cue: 杜预, grow: 1.6}   # 2026-10-25 战事账：杜预克江陵
+      - army: {head: 王濬, from: 西陵, via: [夏口], to: 武昌, faction: 晋, banner: 王, troops: infantry, size: 3.0, label: 泛舟东下, cue: 东下, grow: 2.6}   # 王濬一路是同一支舟师，改成带名的 army，营随船走
+      - sfx: {name: 疆域易手, cue: 拿下江陵}
+
+  # ---------------- 第四章 归晋 ----------------
+  - say: 三月，王濬的楼船开到了建业城外的石头城下。
+    phase: 归晋
+    sources: [js-03]
+    camera: {focus: [武昌, 建业], zoom: fit, move: 1.4}
+    tells: [e24]
+    show:
+      - army: {head: 王濬, from: 武昌, to: 建业, faction: 晋, banner: 王, troops: infantry, size: 3.0, label: 至建邺之石头, cue: 石头城, grow: 2.2}
+
+  - say: 吴主孙皓吓坏了，学当年的刘禅：反绑双手，抬着棺材，到军门投降。
+    map: '280-03'
+    owners_cue: 投降
+    sources: [js-03]
+    camera: {focus: 建业, zoom: 6, move: 1.2}
+    tells: [e25, e26]
+    show:
+      - enter: {who: 孙皓, side: right, cue: 孙皓, for: 3.6}
+      - quote: {text: 孙皓大惧，面缚舆榇，降于军门, source: 晋书·武帝纪, era: 太康元年, cue: 棺材, for: 4}
+      - sfx: {name: 疆域易手, cue: 投降}
+
+  - say: 晋军收缴的图册上写着：四个州，四十三个郡，五十二万户，二百三十万人。
+    sources: [js-03]
+    camera: {focus: [洛阳, 建业, 成都], zoom: fit, move: 1.6}
+    show:
+      - headline: {text: 三分归晋, sub: 太康元年, cue: 四个州, for: 3.6}
+
+  - say: 从黄巾起义算起，整整九十六年。乱世，终于合上了。
+    sources: [js-03]
+
+  - say: 为什么头功是羊祜？他在荆州十年，攒下了粮，收服了人心，还留下了方略和接班人。
+    sources: [js-34]
+    show:
+      - enter: {who: 羊祜, side: left, cue: 羊祜, for: 3.6}
+
+  - say: 灭吴这一仗，其实十年前就开始了。
+    sources: [js-34]
+    show:
+      - card: {title: 后人诗, body: 刘禹锡"一片降幡出石头"，写的就是这一天, cue: 十年前}
+
+  - say: 三国这么多英雄，你觉得，谁才是最后的赢家？
+    sources: [js-03]
+
+  - say: 天下统一了。可谁也没想到，这份太平，撑不了多久。
+    sources: [js-03]
+    show:
+      - title_bar: {text: 下集, sub: 两晋 · 八王之乱, cue: 太平, delay: 0.4, for: 3.0}

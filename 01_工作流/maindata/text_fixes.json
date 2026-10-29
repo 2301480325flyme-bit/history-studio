@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "note": "形近字/损坏字符纠正表。⚠️ 只用于**识别与告警**，不用于自动改写原文——正则猜字会把正确内容改错。",
+  "usage": "抽取器可据此对命中失败的实体做二次尝试；命中后仍须人工确认。",
+  "source": "实测自 02_数据/史料文献/二十四史全译*.txt 与 word版/*.doc（见 史料查证.md、corpus/构建报告.md）",
+  "fixes": [
+    {
+      "kind": "latin-substitution",
+      "broken": "F",
+      "correct": "众",
+      "books": ["南史"],
+      "evidence": ["遇贼F数千", "所杀伤甚F", "F骑并至", "馀F推恩", "深虑F寡不敌"],
+      "count": 677,
+      "confidence": "high",
+      "note": "单字母 F 系统性替代「众」。全篇前后一致，可高置信纠正。"
+    },
+    {
+      "kind": "symbol-substitution",
+      "broken": "-",
+      "correct": "疾（疑）",
+      "books": ["清史稿"],
+      "evidence": ["甲兵废-者"],
+      "count": 643,
+      "confidence": "low",
+      "note": "「废-者」疑为「废疾者」，但证据不足，不得自动替换。"
+    },
+    {
+      "kind": "symbol-substitution",
+      "broken": "e",
+      "correct": "（待考）",
+      "books": ["清史稿"],
+      "evidence": ["蟠镉恪e鱼"],
+      "confidence": "low",
+      "note": "单例，无法推断。"
+    },
+    {
+      "kind": "near-form",
+      "broken": "趟王",
+      "correct": "赵王",
+      "books": ["二十四史全译05.晋书.txt"],
+      "evidence": ["趟王司马伦假托帝韶废贾后为庶人"],
+      "count": 38,
+      "confidence": "high",
+      "note": "全译本特有。word 版原文正确，改用新语料后此错自动消失。"
+    },
+    {
+      "kind": "near-form",
+      "broken": "帝韶",
+      "correct": "帝诏",
+      "books": ["二十四史全译05.晋书.txt"],
+      "evidence": ["假托帝韶废贾后"],
+      "confidence": "high"
+    },
+    {
+      "kind": "near-form",
+      "broken": "司马通",
+      "correct": "司马遹",
+      "books": ["二十四史全译05.晋书.txt"],
+      "evidence": ["在许昌杀害了废为庶人的太子司马通"],
+      "count": 18,
+      "confidence": "high",
+      "note": "晋惠帝太子司马遹。word 版原文作「遹」，正确。"
+    },
+    {
+      "kind": "near-form",
+      "broken": "司马虑",
+      "correct": "司马遹",
+      "books": ["二十四史全译05.晋书.txt"],
+      "evidence": ["皇孙司马虑死"],
+      "confidence": "high"
+    },
+    {
+      "kind": "latin-substitution",
+      "broken": "J幄",
+      "correct": "仲达",
+      "books": ["二十四史全译05.晋书.txt"],
+      "evidence": ["宣皇帝名懿，字J幄"],
+      "confidence": "high",
+      "note": "司马懿字仲达。word 版原文作「字仲达」，正确。"
+    },
+    {
+      "kind": "latin-substitution",
+      "broken": "Et食 / El",
+      "correct": "日食 / 日",
+      "books": ["二十四史全译05.晋书.txt"],
+      "evidence": ["己卯日，Et食", "癸巳El，梁王肜"],
+      "confidence": "high",
+      "note": "「日」被替换为 Et/El，全译本特有。"
+    },
+    {
+      "kind": "missing",
+      "broken": "颙",
+      "correct": "颙",
+      "books": ["二十四史全译05.晋书.txt"],
+      "evidence": ["司马颙全文 0 次"],
+      "confidence": "high",
+      "note": "该字在全译本中完全缺失，无法检索司马颙。word 版正常。"
+    },
+    {
+      "kind": "missing",
+      "broken": "乂",
+      "correct": "乂",
+      "books": ["二十四史全译05.晋书.txt"],
+      "evidence": ["司马乂全文 0 次"],
+      "confidence": "high",
+      "note": "同上，影响司马乂检索。word 版正常。"
+    },
+    {
+      "kind": "near-form",
+      "broken": "列傅",
+      "correct": "列传",
+      "books": ["word版 多部"],
+      "evidence": ["志二十卷，列傅七十卷"],
+      "confidence": "medium",
+      "note": "⚠️ 方向相反：word 版把「列传」写作「列傅」，而这是**卷题识别时的合法变体**，不应改写，只需在解析时兼容。"
+    }
+  ],
+  "nonFixes": [
+    {
+      "item": "「列传」写作「列傅」",
+      "reason": "这是 word 版的原始用字，属版本差异而非损坏；解析器须兼容，但不改原文。"
+    },
+    {
+      "item": "「宋史」中的异体字",
+      "reason": "未逐字核验，不列入。"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+ "mode": "placeholder",
+ "beats": [
+  {
+   "file_start": 0.3,
+   "file_end": 4.9,
+   "voice_onset": 0.45,
+   "voice_offset": 4.78
+  },
+  {
+   "file_start": 5.2,
+   "file_end": 10.56,
+   "voice_onset": 5.35,
+   "voice_offset": 10.44
+  },
+  {
+   "file_start": 10.86,
+   "file_end": 18.9,
+   "voice_onset": 11.01,
+   "voice_offset": 18.78
+  },
+  {
+   "file_start": 19.2,
+   "file_end": 22.08,
+   "voice_onset": 19.35,
+   "voice_offset": 21.96
+  },
+  {
+   "file_start": 22.38,
+   "file_end": 27.5,
+   "voice_onset": 22.53,
+   "voice_offset": 27.38
+  },
+  {
+   "file_start": 27.8,
+   "file_end": 32.44,
+   "voice_onset": 27.95,
+   "voice_offset": 32.32
+  },
+  {
+   "file_start": 32.74,
+   "file_end": 37.62,
+   "voice_onset": 32.89,
+   "voice_offset": 37.5
+  },
+  {
+   "file_start": 37.92,
+   "file_end": 43.76,
+   "voice_onset": 38.07,
+   "voice_offset": 43.64
+  },
+  {
+   "file_start": 44.06,
+   "file_end": 53.18,
+   "voice_onset": 44.21,
+   "voice_offset": 53.06
+  },
+  {
+   "file_start": 53.48,
+   "file_end": 56.88,
+   "voice_onset": 53.63,
+   "voice_offset": 56.76
+  },
+  {
+   "file_start": 57.18,
+   "file_end": 67.5,
+   "voice_onset": 57.33,
+   "voice_offset": 67.38
+  },
+  {
+   "file_start": 67.8,
+   "file_end": 73.12,
+   "voice_onset": 67.95,
+   "voice_offset": 73.0
+  },
+  {
+   "file_start": 73.42,
+   "file_end": 82.94,
+   "voice_onset": 73.57,
+   "voice_offset": 82.82
+  },
+  {
+   "file_start": 83.24,
+   "file_end": 92.28,
+   "voice_onset": 83.39,
+   "voice_offset": 92.16
+  },
+  {
+   "file_start": 92.58,
+   "file_end": 100.46,
+   "voice_onset": 92.73,
+   "voice_offset": 100.34
+  },
+  {
+   "file_start": 100.76,
+   "file_end": 106.16,
+   "voice_onset": 100.91,
+   "voice_offset": 106.04
+  },
+  {
+   "file_start": 106.46,
+   "file_end": 114.98,
+   "voice_onset": 106.61,
+   "voice_offset": 114.86
+  },
+  {
+   "file_start": 115.28,
+   "file_end": 119.4,
+   "voice_onset": 115.43,
+   "voice_offset": 119.28
+  },
+  {
+   "file_start": 119.7,
+   "file_end": 124.82,
+   "voice_onset": 119.85,
+   "voice_offset": 124.7
+  }
+ ],
+ "narration": null,
+ "measurement": "placeholder estimate: 0.24 s/char + 0.28 s/pause; NO AUDIO"
+}

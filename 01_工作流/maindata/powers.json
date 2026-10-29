@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "note": "政权主表。政权是跨集的长期实体，颜色/国号/都城在此定义一次，各集只引用 id。color 为待审配色（colorStatus=proposed），未定案前不得作为权威色值。",
+  "powers": [
+    {"id": "cao_wei",   "name": "曹魏", "aliases": ["魏", "魏国", "曹魏"], "life": {"from": 220, "to": 266}, "capital": "luoyang_han_wei", "color": {"fill": "#c2b49a", "edge": "#8a7a63"}, "colorStatus": "proposed"},
+    {"id": "shu_han",   "name": "蜀汉", "aliases": ["蜀", "汉", "季汉"], "life": {"from": 221, "to": 263}, "capital": "changan_han_city", "color": {"fill": "#b8a08f", "edge": "#7d6a5c"}, "colorStatus": "proposed"},
+    {"id": "sun_wu",    "name": "孙吴", "aliases": ["吴", "东吴"], "life": {"from": 222, "to": 280}, "capital": "nanjing_ancient_city", "color": {"fill": "#a8b6a2", "edge": "#6f7f6a"}, "colorStatus": "proposed"},
+    {"id": "western_jin", "name": "西晋", "aliases": ["晋", "司马晋"], "life": {"from": 265, "to": 316}, "capital": "luoyang_han_wei", "color": {"fill": "#bc8f7d", "edge": "#8c5a48"}, "colorStatus": "proposed"},
+    {"id": "eastern_jin", "name": "东晋", "aliases": ["晋", "江左"], "life": {"from": 317, "to": 420}, "capital": "nanjing_ancient_city", "color": {"fill": "#c49a86", "edge": "#8c5a48"}, "colorStatus": "proposed"},
+    {"id": "cheng_han", "name": "成汉", "aliases": ["成", "汉"], "life": {"from": 304, "to": 347}, "capital": "chengdu_approx", "color": {"fill": "#b0a8bc", "edge": "#6f6680"}, "colorStatus": "proposed"},
+    {"id": "han_zhao",  "name": "汉赵", "aliases": ["前赵", "汉", "匈奴汉"], "life": {"from": 304, "to": 329}, "capital": "pingyang_approx", "color": {"fill": "#c0a3a3", "edge": "#8a6a6a"}, "colorStatus": "proposed"},
+    {"id": "hou_zhao",  "name": "后赵", "aliases": ["赵", "石赵"], "life": {"from": 319, "to": 351}, "capital": "ye_city", "color": {"fill": "#a9b0c0", "edge": "#6a7285"}, "colorStatus": "proposed"},
+    {"id": "qian_yan",  "name": "前燕", "aliases": ["燕", "慕容燕"], "life": {"from": 337, "to": 370}, "capital": "ye_city", "color": {"fill": "#b8c0a8", "edge": "#78855f"}, "colorStatus": "proposed"},
+    {"id": "qian_qin",  "name": "前秦", "aliases": ["秦", "苻秦"], "life": {"from": 351, "to": 394}, "capital": "changan_han_city", "color": {"fill": "#c4b48c", "edge": "#8a7a4f"}, "colorStatus": "proposed"},
+    {"id": "hou_qin",   "name": "后秦", "aliases": ["秦", "姚秦"], "life": {"from": 384, "to": 417}, "capital": "changan_han_city", "color": {"fill": "#c0b0a0", "edge": "#857062"}, "colorStatus": "proposed"},
+    {"id": "northern_wei", "name": "北魏", "aliases": ["魏", "元魏", "拓跋魏"], "life": {"from": 386, "to": 534}, "capital": "luoyang_han_wei", "color": {"fill": "#9fb0b8", "edge": "#5f727c"}, "colorStatus": "proposed"},
+    {"id": "eastern_wei", "name": "东魏", "aliases": ["魏"], "life": {"from": 534, "to": 550}, "capital": "ye_city", "color": {"fill": "#a8bcc0", "edge": "#63797e"}, "colorStatus": "proposed"},
+    {"id": "western_wei", "name": "西魏", "aliases": ["魏"], "life": {"from": 535, "to": 557}, "capital": "changan_han_city", "color": {"fill": "#b2c0bc", "edge": "#6b7d78"}, "colorStatus": "proposed"},
+    {"id": "northern_qi", "name": "北齐", "aliases": ["齐", "高齐"], "life": {"from": 550, "to": 577}, "capital": "ye_city", "color": {"fill": "#b8a8a0", "edge": "#7d6a62"}, "colorStatus": "proposed"},
+    {"id": "northern_zhou", "name": "北周", "aliases": ["周", "宇文周"], "life": {"from": 557, "to": 581}, "capital": "changan_han_city", "color": {"fill": "#a0b0a8", "edge": "#63756c"}, "colorStatus": "proposed"},
+    {"id": "liu_song",  "name": "刘宋", "aliases": ["宋"], "life": {"from": 420, "to": 479}, "capital": "nanjing_ancient_city", "color": {"fill": "#bca8a8", "edge": "#82696a"}, "colorStatus": "proposed"},
+    {"id": "southern_qi", "name": "南齐", "aliases": ["齐", "萧齐"], "life": {"from": 479, "to": 502}, "capital": "nanjing_ancient_city", "color": {"fill": "#c0b0b8", "edge": "#86707c"}, "colorStatus": "proposed"},
+    {"id": "liang",     "name": "梁", "aliases": ["南梁", "萧梁"], "life": {"from": 502, "to": 557}, "capital": "nanjing_ancient_city", "color": {"fill": "#b0b8c0", "edge": "#6d7681"}, "colorStatus": "proposed"},
+    {"id": "chen",      "name": "陈", "aliases": ["南陈"], "life": {"from": 557, "to": 589}, "capital": "nanjing_ancient_city", "color": {"fill": "#b8b0a0", "edge": "#7e7565"}, "colorStatus": "proposed"}
+  ]
+}

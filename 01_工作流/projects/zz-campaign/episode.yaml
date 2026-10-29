@@ -1,0 +1,54 @@
+# 演示：复合动作 2 · 集结—交战—败退（campaign + rout）
+id: zz-campaign
+title: 组件演示 · 汴水之战
+series: History Studio 复合动作
+year: 190
+
+notes:
+  - 汴水是河流，不作点位；战场标记放在荥阳近似点。徐荣出发地按洛阳方向示意。
+
+map:
+  center: [113.6, 34.8]
+  scale: 9000
+  extent: [104.0, 30.0, 122.0, 40.0]
+  basemap: dem
+  river_rank: 4
+  focus_zoom: 2.2
+  watermark: 东汉
+
+voice: {mode: placeholder}
+
+sources_local:
+  - {id: sgz-01, work: 三国志, volume: 卷一·武帝纪, url: 'https://zh.wikisource.org/wiki/三國志/卷01'}
+
+factions: {曹操: blue, 董卓: black}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: left, tier: capital}
+  荥阳: {id: xingyang_county, label: below}
+  酸枣: {id: suanzao_county, label: right}
+
+camera:
+  focus: [洛阳, 酸枣]
+  zoom: fit
+
+beats:
+  - say: 初平元年，曹操不等盟军，独自带兵西进，在荥阳汴水，迎面撞上了董卓的大将徐荣。
+    year: 190
+    sources: [sgz-01]
+    show:
+      - campaign:
+          at: 荥阳
+          title: 汴水之战
+          clash: 撞上
+          sides:
+            - {from: 酸枣, faction: 曹操, banner: 曹, troops: infantry, size: 3}
+            - {from: 洛阳, faction: 董卓, banner: 徐, troops: cavalry, size: 2.5}
+
+  - say: 一场血战下来，曹操大败，自己也中了流箭，只能连夜逃回酸枣。
+    sources: [sgz-01]
+    show:
+      - rout: {at: 荥阳, to: 酸枣, faction: 曹操, banner: 曹, cue: 大败, size: 2}
+
+  - say: 回到酸枣一看，各路诸侯还在大营里天天喝酒，没有一个人想打仗。
+    sources: [sgz-01]

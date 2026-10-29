@@ -1,0 +1,413 @@
+episode: s01e22-nanzheng
+armies:
+  蜀汉南征主力:
+    faction: 蜀汉
+    head: 诸葛亮
+    size: 未核
+    evidence:
+    - quote: 三年春，亮率众南征，其秋悉平。
+      para: 三国志-p01931
+    - quote: 丞相亮南征，先由越俊
+      para: 三国志-p02093
+  李恢军:
+    faction: 蜀汉
+    head: 李恢
+    size: 未核
+    evidence:
+    - quote: 而恢案道向建宁。诸县大相纠合，围恢军于昆明。
+      para: 三国志-p02093
+    - quote: 于是恢出击，大破之，追奔逐北，南至槃江，东接牂牁，与亮声势相连。
+      para: 三国志-p02093
+  马忠部:
+    faction: 蜀汉
+    head: 马忠
+    size: 未核
+    evidence:
+    - quote: 三年，亮入南，拜忠牂牁太守。郡丞朱褒反。
+      para: 三国志-p02096
+  雍闿部:
+    faction: 南中叛军
+    head: 雍闿
+    size: 未核
+    evidence:
+    - quote: 益州郡有大姓雍闿反，流太守张裔于吴，据郡不宾
+      para: 三国志-p01875
+    - quote: 南中豪率雍闿据益郡反，附于吴。
+      para: 三国志-p01848
+  高定部:
+    faction: 南中叛军
+    head: 高定
+    size: 未核
+    evidence:
+    - quote: 越巂夷王高定亦背叛。
+      para: 三国志-p01875
+    - quote: 闿已为高定部曲所杀。
+      para: 三国志-p02096
+  朱褒部:
+    faction: 南中叛军
+    head: 朱褒
+    size: 未核
+    evidence:
+    - quote: 臧柯太守朱褒拥郡反。
+      para: 三国志-p01875
+  永昌郡守军:
+    faction: 蜀汉
+    head: 吕凯、王伉
+    size: 未核
+    evidence:
+    - quote: 雍闿、高定逼其东北，而凯等守义不与交通。
+      para: 三国志-p02096
+  孟获部:
+    faction: 南中叛军
+    head: 孟获
+    size: 未核
+    evidence: []
+  魏临江军:
+    faction: 魏
+    head: 曹丕
+    size: 十余万
+    evidence:
+    - quote: 冬十月，行幸广陵故城，临江观兵，戎卒十余万，旌旗数百里。
+      para: 三国志-p00426
+events:
+- id: e01
+  army: 雍闿部
+  kind: 屯驻
+  place: 滇池
+  from: null
+  via: []
+  date: 223-夏
+  territory: null
+  note: 原文记雍闿反并“据郡不宾”，未载其营地；“滇池”沿用本集地名作益州郡治所示意点，不表示雍闿确在县城驻军。
+  evidence:
+  - quote: 建兴元年夏，臧柯太守朱褒拥郡反。先是，益州郡有大姓雍闿反，流太守张裔于吴，据郡不宾
+    para: 三国志-p01875
+  skip: 叛乱用第2拍滇池的「南中叛乱」标记概括，各郡营地史书未载
+- id: e02
+  army: 高定部
+  kind: 屯驻
+  place: 越巂
+  from: null
+  via: []
+  date: 223-夏
+  territory: null
+  note: 史书只记高定背叛于越巂郡，未载营地；此处以本集“越巂”作郡域示意。
+  evidence:
+  - quote: 越巂夷王高定亦背叛。
+    para: 三国志-p01875
+  skip: 叛乱用第2拍滇池的「南中叛乱」标记概括，各郡营地史书未载
+- id: e03
+  army: 朱褒部
+  kind: 屯驻
+  place: 牂牁
+  from: null
+  via: []
+  date: 223-夏
+  territory: null
+  note: 原文作“臧柯”，即本集写法“牂牁”；记其拥郡而反，未载确切营地。
+  evidence:
+  - quote: 建兴元年夏，臧柯太守朱褒拥郡反。
+    para: 三国志-p01875
+  skip: 叛乱用第2拍滇池的「南中叛乱」标记概括，各郡营地史书未载
+- id: e04
+  army: 永昌郡守军
+  kind: 屯驻
+  place: 永昌
+  from: null
+  via: []
+  date: 未核
+  territory: null
+  note: 吕凯、王伉闭境拒绝与雍闿交通，永昌未见失守；史文未给这段守境的起始年月，所列位置为郡域示意。
+  evidence:
+  - quote: 雍闿、高定逼其东北，而凯等守义不与交通。
+    para: 三国志-p02096
+  skip: 叛乱用第2拍滇池的「南中叛乱」标记概括，各郡营地史书未载
+- id: e05
+  army: 蜀汉南征主力
+  kind: 行军
+  place: 越巂
+  from: 未核
+  via: []
+  date: 225-春
+  territory: null
+  note: 史书称诸葛亮率军南征、先经越巂，但未记离开成都的具体路线、途经关隘或本军最终驻点；剧本所画“成都—越巂—滇池”中，滇池终点未获原文支持。
+  evidence:
+  - quote: 三年春，亮率众南征
+    para: 三国志-p01931
+  - quote: 丞相亮南征，先由越俊
+    para: 三国志-p02093
+- id: e06
+  army: 李恢军
+  kind: 行军
+  place: 滇池
+  from: 未核
+  via: []
+  date: 225-春
+  territory: null
+  note: 李恢此前驻平夷县；史书称其“案道向建宁”，没有明说本次出发地及中间路线。益州郡于南征后改名建宁，地图点沿用本集“滇池”作益州郡治所示意，不是已考定的营地。
+  evidence:
+  - quote: 遂以恢为庲降都督，使持节领交州刺史，住平夷县。
+    para: 三国志-p02092
+  - quote: 而恢案道向建宁。
+    para: 三国志-p02093
+  skip: 旁白未讲李恢、马忠两路和雍闿被杀
+- id: e07
+  army: 李恢军
+  kind: 交战
+  place: 昆明
+  from: null
+  via: []
+  date: 225-春
+  territory: null
+  note: 李恢部在昆明被倍数敌军包围，诈称粮尽欲还，随后乘包围松懈突击；原文未给日次，古昆明具体地望未核。
+  evidence:
+  - quote: 诸县大相纠合，围恢军于昆明。时恢众少敌倍，又未得亮声息，绘谓南人曰：“官军粮尽，欲规退还，吾中间久斥乡里，乃今得旋，不能复北，欲还与汝等同计谋，故以诚相告。”南人信之，故围守怠缓。于是恢出击，大破之
+    para: 三国志-p02093
+  skip: 旁白未讲李恢、马忠两路和雍闿被杀
+- id: e08
+  army: 李恢军
+  kind: 行军
+  place: 槃江
+  from: 昆明
+  via: []
+  date: 225-春
+  territory: null
+  note: 李恢突围后追击至槃江；槃江通常比定为今南盘江，具体追击河段及抵达年月日未核。
+  evidence:
+  - quote: 于是恢出击，大破之，追奔逐北，南至槃江
+    para: 三国志-p02093
+  skip: 旁白未讲李恢、马忠两路和雍闿被杀
+- id: e09
+  army: 李恢军
+  kind: 会合
+  place: 牂牁
+  from: 槃江
+  via: []
+  date: 225-春
+  territory: null
+  note: 原文只说东接牂牁、与诸葛亮声势相连，未明确实体会师地点；“会合”仅表示两路形成呼应，牂牁以本集地名作区域标记。
+  evidence:
+  - quote: 东接牂牁，与亮声势相连。
+    para: 三国志-p02093
+  skip: 旁白未讲李恢、马忠两路和雍闿被杀
+- id: e10
+  army: 高定部
+  kind: 交战
+  place: 未核
+  from: null
+  via: []
+  date: 225-春
+  territory: null
+  note: 诸葛亮已出发在途时，雍闿被高定部曲杀死；原文没有说明地点、是否发生战阵或具体日次，kind按有限选项记为交战。
+  evidence:
+  - quote: 及丞相亮南征讨闿，既发在道，而闿已为高定部曲所杀。
+    para: 三国志-p02096
+  skip: 旁白未讲李恢、马忠两路和雍闿被杀
+- id: e11
+  army: 马忠部
+  kind: 屯驻
+  place: 牂牁
+  from: 未核
+  via: []
+  date: 225-春
+  territory: null
+  note: 原文只记诸葛亮入南后拜马忠为牂牁太守，未载马忠何时到任、是否率部由成都出发或与朱褒交战；此条仅记防区部署，不据此推定具体行军。
+  evidence:
+  - quote: 三年，亮入南，拜忠牂牁太守。郡丞朱褒反。
+    para: 三国志-p02096
+  skip: 旁白未讲李恢、马忠两路和雍闿被杀
+- id: e12
+  army: 蜀汉南征主力
+  kind: 攻占
+  place: 滇池
+  from: null
+  via: []
+  date: 225-秋
+  territory:
+    jun: 益州郡
+    to: 蜀汉
+  note: 原文总记“其秋悉平”，未载益州郡逐城攻守或受降过程；本项记叛乱地区恢复蜀汉控制。郡治滇池用本集写法；后世地名“建宁郡”不用于叙述225年改名前。
+  evidence:
+  - quote: 三年春，亮率众南征，其秋悉平。
+    para: 三国志-p01931
+  - quote: 改益州郡为建宁郡，分建宁、永昌郡为云南郡，又分建宁、臧柯为兴古郡。
+    para: 三国志-p01877
+- id: e13
+  army: 蜀汉南征主力
+  kind: 攻占
+  place: 牂牁
+  from: null
+  via: []
+  date: 225-秋
+  territory:
+    jun: 牂牁郡
+    to: 蜀汉
+  note: 原文总记“其秋悉平”，未载牂牁郡逐城攻守或受降过程；本项记朱褒叛乱所在郡恢复蜀汉控制。史书写作“臧柯”。
+  evidence:
+  - quote: 三年春，亮率众南征，其秋悉平。
+    para: 三国志-p01931
+- id: e14
+  army: 蜀汉南征主力
+  kind: 攻占
+  place: 越巂
+  from: null
+  via: []
+  date: 225-秋
+  territory:
+    jun: 越巂郡
+    to: 蜀汉
+  note: 原文总记“其秋悉平”，未载越巂郡逐城攻守或受降过程；本项记高定背叛所在郡恢复蜀汉控制。
+  evidence:
+  - quote: 三年春，亮率众南征，其秋悉平。
+    para: 三国志-p01931
+- id: e15
+  army: 蜀汉南征主力
+  kind: 撤退
+  place: 成都
+  from: 南中
+  via: []
+  date: 225-12
+  territory: null
+  note: 南征后诸葛亮十二月返回成都；史书未载具体返程路线。此事晚于本集地图终点225-09，作为完整战役收尾列入。
+  evidence:
+  - quote: 十二月，亮还成都。
+    para: 三国志-p01877
+- id: e16
+  army: 孟获部
+  kind: 投降
+  place: 未核
+  from: null
+  via: []
+  date: 未核
+  territory: null
+  note: 旁白称孟获被擒七次、释放七次后心服；本地语料检索不到《汉晋春秋》注文原文，史书正文也未记孟获具体参战、被擒地点及日期，故仅作未核条目且不据此改变郡域。
+  evidence: []
+  skip: 孟获七擒七纵只见裴注，旁白用「据说」，不画地点
+- id: e17
+  army: 魏临江军
+  kind: 出发
+  place: 谯
+  from: null
+  via: []
+  date: 225-08
+  territory: null
+  note: 八月自谯出发。（验收改：文帝纪 p00426 承 p00423「六年春二月」，是黄初六年即 225 年，旁白「同一年冬天」不误）
+  evidence:
+  - quote: 八月，帝遂以舟师自谯循涡入淮
+    para: 三国志-p00426
+- id: e18
+  army: 魏临江军
+  kind: 行军
+  place: 淮水
+  from: 谯
+  via:
+  - 涡水
+  date: 225-08
+  territory: null
+  note: 魏帝纪明记舟师自谯循涡入淮；本账以涡水、淮水作行军水路标记，原文未给具体渡口或航段坐标。（验收改：文帝纪 p00426 承 p00423「六年春二月」，是黄初六年即 225 年，旁白「同一年冬天」不误）
+  evidence:
+  - quote: 八月，帝遂以舟师自谯循涡入淮
+    para: 三国志-p00426
+  skip: 循涡入淮、陆道幸徐的中间点（徐的地望）未核，箭头直接画到广陵
+- id: e19
+  army: 魏临江军
+  kind: 行军
+  place: 徐
+  from: 淮水
+  via: []
+  date: 225-08
+  territory: null
+  note: 原文接着记从陆路到徐；“徐”指徐州地区，未记确切停驻县城，坐标仅作区域示意。（验收改：文帝纪 p00426 承 p00423「六年春二月」，是黄初六年即 225 年，旁白「同一年冬天」不误）
+  evidence:
+  - quote: 从陆道幸徐。
+    para: 三国志-p00426
+  skip: 循涡入淮、陆道幸徐的中间点（徐的地望）未核，箭头直接画到广陵
+- id: e20
+  army: 魏临江军
+  kind: 行军
+  place: 广陵
+  from: 未核
+  via: []
+  date: 225-10
+  territory: null
+  note: 十月到广陵故城临江观兵；剧本简称“广陵”，此处不表示发生交战。（验收改：文帝纪 p00426 承 p00423「六年春二月」，是黄初六年即 225 年，旁白「同一年冬天」不误）
+  evidence:
+  - quote: 冬十月，行幸广陵故城，临江观兵，戎卒十余万，旌旗数百里。
+    para: 三国志-p00426
+- id: e21
+  army: 魏临江军
+  kind: 撤退
+  place: 未核
+  from: 广陵
+  via: []
+  date: 225-冬
+  territory: null
+  note: 大寒导致水道结冰、船不能进江，魏军撤回；原文未载撤回终点。（验收改：文帝纪 p00426 承 p00423「六年春二月」，是黄初六年即 225 年，旁白「同一年冬天」不误）
+  evidence:
+  - quote: 是岁大寒，水道冰，舟不得入江，乃引还。
+    para: 三国志-p00426
+  skip: 撤回终点未载
+places_new:
+- name: 平夷县
+  lon: 104.25
+  lat: 25.67
+  precision: 未核
+  basis: 《三国志》仅记李恢“住平夷县”；坐标暂置今云南富源县城一带，古县治的精确位置未核。地望参考地方史资料：https://kknews.cc/history/jvemp9p.html
+  evidence:
+  - quote: 住平夷县。
+    para: 三国志-p02092
+- name: 永昌
+  lon: 99.16
+  lat: 25.12
+  precision: 约略
+  basis: 用今保山市作永昌郡域示意点，不代表吕凯、王伉具体驻地；郡治不韦的精确遗址未核。越巂等汉郡治所参考：https://jkkmemstw.com/index-seisi/chi-syu/chi-eki/
+  evidence:
+  - quote: 永昌既在益州郡之西，道路壅塞，与蜀隔绝
+    para: 三国志-p02095
+- name: 昆明
+  lon: 102.72
+  lat: 25.04
+  precision: 未核
+  basis: 仅按今昆明市中心置示意点；古战事所称昆明的具体地望未核，不能视为今市中心。益州郡治滇池在今晋宁一带，昆明县境另有汉代建伶、谷昌等县，参：https://yangtze.silkroadinfo.org.cn/2020/0909/c1480a4303970/page.htm
+  evidence:
+  - quote: 围恢军于昆明。
+    para: 三国志-p02093
+- name: 槃江
+  lon: 104.3
+  lat: 24.8
+  precision: 未核
+  basis: 依中国地图云地名资料，三国槃江后世多写盘江、盘水，通常比定今南盘江；坐标仅为河流示意点，李恢追至的河段未核：https://cloud.chinamap.com/toponym/list?id=1892391676673105924&moudleDesc=%E4%B8%AD%E5%9B%BD%E5%8E%86%E5%8F%B2%E5%9C%B0%E5%90%8D
+  evidence:
+  - quote: 南至槃江
+    para: 三国志-p02093
+- name: 涡水
+  lon: 116.4
+  lat: 33.15
+  precision: 未核
+  basis: 仅按涡水入淮通道置示意点；史文未给航经河段与登岸点，路线长度不按此单点推算：https://zh.wikisource.org/wiki/三國志/卷02
+  evidence:
+  - quote: 自谯循涡入淮
+    para: 三国志-p00426
+- name: 淮水
+  lon: 117.2
+  lat: 32.95
+  precision: 未核
+  basis: 仅按今淮河中游置示意点；曹丕军入淮后的航程和停船点史文未详：https://zh.wikisource.org/wiki/三國志/卷02
+  evidence:
+  - quote: 循涡入淮
+    para: 三国志-p00426
+- name: 徐
+  lon: 117.18
+  lat: 34.27
+  precision: 未核
+  basis: 按史文“幸徐”理解为徐州区域，并以今徐州中心作低精度示意；确切行幸停驻地未核：https://zh.wikisource.org/wiki/三國志/卷02
+  evidence:
+  - quote: 从陆道幸徐。
+    para: 三国志-p00426
+open_questions:
+- 《诸葛亮传》记225年春出兵、秋天平定，《后主传》却记“三年春三月”南征四郡且四郡皆平；本账按《诸葛亮传》采用225-秋作为平定节点，与疆域.yaml的225-09对应，但日月存在原文差异。
+- 诸葛亮本军的成都出发点、沿途关隘和滇池终点未见本地原文；剧本所画“成都—越巂—滇池”不能全部当成史书已证路线。李恢本次起点、途经关隘与各段行军日期同样未详。
+- “南征四郡”未逐一列名；现疆域时间线只把益州郡、牂牁郡、越巂郡列为叛乱争夺并于225-09归蜀汉，永昌由吕凯、王伉守境未失。第四郡是否指永昌及“皆平”的具体含义待核。
+- 本地语料及维基文库《三国志·诸葛亮传》正文检索不到孟获七擒七纵和马谡“攻心为上”的《汉晋春秋》《襄阳记》注文原文；孟获部的参战、降服地点日期及马谡原话均未核。
+- （Claude 验收）曹丕临广陵是黄初六年（225）冬十月，Codex 原记 222 年有误，已改。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

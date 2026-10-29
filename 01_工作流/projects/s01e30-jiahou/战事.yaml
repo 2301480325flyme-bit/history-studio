@@ -1,0 +1,183 @@
+episode: s01e30-jiahou
+armies:
+  楚王玮军:
+    faction: 宗室
+    head: 司马玮
+    size: 未核
+    evidence:
+    - quote: 镇南将军楚王玮、镇东将军淮南王允来朝。
+      para: 晋书-p00088
+    - quote: 杨骏之诛也，玮屯司马门。
+      para: 晋书-p04579
+    origin: 玮先镇荆州、二月来朝；出发日及路线未核。
+    note_faction: 晋朝宗室（中央禁军系统）
+  淮南王允军:
+    faction: 宗室
+    head: 司马允
+    size: 未核
+    evidence:
+    - quote: 镇南将军楚王玮、镇东将军淮南王允来朝。
+      para: 晋书-p00088
+    - quote: 令淮南、长沙、成都王屯宫诸门，废二公。
+      para: 晋书-p04579
+    origin: 此前已来朝；原驻地、部队数与路线未核。
+    note_faction: 晋朝宗室（中央禁军系统）
+  杨骏所掌中外诸军:
+    faction: 外戚
+    head: 杨骏
+    size: 未核
+    evidence:
+    - quote: 以侍中车骑将军杨骏为太尉、都督中外诸军、录尚书事。
+      para: 晋书-p00084
+    - quote: 时骏居曹爽故府，在武库南
+      para: 晋书-p03631
+    origin: 中央禁军、外营具体编制和部署未核；官衔不等于实际兵力。
+    note_faction: 晋朝（杨氏辅政集团）
+  淮南长沙成都三王受诏之兵:
+    faction: 宗室
+    head:
+    - 司马允
+    - 司马乂
+    - 司马颖
+    size: 未核
+    evidence:
+    - quote: 令淮南、长沙、成都王屯宫诸门，废二公。
+      para: 晋书-p04579
+    - quote: 复矫诏召三十六军
+      para: 晋书-p04579
+    origin: 奉伪诏调集，原驻地和抵达路线未核。
+    note_faction: 晋朝诸王兵
+  殿中兵与宫门诸军:
+    faction: 晋
+    head: 殿中将军王宫传驺虞幡；总统未核
+    size: 未核
+    evidence:
+    - quote: 遣殿中将军王宫赍驺虞幡麾众曰：‘楚王矫诏。’
+      para: 晋书-p04580
+    - quote: 众皆释杖而走。
+      para: 晋书-p04580
+    origin: 洛阳宫城驻兵，营址未核。
+    note_faction: 晋朝禁军
+events:
+- id: e01
+  army: 楚王玮军
+  kind: 会合
+  place: 洛阳
+  from: null
+  via: []
+  date: 291-02
+  territory: null
+  note: 玮、允入朝；玮原镇荆州，但抵洛行军路线未载。无郡级易手。
+  evidence:
+  - quote: 癸酉，镇南将军楚王玮、镇东将军淮南王允来朝。
+    para: 晋书-p00088
+  - quote: 会楚王玮将讨骏
+    para: 晋书-p04660
+- id: e02
+  army: 杨骏所掌中外诸军
+  kind: 屯驻
+  place: 洛阳
+  from: null
+  via: []
+  date: 291-03
+  territory: null
+  note: （原记地点：洛阳（曹爽故府、武库南））杨骏居武库南故府；他是否实际调动东宫和外营兵未载。无郡级易手。
+  evidence:
+  - quote: 时骏居曹爽故府，在武库南，闻内有变
+    para: 晋书-p03631
+  - quote: 三月辛卯，诛太傅杨骏
+    para: 晋书-p00088
+- id: e03
+  army: 楚王玮军
+  kind: 屯驻
+  place: 洛阳
+  from: null
+  via: []
+  date: 291-03
+  territory: null
+  note: （原记地点：洛阳（司马门））诛杨骏时玮屯司马门。起点、军额、城内移营细节未核；无郡级易手。
+  evidence:
+  - quote: 杨骏之诛也，玮屯司马门。
+    para: 晋书-p04579
+  - quote: 三月辛卯，诛太傅杨骏
+    para: 晋书-p00088
+- id: e04
+  army: 司马亮部属
+  kind: 行军
+  place: 洛阳
+  from: 许昌
+  via: []
+  date: 291-03
+  territory: null
+  note: 亮避杨骏夜驰许昌，杨骏被诛后奉诏返朝；返程路线和具体日未核，无郡级易手。
+  evidence:
+  - quote: 夜驰赴许昌，故得免。
+    para: 晋书-p04567
+  - quote: 征大司马、汝南王亮为太宰，与太保卫瓘辅政。
+    para: 晋书-p00088
+- id: e05
+  army: 淮南长沙成都三王受诏之兵
+  kind: 屯驻
+  place: 洛阳
+  from: null
+  via: []
+  date: 291-06
+  territory: null
+  note: （原记地点：洛阳宫门）矫诏令三王兵屯宫诸门；这是部署命令，原驻地、实抵时间和路线未明。无郡级易手。
+  evidence:
+  - quote: 令淮南、长沙、成都王屯宫诸门，废二公。
+    para: 晋书-p04579
+  - quote: 楚王玮受密诏杀太宰汝南王亮、太保卫瓘等
+    para: 晋书-p03364
+  skip: 旁白未讲淮南、长沙、成都三王屯宫门
+- id: e06
+  army: 楚王玮军
+  kind: 交战
+  place: 洛阳
+  from: null
+  via: []
+  date: 291-06
+  territory: null
+  note: （原记地点：洛阳（亮、瓘遇害处未详））玮杀亮、瓘及其子；具体住所和交战点未核。无郡级易手。
+  evidence:
+  - quote: 楚王玮受密诏杀太宰汝南王亮、太保卫瓘等
+    para: 晋书-p03364
+  - quote: 复矫诏召三十六军，手令告诸军曰
+    para: 晋书-p04579
+- id: e07
+  army: 殿中兵与宫门诸军
+  kind: 撤退
+  place: 洛阳
+  from: 洛阳宫门
+  via: []
+  date: 291-06
+  territory: null
+  note: （原记地点：洛阳宫城）驺虞幡传令称玮矫诏，诸军释杖散去；是解严，不是跨郡撤军。无郡级易手。
+  evidence:
+  - quote: 遣殿中将军王宫赍驺虞幡麾众曰：‘楚王矫诏。’众皆释杖而走。
+    para: 晋书-p04580
+  - quote: 今可遣驺虞幡使外军解严，理必风靡。
+    para: 晋书-p03364
+  skip: 驺虞幡解严、楚王被执都在宫城内，用驺虞幡和楚王之死表示，不画撤退路线
+- id: e08
+  army: 楚王玮军
+  kind: 撤退
+  place: 洛阳
+  from: 洛阳宫城
+  via: []
+  date: 291-06
+  territory: null
+  note: （原记地点：洛阳（武贲署））玮被诏令还营，在武贲署被执后处死；无城池、郡县易手。
+  evidence:
+  - quote: 帝遣谒者诏玮还营，执之于武贲署
+    para: 晋书-p04580
+  - quote: 遂斩之，时年二十一。
+    para: 晋书-p04580
+  skip: 驺虞幡解严、楚王被执都在宫城内，用驺虞幡和楚王之死表示，不画撤退路线
+places_new: []
+open_questions:
+- 《资治通鉴》卷八十二至八十四未命中本地语料，需以后补核。
+- 楚王玮从荆州赴洛、诸王兵与禁军的出发点、道路、兵数未核；史料只记来朝、屯宫门、解严。
+- 杨骏、亮、瓘遇害的精确地点与诸军具体交战处未核；宫城地名没有gazetteer独立坐标，故未造 places_new。
+- 本集是宫廷政变，没有郡级归属易手；所有 territory 为 null。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

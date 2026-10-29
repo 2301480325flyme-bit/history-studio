@@ -1,0 +1,377 @@
+# 《三国到隋》第7集：吕布夺徐州、辕门射戟、宛城之败、袁术称帝、白门楼（196–198）
+# 2026-10-11 按故事稿写成旁白。关键原文均在本地语料核过：
+# "先主与术相持经月，吕布乘虚袭下邳。下邳守将曹豹反，间迎布。布虏先主妻子"（先主传）；
+# 纪灵"步骑三万"、"吾为在术围中，不得不救"、"布性不喜合斗，但喜解斗"、"射戟小支"（吕布传）；
+# "太祖纳济妻，绣恨之"（张绣传）；"为流矢所中，长子昂、弟子安民遇害"（武帝纪）；典韦"被数十创…瞋目大骂而死""太祖闻韦死，为流涕"（典韦传）；
+# 袁术"自称仲家""后宫数百皆服绮縠…士卒冻馁，江淮间空尽，人民相食"（后汉书 / 袁术传）；陈珪劝绝婚、"女已在涂，追还绝婚，械送韩胤"（吕布传）；
+# "用荀攸、郭嘉计，遂决泗、沂水以灌城"（武帝纪）；白门楼"缚太急…缚虎不得不急…明公将步，令布将骑…不见布之事丁建阳及董太师乎…是儿最叵信者"（吕布传）。
+
+id: s01e07-baimen
+title: 白门楼
+series: 三国 · 第7集
+year: 196
+
+notes:
+  - 主线问题：天下第一猛将吕布，为什么落得白门楼的下场？——反复无常，最后连一句求情都没人帮他说。
+  - 下邳失守按先主传写"守将曹豹反"，不用演义"张飞醉酒"。辕门射戟是《三国志》实录，放进来做反差（吕布也救过刘备）。
+  - 不用演义的赤兔马、貂蝉。
+
+map:
+  center: [114.0, 33.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  river_rank: 4
+
+voice:
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.3
+  tempo_target: 4.3
+  gap: 0.5
+  bed: original
+  bed_db: -26
+
+publish:
+  hook: 天下第一猛将，死在一句话上
+  big: [是儿, 最叵信者]
+  hero: 吕布
+  at: 20
+  summary: |
+    吕布趁刘备出征偷了下邳，又在小沛营门一箭"辕门射戟"替刘备解围；曹操在宛城纳了张济遗孀，被张绣夜袭，长子曹昂、猛将典韦战死。
+    袁术在寿春称帝，后宫绫罗、军士饿死。最后曹操水淹下邳，白门楼上吕布求饶："明公将步，令布将骑"——刘备一句话，送他上了路。
+  tags: [吕布, 白门楼, 辕门射戟, 典韦, 袁术称帝]
+  next: 袁术之死、易京、刘备反曹
+
+sources_local:
+  - {id: sgz-01, work: 三国志, volume: 卷一·武帝纪, url: 'https://zh.wikisource.org/wiki/三國志/卷01'}
+  - {id: sgz-06, work: 三国志, volume: 卷六·袁术传, url: 'https://zh.wikisource.org/wiki/三國志/卷06'}
+  - {id: sgz-07, work: 三国志, volume: 卷七·吕布传, url: 'https://zh.wikisource.org/wiki/三國志/卷07'}
+  - {id: sgz-08, work: 三国志, volume: 卷八·张绣传, url: 'https://zh.wikisource.org/wiki/三國志/卷08'}
+  - {id: sgz-18, work: 三国志, volume: 卷十八·典韦传, url: 'https://zh.wikisource.org/wiki/三國志/卷18'}
+  - {id: sgz-32, work: 三国志, volume: 卷三十二·先主传, url: 'https://zh.wikisource.org/wiki/三國志/卷32'}
+  - {id: hhs-75, work: 后汉书, volume: 卷七十五·袁术吕布列传, url: 'https://zh.wikisource.org/wiki/後漢書/卷75'}
+
+factions: {曹操: '#2f5d3a', 刘备: '#5f8f3a', 吕布: '#8a3a2a', 袁术: '#7a5a8a', 张绣: '#6b6258', 汉室: '#b8462f'}
+
+territory:
+  cells: han-140
+  zhou_labels: true
+  jun_labels: false
+  polities:
+    汉室: {slot: stone, main: true, label_at: 洛阳}
+    凉州军: {slot: lavender, label_at: 长安}
+    袁绍: {slot: sky, label_at: 邺}
+    公孙瓒: {slot: orange, label_at: 蓟}
+    曹操: {slot: jade, label_at: 许}
+    刘备: {slot: pink, label_at: 下邳}
+    吕布: {slot: brick, label_at: 下邳}
+    袁术: {slot: rose, label_at: 寿春}
+    刘表: {slot: olive, label_at: 襄阳}
+    张绣: {slot: tan, label_at: 宛}
+    刘璋: {slot: lime, label_at: 成都}
+
+people:
+  刘备: {image: 03_素材/人物立绘/liu_bei.png, title: 徐州牧, role: 寄人篱下, faction: 刘备}
+  张飞: {image: 03_素材/人物立绘/zhang_fei.png, title: 刘备部将, role: 守下邳, faction: 刘备}
+  吕布: {image: 03_素材/人物立绘/lv_bu.png, title: 徐州刺史, role: 飞将, faction: 吕布}
+  袁术: {image: 03_素材/人物立绘/yuan_shu.png, title: 仲家皇帝, role: 僭号寿春, faction: 袁术}
+  曹操: {image: 03_素材/人物立绘/cao_cao.png, title: 司空, role: 奉天子征讨, faction: 曹操}
+  张绣: {image: 03_素材/人物立绘/zhang_xiu.png, title: 建忠将军, role: 据宛城, faction: 张绣}
+  曹昂: {image: 03_素材/人物立绘/cao_ang.png, title: 曹操长子, role: 战死宛城, faction: 曹操}
+  典韦: {image: 03_素材/人物立绘/dian_wei.png, title: 校尉, role: 死守营门, faction: 曹操}
+  郭嘉: {image: 03_素材/人物立绘/guo_jia.png, title: 司空军祭酒, role: 献灌城计, faction: 曹操}
+  荀攸: {image: 03_素材/人物立绘/xun_you.png, title: 军师, role: 献灌城计, faction: 曹操}
+  陈宫: {image: 03_素材/人物立绘/chen_gong.png, title: 吕布谋士, role: 被缚, faction: 吕布}
+
+places:
+  下邳: {id: xiapi, label: right}
+  小沛: {id: xiaopei, label: left}
+  盱眙: {id: xuyi, label: right}
+  寿春: {id: shouchun, label: right}
+  许: {id: xuchang_approx, name: 许, label: right, tier: capital}
+  宛: {id: wanxian, label: left}
+  舞阴: {id: wuyin, label: right}
+  彭城: {id: pengcheng, label: right}
+  洛阳: {id: luoyang_han_wei, label: left}
+  长安: {id: changan_han_city, label: below}
+  邺: {id: ye_city, label: right}
+  蓟: {id: ji_yan, label: right}
+  襄阳: {id: xiangyang, label: right}
+  成都: {id: chengdu_city, label: right}
+
+camera:
+  focus: [下邳, 盱眙]
+  zoom: 2.4
+
+beats:
+  # ---------------- 第一章 鸠占鹊巢 ----------------
+  - say: 上回说到，刘备在淮河边跟袁术相持了一个多月。他没想到，真正的危险在背后。
+    phase: 鸠占鹊巢
+    sources: [sgz-32]
+    year: 196
+    camera: {focus: [下邳, 盱眙, 小沛], zoom: fit, move: 2.0}
+    map: '196-05'
+    show:
+      - title_bar: {text: 白门楼, sub: 三国 · 第7集, cue: 上回, for: 3.2}
+      - sfx: 片头鼓
+      - flag: {at: 盱眙, name: 刘备, sub: 拒袁术, faction: 刘备, cue: 刘备}
+
+  - say: 被他收留在小沛的吕布，趁着下邳空虚，带兵偷袭。
+    sources: [sgz-32, sgz-07]
+    show:
+      - enter: {who: 吕布, at: 小沛, side: left, cue: 吕布, for: 3}
+      - army: {from: 小沛, to: 下邳, faction: 吕布, banner: 吕, troops: cavalry, size: 1.8, cue: 偷袭, grow: 2.0}
+      - sfx: {name: 快呼啸, cue: 偷袭}
+
+  - say: 守下邳的将领曹豹反叛，打开城门把吕布迎了进去。刘备的妻子儿女，全成了吕布的俘虏。
+    sources: [sgz-32]
+    map: '196-06'
+    owners_cue: 迎了进去
+    show:
+      - takeover: {at: 下邳, from: 刘备, to: 吕布, cue: 迎了进去, name: 吕布, sub: 夺下邳}
+      - sfx: {name: 疆域易手, cue: 迎了进去}
+
+  - say: 刘备有家回不得，只好低头向吕布求和。吕布把妻儿还给他，打发他去屯驻小沛。主人和客人，就这样掉了个个儿。
+    sources: [sgz-32, sgz-07]
+    show:
+      - versus: {left: 刘备, right: 吕布, label: 易位, cue: 求和, for: 4.6}
+      - flag: {at: 小沛, name: 刘备, sub: 屯小沛, faction: 刘备, cue: 小沛}
+
+  # ---------------- 第二章 辕门射戟 ----------------
+  - say: 袁术不肯罢休，派大将纪灵带着步骑三万来打小沛。刘备只好向吕布求救。
+    phase: 辕门射戟
+    sources: [sgz-07]
+    camera: {focus: [寿春, 小沛, 下邳], zoom: fit, move: 1.4}
+    show:
+      - army: {from: 寿春, to: 小沛, faction: 袁术, banner: 纪, troops: infantry, size: 3, cue: 步骑三万, grow: 2.6}
+      - act: {act: courier, places: [小沛, 下邳], text: 求救, cue: 求救, grow: 1.2, for: 2.6}
+
+  - say: 吕布的部将劝他：您不是一直想除掉刘备吗？正好借袁术的手。吕布却说：袁术要是灭了刘备，我就被他包围了，这个忙必须帮。
+    sources: [sgz-07]
+
+  - say: 他只带了一千步兵、两百骑兵赶到小沛。纪灵一听吕布来了，不敢再打。吕布在营里摆酒，把纪灵和刘备都请来，开口就说：
+    sources: [sgz-07]
+    camera: {focus: 小沛, zoom: 6, move: 1.2}
+    show:
+      - army: {from: 下邳, to: 小沛, faction: 吕布, banner: 吕, troops: cavalry, size: 0.8, cue: 一千步兵, grow: 1.6}
+      - act: {act: prop, at: 小沛, item: 宴饮, text: 营中设宴, cue: 摆酒, for: 3.4}
+
+  - say: 玄德，是我吕布的弟弟。弟弟被你们围住，我是来救他的。我这个人，不喜欢帮人打架，就喜欢给人劝架！
+    speaker: 吕布
+    style: 豪爽傲气，大笑着说，居高临下
+    scene: 辕门
+    to: 刘备
+    sources: [sgz-07]
+
+  - say: 他让人在营门中间立起一支戟，说：
+    scene: 辕门
+    sources: [sgz-07]
+    show:
+      - act: {act: prop, at: 小沛, item: 戟, text: 营门立戟, cue: 一支戟, size: 1.3, for: 3.6}
+
+  - say: 诸位看好戟上的小枝。我一箭射中，你们就各自罢兵；射不中，你们留下来接着打！
+    speaker: 吕布
+    style: 自信张扬，拉弓之前朗声宣告
+    scene: 辕门
+    to: 刘备
+    sources: [sgz-07]
+
+  - say: 吕布拉弓一箭，正中小枝。众将大惊："将军真是天威！"第二天又喝了一顿酒，两边各自退兵。
+    scene: 辕门
+    sources: [sgz-07]
+    show:
+      - act: {act: prop, at: 小沛, item: 箭, text: 正中小支, cue: 正中, for: 3}
+      - sfx: {name: 欢呼, cue: 天威}
+
+  - say: 这就是"辕门射戟"。听着像小说，其实是《三国志》里实打实的记载。
+    sources: [sgz-07]
+    show:
+      - card: {title: 辕门射戟, body: 《三国志·吕布传》实录："布举弓射戟，正中小支", cue: 辕门射戟}
+
+  # ---------------- 第三章 宛城之败 ----------------
+  - say: 第二年正月，曹操南下宛城。占据宛城的张绣，带着部众投降了。
+    phase: 宛城之败
+    sources: [sgz-01, sgz-08]
+    year: 197
+    camera: {focus: [许, 宛], zoom: fit, move: 1.6}
+    show:
+      - army: {from: 许, to: 宛, faction: 曹操, banner: 曹, troops: infantry, size: 2.2, cue: 南下, grow: 2.2}
+      - defect: {who: 张绣, at: 宛, to: 曹操, from: 张绣, verb: 降, cue: 投降}
+
+  - say: 可曹操纳了张绣叔父张济的遗孀为妾。张绣又羞又恨。
+    sources: [sgz-08]
+    show:
+      - enter: {who: 张绣, side: left, cue: 张绣, for: 3}
+
+  - say: 曹操听说张绣不高兴，暗中想除掉他。消息走漏了，张绣先下手为强，连夜突袭曹营。
+    sources: [sgz-08]
+    camera: {focus: 宛, zoom: 6, move: 1.2}
+    show:
+      - act: {act: night, places: [宛], cue: 连夜, for: 6}
+      - clash: {at: 宛, sides: [{faction: 张绣, banner: 张, troops: cavalry}, {faction: 曹操, banner: 曹, troops: infantry}], loser: 曹操, cue: 突袭, title: 宛城之变}
+      - sfx: {name: 喊杀, cue: 突袭}
+
+  - say: 曹操猝不及防，被流箭射中。长子曹昂、侄子曹安民，都死在了乱军之中。
+    sources: [sgz-01]
+    show:
+      - act: {act: arrows, places: [宛], cue: 流箭, for: 2.4}
+      - exit: {who: 曹昂, at: 宛, verb: 殁, cue: 曹昂, portrait: true}
+      - sfx: {name: 退场钟, cue: 乱军}
+
+  - say: 守营门的猛将典韦，带着十几个人死战。身上受了几十处伤，还两手各夹住一个敌兵摔死，最后瞪着眼大骂而死。
+    sources: [sgz-18]
+    show:
+      - enter: {who: 典韦, side: right, cue: 典韦, for: 4}
+      - exit: {who: 典韦, at: 宛, verb: 殁, cue: 大骂而死}
+
+  - say: 敌兵这才敢走上前去。他们割下典韦的头传着看，全军都跑来看他的尸体。
+    sources: [sgz-18]
+    show:
+      - quote: {text: 贼乃敢前，取其头，传观之，覆军就视其躯, source: 三国志·典韦传, era: 建安二年, cue: 传着看}
+
+  - say: 曹操退到舞阴，听说典韦死了，流着泪派人把尸体偷了回来，亲自哭祭。这是曹操一生最惨痛的一次失败。
+    sources: [sgz-18, sgz-01]
+    camera: {focus: [宛, 舞阴], zoom: fit, move: 1.4}
+    show:
+      - rout: {at: 宛, to: 舞阴, faction: 曹操, banner: 曹, cue: 退到舞阴, size: 1.4}
+      - headline: {text: 宛城之败, sub: 长子曹昂 · 典韦战死, cue: 最惨痛, for: 3.2}
+
+  # ---------------- 第四章 仲家皇帝 ----------------
+  - say: 同一年，袁术在寿春称帝，国号"仲家"。
+    phase: 仲家皇帝
+    sources: [hhs-75, sgz-06]
+    camera: {focus: 寿春, zoom: 3.4, move: 1.4}
+    show:
+      - act: {act: enthrone, who: 袁术, title: 仲家皇帝, text: 僭号寿春, side: right, cue: 称帝, for: 3.6}
+      - sfx: {name: 称帝, cue: 称帝}
+
+  - say: 他想拉吕布当帮手，派使者韩胤去说亲，要娶吕布的女儿做儿媳。吕布答应了，女儿都已经送上了路。
+    sources: [sgz-07, hhs-75]
+    camera: {focus: [寿春, 下邳], zoom: fit, move: 1.4}
+    show:
+      - act: {act: courier, places: [寿春, 下邳], text: 求亲, cue: 说亲, grow: 1.6, for: 3}
+      - act: {act: prop, at: 下邳, item: 马车, text: 送女, cue: 送上了路, for: 3}
+
+  - say: 沛相陈珪急忙劝吕布：曹公奉迎天子、辅佐朝政，将军应该跟他联手。跟一个僭号称帝的人结亲，要背上不义的名声，危险得很！
+    sources: [sgz-07]
+
+  - say: 吕布连忙追回女儿，把韩胤戴上枷锁送到许县，砍了头。
+    sources: [sgz-07]
+    camera: {focus: [下邳, 许], zoom: fit, move: 1.4}
+    show:
+      - act: {act: prison, places: [下邳, 许], at: 下邳, text: 械送韩胤, cue: 枷锁, for: 3.4}
+      - act: {act: execute, at: 许, text: 枭韩胤, cue: 砍了头, for: 2.4}
+
+  - say: 袁术称帝以后奢侈无度，后宫几百人都穿着绫罗绸缎，士兵却在挨饿受冻。江淮之间，饿到人吃人。
+    sources: [sgz-06]
+    camera: {focus: 寿春, zoom: 3.4, move: 1.2}
+    show:
+      - quote: {text: 后宫数百皆服绮縠，余粱肉，而士卒冻馁, source: 三国志·袁术传, era: 建安二年, cue: 绫罗}
+      - act: {act: locusts, at: 寿春, text: 人民相食, cue: 人吃人, for: 3}
+
+  # ---------------- 第五章 白门楼 ----------------
+  - say: 公元一百九十八年，曹操亲征吕布，连战连胜，把吕布围在了下邳城里。
+    phase: 白门楼
+    sources: [sgz-01, sgz-07]
+    year: 198
+    camera: {focus: [许, 下邳], zoom: fit, move: 1.6}
+    show:
+      - army: {from: 许, to: 下邳, faction: 曹操, banner: 曹, troops: infantry, size: 2.6, cue: 亲征, grow: 2.6}
+      - siege: {at: 下邳, text: 围, faction: 曹操, cue: 围在, for: 3}
+
+  - say: 久攻不下，士兵疲惫，曹操想撤兵。谋士荀攸、郭嘉劝他：吕布连吃败仗，锐气已经没了，正该一鼓作气。
+    sources: [sgz-01]
+    show:
+      - enter: {who: 郭嘉, side: left, cue: 郭嘉, for: 3}
+
+  - say: 曹操下令，掘开泗水、沂水，把河水灌进下邳城。
+    sources: [sgz-01]
+    camera: {focus: 下邳, zoom: 6, move: 1.2}
+    show:
+      - act: {act: flood, at: 下邳, text: 决泗沂灌城, cue: 灌进, for: 5}
+      - sfx: {name: 水淹, cue: 灌进}
+
+  - say: 城里人心离散。吕布的部将侯成、宋宪、魏续，绑了谋士陈宫，开城投降。
+    sources: [sgz-07]
+    show:
+      - exit: {who: 陈宫, at: 下邳, verb: 缚, cue: 绑了}
+
+  - say: 吕布带着部下登上白门楼。被围得走投无路，只好下楼投降。
+    scene: 城楼
+    sources: [sgz-07]
+    show:
+      - act: {act: prop, at: 下邳, item: 城门, text: 白门楼, cue: 白门楼, for: 3.4}
+
+  - say: 吕布被五花大绑，押到曹操面前，嚷道：
+    scene: 城楼
+    sources: [sgz-07]
+    show:
+      - act: {act: prop, at: 下邳, item: 绳索, text: 生缚吕布, cue: 五花大绑, for: 3}
+
+  - say: 绑得太紧了，松一点！
+    speaker: 吕布
+    style: 不服气地嚷嚷，挣扎着
+    scene: 城楼
+    sources: [sgz-07]
+
+  - say: 绑老虎，不能不紧啊。
+    speaker: 曹操
+    style: 冷笑，慢悠悠，带着几分讥讽
+    scene: 城楼
+    sources: [sgz-07]
+
+  - say: 明公最担心的，不过是我吕布。现在我服了，天下还有什么可担心的？明公带步兵，我带骑兵，平定天下不在话下！
+    speaker: 吕布
+    style: 急切讨好，又带着几分傲气，极力推销自己
+    scene: 城楼
+    sources: [sgz-07]
+    show:
+      - versus: {left: 吕布, right: 曹操, label: 求降, for: 9}
+
+  - say: 曹操有些犹豫。站在一旁的刘备开口了：
+    scene: 城楼
+    sources: [sgz-07]
+
+  - say: 明公难道没看见，他是怎么对待丁原和董卓的吗？
+    speaker: 刘备
+    style: 平静冷淡，轻描淡写，一针见血
+    scene: 城楼
+    sources: [sgz-07]
+    show:
+      - versus: {left: 吕布, right: 刘备, label: 最叵信, for: 7}
+
+  - say: 曹操点了点头。吕布指着刘备破口大骂：
+    scene: 城楼
+    sources: [sgz-07]
+
+  - say: 就是这小子，最不可信！
+    speaker: 吕布
+    style: 暴怒绝望，指着鼻子大骂
+    scene: 城楼
+    sources: [sgz-07]
+
+  - say: 吕布被缢杀，陈宫也被斩首。号称"飞将"的吕布，就死在了白门楼下。
+    scene: 城楼
+    sources: [sgz-07, sgz-01]
+    owners_cue: 白门楼下
+    map: '198-12'
+    show:
+      - exit: {who: 吕布, at: 下邳, verb: 诛, cue: 缢杀, portrait: true}
+      - sfx: {name: 退场钟, cue: 缢杀}
+      - sfx: {name: 疆域易手, cue: 白门楼下}
+
+  - say: 一身本事，反复无常。到了最后，连一个替他说情的人都没有。
+    sources: [sgz-07]
+    show:
+      - headline: {text: 白门楼, sub: 建安三年 · 吕布伏诛, cue: 反复无常, for: 3.2}
+
+  - say: 而寿春的袁术，众叛亲离，粮食也吃光了，眼看就要撑不下去了……
+    sources: [sgz-06]
+    camera: {focus: [下邳, 寿春], zoom: fit, move: 1.4}
+    show:
+      - spot: {at: 寿春, cue: 袁术}
+      - title_bar: {text: 下集, sub: 袁术之死 · 易京 · 刘备反曹, cue: 撑不下去, delay: 0.6, for: 3.0}

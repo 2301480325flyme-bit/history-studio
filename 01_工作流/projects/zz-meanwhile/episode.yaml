@@ -1,0 +1,41 @@
+# 演示：视线交接（meanwhile）
+id: zz-meanwhile
+title: 组件演示 · 与此同时
+series: History Studio 复合动作
+year: 190
+
+map:
+  center: [114.5, 36.0]
+  scale: 3500
+  extent: [82.0, 4.0, 145.0, 52.0]
+  basemap: dem
+  river_rank: 4
+  focus_zoom: 2.4
+  watermark: 东汉
+
+voice: {mode: placeholder}
+
+sources_local:
+  - {id: sgz-06, work: 三国志, volume: 卷六·董卓传 袁绍传, url: 'https://zh.wikisource.org/wiki/三國志/卷06'}
+
+factions: {董卓: black, 袁绍: gold}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: left, tier: capital}
+  南皮: {id: nanpi, label: right}
+
+camera:
+  focus: 洛阳
+  zoom: 2.6
+
+beats:
+  - say: 董卓在洛阳废立皇帝，把持朝政，满朝文武敢怒不敢言。
+    year: 190
+    sources: [sgz-06]
+    show:
+      - flag: {at: 洛阳, name: 董卓, sub: 相国, faction: 董卓, until: end}
+
+  - say: 与此同时，逃出京城的袁绍，已经在渤海悄悄招兵买马。
+    sources: [sgz-06]
+    show:
+      - meanwhile: {from: 洛阳, to: 南皮, text: 与此同时, faction: 袁绍, spot: 渤海·南皮, flag: {name: 袁绍, sub: 勃海太守, faction: 袁绍}}

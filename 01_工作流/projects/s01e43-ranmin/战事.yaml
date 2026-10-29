@@ -1,0 +1,515 @@
+episode: s01e43-ranmin
+armies:
+  石冲军:
+    faction: 后赵
+    head: 石冲
+    size: 五万（出发时）
+    note_faction: 后赵宗室起兵争位
+    evidence:
+    - quote: 帅众五万，自蓟讨遵
+      para: 晋书-p07370
+  冉魏军:
+    faction: 冉魏
+    head: 冉闵
+    size: 各战次见原文，详见事件
+    note_faction: 冉闵原为后赵将领，350年建魏；史料中的“石闵”与“冉闵”同一人
+    evidence:
+    - quote: 国号大魏，复姓冉氏
+      para: 晋书-p07384
+  石琨攻邺军:
+    faction: 后赵
+    head: 石琨
+    size: 七万
+    note_faction: 石鉴时后赵宗室、将领联合军
+    evidence:
+    - quote: 石琨及张举、王朗率众七万伐鄴
+      para: 晋书-p07380
+  石祗军:
+    faction: 后赵
+    head: 石祗
+    size: 未核
+    note_faction: 石祗在襄国称帝，城中守军数未载；姚弋仲与前燕各自派军援助
+    evidence:
+    - quote: 石祗闻鉴死，僭称尊号于襄国
+      para: 晋书-p07385
+  姚襄援军:
+    faction: 姚弋仲
+    head: 姚襄
+    size: 骑三万八千
+    note_faction: 姚弋仲为羌帅，独立部众；本次奉父命救石祗
+    evidence:
+    - quote: 弋仲复遣其子襄率骑三万八千
+      para: 晋书-p07387
+  前燕援军:
+    faction: 前燕
+    head: 悦绾
+    size: 甲卒三万
+    evidence:
+    - quote: 俊遣将军悦绾率甲卒三万自龙城
+      para: 晋书-p07387
+  苻洪部:
+    faction: 苻洪
+    head: 苻洪
+    size: 十余万
+    note_faction: 氐帅独立部众；后由苻健统领并西入关
+    evidence:
+    - quote: 洪有众十余万
+      para: 晋书-p07568
+  苻健西进军:
+    faction: 前秦
+    head: 苻健
+    size: 尽众（未载确数）
+    note_faction: 350年时尚未正式建国，账内按后继政权前秦归类；史料说“尽众”
+    evidence:
+    - quote: 尽众西行
+      para: 晋书-p07571
+  苻雄别军:
+    faction: 前秦
+    head: 苻雄
+    size: 步骑五千（入潼关）
+    note_faction: 苻健西进行动中的分遣军
+    evidence:
+    - quote: 遣其弟雄率步骑五千入潼关
+      para: 晋书-p07571
+  晋司马勋军:
+    faction: 晋
+    head: 司马勋
+    size: 步骑三万
+    evidence:
+    - quote: 勋率步骑三万入秦川
+      para: 晋书-p07573
+  慕容恪军:
+    faction: 前燕
+    head: 慕容恪
+    size: 五千善射鲜卑兵（铁锁方阵）
+    evidence:
+    - quote: 简善射鲜卑勇而无刚者五千，方阵而前
+      para: 晋书-p07391
+events:
+- id: e01
+  army: 石冲军
+  kind: 行军
+  place: 平棘
+  from: 蓟
+  via:
+  - 常山
+  - 苑乡
+  date: 349
+  territory: null
+  note: 石冲南下讨石遵，路经点见史料；月日未核。
+  evidence:
+  - quote: 帅众五万，自蓟讨遵
+    para: 晋书-p07370
+  - quote: 次于苑乡
+    para: 晋书-p07370
+  skip: 支线战事旁白不讲
+- id: e02
+  army: 石冲军
+  kind: 交战
+  place: 平棘
+  from: null
+  via: []
+  date: 349
+  territory: null
+  note: 石冲败，后于元氏被俘赐死；战地平棘，元氏为后续处置地点。
+  evidence:
+  - quote: 战于平棘，冲师大败
+    para: 晋书-p07370
+  - quote: 获冲于元氏，赐死
+    para: 晋书-p07370
+  skip: 支线战事旁白不讲
+- id: e03
+  army: 石琨攻邺军
+  kind: 交战
+  place: 邺
+  from: null
+  via: []
+  date: 350
+  territory: null
+  note: 七万人攻邺，冉闵千余骑在城北迎战；为城市周边战斗，未见郡级易手。
+  evidence:
+  - quote: 石琨及张举、王朗率众七万伐鄴
+    para: 晋书-p07380
+  - quote: 石闵率骑千余，距之城北
+    para: 晋书-p07380
+  skip: 冉闵在邺城外破石琨、石渎回师等战旁白不讲，只讲杀胡与称帝
+- id: e04
+  army: 冉魏军
+  kind: 行军
+  place: 石渎
+  from: 邺
+  via: []
+  date: 350
+  territory: null
+  note: 冉闵、李农率骑三万讨张贺度，之后听闻石鉴密令，急驰返邺；月份未核。
+  evidence:
+  - quote: 闵与李农率骑三万讨张贺度于石渎
+    para: 晋书-p07381
+  skip: 支线战事旁白不讲
+- id: e05
+  army: 冉魏军
+  kind: 撤退
+  place: 邺
+  from: 石渎
+  via: []
+  date: 350
+  territory: null
+  note: 听闻石鉴密令后回师，废杀石鉴；城邑级政变，不记郡级易手。
+  evidence:
+  - quote: 闵、农驰还，废鉴杀之
+    para: 晋书-p07381
+  skip: 冉闵在邺城外破石琨、石渎回师等战旁白不讲，只讲杀胡与称帝
+- id: e06
+  army: 冉魏军
+  kind: 交战
+  place: 邯郸
+  from: 邺
+  via: []
+  date: 350
+  territory: null
+  note: 石祗遣石琨十万攻邺、进据邯郸；冉闵在邯郸大败石琨，死者一万余。郡级归属未见明载。
+  evidence:
+  - quote: 石琨率众十万伐鄴，进据邯郸
+    para: 晋书-p07386
+  - quote: 闵大败琨于邯郸，死者万余
+    para: 晋书-p07386
+  skip: 支线战事旁白不讲
+- id: e07
+  army: 冉魏军
+  kind: 行军
+  place: 黄城
+  from: 邺
+  via: []
+  date: 350
+  territory: null
+  note: 王泰、崔通、周成率步骑十二万先屯黄城，冉闵率精卒八万继进；黄城今址未核。
+  evidence:
+  - quote: 使其将王泰、崔通、周成等帅步骑十二万次于黄城
+    para: 晋书-p07386
+  - quote: 闵躬统精卒八万继之
+    para: 晋书-p07386
+  skip: 支线战事旁白不讲
+- id: e08
+  army: 冉魏军
+  kind: 交战
+  place: 苍亭
+  from: 黄城
+  via: []
+  date: 350
+  territory: null
+  note: 冉闵击败张贺度等联军，追斩靳豚于阴安乡。苍亭/阴安乡精确地点未核，郡级归属未明。
+  evidence:
+  - quote: 战于苍亭
+    para: 晋书-p07386
+  - quote: 贺度等大败，死者二万八千
+    para: 晋书-p07386
+  - quote: 追斩勒豚于阴安乡
+    para: 晋书-p07386
+  skip: 支线战事旁白不讲
+- id: e09
+  army: 冉魏军
+  kind: 交战
+  place: 邺
+  from: null
+  via: []
+  date: 350
+  territory: null
+  note: 载记记冉闵按令杀胡羯及四方承书诛杀；这是针对平民的大规模暴力，不应包装成普通会战。血腥细节见史料包。
+  evidence:
+  - quote: 斩一胡首送凤阳门者
+    para: 晋书-p07378
+  - quote: 所在承闵书诛之
+    para: 晋书-p07378
+  skip: 冉闵在邺城外破石琨、石渎回师等战旁白不讲，只讲杀胡与称帝
+- id: e10
+  army: 冉魏军
+  kind: 交战
+  place: 襄国
+  from: 邺
+  via: []
+  date: 350-11
+  territory: null
+  note: 冉闵率步骑十万攻襄国，围城百余日、筑土山地道；石祗仍守城，请外援，未发生城池易手。
+  evidence:
+  - quote: 闵率步骑十万攻石祗于襄国
+    para: 晋书-p07387
+  - quote: 闵攻襄国百余日，为土山地道
+    para: 晋书-p07387
+- id: e11
+  army: 姚襄援军
+  kind: 行军
+  place: 襄国
+  from: 滆头
+  via: []
+  date: 351
+  territory: null
+  note: 姚弋仲遣姚襄率骑三万八千来援；滆头今址未核。
+  evidence:
+  - quote: 弋仲复遣其子襄率骑三万八千至自滆头
+    para: 晋书-p07387
+  skip: 姚襄援军从滆头来，地望未核，只用悦绾一路箭头示意三路援军
+- id: e12
+  army: 前燕援军
+  kind: 行军
+  place: 襄国
+  from: 蓟
+  via: []
+  date: 351
+  territory: null
+  note: （原记 from 龙城）悦绾率三万甲卒自龙城来援，史料未载途经站点。
+  evidence:
+  - quote: 俊遣将军悦绾率甲卒三万自龙城
+    para: 晋书-p07387
+- id: e13
+  army: 冉魏军
+  kind: 交战
+  place: 襄国
+  from: null
+  via: []
+  date: 351-02
+  territory: null
+  note: 石琨、姚襄、悦绾三面攻、石祗击后军，冉闵大败；他潜回邺。城仍未被攻占，郡级归属不明。
+  evidence:
+  - quote: 姚襄、悦绾、石琨等三面攻之，祗冲其后，闵师大败
+    para: 晋书-p07387
+  - quote: 石祗大败冉闵于襄国
+    para: 晋书-p00184
+- id: e14
+  army: 石祗军
+  kind: 交战
+  place: 明光宫
+  from: 襄国
+  via: []
+  date: 351
+  territory: null
+  note: 刘显率七万攻邺，屯明光宫，距邺二十三里；原文未记精确日期。
+  evidence:
+  - quote: 石祗使刘显帅众七万攻鄴
+    para: 晋书-p07388
+  - quote: 刘显次于明光宫，去鄴二十三里
+    para: 晋书-p07388
+  skip: 支线战事旁白不讲
+- id: e15
+  army: 冉魏军
+  kind: 交战
+  place: 阳平
+  from: 邺
+  via: []
+  date: 351
+  territory: null
+  note: 冉闵反击追刘显至阳平，刘显密请降并杀石祗以求和；阳平具体地望未核。
+  evidence:
+  - quote: 大败显军，追奔及于阳平
+    para: 晋书-p07388
+  - quote: 刘显果杀祗及其太宰赵鹿等十余人
+    para: 晋书-p07388
+  skip: 支线战事旁白不讲
+- id: e16
+  army: 冉魏军
+  kind: 攻占
+  place: 襄国
+  from: 邺
+  via: []
+  date: 351
+  territory: null
+  note: 曹伏驹开门，冉闵军入襄国并杀刘显、迁民至邺；只明确记城与人口转移，未证明整个郡易手，故territory为null。
+  evidence:
+  - quote: 曹伏驹开门为应，遂入襄国，诛显
+    para: 晋书-p07390
+  - quote: 迁其百姓于鄴
+    para: 晋书-p07390
+- id: e17
+  army: 苻洪部
+  kind: 屯驻
+  place: 枋头
+  from: null
+  via: []
+  date: 349
+  territory: null
+  note: 苻洪据枋头拥众十余万；这里记独立氐帅部众，非后赵中央军。
+  evidence:
+  - quote: 苻洪据枋头，众各数万
+    para: 晋书-p07379
+  - quote: 洪有众十余万
+    para: 晋书-p07568
+- id: e18
+  army: 苻健西进军
+  kind: 行军
+  place: 盟津
+  from: 枋头
+  via: []
+  date: 350-08
+  territory: null
+  note: 苻健尽众西行，在盟津架浮桥渡河；盟津是渡河节点，不代表苻健从此直接走潼关。
+  evidence:
+  - quote: 缮宫室于枋头
+    para: 晋书-p07571
+  - quote: 起浮桥于盟津以济
+    para: 晋书-p07571
+- id: e19
+  army: 苻雄别军
+  kind: 行军
+  place: 潼关
+  from: null
+  via: []
+  date: 350-08
+  territory: null
+  note: 苻雄率步骑五千由东面入潼关；主力后续跟进，轵关另有苻菁分路。
+  evidence:
+  - quote: 遣其弟雄率步骑五千入潼关，兄子菁自轵关入河东
+    para: 晋书-p07571
+  skip: 支线战事旁白不讲
+- id: e20
+  army: 苻健西进军
+  kind: 交战
+  place: 潼关
+  from: 盟津
+  via: []
+  date: 350-08
+  territory: null
+  note: 杜洪遣张先守潼关，苻健击破；后进次赤水。没有郡级归属明载。
+  evidence:
+  - quote: 杜洪遣其将张先要健于潼关，健逆击破之
+    para: 晋书-p07571
+- id: e21
+  army: 苻雄别军
+  kind: 交战
+  place: 阴槃
+  from: 渭北
+  via: []
+  date: 350-08
+  territory: null
+  note: 苻雄略渭北并败张先于阴槃，擒张先；具体日期与阴槃坐标未核。
+  evidence:
+  - quote: 遣雄略地渭北，又败张先于阴槃，擒之
+    para: 晋书-p07571
+  skip: 支线战事旁白不讲
+- id: e22
+  army: 苻健西进军
+  kind: 攻占
+  place: 长安
+  from: 赤水
+  via: []
+  date: 350-08
+  territory: null
+  note: 杜洪逃司竹，苻健入长安定都；史料称三辅略定，但郡级逐郡归属不详，故territory为null。
+  evidence:
+  - quote: 三辅略定。健引兵至长安，洪奔司竹。健入而都之
+    para: 晋书-p07571
+- id: e23
+  army: 晋司马勋军
+  kind: 行军
+  place: 五丈原
+  from: 汉中
+  via:
+  - 秦川
+  date: 351-04
+  territory: null
+  note: 晋军三万入秦川，之后与苻健交战；按《穆帝纪》夏四月记。
+  evidence:
+  - quote: 自汉中入秦川
+    para: 晋书-p00184
+  - quote: 苻健战于五丈原
+    para: 晋书-p00184
+  skip: 支线战事旁白不讲
+- id: e24
+  army: 晋司马勋军
+  kind: 交战
+  place: 五丈原
+  from: null
+  via: []
+  date: 351-04
+  territory: null
+  note: 苻健破司马勋；郡级归属未见变化。
+  evidence:
+  - quote: 健败之于五丈原
+    para: 晋书-p07573
+  - quote: 王师败绩
+    para: 晋书-p00184
+  skip: 支线战事旁白不讲
+- id: e25
+  army: 慕容恪军
+  kind: 交战
+  place: 魏昌城
+  from: 冀州
+  via: []
+  date: 352-04
+  territory: null
+  note: 《晋书》定位魏昌城；战前慕容儁已略地至冀州。廉台与魏昌城是否同点有争议。
+  evidence:
+  - quote: 时慕容俊已克幽、蓟，略地至于冀州
+    para: 晋书-p07391
+  - quote: 与慕容恪相遇于魏昌城
+    para: 晋书-p07391
+- id: e26
+  army: 慕容恪军
+  kind: 行军
+  place: 蓟
+  from: 魏昌城
+  via: []
+  date: 352-04
+  territory: null
+  note: 冉闵被擒后连同董闰、张温送往蓟；史料没给捕获点到蓟的沿途节点。
+  evidence:
+  - quote: 及董闰、张温等送之于蓟
+    para: 晋书-p07391
+- id: e27
+  army: 慕容恪军
+  kind: 行军
+  place: 龙城
+  from: 蓟
+  via: []
+  date: 352
+  territory: null
+  note: 慕容儁将冉闵送至龙城，后于遏陉山处斩；送行时间未精确到月。处决不是战事账允许的kind，故只在史料包记处斩。
+  evidence:
+  - quote: 俊送闵既至龙城
+    para: 晋书-p07393
+- id: e28
+  army: 前燕军
+  kind: 攻占
+  place: 邺
+  from: 中山
+  via: []
+  date: 352
+  territory: null
+  note: 慕容评围邺，城中饥荒后陷落；材料未给魏郡整体转属日期，territory为null，郡级易手待Claude决定。
+  evidence:
+  - quote: 遣慕容评率众围鄴
+    para: 晋书-p07392
+  - quote: 长水校尉马愿、龙骧田香开门降评
+    para: 晋书-p07392
+places_new:
+- name: 枋头
+  lon: 114.35
+  lat: 35.6
+  precision: 约略区域点，非古城坐标
+  basis: 后世地理辞书称今浚县西南淇门渡；坐标依该区域近似估点
+  evidence:
+  - quote: 处于枋头
+    para: 晋书-p07568
+- name: 盟津
+  lon: 112.42
+  lat: 34.84
+  precision: 黄河古渡区域近似点
+  basis: 今孟津会盟镇一带；古渡口位置与河道有变化
+  evidence:
+  - quote: 起浮桥于盟津以济
+    para: 晋书-p07571
+- name: 龙城（前燕）
+  lon: 120.45
+  lat: 41.57
+  precision: 朝阳古城区域点，不表示精确遗址
+  basis: 前燕龙城约在今辽宁朝阳；采用城市区域坐标
+  evidence:
+  - quote: 俊送闵既至龙城
+    para: 晋书-p07393
+open_questions:
+- 本地资治通鉴语料未检出；关键事件以晋书穆帝纪与载记互校，苍亭战和铁锁连马细节目前仅载记单源。
+- 冉魏、前秦尚未列入疆域.yaml。建议冉魏用砖红/赤色、都城邺；前秦用橙色或土黄色、都城长安，Claude 按既有palette决定。
+- 目前未证实郡级易手的城市攻占（襄国、长安、邺）均置territory:null；Claude可决定魏郡、京兆尹等是否按既有疆域证据补录。
+- 魏昌城与后世廉台地望冲突；建议战场先标“魏昌城（廉台说待核）”，不要精准落点。后世地理条目：https://www.cidianwang.com/lishi/diming/1/9531eo.htm；地方说法：https://www.visitbeijing.com.cn/article/47QpU1E116C
+- 苻健主力盟津渡河、苻雄入潼关、苻菁走轵关分路，史书没给主力在盟津之后的完整逐站路线；不能合成单线枋头—潼关。
+- 苍亭、黄城、阴安乡、滆头、襄下场长芦、黄丘、阴槃、遏陉山尚无可用精确坐标；若地图需要，先用战区/近似图钉并标待核。
+- 攻襄国围城始于350年十一月，败战记于351年；本纪只记结果，外部月日需再核。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip

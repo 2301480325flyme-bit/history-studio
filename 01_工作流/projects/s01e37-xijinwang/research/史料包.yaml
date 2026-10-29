@@ -1,0 +1,81 @@
+episode: s01e37-xijinwang
+scope: 312–317（建兴元年至建兴五年）
+source_note:
+  - 本地检索到《晋书》相关帝纪、载记、列传；sources --books 资治通鉴 未返回相关段落，暂未获得《资治通鉴》互证。
+  - 上一集指定史料包路径不存在，无法判断与第36集的重复范围；请Claude核对前集结尾。
+  - 引文均为 {quote, para}；段落号来自 studio.py sources。
+events:
+  - {id: ev01, date: 312（建兴元年）, people: [司马邺, 麹允, 索綝, 贾疋], place: 长安, event: 贾疋等奉秦王司马邺为皇太子于长安，后即帝位为愍帝, sources: [{quote: "共奉秦王鄴为皇太子于长安", para: 晋书-p00114}, {quote: "壬申，即皇帝位，大赦，改元", para: 晋书-p00118}], second_source: 《晋书·索綝传》互见晋书-p04703；未检得《资治通鉴》。}
+  - {id: ev02, date: 313（永嘉七年/建兴元年）, people: [司马炽, 刘聪], place: 平阳, event: 怀帝在刘聪大会上穿青衣行酒，后遇弑于平阳；帝纪记遇弑时年三十, sources: [{quote: "刘聪大会，使帝著青衣行酒。侍中庾珉号哭，聪恶之。丁未，帝遇弑，崩于平阳，时年三十", para: 晋书-p00115}, {quote: "帝行酒洗爵，反而更衣，又使帝执盖，晋臣在坐者多失声而泣", para: 晋书-p00122}], second_source: 两处为《晋书·怀帝纪》不同段落，行酒细节措辞不一；通鉴本地未检得。}
+  - {id: ev03, date: 313（待核）, people: [石勒], place: 邺, event: “313年石勒取邺”未核；查得陷邺记录为307年汲桑所为, sources: [{quote: "汲桑聚众反，败魏郡太守冯嵩，遂陷鄴城", para: 晋书-p00109}, {quote: "石勒攻陷冀州郡县百余壁", para: 晋书-p00111}], second_source: 两条均不能证明313年石勒取邺；事件待查，不作为已证疆域变化。}
+  - {id: ev04, date: 314（三月；建兴二年）, people: [石勒, 王浚], place: 幽州治所蓟（战点未核）, event: 石勒陷幽州杀王浚并焚城，史称死者万余, sources: [{quote: "三月癸酉，石勒陷幽州，杀侍中、大司马、幽州牧、博陵公王浚，焚烧城邑，害万余人", para: 晋书-p00119}, {quote: "封王浚首，献捷于刘聪", para: 晋书-p07178}], second_source: 《晋书·帝纪》《石勒载记》互见；《资治通鉴》未检得。}
+  - {id: ev05, date: 314（王浚败后，月日未核）, people: [刘琨, 段匹磾, 石勒], place: 幽州（具体会合点未核）, event: 刘琨依段匹磾结盟讨石勒，后段匹磾杀刘琨，晋人在北方离散；杀害地点未载, sources: [{quote: "刘琨自并州依之，复与匹磾结盟，俱讨石勒", para: 晋书-p04854}, {quote: "惧琨图己，遂害之，于是晋人离散矣", para: 晋书-p04854}], second_source: 《晋书·刘琨传》称琨为匹磾拘系，见晋书-p04805；未检得通鉴。}
+  - {id: ev06, date: 315（建兴三年）, people: [刘曜, 麹允], place: 北地、青白城、灵武, event: 刘曜屡攻北地，麹允赴援并驻青白城、灵武，关中外围失守加剧, sources: [{quote: "太守麹昌遣使求救，允率步骑赴之", para: 晋书-p06271}, {quote: "曜后复围北地，太守麹昌遣使求救，允率步骑赴之", para: 晋书-p06271}], second_source: 两句同出《晋书·麹允传》；帝纪互证段落尚待补，通鉴未检得。}
+  - {id: ev07, date: 316（七月；建兴四年）, people: [刘曜, 麹允, 麹昌], place: 北地, event: 刘曜攻北地，麹允率步骑三万救援，晋军未战先溃，麹昌奔长安, sources: [{quote: "秋七月，刘曜攻北地，麹允帅步骑三万救之。王师不战而溃，北地太守麹昌奔于京师", para: 晋书-p00121}, {quote: "太守麹昌遣使求救，允率步骑赴之", para: 晋书-p06271}], second_source: 《晋书·帝纪》《麹允传》互见；通鉴未检得。}
+  - {id: ev08, date: 316（七至八月，月界未核）, people: [刘曜, 鲁克, 梁纬, 皇甫阳], place: 泾阳、渭北, event: 刘曜推进至泾阳，渭北诸城溃散，鲁克、梁纬、皇甫阳等战死；具体战死地点和北地至泾阳路线未载, sources: [{quote: "曜进至泾阳，渭北诸城悉溃，建威将军鲁克、散骑常侍梁纬、少府皇甫阳等皆死之", para: 晋书-p00121}], second_source: 本次未找到第二处直接记载。}
+  - {id: ev09, date: 316（八至十月；建兴四年）, people: [刘曜, 麹允, 索綝, 胡崧, 华辑], place: 长安小城、霸上、遮马桥、灵台、渭北、槐里, event: 刘曜围长安；麹允、索綝守小城，华辑屯霸上，胡崧屯遮马桥。胡崧在灵台破曜后按兵渭北、还槐里。城中饥荒人相食；援军具体路由未记, sources: [{quote: "麹允与公卿守长安小城以自固，散骑常侍华辑监京兆、冯翊、弘农、上洛四郡兵东屯霸上，镇军将军胡崧帅城西诸郡兵屯遮马桥", para: 晋书-p00121}, {quote: "胡崧承檄奔命，破曜于灵台", para: 晋书-p04706}, {quote: "城中饥窘，人相食，死亡逃奔不可制", para: 晋书-p04706}], second_source: 《晋书·索綝传》与帝纪互见。}
+  - {id: ev10, date: 316（十至十一月；月份异文待定）, people: [司马邺, 刘曜, 索綝, 宋敞], place: 长安城东豆田壁、平阳, event: 索綝暗使宋敞求降，刘曜拒绝；长安外城陷后愍帝肉袒牵羊、衔璧舆榇出降，地点为城东豆田壁，后被送平阳, sources: [{quote: "帝使侍中宋敞送笺降于曜。綝潜留敞", para: 晋书-p04706}, {quote: "帝乘羊车，肉袒衔壁，舆榇出降", para: 晋书-p00121}, {quote: "营实在城东豆田壁", para: 晋书-p00121}, {quote: "刘曜陷长安外城，愍帝使侍中宋敞送笺于曜，帝肉袒牵羊，舆榇衔璧出降", para: 晋书-p07080}], second_source: 《晋书·帝纪》《刘曜载记》互见；两篇系月表述需核。}
+  - {id: ev11, date: 316（建兴四年）, people: [司马邺, 刘聪, 麹允], place: 平阳, event: 愍帝到平阳后受封光禄大夫、怀安侯；麹允自杀, sources: [{quote: "辛丑，帝蒙尘于平阳，麹允及群官并从", para: 晋书-p00121}, {quote: "及至平阳，聪以帝为光禄大夫、怀安侯", para: 晋书-p07080}], second_source: 《晋书·帝纪》《刘曜载记》互见。}
+  - {id: ev12, date: 317（三月；建兴五年）, people: [司马睿, 王导], place: 建康（旧建邺）, event: 琅琊王司马睿承制改元、称晋王；不是称帝（称帝在318年）, sources: [{quote: "三月，琅邪王睿承制改元，称晋王于建康", para: 晋书-p00122}, {quote: "愍帝立，避帝讳改建鄴为建康。元帝渡江，建都扬州", para: 晋书-p01086}], second_source: 第二条互证建康命名、建都；称王尚无通鉴本地互证。}
+  - {id: ev13, date: 317（月份未核）, people: [祖逖, 司马睿], place: 长江中流、江阴, event: 祖逖请缨获任、率部曲渡江，中流击楫立誓，屯江阴募兵并铸兵器, sources: [{quote: "帝乃以逖为奋威将军、豫州刺史，给千人禀，布三千匹，不给铠仗", para: 晋书-p04823}, {quote: "仍将本流徙部曲百余家渡江，中流击楫而誓曰：祖逖不能清中原而复济者，有如大江", para: 晋书-p04823}, {quote: "屯于江阴，起冶铸兵器，得二千余人而后进", para: 晋书-p04823}], second_source: 均为《晋书·祖逖传》；未检得通鉴互证。}
+  - {id: ev14, date: 312–317（分年背景）, people: [刘琨, 刘聪, 刘粲, 段匹磾], place: 晋阳、常山, event: 刘琨独保晋阳，城降刘粲后奔常山，后依段匹磾抗石勒, sources: [{quote: "并州诸郡为刘元海所陷，刺史刘琨独保晋阳", para: 晋书-p00109}, {quote: "太原太守高乔以晋阳降粲。八月庚戌，刘琨奔于常山", para: 晋书-p00114}, {quote: "刘琨自并州依之，复与匹磾结盟，俱讨石勒", para: 晋书-p04854}], second_source: 帝纪、刘琨传与段匹磾传互见。}
+  - {id: ev15, date: 313–316（河北战事）, people: [石勒, 刘演, 邵攀, 王浚], place: 廪丘、顿丘、幽州, event: 河北持续争夺；记有石勒陷廪丘、刘演克顿丘斩石勒所署太守、314年石勒陷幽州杀王浚；313年取邺未核, sources: [{quote: "石勒陷廪丘，北中郎将刘演出奔", para: 晋书-p00121}, {quote: "北中郎将刘演克顿丘，斩石勒所署太守邵攀", para: 晋书-p00119}, {quote: "三月癸酉，石勒陷幽州，杀侍中、大司马、幽州牧、博陵公王浚", para: 晋书-p00119}], second_source: 帝纪多处记河北战点；取邺年份仍待核。}
+people:
+  - {name: 司马邺（愍帝）, life: 300–318（本次生卒未核）, age: 312年约13虚岁（312-300+1，未核）, office: 秦王/皇太子/皇帝, portrait: 缺，未见 sima_ye.png}
+  - {name: 司马炽（怀帝）, life: 284–313（生年待核）, age: 313年史载三十岁, office: 皇帝/会稽公, portrait: 有 sima_chi.png}
+  - {name: 司马睿（元帝）, life: 276–323（生年未核）, age: 317年约42虚岁（推算未核）, office: 琅琊王/丞相/晋王, portrait: 缺，未见 sima_rui.png}
+  - {name: 刘曜, life: 生年未核–329, age: 本集壮年，数值未核, office: 汉赵将领/中山王/皇帝, portrait: 缺，未见 liu_yao.png}
+  - {name: 刘聪, life: 生年未核–318, age: 未核, office: 汉赵皇帝, portrait: 有 liu_cong.png}
+  - {name: 石勒, life: 274–333（本次未核）, age: 314年约41虚岁（推算未核）, office: 汉赵大将/河北军事首领, portrait: 缺，未见 shi_le.png}
+  - {name: 刘琨, life: 270–318（本次未核）, age: 316年约47虚岁（推算未核）, office: 并州刺史/大将军/司空, portrait: 缺，未见 liu_kun.png}
+  - {name: 祖逖, life: 266–321（本次未核）, age: 317年约52虚岁（推算未核）, office: 奋威将军/豫州刺史, portrait: 缺，未见 zu_ti.png}
+  - {name: 麹允, life: 生卒未核, age: 未核, office: 尚书左仆射/领军/雍州刺史, portrait: 缺，未见 qu_yun.png}
+  - {name: 索綝, life: 生卒未核, age: 未核, office: 尚书右仆射/宫城诸军事, portrait: 缺，未见 suo_lin.png}
+  - {name: 胡崧, life: 生卒未核, age: 未核, office: 镇军将军/统城西诸郡兵, portrait: 缺，未见 hu_song.png}
+  - {name: 王浚（幽州牧）, life: 生卒未核（314被杀）, age: 未核, office: 大司马/幽州牧/博陵公, portrait: 有 wang_jun_you.png}
+  - {name: 石季龙（石虎）, life: 295–349（本次未核）, age: 314年前后约20余岁（未核）, office: 石勒部将/养子, portrait: 缺，未见 shi_hu.png}
+  - {name: 贾疋, life: 生卒未核, age: 未核, office: 雍州刺史/征西大将军, portrait: 缺，未见 jia_pi.png}
+  - {name: 宋敞, life: 生卒未核, age: 未核, office: 侍中/奉使者, portrait: 缺，未见 song_chang.png}
+  - {name: 鲁克、梁纬、皇甫阳, life: 生卒未核（316年推进时遇害）, age: 未核, office: 建威将军/散骑常侍/少府, portrait: 无对应立绘，战事标注即可}
+  - {name: 段匹磾, life: 生卒未核, age: 未核, office: 幽州刺史, portrait: 缺，未见 duan_pidi.png}
+places:
+  - {name: 长安, ancient: 长安/京兆尹治所, modern: 今西安西北汉长安城遗址区域, gazetteer: 有 changan_han_city 近似点（汉城址，非晋宫城）, level: 都城兼京兆尹治所}
+  - {name: 平阳, ancient: 平阳郡治/汉赵都城, modern: 今山西临汾一带, gazetteer: 有 pingyang_jin（111.5,36.05，约略）, level: 郡治与城邑}
+  - {name: 建康, ancient: 旧建邺避愍帝讳改名, modern: 今南京, gazetteer: 有 nanjing_ancient_city 近似点, level: 丹阳尹治所/都城}
+  - {name: 邺, ancient: 魏郡治所, modern: 今河北临漳邺城遗址, gazetteer: 有 ye_city（114.4002,36.2748，遗址近似点）, level: 城址；313年石勒取邺未核}
+  - {name: 蓟, ancient: 幽州治所/蓟县, modern: 今北京城区西南一带（古城范围待核）, gazetteer: 本次未查询, level: 州治/县城，不等同全幽州}
+  - {name: 晋阳, ancient: 并州治所, modern: 今太原晋源古城遗址区域, gazetteer: 本次未查询, level: 州治/郡治}
+  - {name: 北地, ancient: 北地郡/郡治（具体目标未核）, modern: 关中北部，治所沿革复杂, gazetteer: 本次未查询, level: 郡域}
+  - {name: 泾阳, ancient: 泾阳县/区域, modern: 今陕西泾阳一带（古治所未核）, gazetteer: places 查询无条目, level: 县级区域点}
+  - {name: 霸上, ancient: 长安东南郊区域, modern: 今西安东南白鹿原传统比定, gazetteer: 本次未查, level: 区域点}
+  - {name: 遮马桥, ancient: 长安西向桥梁/驻军点, modern: 未核, gazetteer: 未查到, level: 桥址点}
+  - {name: 灵台, ancient: 长安附近战地地名, modern: 未核, gazetteer: 未查到, level: 战场点}
+  - {name: 槐里, ancient: 关中县名, modern: 今陕西兴平一带传统比定, gazetteer: 本次未查, level: 县级聚落}
+  - {name: 豆田壁, ancient: 长安城东营壁/出降地, modern: 未核, gazetteer: 无, level: 营壁级，非郡治}
+  - {name: 江阴/长江中流, ancient: 渡江及屯驻区域, modern: 今江苏江阴及邻近长江水面, gazetteer: 本次未查江阴, level: 县城与河道应分开定位}
+  - {name: 新地名候选, ancient: 泾阳军行点、灵台、遮马桥、豆田壁、亭头, modern: 多数未核, gazetteer: 尚未确认新条目, level: 定位后再决定是否新增}
+romance_and_debates:
+  - “衣冠南渡”是后世概括；本地原文支持元帝渡江建都扬州和司马睿称晋王，未查到该四字作为当时原句。
+  - 长安陷落的帝纪、载记月份表述有差异；可先定316年，具体月需Claude统一。
+  - 胡崧获胜后按兵、还槐里的动机“虑麹、索功盛”属传记解释。
+  - 313年石勒取邺未核；可查邺陷记载为307年汲桑所为。
+  - 疆域.yaml缺少312–317年事件；长安、晋阳、河北郡级变化要按han-219郡名复核。
+pronunciation_risks:
+  - {word: 愍帝, reading: mǐn dì, risk: 愍勿读mín, basis: 谥号}
+  - {word: 麹允, reading: Qū Yǔn, risk: 麹作姓读Qū，勿读qǔ, basis: 人名}
+  - {word: 索綝, reading: Suǒ Chēn, risk: 綝此处读chēn, basis: 人名}
+  - {word: 刘曜, reading: Liú Yào, risk: 曜读yào, basis: 人名}
+  - {word: 琅琊, reading: Láng Yá, risk: 琊读yá, basis: 封国名}
+  - {word: 蓟/邺, reading: Jì/Yè, risk: 地名易误读, basis: 蓟县/邺城}
+  - {word: 槐里, reading: Huái Lǐ, risk: 槐读huái, basis: 地名}
+visual_scenes:
+  - scene: 怀帝穿青衣行酒，晋臣在席间失声而泣。
+    evidence: [{quote: "使帝著青衣行酒", para: 晋书-p00115}, {quote: "晋臣在坐者多失声而泣", para: 晋书-p00122}]
+  - scene: 刘曜进至泾阳、渭北诸城溃散，守将战死。
+    evidence: [{quote: "曜进至泾阳，渭北诸城悉溃", para: 晋书-p00121}]
+  - scene: 长安围城：麹允守小城、华辑屯霸上、胡崧屯遮马桥并在灵台击曜。
+    evidence: [{quote: "麹允与公卿守长安小城以自固", para: 晋书-p00121}, {quote: "胡崧承檄奔命，破曜于灵台", para: 晋书-p04706}]
+  - scene: 愍帝在城东豆田壁肉袒出降。
+    evidence: [{quote: "帝乘羊车，肉袒衔壁，舆榇出降", para: 晋书-p00121}, {quote: "营实在城东豆田壁", para: 晋书-p00121}]
+  - scene: 祖逖中流击楫立誓，后屯江阴招募、铸兵器。
+    evidence: [{quote: "中流击楫而誓曰：祖逖不能清中原而复济者，有如大江", para: 晋书-p04823}, {quote: "屯于江阴，起冶铸兵器", para: 晋书-p04823}]

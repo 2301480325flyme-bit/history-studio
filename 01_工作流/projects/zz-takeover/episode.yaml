@@ -1,0 +1,58 @@
+# 演示：复合动作 1 · 一城易手（takeover）
+id: zz-takeover
+title: 组件演示 · 一城易手
+series: History Studio 复合动作
+year: 195
+
+map:
+  center: [117.0, 34.0]
+  scale: 3500
+  extent: [82.0, 4.0, 145.0, 52.0]
+  basemap: dem
+  river_rank: 4
+  focus_zoom: 2.2
+  watermark: 东汉
+
+voice: {mode: placeholder}
+
+sources_local:
+  - {id: sgz-32, work: 三国志, volume: 卷三十二·先主传, url: 'https://zh.wikisource.org/wiki/三國志/卷32'}
+
+factions: {刘备: green, 吕布: violet}
+
+territory:
+  cells: han-140
+  jun_labels: true
+  polities:
+    汉室: {slot: tan, label_at: 洛阳, main: true}
+    刘备: {slot: jade, label_at: 下邳}
+    吕布: {slot: violet, label_at: 下邳}
+    袁术: {slot: orange, label_at: 寿春}
+
+places:
+  下邳: {id: xiapi, label: right}
+  小沛: {id: xiaopei, label: left}
+  彭城: {id: pengcheng, label: left}
+  寿春: {id: shouchun, label: below}
+  洛阳: {id: luoyang_han_wei, show: false}
+
+camera:
+  focus: [下邳, 寿春, 小沛]
+  zoom: fit
+
+beats:
+  - say: 兴平二年，刘备接掌徐州，大本营就在下邳。
+    year: 195
+    sources: [sgz-32]
+    owners: {汉室: [兖州, 豫州, 司隶, 冀州, 青州, 荆州], 刘备: [徐州], 袁术: [九江郡, 汝南郡]}
+    show:
+      - flag: {at: 下邳, name: 刘备, sub: 徐州牧, faction: 刘备, until: beat+2}
+
+  - say: 第二年，刘备南下和袁术对峙，吕布趁他不在，突然袭取了下邳。
+    year: 196
+    sources: [sgz-32]
+    show:
+      - takeover: {at: 下邳, from: 刘备, to: 吕布, cue: 袭取, sub: 袭取徐州, gain: [徐州], context: [寿春, 小沛]}
+
+  - say: 刘备的家眷都落到了吕布手里，徐州从此换了主人。
+    sources: [sgz-32]

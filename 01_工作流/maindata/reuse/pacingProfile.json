@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "note": "节奏骨架模板。把「一条视频的时长结构」模板化：给定总时长与事件数，直接产出分段时间轴。依据调研结论（0–3s 钩子、每 10s 一个记忆点、字幕适配静音）。",
+  "profiles": [
+    {
+      "id": "short-60",
+      "name": "抖音单条 · 60 秒",
+      "totalSec": 60,
+      "slots": [
+        {"role": "hook",      "sec": 3,  "content": "悬念/反常识/承诺", "camera": "dolly_in",  "mustHave": "大字标注态势或反常识结论"},
+        {"role": "context",   "sec": 7,  "content": "交代时间地点与阵营", "camera": "hold",     "mustHave": "年份徽标 + 地图全景"},
+        {"role": "beat",      "sec": 15, "content": "事件 1", "camera": "track",   "mustHave": "每 10s 一个记忆点"},
+        {"role": "beat",      "sec": 15, "content": "事件 2", "camera": "dolly_in"},
+        {"role": "beat",      "sec": 12, "content": "事件 3（高潮）", "camera": "shake", "mustHave": "最激烈的一击放这里"},
+        {"role": "coda",      "sec": 8,  "content": "收束 + 引导互动", "camera": "dolly_out", "mustHave": "留下一个问题"}
+      ]
+    },
+    {
+      "id": "mid-180",
+      "name": "三分钟 · 单事件深讲",
+      "totalSec": 180,
+      "slots": [
+        {"role": "hook",     "sec": 5,  "content": "先给结论或结局", "camera": "dolly_in"},
+        {"role": "context",  "sec": 15, "content": "全局态势", "camera": "hold", "mustHave": "图例 + 势力对比条"},
+        {"role": "chapter",  "sec": 35, "content": "章 1：起因", "camera": "track"},
+        {"role": "chapter",  "sec": 35, "content": "章 2：升级", "camera": "dolly_in"},
+        {"role": "chapter",  "sec": 35, "content": "章 3：转折", "camera": "shake"},
+        {"role": "chapter",  "sec": 30, "content": "章 4：结果", "camera": "hold"},
+        {"role": "hook",     "sec": 5,  "content": "下一集钩子", "camera": "fade"},
+        {"role": "coda",     "sec": 20, "content": "总结 + 升华", "camera": "dolly_out"}
+      ]
+    },
+    {
+      "id": "long-600",
+      "name": "十分钟 · 阶段合集",
+      "totalSec": 600,
+      "slots": [
+        {"role": "hook",    "sec": 8,   "content": "整段的最大悬念", "camera": "dolly_in"},
+        {"role": "context", "sec": 30,  "content": "年代总览 + 时间轴推进", "camera": "hold", "mustHave": "timeline_scrub"},
+        {"role": "chapter", "sec": 90,  "content": "阶段 1", "camera": "track", "mustHave": "章末小钩子"},
+        {"role": "chapter", "sec": 90,  "content": "阶段 2", "camera": "track", "mustHave": "章末小钩子"},
+        {"role": "chapter", "sec": 90,  "content": "阶段 3", "camera": "dolly_in"},
+        {"role": "chapter", "sec": 90,  "content": "阶段 4", "camera": "shake"},
+        {"role": "chapter", "sec": 90,  "content": "阶段 5", "camera": "hold"},
+        {"role": "coda",    "sec": 112, "content": "总结 + 时代意义 + 引导", "camera": "dolly_out"}
+      ]
+    }
+  ],
+  "rules": [
+    "0–3 秒内必须出现钩子（悬念 / 反常识 / 承诺）",
+    "每 10 秒至少一个记忆点",
+    "单个镜头 2–4 秒，不要超",
+    "字幕必须能独立看懂（适配静音观看）",
+    "最激烈的一击（shake）放在高潮段，不要提前用掉"
+  ]
+}

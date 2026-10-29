@@ -1,0 +1,97 @@
+# 《三国》合集 第1集：张角发动黄巾起义，东汉王朝从此走向崩溃
+# 旁白定稿见 01_工作流/series/三国到隋/第01集-黄巾起义.md。先只做配音（按章整段合成），声音确认后再落画面。
+
+id: s01e01-huangjin
+title: 黄巾起义
+series: 三国 · 第1集
+year: 184
+
+map:
+  center: [114.0, 33.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  river_rank: 4
+
+voice:
+  mode: mimo
+  provider: clone
+  reference: 03_素材/配音参考/studio-voice/studio-voice-d6.wav   # D6 纪录片男声（MiMo 音色设计，自有音色）
+  unit: chapter             # 每章整段合成：断句、语调交给模型，像讲故事一样
+  tag: "(讲述 平稳 连贯)"     # 风格标签（W2，用户选定 2026-10-08）
+  pause_cap: 0.3            # 只把过长的空白压到 0.3 秒，不动语调
+  tempo_target: 4.3         # 整章匀速调到约 4.3 字/秒，整段一起变，不逐句拉伸
+  gap: 0.5                  # 章与章之间的停顿
+  bed: original
+  bed_db: -26
+
+sources_local:
+  - {id: hhs-08, work: 后汉书, volume: 卷八·孝灵帝纪, url: 'https://zh.wikisource.org/wiki/後漢書/卷8'}
+  - {id: hhs-71, work: 后汉书, volume: 卷七十一·皇甫嵩朱儁列传, url: 'https://zh.wikisource.org/wiki/後漢書/卷71'}
+  - {id: hhs-64, work: 后汉书, volume: 卷六十四·卢植传, url: 'https://zh.wikisource.org/wiki/後漢書/卷64'}
+  - {id: hhs-75, work: 后汉书, volume: 卷七十五·刘焉传, url: 'https://zh.wikisource.org/wiki/後漢書/卷75'}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: left, tier: capital}
+
+camera:
+  focus: 洛阳
+  zoom: 0.62
+
+beats:
+  - say: 公元一百八十四年，一个画符治病的人，让四百年的大汉王朝走上了绝路。
+    phase: 天下将乱
+    sources: [hhs-71, hhs-08]
+  - say: 他叫张角，冀州巨鹿人，靠符水给人治病，十几年里聚起了几十万信徒。
+    sources: [hhs-71, hhs-08]
+  - say: 一个乡下的道士，为什么能一呼百应？答案在洛阳的皇宫里。
+    sources: [hhs-71, hhs-08]
+  - say: 当时的皇帝汉灵帝，在西园公开卖官，县令、太守都明码标价，连三公之位也能用钱买。
+    sources: [hhs-71, hhs-08]
+  - say: 朝廷里，宦官和外戚轮流掌权；朝廷外，土地兼并，灾荒连年，百姓流离失所。
+    sources: [hhs-71, hhs-08]
+  - say: 张角把信徒编成三十六方，大方一万多人，小方六七千人，每方设一个渠帅。
+    sources: [hhs-71, hhs-08]
+  - say: 他们喊出一句口号：苍天已死，黄天当立，岁在甲子，天下大吉。
+    phase: 苍天已死
+    sources: [hhs-71, hhs-08]
+  - say: 计划是这一年三月初五，各地同时起事，连宫里的宦官都有人做内应。
+    sources: [hhs-71, hhs-08]
+  - say: 没想到，弟子唐周临阵告密。洛阳的联络人马元义被车裂，一千多人受牵连被杀。
+    sources: [hhs-71, hhs-08]
+  - say: 张角只好提前起兵。一个月之内，七州二十八郡同时响应，人人头裹黄巾。
+    sources: [hhs-71, hhs-08]
+  - say: 张角自称天公将军，弟弟张宝、张梁称地公将军、人公将军。
+    sources: [hhs-71, hhs-08]
+  - say: 汉灵帝慌了：任命外戚何进为大将军，屯兵京城；又赶紧解除党锢，怕士人和黄巾联手。
+    sources: [hhs-71, hhs-08]
+  - say: 朝廷派出三员大将：卢植北上冀州打张角，皇甫嵩和朱儁南下颍川。
+    phase: 长社一把火
+    sources: [hhs-71, hhs-64]
+  - say: 颍川的黄巾渠帅波才，把皇甫嵩围在了长社城里。
+    sources: [hhs-71, hhs-64]
+  - say: 城里兵少，人心惶惶。皇甫嵩却发现，黄巾军靠着草地扎营，那天晚上又刮起了大风。
+    sources: [hhs-71, hhs-64]
+  - say: 他让士兵举着火把，趁夜出城放火，城上同时举火呼应。黄巾军大乱，被斩首几万人。
+    sources: [hhs-71, hhs-64]
+  - say: 南线打开了局面，北线却出了岔子：卢植围住张角，却因为不肯贿赂宦官，被诬陷下狱。
+    sources: [hhs-71, hhs-64]
+  - say: 皇甫嵩转战北上。这时张角已经病死，皇甫嵩在广宗大破张梁，又在下曲阳斩了张宝。
+    sources: [hhs-71, hhs-64]
+  - say: 张角被剖棺戮尸，首级送往洛阳。轰轰烈烈的黄巾起义，主力不到一年就被镇压。
+    sources: [hhs-71, hhs-64]
+  - say: 可是，黄巾余部此起彼伏：黑山、白波、青州、益州，到处有人造反。
+    phase: 州牧坐大
+    sources: [hhs-75, hhs-08]
+  - say: 公元一百八十八年，宗室刘焉向汉灵帝建议：把州刺史改成州牧，派重臣坐镇地方。
+    sources: [hhs-75, hhs-08]
+  - say: 州牧不光管官员，还能管钱粮、管军队。刘焉自己，挑了天高皇帝远的益州。
+    sources: [hhs-75, hhs-08]
+  - say: 朝廷平定了黄巾，却亲手造出了一个个手握兵权的地方诸侯。
+    sources: [hhs-75, hhs-08]
+  - say: 而在洛阳，汉灵帝的身体越来越差，太子却迟迟没有立下。
+    sources: [hhs-75, hhs-08]
+  - say: 外戚何进和宦官集团，都在等着他咽下最后一口气。
+    sources: [hhs-75, hhs-08]
+  - say: 公元一百八十九年四月，汉灵帝驾崩。一场决定东汉命运的宫廷血案，就要发生了。
+    sources: [hhs-75, hhs-08]

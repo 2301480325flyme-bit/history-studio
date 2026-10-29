@@ -1,0 +1,294 @@
+# 快节奏版（2026-10-14，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第18集：法正献策、定军山斩夏侯渊、曹操退兵、刘备称汉中王（217–219）
+# 本地语料核对：
+# 夏侯渊传"太祖常戒曰：为将当有怯弱时，不可但恃勇也。将当以勇为本，行之以智计；但知任勇，一匹夫敌耳"；"二十三年，刘备军阳平关，渊率诸将拒之。相守连年。二十四年正月，备夜烧围鹿角。渊使张郃护东围，自将轻兵护南围。备挑郃战，郃军不利。渊分所将兵半助郃，为备所袭，渊遂战死"；
+# 法正传"曹操一举而降张鲁，定汉中，不因此势以图巴、蜀，而留夏侯渊、张郃屯守，身遽北还，此非其智不逮而力不足也，必将内有忧逼故耳。今策渊、郃才略，不胜国之将帅…此盖天以与我，时不可失也"；
+# 先主传"二十四年春，自阳平南渡沔水，缘山稍前，于定军兴势作营。渊将兵来争其地。先主命黄忠乘高鼓噪攻之，大破渊军，斩渊…曹公自长安举众南征。先主遥策之曰：曹公虽来，无能为也，我必有汉川矣。及曹公至，先主敛众拒险，终不交锋，积月不拔，亡者日多。夏，曹公果引军还，先主遂有汉中"；"秋，群下上先主为汉中王…遂于沔阳设坛场…御王冠于先主"；
+# 黄忠传"忠推锋必进，劝率士卒，金鼓振天，欢声动谷，一战斩渊…先主为汉中王，欲用忠为后将军，诸葛亮说先主曰：忠之名望，素非关、马之伦也…关遥闻之，恐必不悦…先主曰：吾自当解之"；
+# 张郃传"渊遂没…三军皆失色。渊司马郭淮乃令众曰：张将军，国家名将，刘备所惮…遂推郃为军主"；
+# 武帝纪注引九州春秋"鸡肋"（注文，片中标"据说"）。
+# 不用：赵云汉水空营（云别传，注文且情节过细）；黄忠刀劈夏侯渊、法正举旗为号（演义）。
+
+id: s01e18-dingjunshan
+title: 定军山
+series: 三国 · 第18集
+year: 219
+
+notes:
+  - 主线问题：刘备凭什么从曹操手里夺下汉中？——法正看准曹操家里有事；抢占定军山的高处；曹操亲自来了就守着不打，拖到他自己走。
+  - 反差：曹操一再告诫夏侯渊"当将军要有怕的时候"，他偏偏死在逞勇上；曹操亲征，刘备却放话"他来了也没用"。
+  - 细节：夜烧鹿角；夏侯渊把一半兵分给张郃；黄忠从山上擂鼓冲下，喊声震动山谷；"鸡肋"（据说）；沔阳设坛称王。
+  - 动机：法正判断曹操"内有忧逼"——不是不想打巴蜀，是后方有事。
+  - 演义对照：黄忠刀劈夏侯渊、法正山头举旗为号都是小说；史书只写黄忠"乘高鼓噪"，一战斩渊。
+
+map:
+  center: [107.0, 33.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-17 史图风
+  river_rank: 4
+  palette: warm          # 2026-10-25 第18集起统一新样式（第27集试样通过）
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 曹操一再提醒他要怕，他没听，死在了定军山
+  big: [定军山]
+  hero: 黄忠
+  at: 30
+  summary: |
+    曹操拿下汉中，留夏侯渊、张郃把守，自己匆匆北还。法正说：这是老天送的机会。刘备北上和夏侯渊对峙一年多，南渡沔水，抢占定军山。黄忠从山上擂鼓冲下，一战斩了夏侯渊——曹操早就告诫过他"为将当有怯弱时"。
+    曹操亲率大军南下，刘备放话"曹公虽来，无能为也"，守住险要就是不打。几个月后曹军逃兵越来越多，曹操撤军。这年秋天，刘备在沔阳称汉中王。
+  tags: [定军山, 黄忠, 夏侯渊, 法正, 汉中王]
+  next: 关羽水淹七军
+
+sources_local:
+  - {id: sgz-01, work: 三国志, volume: 卷一·武帝纪（注引九州春秋）, url: 'https://zh.wikisource.org/wiki/三國志/卷01'}
+  - {id: sgz-09, work: 三国志, volume: 卷九·夏侯渊传, url: 'https://zh.wikisource.org/wiki/三國志/卷09'}
+  - {id: sgz-17, work: 三国志, volume: 卷十七·张郃传, url: 'https://zh.wikisource.org/wiki/三國志/卷17'}
+  - {id: sgz-32, work: 三国志, volume: 卷三十二·先主传, url: 'https://zh.wikisource.org/wiki/三國志/卷32'}
+  - {id: sgz-36, work: 三国志, volume: 卷三十六·黄忠传, url: 'https://zh.wikisource.org/wiki/三國志/卷36'}
+  - {id: sgz-37, work: 三国志, volume: 卷三十七·法正传, url: 'https://zh.wikisource.org/wiki/三國志/卷37'}
+
+factions: {曹操: '#2f5d3a', 刘备: '#5f8f3a', 孙权: '#b0841f'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    汉室: {slot: stone, main: true, label_at: 洛阳}
+    关中诸将: {slot: lavender}
+    曹操: {slot: jade, label_at: 长安}
+    孙权: {slot: lemon}
+    刘备: {slot: pink, label_at: 成都}
+
+people:
+  杨修: {image: 03_素材/人物立绘/yang_xiu.png, title: 主簿, role: 鸡肋（据说）, faction: 曹操}
+  郭淮: {image: 03_素材/人物立绘/guo_huai.png, title: 夏侯渊司马, role: 推张郃为主, faction: 曹操}
+  夏侯渊: {image: 03_素材/人物立绘/xiahou_yuan.png, title: 征西将军, role: 守汉中, faction: 曹操}
+  曹操: {image: 03_素材/人物立绘/cao_cao.png, title: 魏王, role: 亲征汉中, faction: 曹操}
+  法正: {image: 03_素材/人物立绘/fa_zheng.png, title: 扬武将军, role: 献取汉中策, faction: 刘备}
+  刘备: {image: 03_素材/人物立绘/liu_bei.png, title: 左将军, role: 争汉中, faction: 刘备}
+  黄忠: {image: 03_素材/人物立绘/huang_zhong.png, title: 讨虏将军, role: 定军山斩渊, faction: 刘备}
+  张郃: {image: 03_素材/人物立绘/zhang_he.png, title: 荡寇将军, role: 护东围, faction: 曹操}
+  诸葛亮: {image: 03_素材/人物立绘/zhuge_liang.png, title: 军师将军, role: 镇成都, faction: 刘备}
+  关羽: {image: 03_素材/人物立绘/guan_yu.png, title: 前将军, role: 镇荆州, faction: 刘备}
+
+places:
+  成都: {id: chengdu_city, label: left}
+  南郑: {id: nanzheng, label: right}
+  阳平关: {id: yangpingguan, label: left, tier: pass}
+  定军山: {id: dingjunshan, label: below}
+  沔阳: {id: mianyang_han, label: right}
+  斜谷: {id: xiegu, label: right}
+  长安: {id: changan_han_city, label: right}
+  邺: {id: ye_city, label: right}
+  江陵: {id: jiangling, label: left}
+  樊城: {id: fancheng, label: right}
+
+camera:
+  focus: [南郑, 阳平关]
+  zoom: 2.0
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 曹操一直提醒一员大将：当将军，得有害怕的时候。光知道逞勇，不过是个匹夫。
+    map: '215-08'
+    year: 219
+    phase: 怯弱
+    sources: [sgz-09]
+    camera: {focus: [长安, 南郑], zoom: fit, move: 1.6}
+    show:
+      - sfx: 重拍转场
+      - quote: {text: 为将当有怯弱时，不可但恃勇也, source: 三国志·夏侯渊传, cue: 害怕, for: 4.4}
+
+  - say: 这员大将叫夏侯渊。他没听进去，死在了定军山。
+    sources: [sgz-09]
+    show:
+      - enter: {who: 夏侯渊, at: 南郑, side: right, cue: 夏侯渊, for: 4}
+
+  # ---------------- 第一章 天以与我 ----------------
+  - say: 四年前，曹操拿下汉中，留夏侯渊、张郃把守，自己急匆匆回了北方。
+    audit_ok: [易手]
+    phase: 天以与我
+    year: 215
+    sources: [sgz-37]
+    camera: {focus: [南郑, 长安, 邺], zoom: fit, move: 1.6}
+    tells: [e11]
+    show:
+      - title_bar: {text: 定军山, sub: 三国 · 第18集, for: 3.2}
+      - sfx: 片头鼓
+      - flag: {at: 南郑, name: 夏侯渊 · 张郃, sub: 屯守汉中, faction: 曹操, cue: 把守}
+      - arrow: {from: 南郑, to: 邺, kind: direction, faction: 曹操, cue: 回了北方, grow: 1.6}
+
+  - say: 两年后，法正对刘备说：
+    year: 217
+    scene: 军帐
+    sources: [sgz-37]
+    show:
+      - enter: {who: 法正, side: left, cue: 法正, for: 2.4}
+
+  - say: 曹操不趁势打巴蜀，自己急着北还，不是他不想，是家里有麻烦。
+    speaker: 法正
+    style: 冷静锐利，胸有成竹，压低声音
+    scene: 军帐
+    to: 刘备
+    sources: [sgz-37]
+
+  - say: 夏侯渊、张郃，比不上咱们的将领。这是老天送给我们的机会！
+    speaker: 法正
+    style: 越说越笃定，语气上扬，催促决断
+    scene: 军帐
+    to: 刘备
+    sources: [sgz-37]
+
+  - say: 刘备亲率大军北上，在阳平关和夏侯渊对峙，一耗就是一年多。
+    year: 218
+    sources: [sgz-09, sgz-32]
+    camera: {focus: [成都, 阳平关, 南郑], zoom: fit, move: 1.6}
+    tells: [e20, e21, e22]
+    show:
+      - army: {from: 成都, to: 阳平关, faction: 刘备, banner: 刘, head: 刘备, troops: infantry, size: 2.8, cue: 北上, grow: 2.2}
+      - sfx: {name: 低音转场, delay: -0.3}
+      - flag: {at: 阳平关, name: 夏侯渊 · 张郃, sub: 拒守阳平, faction: 曹操, cue: 夏侯渊}   # 2026-10-25 战事账：渊、郃并拒刘备于阳平
+
+  # ---------------- 第二章 定军山 ----------------
+  - say: 二一九年正月，刘备南渡沔水，沿着山往前推，在定军山抢占了高处。
+    phase: 定军山
+    year: 219
+    sources: [sgz-32]
+    camera: {focus: [阳平关, 定军山, 沔阳], zoom: 14, move: 1.4}
+    map: '219-01'
+    owners_cue: 定军山
+    tells: [e23, e24]
+    show:
+      # 刘备 moves his camp from 阳平关 onto 定军山 (先主传：于定军山势作营); the camp label is the unit (第12批 接入)
+      - army: {from: 阳平关, to: 定军山, faction: 刘备, banner: 刘, head: 刘备, troops: infantry, size: 2.4, cue: 南渡, grow: 2.0}
+
+  - say: 夜里，他放火烧了魏军营外的鹿角。夏侯渊让张郃守东边，自己带轻兵守南边。
+    sources: [sgz-09]
+    show:
+      - fire: {at: 定军山, cue: 放火, radius: 0.6, for: 4}
+      - sfx: {name: 点火, cue: 放火}
+
+  - say: 刘备先猛攻张郃。张郃顶不住，夏侯渊把自己一半人马分去救他。
+    sources: [sgz-09]
+    tells: [e26]
+    show:
+      - enter: {who: 张郃, side: right, cue: 张郃, for: 3}
+      - battle: {at: 定军山, text: 先攻郃东围, cue: 猛攻}
+
+  - say: 就在这时，黄忠从山上冲了下来，擂鼓呐喊，喊声震动了山谷。
+    sources: [sgz-36, sgz-32]
+    tells: [e27]
+    show:
+      - enter: {who: 黄忠, side: left, cue: 黄忠, for: 3.6}
+      - sfx: {name: 古风擂鼓, cue: 擂鼓}
+      - quote: {text: 金鼓振天，欢声动谷, source: 三国志·黄忠传, era: 建安二十四年, cue: 喊声, for: 4}
+      - battle: {at: 定军山, text: 乘高鼓噪, cue: 冲了下来}
+
+  - say: 一战，斩了夏侯渊。
+    sources: [sgz-36]
+    camera: {focus: 定军山, zoom: 18, move: 1.0}
+    show:
+      - exit: {who: 夏侯渊, at: 定军山, verb: 斩, portrait: true, cue: 斩了}
+      - sfx: {name: 碎玻璃, cue: 斩了}
+
+  - say: 魏军丢了主帅，个个吓得变了脸色。部将郭淮推张郃当主将，才勉强稳住。
+    sources: [sgz-17]
+    show:
+      - enter: {who: 郭淮, side: right, cue: 郭淮, for: 3.4}
+
+  # ---------------- 第三章 鸡肋 ----------------
+  - say: 曹操亲率大军，从长安出斜谷南下。刘备隔着秦岭放话：
+    phase: 鸡肋
+    sources: [sgz-32]
+    camera: {focus: [长安, 斜谷, 南郑], zoom: fit, move: 1.6}
+    tells: [e29]
+    show:
+      - army: {from: 长安, via: [斜谷], to: 阳平关, faction: 曹操, banner: 曹, head: 曹操, troops: infantry, size: 3.2, cue: 南下, grow: 3.2}   # 2026-10-25 两段接力改一条：箭头按距离定速后，接力的 delay 对不上
+
+  - say: 曹操来了也没用，汉中，我拿定了！
+    speaker: 刘备
+    style: 沉稳自信，难得的豪气，一字一顿
+    sources: [sgz-32]
+
+  - say: 曹操到了，刘备守住险要，就是不跟他打。
+    sources: [sgz-32]
+    camera: {focus: [南郑, 定军山, 阳平关], zoom: 10, move: 1.2}
+    tells: [e30]
+
+  - say: 一耗好几个月，攻不下来，曹军的逃兵，一天比一天多。
+    sources: [sgz-32]
+
+  - say: 据说这时曹操下了一道口令：鸡肋。主簿杨修听了，就开始收拾行装。
+    sources: [sgz-01]
+    show:
+      - card: {title: 据说 · 鸡肋, body: 弃之如可惜，食之无所得——出自武帝纪注引《九州春秋》, cue: 鸡肋}
+      - enter: {who: 杨修, side: right, cue: 杨修, for: 3.6}
+
+  - say: 夏天，曹操撤军。汉中，归了刘备。
+    map: '219-05'
+    owners_cue: 归了
+    sources: [sgz-32]
+    camera: {focus: [南郑, 长安, 成都], zoom: fit, move: 1.4}
+    tells: [e33]
+    show:
+      - rout: {at: 阳平关, via: [斜谷], to: 长安, faction: 曹操, banner: 曹, head: 曹操, cue: 撤军, size: 2.4}
+      - sfx: {name: 疆域易手, cue: 归了}
+
+  # ---------------- 第四章 汉中王 ----------------
+  - say: 这一年秋天，刘备在沔阳设坛，戴上王冠，称汉中王。
+    phase: 汉中王
+    sources: [sgz-32]
+    camera: {focus: [沔阳, 南郑], zoom: 10, move: 1.2}
+    tells: [e34]
+    show:
+      - army: {from: 定军山, to: 沔阳, faction: 刘备, banner: 刘, head: 刘备, troops: infantry, size: 2.0, cue: 设坛, grow: 1.6}
+      - headline: {text: 汉中王, sub: 建安二十四年, cue: 汉中王, for: 3.4}
+      - sfx: {name: 铜锣, cue: 王冠}
+
+  - say: 从涿郡起兵算起，整整三十五年。
+    sources: [sgz-32]
+
+  - say: 刘备要封黄忠做后将军，和关羽、张飞、马超平起平坐。诸葛亮担心：关羽在荆州听说了，恐怕不高兴。
+    sources: [sgz-36]
+    show:
+      - versus: {left: 黄忠, right: 关羽, label: 同列, cue: 关羽, for: 4}
+
+  - say: 刘备说：我自己去跟他解释。
+    sources: [sgz-36]
+
+  - say: 刘备凭什么夺下汉中？看准曹操后方有事；抢下定军山的高处；曹操来了就守着不打，拖到他自己走。
+    audit_ok: [易手]
+    sources: [sgz-37, sgz-32]
+    camera: {focus: [南郑, 长安, 成都], zoom: fit, move: 1.4}
+    show:
+      - card: {title: 演义 vs 正史, body: 黄忠刀劈夏侯渊、法正山头举旗为号是小说；史书只写黄忠乘高鼓噪，一战斩渊, cue: 定军山}
+
+  - say: 定军山这一仗，头功你给黄忠，还是给法正？
+    sources: [sgz-36]
+
+  - say: 就在刘备称王的时候，荆州的关羽，已经带兵北上，围住了樊城。
+    sources: [sgz-32]
+    camera: {focus: [江陵, 樊城, 南郑], zoom: fit, move: 1.6}
+    tells: [e35]
+    show:
+      - march: {from: 江陵, to: 樊城, faction: 刘备, label: 关羽北伐, cue: 樊城, grow: 1.8}
+      - title_bar: {text: 下集, sub: 水淹七军, cue: 樊城, delay: 0.4, for: 3.0}

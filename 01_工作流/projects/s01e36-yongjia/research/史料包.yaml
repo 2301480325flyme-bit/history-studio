@@ -1,0 +1,746 @@
+episode: s01e36-yongjia
+scope: 308–311；接续上一包308年刘渊称帝，主体覆盖刘渊死、司马越出项、宁平城战、洛阳陷落。
+source_note: 本地 sources 检索到《晋书》怀帝纪、载记及相关列传；指定的《资治通鉴》卷85–90未检出可用段落。引用均为本地段落 ID；未核内容已明确列入 open_questions。年龄按公元年份相减，生日未知则不冒称周岁。
+sections:
+  events:
+  - id: e01
+    date: 308-10（永嘉二年）
+    people:
+    - 刘渊（刘元海）
+    place: 平阳
+    event: 刘元海称帝，国号仍称汉，迁都平阳。
+    source_coverage: 怀帝纪与刘元海载记互见；《资治通鉴》本地未检出可用段落。
+    evidence:
+    - quote: 冬十月甲戌，刘元海僭帝号于平阳，仍称汉。
+      para: 晋书-p00110
+    - quote: 永嘉二年，元海僭即皇帝位，大赦境内，改元永凤。
+      para: 晋书-p07037
+  - id: e02
+    date: 308-02/04
+    people:
+    - 王弥
+    - 石勒
+    - 和郁
+    place: 常山、赵郡、鄴、卫国
+    event: 石勒寇常山被王浚击退；同年秋石勒转寇赵郡，和郁弃鄴奔卫国。王弥春寇青徐兖豫，四月入许昌，五月攻洛阳后退走。
+    source_coverage: 怀帝纪；细节部分本传需复核，通鉴本地未检出。
+    evidence:
+    - &id006
+      quote: 庚子，石勒寇常山，安北将军王浚讨破之。
+      para: 晋书-p00110
+    - &id007
+      quote: 王弥寇青、徐、兗、豫四州。夏四月丁亥，入许昌，诸郡守将皆奔走。五月甲子，弥遂寇洛阳，司徒王衍帅众御之，弥退走。
+      para: 晋书-p00110
+    - quote: 九月，石勒寇赵郡，征北将军和郁自鄴奔于卫国。
+      para: 晋书-p00110
+  - id: e03
+    date: 309-07（永嘉三年）
+    people:
+    - 刘聪
+    - 王弥
+    - 刘琨
+    - 庞淳
+    place: 上党、壶关
+    event: 刘聪遣子刘粲及王弥围壶关，刘琨救兵败；王旷、施融、曹超再败，施融、曹超战死；庞淳以郡降汉。
+    source_coverage: 怀帝纪，细节主要一处。
+    evidence:
+    - &id002
+      quote: 刘元海遣子聪及王弥寇上党，围壶关。并州刺史刘琨使兵救之，为聪所败。淮南内史王旷、将军施融、曹超及聪战，又败，超、融死之。上党太守庞淳以郡降贼。
+      para: 晋书-p00111
+  - id: e04
+    date: 309-09
+    people:
+    - 刘聪
+    - 司马越
+    - 王衍
+    place: 浚仪、洛阳宣阳门
+    event: 刘聪围浚仪，晋军败；继而进抵洛阳西明门，在宣阳门外与司马越战败退。
+    source_coverage: 怀帝纪一处。
+    evidence:
+    - &id003
+      quote: 九月丙寅，刘聪围浚仪，遣平北将军曹武讨之。丁丑，王师败绩。东海王越人保京城。聪至西明门，越御之，战于宣阳门外，大破之。
+      para: 晋书-p00111
+  - id: e05
+    date: 310-06（永嘉四年）
+    people:
+    - 刘渊
+    - 刘和
+    - 刘聪
+    place: 平阳
+    event: 刘渊死，刘和继位；刘聪杀兄刘和，自立。
+    source_coverage: 怀帝纪一处可证刘渊死、刘和继位、刘聪杀和自立；刘元海载记本次未找到可用逐句段落，故不列第二出处。
+    evidence:
+    - &id001
+      quote: 六月，刘元海死，其子和嗣伪位，和弟聪杀和而自立。
+      para: 晋书-p00112
+  - id: e06
+    date: 310-07
+    people:
+    - 刘曜
+    - 石勒
+    - 宋抽
+    place: 怀县
+    event: 刘曜、石勒围怀，宋抽率救兵被刘曜击败并死。
+    source_coverage: 怀帝纪一处；围城起讫和地望需审慎。
+    evidence:
+    - &id004
+      quote: 秋七月，刘聪从弟曜及其将石勒围怀，诏征虏将军宋抽救之，为曜所败，抽死之。
+      para: 晋书-p00112
+  - id: e07
+    date: 310-冬
+    people:
+    - 石勒
+    - 刘琨
+    - 张宾
+    place: 河北诸郡
+    event: 石勒攻陷冀州百余壁，主要活动区域在河北；具体逐站路径、关隘渡口，本地纪传段落未能逐点核实。
+    source_coverage: 怀帝纪及石勒载记待补检；不可把“百余壁”改写为百余郡县。
+    evidence:
+    - &id011
+      quote: 石勒攻陷冀州郡县百余壁。
+      para: 晋书-p00111
+  - id: e08
+    date: 311-01（永嘉五年）
+    people:
+    - 司马越
+    - 苟晞
+    - 石勒
+    place: 许昌、项城
+    event: 司马越率众出许昌，携行台离洛；军次项城，洛阳留守力量削弱。
+    source_coverage: 怀帝纪与越传应互证；本地《资治通鉴》未检出。
+    evidence:
+    - &id009
+      quote: 东海王越帅众出许昌，以行台自随。宫省无复守卫
+      para: 晋书-p00112
+  - id: e09
+    date: 311-03
+    people:
+    - 司马越
+    - 石勒
+    - 钱端
+    - 王衍
+    place: 项、苦县宁平城
+    event: 司马越忧惧成疾死于项；军中秘不发丧，石勒在苦县宁平城追及越丧。钱端出战死，晋军溃败，王公士庶死者十余万（《晋书》不同处亦有“数十万众”等说法，数目不可当精确统计）。
+    source_coverage: 越传、怀帝纪、天文志互见；死亡地点分别写“薨于项”与“死于宁平城”可能指病死、追及战场两阶段，勿合成一处。
+    evidence:
+    - &id010
+      quote: 永嘉五年，薨于项。秘不发丧。
+      para: 晋书-p04648
+    - &id012
+      quote: 石勒追及于苦县宁平城，将军钱端出兵距勒，战死，军溃。
+      para: 晋书-p04648
+    - quote: 四月戊子，石勒追东海王越丧，及于东郡，将军钱端战死，军溃，太尉王衍、吏部尚书刘望、廷尉诸葛铨、尚书郑豫、武陵王澹等皆遇害，王公已下死者十余万人。
+      para: 晋书-p00113
+    - quote: 五年三月，司马越死于宁平城，石勒攻破其众，死者十余万人。
+      para: 晋书-p00735
+  - id: e10
+    date: 311-06癸未
+    people:
+    - 刘聪
+    - 刘曜
+    - 王弥
+    - 石勒
+    - 呼延晏
+    - 怀帝
+    place: 宜阳、洛川、张方故垒、洛阳
+    event: 刘聪命呼延晏率二万七千前锋由宜阳入洛川，王弥、刘曜及石勒奉命进师会合。呼延晏途中与晋军屡战，留辎重于张方故垒后攻洛阳，陷平昌门、焚东阳宣阳诸门及府寺；刘默守社门败。
+    source_coverage: 刘聪载记、怀帝纪互见；“三路”中的王弥、刘曜、石勒各自出发点和会师前逐站路线未详。
+    evidence:
+    - &id005
+      quote: 署其卫尉呼延晏为使持节、前锋大都督、前军大将军。配禁兵二万七千，自宜阳入洛川，命王弥、刘曜及镇军石勒进师会之。晏比及河南，王师前后十二败，死者三万余人。
+      para: 晋书-p07046
+    - &id008
+      quote: 留辎重于张方故垒，遂寇洛阳，攻陷平昌门，焚东阳、宣阳诸门及诸府寺。怀帝遣河南尹刘默距之，王师败于社门。
+      para: 晋书-p07046
+  - id: e11
+    date: 311-06庚寅/丁酉
+    people:
+    - 刘曜
+    - 王弥
+    - 石勒
+    - 荀籓
+    - 荀组
+    - 温几
+    - 怀帝
+    place: 洛阳、轘辕、小平津、河阴藕池
+    event: 荀籓、荀组出轘辕，温几夜开广莫门奔小平津；晋帝企图水遁，舟楫被焚。六月丁酉刘曜、王弥入京师；怀帝出华林园至河阴藕池欲赴长安，被追获；宫庙焚毁，帝被俘。
+    source_coverage: 怀帝纪、刘聪载记互见；怀帝纪此处只列刘曜王弥入京，不宜据此断言石勒亲入城。
+    evidence:
+    - &id013
+      quote: 司空荀籓、光禄大夫荀组奔轘辕，太子左率温几夜开广莫门奔小平津。丁酉、刘曜、王弥入京师。帝开华林园门，出河阴藕池，欲幸长安，为曜等所追及。曜等遂焚烧宫庙。
+      para: 晋书-p00113
+    - &id014
+      quote: 王弥、刘曜至，复与晏会围洛阳。时城内饥甚，人皆相食，百官分散。
+      para: 晋书-p07046
+  people:
+  - name: 刘渊（刘元海）
+    birth_death: ?—310
+    age_in_episode: 年龄未核；生年不详
+    office: 汉帝；308称帝
+    portrait: 有 liu_yuan.png
+    evidence:
+    - *id001
+  - name: 刘和
+    birth_death: ?—310
+    age_in_episode: 未核
+    office: 刘渊子、继位者
+    portrait: 无（未找到与此人可确认对应的图）
+    evidence:
+    - *id001
+  - name: 刘聪
+    birth_death: ?—318
+    age_in_episode: 未核
+    office: 汉赵君主、刘渊子
+    portrait: 有 liu_cong.png
+    evidence:
+    - *id002
+    - *id003
+  - name: 刘曜
+    birth_death: ?—329
+    age_in_episode: 未核
+    office: 汉赵宗室将领；311攻洛
+    portrait: 无（未找到与此人可确认对应的图）
+    evidence:
+    - *id004
+    - *id005
+  - name: 石勒
+    birth_death: 274—333（生年本集语料未核）
+    age_in_episode: 约37岁（按生年274推，非周岁）
+    office: 镇军将军，率军攻洛、击破越军
+    portrait: 无（未找到与此人可确认对应的图）
+    evidence:
+    - *id006
+    - *id007
+  - name: 王弥
+    birth_death: ?—311?
+    age_in_episode: 未核；卒年需核
+    office: 汉军将领，参与洛阳战事
+    portrait: 无（未找到与此人可确认对应的图）
+    evidence:
+    - *id006
+    - *id007
+  - name: 呼延晏
+    birth_death: ?—?
+    age_in_episode: 未核
+    office: 前锋大都督、前军大将军
+    portrait: 无（未找到与此人可确认对应的图）
+    evidence:
+    - *id005
+    - *id008
+  - name: 司马越
+    birth_death: ?—311
+    age_in_episode: 未核
+    office: 东海王、太傅、太尉；统军出许昌
+    portrait: 有 sima_yue.png
+    evidence:
+    - *id003
+    - *id009
+  - name: 王衍
+    birth_death: 256?—311（生年未核）
+    age_in_episode: 约55岁仅在生年256成立时；暂未核
+    office: 太尉、司马越军司；随军遇害
+    portrait: 无（未找到与此人可确认对应的图）
+    evidence:
+    - *id003
+    - *id010
+  - name: 刘琨
+    birth_death: 271—318?
+    age_in_episode: 约40岁（周岁不定）
+    office: 并州刺史、晋方救援将领
+    portrait: 无（未找到与此人可确认对应的图）
+    evidence:
+    - *id002
+    - *id011
+  - name: 苟晞
+    birth_death: ?—311后
+    age_in_episode: 未核
+    office: 征东大将军；讨越、统晋军之一
+    portrait: 无（未找到与此人可确认对应的图）
+    evidence:
+    - *id009
+  - name: 钱端
+    birth_death: ?—311
+    age_in_episode: 未核
+    office: 越军将领，宁平城出战
+    portrait: 无（未找到与此人可确认对应的图）
+    evidence:
+    - *id010
+    - *id012
+  - name: 刘默
+    birth_death: ?—311
+    age_in_episode: 未核
+    office: 河南尹，守社门
+    portrait: 无（未找到与此人可确认对应的图）
+    evidence: []
+  - name: 荀籓
+    birth_death: ?—?
+    age_in_episode: 未核
+    office: 司空；出轘辕
+    portrait: 无（未找到与此人可确认对应的图）
+    evidence:
+    - *id013
+    - *id014
+  - name: 荀组
+    birth_death: ?—?
+    age_in_episode: 未核
+    office: 光禄大夫；出轘辕
+    portrait: 无（未找到与此人可确认对应的图）
+    evidence:
+    - *id013
+    - *id014
+  - name: 温几
+    birth_death: ?—?
+    age_in_episode: 未核
+    office: 太子左率；奔小平津
+    portrait: 无（未找到与此人可确认对应的图）
+    evidence:
+    - *id013
+    - *id014
+  - name: 刘粲
+    birth_death: ?—318
+    age_in_episode: 未核
+    office: 刘聪子；参与早期攻伐
+    portrait: 无（未找到与此人可确认对应的图）
+    evidence: []
+  - name: 和郁
+    birth_death: ?—311
+    age_in_episode: 未核
+    office: 征北将军；弃鄴奔卫国
+    portrait: 无（未找到与此人可确认对应的图）
+    evidence:
+    - *id006
+    - *id007
+  - name: 宋抽
+    birth_death: ?—310
+    age_in_episode: 未核
+    office: 征虏将军；救怀战死
+    portrait: 无（未找到与此人可确认对应的图）
+    evidence:
+    - *id004
+  - name: 庞淳
+    birth_death: ?—?
+    age_in_episode: 未核
+    office: 上党太守，降汉赵
+    portrait: 无（未找到与此人可确认对应的图）
+    evidence:
+    - *id002
+  - name: 王浚
+    birth_death: ?—314
+    age_in_episode: 生年未核；本集事件时年龄无法计算
+    office: 安北将军、幽州军政长官；308年击退石勒
+    portrait: 有 wang_jun_you.png（人物相貌档案中 id=wang_jun_you）
+    evidence:
+    - quote: 石勒寇常山，安北将军王浚讨破之。
+      para: 晋书-p00110
+  - name: 张方
+    birth_death: ?—306（生年未核；死亡年份需以本地上一集包为准）
+    age_in_episode: 本集已故，不适用
+    office: 晋将；张方故垒为呼延晏军所用
+    portrait: 有 zhang_fang.png（人物相貌档案中有档）
+    evidence:
+    - quote: 留辎重于张方故垒
+      para: 晋书-p07046
+  places:
+  - name: 平阳
+    ancient: 平阳（县/都城）
+    modern: 山西临汾尧都区一带；县治精确点需核
+    gazetteer: studio places --year 310：未能确认命中（检索输出为空）
+    level: 县城/都城，非郡级事件点
+  - name: 常山
+    ancient: 常山郡
+    modern: 河北中部，治所随时代变化，战场点不能等同郡治
+    gazetteer: 本次未核
+    level: 郡级区域
+  - name: 赵郡
+    ancient: 赵郡
+    modern: 河北中南部；战场精确位置未核
+    gazetteer: 本次未核
+    level: 郡级区域
+  - name: 鄴
+    ancient: 鄴城
+    modern: 河北临漳邺城遗址
+    gazetteer: 上一包载有 ye_city；本集未重查
+    level: 城址
+  - name: 卫国
+    ancient: 卫国（晋县名/地域）
+    modern: 未比定；“奔卫国”不是今河南卫辉的直接同义
+    gazetteer: 未命中/未核
+    level: 区域点，位置待考
+  - name: 许昌
+    ancient: 许昌
+    modern: 河南许昌一带
+    gazetteer: 本次未核
+    level: 县城
+  - name: 汲郡、顿丘、河内
+    ancient: 郡县名
+    modern: 河南北部、豫北—冀南一带；逐站位置待考
+    gazetteer: 本次未核
+    level: 郡/县级
+  - name: 上党、壶关
+    ancient: 上党郡、壶关县
+    modern: 山西东南部长治盆地及壶关一带
+    gazetteer: 本次未核
+    level: 郡/县级
+  - name: 浚仪
+    ancient: 浚仪县
+    modern: 今河南开封一带
+    gazetteer: 本次未核
+    level: 县级
+  - name: 项
+    ancient: 项县/项城（需区别城邑范围）
+    modern: 河南沈丘、项城一带；具体汉晋治址待核
+    gazetteer: places命令未得稳定结果
+    level: 县级驻军点
+  - name: 苦县宁平城
+    ancient: 苦县属地宁平城
+    modern: 今河南鹿邑附近仅作区域定位，宁平城址未确证
+    gazetteer: studio places 查询无可确认命中
+    level: 城址/战场点，不能直接用县中心替代
+  - name: 宜阳、洛川
+    ancient: 宜阳及洛川（河谷区域）
+    modern: 河南洛阳西南宜阳；洛川具体指涉未核
+    gazetteer: 宜阳本次未核；洛川非必然单一城点
+    level: 起点县及路线区域
+  - name: 张方故垒
+    ancient: 张方故垒
+    modern: 洛阳周边营垒，遗址未比定
+    gazetteer: 未核
+    level: 营垒点
+  - name: 洛阳城门、华林园、河阴藕池
+    ancient: 洛阳城内与城北河阴水域
+    modern: 河南洛阳汉魏故城；具体门址/藕池需考古或地志核定
+    gazetteer: 洛阳底图有登记；细部未核
+    level: 都城、宫苑、渡水点
+  - name: 轘辕、小平津
+    ancient: 轘辕关、小平津渡口
+    modern: 河南登封附近山口；小平津在黄河渡口区域，具体定位未核
+    gazetteer: 未核
+    level: 关隘/渡口，须区分城点
+  演义野史与史家争议:
+  - issue: 传统演义叙述
+    note: 《三国演义》不覆盖西晋末年，本地未检到可逐条对照的演义文本；不要将王衍临阵“清谈误国”、石勒与王衍对话、王弥劝进等戏剧化细节当作本集事实。
+    evidence:
+    - quote: 太尉王衍、吏部尚书刘望、廷尉诸葛铨、尚书郑豫、武陵王澹等皆遇害
+      para: 晋书-p00113
+  - issue: 刘渊国号与后世称呼
+    note: 本纪明确“仍称汉”；后世史学常称汉赵以区别刘备蜀汉。写稿可称汉（汉赵），不是当时改国号为赵。
+    evidence:
+    - quote: 刘元海僭帝号于平阳，仍称汉。
+      para: 晋书-p00110
+  - issue: 司马越死亡地点
+    note: 越传称“薨于项”，天文志及后续追丧叙事称宁平城；宜拆分疾病死亡和石勒追及军队的地点。
+    evidence:
+    - quote: 永嘉五年，薨于项。秘不发丧。
+      para: 晋书-p04648
+    - quote: 石勒追及于苦县宁平城
+      para: 晋书-p04648
+  - issue: 宁平城死者数
+    note: 不同段落称“王公士庶死者十余万”“数十万众”；属于史书记数，不宜作为现代精确统计。
+    evidence:
+    - quote: 王公士庶死者十余万。
+      para: 晋书-p04648
+    - quote: 王公已下死者十余万人。
+      para: 晋书-p00113
+  - issue: 洛阳三路攻势
+    note: 载记给出呼延晏主攻路线，并称刘曜、王弥、石勒进师会之；不能据此画出三条细节完整、各自独立的路线。
+    evidence:
+    - quote: 自宜阳入洛川，命王弥、刘曜及镇军石勒进师会之。
+      para: 晋书-p07046
+  - issue: “十余万精兵”措辞
+    note: 司马越带走“众”及行台可证，离开后“宫省无复守卫”可证；“洛阳精兵十余万”不宜拼接成原史料明确数字。
+    evidence:
+    - quote: 东海王越帅众出许昌，以行台自随。宫省无复守卫
+      para: 晋书-p00112
+  pronunciations:
+  - word: 刘渊（刘元海）
+    pinyin: yuān
+    risk: 人名多音风险
+    evidence:
+    - quote: 刘元海僭帝号于平阳
+      para: 晋书-p00110
+  - word: 刘曜
+    pinyin: yào
+    risk: 人名
+    evidence:
+    - quote: 刘曜、王弥入京师
+      para: 晋书-p00113
+  - word: 王弥
+    pinyin: mí
+    risk: 人名
+    evidence:
+    - quote: 王弥寇青、徐、兗、豫四州
+      para: 晋书-p00110
+  - word: 呼延晏
+    pinyin: yàn
+    risk: 人名；晏勿误读
+    evidence:
+    - quote: 署其卫尉呼延晏为使持节
+      para: 晋书-p07046
+  - word: 宁平
+    pinyin: níng píng
+    risk: 古地名；城址未定
+    evidence:
+    - quote: 苦县宁平城
+      para: 晋书-p04648
+  - word: 轘辕
+    pinyin: huán yuán
+    risk: 关隘生僻字
+    evidence:
+    - quote: 司空荀籓、光禄大夫荀组奔轘辕
+      para: 晋书-p00113
+  - word: 荀籓
+    pinyin: xún fān
+    risk: 人名；籓勿按“藩”异读
+    evidence:
+    - quote: 司空荀籓、光禄大夫荀组奔轘辕
+      para: 晋书-p00113
+  - word: 麹允
+    pinyin: qū yǔn
+    risk: 姓氏多音字，后续愍帝内容可能出现
+    evidence:
+    - quote: 京兆大守索綝为尚书右仆射
+      para: 晋书-p00118
+  - word: 索綝
+    pinyin: suǒ chēn
+    risk: 生僻名；本集为后续长安局势背景
+    evidence:
+    - quote: 京兆大守索綝为尚书右仆射
+      para: 晋书-p00118
+  illustration_scenes:
+  - scene: 项城病死、秘不发丧，军队载丧东行被石勒追及宁平城；钱端出战，晋军溃散。
+    evidence:
+    - quote: 永嘉五年，薨于项。秘不发丧。
+      para: 晋书-p04648
+    - quote: 将军钱端出兵距勒，战死，军溃。
+      para: 晋书-p04648
+  - scene: 呼延晏军从宜阳进入洛川，留辎重张方故垒后冲击平昌门，洛阳城门与府寺起火。
+    evidence:
+    - quote: 自宜阳入洛川
+      para: 晋书-p07046
+    - quote: 留辎重于张方故垒，遂寇洛阳，攻陷平昌门，焚东阳、宣阳诸门及诸府寺。
+      para: 晋书-p07046
+  - scene: 晋怀帝从华林园出河阴藕池试图奔长安，遭刘曜追及；宫庙焚毁。
+    evidence:
+    - quote: 帝开华林园门，出河阴藕池，欲幸长安，为曜等所追及。
+      para: 晋书-p00113
+    - quote: 曜等遂焚烧宫庙
+      para: 晋书-p00113
+  - scene: 刘聪在平阳病榻前后，刘和继位，兄弟争位并导致刘聪杀刘和。
+    evidence:
+    - quote: 其子和嗣伪位，和弟聪杀和而自立。
+      para: 晋书-p00112
+  - scene: 洛阳城内饥荒、百官散走，荀籓荀组出轘辕、温几奔小平津。
+    evidence:
+    - quote: 时城内饥甚，人皆相食，百官分散
+      para: 晋书-p07046
+    - quote: 夜开广莫门奔小平津
+      para: 晋书-p00113
+  疆域对照:
+    checked_file: 01_工作流\series\三国到隋\疆域.yaml
+    events_308_311: []
+    result: 当前疆域.yaml 没有 308–311 年的疆域事件条目。既有最后相关项为 307-05，魏郡标 uncertain，记汲桑、石勒陷鄴但未确认整郡控制。故本集建议 Claude 逐项审议：308年许昌受袭但王弥退走；309年上党太守庞淳以郡降汉赵；311年洛阳失陷、河南尹控制变化；不要从战术点自动推定周边全郡易手。
+  portrait_inventory_checked:
+  - bao_xin.png
+  - cao_ang.png
+  - cao_cao-v1.png
+  - cao_cao.png
+  - cao_fang.png
+  - cao_hong.png
+  - cao_huan.png
+  - cao_mao.png
+  - cao_pi-v1.png
+  - cao_pi.png
+  - cao_ren.png
+  - cao_rui.png
+  - cao_shuang-v1.png
+  - cao_shuang.png
+  - cao_xiu.png
+  - cao_zhen.png
+  - chen_gong.png
+  - chen_lin.png
+  - chen_tai.png
+  - cheng_ji.png
+  - chunyu_qiong.png
+  - codex-任务-立绘重绘第1批.md
+  - deng_ai-v1.png
+  - deng_ai.png
+  - deng_zhi.png
+  - dian_wei.png
+  - ding_yuan.png
+  - dong_cheng.png
+  - dong_zhuo-v1.png
+  - dong_zhuo.png
+  - du_yu.png
+  - fa_zheng-v1.png
+  - fa_zheng.png
+  - gan_ning.png
+  - geng_wu.png
+  - gongsun_kang.png
+  - gongsun_yuan.png
+  - gongsun_zan.png
+  - guan_yu-v1.png
+  - guan_yu.png
+  - guanqiu_jian.png
+  - guo_huai-v1.png
+  - guo_huai.png
+  - guo_jia.png
+  - guo_si.png
+  - han_fu.png
+  - han_sui.png
+  - hao_zhao.png
+  - he_jin.png
+  - he_taihou.png
+  - huan_fan.png
+  - huang_gai.png
+  - huang_quan.png
+  - huang_zhong.png
+  - huangfu_song.png
+  - ji_shao.png
+  - jia_chong.png
+  - jia_nanfeng.png
+  - jia_xu.png
+  - jiang_ji.png
+  - jiang_wei.png
+  - ju_shou.png
+  - li_dian.png
+  - li_jue.png
+  - li_sheng.png
+  - li_xiong.png
+  - li_yan.png
+  - ling_tong.png
+  - liu_bei-v0-旧默认.png
+  - liu_bei-v1.png
+  - liu_bei-v2.png
+  - liu_bei-v3a.png
+  - liu_bei-v3b.png
+  - liu_bei-v3c.png
+  - liu_bei.png
+  - liu_bian-v1.png
+  - liu_bian.png
+  - liu_biao.png
+  - liu_cong.png
+  - liu_hong.png
+  - liu_shan-v1.png
+  - liu_shan.png
+  - liu_xie-v1.png
+  - liu_xie.png
+  - liu_yan.png
+  - liu_yuan.png
+  - liu_zhang.png
+  - lu_kang.png
+  - lu_su-v1.png
+  - lu_su.png
+  - lu_xun-v1.png
+  - lu_xun.png
+  - lu_zhi-v1.png
+  - lu_zhi.png
+  - lv_bu-v1.png
+  - lv_bu-v2.png
+  - lv_bu.png
+  - lv_meng-v1.png
+  - lv_meng.png
+  - ma_chao-v1.png
+  - ma_chao.png
+  - ma_su.png
+  - mao_jie.png
+  - meng_huo.png
+  - mi_fang.png
+  - pang_de.png
+  - pang_tong.png
+  - pei_wei.png
+  - qiao_zhou.png
+  - qu_yi.png
+  - shan_tao.png
+  - shen_pei.png
+  - sima_chi.png
+  - sima_jiong.png
+  - sima_liang.png
+  - sima_lun.png
+  - sima_shi.png
+  - sima_teng.png
+  - sima_wei.png
+  - sima_yan-v1.png
+  - sima_yan.png
+  - sima_yi-v1.png
+  - sima_yi.png
+  - sima_yi2.png
+  - sima_ying.png
+  - sima_yong.png
+  - sima_you.png
+  - sima_yu.png
+  - sima_yue.png
+  - sima_zhao.png
+  - sima_zhong.png
+  - sun_ce.png
+  - sun_furen.png
+  - sun_hao.png
+  - sun_jian-v1.png
+  - sun_jian.png
+  - sun_quan-v1.png
+  - sun_quan.png
+  - ta_dun.png
+  - tao_qian.png
+  - tian_chou.png
+  - wang_jun.png
+  - wang_jun_you.png
+  - wang_ling.png
+  - wang_ping.png
+  - wang_yun-v1.png
+  - wang_yun-v2.png
+  - wang_yun.png
+  - wei_guan.png
+  - wei_yan.png
+  - wen_chou.png
+  - wen_qin.png
+  - wen_yang.png
+  - xiahou_yuan-v1.png
+  - xiahou_yuan.png
+  - xu_chu.png
+  - xu_huang.png
+  - xu_rong.png
+  - xu_shu.png
+  - xu_you.png
+  - xun_you.png
+  - xun_yu.png
+  - yan_liang.png
+  - yan_yan.png
+  - yang_hu.png
+  - yang_jun.png
+  - yang_xiu.png
+  - yang_yi.png
+  - yu_jin.png
+  - yuan_shang.png
+  - yuan_shao-v1.png
+  - yuan_shao.png
+  - yuan_shu-v1.png
+  - yuan_shu.png
+  - yuan_tan.png
+  - zang_hong.png
+  - zhang_bao.png
+  - zhang_fang.png
+  - zhang_fei-v1.png
+  - zhang_fei.png
+  - zhang_he-v1.png
+  - zhang_he.png
+  - zhang_hua.png
+  - zhang_jue-v0.png
+  - zhang_jue.png
+  - zhang_liang.png
+  - zhang_liao.png
+  - zhang_lu.png
+  - zhang_miao.png
+  - zhang_rang.png
+  - zhang_song.png
+  - zhang_xiu.png
+  - zhao_yun.png
+  - zhong_hui-v1.png
+  - zhong_hui.png
+  - zhou_yu-v1.png
+  - zhou_yu.png
+  - zhu_jun-v1.png
+  - zhu_jun.png
+  - zhuge_dan.png
+  - zhuge_liang-v1.png
+  - zhuge_liang.png
+  - zhuge_zhan.png
+  - zuo_feng.png

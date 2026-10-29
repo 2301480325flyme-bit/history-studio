@@ -1,0 +1,45 @@
+# 演示：行军队列（army 组件）
+id: zz-army
+title: 组件演示 · 行军队列
+series: History Studio 组件库
+year: 189
+
+map:
+  center: [112.6, 34.8]
+  scale: 3500
+  extent: [82.0, 4.0, 145.0, 52.0]
+  basemap: dem
+  river_rank: 4
+  focus_zoom: 2.2
+  watermark: 东汉
+
+voice: {mode: placeholder}
+
+sources_local:
+  - {id: demo, work: 组件演示, volume: 无史实内容, url: 'https://example.invalid'}
+
+factions: {汉室: red, 董卓: black}
+
+territory:
+  cells: han-140
+  jun_labels: true
+  polities:
+    汉室: {slot: tan, label_at: 长社, main: true}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: left, tier: capital}
+  长社: {id: changshe, label: right}
+  长安: {id: changan_han_city, label: below}
+  宛: {id: wanxian, label: below}
+
+camera:
+  focus: [长安, 洛阳, 宛]
+  zoom: 2.0
+
+beats:
+  - say: 董卓率领西凉铁骑从长安出发，一路南下直扑洛阳，与此同时朝廷的步兵也从宛城北上，两路人马同时向洛阳逼近。
+    sources: [demo]
+    owners: {汉室: [司隶, 豫州, 冀州, 兖州]}
+    show:
+      - army: {from: 长安, to: 洛阳, faction: 董卓, banner: 董, troops: cavalry, size: 3, grow: 6}
+      - army: {from: 宛, to: 洛阳, faction: 汉室, banner: 汉, troops: infantry, size: 3, grow: 6, delay: 0.6}

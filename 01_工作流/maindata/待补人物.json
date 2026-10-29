@@ -1,0 +1,191 @@
+{
+  "note": "人物候选。须确认全名/封号/关系后入 persons.json；不确定者入 persons_approximate.json（近似层）。",
+  "method": "两阶段：封号频次建白名单 → 只在白名单后抽人名",
+  "scannedBooks": [
+    "晋书"
+  ],
+  "candidates": [
+    {
+      "name": "冏",
+      "isTitleOnly": false,
+      "freq": 11,
+      "firstYear": 301,
+      "sample": "【齐王】赵王伦饕据天位。镇东大将军、齐王冏，征北大将军、成都王颖，征西大将军、河间"
+    },
+    {
+      "name": "王导",
+      "isTitleOnly": false,
+      "freq": 9,
+      "firstYear": 276,
+      "sample": "为军司马，贺循为参佐，王敦、王导、周顗、刁协并为腹心股肱，宾礼名贤，存问"
+    },
+    {
+      "name": "刘毅",
+      "isTitleOnly": false,
+      "freq": 8,
+      "firstYear": 404,
+      "sample": "反淳朴。雅好直言，留心采擢，刘毅、裴楷以质直见容，嵇绍、许奇虽仇雠不弃。"
+    },
+    {
+      "name": "刘歆",
+      "isTitleOnly": false,
+      "freq": 7,
+      "firstYear": null,
+      "sample": "曰“五声、十二律还相为宫”。刘歆、班固撰《律历志》亦纪十二律，惟京房始创"
+    },
+    {
+      "name": "攸",
+      "isTitleOnly": false,
+      "freq": 6,
+      "firstYear": 277,
+      "sample": "【齐王】三月戊申，星孛于西南。是年，齐王攸、任城王陵、琅邪王伷、新都王该薨。八年九"
+    },
+    {
+      "name": "王恭",
+      "isTitleOnly": false,
+      "freq": 6,
+      "firstYear": 386,
+      "sample": "”二十一年，帝崩。隆安元年，王恭、殷仲堪、桓玄等并发兵，表以诛王国宝为名"
+    },
+    {
+      "name": "张华",
+      "isTitleOnly": false,
+      "freq": 6,
+      "firstYear": 295,
+      "sample": "后不悟，终丧四海，是其应也。张华、阎纂皆曰，武库火而氐羌反，太子见废，则"
+    },
+    {
+      "name": "王猛",
+      "isTitleOnly": false,
+      "freq": 6,
+      "firstYear": 357,
+      "sample": "略，守南山之操，遂而不夺者，王猛、硃肜之伦，相望于岩谷。济济多士，焉可罄"
+    },
+    {
+      "name": "刘曜",
+      "isTitleOnly": false,
+      "freq": 5,
+      "firstYear": 307,
+      "sample": "所掠，不得进而还。六月癸未，刘曜、王弥、石勒同寇洛川，王师频为贼所败，死"
+    },
+    {
+      "name": "王弥",
+      "isTitleOnly": false,
+      "freq": 5,
+      "firstYear": 309,
+      "sample": "不得进而还。六月癸未，刘曜、王弥、石勒同寇洛川，王师频为贼所败，死者甚众"
+    },
+    {
+      "name": "王敦",
+      "isTitleOnly": false,
+      "freq": 5,
+      "firstYear": 276,
+      "sample": "以顾荣为军司马，贺循为参佐，王敦、王导、周顗、刁协并为腹心股肱，宾礼名贤"
+    },
+    {
+      "name": "刘元海",
+      "isTitleOnly": false,
+      "freq": 5,
+      "firstYear": 303,
+      "sample": "豫为天下兵冲。陈敏又乱扬土。刘元海、石勒、李雄等并起微贱，跨有州郡。皇后羊"
+    },
+    {
+      "name": "刘向曰",
+      "isTitleOnly": false,
+      "freq": 5,
+      "firstYear": 306,
+      "sample": "为之冰，氛气寒，木不曲直也。刘向曰，冰者阴之盛，木者少阳，贵臣卿大夫象也。"
+    },
+    {
+      "name": "王沈",
+      "isTitleOnly": false,
+      "freq": 5,
+      "firstYear": 272,
+      "sample": "高贵乡公好才爱士，望与裴秀、王沈、锺会并见亲待，数侍宴筵。公性急，秀等居"
+    },
+    {
+      "name": "王如故",
+      "isTitleOnly": false,
+      "freq": 5,
+      "firstYear": null,
+      "sample": "、督中外诸军事、相国，侍中、王如故，一依宣、文辅魏故事，置左右长史、司马、"
+    },
+    {
+      "name": "慕容垂",
+      "isTitleOnly": false,
+      "freq": 4,
+      "firstYear": 373,
+      "sample": "其法，诸侯乱其政。”自是后，慕容垂、翟辽、姚苌、苻登、慕容永并阻兵争强。十"
+    },
+    {
+      "name": "刘向",
+      "isTitleOnly": false,
+      "freq": 4,
+      "firstYear": 369,
+      "sample": "：“大辰为天王，天下有丧。”刘向《五纪论》曰：“《春秋》，星孛于东方，不"
+    },
+    {
+      "name": "杨骏",
+      "isTitleOnly": false,
+      "freq": 4,
+      "firstYear": 283,
+      "sample": "朝，不被亲仗，而贾充、荀勖、杨骏、冯紞等迭居要重，所以无年不旱者，欲德不"
+    },
+    {
+      "name": "王恂",
+      "isTitleOnly": false,
+      "freq": 4,
+      "firstYear": 278,
+      "sample": "将军，累迁侍中，与侍中孔恂、王恂、杨济同列，为一时秀彦。武帝尝会公卿籓牧"
+    },
+    {
+      "name": "王尼",
+      "isTitleOnly": false,
+      "freq": 4,
+      "firstYear": null,
+      "sample": " 胡毋辅之（子谦之） 毕卓 王尼 羊曼 光逸"
+    },
+    {
+      "name": "慕容恪",
+      "isTitleOnly": false,
+      "freq": 4,
+      "firstYear": null,
+      "sample": "觊非望，实匪寡德所宜闻也。”慕容恪、封弈讨王午于鲁口，降之。寻而慕容评攻克"
+    },
+    {
+      "name": "曰",
+      "isTitleOnly": false,
+      "freq": 3,
+      "firstYear": 287,
+      "sample": "【齐王】。帝流涕问疾，天子执帝手，目齐王曰：“以后事相托。死乃复可忍，吾忍死待君，"
+    },
+    {
+      "name": "张良",
+      "isTitleOnly": false,
+      "freq": 3,
+      "firstYear": 319,
+      "sample": "与二祖同，必所祗惧。昔萧何、张良、霍光咸有匡佐之功，何谥文终，良谥文成，"
+    },
+    {
+      "name": "上",
+      "isTitleOnly": false,
+      "freq": 3,
+      "firstYear": 367,
+      "sample": "【燕王】，乐舞八佾，设钟虡宫悬，位在燕王上。进王妃为王后，世子为太子，王女王孙爵命"
+    },
+    {
+      "name": "王浑",
+      "isTitleOnly": false,
+      "freq": 3,
+      "firstYear": 280,
+      "sample": "武昌，遂泛舟东下，所至皆平。王浑、周浚与吴丞相张悌战于版桥，大败之，斩悌"
+    },
+    {
+      "name": "张方",
+      "isTitleOnly": false,
+      "freq": 3,
+      "firstYear": 305,
+      "sample": "东屯荥阳，成都王颖进据洛阳，张方、刘弘等并桉兵不能御。范阳王虓济自官渡，"
+    }
+  ]
+}

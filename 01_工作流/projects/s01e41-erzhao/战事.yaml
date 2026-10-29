@@ -1,0 +1,490 @@
+episode: s01e41-erzhao
+armies:
+  靳准部:
+    faction: 汉赵
+    head: 靳准
+    size: 未核
+    evidence:
+    - quote: 靳准弑刘粲，自号汉王
+      para: 晋书-p00136
+  刘曜军:
+    faction: 前赵
+    head: 刘曜
+    size: 未核
+    evidence: &id001
+    - quote: 曜尽中外精锐水陆赴之
+      para: 晋书-p07137
+  石勒军:
+    faction: 后赵
+    head: 石勒
+    size: 平阳精锐五万；328亲率四万
+    evidence: &id002
+    - quote: 勒统精锐五万继之
+      para: 晋书-p07197
+    - quote: 勒统步骑四万赴金墉
+      para: 晋书-p07248
+  石虎军:
+    faction: 后赵
+    head: 石虎
+    size: 328四万；329未核
+    evidence:
+    - quote: 石季龙率众四万
+      para: 晋书-p07137
+  石堪军:
+    faction: 后赵
+    head: 石堪
+    size: 未核
+    evidence:
+    - quote: 石堪执曜
+      para: 晋书-p07248
+  石生军:
+    faction: 后赵
+    head: 石生
+    size: 未核
+    evidence:
+    - quote: 攻石生于金墉
+      para: 晋书-p07137
+  刘胤部:
+    faction: 前赵
+    head: 刘胤
+    size: 未核
+    evidence:
+    - quote: 其大司马刘胤帅百官奔于上邽
+      para: 晋书-p00156
+  刘曜军（318）:
+    faction: 汉赵
+    head: 刘曜
+    size: 未核
+    evidence: *id001
+    note_faction: 318 年刘曜仍是汉将，319 年才改国号赵
+  石勒军（318）:
+    faction: 汉赵
+    head: 石勒
+    size: 平阳精锐五万；328亲率四万
+    evidence: *id002
+    note_faction: 318 年石勒仍是汉将，319 年才称赵王
+events:
+- id: e01
+  army: 靳准部
+  kind: 交战
+  place: 平阳
+  from: null
+  via: []
+  date: 318
+  territory: null
+  note: 政变不证明河东郡整体易手。
+  evidence:
+  - quote: 靳准弑刘粲，自号汉王
+    para: 晋书-p00136
+  - quote: 靳准弑刘粲，自号汉王
+    para: 晋书-p00136
+- id: e02
+  army: 石勒军（318）
+  kind: 出发
+  place: 襄国
+  via: []
+  date: 318-秋
+  territory: null
+  note: （原记：襄国，from None）张敬五千骑前锋，石勒统五万继进；日次未载。
+  evidence:
+  - quote: 勒命张敬率骑五千为前锋以讨准，勒统精锐五万继之
+    para: 晋书-p07197
+- id: e03
+  army: 刘曜军（318）
+  kind: 行军
+  place: 赤壁
+  from: 长安
+  via: []
+  date: 318-冬
+  territory: null
+  note: （原记：赤壁，from 长安）赴平阳处理靳准之乱，路线、赤壁今址未核。
+  evidence:
+  - quote: 靳准之难，自长安赴之。至于赤壁
+    para: 晋书-p07099
+- id: e04
+  army: 石勒军（318）
+  kind: 行军
+  place: 平阳
+  from: 襄国
+  via: []
+  date: 319
+  territory: null
+  note: （原记：平阳小城，from 襄国）屯襄陵北原后攻小城，沿线未载。
+  evidence:
+  - quote: 据襄陵北原
+    para: 晋书-p07197
+  - quote: 勒攻准于平阳小城
+    para: 晋书-p07197
+- id: e05
+  army: 石勒军（318）
+  kind: 投降
+  place: 平阳
+  via: []
+  date: 319
+  territory: null
+  note: （原记：平阳小城，from None）周置等降勒，靳明奉玺降刘曜；不推定河东全郡易手。
+  evidence:
+  - quote: 平阳大尹周置等率杂户六千降于勒
+    para: 晋书-p07197
+  - quote: 奉传国六玺降于曜
+    para: 晋书-p07100
+- id: e06
+  army: 刘曜军
+  kind: 屯驻
+  place: 长安
+  from: 赤壁
+  via: []
+  date: 319
+  territory: null
+  note: 迁都改号不是郡级攻占。
+  evidence:
+  - quote: 刘曜徙都长安，改号曰赵
+    para: 晋书-p00893
+  skip: 迁都改号不画营寨，旁白用 spot 标国号
+- id: e07
+  army: 石虎军
+  kind: 出发
+  place: 襄国
+  via: []
+  date: 328-07
+  territory: null
+  note: （原记：轵关，from 未核）轵关西入；关东侧出发点未核。
+  evidence:
+  - quote: 石季龙率众四万，自轵关西入伐曜
+    para: 晋书-p07137
+- id: e08
+  army: 石虎军
+  kind: 行军
+  place: 蒲坂
+  from: 襄国
+  via:
+  - 轵关
+  date: 328-07
+  territory: null
+  note: （原记：蒲坂，from 轵关）攻蒲坂不等于河东郡全郡易手。
+  evidence:
+  - quote: 河东应之者五十余县，进攻蒲坂
+    para: 晋书-p07137
+  - quote: 石勒将石季龙攻刘曜于蒲坂
+    para: 晋书-p00155
+- id: e09
+  army: 刘曜军
+  kind: 出发
+  place: 长安
+  via: []
+  date: 328-08
+  territory: null
+  note: （原记：长安，from None）东出救蒲坂，至卫关陆路未逐站载。
+  evidence:
+  - quote: 曜将东救蒲坂
+    para: 晋书-p07137
+- id: e10
+  army: 刘曜军
+  kind: 行军
+  place: 高候
+  from: 长安
+  via: []
+  date: 328-08
+  territory: null
+  note: （原记：卫关北，from 长安）水陆军卫关北渡，渡点和后续路线未核。
+  evidence:
+  - quote: 曜尽中外精锐水陆赴之，自卫关北济
+    para: 晋书-p07137
+  note2: 卫关北渡并入长安→高候一支箭头
+- id: e11
+  army: 刘曜军
+  kind: 交战
+  place: 高候
+  from: 蒲坂方向
+  via: []
+  date: 328-08
+  territory: null
+  note: 追败石虎、斩石瞻；高候今址未核，territory null。
+  evidence:
+  - quote: 追之，及于高候，大战，败之，斩其将军石瞻
+    para: 晋书-p07137
+  - quote: 八月，曜及石季龙战于高候，季龙败绩
+    para: 晋书-p00155
+- id: e12
+  army: 石虎军
+  kind: 撤退
+  place: 朝歌
+  from: 高候
+  via: []
+  date: 328-08
+  territory: null
+  note: 退朝歌，途中未载。
+  evidence:
+  - quote: 季龙奔于朝歌
+    para: 晋书-p07137
+- id: e13
+  army: 刘曜军
+  kind: 行军
+  place: 洛阳
+  from: 高候
+  via: []
+  date: 328-08
+  territory: null
+  note: （原记：大阳，from 高候方向）渡大阳后攻金墉，渡址未核。
+  evidence:
+  - quote: 曜遂济自大阳
+    para: 晋书-p07137
+- id: e14
+  army: 刘曜军
+  kind: 交战
+  place: 洛阳
+  via: []
+  date: 328-08
+  territory: null
+  note: （原记：金墉，from 大阳）决千金堨灌城；非郡级易手。
+  evidence:
+  - quote: 攻石生于金墉，决千金堨以灌之
+    para: 晋书-p07137
+- id: e15
+  army: 刘曜军
+  kind: 交战
+  place: 洛阳
+  via: []
+  date: 328-08
+  territory: null
+  note: （原记：洛阳，from 金墉）围洛阳未克，territory null。
+  evidence:
+  - quote: 刘曜败季龙于高候，遂围洛阳
+    para: 晋书-p07248
+- id: e16
+  army: 石勒军
+  kind: 出发
+  place: 襄国
+  from: null
+  via: []
+  date: 328-10
+  territory: null
+  note: 决定亲救洛阳，确切出发日未载。
+  evidence:
+  - quote: 勒将亲救洛阳
+    para: 晋书-p07248
+- id: e17
+  army: 石勒军
+  kind: 行军
+  place: 灵昌津
+  from: 襄国
+  via: []
+  date: 328-10
+  territory: null
+  note: （原记：灵昌津（大堨），from 襄国）亲率四万赴金墉、由大堨渡河；渡点未核。
+  evidence:
+  - quote: 勒统步骑四万赴金墉，济自大堨
+    para: 晋书-p07248
+  - quote: 流澌大至，勒以为神灵之助也，命曰灵昌津
+    para: 晋书-p07248
+- id: e18
+  army: 石勒军
+  kind: 会合
+  place: 成皋
+  from: 灵昌津
+  via: []
+  date: 328-10
+  territory: null
+  note: 集结为六万步、二万七千骑；与四万亲征军不可简单相加。
+  evidence:
+  - quote: 诸军集于成皋，步卒六万，骑二万七千
+    para: 晋书-p07248
+- id: e19
+  army: 石勒军
+  kind: 行军
+  place: 洛阳
+  from: 成皋
+  via: []
+  date: 328-10
+  territory: null
+  note: （原记：巩、訾之间，from 成皋）衔枚诡道兼行；訾地望未核。
+  evidence:
+  - quote: 乃卷甲衔枚而诡道兼路，出于巩、訾之间
+    para: 晋书-p07248
+- id: e20
+  army: 刘曜军
+  kind: 屯驻
+  place: 洛水西
+  from: 金墉
+  via: []
+  date: 328-10
+  territory: null
+  note: 撤围列阵洛西，南北十余里。
+  evidence:
+  - quote: 陈于洛西，南北十余里
+    para: 晋书-p07137
+  skip: 洛西列阵并入西阳门之战一拍
+- id: e21
+  army: 石堪军
+  kind: 交战
+  place: 洛阳
+  via: []
+  date: 328-10
+  territory: null
+  note: （原记：西阳门（洛阳），from 巩、訾之间）石勒、石虎夹击，石堪擒刘曜；未证郡级易手。
+  evidence:
+  - quote: 大战于西阳门。勒躬贯甲胄，出自阊阖，夹击之。曜军大溃，石堪执曜
+    para: 晋书-p07248
+  - quote: 曜将战，饮酒数斗
+    para: 晋书-p07137
+- id: e22
+  army: 刘胤部
+  kind: 撤退
+  place: 上邽
+  from: 长安
+  via: []
+  date: 329
+  territory: null
+  note: （原记：上邽，from 长安）百官奔上邽，原文无沿线站点；太子毗/熙异名待核。
+  evidence:
+  - quote: 刘曜太子毗与其大司马刘胤帅百官奔于上邽，关中大乱
+    para: 晋书-p00156
+- id: e23
+  army: 石虎军
+  kind: 行军
+  place: 上邽
+  from: 长安
+  via: []
+  date: 329-09
+  territory: null
+  note: （原记：上邽，from 未核）只核实破刘胤于上邽，出发点和路线未核。
+  evidence:
+  - quote: 刘曜太子毗与其大司马刘胤帅百官奔于上邽
+    para: 晋书-p00156
+- id: e24
+  army: 石虎军
+  kind: 攻占
+  place: 上邽
+  from: null
+  via: []
+  date: 329-09
+  territory: null
+  note: 本纪概括前赵亡；疆域.yaml同月三辅归后赵，但本句不能证明三辅具体易手过程，territory null待Claude裁定。
+  evidence:
+  - quote: 刘曜太子毗与其大司马刘胤帅百官奔于上邽
+    para: 晋书-p00156
+- id: e25
+  army: 石勒军
+  kind: 屯驻
+  place: 襄国
+  from: null
+  via: []
+  date: 330
+  territory: null
+  note: 称帝为政权变化，非攻占。
+  evidence:
+  - quote: 石勒僭即皇帝位
+    para: 晋书-p00157
+  - quote: 石勒僭即皇帝位
+    para: 晋书-p00157
+  skip: 称帝是政权变化，用 enthrone 表现
+- id: e26
+  army: 刘胤部
+  kind: 行军
+  place: 长安
+  from: 上邽
+  via: []
+  date: 329-08
+  territory: null
+  note: Claude 补：刘胤等帅众侵石生，次于雍（雍在长安西，画作向长安反扑、未至）
+  evidence:
+  - quote: 曜将刘胤等帅众侵石生，次于雍
+    para: 晋书-p00156
+  skip: 刘胤反扑长安旁白压缩后不讲
+places_new:
+- name: 河东赤壁（非湖北赤壁）
+  lon: 110.72
+  lat: 35.6
+  precision: 未核示意点
+  basis: 河津说待核；同名gazetteer只返回湖北赤壁市
+  evidence:
+  - quote: 刘曜僭即皇帝位于赤壁
+    para: 晋书-p00136
+- name: 高候
+  lon: 111.2
+  lat: 35.6
+  precision: 未核示意点
+  basis: 现代地望未核，低精度示意
+  evidence:
+  - quote: 及于高候，大战
+    para: 晋书-p07137
+- name: 金墉
+  lon: 112.44
+  lat: 34.69
+  precision: approximate
+  basis: 汉魏洛阳故城附近示意，具体点未登记
+  evidence:
+  - quote: 攻石生于金墉
+    para: 晋书-p07137
+- name: 成皋关
+  lon: 113.17
+  lat: 34.79
+  precision: approximate
+  basis: 荥阳汜水武牢关一带；地理志记成皋有关
+  evidence:
+  - quote: 成皋有关，郑之武牢
+    para: 晋书-p00746
+- name: 巩
+  lon: 112.96
+  lat: 34.76
+  precision: approximate
+  basis: 今巩义古城一带近似
+  evidence:
+  - quote: 出于巩、訾之间
+    para: 晋书-p07248
+- name: 訾
+  lon: 113.04
+  lat: 34.72
+  precision: 未核示意点
+  basis: 地望未核，暂用低精度示意
+  evidence:
+  - quote: 出于巩、訾之间
+    para: 晋书-p07248
+- name: 上邽
+  lon: 105.72
+  lat: 34.58
+  precision: approximate
+  basis: 今天水秦州区古城区域近似
+  evidence:
+  - quote: 奔于上邽
+    para: 晋书-p00156
+- name: 轵关
+  lon: 112.3
+  lat: 35.2
+  precision: approximate
+  basis: 垣曲—济源山地通道近似
+  evidence:
+  - quote: 自轵关西入伐曜
+    para: 晋书-p07137
+- name: 大阳渡
+  lon: 111.22
+  lat: 34.83
+  precision: approximate
+  basis: 今平陆一带古渡示意
+  evidence:
+  - quote: 曜遂济自大阳
+    para: 晋书-p07137
+- name: 大堨/灵昌津
+  lon: 113.36
+  lat: 34.91
+  precision: 未核示意点
+  basis: 渡口今址未核
+  evidence:
+  - quote: 勒统步骑四万赴金墉，济自大堨
+    para: 晋书-p07248
+- name: 西阳门
+  lon: 112.44
+  lat: 34.69
+  precision: 未核示意点
+  basis: 洛阳城门准确址未核
+  evidence:
+  - quote: 大战于西阳门
+    para: 晋书-p07248
+open_questions:
+- 疆域.yaml对照319-11前后赵分置、321扩张、325司兖豫、329-09三辅归后赵；不增无根据郡级易手。
+- 蒲坂、金墉、洛阳围城不证明整郡易手，territory为null。
+- 329本纪只概括破刘胤、前赵亡；三辅易手细节未核，是否沿用疆域.yaml概括节点待Claude定。
+- 石虎攻上邽起点与路线未核，不补推测站点。
+- 赤壁、高候、襄陵北原、卫关、訾、大堨、灵昌津、西阳门缺可靠gazetteer点；坐标为低精度示意。
+- 本地《资治通鉴》无检索结果，缺该书互证。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

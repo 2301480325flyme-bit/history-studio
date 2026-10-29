@@ -1,0 +1,371 @@
+{
+ "mode": "mimo",
+ "beats": [
+  {
+   "file_start": 0.3,
+   "file_end": 3.01,
+   "voice_onset": 0.4,
+   "voice_offset": 2.82
+  },
+  {
+   "file_start": 3.01,
+   "file_end": 8.535,
+   "voice_onset": 3.34,
+   "voice_offset": 8.28
+  },
+  {
+   "file_start": 8.535,
+   "file_end": 13.058,
+   "voice_onset": 8.815,
+   "voice_offset": 13.025
+  },
+  {
+   "file_start": 13.358,
+   "file_end": 18.567,
+   "voice_onset": 13.448,
+   "voice_offset": 18.338
+  },
+  {
+   "file_start": 18.567,
+   "file_end": 25.836,
+   "voice_onset": 18.857,
+   "voice_offset": 25.597
+  },
+  {
+   "file_start": 25.836,
+   "file_end": 32.279,
+   "voice_onset": 26.116,
+   "voice_offset": 32.256
+  },
+  {
+   "file_start": 32.579,
+   "file_end": 40.87,
+   "voice_onset": 32.709,
+   "voice_offset": 40.619
+  },
+  {
+   "file_start": 41.17,
+   "file_end": 49.551,
+   "voice_onset": 41.31,
+   "voice_offset": 49.18
+  },
+  {
+   "file_start": 49.851,
+   "file_end": 52.561,
+   "voice_onset": 49.901,
+   "voice_offset": 52.351
+  },
+  {
+   "file_start": 52.561,
+   "file_end": 56.667,
+   "voice_onset": 52.851,
+   "voice_offset": 56.661
+  },
+  {
+   "file_start": 56.967,
+   "file_end": 60.279,
+   "voice_onset": 56.997,
+   "voice_offset": 60.007
+  },
+  {
+   "file_start": 60.279,
+   "file_end": 66.107,
+   "voice_onset": 60.369,
+   "voice_offset": 65.879
+  },
+  {
+   "file_start": 66.107,
+   "file_end": 72.383,
+   "voice_onset": 66.367,
+   "voice_offset": 72.147
+  },
+  {
+   "file_start": 72.383,
+   "file_end": 74.807,
+   "voice_onset": 72.663,
+   "voice_offset": 74.593
+  },
+  {
+   "file_start": 74.807,
+   "file_end": 80.137,
+   "voice_onset": 75.057,
+   "voice_offset": 80.137
+  },
+  {
+   "file_start": 80.437,
+   "file_end": 86.518,
+   "voice_onset": 80.537,
+   "voice_offset": 86.117
+  },
+  {
+   "file_start": 86.518,
+   "file_end": 92.118,
+   "voice_onset": 86.618,
+   "voice_offset": 91.718
+  },
+  {
+   "file_start": 92.118,
+   "file_end": 99.283,
+   "voice_onset": 92.228,
+   "voice_offset": 99.028
+  },
+  {
+   "file_start": 99.283,
+   "file_end": 103.349,
+   "voice_onset": 99.563,
+   "voice_offset": 103.343
+  },
+  {
+   "file_start": 103.649,
+   "file_end": 107.774,
+   "voice_onset": 103.749,
+   "voice_offset": 107.529
+  },
+  {
+   "file_start": 107.774,
+   "file_end": 113.898,
+   "voice_onset": 108.054,
+   "voice_offset": 113.654
+  },
+  {
+   "file_start": 113.898,
+   "file_end": 115.804,
+   "voice_onset": 114.158,
+   "voice_offset": 115.578
+  },
+  {
+   "file_start": 115.804,
+   "file_end": 121.554,
+   "voice_onset": 116.084,
+   "voice_offset": 121.554
+  }
+ ],
+ "narration": "D:\\history\\codx_3 history studio\\01_工作流\\projects\\s01e22-nanzheng\\voice\\narration.wav",
+ "asr": [
+  {
+   "beat": 1,
+   "chapter": 1,
+   "text": "刘备一死，蜀汉三面起火。东边刚和吴国打完仗；南边几个郡接连造反；北边，曹丕虎视眈眈。十七岁的刘善，把大事小事，全交给了一个人：诸葛亮。",
+   "heard": "刘备一死，蜀汉三面起火，东边刚和吴国打完仗，南边几个郡接连造反，北边曹丕虎视眈眈。十七岁的刘禅把大事小事全交给了一个人，诸葛亮。",
+   "ratio": 0.982,
+   "diff": [
+    "「善」→「禅」"
+   ]
+  },
+  {
+   "beat": 4,
+   "chapter": 2,
+   "text": "南中造反，诸葛亮却没急着出兵。他先办另一件事：和吴国和好。他派邓芝出使东吴。孙权一开始不见。邓芝上表说：我这次来，也是为了吴国，不只是为了蜀国。孙权见了他：我是想和蜀国和好，可蜀主年幼，国小势弱，怕被魏吞了，连累自己。",
+   "heard": "南中造反，诸葛亮却没急着出兵，他先办另一件事，和吴国和好。他派邓芝出使东吴，孙权一开始不见，邓芝上表说：“我这次来也是为了吴国，不只是为了蜀国。”孙权见了他：“我是想和蜀国和好，可蜀主年幼，国小势弱，怕被魏吞了，连累自己。”",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 7,
+   "speaker": "邓芝",
+   "text": "吴、蜀两国，蜀有山川之险，吴有长江之阻。联手，进可以吞并天下，退可以三分鼎立！",
+   "heard": "吴蜀两国，蜀有山川之险，吴有长江之阻，联手，进可以吞并天下，退可以三分鼎立。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 8,
+   "speaker": "邓芝",
+   "text": "您要是向魏称臣，魏会要您去朝见，要太子去做人质。不答应，就派兵来打。到那时，江南就不归您了。",
+   "heard": "您要是向魏称臣，魏会要您去朝见，要太子去做人质，不答应就派兵来打，到那时江南就不归您了。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 9,
+   "chapter": 5,
+   "text": "孙权沉默了很久，才说：你说得对。他和魏断了往来，重新与蜀国结盟。东边，稳了。",
+   "heard": "孙权沉默了很久，才说：“你说的对，他和魏断了往来，重新与蜀国结盟，东边稳了。”",
+   "ratio": 0.968,
+   "diff": [
+    "「得」→「的」"
+   ]
+  },
+  {
+   "beat": 11,
+   "chapter": 6,
+   "text": "二二五年春天，诸葛亮亲自率军南征。据说出发时，马谡送了他一句话：用兵之道，攻心为上，攻城为下。据说，南中的首领孟获被抓了七次、放了七次，最后心服口服，不再造反。这年秋天，南中全部平定。从此南中的物产，源源不断地送进军营。蜀汉，富起来了。",
+   "heard": "二二五年春天，诸葛亮亲自率军南征。据说出发时，马谡送了他一句话：“用兵之道，攻心为上，攻城为下。”据说南中的首领孟获被抓了七次，放了七次，最后心服口服，不再造反。这年秋天，南中全部平定，从此南中的物产源源不断地送进军营，蜀汉富起来了。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 16,
+   "chapter": 7,
+   "text": "同一年冬天，曹丕亲率十几万大军，开到广陵的长江边，旌旗连绵几百里。偏偏这年特别冷，河道结了冰，战船开不进长江。曹丕只好掉头回去。第二年五月，曹丕病逝，才四十岁。临终前，他把儿子托付给了几位大臣，其中一个，叫司马懿。诸葛亮怎么三年收拾了烂摊子？先稳住东边，不两线作战。",
+   "heard": "同一年冬天，曹丕亲率十几万大军开到广陵的长江边，旌旗连绵几百里。偏偏这年特别冷，河道结了冰，战船开不进长江，曹丕只好掉头回去。第二年五月，曹丕病逝，才四十岁。临终前，他把儿子托付给了几位大臣，其中一个叫司马懿。诸葛亮怎么三年收拾了烂摊子？先稳住东边，不两线作战。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 20,
+   "chapter": 8,
+   "text": "再平南边，后方有了粮和兵；最后，才轮到北边。刘备留下的，是一个快散架的国家；诸葛亮交出的，是一支准备出征的军队。七擒七纵，你信吗？二二七年，诸葛亮率军北上汉中。临走前，他给刘善写了一封信：出师表。",
+   "heard": "再平南边，后方有了粮和兵，最后才轮到北边。刘备留下的是一个快散架的国家，诸葛亮交出的是一支准备出征的军队。七擒七纵，你信吗？二二七年，诸葛亮率军北上汉中，临走前，他给刘禅写了一封信，《出师表》。",
+   "ratio": 0.988,
+   "diff": [
+    "「善」→「禅」"
+   ]
+  }
+ ],
+ "speaker_pace": [
+  {
+   "beat": 7,
+   "speaker": "邓芝",
+   "rate_before": 3.02,
+   "speed": 1.35,
+   "rate": 4.07
+  },
+  {
+   "beat": 8,
+   "speaker": "邓芝",
+   "rate_before": 4.11,
+   "speed": 1.22,
+   "rate": 5.0
+  }
+ ],
+ "tempo": [
+  {
+   "chapter": 1,
+   "raw_rate": 4.05,
+   "factor": 1.18
+  },
+  {
+   "chapter": 2,
+   "raw_rate": 4.33,
+   "factor": 1.18
+  },
+  {
+   "chapter": 5,
+   "raw_rate": 4.12,
+   "factor": 1.18
+  },
+  {
+   "chapter": 6,
+   "raw_rate": 3.95,
+   "factor": 1.18
+  },
+  {
+   "chapter": 7,
+   "raw_rate": 4.61,
+   "factor": 1.18
+  },
+  {
+   "chapter": 8,
+   "raw_rate": 4.2,
+   "factor": 1.18
+  }
+ ],
+ "chapter_match": {
+  "eq_max_db": [
+   3.0,
+   3.4,
+   4.8,
+   3.4,
+   2.8,
+   3.8
+  ],
+  "level_before_db": [
+   -25.7,
+   -24.5,
+   -25.8,
+   -26.9,
+   -25.8,
+   -25.5
+  ],
+  "level_after_db": -25.7
+ },
+ "splits": [
+  {
+   "beat": 1,
+   "ratio": 1.0
+  },
+  {
+   "beat": 2,
+   "ratio": 1.0
+  },
+  {
+   "beat": 3,
+   "ratio": 0.952
+  },
+  {
+   "beat": 4,
+   "ratio": 1.0
+  },
+  {
+   "beat": 5,
+   "ratio": 1.0
+  },
+  {
+   "beat": 6,
+   "ratio": 1.0
+  },
+  {
+   "beat": 9,
+   "ratio": 0.923
+  },
+  {
+   "beat": 10,
+   "ratio": 1.0
+  },
+  {
+   "beat": 11,
+   "ratio": 1.0
+  },
+  {
+   "beat": 12,
+   "ratio": 1.0
+  },
+  {
+   "beat": 13,
+   "ratio": 1.0
+  },
+  {
+   "beat": 14,
+   "ratio": 1.0
+  },
+  {
+   "beat": 15,
+   "ratio": 1.0
+  },
+  {
+   "beat": 16,
+   "ratio": 1.0
+  },
+  {
+   "beat": 17,
+   "ratio": 1.0
+  },
+  {
+   "beat": 18,
+   "ratio": 1.0
+  },
+  {
+   "beat": 19,
+   "ratio": 1.0
+  },
+  {
+   "beat": 20,
+   "ratio": 1.0
+  },
+  {
+   "beat": 21,
+   "ratio": 1.0
+  },
+  {
+   "beat": 22,
+   "ratio": 1.0
+  },
+  {
+   "beat": 23,
+   "ratio": 0.964
+  }
+ ],
+ "measurement": "10ms RMS>.004 after peak normalisation; phrase-level, not forced syllable alignment",
+ "cleaned": "0 breath/noise islands gated out"
+}

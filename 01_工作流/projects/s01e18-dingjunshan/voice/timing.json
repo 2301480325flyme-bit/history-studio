@@ -1,0 +1,426 @@
+{
+ "mode": "mimo",
+ "beats": [
+  {
+   "file_start": 0.3,
+   "file_end": 6.662,
+   "voice_onset": 0.33,
+   "voice_offset": 6.41
+  },
+  {
+   "file_start": 6.662,
+   "file_end": 11.29,
+   "voice_onset": 6.952,
+   "voice_offset": 11.282
+  },
+  {
+   "file_start": 11.59,
+   "file_end": 17.185,
+   "voice_onset": 11.63,
+   "voice_offset": 16.93
+  },
+  {
+   "file_start": 17.185,
+   "file_end": 19.116,
+   "voice_onset": 17.475,
+   "voice_offset": 19.115
+  },
+  {
+   "file_start": 19.416,
+   "file_end": 24.906,
+   "voice_onset": 19.646,
+   "voice_offset": 24.436
+  },
+  {
+   "file_start": 25.206,
+   "file_end": 30.546,
+   "voice_onset": 25.316,
+   "voice_offset": 30.076
+  },
+  {
+   "file_start": 30.846,
+   "file_end": 36.039,
+   "voice_onset": 30.986,
+   "voice_offset": 36.016
+  },
+  {
+   "file_start": 36.339,
+   "file_end": 42.305,
+   "voice_onset": 36.439,
+   "voice_offset": 42.049
+  },
+  {
+   "file_start": 42.305,
+   "file_end": 48.773,
+   "voice_onset": 42.605,
+   "voice_offset": 48.425
+  },
+  {
+   "file_start": 48.773,
+   "file_end": 54.317,
+   "voice_onset": 48.943,
+   "voice_offset": 54.053
+  },
+  {
+   "file_start": 54.317,
+   "file_end": 59.611,
+   "voice_onset": 54.607,
+   "voice_offset": 59.357
+  },
+  {
+   "file_start": 59.611,
+   "file_end": 61.667,
+   "voice_onset": 59.911,
+   "voice_offset": 61.411
+  },
+  {
+   "file_start": 61.667,
+   "file_end": 67.701,
+   "voice_onset": 61.957,
+   "voice_offset": 67.697
+  },
+  {
+   "file_start": 68.001,
+   "file_end": 72.439,
+   "voice_onset": 68.081,
+   "voice_offset": 72.431
+  },
+  {
+   "file_start": 72.739,
+   "file_end": 75.77,
+   "voice_onset": 72.889,
+   "voice_offset": 75.559
+  },
+  {
+   "file_start": 76.07,
+   "file_end": 79.31,
+   "voice_onset": 76.15,
+   "voice_offset": 79.08
+  },
+  {
+   "file_start": 79.31,
+   "file_end": 83.793,
+   "voice_onset": 79.61,
+   "voice_offset": 83.53
+  },
+  {
+   "file_start": 83.793,
+   "file_end": 89.08,
+   "voice_onset": 84.073,
+   "voice_offset": 88.803
+  },
+  {
+   "file_start": 89.08,
+   "file_end": 92.177,
+   "voice_onset": 89.36,
+   "voice_offset": 92.15
+  },
+  {
+   "file_start": 92.477,
+   "file_end": 97.481,
+   "voice_onset": 92.507,
+   "voice_offset": 97.177
+  },
+  {
+   "file_start": 97.481,
+   "file_end": 100.684,
+   "voice_onset": 97.501,
+   "voice_offset": 100.361
+  },
+  {
+   "file_start": 100.684,
+   "file_end": 108.954,
+   "voice_onset": 100.824,
+   "voice_offset": 108.694
+  },
+  {
+   "file_start": 108.954,
+   "file_end": 111.32,
+   "voice_onset": 109.234,
+   "voice_offset": 111.094
+  },
+  {
+   "file_start": 111.32,
+   "file_end": 119.467,
+   "voice_onset": 111.62,
+   "voice_offset": 119.07
+  },
+  {
+   "file_start": 119.467,
+   "file_end": 123.287,
+   "voice_onset": 119.557,
+   "voice_offset": 123.027
+  },
+  {
+   "file_start": 123.287,
+   "file_end": 128.074,
+   "voice_onset": 123.567,
+   "voice_offset": 128.037
+  }
+ ],
+ "narration": "D:\\history\\codx_3 history studio\\01_工作流\\projects\\s01e18-dingjunshan\\voice\\narration.wav",
+ "asr": [
+  {
+   "beat": 1,
+   "chapter": 1,
+   "text": "曹操一直提醒一员大将：当将军，得有害怕的时候。光知道逞勇，不过是个匹夫。这员大将叫夏侯渊。他没听进去，死在了定军山。",
+   "heard": "曹操一直提醒一员大将，当将军得有害怕的时候，光知道逞勇不过是个匹夫。这员大将叫夏侯渊，他没听进去，死在了定军山。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 3,
+   "chapter": 2,
+   "text": "四年前，曹操拿下汉中，留夏侯渊、张郃把守，自己急匆匆回了北方。两年后，法正对刘备说：",
+   "heard": "四年前，曹操拿下汉中，留夏侯渊、张郃把守，自己急匆匆回了北方。两年后，法正对刘备说。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 5,
+   "speaker": "法正",
+   "text": "曹操不趁势打巴蜀，自己急着北还，不是他不想，是家里有麻烦。",
+   "heard": "曹操不趁势打巴蜀，自己急着北还，不是他不想，是家里有麻烦。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 6,
+   "speaker": "法正",
+   "text": "夏侯渊、张郃，比不上咱们的将领。这是老天送给我们的机会！",
+   "heard": "夏侯渊、张郃比不上咱们的将领，这是老天送给我们的机会。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 7,
+   "chapter": 5,
+   "text": "刘备亲率大军北上，在阳平关和夏侯渊对峙，一耗就是一年多。",
+   "heard": "刘备亲率大军北上，在阳平关和夏侯渊对峙，一耗就是一年多。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 8,
+   "chapter": 6,
+   "text": "二一九年正月，刘备南渡沔水，沿着山往前推，在定军山抢占了高处。夜里，他放火烧了魏军营外的鹿角。夏侯渊让张郃守东边，自己带轻兵守南边。刘备先猛攻张郃。张郃顶不住，夏侯渊把自己一半人马分去救他。就在这时，黄忠从山上冲了下来，擂鼓呐喊，喊声震动了山谷。一战，斩了夏侯渊。魏军丢了主帅，个个吓得变了脸色。部将郭淮推张郃当主将，才勉强稳住。",
+   "heard": "二一九年正月，刘备南渡安水，沿着山往前推，在定军山抢占了高处。夜里，他放火烧了魏军营外的鹿角。夏侯渊让张郃守东边，自己带亲兵守南边。刘备先猛攻张郃，张郃顶不住，夏侯渊把自己一半人马分去救他。就在这时，黄忠从山上冲了下来，擂鼓呐喊，喊声震动了山谷。一战斩了夏侯渊，魏军丢了主帅，个个吓得变了脸色。部将郭淮推张郃当主将，才勉强稳住。",
+   "ratio": 0.986,
+   "diff": [
+    "「沔」→「安」",
+    "「轻」→「亲」"
+   ]
+  },
+  {
+   "beat": 14,
+   "chapter": 7,
+   "text": "曹操亲率大军，从长安出斜谷南下。刘备隔着秦岭放话：",
+   "heard": "曹操亲率大军从长安出斜谷南下，刘备隔着秦岭放话。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 15,
+   "speaker": "刘备",
+   "text": "曹操来了也没用，汉中，我拿定了！",
+   "heard": "曹操来了也没用，汉中我拿定了。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 16,
+   "chapter": 9,
+   "text": "曹操到了，刘备守住险要，就是不跟他打。一耗好几个月，攻不下来，曹军的逃兵，一天比一天多。据说这时曹操下了一道口令：鸡肋。主簿杨修听了，就开始收拾行装。夏天，曹操撤军。汉中，归了刘备。",
+   "heard": "曹操到了，刘备守住险要，就是不跟他打。一耗好几个月攻不下来，曹军的逃兵一天比一天多。据说这时曹操下了一道口令：“鸡肋。”主簿杨修听了，就开始收拾行装。夏天，曹操撤军，汉中归了刘备。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 20,
+   "chapter": 10,
+   "text": "这一年秋天，刘备在沔阳设坛，戴上王冠，称汉中王。从涿郡起兵算起，整整三十五年。刘备要封黄忠做后将军，和关羽、张飞、马超平起平坐。诸葛亮担心：关羽在荆州听说了，恐怕不高兴。刘备说：我自己去跟他解释。刘备凭什么夺下汉中？看准曹操后方有事；抢下定军山的高处；曹操来了就守着不打，拖到他自己走。定军山这一仗，头功你给黄忠，还是给法正？就在刘备称王的时候，荆州的关羽，已经带兵北上，围住了樊城。",
+   "heard": "这一年秋天，刘备在绵阳设坛，戴上王冠，称汉中王。从涿郡起兵算起，整整三十五年。刘备要封黄忠做后将军，和关羽、张飞、马超平起平坐。诸葛亮担心关羽在荆州听说了，恐怕不高兴。刘备说：“我自己去跟他解释。”刘备凭什么夺下汉中？看准曹操后方有事，抢下定军山的高处。曹操来了，就守着不打，拖到他自己走。定军山这一仗，头功你给黄忠还是给法正？就在刘备称王的时候，荆州的关羽已经带兵北上，围住了樊城。",
+   "ratio": 0.994,
+   "diff": [
+    "「沔」→「绵」"
+   ]
+  }
+ ],
+ "speaker_pace": [
+  {
+   "beat": 5,
+   "speaker": "法正",
+   "rate_before": 5.26,
+   "speed": 1.0,
+   "rate": 5.26
+  },
+  {
+   "beat": 6,
+   "speaker": "法正",
+   "rate_before": 5.08,
+   "speed": 1.0,
+   "rate": 5.08
+  },
+  {
+   "beat": 15,
+   "speaker": "刘备",
+   "rate_before": 4.42,
+   "speed": 1.13,
+   "rate": 5.0
+  }
+ ],
+ "tempo": [
+  {
+   "chapter": 1,
+   "raw_rate": 4.16,
+   "factor": 1.133
+  },
+  {
+   "chapter": 2,
+   "raw_rate": 4.31,
+   "factor": 1.133
+  },
+  {
+   "chapter": 5,
+   "raw_rate": 4.21,
+   "factor": 1.133
+  },
+  {
+   "chapter": 6,
+   "raw_rate": 4.36,
+   "factor": 1.133
+  },
+  {
+   "chapter": 7,
+   "raw_rate": 4.36,
+   "factor": 1.133
+  },
+  {
+   "chapter": 9,
+   "raw_rate": 4.53,
+   "factor": 1.133
+  },
+  {
+   "chapter": 10,
+   "raw_rate": 4.55,
+   "factor": 1.133
+  }
+ ],
+ "chapter_match": {
+  "eq_max_db": [
+   3.2,
+   5.0,
+   4.2,
+   1.6,
+   4.5,
+   3.3,
+   3.6
+  ],
+  "level_before_db": [
+   -25.7,
+   -22.0,
+   -23.3,
+   -24.0,
+   -23.0,
+   -25.0,
+   -27.8
+  ],
+  "level_after_db": -24.4
+ },
+ "splits": [
+  {
+   "beat": 1,
+   "ratio": 1.0
+  },
+  {
+   "beat": 2,
+   "ratio": 1.0
+  },
+  {
+   "beat": 3,
+   "ratio": 1.0
+  },
+  {
+   "beat": 4,
+   "ratio": 1.0
+  },
+  {
+   "beat": 7,
+   "ratio": 1.0
+  },
+  {
+   "beat": 8,
+   "ratio": 0.963
+  },
+  {
+   "beat": 9,
+   "ratio": 0.968
+  },
+  {
+   "beat": 10,
+   "ratio": 1.0
+  },
+  {
+   "beat": 11,
+   "ratio": 1.0
+  },
+  {
+   "beat": 12,
+   "ratio": 1.0
+  },
+  {
+   "beat": 13,
+   "ratio": 1.0
+  },
+  {
+   "beat": 14,
+   "ratio": 1.0
+  },
+  {
+   "beat": 16,
+   "ratio": 1.0
+  },
+  {
+   "beat": 17,
+   "ratio": 1.0
+  },
+  {
+   "beat": 18,
+   "ratio": 1.0
+  },
+  {
+   "beat": 19,
+   "ratio": 1.0
+  },
+  {
+   "beat": 20,
+   "ratio": 0.95
+  },
+  {
+   "beat": 21,
+   "ratio": 1.0
+  },
+  {
+   "beat": 22,
+   "ratio": 1.0
+  },
+  {
+   "beat": 23,
+   "ratio": 1.0
+  },
+  {
+   "beat": 24,
+   "ratio": 1.0
+  },
+  {
+   "beat": 25,
+   "ratio": 1.0
+  },
+  {
+   "beat": 26,
+   "ratio": 1.0
+  }
+ ],
+ "measurement": "10ms RMS>.004 after peak normalisation; phrase-level, not forced syllable alignment",
+ "cleaned": "0 breath/noise islands gated out"
+}

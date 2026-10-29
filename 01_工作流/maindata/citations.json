@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "note": "全局史料引文库。一条出处录入一次，各集按 canonical id 引用。aliases 收录历史上出现过的重复 id，避免同源重复登记。",
+  "citations": [
+    {"id": "zztj-082", "type": "史书", "work": "资治通鉴", "author": "司马光", "volume": "卷82", "section": "晋纪四", "range": "291", "url": "https://zh.wikisource.org/wiki/資治通鑑/卷082", "aliases": ["zztj82", "zjtg82"], "note": "元康元年（291）"},
+    {"id": "zztj-084", "type": "史书", "work": "资治通鉴", "author": "司马光", "volume": "卷84", "section": "晋纪六", "range": "301-302", "url": "https://zh.wikisource.org/wiki/資治通鑑/卷084", "aliases": ["zztj84"], "note": "永宁元年与太安元年"},
+    {"id": "zztj-085", "type": "史书", "work": "资治通鉴", "author": "司马光", "volume": "卷85", "section": "晋纪七", "range": "303-304", "url": "https://zh.wikisource.org/wiki/資治通鑑/卷085", "aliases": ["zztj85", "zjtg85"], "note": "太安二年与永兴元年"},
+    {"id": "zztj-086", "type": "史书", "work": "资治通鉴", "author": "司马光", "volume": "卷86", "section": "晋纪八", "range": "306", "url": "https://zh.wikisource.org/wiki/資治通鑑/卷086", "aliases": ["zztj86", "zjtg86"], "note": "光熙元年"},
+    {"id": "zztj-087", "type": "史书", "work": "资治通鉴", "author": "司马光", "volume": "卷87", "section": "晋纪九", "range": "307-309", "url": "https://zh.wikisource.org/wiki/資治通鑑/卷087", "aliases": ["zztj87"]},
+    {"id": "jinshu-004", "type": "史书", "work": "晋书", "author": "房玄龄等", "volume": "卷4", "section": "惠帝纪", "url": "https://zh.wikisource.org/wiki/晉書/卷004", "aliases": ["jin4"]},
+    {"id": "jinshu-005", "type": "史书", "work": "晋书", "author": "房玄龄等", "volume": "卷5", "section": "怀帝纪", "url": "https://zh.wikisource.org/wiki/晉書/卷005", "aliases": ["jin5"]},
+    {"id": "jinshu-031", "type": "史书", "work": "晋书", "author": "房玄龄等", "volume": "卷31", "section": "惠贾皇后传", "url": "https://zh.wikisource.org/wiki/晉書/卷031", "aliases": ["jin31"]},
+    {"id": "jinshu-059", "type": "史书", "work": "晋书", "author": "房玄龄等", "volume": "卷59", "section": "宗王列传（汝南王亮·楚王玮·赵王伦·齐王冏·长沙王乂·成都王颖·河间王颙·东海王越）", "url": "https://zh.wikisource.org/wiki/晉書/卷059", "aliases": ["jin59"], "note": "八王之乱八王合传"},
+
+    {"id": "geoalbers-262", "type": "地理数据", "work": "历史版图第二期 三国（公元262年）", "path": "收集数据汇总/02_历史版图第二期/三国(公元262年).geojson", "status": "本地资料；边界精度待核"},
+    {"id": "world-300", "type": "地理数据", "work": "historical-basemaps world_300.geojson", "path": "历史视频素材库/06_历史世界地图/historical-basemaps-master/地理 JSON（全球公元）/world_300.geojson", "selector": "NAME=Jin / BORDERPRECISION=1", "status": "内部技术参考；数据许可和历史边界待核"},
+    {"id": "world-400", "type": "地理数据", "work": "historical-basemaps world_400.geojson", "path": "历史视频素材库/06_历史世界地图/historical-basemaps-master/地理 JSON（全球公元）/world_400.geojson", "selector": "NAME=Jin / BORDERPRECISION=1", "status": "内部技术参考；数据许可和历史边界待核"},
+    {"id": "terrain-naturalearth", "type": "地理数据", "work": "Natural Earth 1:50m land/coast/rivers + Gray Earth relief", "aliases": ["terrain"], "status": "本地缓存"},
+
+    {"id": "ye-site", "type": "遗址考据", "work": "邺城遗址", "url": "https://wenwu.hebei.gov.cn/system/2023/10/16/030257950.shtml", "coordinateSource": "https://www.wikidata.org/wiki/Q1274372", "aliases": ["ye-place"], "status": "近似考古地点，非城墙范围"},
+    {"id": "luoyang-site", "type": "遗址考据", "work": "汉魏洛阳城遗址", "url": "https://lysrd.henanrd.gov.cn/2025/07-16/223000.html", "coordinateSource": "https://www.wikidata.org/wiki/Q11133430", "status": "近似考古地点；西晋都城在汉魏故城，不在今洛阳城区"},
+    {"id": "changan-site", "type": "遗址考据", "work": "汉长安城遗址", "coordinateSource": "https://wantulu.com/heritage/shaanxi/heritage_mrktnx7j8dea97/", "status": "区域级定位，非复原宫城"},
+    {"id": "jiankang-site", "type": "遗址考据", "work": "建康/建邺古城", "url": "https://www.xwzf.gov.cn/zjxw/xwgk/lsyg/", "coordinateSource": "https://www.wikidata.org/wiki/Q1330294", "aliases": ["nanjing-place"], "status": "近似古城点"},
+    {"id": "xuchang-pilot", "type": "遗址考据", "work": "许昌（试点遗留近似点）", "status": "⚠️ 无确切古址地理参考；来自 director-v10a.json 的试点近似，需重考"}
+  ],
+  "duplicationFindings": [
+    {"merged": ["zztj82 → zztj-082", "zjtg82 → zztj-082"], "note": "同一卷《资治通鉴》卷八十二被登记为两个 id（缩写不一致）"},
+    {"merged": ["zztj85 → zztj-085", "zjtg85 → zztj-085"]},
+    {"merged": ["zztj86 → zztj-086", "zjtg86 → zztj-086"]}
+  ]
+}

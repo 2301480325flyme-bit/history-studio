@@ -1,0 +1,76 @@
+# 演示：复合动作 4 · 年份变化，地图保留记忆（yearshift）
+id: zz-yearshift
+title: 组件演示 · 十一年天下巨变
+series: History Studio 复合动作
+year: 189
+
+notes:
+  - 200 年格局按州郡大势示意：袁绍据冀青幽并，曹操据兖豫徐与淮南，孙策据江东，刘表荆州，刘璋益州，张鲁汉中；凉州马腾、韩遂与交州士燮控制范围不稳，画斜纹。
+  - 司隶名义上属朝廷（曹操挟天子），关中诸将各自为政，画为曹操斜纹示意。
+
+map:
+  center: [111.0, 32.0]
+  scale: 3500
+  extent: [82.0, 4.0, 145.0, 52.0]
+  basemap: dem
+  river_rank: 4
+  focus_zoom: 2.2
+  watermark: 东汉
+
+voice: {mode: placeholder}
+
+sources_local:
+  - {id: sgz-01, work: 三国志, volume: 卷一·武帝纪, url: 'https://zh.wikisource.org/wiki/三國志/卷01'}
+
+territory:
+  cells: han-140
+  zhou_labels: true
+  polities:
+    汉室: {slot: tan, label_at: 洛阳, main: true}
+    董卓: {slot: violet, label_at: 长安}
+    曹操: {slot: blue, label_at: 许昌}
+    袁绍: {slot: lemon, label_at: 邺}
+    孙策: {slot: brick, label_at: 吴}
+    刘表: {slot: jade, label_at: 襄阳}
+    刘璋: {slot: olive, label_at: 成都}
+    张鲁: {slot: aqua, label_at: 南郑}
+    马腾韩遂: {slot: lavender}
+    士燮: {slot: pink}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: left, tier: capital}
+  长安: {id: changan_han_city, show: false}
+  许昌: {id: xuchang_approx, name: 许, show: false}
+  邺: {id: ye_city, show: false}
+  吴: {id: wu_city, show: false}
+  襄阳: {id: xiangyang, show: false}
+  成都: {id: chengdu_city, show: false}
+  南郑: {id: nanzheng, show: false}
+
+camera:
+  focus: [洛阳, 襄阳]
+  zoom: 1.05
+
+beats:
+  - say: 中平六年，天下名义上还是大汉的，只有京城落在了董卓手里。
+    year: 189
+    sources: [sgz-01]
+    owners: {汉室: [冀州, 青州, 幽州, 并州, 兖州, 豫州, 徐州, 扬州, 荆州, 益州, 凉州, 交州], 董卓: [司隶]}
+
+  - say: 可是短短十一年后，同一张地图，已经被群雄瓜分得七零八落。
+    sources: [sgz-01]
+    owners:
+      袁绍: [冀州, 青州, 幽州, 并州]
+      曹操: [兖州, 豫州, 徐州, 司隶, 九江郡]
+      孙策: [扬州]
+      刘表: [荆州]
+      刘璋: [益州]
+      张鲁: [汉中郡]
+      马腾韩遂: [凉州]
+      士燮: [交州]
+    uncertain: [凉州, 交州, 司隶]
+    show:
+      - yearshift: {to: 200, cue: 十一年后, ghost: 6}
+
+  - say: 北方袁绍、曹操两强对峙，一场决定天下的大战，即将在官渡打响。
+    sources: [sgz-01]

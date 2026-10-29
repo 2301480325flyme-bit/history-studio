@@ -1,0 +1,344 @@
+# 快节奏版（2026-10-14，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第17集：讨荆州、湘水划界、曹操取汉中、张辽威震逍遥津（215）
+# 本地语料核对：
+# 先主传"二十年，孙权以先主已得益州，使使报欲得荆州。先主言：须得凉州，当以荆州相与。权忿之，乃遣吕蒙袭夺长沙、零陵、桂阳三郡。先主引兵五万下公安，令关羽入益阳。是岁，曹公定汉中，张鲁遁走巴西。先主闻之，与权连和，分荆州…"；
+# 鲁肃传"肃邀羽相见，各驻兵马百步上，但诸将军单刀俱会…坐有一人曰：夫土地者，惟德所在耳，何常之有！肃厉声呵之…羽操刀起谓曰：此自国家事，是人何知！目使之去。备遂割湘水为界"；
+# 武帝纪"秋七月，公至阳平。张鲁使弟卫与将杨昂等据阳平关…攻之不能拔，乃引军还。贼见大军退，其守备解散。公乃密遣解剽、高祚等乘险夜袭，大破之…鲁溃奔巴中。公军入南郑"；
+# 张鲁传"左右欲悉烧宝货仓库，鲁曰…宝货仓库，国家之有。遂封藏而去。太祖入南郑，甚嘉之"；
+# 张辽传"太祖征张鲁，教与护军薛悌，署函边曰贼至乃发。俄而权率十万众围合肥…教曰：若孙权至者，张、李将军出战；乐将军守…辽夜募敢从之士，得八百人，椎牛飨将士…平旦，辽被甲持戟，先登陷陈，杀数十人，斩二将，大呼自名，冲垒入，至权麾下。权大惊…走登高冢，以长戟自守。辽叱权下战，权不敢动…乃聚围辽数重。辽左右麾围，直前急击，围开…余众号呼曰：将军弃我乎！辽复还突围，拔出余众…自旦战至日中，吴人夺气…权守合肥十余日，城不可拔，乃引退。辽率诸军追击，几复获权…建安二十一年，太祖复征孙权，到合肥，循行辽战处，叹息者良久"；
+# 吴主传"权与淩统、甘宁等在津北为魏将张辽所袭，统等以死扞权。权乘骏马越津桥得去"。
+# 不用："张辽止啼"（出自后世）；关羽"单刀赴会"的演义情节（史书是鲁肃邀关羽，双方各带刀）。
+
+id: s01e17-xiaoyaojin
+title: 逍遥津
+series: 三国 · 第17集
+year: 215
+
+notes:
+  - 主线问题：孙权十万大军围合肥，怎么被八百人打怕了？——趁敌人没站稳先打掉锐气；主将冲在最前，大喊自己的名字。
+  - 反差：十万对七千，城外的人反倒先怕了；孙权站在土丘上举着长戟，不敢下来。
+  - 细节：曹操留下的密函"贼至乃发"；杀牛犒劳八百死士；"将军弃我乎"——张辽又杀回去救人；孙权骑马跳过断了的津桥。
+  - 动机：孙权趁曹操远在汉中出兵；刘备怕曹操从汉中南下，赶紧和孙权讲和，湘水划界。
+  - 演义对照："单刀赴会"小说里是关羽的独角戏，史书是鲁肃邀关羽、双方将领各带一把刀会面，鲁肃占了上风。
+
+map:
+  center: [113.0, 31.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-17 史图风
+  river_rank: 4
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 八百人，冲进十万大军，差点活捉孙权
+  big: [威震逍遥津]
+  hero: 张辽
+  at: 30
+  summary: |
+    刘备拿下益州，孙权来讨荆州，刘备说"等我拿下凉州再给你"。孙权派吕蒙夺了三郡，鲁肃和关羽各带一把刀会面。曹操突然打下汉中，刘备只好讲和，湘水为界，平分荆州。
+    孙权趁曹操远在汉中，带十万人围合肥。张辽拆开曹操留下的密函，连夜招募八百死士，天亮冲进吴军大营，大喊自己的名字，直杀到孙权的大旗下。孙权围城十几天不下，撤退时在逍遥津差点被追上，骑马跳过断桥才逃走。
+  tags: [逍遥津, 张辽, 孙权, 合肥之战, 单刀会]
+  next: 定军山，刘备夺汉中
+
+sources_local:
+  - {id: sgz-01, work: 三国志, volume: 卷一·武帝纪, url: 'https://zh.wikisource.org/wiki/三國志/卷01'}
+  - {id: sgz-08, work: 三国志, volume: 卷八·张鲁传, url: 'https://zh.wikisource.org/wiki/三國志/卷08'}
+  - {id: sgz-17, work: 三国志, volume: 卷十七·张辽传, url: 'https://zh.wikisource.org/wiki/三國志/卷17'}
+  - {id: sgz-32, work: 三国志, volume: 卷三十二·先主传, url: 'https://zh.wikisource.org/wiki/三國志/卷32'}
+  - {id: sgz-47, work: 三国志, volume: 卷四十七·吴主传, url: 'https://zh.wikisource.org/wiki/三國志/卷47'}
+  - {id: sgz-54, work: 三国志, volume: 卷五十四·鲁肃传, url: 'https://zh.wikisource.org/wiki/三國志/卷54'}
+
+factions: {曹操: '#2f5d3a', 刘备: '#5f8f3a', 孙权: '#b0841f', 张鲁: '#a0632a'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    汉室: {slot: stone, main: true, label_at: 洛阳}
+    关中诸将: {slot: lavender}
+    张鲁: {slot: orange, label_at: 南郑}
+    曹操: {slot: jade, label_at: 许}
+    孙权: {slot: lemon, label_at: 柴桑}
+    刘备: {slot: pink, label_at: 成都}
+
+people:
+  李典: {image: 03_素材/人物立绘/li_dian.png, title: 破虏将军, role: 守合肥, faction: 曹操}
+  凌统: {image: 03_素材/人物立绘/ling_tong.png, title: 偏将军, role: 以死扞权, faction: 孙权}
+  甘宁: {image: 03_素材/人物立绘/gan_ning.png, title: 折冲将军, role: 逍遥津死战, faction: 孙权}
+  张辽: {image: 03_素材/人物立绘/zhang_liao.png, title: 荡寇将军, role: 守合肥, faction: 曹操}
+  孙权: {image: 03_素材/人物立绘/sun_quan.png, title: 车骑将军, role: 围合肥, faction: 孙权}
+  刘备: {image: 03_素材/人物立绘/liu_bei.png, title: 益州牧, role: 不还荆州, faction: 刘备}
+  鲁肃: {image: 03_素材/人物立绘/lu_su.png, title: 横江将军, role: 单刀俱会, faction: 孙权}
+  关羽: {image: 03_素材/人物立绘/guan_yu.png, title: 荡寇将军, role: 镇荆州, faction: 刘备}
+  吕蒙: {image: 03_素材/人物立绘/lv_meng.png, title: 孙权部将, role: 袭夺三郡, faction: 孙权}
+  曹操: {image: 03_素材/人物立绘/cao_cao.png, title: 魏公, role: 西征汉中, faction: 曹操}
+  张鲁: {image: 03_素材/人物立绘/zhang_lu.png, title: 汉中之主, role: 封藏而去, faction: 张鲁}
+
+places:
+  成都: {id: chengdu_city, label: left, tier: capital}
+  南郑: {id: nanzheng, label: right}
+  阳平关: {id: yangpingguan, label: left, tier: pass}
+  阆中: {id: langzhong, name: 巴中, label: right}
+  长安: {id: changan_han_city, label: right}
+  许: {id: xuchang_approx, label: right, tier: capital}
+  公安: {id: gongan_han, label: left}
+  江陵: {id: jiangling, label: left}
+  益阳: {id: yiyang_han, label: left}
+  长沙: {id: changsha_c, label: right}
+  零陵: {id: quanling, name: 零陵, label: left}
+  桂阳: {id: chen_guiyang, name: 桂阳, label: right}
+  柴桑: {id: chaisang, label: right}
+  濡须: {id: ruxu, label: right}
+  合肥: {id: hefei, label: left}
+  逍遥津: {id: xiaoyaojin, label: right}
+
+camera:
+  focus: [合肥, 濡须]
+  zoom: 2.0
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 八百人，冲进了十万人的大营，差点活捉了孙权。
+    map: '214-10'
+    year: 215
+    phase: 八百
+    sources: [sgz-17]
+    camera: {focus: [合肥, 濡须], zoom: fit, move: 1.6}
+    show:
+      - sfx: 重拍转场
+      - enter: {who: 张辽, side: left, cue: 八百人, for: 4}
+      - sfx: {name: 古风擂鼓, cue: 冲进}
+
+  - say: 带头的那个人，一边砍，一边大喊自己的名字。
+    sources: [sgz-17]
+    show:
+      - quote: {text: 大呼自名，冲垒入，至权麾下, source: 三国志·张辽传, era: 建安二十年, cue: 名字, for: 4}
+
+  # ---------------- 第一章 讨荆州 ----------------
+  - say: 事情要从荆州说起。刘备拿下益州，孙权派人来要荆州。刘备回话：
+    phase: 讨荆州
+    sources: [sgz-32]
+    camera: {focus: [成都, 公安, 柴桑], zoom: fit, move: 1.6}
+    show:
+      - title_bar: {text: 逍遥津, sub: 三国 · 第17集, for: 3.2}
+      - sfx: 片头鼓
+      - versus: {left: 孙权, right: 刘备, label: 讨荆州, cue: 要荆州, for: 4}
+
+  - say: 等我拿下凉州，荆州自然给你。
+    speaker: 刘备
+    style: 温和客气，不急不缓，打着太极
+    sources: [sgz-32]
+
+  - say: 凉州还在曹操手里。孙权大怒，派吕蒙一口气夺了长沙、零陵、桂阳。
+    map: '215-05'
+    owners_cue: 夺了
+    sources: [sgz-32]
+    camera: {focus: [公安, 长沙, 零陵, 桂阳], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 吕蒙, side: right, cue: 吕蒙, for: 3}
+      - march: {from: 柴桑, to: 长沙, faction: 孙权, label: 袭夺三郡, cue: 夺了, grow: 1.6}
+      - sfx: {name: 疆域易手, cue: 夺了}
+
+  - say: 刘备带五万人赶到公安，派关羽进兵益阳，两家眼看就要开打。
+    sources: [sgz-32]
+    show:
+      - army: {from: 江陵, to: 益阳, faction: 刘备, head: 关羽, troops: infantry, size: 2.4, cue: 益阳, grow: 1.6}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 鲁肃约关羽见面。兵马都停在一百步外，双方将领只带一把刀。
+    sources: [sgz-54]
+    camera: {focus: 益阳, zoom: 8, move: 1.2}
+    show:
+      - camp: {at: 益阳, unit: 鲁肃, faction: 孙权, text: 鲁肃, cue: 鲁肃, until: beat+11}
+      - versus: {left: 鲁肃, right: 关羽, label: 单刀俱会, cue: 一把刀, for: 2.6}
+      - sfx: {name: 拔剑, cue: 一把刀}
+
+  - say: 鲁肃当面质问：当初借地给你们，是看你们打了败仗，没地方落脚。
+    sources: [sgz-54]
+    camera: {focus: 益阳, zoom: 11, move: 2.4}
+    show:
+      - quote: {text: 国家区区本以土地借卿家者，卿家军败远来，无以为资故也, source: 三国志·鲁肃传, era: 建安二十年, cue: 借地, for: 4.2}
+
+  - say: 如今得了益州，连三个郡都不肯还？
+    sources: [sgz-54]
+    show:
+      - quote: {text: 今已得益州，既无奉还之意，但求三郡，又不从命, source: 三国志·鲁肃传, era: 建安二十年, cue: 益州, for: 3.6}
+
+  - say: 就在这时，曹操率大军去打汉中的张鲁。
+    sources: [sgz-01]
+    camera: {focus: [长安, 南郑, 成都, 公安], zoom: fit, move: 1.6}
+
+  # ---------------- 第二章 汉中 ----------------
+  - say: 曹军到了阳平关。张鲁派弟弟张卫守关，沿山筑起十几里的城墙，曹军怎么也攻不下。
+    phase: 汉中
+    sources: [sgz-01]
+    camera: {focus: [长安, 阳平关, 南郑], zoom: fit, move: 1.4}
+    show:
+      - camp: {at: 阳平关, unit: 张卫, faction: 张鲁, text: 张卫, cue: 张卫}
+      - army: {from: 长安, to: 阳平关, faction: 曹操, head: 曹操, troops: infantry, size: 2.6, cue: 阳平关, grow: 2.0}
+      - battle: {at: 阳平关, text: 横山筑城十余里, cue: 攻不下}
+
+  - say: 曹操只好撤兵。守军以为曹军走了，防备松懈。曹操派兵趁夜翻山偷袭，大破阳平关。
+    sources: [sgz-01]
+    camera: {focus: [阳平关, 南郑], zoom: fit, move: 1.2}
+    show:
+      - act: {act: night, places: [阳平关], cue: 趁夜, text: 乘险夜袭}
+      - battle: {at: 阳平关, text: 大破之, cue: 大破}
+      - rout: {at: 阳平关, to: 南郑, faction: 张鲁, unit: 张卫, cue: 大破, size: 1.6}
+
+  - say: 张鲁逃往巴中。手下要烧掉仓库，张鲁拦住了：
+    sources: [sgz-08]
+    camera: {focus: [南郑, 阆中], zoom: fit, move: 1.2}
+    show:
+      - enter: {who: 张鲁, at: 南郑, side: right, cue: 张鲁, for: 3.6}
+      - army: {from: 南郑, to: 阆中, faction: 张鲁, head: 张鲁, troops: infantry, size: 1.8, cue: 巴中, grow: 1.8}
+
+  - say: 这些财宝仓库，是国家的，烧不得。
+    speaker: 张鲁
+    style: 平静诚恳，挥手制止，不慌不忙
+    sources: [sgz-08]
+
+  - say: 他把仓库封好才走。曹操进了南郑，见仓库完好无损，很是赞赏。
+    map: '215-07'
+    owners_cue: 南郑
+    sources: [sgz-08, sgz-01]
+    camera: {focus: [阳平关, 南郑, 阆中], zoom: fit, move: 1.2}
+    show:
+      - army: {from: 阳平关, to: 南郑, faction: 曹操, head: 曹操, troops: infantry, size: 2.6, cue: 南郑, grow: 1.8}
+
+  - say: 张鲁本就想归顺朝廷。曹操派人去巴中安抚，张鲁带着全家出来投降，被封为阆中侯。
+    sources: [sgz-08]
+    camera: {focus: [南郑, 阆中], zoom: fit, move: 1.2}
+    show:
+      - army: {from: 阆中, to: 南郑, faction: 张鲁, head: 张鲁, troops: infantry, size: 1.2, cue: 投降, grow: 1.6, camp: false}
+      - flag: {at: 南郑, name: 张鲁, sub: 投降 · 封阆中侯, faction: 曹操, cue: 投降}
+
+  - say: 汉中丢了，刘备怕后院起火，赶紧跟孙权讲和。
+    sources: [sgz-32]
+    camera: {focus: [南郑, 成都, 公安], zoom: fit, move: 1.6}
+
+  - say: 两家以湘水为界：东边的江夏、长沙、桂阳归孙权，西边的南郡、零陵、武陵归刘备。
+    map: '215-08'
+    owners_cue: 湘水为界
+    sources: [sgz-32, sgz-54]
+    camera: {focus: [江陵, 长沙, 零陵], zoom: fit, move: 1.4}
+    show:
+      - army: {from: 益阳, to: 江陵, faction: 刘备, head: 关羽, troops: infantry, size: 2, cue: 湘水, grow: 1.6}
+      - headline: {text: 湘水划界, sub: 建安二十年, cue: 湘水, for: 3.2}
+      - sfx: {name: 疆域易手, cue: 湘水}
+
+  # ---------------- 第三章 密函 ----------------
+  - say: 曹操远在汉中。孙权一看机会来了，带着十万大军，包围了合肥。
+    phase: 密函
+    sources: [sgz-17, sgz-47]
+    camera: {focus: [濡须, 合肥], zoom: 6, move: 1.4}
+    show:
+      - army: {from: 濡须, to: 合肥, faction: 孙权, head: 孙权, troops: infantry, size: 3.6, cue: 十万大军, grow: 1.6}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 合肥城里，只有张辽、乐进、李典，七千多人。
+    sources: [sgz-17]
+    show:
+      - flag: {at: 合肥, name: 张辽 · 乐进 · 李典, sub: 七千余人, faction: 曹操, cue: 七千}
+      - enter: {who: 李典, side: right, cue: 李典, for: 2.6}
+
+  - say: 他们拆开曹操临走留下的密函，上面写着：敌人来了才能打开。
+    sources: [sgz-17]
+    show:
+      - quote: {text: 贼至乃发, source: 三国志·张辽传, era: 建安二十年, cue: 密函, for: 3.6}
+
+  - say: 信里说：孙权来了，张辽、李典出城迎战，乐进守城。将领们都犯嘀咕。张辽说：
+    sources: [sgz-17]
+
+  - say: 等救兵赶到，我们早完了！趁他们还没站稳，先打掉他们的锐气，城才守得住！
+    speaker: 张辽
+    style: 斩钉截铁，杀气腾腾，声如洪钟
+    scene: 军帐
+    sources: [sgz-17]
+
+  - say: 当天夜里，张辽招募敢死的勇士，一共八百人。杀牛犒劳，准备天亮决战。
+    sources: [sgz-17]
+    scene: 军帐
+    show:
+      - tactic: {layout: raid, title: 合肥之战 · 示意, attacker: 曹操, defender: 孙权, banner_a: 张, banner_d: 孙, labels: {a: 张辽 · 敢死八百, d: 孙权 · 号称十万, city: 合肥, mound: 高冢}, phase: deploy, cue: 八百}
+      - card: {title: 八百死士, body: 辽夜募敢从之士，得八百人，椎牛飨将士, cue: 八百人}
+
+  # ---------------- 第四章 逍遥津 ----------------
+  - say: 天一亮，张辽披甲持戟，第一个冲进敌阵，杀了几十人，斩了两员将，一路杀到孙权的大旗下。
+    phase: 逍遥津
+    sources: [sgz-17]
+    camera: {focus: 合肥, zoom: 12, move: 1.2}
+    show:
+      - tactic: {layout: raid, title: 合肥之战 · 示意, attacker: 曹操, defender: 孙权, banner_a: 张, banner_d: 孙, labels: {a: 张辽 · 敢死八百, d: 孙权 · 号称十万, city: 合肥, mound: 高冢}, phase: charge, cue: 冲进敌阵}
+      - sfx: {name: 刀剑交击, cue: 杀了}
+
+  - say: 孙权吓坏了，跑上一个土丘，举着长戟护住自己。张辽在下面喊他下来打，孙权不敢动。
+    sources: [sgz-17]
+    show:
+      - tactic: {layout: raid, title: 合肥之战 · 示意, attacker: 曹操, defender: 孙权, banner_a: 张, banner_d: 孙, labels: {a: 张辽 · 敢死八百, d: 孙权 · 号称十万, city: 合肥, mound: 高冢}, phase: climb, cue: 土丘}
+      - enter: {who: 孙权, side: right, cue: 孙权, for: 3.6}
+
+  - say: 吴军一层层围上来。张辽杀开一条口子冲了出去，身后的人喊：将军，你不要我们了吗！
+    sources: [sgz-17]
+    show:
+      - tactic: {layout: raid, title: 合肥之战 · 示意, attacker: 曹操, defender: 孙权, banner_a: 张, banner_d: 孙, labels: {a: 张辽 · 敢死八百, d: 孙权 · 号称十万, city: 合肥, mound: 高冢}, phase: breakout, cue: 杀开, for: 6.5}
+      - tactic: {layout: raid, title: 合肥之战 · 示意, attacker: 曹操, defender: 孙权, banner_a: 张, banner_d: 孙, labels: {a: 张辽 · 敢死八百, d: 孙权 · 号称十万, city: 合肥, mound: 高冢}, phase: surround, cue: 围上来}
+      - quote: {text: 将军弃我乎, source: 三国志·张辽传, era: 建安二十年, cue: 不要我们, for: 3.6}
+
+  - say: 张辽又杀了回去，把剩下的人全救了出来。从早上打到中午，吴军的士气，彻底垮了。
+    sources: [sgz-17]
+    show:
+      - vignette: {image: illus_zhangliao_rescue, cue: 从早上, for: 4.5, text: 张辽杀回重围}
+      - sfx: {name: 古风擂鼓, cue: 杀了回去}
+
+  - say: 孙权围了十几天，合肥还是打不下，只好撤兵。
+    sources: [sgz-17]
+
+  - say: 撤到逍遥津北岸，张辽又追了上来。凌统、甘宁拼死挡住，孙权骑马跳过津桥，才逃了出去。
+    sources: [sgz-47, sgz-17]
+    camera: {focus: [合肥, 逍遥津], zoom: 18, move: 1.2}
+    show:
+      - enter: {who: 凌统, side: right, cue: 凌统, for: 3}
+      - enter: {who: 甘宁, side: left, cue: 甘宁, for: 3.4}
+      - rout: {at: 合肥, to: 濡须, faction: 孙权, head: 孙权, banner: 孙, cue: 撤到, size: 2.4}
+      - battle: {at: 逍遥津, text: 越津桥得去, cue: 跳过}
+
+  - say: 第二年，曹操来到合肥，在张辽打仗的地方转了一圈，叹息了很久。
+    year: 216
+    sources: [sgz-17]
+    camera: {focus: [合肥, 濡须], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 曹操, side: left, cue: 曹操, for: 3.4}
+
+  - say: 八百人凭什么吓退十万？趁敌人没站稳，先把锐气打掉；主将冲在最前面，喊着自己的名字。
+    sources: [sgz-17]
+    show:
+      - headline: {text: 威震逍遥津, sub: 建安二十年, for: 3.4}
+      - card: {title: 演义 vs 正史, body: 单刀赴会在史书里是鲁肃邀关羽、双方各带一刀，占上风的是鲁肃, cue: 主将}
+
+  - say: 张辽和孙权，你觉得谁的胆子更大？
+    sources: [sgz-17]
+
+  - say: 可曹操这一走，汉中就交给了夏侯渊。法正对刘备说：汉中，必须拿下。
+    sources: [sgz-32]
+    camera: {focus: [南郑, 成都], zoom: fit, move: 1.6}
+    show:
+      - camp: {at: 南郑, unit: 夏侯渊, faction: 曹操, text: 夏侯渊, cue: 夏侯渊}
+      - army: {from: 南郑, to: 长安, faction: 曹操, head: 曹操, troops: infantry, size: 2.4, cue: 这一走, grow: 1.8}
+      - title_bar: {text: 下集, sub: 定军山 · 汉中王, cue: 汉中, delay: 0.4, for: 3.0}

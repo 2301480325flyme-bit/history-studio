@@ -1,0 +1,536 @@
+{
+ "mode": "mimo",
+ "beats": [
+  {
+   "file_start": 0.3,
+   "file_end": 4.317,
+   "voice_onset": 0.41,
+   "voice_offset": 4.22
+  },
+  {
+   "file_start": 4.617,
+   "file_end": 10.164,
+   "voice_onset": 4.737,
+   "voice_offset": 9.807
+  },
+  {
+   "file_start": 10.464,
+   "file_end": 14.394,
+   "voice_onset": 10.684,
+   "voice_offset": 13.944
+  },
+  {
+   "file_start": 14.694,
+   "file_end": 20.215,
+   "voice_onset": 14.774,
+   "voice_offset": 20.214
+  },
+  {
+   "file_start": 20.515,
+   "file_end": 26.232,
+   "voice_onset": 20.535,
+   "voice_offset": 25.995
+  },
+  {
+   "file_start": 26.232,
+   "file_end": 29.793,
+   "voice_onset": 26.522,
+   "voice_offset": 29.552
+  },
+  {
+   "file_start": 29.793,
+   "file_end": 36.393,
+   "voice_onset": 30.083,
+   "voice_offset": 36.163
+  },
+  {
+   "file_start": 36.393,
+   "file_end": 40.339,
+   "voice_onset": 36.693,
+   "voice_offset": 40.093
+  },
+  {
+   "file_start": 40.339,
+   "file_end": 44.285,
+   "voice_onset": 40.629,
+   "voice_offset": 44.049
+  },
+  {
+   "file_start": 44.285,
+   "file_end": 48.714,
+   "voice_onset": 44.585,
+   "voice_offset": 48.475
+  },
+  {
+   "file_start": 48.714,
+   "file_end": 55.665,
+   "voice_onset": 49.014,
+   "voice_offset": 55.664
+  },
+  {
+   "file_start": 55.965,
+   "file_end": 61.55,
+   "voice_onset": 56.025,
+   "voice_offset": 61.295
+  },
+  {
+   "file_start": 61.55,
+   "file_end": 68.072,
+   "voice_onset": 61.83,
+   "voice_offset": 67.84
+  },
+  {
+   "file_start": 68.072,
+   "file_end": 72.474,
+   "voice_onset": 68.372,
+   "voice_offset": 72.212
+  },
+  {
+   "file_start": 72.474,
+   "file_end": 78.681,
+   "voice_onset": 72.754,
+   "voice_offset": 78.434
+  },
+  {
+   "file_start": 78.681,
+   "file_end": 80.72,
+   "voice_onset": 78.981,
+   "voice_offset": 80.671
+  },
+  {
+   "file_start": 81.02,
+   "file_end": 89.74,
+   "voice_onset": 81.1,
+   "voice_offset": 89.37
+  },
+  {
+   "file_start": 90.04,
+   "file_end": 94.975,
+   "voice_onset": 90.07,
+   "voice_offset": 94.97
+  },
+  {
+   "file_start": 95.275,
+   "file_end": 99.792,
+   "voice_onset": 95.365,
+   "voice_offset": 99.555
+  },
+  {
+   "file_start": 99.792,
+   "file_end": 104.685,
+   "voice_onset": 100.072,
+   "voice_offset": 104.432
+  },
+  {
+   "file_start": 104.685,
+   "file_end": 109.114,
+   "voice_onset": 104.965,
+   "voice_offset": 108.875
+  },
+  {
+   "file_start": 109.114,
+   "file_end": 115.636,
+   "voice_onset": 109.404,
+   "voice_offset": 115.374
+  },
+  {
+   "file_start": 115.636,
+   "file_end": 120.413,
+   "voice_onset": 115.916,
+   "voice_offset": 120.156
+  },
+  {
+   "file_start": 120.413,
+   "file_end": 125.157,
+   "voice_onset": 120.703,
+   "voice_offset": 124.933
+  },
+  {
+   "file_start": 125.157,
+   "file_end": 131.706,
+   "voice_onset": 125.467,
+   "voice_offset": 131.697
+  },
+  {
+   "file_start": 132.006,
+   "file_end": 137.135,
+   "voice_onset": 132.076,
+   "voice_offset": 136.886
+  },
+  {
+   "file_start": 137.135,
+   "file_end": 140.932,
+   "voice_onset": 137.435,
+   "voice_offset": 140.655
+  },
+  {
+   "file_start": 140.932,
+   "file_end": 146.655,
+   "voice_onset": 141.042,
+   "voice_offset": 146.652
+  },
+  {
+   "file_start": 146.955,
+   "file_end": 156.688,
+   "voice_onset": 147.095,
+   "voice_offset": 156.405
+  },
+  {
+   "file_start": 156.988,
+   "file_end": 159.947,
+   "voice_onset": 157.128,
+   "voice_offset": 159.728
+  },
+  {
+   "file_start": 159.947,
+   "file_end": 166.371,
+   "voice_onset": 160.247,
+   "voice_offset": 166.127
+  },
+  {
+   "file_start": 166.371,
+   "file_end": 170.476,
+   "voice_onset": 166.661,
+   "voice_offset": 170.241
+  },
+  {
+   "file_start": 170.476,
+   "file_end": 174.047,
+   "voice_onset": 170.766,
+   "voice_offset": 173.796
+  },
+  {
+   "file_start": 174.047,
+   "file_end": 178.627,
+   "voice_onset": 174.337,
+   "voice_offset": 178.577
+  }
+ ],
+ "narration": "D:\\history\\codx_3 history studio\\01_工作流\\projects\\s01e16-rushu\\voice\\narration.wav",
+ "asr": [
+  {
+   "beat": 1,
+   "chapter": 1,
+   "text": "酒席对面，坐着请刘备来帮忙的人。庞统却凑过来说：",
+   "heard": "酒席对面坐着请刘备来帮忙的人，庞统却凑过来说。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 2,
+   "speaker": "庞统",
+   "text": "就趁这次见面，当场把刘璋拿下！一兵不用，整个益州就是您的！",
+   "heard": "就趁这次见面，当场把刘璋拿下，一兵不用，整个益州就是您的了。",
+   "ratio": 0.98,
+   "diff": [
+    "「」→「了」"
+   ]
+  },
+  {
+   "beat": 3,
+   "speaker": "刘备",
+   "text": "刚到人家的地方，恩信还没立住，这事不能干。",
+   "heard": "刚到人家的地方，恩信还没立住，这事不能干。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 4,
+   "chapter": 4,
+   "text": "请刘备来的，正是刘璋自己。可三年后，整个益州都成了刘备的。",
+   "heard": "请刘备来的正是刘璋自己，可三年后，整个益州都成了刘备的。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 5,
+   "chapter": 5,
+   "text": "曹操拿下关中，下一个就是汉中的张鲁。汉中一丢，益州的大门就开了。别驾张松劝刘璋：请刘备来，替咱们打张鲁。主簿黄权拼命拦：把刘备当部下，他不甘心；当客人，一个国家容不下两个主人。刘璋不听，派法正带着四千人，去荆州接刘备。可法正一见刘备，就把怎么拿下益州，全说了。刘备留下诸葛亮、关羽守荆州，自己带着几万步兵入蜀。刘璋带着三万步骑到涪城迎接，车马帐幕闪闪发光，两边一喝就是一百多天。",
+   "heard": "曹操拿下关中，下一个就是汉中的张鲁。汉中一丢，益州的大门就开了。别驾张松劝刘璋，请刘备来替咱们打张鲁。主簿黄权拼命拦，把刘备当部下，他不甘心；当客人，一个国家容不下两个主人。刘璋不听，派法正带着四千人去荆州接刘备。可法正一见刘备，就把怎么拿下益州全说了。刘备留下诸葛亮、关羽守荆州，自己带着几万步兵入蜀。刘璋带着三万步骑到涪城迎接，车马帐幕闪闪发光，两边一喝就是一百多天。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 12,
+   "chapter": 6,
+   "text": "酒喝完了，刘备北上葭萌，却不急着打张鲁，到处施恩，收买人心。一年后，曹操南下打孙权。刘备借口回救，向刘璋要一万兵。刘璋只给了四千。张松急了，写信给刘备：大事眼看就成，怎么能走！信被他亲哥哥张肃告发。刘璋杀了张松，下令各个关口，不许再和刘备来往。庞统给刘备出了三条计：",
+   "heard": "酒喝完了，刘备北上先盟，却不急着打张鲁，到处施恩，收买人心。一年后，曹操南下打孙权，刘备借口回救，向刘璋要一万兵，刘璋只给了四千。张松急了，写信给刘备，大事眼看就成，怎么能走啊？信被他亲哥哥张肃告发，刘璋杀了张松，下令各个关口不许再和刘备来往。庞统给刘备出了三条计。",
+   "ratio": 0.978,
+   "diff": [
+    "「葭萌」→「先盟」",
+    "「」→「啊」"
+   ]
+  },
+  {
+   "beat": 17,
+   "speaker": "庞统",
+   "text": "上计，挑精兵日夜赶路，直扑成都；中计，假装回荆州，骗守关的杨怀、高沛来送行，趁机拿下；下计，退回白帝。",
+   "heard": "上计，挑精兵日夜赶路，直扑成都。中计，假装回晋州，骗守关的杨怀、高沛来送行，趁机拿下。下计，退回白帝。",
+   "ratio": 0.976,
+   "diff": [
+    "「荆」→「晋」"
+   ]
+  },
+  {
+   "beat": 18,
+   "chapter": 8,
+   "text": "刘备选了中计。斩了白水军督杨怀，掉头南下，占了涪城。",
+   "heard": "刘备选了中计，斩了白水军督杨怀，掉头南下，占了涪城。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 19,
+   "chapter": 9,
+   "text": "刘璋派兵来挡，接连被打败；守绵竹的李严，干脆投降了。可到了雒城，刘璋的儿子刘循死守，一打就是将近一年。攻城的时候，庞统被流箭射中，死时只有三十六岁。刘备只好调兵。诸葛亮、张飞、赵云从荆州逆江而上，只留关羽守荆州。张飞在江州活捉了巴郡太守严颜，喝问他：为什么不投降？严颜说：我们益州，只有断头的将军，没有投降的将军！张飞大怒，要砍他的头。严颜面不改色：砍就砍，发什么火！张飞服了，放了他。",
+   "heard": "刘璋派兵来挡，接连被打败。守绵竹的李严干脆投降了。可到了雒城，刘璋的儿子刘循死守，一打就是将近一年。攻城的时候，庞统被流箭射中，死时只有三十六岁。刘备只好调兵，诸葛亮、张飞、赵云从荆州逆江而上，只留关羽守荆州。张飞在江州活捉了巴郡太守严颜，喝问他为什么不投降。严颜说：“我们益州只有断头的将军，没有投降的将军。”张飞大怒，要砍他的头。严颜面不改色：“砍就砍，发什么火？”张飞服了，放了他。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 26,
+   "chapter": 10,
+   "text": "雒城终于攻破，刘备围住了成都。逃到汉中的马超，也写信来投奔。马超带兵直接开到成都城下，城里一片惊恐。可城里还有三万精兵，粮食够吃一年，官吏百姓都愿意死战。刘璋却说：",
+   "heard": "洛城终于攻破，刘备围住了成都，逃到汉中的马超也写信来投奔。马超带兵直接开到成都城下，城里一片惊恐。可城里还有三万精兵，粮食够吃一年，官吏百姓都愿意死战。刘璋却说。",
+   "ratio": 0.986,
+   "diff": [
+    "「雒」→「洛」"
+   ]
+  },
+  {
+   "beat": 29,
+   "speaker": "刘璋",
+   "text": "我们父子在益州二十多年，没给百姓什么恩德。百姓打了三年仗，尸骨扔在野外，都是因为我。我怎么能安心！",
+   "heard": "我们父子在益州二十多年，没给百姓什么恩德，百姓打了三年仗，尸骨扔在野外，都是因为我，我怎么能安心？",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 30,
+   "chapter": 12,
+   "text": "他打开城门投降。部下没有一个不流泪。刘璋是怎么把益州请丢的？请来的是枭雄，内应就在身边，而他自己，不忍心再打下去。隆中对里那一步，跨有荆州、益州，刘备做到了。刘璋开城投降，你觉得是软弱，还是仁厚？可刘备刚坐稳成都，孙权的使者就到了：荆州，该还了吧？",
+   "heard": "他打开城门投降，部下没有一个不流泪。刘璋是怎么把益州请丢的？请来的是枭雄，内应就在身边，而他自己不忍心再打下去。隆中对里那一步，跨有荆州、益州，刘备做到了。刘璋开城投降，你觉得是软弱还是仁厚？可刘备刚坐稳成都，孙权的使者就到了，荆州该还了吧？",
+   "ratio": 1.0,
+   "diff": []
+  }
+ ],
+ "speaker_pace": [
+  {
+   "beat": 2,
+   "speaker": "庞统",
+   "rate_before": 4.16,
+   "speed": 1.2,
+   "rate": 5.0
+  },
+  {
+   "beat": 3,
+   "speaker": "刘备",
+   "rate_before": 5.6,
+   "speed": 1.0,
+   "rate": 5.6
+  },
+  {
+   "beat": 17,
+   "speaker": "庞统",
+   "rate_before": 4.01,
+   "speed": 1.25,
+   "rate": 5.0
+  },
+  {
+   "beat": 29,
+   "speaker": "刘璋",
+   "rate_before": 3.44,
+   "speed": 1.35,
+   "rate": 4.64
+  }
+ ],
+ "tempo": [
+  {
+   "chapter": 1,
+   "raw_rate": 4.57,
+   "factor": 1.143
+  },
+  {
+   "chapter": 4,
+   "raw_rate": 3.98,
+   "factor": 1.143
+  },
+  {
+   "chapter": 5,
+   "raw_rate": 4.42,
+   "factor": 1.143
+  },
+  {
+   "chapter": 6,
+   "raw_rate": 4.33,
+   "factor": 1.143
+  },
+  {
+   "chapter": 8,
+   "raw_rate": 3.89,
+   "factor": 1.143
+  },
+  {
+   "chapter": 9,
+   "raw_rate": 4.23,
+   "factor": 1.143
+  },
+  {
+   "chapter": 10,
+   "raw_rate": 4.62,
+   "factor": 1.143
+  },
+  {
+   "chapter": 12,
+   "raw_rate": 4.63,
+   "factor": 1.143
+  }
+ ],
+ "chapter_match": {
+  "eq_max_db": [
+   4.3,
+   3.9,
+   2.7,
+   5.0,
+   5.0,
+   1.9,
+   3.5,
+   2.7
+  ],
+  "level_before_db": [
+   -27.0,
+   -24.9,
+   -24.6,
+   -25.7,
+   -22.9,
+   -25.4,
+   -26.8,
+   -25.9
+  ],
+  "level_after_db": -25.4
+ },
+ "splits": [
+  {
+   "beat": 1,
+   "ratio": 1.0
+  },
+  {
+   "beat": 4,
+   "ratio": 1.0
+  },
+  {
+   "beat": 5,
+   "ratio": 1.0
+  },
+  {
+   "beat": 6,
+   "ratio": 1.0
+  },
+  {
+   "beat": 7,
+   "ratio": 1.0
+  },
+  {
+   "beat": 8,
+   "ratio": 1.0
+  },
+  {
+   "beat": 9,
+   "ratio": 1.0
+  },
+  {
+   "beat": 10,
+   "ratio": 1.0
+  },
+  {
+   "beat": 11,
+   "ratio": 1.0
+  },
+  {
+   "beat": 12,
+   "ratio": 0.92
+  },
+  {
+   "beat": 13,
+   "ratio": 1.0
+  },
+  {
+   "beat": 14,
+   "ratio": 0.974
+  },
+  {
+   "beat": 15,
+   "ratio": 1.0
+  },
+  {
+   "beat": 16,
+   "ratio": 1.0
+  },
+  {
+   "beat": 18,
+   "ratio": 0.864
+  },
+  {
+   "beat": 19,
+   "ratio": 1.0
+  },
+  {
+   "beat": 20,
+   "ratio": 0.955
+  },
+  {
+   "beat": 21,
+   "ratio": 1.0
+  },
+  {
+   "beat": 22,
+   "ratio": 1.0
+  },
+  {
+   "beat": 23,
+   "ratio": 1.0
+  },
+  {
+   "beat": 24,
+   "ratio": 0.952
+  },
+  {
+   "beat": 25,
+   "ratio": 1.0
+  },
+  {
+   "beat": 26,
+   "ratio": 0.962
+  },
+  {
+   "beat": 27,
+   "ratio": 1.0
+  },
+  {
+   "beat": 28,
+   "ratio": 0.964
+  },
+  {
+   "beat": 30,
+   "ratio": 1.0
+  },
+  {
+   "beat": 31,
+   "ratio": 1.0
+  },
+  {
+   "beat": 32,
+   "ratio": 0.944
+  },
+  {
+   "beat": 33,
+   "ratio": 1.0
+  },
+  {
+   "beat": 34,
+   "ratio": 1.0
+  }
+ ],
+ "measurement": "10ms RMS>.004 after peak normalisation; phrase-level, not forced syllable alignment",
+ "cleaned": "0 breath/noise islands gated out"
+}

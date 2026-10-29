@@ -1,0 +1,343 @@
+# 快节奏版（2026-10-25）
+# 《三国到隋》第30集 · 两晋：贾南风借刀杀人（291）。大纲第 26 条。
+# 本地语料核对（晋书）：
+# 杨骏传 p03630"殿中中郎孟观、李肇，素不为骏所礼…贾后又令肇报大司马、汝南王亮，使连兵讨骏。亮曰：骏之凶暴，死亡无日，不足忧也。肇报楚王玮，玮然之。于是求入朝…及玮至，观、肇乃启帝，夜作诏，中外戒严，遣使奉诏废骏，以侯就第"；
+#   p03631 主簿朱振"宜烧云龙门以示威…骏素怯懦，不决，乃曰：魏明帝造此大功，奈何烧之！"；
+#   p03632"殿中兵出，烧骏府，又令弩士于阁上临骏府而射之…骏逃于马厩，以戟杀之…诛骏亲党，皆夷三族，死者数千人"；
+# 后妃传·武悼杨皇后 p03077"后题帛为书，射之城外，曰救太傅者有赏，贾后因宣言太后同逆"；p03078"贾后夺之，绝膳而崩，时年三十四"；
+# 惠帝纪 p00088 永平元年三月辛卯诛杨骏，"贾后矫诏废皇太后为庶人，徙于金墉城"；"征大司马、汝南王亮为太宰，与太保卫瓘辅政…楚王玮为卫将军，领北军中候"；
+# 楚王玮传 p04579"亮、瓘以玮性很戾，不可大任，建议使与诸王之国，玮甚忿之…使惠帝为诏曰：太宰、太保欲为伊、霍之事，王宜宣诏…废二公。夜使黄门赍以授玮。玮欲覆奏，黄门曰：事恐漏泄，非密诏本意也。玮乃止"；
+#   p04580"岐盛说玮，可因兵势诛贾模、郭彰…玮犹豫未决。会天明，帝用张华计，遣殿中将军王宫赍驺虞幡麾众曰：楚王矫诏。众皆释杖而走…惟一奴年十四…遂斩之，时年二十一。其日大风，雷雨霹雳…玮临死，出其怀中青纸诏，流涕以示监刑尚书刘颂曰：受诏而行，谓为社稷，今更为罪"；
+# 卫瓘传 p03334"贾后素怨瓘…遂与子恆、岳、裔及孙等九人同被害，时年七十二"；
+# 张华传 p03364 张华白帝"玮矫诏擅害二公…今可遣驺虞幡使外军解严"；p03365"以华庶族，儒雅有筹略…虽当暗主虐后之朝，而海内晏然，华之功也"；
+# 后妃传·惠贾皇后 p03104"诛杨骏及汝南王亮、太保卫瓘、楚王玮等，皆临机专断"；"后母广城君以后无子，甚敬重愍怀"。
+# 不用：杨骏"马厩"之外的野史细节；贾后与人私通等后宫秘闻（与本集主线无关）；汝南王亮遇害细节等史料包到了再补。
+
+id: s01e30-jiahou
+title: 贾南风借刀杀人
+series: 两晋 · 第30集
+year: 291
+
+notes:
+  - 主线问题：一个手里没有一兵一卒的皇后，怎么在一年里除掉三个最有权的人？——她每一次都拿着皇帝的诏书，让别人的刀去砍；用完了，连刀一起扔掉。
+  - 钩子候选：①"她一刀没动，一年杀了三个辅政大臣"（反差3 具体2 悬念3 兑现3=11）②"替她杀人的楚王，最后也被她杀了"（反差3 具体2 悬念2 兑现3=10）③"一张诏书，杀了一个太傅"（反差2 具体2 悬念2 兑现3=9）→ 选①，②做第二拍。
+  - 反差：楚王奉诏杀人，又因"矫诏"被杀；杨骏手里有兵却舍不得烧一道门；驺虞幡一挥，几千兵扔下兵器就跑。
+  - 细节：杨骏"魏明帝造此大功，奈何烧之"；杨骏躲进马厩被戟刺死；太后帛书"救太傅者有赏"；楚王想复核诏书被拦；楚王身边只剩十四岁家奴；怀中青纸诏；行刑那天大风雷雨。
+  - 动机：贾后"欲预政事而惮骏"；贾后"素怨瓘"（卫瓘当年劝换太子）；亮、瓘要夺楚王兵权，楚王"甚忿之"。
+  - 演义对照卡：本集无演义情节，结尾卡用"史书怎么评"（张华传"虽当暗主虐后之朝，而海内晏然"）。
+
+map:
+  center: [113.0, 33.5]
+  scale: 5000
+  extent: [86.0, 12.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas
+  river_rank: 4
+  palette: warm
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 她一刀没动，一年杀了三个辅政大臣
+  big: [贾南风, 借刀杀人]
+  hero: 贾南风
+  at: 3
+  summary: |
+    290 年晋武帝死，傻皇帝司马衷即位，太傅杨骏独揽朝政。皇后贾南风联络殿中军官孟观、李肇，请来镇守荆州的楚王司马玮。291 年三月一道诏书，杨骏躲进马厩被乱戟刺死，杨家夷三族，杨太后被废、绝食而死。
+    接着汝南王司马亮、老臣卫瓘辅政，想夺楚王兵权；贾后又让皇帝写了一道诏书交给楚王，二公一夜被杀。天亮后张华献计，驺虞幡一挥，楚王的兵四散，他以"矫诏"之罪被斩，年仅二十一岁，临死掏出怀里的青纸诏书。此后贾后用张华、裴頠，天下反倒太平了九年。
+  tags: [西晋, 贾南风, 杨骏, 楚王玮, 八王之乱, 晋惠帝]
+  next: 贾南风害死太子
+
+sources_local:
+  - {id: js-04, work: 晋书, volume: 卷四·惠帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷004'}
+  - {id: js-31, work: 晋书, volume: 卷三十一·后妃传上, url: 'https://zh.wikisource.org/wiki/晉書/卷031'}
+  - {id: js-36, work: 晋书, volume: 卷三十六·卫瓘传、张华传, url: 'https://zh.wikisource.org/wiki/晉書/卷036'}
+  - {id: js-40, work: 晋书, volume: 卷四十·杨骏传, url: 'https://zh.wikisource.org/wiki/晉書/卷040'}
+  - {id: js-59, work: 晋书, volume: 卷五十九·汝南王亮传、楚王玮传, url: 'https://zh.wikisource.org/wiki/晉書/卷059'}
+
+factions: {晋: '#2f5d3a', 宗室: '#8a5a2b', 外戚: '#6f4a8e', 贾后: '#9a3b3b'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    晋: {slot: jade, main: true, label_at: 洛阳}
+
+people:
+  贾南风: {image: 03_素材/人物立绘/jia_nanfeng.png, title: 皇后, role: 借刀杀人, faction: 贾后}
+  司马衷: {image: 03_素材/人物立绘/sima_zhong.png, title: 晋惠帝, role: 傻皇帝, faction: 晋}
+  杨骏: {image: 03_素材/人物立绘/yang_jun.png, title: 太傅, role: 外戚辅政, faction: 外戚}
+  司马玮: {image: 03_素材/人物立绘/sima_wei.png, title: 楚王, role: 替人动刀, faction: 宗室}
+  司马亮: {image: 03_素材/人物立绘/sima_liang.png, title: 汝南王, role: 太宰辅政, faction: 宗室}
+  卫瓘: {image: 03_素材/人物立绘/wei_guan.png, title: 太保, role: 辅政老臣, faction: 晋}
+  张华: {image: 03_素材/人物立绘/zhang_hua.png, title: 中书监, role: 驺虞幡之计, faction: 晋}
+  裴頠: {image: 03_素材/人物立绘/pei_wei.png, title: 侍中, role: 元康名臣, faction: 晋}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: right, tier: capital}
+  江陵: {id: jiangling, label: left}
+  许昌: {id: xuchang_approx, name: 许昌, label: right}
+
+camera:
+  focus: 洛阳
+  zoom: 4
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 她一刀没动，一年杀了三个辅政大臣。
+    map: '291-03'
+    year: 291
+    phase: 借刀
+    sources: [js-31]
+    camera: {focus: 洛阳, zoom: 6, move: 1.2}
+    show:
+      - sfx: 重拍转场
+      - act: {act: edict, at: 洛阳, text: 诏, sub: 一年三杀, cue: 一刀没动, for: 3.4}
+
+  - say: 最后，连替她动刀的那个人，也被她一起砍了。
+    sources: [js-59]
+    show:
+      - sfx: {name: 悬疑, delay: 0.2}
+
+  - say: 她，就是晋惠帝的皇后，贾南风。
+    sources: [js-31]
+    show:
+      - enter: {who: 贾南风, side: right, cue: 贾南风, for: 4}
+      - sfx: {name: 帝王登场, cue: 贾南风}
+
+  # ---------------- 第一章 杨骏 ----------------
+  - say: 先说一年前。晋武帝一死，傻皇帝即位，太傅杨骏一手遮天。
+    phase: 杨骏
+    year: 290
+    sources: [js-04, js-40]
+    camera: {focus: [洛阳, 许昌, 江陵], zoom: fit, move: 1.6}
+    tells: [e02]
+    show:
+      - title_bar: {text: 贾南风借刀杀人, sub: 两晋 · 第30集, for: 3.2}
+      - sfx: 片头鼓
+      - flag: {at: 洛阳, name: 杨骏, sub: 太傅辅政, faction: 外戚, cue: 杨骏, until: beat+5}
+
+  - say: 贾南风想管朝政，杨骏偏偏防着她。她找上了殿中两个不得志的军官：孟观、李肇。
+    sources: [js-40]
+    camera: {focus: 洛阳, zoom: 6, move: 1.2}
+    show:
+      - quote: {text: 贾后欲预政事，而惮骏未得逞其所欲, source: 晋书·杨骏传, era: 永平元年, cue: 防着她, for: 3.8}
+
+  - say: 李肇先去许昌，找汝南王司马亮带兵讨伐杨骏。司马亮摆摆手：杨骏这么凶，用不着管，自己就会完蛋。
+    sources: [js-40]
+    camera: {focus: [洛阳, 许昌], zoom: fit, move: 1.4}
+    show:
+      - act: {act: courier, places: [洛阳, 许昌], text: 密约讨骏, cue: 许昌, grow: 1.2, for: 3}
+      - enter: {who: 司马亮, side: right, cue: 司马亮, for: 3.4}
+      - quote: {text: 骏之凶暴，死亡无日，不足忧也, source: 晋书·杨骏传, cue: 摆摆手, for: 3.6}
+
+  - say: 李肇又去荆州，找楚王司马玮。二十一岁的楚王，一口答应。
+    sources: [js-40, js-59]
+    camera: {focus: [洛阳, 江陵], zoom: fit, move: 1.4}
+    show:
+      - act: {act: courier, places: [洛阳, 江陵], text: 密约讨骏, cue: 荆州, grow: 1.4, for: 3}
+      - enter: {who: 司马玮, side: right, cue: 楚王, for: 3.6}
+
+  - say: 二九一年初，楚王带兵进了洛阳。三月的一个夜里，一道诏书：杨骏谋反，免官回家。宫里宫外，全部戒严。
+    year: 291
+    sources: [js-04, js-40]
+    tells: [e01, e03]
+    show:
+      - army: {head: 司马玮, from: 江陵, to: 洛阳, faction: 宗室, banner: 楚, troops: infantry, size: 2.4, cue: 进了洛阳, grow: 2.0}
+      - act: {act: edict, at: 洛阳, text: 废骏, sub: 以侯就第, cue: 诏书, for: 3.2}
+      - sfx: {name: 诏书, cue: 诏书}
+      - sfx: {name: 城门关闭, cue: 戒严}
+
+  - say: 杨骏的主簿劝他：赶紧烧了云龙门，冲进宫里抓人！杨骏舍不得：
+    sources: [js-40]
+    camera: {focus: 洛阳, zoom: 9, move: 1.2}
+    scene: 宫门
+
+  - say: 这是魏明帝修的大工程，怎么能烧！
+    speaker: 杨骏
+    style: 胆小犹豫，心疼又发怵，连连摆手
+    scene: 宫门
+    quote: 魏明帝造此大功，奈何烧之
+    sources: [js-40]
+    show:
+      - sfx: {name: 悬疑, delay: 0.2}
+
+  - say: 他舍不得一道门，宫里可舍得他。禁军放火烧了杨府，弓箭手站在楼上往下射。
+    sources: [js-40]
+    camera: {focus: 洛阳, zoom: 14, move: 1.2}
+    show:
+      - vignette: {image: illus_yangjun_mansion, cue: 放火, for: 7, text: 夜焚杨府}
+      - sfx: {name: 点火, cue: 放火}
+      - sfx: {name: 箭雨, cue: 弓箭手}
+
+  - say: 杨骏躲进马厩，被乱戟刺死。杨家灭了三族，死了好几千人。
+    sources: [js-40]
+    show:
+      - exit: {who: 杨骏, at: 洛阳, verb: 诛, portrait: true, cue: 刺死}
+      - sfx: {name: 处斩, cue: 刺死}
+      - quote: {text: 骏逃于马厩，以戟杀之…死者数千人, source: 晋书·杨骏传, cue: 三族, for: 3.8}
+
+  - say: 杨太后在帛上写了"救太傅者有赏"，射出宫外。贾南风正好拿它定罪：太后同谋。
+    sources: [js-31]
+    show:
+      - act: {act: prop, at: 洛阳, item: 书信, text: 救太傅者有赏, cue: 射出宫外, size: 1.2, for: 3.4}
+      - sfx: {name: 张弓放箭, cue: 射出}
+
+  - say: 太后被废，关进金墉城，身边的人全被撤走。第二年，活活饿死，三十四岁。
+    sources: [js-04, js-31]
+    show:
+      - act: {act: prison, at: 洛阳, text: 金墉城, cue: 金墉城, for: 3.4}
+      - quote: {text: 贾后夺之，绝膳而崩，时年三十四, source: 晋书·后妃传, era: 元康元年, cue: 饿死, for: 3.8}
+      - sfx: {name: 退场钟, cue: 饿死}
+
+  # ---------------- 第二章 二公 ----------------
+  - say: 杨骏一死，朝廷请回汝南王司马亮当太宰，和老臣卫瓘一起辅政。
+    phase: 二公
+    sources: [js-04]
+    camera: {focus: [洛阳, 许昌], zoom: fit, move: 1.4}
+    tells: [e04]
+    show:
+      - army: {head: 司马亮, from: 许昌, to: 洛阳, faction: 宗室, banner: 汝南, troops: infantry, size: 1.8, cue: 请回, grow: 1.6, camp: false}
+      - enter: {who: 卫瓘, side: right, cue: 卫瓘, for: 3.4}
+
+  - say: 可楚王留在洛阳，手握禁军，脾气又暴。两位老臣想夺他的兵，打发他回封地。楚王，恨上了。
+    sources: [js-59]
+    camera: {focus: 洛阳, zoom: 8, move: 1.2}
+    show:
+      - versus: {left: 司马亮, right: 司马玮, label: 夺兵, cue: 夺他的兵, for: 3.6}
+      - quote: {text: 以玮性很戾，不可大任，建议使与诸王之国，玮甚忿之, source: 晋书·楚王玮传, cue: 恨上了, for: 4}
+
+  - say: 贾南风更恨卫瓘。当年劝晋武帝换掉太子的，就是他。
+    sources: [js-36]
+    show:
+      - enter: {who: 贾南风, side: right, cue: 贾南风, for: 3.4}
+      - sfx: {name: 不祥鼓, cue: 换掉太子}
+
+  - say: 六月的一个夜里，宦官送来一道皇帝手诏：二公要废天子，楚王立刻免他们的官。
+    sources: [js-36, js-59]
+    show:
+      - act: {act: edict, at: 洛阳, text: 密诏, sub: 废二公, cue: 手诏, for: 3.4}
+      - sfx: {name: 落印, cue: 手诏}
+
+  - say: 楚王想先向皇帝核实一下。宦官拦住他：怕走漏风声，这就是密诏的意思。
+    sources: [js-59]
+    show:
+      - quote: {text: 事恐漏泄，非密诏本意也, source: 晋书·楚王玮传, cue: 走漏风声, for: 3.8}
+
+  - say: 楚王连夜调兵。汝南王司马亮被杀；卫瓘和儿孙九人一起遇害，七十二岁。
+    sources: [js-04, js-36]
+    tells: [e06]
+    show:
+      - act: {act: night, places: [洛阳], cue: 连夜, for: 3}
+      - exit: {who: 司马亮, at: 洛阳, verb: 诛, portrait: true, cue: 被杀}
+      - exit: {who: 卫瓘, at: 洛阳, verb: 诛, portrait: true, cue: 遇害}
+      - sfx: {name: 处斩, cue: 遇害}
+      - battle: {at: 洛阳, text: 夜收二公, cue: 调兵}
+
+  # ---------------- 第三章 过河拆桥 ----------------
+  - say: 天快亮了，楚王的谋士劝他：趁着兵还在手里，把贾家的人一起除掉。楚王犹豫了。
+    phase: 拆桥
+    sources: [js-59]
+    show:
+      - enter: {who: 司马玮, side: right, cue: 犹豫, for: 3.4}
+      - sfx: {name: 悬疑, cue: 犹豫}
+
+  - say: 就这一犹豫，大臣张华给皇后出了主意：就说楚王，假传圣旨。
+    sources: [js-36]
+    show:
+      - enter: {who: 张华, side: left, cue: 张华, for: 3.4}
+      - quote: {text: 玮矫诏擅害二公…今可遣驺虞幡使外军解严, source: 晋书·张华传, cue: 假传圣旨, for: 4}
+
+  - say: 宫里派人举着驺虞幡出来，对着楚王的兵大喊：楚王矫诏！
+    sources: [js-59]
+    camera: {focus: 洛阳, zoom: 10, move: 1.2}
+    show:
+      - vignette: {image: illus_zouyu_banner, cue: 驺虞幡, for: 7, text: 驺虞幡下 诸军释杖}
+      - sfx: {name: 铜锣, cue: 矫诏}
+
+  - say: 士兵们扔下兵器就跑。楚王身边，只剩一个十四岁的家奴。
+    sources: [js-59]
+    show:
+      - quote: {text: 众皆释杖而走…惟一奴年十四, source: 晋书·楚王玮传, cue: 扔下兵器, for: 3.8}
+      - sfx: {name: 溃败哭喊, cue: 就跑}
+
+  - say: 楚王被押上刑场。临死前，他从怀里掏出那张青纸诏书，哭着给监斩官看：
+    sources: [js-59]
+    scene: 刑场
+
+  - say: 我是奉诏办事，为了国家。现在倒成了罪人！
+    speaker: 司马玮
+    style: 年轻气盛却走投无路，攥着诏书，又冤又怒，哽咽着说
+    scene: 刑场
+    quote: 受诏而行，谓为社稷，今更为罪
+    sources: [js-59]
+
+  - say: 那年，他二十一岁。行刑那天，大风，雷雨，霹雳。
+    sources: [js-59]
+    camera: {focus: 洛阳, zoom: 8, move: 1.2}
+    show:
+      - exit: {who: 司马玮, at: 洛阳, verb: 斩, portrait: true, cue: 二十一岁}
+      - act: {act: thunder, at: 洛阳, cue: 霹雳, for: 3.4}
+      - sfx: {name: 雷, cue: 霹雳}
+
+  # ---------------- 第四章 元康 ----------------
+  - say: 三个辅政的人，一年里全没了。贾南风，终于大权在握。
+    phase: 元康
+    sources: [js-31]
+    camera: {focus: [洛阳, 许昌, 江陵], zoom: fit, move: 1.4}
+    show:
+      - flag: {at: 洛阳, name: 贾后, sub: 临机专断, faction: 贾后, cue: 大权在握}
+      - sfx: {name: 插旗, cue: 大权在握}
+
+  - say: 可她没乱来。她把朝政交给了寒门出身的张华，又有裴頠帮衬。
+    sources: [js-36]
+    show:
+      - enter: {who: 张华, side: left, cue: 张华, for: 3}
+      - enter: {who: 裴頠, side: right, cue: 裴頠, for: 3}
+
+  - say: 皇帝傻，皇后狠，可朝廷居然安稳了九年。
+    sources: [js-36]
+    show:
+      - headline: {text: 元康九年, sub: 暗主虐后，海内晏然, cue: 安稳, for: 3.4}
+      - sfx: {name: 大标题, cue: 安稳}
+      - quote: {text: 虽当暗主虐后之朝，而海内晏然，华之功也, source: 晋书·张华传, cue: 九年, for: 4}
+
+  # ---------------- 收 ----------------
+  - say: 贾南风凭什么一刀没动，杀了三个人？每一次，她手里都攥着皇帝的诏书。
+    sources: [js-31, js-59]
+    camera: {focus: 洛阳, zoom: 5, move: 1.4}
+    show:
+      - act: {act: edict, at: 洛阳, text: 诏, sub: 杨骏 · 二公 · 楚王, cue: 诏书, for: 3.6}
+
+  - say: 诏书是真的，刀是别人的。用完了，连刀一起扔掉。
+    sources: [js-59]
+    show:
+      - headline: {text: 借刀杀人, sub: 用完连刀一起扔, cue: 刀是别人的, for: 3.4}
+      - sfx: {name: 史诗冲击, cue: 刀是别人的}
+
+  - say: 楚王司马玮，是奉诏办事的冤死鬼，还是自作自受？
+    sources: [js-59]
+    show:
+      - versus: {left: 司马玮, right: 贾南风, label: 冤, cue: 冤死鬼, for: 3.6}
+
+  - say: 可贾南风有块心病：她没有儿子。而太子司马遹，一天天长大了。
+    sources: [js-31]
+    show:
+      - enter: {who: 贾南风, side: right, cue: 心病, for: 3.4}
+      - title_bar: {text: 下集, sub: 两晋 · 贾南风害死太子, cue: 长大了, delay: 0.4, for: 3.0}
+      - sfx: {name: 时代转折, cue: 长大了}

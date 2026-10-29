@@ -1,0 +1,575 @@
+{
+ "mode": "mimo",
+ "beats": [
+  {
+   "file_start": 0.3,
+   "file_end": 3.714,
+   "voice_onset": 0.42,
+   "voice_offset": 3.67
+  },
+  {
+   "file_start": 4.014,
+   "file_end": 7.893,
+   "voice_onset": 4.124,
+   "voice_offset": 7.554
+  },
+  {
+   "file_start": 8.193,
+   "file_end": 13.901,
+   "voice_onset": 8.303,
+   "voice_offset": 13.893
+  },
+  {
+   "file_start": 14.201,
+   "file_end": 17.706,
+   "voice_onset": 14.271,
+   "voice_offset": 17.511
+  },
+  {
+   "file_start": 17.706,
+   "file_end": 21.403,
+   "voice_onset": 17.956,
+   "voice_offset": 21.186
+  },
+  {
+   "file_start": 21.403,
+   "file_end": 27.301,
+   "voice_onset": 21.443,
+   "voice_offset": 27.033
+  },
+  {
+   "file_start": 27.301,
+   "file_end": 31.417,
+   "voice_onset": 27.601,
+   "voice_offset": 31.251
+  },
+  {
+   "file_start": 31.417,
+   "file_end": 37.728,
+   "voice_onset": 31.587,
+   "voice_offset": 37.677
+  },
+  {
+   "file_start": 38.028,
+   "file_end": 42.931,
+   "voice_onset": 38.108,
+   "voice_offset": 42.688
+  },
+  {
+   "file_start": 42.931,
+   "file_end": 48.921,
+   "voice_onset": 43.231,
+   "voice_offset": 48.641
+  },
+  {
+   "file_start": 48.921,
+   "file_end": 53.53,
+   "voice_onset": 49.231,
+   "voice_offset": 53.241
+  },
+  {
+   "file_start": 53.53,
+   "file_end": 59.282,
+   "voice_onset": 53.62,
+   "voice_offset": 59.01
+  },
+  {
+   "file_start": 59.282,
+   "file_end": 64.512,
+   "voice_onset": 59.582,
+   "voice_offset": 64.282
+  },
+  {
+   "file_start": 64.512,
+   "file_end": 70.492,
+   "voice_onset": 64.822,
+   "voice_offset": 70.112
+  },
+  {
+   "file_start": 70.492,
+   "file_end": 75.406,
+   "voice_onset": 70.592,
+   "voice_offset": 75.402
+  },
+  {
+   "file_start": 75.706,
+   "file_end": 81.959,
+   "voice_onset": 75.886,
+   "voice_offset": 81.696
+  },
+  {
+   "file_start": 81.959,
+   "file_end": 87.328,
+   "voice_onset": 82.259,
+   "voice_offset": 87.319
+  },
+  {
+   "file_start": 87.628,
+   "file_end": 89.985,
+   "voice_onset": 87.708,
+   "voice_offset": 89.628
+  },
+  {
+   "file_start": 90.285,
+   "file_end": 92.666,
+   "voice_onset": 90.425,
+   "voice_offset": 92.265
+  },
+  {
+   "file_start": 92.966,
+   "file_end": 97.504,
+   "voice_onset": 93.086,
+   "voice_offset": 97.246
+  },
+  {
+   "file_start": 97.504,
+   "file_end": 104.122,
+   "voice_onset": 97.794,
+   "voice_offset": 103.744
+  },
+  {
+   "file_start": 104.122,
+   "file_end": 108.724,
+   "voice_onset": 104.222,
+   "voice_offset": 108.452
+  },
+  {
+   "file_start": 108.724,
+   "file_end": 115.114,
+   "voice_onset": 109.024,
+   "voice_offset": 115.064
+  },
+  {
+   "file_start": 115.414,
+   "file_end": 119.686,
+   "voice_onset": 115.534,
+   "voice_offset": 119.434
+  },
+  {
+   "file_start": 119.686,
+   "file_end": 125.3,
+   "voice_onset": 119.996,
+   "voice_offset": 125.036
+  },
+  {
+   "file_start": 125.3,
+   "file_end": 127.776,
+   "voice_onset": 125.59,
+   "voice_offset": 127.77
+  },
+  {
+   "file_start": 128.076,
+   "file_end": 131.264,
+   "voice_onset": 128.196,
+   "voice_offset": 130.936
+  },
+  {
+   "file_start": 131.564,
+   "file_end": 137.49,
+   "voice_onset": 131.684,
+   "voice_offset": 137.224
+  },
+  {
+   "file_start": 137.49,
+   "file_end": 143.781,
+   "voice_onset": 137.78,
+   "voice_offset": 143.53
+  },
+  {
+   "file_start": 143.781,
+   "file_end": 150.455,
+   "voice_onset": 144.081,
+   "voice_offset": 150.221
+  },
+  {
+   "file_start": 150.455,
+   "file_end": 153.896,
+   "voice_onset": 150.765,
+   "voice_offset": 153.645
+  },
+  {
+   "file_start": 153.896,
+   "file_end": 158.981,
+   "voice_onset": 154.196,
+   "voice_offset": 158.726
+  },
+  {
+   "file_start": 158.981,
+   "file_end": 166.32,
+   "voice_onset": 159.281,
+   "voice_offset": 166.061
+  },
+  {
+   "file_start": 166.32,
+   "file_end": 169.67,
+   "voice_onset": 166.61,
+   "voice_offset": 169.43
+  },
+  {
+   "file_start": 169.67,
+   "file_end": 173.586,
+   "voice_onset": 169.97,
+   "voice_offset": 173.32
+  },
+  {
+   "file_start": 173.586,
+   "file_end": 177.539,
+   "voice_onset": 173.886,
+   "voice_offset": 177.286
+  },
+  {
+   "file_start": 177.539,
+   "file_end": 182.738,
+   "voice_onset": 177.839,
+   "voice_offset": 182.729
+  }
+ ],
+ "narration": "D:\\history\\codx_3 history studio\\01_工作流\\projects\\s01e29-taikang\\voice\\narration.wav",
+ "asr": [
+  {
+   "beat": 1,
+   "chapter": 1,
+   "text": "百姓饿死了，消息传进宫里，皇帝问了一句：",
+   "heard": "百姓饿死了，消息传进宫里，皇帝问了一句。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 2,
+   "speaker": "司马衷",
+   "text": "他们没饭吃，为什么不吃肉粥呢？",
+   "heard": "他们没饭吃，为什么不吃肉粥呢？",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 3,
+   "chapter": 3,
+   "text": "他就是晋惠帝司马衷。他爹晋武帝早就知道儿子不行，还是把天下交给了他。为什么？",
+   "heard": "他就是晋惠帝司马衷，他爹晋武帝早就知道儿子不行，还是把天下交给了他。为什么？",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 4,
+   "chapter": 4,
+   "text": "时间回到二八零年。吴国刚灭，天下一统。他推行占田制，男女各有田额，按户交绢。全国登记两百四十五万户。史书说，那几年天下无事，人人安居乐业。孙皓的几千宫女也被收进后宫，宫里快一万人。他坐着羊车随便逛，羊停哪儿就睡哪儿。宫女们就在门口插竹叶、洒盐水，引羊过来。",
+   "heard": "时间回到二八零年，吴国刚灭，天下一统。他推行占田制，男女各有田额，按户交绢。全国登记两百四十五万户。史书说，那几年天下无事，人人安居乐业。孙皓的几千宫女也被收进后宫，宫里快一万人。他坐着羊车随便逛，羊停哪儿就睡哪儿，宫女们就在门口插竹叶、撒盐水，引羊过来。",
+   "ratio": 0.991,
+   "diff": [
+    "「洒」→「撒」"
+   ]
+  },
+  {
+   "beat": 9,
+   "chapter": 5,
+   "text": "天下太平，晋武帝下令撤掉州郡兵，大郡只留一百个武吏。老臣山涛劝他：地方不能没有兵。晋武帝夸这是天下名言，可就是不听。兵撤了，天下靠谁来守？他的答案是：自家人。他登基那年，就封了二十七个同姓王。王国可以养兵，大国五千。一边，大郡只剩一百个武吏；一边，王府里有好几千人马。二八九年，他又派儿子和叔叔出镇：关中、荆州、扬州、许昌。他想的是：儿子们握着兵，外人就不敢动我家的江山。",
+   "heard": "天下太平，晋武帝下令撤掉州郡兵，大郡只留一百个武力。老臣山涛劝他，地方不能没有兵。晋武帝夸这是天下名言，可就是不听。兵撤了，天下靠谁来守？他的答案是自家人。他登基那年就封了二十七个同姓王，王国可以养兵，大国五千。一边大郡只剩一百个武力，一边王府里有好几千人马。二八九年，他又派儿子和叔叔出镇：关中、荆州、扬州、许昌。他想的是，儿子们握着兵，外人就不敢动我家的江山。",
+   "ratio": 0.987,
+   "diff": [
+    "「吏」→「力」",
+    "「吏」→「力」"
+   ]
+  },
+  {
+   "beat": 16,
+   "chapter": 6,
+   "text": "可最大的雷，埋在东宫。太子司马衷，满朝大臣都知道，他不太灵光。有一回宴会，老臣卫瓘借着酒劲，跪在皇帝床前，手抚着御座说：",
+   "heard": "可最大的雷埋在东宫，太子司马衷，满朝大臣都知道他不太灵光。有一回宴会，老臣卫瓘借着酒劲儿跪在皇帝床前，手抚着玉座说。",
+   "ratio": 0.971,
+   "diff": [
+    "「」→「儿」",
+    "「御」→「玉」"
+   ]
+  },
+  {
+   "beat": 18,
+   "speaker": "卫瓘",
+   "text": "这个座位，可惜了啊！",
+   "heard": "这个座位，可惜了。",
+   "ratio": 0.933,
+   "diff": [
+    "「啊」→「」"
+   ]
+  },
+  {
+   "beat": 19,
+   "speaker": "司马炎",
+   "text": "卫公，你是真喝醉了吧？",
+   "heard": "魏公，你是真喝醉了吧？",
+   "ratio": 0.889,
+   "diff": [
+    "「卫」→「魏」"
+   ]
+  },
+  {
+   "beat": 20,
+   "chapter": 9,
+   "text": "后来晋武帝出了道考题，密封着送进东宫，要太子自己答。太子妃贾南风慌了，找人代答。小吏张泓说：太子不爱读书，答得太有学问，反而露馅。张泓打好草稿，太子照着抄一遍。晋武帝一看，很满意。贾南风是权臣贾充的女儿。晋武帝原本嫌她家善妒、又矮又黑，是杨皇后坚持要娶。",
+   "heard": "后来晋武帝出了道考题，密封着送进东宫，要太子自己答。太子妃贾南风慌了，找人代答。小吏张弘说：“太子不爱读书，答得太有学问反而露馅儿。”张弘打好草稿，太子照着抄一遍。晋武帝一看，很满意。贾南风是权臣贾充的女儿，晋武帝原本嫌她家善妒，又矮又黑，是杨皇后坚持要娶。",
+   "ratio": 0.977,
+   "diff": [
+    "「泓」→「弘」",
+    "「」→「儿」",
+    "「泓」→「弘」"
+   ]
+  },
+  {
+   "beat": 24,
+   "chapter": 10,
+   "text": "那晋武帝为什么不换太子？因为他还有一张牌：皇孙司马玉。宫里夜里失火，五岁的皇孙拉着爷爷躲进暗处：不能让火光照见皇上。晋武帝摸着孙子的背，对大臣说：",
+   "heard": "那晋武帝为什么不换太子？因为他还有一张牌，皇孙司马昱。宫里夜里失火，五岁的皇孙拉着爷爷躲进暗处，不能让火光照见皇上。晋武帝摸着孙子的背，对大臣说。",
+   "ratio": 0.985,
+   "diff": [
+    "「玉」→「昱」"
+   ]
+  },
+  {
+   "beat": 27,
+   "speaker": "司马炎",
+   "text": "这孩子，将来能让我司马家兴旺！",
+   "heard": "这孩子，将来能让我司马家兴旺。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 28,
+   "chapter": 12,
+   "text": "也有人想立他弟弟齐王司马攸。晋武帝把弟弟赶出京城，司马攸吐血而死。二九零年，晋武帝病危，下诏让汝南王回来辅政。诏书，被外戚杨骏扣下了。杨皇后另写遗诏：杨骏一人辅政。晋武帝醒来问：汝南王来了吗？左右说：还没到。四月，晋武帝死在含章殿，五十五岁。杨骏住进太极殿，带着一百个卫士。连灵柩出殡，他都不下殿。晋武帝为什么敢传位给傻儿子？他押了三张牌：聪明的皇孙，握兵的宗室，可靠的外戚。可这三张牌，后来一张一张，全炸了。他撤掉了天下的兵，却把刀交到了自家人手里。如果你是晋武帝，这个太子，换，还是不换？杨骏大权独揽。可他没想到，太子妃贾南风，已经盯上了他。",
+   "heard": "也有人想立他弟弟齐王司马攸，晋武帝把弟弟赶出京城，司马攸吐血而死。二九零年，晋武帝病危，下诏让汝南王回来辅政，诏书被外戚杨骏扣下了。杨皇后另写遗诏，杨骏一人辅政。晋武帝醒来问：“汝南王来了吗？”左右说：“还没到。”四月，晋武帝死在含章殿，五十五岁。杨骏住进太极殿，带着一百个卫士，连灵柩出殡他都不下殿。晋武帝为什么敢传位给傻儿子？他押了三张牌：聪明的皇孙，握兵的宗室，可靠的外戚。可这三张牌后来一张一张全炸了。他撤掉了天下的兵，却把刀交到了自家人手里。如果你是晋武帝，这个太子换还是不换？杨骏大权独揽，可他没想到太子妃贾南风已经盯上了他。",
+   "ratio": 1.0,
+   "diff": []
+  }
+ ],
+ "speaker_pace": [
+  {
+   "beat": 2,
+   "speaker": "司马衷",
+   "rate_before": 2.89,
+   "speed": 1.35,
+   "rate": 3.9
+  },
+  {
+   "beat": 18,
+   "speaker": "卫瓘",
+   "rate_before": 3.12,
+   "speed": 1.35,
+   "rate": 4.21
+  },
+  {
+   "beat": 19,
+   "speaker": "司马炎",
+   "rate_before": 4.0,
+   "speed": 1.25,
+   "rate": 5.0
+  },
+  {
+   "beat": 27,
+   "speaker": "司马炎",
+   "rate_before": 3.57,
+   "speed": 1.35,
+   "rate": 4.82
+  }
+ ],
+ "tempo": [
+  {
+   "chapter": 1,
+   "raw_rate": 4.51,
+   "factor": 1.095
+  },
+  {
+   "chapter": 3,
+   "raw_rate": 5.43,
+   "factor": 1.095
+  },
+  {
+   "chapter": 4,
+   "raw_rate": 4.58,
+   "factor": 1.095
+  },
+  {
+   "chapter": 5,
+   "raw_rate": 4.21,
+   "factor": 1.095
+  },
+  {
+   "chapter": 6,
+   "raw_rate": 4.16,
+   "factor": 1.095
+  },
+  {
+   "chapter": 9,
+   "raw_rate": 4.88,
+   "factor": 1.095
+  },
+  {
+   "chapter": 10,
+   "raw_rate": 5.22,
+   "factor": 1.095
+  },
+  {
+   "chapter": 12,
+   "raw_rate": 4.52,
+   "factor": 1.095
+  }
+ ],
+ "chapter_match": {
+  "eq_max_db": [
+   5.0,
+   5.0,
+   2.2,
+   4.1,
+   3.6,
+   2.6,
+   3.9,
+   1.8
+  ],
+  "level_before_db": [
+   -22.7,
+   -22.9,
+   -24.5,
+   -26.4,
+   -24.3,
+   -27.0,
+   -25.5,
+   -25.3
+  ],
+  "level_after_db": -24.8
+ },
+ "splits": [
+  {
+   "beat": 1,
+   "ratio": 1.0
+  },
+  {
+   "beat": 3,
+   "ratio": 1.0
+  },
+  {
+   "beat": 4,
+   "ratio": 1.0
+  },
+  {
+   "beat": 5,
+   "ratio": 1.0
+  },
+  {
+   "beat": 6,
+   "ratio": 1.0
+  },
+  {
+   "beat": 7,
+   "ratio": 1.0
+  },
+  {
+   "beat": 8,
+   "ratio": 1.0
+  },
+  {
+   "beat": 9,
+   "ratio": 1.0
+  },
+  {
+   "beat": 10,
+   "ratio": 1.0
+  },
+  {
+   "beat": 11,
+   "ratio": 1.0
+  },
+  {
+   "beat": 12,
+   "ratio": 1.0
+  },
+  {
+   "beat": 13,
+   "ratio": 0.955
+  },
+  {
+   "beat": 14,
+   "ratio": 1.0
+  },
+  {
+   "beat": 15,
+   "ratio": 1.0
+  },
+  {
+   "beat": 16,
+   "ratio": 1.0
+  },
+  {
+   "beat": 17,
+   "ratio": 0.863
+  },
+  {
+   "beat": 20,
+   "ratio": 1.0
+  },
+  {
+   "beat": 21,
+   "ratio": 0.955
+  },
+  {
+   "beat": 22,
+   "ratio": 0.952
+  },
+  {
+   "beat": 23,
+   "ratio": 1.0
+  },
+  {
+   "beat": 24,
+   "ratio": 0.958
+  },
+  {
+   "beat": 25,
+   "ratio": 1.0
+  },
+  {
+   "beat": 26,
+   "ratio": 1.0
+  },
+  {
+   "beat": 28,
+   "ratio": 1.0
+  },
+  {
+   "beat": 29,
+   "ratio": 1.0
+  },
+  {
+   "beat": 30,
+   "ratio": 1.0
+  },
+  {
+   "beat": 31,
+   "ratio": 1.0
+  },
+  {
+   "beat": 32,
+   "ratio": 0.958
+  },
+  {
+   "beat": 33,
+   "ratio": 1.0
+  },
+  {
+   "beat": 34,
+   "ratio": 1.0
+  },
+  {
+   "beat": 35,
+   "ratio": 1.0
+  },
+  {
+   "beat": 36,
+   "ratio": 1.0
+  },
+  {
+   "beat": 37,
+   "ratio": 1.0
+  }
+ ],
+ "measurement": "10ms RMS>.004 after peak normalisation; phrase-level, not forced syllable alignment",
+ "cleaned": "0 breath/noise islands gated out"
+}

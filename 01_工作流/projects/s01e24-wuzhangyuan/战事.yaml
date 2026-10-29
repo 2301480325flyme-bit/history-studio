@@ -1,0 +1,468 @@
+episode: s01e24-wuzhangyuan
+armies:
+  诸葛亮军:
+    faction: 蜀汉
+    head: 诸葛亮
+    size: 未核
+    evidence:
+    - quote: 亮复出散关，围陈仓
+      para: 三国志-p01935
+    - quote: 亮悉大众由斜谷出，以流马运
+      para: 三国志-p01936
+  郝昭守军:
+    faction: 魏
+    head: 郝昭（王生协守）
+    size: 未核
+    evidence:
+    - quote: 乃使将军郝昭、王生守陈仓，治其城
+      para: 三国志-p01203
+  王双追兵:
+    faction: 魏
+    head: 王双
+    size: 未核
+    evidence:
+    - quote: 魏将王双率军追亮
+      para: 三国志-p01879
+  陈式军:
+    faction: 蜀汉
+    head: 陈式
+    size: 未核
+    evidence:
+    - quote: 亮遣陈式攻武都、阴平
+      para: 三国志-p01935
+  郭淮军:
+    faction: 魏
+    head: 郭淮
+    size: 未核
+    evidence:
+    - quote: 魏雍州剌史郭淮率众欲击式
+      para: 三国志-p01935
+  司马懿张郃军:
+    faction: 魏
+    head: 司马懿、张郃
+    size: 未核
+    evidence:
+    - quote: 魏司马懿、张郃救祁山
+      para: 三国志-p01882
+    - quote: 与司马宣王对于渭南
+      para: 三国志-p01936
+  魏延军:
+    faction: 蜀汉
+    head: 魏延
+    size: 未核
+    evidence:
+    - quote: 征西大将军魏延与丞相长史杨仪争权不和，举兵相攻
+      para: 三国志-p01885
+  杨仪军:
+    faction: 蜀汉
+    head: 杨仪
+    size: 未核
+    evidence:
+    - quote: 仪率诸军还成都
+      para: 三国志-p01885
+events:
+- id: e01
+  army: 郝昭守军
+  kind: 屯驻
+  place: 陈仓
+  from: 未核
+  via: []
+  date: 228
+  territory: null
+  note: 曹真预料诸葛亮将再出陈仓，先命郝昭、王生守城并修治；部署月份未载，确定在本次围城前。
+  evidence:
+  - quote: 真以亮惩于祁山，后出必从陈仓。乃使将军郝昭、王生守陈仓，治其城
+    para: 三国志-p01203
+- id: e02
+  army: 诸葛亮军
+  kind: 行军
+  place: 陈仓
+  from: 未核
+  via:
+  - 散关
+  date: 228-12
+  territory: null
+  note: 228年冬由散关出兵围陈仓；史料未载抵达散关前的出发地点和路线。
+  evidence:
+  - quote: 冬，亮复出散关，围陈仓
+    para: 三国志-p01935
+  - quote: 十二月，诸葛亮围陈仓
+    para: 三国志-p00472
+- id: e03
+  army: 诸葛亮军
+  kind: 交战
+  place: 陈仓
+  from: null
+  via: []
+  date: 228-12
+  territory: null
+  note: 魏军已有防备，蜀军围攻未能攻克；曹真拒守，蜀军粮尽后撤。
+  evidence:
+  - quote: 明年春，亮果围陈仓，已有备而不能克
+    para: 三国志-p01203
+  - quote: 亮粮尽而还
+    para: 三国志-p01935
+- id: e04
+  army: 诸葛亮军
+  kind: 撤退
+  place: 汉中
+  from: 陈仓
+  via: []
+  date: 228-冬
+  territory: null
+  note: 因粮尽撤回汉中；史料未载回程路线，不能据出兵路线断定退路经过散关。
+  evidence:
+  - quote: 冬，复出散关，围陈仓，粮尽退
+    para: 三国志-p01879
+- id: e05
+  army: 王双追兵
+  kind: 交战
+  place: 未核
+  from: null
+  via: []
+  date: 228-冬
+  territory: null
+  note: 王双率军追击撤退中的诸葛亮军，交战地点未载；蜀军击败并斩王双。
+  evidence:
+  - quote: 魏将王双率军追亮，亮与战，破之，斩双
+    para: 三国志-p01879
+  skip: 王双追击战场未载
+- id: e06
+  army: 陈式军
+  kind: 行军
+  place: 武都
+  from: 未核
+  via: []
+  date: 229-03
+  territory: null
+  note: 陈式奉命攻武都、阴平；《三国志》本段只记建兴七年，未记月份，疆域.yaml将此事系于229-03，故沿用该月作项目时间轴标记；出发点和路线未核。
+  evidence:
+  - quote: 七年，亮遣陈式攻武都、阴平
+    para: 三国志-p01935
+- id: e07
+  army: 郭淮军
+  kind: 行军
+  place: 未核
+  from: 未核
+  via: []
+  date: 229-03
+  territory: null
+  note: 郭淮率军欲攻击陈式，史料未说明其出发点、行军路线或与陈式接触的具体地点。
+  evidence:
+  - quote: 魏雍州剌史郭淮率众欲击式
+    para: 三国志-p01935
+  skip: 旁白未讲郭淮来攻、亮至建威
+- id: e08
+  army: 诸葛亮军
+  kind: 行军
+  place: 建威
+  from: 未核
+  via: []
+  date: 229-03
+  territory: null
+  note: 诸葛亮亲自出兵至建威支援陈式；起点及途经点未载。
+  evidence:
+  - quote: 亮自出至建威
+    para: 三国志-p01935
+  skip: 旁白未讲郭淮来攻、亮至建威
+- id: e09
+  army: 郭淮军
+  kind: 撤退
+  place: 未核
+  from: 未核
+  via: []
+  date: 229-03
+  territory: null
+  note: 诸葛亮至建威后郭淮退还；原文没有明确郭淮当时所在点和退回地点。
+  evidence:
+  - quote: 淮退还
+    para: 三国志-p01935
+  skip: 旁白未讲郭淮来攻、亮至建威
+- id: e10
+  army: 陈式军
+  kind: 攻占
+  place: 武都
+  from: null
+  via: []
+  date: 229-03
+  territory:
+    jun: 武都郡
+    to: 蜀汉
+  note: 郭淮退还后蜀军“遂平二郡”，武都郡转入蜀汉控制；原文也提阴平，但疆域.yaml只单列武都郡，阴平的当时郡级归属需核。
+  evidence:
+  - quote: 淮退还，遂平二郡
+    para: 三国志-p01935
+- id: e11
+  army: 诸葛亮军
+  kind: 行军
+  place: 祁山
+  from: 未核
+  via: []
+  date: 231-02
+  territory: null
+  note: 建兴九年二月再出军围祁山，以木牛运粮；本段未载部队从何处出发及路线。
+  evidence:
+  - quote: 九年春二月，亮复出军围祁山，始以木牛运
+    para: 三国志-p01882
+- id: e12
+  army: 司马懿张郃军
+  kind: 行军
+  place: 祁山
+  from: 未核
+  via: []
+  date: 231-02
+  territory: null
+  note: 司马懿、张郃奉命救祁山；来路及出发日期未载。
+  evidence:
+  - quote: 魏司马懿、张郃救祁山
+    para: 三国志-p01882
+- id: e13
+  army: 诸葛亮军
+  kind: 撤退
+  place: 未核
+  from: 祁山
+  via: []
+  date: 231-06
+  territory: null
+  note: 夏六月粮尽退军；退向何处、沿途地点及具体日子未载。
+  evidence:
+  - quote: 夏六月，亮粮尽退军
+    para: 三国志-p01882
+  skip: 退向何处未载，画回汉中
+- id: e14
+  army: 司马懿张郃军
+  kind: 行军
+  place: 木门
+  from: 未核
+  via: []
+  date: 231-06
+  territory: null
+  note: 张郃追击退兵至木门并与蜀军交战；《后主传》记作“青封”，地点与《张郃传》的“木门”存在异文，具体是否同地未核。
+  evidence:
+  - quote: 郃追至木门，与亮军交战
+    para: 三国志-p01436
+  - quote: 郃追至青封，与亮交战
+    para: 三国志-p01882
+  skip: 张郃追击路线未载，只画木门交战
+- id: e15
+  army: 司马懿张郃军
+  kind: 交战
+  place: 木门
+  from: null
+  via: []
+  date: 231-06
+  territory: null
+  note: 张郃追至木门（《后主传》作青封），飞矢中其右膝，张郃伤重而卒；史料未记交战日。
+  evidence:
+  - quote: 飞矢中郃右膝，薨
+    para: 三国志-p01436
+  - quote: 郃追至青封，与亮交战，被箭死
+    para: 三国志-p01882
+- id: e16
+  army: 诸葛亮军
+  kind: 行军
+  place: 五丈原
+  from: 未核
+  via:
+  - 斜谷
+  date: 234-02
+  territory: null
+  note: 建兴十二年春二月，诸葛亮率主力出斜谷，据武功五丈原；起点及到达日未载。
+  evidence:
+  - quote: 十二年春二月，亮由斜谷出，始以流马运
+    para: 三国志-p01885
+  - quote: 亮悉大众由斜谷出，以流马运，据武功五丈原
+    para: 三国志-p01936
+- id: e17
+  army: 诸葛亮军
+  kind: 屯驻
+  place: 五丈原
+  from: null
+  via: []
+  date: 234-02
+  territory: null
+  note: 蜀军据五丈原，之后分兵屯田以作久驻准备。
+  evidence:
+  - quote: 据武功五丈原
+    para: 三国志-p01936
+  - quote: 分兵屯田，为久驻之基
+    para: 三国志-p01936
+- id: e18
+  army: 司马懿张郃军
+  kind: 行军
+  place: 渭南
+  from: 未核
+  via:
+  - 渭水
+  date: 234
+  territory: null
+  note: 司马懿率军渡渭水，在渭南背水筑垒；《晋书》未载本次渡河和筑垒的月日，故只记年份。
+  evidence:
+  - quote: 遂引军而济，背水为垒
+    para: 晋书-p00014
+  skip: 旁白只讲司马懿隔渭水扎营不战，渭南营址、阳遂、积石之战未画
+- id: e19
+  army: 司马懿张郃军
+  kind: 屯驻
+  place: 渭南
+  from: null
+  via: []
+  date: 234
+  territory: null
+  note: 魏军在渭南筑营与蜀军相持；具体营址未载。
+  evidence:
+  - quote: 与司马宣王对于渭南
+    para: 三国志-p01936
+  - quote: 背水为垒
+    para: 晋书-p00014
+  skip: 旁白只讲司马懿隔渭水扎营不战，渭南营址、阳遂、积石之战未画
+- id: e20
+  army: 司马懿张郃军
+  kind: 屯驻
+  place: 阳遂
+  from: 渭南
+  via: []
+  date: 234
+  territory: null
+  note: 司马懿遣周当屯阳遂诱敌；后遣胡遵、郭淮同备阳遂，史料未载具体日期。
+  evidence:
+  - quote: 帝遣将军周当屯阳遂以饵之
+    para: 晋书-p00014
+  - quote: 遣将军胡遵、雍州刺史郭淮共备阳遂
+    para: 晋书-p00014
+  skip: 旁白只讲司马懿隔渭水扎营不战，渭南营址、阳遂、积石之战未画
+- id: e21
+  army: 司马懿张郃军
+  kind: 交战
+  place: 积石
+  from: null
+  via: []
+  date: 234
+  territory: null
+  note: 胡遵、郭淮在阳遂方向布防后与诸葛亮军会战于积石，临原交锋；诸葛亮未能推进而退回五丈原。
+  evidence:
+  - quote: 与亮会于积石，临原而战
+    para: 晋书-p00014
+  - quote: 亮不得进，还于五丈原
+    para: 晋书-p00014
+  skip: 旁白只讲司马懿隔渭水扎营不战，渭南营址、阳遂、积石之战未画
+- id: e22
+  army: 诸葛亮军
+  kind: 退守
+  place: 五丈原
+  from: 积石
+  via: []
+  date: 234
+  territory: null
+  note: 积石交战后蜀军未能推进，退回五丈原；日期只记年。
+  evidence:
+  - quote: 亮不得进，还于五丈原
+    para: 晋书-p00014
+  skip: 旁白只讲司马懿隔渭水扎营不战，渭南营址、阳遂、积石之战未画
+- id: e23
+  army: 司马懿张郃军
+  kind: 交战
+  place: 未核
+  from: null
+  via: []
+  date: 234
+  territory: null
+  note: 《晋书》另记司马懿遣奇兵袭扰诸葛亮军后方，斩五百余人、俘千余人、受降六百余人；袭击地点和月日未载。
+  evidence:
+  - quote: 遣奇兵掎亮之后，斩五百余级，获生口千余，降者六百余人
+    para: 晋书-p00014
+  skip: 旁白只讲司马懿隔渭水扎营不战，渭南营址、阳遂、积石之战未画
+- id: e24
+  army: 诸葛亮军
+  kind: 撤退
+  place: 未核
+  from: 五丈原
+  via: []
+  date: 234-08
+  territory: null
+  note: 诸葛亮八月卒于军中，蜀军烧营撤走；原文未载撤军终点和路线。
+  evidence:
+  - quote: 其年八月，亮疾病，卒于军
+    para: 三国志-p01936
+  - quote: 诸将烧营遁走
+    para: 晋书-p00014
+  skip: 烧营撤走的路线合在第21拍杨仪还成都
+- id: e25
+  army: 魏延军
+  kind: 交战
+  place: 未核
+  from: null
+  via: []
+  date: 234-08
+  territory: null
+  note: 诸葛亮死后魏延与杨仪举兵相攻，魏延败走后被斩；战场位置和日次未载。
+  evidence:
+  - quote: 魏延与丞相长史杨仪争权不和，举兵相攻，延败走
+    para: 三国志-p01885
+  - quote: 斩延首
+    para: 三国志-p01885
+  skip: 魏延、杨仪交兵地点未载
+- id: e26
+  army: 杨仪军
+  kind: 行军
+  place: 成都
+  from: 未核
+  via: []
+  date: 234-08
+  territory: null
+  note: 杨仪率蜀军回成都；从战场或五丈原出发的具体路线、沿途驻点未载。
+  evidence:
+  - quote: 仪率诸军还成都
+    para: 三国志-p01885
+- id: e27
+  army: 司马懿张郃军
+  kind: 行军
+  place: 五丈原
+  from: 未核
+  via: []
+  date: 234-08
+  territory: null
+  note: 蜀军撤远后司马懿才巡视遗营；出发点和行军日期未载，事件发生在蜀军撤离之后。
+  evidence:
+  - quote: 宣王案行其营垒处所
+    para: 三国志-p01936
+  skip: 司马懿巡视遗营不画行军
+places_new:
+- name: 建威
+  lon: 105.3
+  lat: 33.92
+  precision: 未核
+  basis: 《三国志·诸葛亮传》仅载诸葛亮至建威，具体古地遗址和今地对应未核；坐标暂作武都方向区域示意，不作考定点
+  evidence:
+  - quote: 亮自出至建威
+    para: 三国志-p01935
+- name: 阳遂
+  lon: 107.62
+  lat: 34.3
+  precision: 未核
+  basis: 《晋书·宣帝纪》仅载周当屯阳遂、后备阳遂，具体地望未核；坐标暂按五丈原战区作示意
+  evidence:
+  - quote: 帝遣将军周当屯阳遂以饵之
+    para: 晋书-p00014
+- name: 积石
+  lon: 107.62
+  lat: 34.3
+  precision: 未核
+  basis: 《晋书·宣帝纪》称双方在积石临原而战，具体地望未核；坐标暂按五丈原战区作示意
+  evidence:
+  - quote: 与亮会于积石，临原而战
+    para: 晋书-p00014
+- name: 渭水
+  lon: 107.62
+  lat: 34.34
+  precision: 约略
+  basis: 渭南五丈原战区渡河位置未核，坐标仅示意渭水经过该战区，不代表具体渡口
+  evidence:
+  - quote: 遂引军而济，背水为垒
+    para: 晋书-p00014
+open_questions:
+- 229年陈式攻武都、阴平，原文仅记“平二郡”；疆域.yaml只将武都郡归蜀汉，阴平在当时的郡级名称和归属如何对应，需统一地图表达。
+- 231年张郃追击地，《后主传》作青封、《张郃传》作木门；两名是否同地、木门的现代比定是否适用于青封，未核。
+- 234年《晋书》记阳遂、积石临原交战及魏军袭蜀营，《三国志》重点记百余日相持、屯田；旁白“司马懿扎营，就是不出战”省略了这些战斗，是否需要地图表现由Claude决定。
+- 228年蜀军自陈仓撤退后与王双交战，原文未载具体战场；234年魏延、杨仪交兵的地点、行军路线及撤军途中驻点也都未核。
+accepted: 2026-10-25 Claude 验收：统一地名、补 skip、去掉对不上脚本的途经点

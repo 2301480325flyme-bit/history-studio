@@ -1,0 +1,801 @@
+# 第27集战事账：Codex 整理（06_报告/战事账/第27集-战事.yaml），Claude 验收。studio check/build 按它查疆域和行军（campaign.py）
+episode: s01e27-yinping
+armies:
+  邓艾军:
+    faction: 魏
+    head: 邓艾
+    size: 约三万
+    evidence:
+    - quote: 四年秋，诏诸军征蜀，大将军司马文王皆指授节度，使艾与维相缀连。雍州刺史诸葛绪要维，令不得归，艾遣天水太守王颀等直攻维营
+      para: 三国志-p01750
+    - quote: 乃下诏使邓艾、诸葛绪各统诸军三万余人
+      para: 三国志-p01759
+  钟会军:
+    faction: 魏
+    head: 钟会
+    size: 十余万
+    evidence:
+    - quote: 会统十余万众，分从斜谷、骆谷入
+      para: 三国志-p01759
+  诸葛绪军:
+    faction: 魏
+    head: 诸葛绪
+    size: 约三万
+    evidence:
+    - quote: 乃下诏使邓艾、诸葛绪各统诸军三万余人
+      para: 三国志-p01759
+  刘钦军:
+    faction: 魏
+    head: 刘钦
+    size: 未核
+    evidence:
+    - quote: 魏兴太守刘钦趣子午谷
+      para: 三国志-p01759
+  姜维军:
+    faction: 蜀汉
+    head: 姜维
+    size: 未核
+    evidence:
+    - quote: 维与张翼、廖化合军守剑阁
+      para: 晋书-p00045
+  廖化援军:
+    faction: 蜀汉
+    head: 廖化
+    size: 未核
+    evidence:
+    - quote: 右车骑廖化诣沓中为维援
+      para: 三国志-p02126
+  董厥张翼军:
+    faction: 蜀汉
+    head: 董厥、张翼
+    size: 未核
+    evidence:
+    - quote: 左车骑张翼、辅国大将军董厥等诣阳安关口以为诸围外助
+      para: 三国志-p02126
+  诸葛瞻军:
+    faction: 蜀汉
+    head: 诸葛瞻
+    size: 未核
+    evidence:
+    - quote: 蜀卫将军诸葛瞻自涪还绵竹、列陈待艾
+      para: 三国志-p01751
+  田章前锋:
+    faction: 魏
+    head: 田章
+    size: 未核
+    evidence:
+    - quote: 会遣将军田章等从剑阁西，径出江由
+      para: 三国志-p01762
+events:
+- id: e01
+  army: 钟会军
+  kind: 出发
+  place: 洛阳
+  from: null
+  via: []
+  date: 263-08
+  territory: null
+  note: 晋书记魏军八月自洛阳出发；此为钟会主力伐蜀的起点。
+  evidence:
+  - quote: 秋八月，军发洛阳
+    para: 晋书-p00045
+  skip: 旁白从长安入秦岭讲起，洛阳出兵不画
+- id: e02
+  army: 邓艾军
+  kind: 出发
+  place: 狄道
+  from: null
+  via: []
+  date: 263-秋
+  territory: null
+  note: 《晋书》只载秋季下令邓艾自狄道攻沓中，未记月份；具体由洛阳抵狄道的日期未载。
+  evidence:
+  - quote: 使邓艾自狄道攻姜维于沓中
+    para: 晋书-p00045
+- id: e03
+  army: 诸葛绪军
+  kind: 出发
+  place: 祁山
+  from: null
+  via: []
+  date: 263-秋
+  territory: null
+  note: 《晋书》只载秋季诸葛绪自祁山进军，未记月份。
+  evidence:
+  - quote: 雍州刺史诸葛绪自祁山军于武街，绝维归路
+    para: 晋书-p00045
+- id: e04
+  army: 钟会军
+  kind: 行军
+  place: 汉中
+  from: 长安
+  via:
+  - 斜谷
+  - 骆谷
+  date: 263-09
+  territory: null
+  note: 主力分由斜谷、骆谷入汉中；诸军行军具体抵达日未载。
+  evidence:
+  - quote: 会统十余万众，分从斜谷、骆谷入
+    para: 三国志-p01759
+  - quote: 诸军数道平行，至汉中
+    para: 三国志-p01759
+- id: e04b
+  army: 钟会军
+  kind: 攻占
+  place: 汉中
+  from: null
+  via: []
+  date: 263-09
+  territory:
+    jun: 汉中郡
+    to: 魏
+  note: Claude 验收（2026-10-25）：汉、乐二城坚守、关城随后失守，但钟会已入汉中，郡按魏画，与 疆域.yaml 263-09 一致
+  evidence:
+  - &id001
+    quote: 蜀监军王含守乐城，护军蒋斌守汉城，兵各五千。会使护军荀恺、前将军李辅各统万人，恺围汉城，辅围乐城
+    para: 三国志-p01759
+  - &id002
+    quote: 使护军胡烈等行前，攻破关城，得库藏积谷
+    para: 三国志-p01759
+- id: e05
+  army: 刘钦军
+  kind: 行军
+  place: 汉中
+  from: 长安
+  via:
+  - 子午谷
+  date: 263-09
+  territory: null
+  note: 刘钦由子午谷进军，史文未给具体会师日。 ｜Claude（2026-10-25 用户定三路）：按「诸军数道平行」画成自关中出子午谷；刘钦本为魏兴太守，实际起点未核
+  evidence:
+  - quote: 魏兴太守刘钦趣子午谷，诸军数道平行，至汉中
+    para: 三国志-p01759
+- id: e06
+  army: 钟会军
+  kind: 行军
+  place: 汉城
+  from: 汉中
+  via: []
+  date: 263-09
+  territory: null
+  note: 钟会分兵围攻汉、乐城；驻守者各五千。
+  evidence:
+  - *id001
+- id: e07
+  army: 钟会军
+  kind: 行军
+  place: 乐城
+  from: 汉中
+  via: []
+  date: 263-09
+  territory: null
+  note: 李辅部围乐城，乐城未被攻克。
+  evidence:
+  - quote: 会使护军荀恺、前将军李辅各统万人，恺围汉城，辅围乐城
+    para: 三国志-p01759
+- id: e08
+  army: 邓艾军
+  kind: 行军
+  place: 沓中
+  from: 狄道
+  via: []
+  date: 263-09
+  territory: null
+  note: 邓艾军向甘松、沓中牵制姜维；军队实际路线中间点未详。 ｜Claude：甘松是杨欣一路，箭头不经甘松（画了会绕过沓中再折回）
+  evidence:
+  - quote: 艾趣甘松、沓中连缀维
+    para: 三国志-p01759
+- id: e09
+  army: 姜维军
+  kind: 屯驻
+  place: 沓中
+  from: null
+  via: []
+  date: 263-09
+  territory: null
+  note: 姜维此前在沓中屯田，魏军攻其营后撤退。
+  evidence:
+  - quote: 姜维屡扰边陲，料蜀国小民疲，资力单竭
+    para: 三国志-p01759
+  - quote: 艾遣天水太守王颀等直攻维营
+    para: 三国志-p01750
+- id: e10
+  army: 邓艾军
+  kind: 交战
+  place: 沓中
+  from: null
+  via: []
+  date: 263-09
+  territory: null
+  note: 王颀等直攻姜维营，牵弘邀其前，杨欣趋甘松；此处战斗细节和日次未载。
+  evidence:
+  - quote: 艾遣天水太守王颀等直攻维营，陇西太守牵弘等邀其前，金城太守杨欣等诣甘松
+    para: 三国志-p01750
+- id: e11
+  army: 姜维军
+  kind: 撤退
+  place: 强川口
+  from: 沓中
+  via: []
+  date: 263-09
+  territory: null
+  note: 姜维闻钟会入汉中后撤军，杨欣追至强川口。
+  evidence:
+  - quote: 维闻钟会诸军己入汉中，引退还。欣等追蹑于强川口
+    para: 三国志-p01750
+- id: e12
+  army: 姜维军
+  kind: 交战
+  place: 强川口
+  from: null
+  via: []
+  date: 263-09
+  territory: null
+  note: 姜维战败，史书未记日。
+  evidence:
+  - quote: 欣等追蹑于强川口，大战，维败走
+    para: 三国志-p01750
+- id: e13
+  army: 诸葛绪军
+  kind: 屯驻
+  place: 桥头
+  from: 武街
+  via: []
+  date: 263-09
+  territory: null
+  note: 奉命截断姜维归路，姜维到桥头时魏军曾退后。
+  evidence:
+  - quote: 绪趣武街、桥头绝维归路
+    para: 三国志-p01759
+  - quote: 维遂东引，还守剑阁
+    para: 三国志-p01750
+- id: e14
+  army: 姜维军
+  kind: 屯驻
+  place: 桥头
+  from: 强川口
+  via: []
+  date: 263-09
+  territory: null
+  note: 闻雍州塞道后屯桥头，随后尝试绕至北道；“屯桥头”不等于已占桥头关隘。
+  evidence:
+  - quote: 闻雍州已塞道，屯桥头，从孔函谷入北道
+    para: 三国志-p01750
+- id: e15
+  army: 姜维军
+  kind: 行军
+  place: 北道
+  from: 桥头
+  via:
+  - 孔函谷
+  date: 263-09
+  territory: null
+  note: 维入北道三十余里，诸葛绪退至三寸里；地名方位均有待考。
+  evidence:
+  - quote: 维入北道三十余里，闻绪军却
+    para: 三国志-p01750
+- id: e16
+  army: 诸葛绪军
+  kind: 撤退
+  place: 三寸里
+  from: 桥头
+  via: []
+  date: 263-09
+  territory: null
+  note: 姜维佯出北道后诸葛绪后撤，维回到桥头时绪追截晚了一日；蜀军因此脱身。
+  evidence:
+  - quote: 诸葛绪闻之，却还三寸里。维入北道三十余里，闻绪军却，寻还，从桥头过，绪趣截维，较一日不及
+    para: 三国志-p01750
+- id: e17
+  army: 姜维军
+  kind: 行军
+  place: 剑阁
+  from: 桥头
+  via:
+  - 阴平
+  date: 263-09
+  territory: null
+  note: 诸葛绪未能截住姜维，姜维东撤并退守剑阁。
+  evidence:
+  - quote: 维遂东引，还守剑阁
+    para: 三国志-p01750
+- id: e18
+  army: 廖化援军
+  kind: 行军
+  place: 沓中
+  from: 未核
+  via: []
+  date: 263-09
+  territory: null
+  note: 后主迟发援军，廖化奉命赴沓中；出发日及沿线未载。
+  evidence:
+  - quote: 然后乃遣右车骑廖化诣沓中为维援
+    para: 三国志-p02126
+  skip: 廖化援沓中：旁白未讲
+- id: e19
+  army: 董厥张翼军
+  kind: 行军
+  place: 阳安关口
+  from: 未核
+  via: []
+  date: 263-09
+  territory: null
+  note: 张翼、董厥奉命赴阳安关口作外围支援；日期、路线未载。
+  evidence:
+  - quote: 左车骑张翼、辅国大将军董厥等诣阳安关口以为诸围外助
+    para: 三国志-p02126
+- id: e20
+  army: 廖化援军
+  kind: 屯驻
+  place: 阴平
+  from: 沓中方向
+  via: []
+  date: 263-09
+  territory: null
+  note: 廖化等到阴平后闻诸葛绪向建威，停留等待姜维；史称月余，未给日次。
+  evidence:
+  - quote: 比至阴平，闻魏将诸葛绪向建威，故住待之。月余
+    para: 三国志-p02126
+  skip: 廖化驻阴平：旁白未讲
+- id: e21
+  army: 姜维军
+  kind: 退守
+  place: 阴平
+  from: 沓中
+  via:
+  - 强川口
+  - 桥头
+  date: 263-09
+  territory: null
+  note: 姜维为邓艾所摧后退至阴平；桥头往返的详细日程不详。
+  evidence:
+  - quote: 月余，维为邓艾所摧，还住阴平
+    para: 三国志-p02126
+- id: e22
+  army: 姜维军
+  kind: 行军
+  place: 关城
+  from: 阴平
+  via: []
+  date: 263-09
+  territory: null
+  note: 姜维集结部众欲救关城，行至前获知关城已破，改退白水。
+  evidence:
+  - quote: 维自沓中还，至阴平，合集士众，欲赴关城。未到，闻其已破，退趣白水
+    para: 三国志-p01759
+- id: e23
+  army: 钟会军
+  kind: 行军
+  place: 阳安口
+  from: 汉中
+  via: []
+  date: 263-09
+  territory: null
+  note: 钟会越过阳安口，遣人祭诸葛亮墓；后续由胡烈攻破关城。
+  evidence:
+  - quote: 会径过，西出阳安口，遣人祭诸葛亮之墓
+    para: 三国志-p01759
+- id: e24
+  army: 钟会军
+  kind: 交战
+  place: 关城
+  from: null
+  via: []
+  date: 263-09
+  territory: null
+  note: 胡烈等攻破关城并获仓粮；这是汉中防线据点失陷，郡域变化时点需与汉中外围失守区分。
+  evidence:
+  - *id002
+- id: e25
+  army: 董厥张翼军
+  kind: 投降
+  place: 阳安关口
+  from: null
+  via: []
+  date: 263-09
+  territory: null
+  note: 蒋舒开关出降，傅佥格斗而死；属地据点失守，不代表此前蜀汉全郡仍完整。 ｜Claude：汉中郡的易手记在 e04b
+  evidence:
+  - quote: 蒋舒开城出降，傅佥格斗而死
+    para: 三国志-p02126
+- id: e26
+  army: 姜维军
+  kind: 撤退
+  place: 剑阁
+  from: 阴平
+  via:
+  - 白水关
+  - 汉寿
+  date: 263-09
+  territory: null
+  note: 廖化、张翼、董厥与姜维会合后退保剑阁；姜维军此前由阴平退向白水。
+  evidence:
+  - quote: 翼、厥甫至汉寿，维、化亦舍阴平而退。适与翼、厥合，皆退保剑阁以拒会
+    para: 三国志-p02126
+- id: e27
+  army: 钟会军
+  kind: 交战
+  place: 剑阁
+  from: null
+  via: []
+  date: 263-10
+  territory: null
+  note: 钟会攻姜维未克；魏军粮运困难，一度议退。
+  evidence:
+  - quote: 维遂东引，还守剑阁。钟会攻维未能克
+    para: 三国志-p01750
+  - quote: 会不能克，粮运县远，将议还归
+    para: 三国志-p02126
+- id: e28
+  army: 邓艾军
+  kind: 出发
+  place: 阴平
+  from: null
+  via: []
+  date: 263-10
+  territory: null
+  note: 邓艾奏请绕过剑阁由阴平奇袭；三国志记“冬十月”行动，不载具体日。
+  evidence:
+  - quote: 从阴平由邪径经汉德阳亭趣涪
+    para: 三国志-p01750
+  - quote: 冬十月，艾自阴平道行无人之地七百余里
+    para: 三国志-p01751
+- id: e29
+  army: 邓艾军
+  kind: 翻越
+  place: 江由
+  from: 阴平
+  via:
+  - 七百余里无人之地
+  - 凿山通道
+  - 桥阁
+  date: 263-10
+  territory: null
+  note: 史书只说凿山通道、造桥阁及裹毡滚下，未列可逐点定位的岭名；摩天岭未见本次原文。景谷道、左儋道见史家记述，是否为同一全程路线待考。
+  evidence:
+  - quote: 艾自阴平道行无人之地七百余里，凿山通道，造作桥阁。山高谷深，至为艰险，又粮运将匮，频于危殆。艾以毡自裹，推转而下。将士皆攀木缘崖，鱼贯而进。先登至江由
+    para: 三国志-p01751
+  - quote: 自阴平由景谷道傍入
+    para: 三国志-p02126
+  - quote: 欲从汉德阳入江由左儋道诣绵竹
+    para: 三国志-p01762
+- id: e30
+  army: 邓艾军
+  kind: 投降
+  place: 江由
+  from: null
+  via: []
+  date: 263-10
+  territory:
+    jun: 广汉属国
+    to: 魏
+  note: 江由守将马邈投降；现有疆域记账把该地作为广汉属国控制区，梓潼郡其余部分仍有剑阁蜀军。
+  evidence:
+  - quote: 先登至江由，蜀守将马邈降
+    para: 三国志-p01751
+- id: e31
+  army: 诸葛瞻军
+  kind: 撤退
+  place: 绵竹
+  from: 涪
+  via: []
+  date: 263-10
+  territory: null
+  note: 诸葛瞻督军至涪，前锋失利后退驻绵竹列阵；这条史料没有说邓艾军占领或驻守涪。
+  evidence:
+  - quote: 瞻督诸军至涪停住，前锋破，退还，住绵竹
+    para: 三国志-p01947
+  - quote: 蜀卫将军诸葛瞻自涪还绵竹、列陈待艾
+    para: 三国志-p01751
+- id: e32
+  army: 邓艾军
+  kind: 行军
+  place: 绵竹
+  from: 江由
+  via: []
+  date: 263-10
+  territory: null
+  note: 田章从剑阁西出江由，途中未满百里先破蜀伏兵三校，随后邓艾至绵竹。
+  evidence:
+  - quote: 会遣将军田章等从剑阁西，径出江由。未至百里，章先破蜀伏兵三校
+    para: 三国志-p01762
+  - quote: 艾遂至绵竹
+    para: 三国志-p01762
+- id: e33
+  army: 诸葛瞻军
+  kind: 交战
+  place: 绵竹
+  from: null
+  via: []
+  date: 263-10
+  territory: null
+  note: 魏军首阵不利，邓艾斥责后再战大破蜀军，诸葛瞻、张遵战死。
+  evidence:
+  - quote: 忠、纂战不利，并退还。曰：贼未可击。艾怒曰：存亡之分，在此一举，何不可之有?乃叱忠、纂等，将斩之。忠、纂驰还更战，大破之，斩瞻及尚书张遵等首
+    para: 三国志-p01751
+- id: e34
+  army: 邓艾军
+  kind: 攻占
+  place: 绵竹
+  from: null
+  via: []
+  date: 263-10
+  territory:
+    jun: 广汉郡
+    to: 魏
+  note: 绵竹战后魏军突破蜀军防线；广汉郡由此转入魏控制。
+  evidence:
+  - quote: 大破之，斩瞻及尚书张遵等首
+    para: 三国志-p01751
+  - quote: 冬，邓艾破卫将军诸葛瞻于绵竹
+    para: 三国志-p01913
+- id: e35
+  army: 邓艾军
+  kind: 行军
+  place: 雒
+  from: 绵竹
+  via: []
+  date: 263-10
+  territory: null
+  note: 绵竹战后进军到雒；史书未记在雒有战斗。
+  evidence:
+  - quote: 进军到雒
+    para: 三国志-p01751
+- id: e36
+  army: null
+  kind: 投降
+  place: 雒
+  from: null
+  via: []
+  date: 263-10
+  territory: null
+  note: 刘禅遣使奉玺绶向邓艾请降；雒县本在广汉郡，此处是全郡控制的进一步确认。 ｜Claude：广汉郡已在绵竹之战（e34）后变色
+  evidence:
+  - quote: 进军到雒，刘禅遣使奉皇帝玺绶，为笺诣艾请降
+    para: 三国志-p01751
+- id: e37
+  army: 邓艾军
+  kind: 行军
+  place: 成都
+  from: 雒
+  via: []
+  date: 263-10
+  territory: null
+  note: 邓艾进至成都受降；魏纪记当月蜀主诣艾降、巴蜀皆平。
+  evidence:
+  - quote: 艾至成都，禅率太子诸王及群臣六十余人面缚舆榇诣军门
+    para: 三国志-p01751
+  - quote: 是月，蜀主刘禅诣艾降，巴蜀皆平
+    para: 三国志-p00717
+- id: e38
+  army: null
+  kind: 投降
+  place: 成都
+  from: null
+  via: []
+  date: 263-10
+  territory:
+    jun: 蜀郡
+    to: 魏
+  note: 刘禅携太子、诸王及群臣六十余人到邓艾军门面缚请降；全蜀范围的随后郡县接管日次未逐一记录。
+  evidence:
+  - quote: 禅率太子诸王及群臣六十余人面缚舆榇诣军门
+    para: 三国志-p01751
+  - quote: 是月，蜀主刘禅诣艾降，巴蜀皆平
+    para: 三国志-p00717
+- id: e39
+  army: 姜维军
+  kind: 撤退
+  place: 巴
+  from: 剑阁
+  via: []
+  date: 263-10
+  territory: null
+  note: 姜维等听闻诸葛瞻败后率部东入巴；巴地具体屯驻点未载。
+  evidence:
+  - quote: 维等闻瞻已破，率其众东入于巴
+    para: 三国志-p01762
+  skip: 姜维东入巴：去向未载，旁白未讲
+- id: e40
+  army: 钟会军
+  kind: 行军
+  place: 涪
+  from: 剑阁
+  via: []
+  date: 263-10
+  territory: null
+  note: 姜维东入巴后，钟会进军至涪县；这里是钟会军，不应画成邓艾军到涪。
+  evidence:
+  - quote: 会乃进军至涪
+    para: 三国志-p01762
+- id: e41
+  army: 姜维军
+  kind: 投降
+  place: 涪
+  from: 广汉、郪道
+  via: []
+  date: 263-10
+  territory: null
+  note: 姜维等奉后主敕令投戈，赴钟会涪县军前投降；将士拔刀斫石。
+  evidence:
+  - quote: 维至广汉郪县，令兵悉放器仗，送节传于胡烈，便从东道诣会降
+    para: 三国志-p01762
+  - quote: 寻被后主敕令乃投戈放甲，诣会于涪军前，将士咸怒，拔刀斫石
+    para: 三国志-p02126
+- id: e42
+  army: null
+  kind: 行军
+  place: 成都
+  from: 未核
+  via: []
+  date: 264-01
+  territory: null
+  note: 邓艾被槛车征还；押解起点及日期（日）未核。
+  evidence:
+  - quote: 咸熙元年春正月壬戌，槛车征邓艾
+    para: 三国志-p00719
+  skip: 邓艾槛车征还：结尾用人物退场表现，押解路线起点未核
+- id: e43
+  army: 钟会军
+  kind: 交战
+  place: 成都
+  from: null
+  via: []
+  date: 264-01
+  territory: null
+  note: 钟会在蜀中举兵，魏军与乱兵攻杀钟会、姜维；具体战场及日次此处原文未细载。
+  evidence:
+  - quote: 是月，钟会反于蜀，为觽所讨；邓艾亦见杀
+    para: 三国志-p00719
+  skip: 钟会之乱在成都城内：用人物表现，不画行军
+- id: e44
+  army: null
+  kind: 交战
+  place: 三造亭
+  from: 绵竹
+  via: []
+  date: 264-01
+  territory: null
+  note: 田续夜袭押解中的邓艾及其子邓忠并杀之；三造亭具体地望未核。
+  evidence:
+  - quote: 乃遣护军田续至绵竹，夜袭艾于三造亭，斩艾及其子忠
+    para: 晋书-p03329
+  skip: 三造亭地望未核
+places_new:
+- name: 甘松
+  lon: 103.9
+  lat: 33.8
+  precision: 约略
+  basis: 今甘肃迭部东南一带的传统比定，具体古地未核；位置依据甘肃省地方史料介绍：https://gansu.gscn.com.cn/system/2017/10/10/011820210.shtml
+  evidence:
+  - quote: 艾趣甘松、沓中连缀维
+    para: 三国志-p01759
+- name: 武街
+  lon: 105.45
+  lat: 33.8
+  precision: 约略
+  basis: 今甘肃成县西北一带的传统比定，仅作示意点；依据：https://gansu.gscn.com.cn/system/2017/10/10/011820210.shtml
+  evidence:
+  - quote: 绪趣武街、桥头绝维归路
+    para: 三国志-p01759
+- name: 桥头（阴平桥头）
+  lon: 104.75
+  lat: 32.9
+  precision: 约略
+  basis: 依《读史方舆纪要》称在今文县治东南、白水上；点位仅示意，桥址有异说：https://zh.wikisource.org/zh-hans/讀史方輿紀要/卷五十九
+  evidence:
+  - quote: 阴平桥头
+    para: 三国志-p02126
+- name: 强川口
+  lon: 104.65
+  lat: 33.35
+  precision: 约略
+  basis: 强川又见漒川，具体水口未核；依甘肃境内川谷地名作低精度示意，须进一步校勘
+  evidence:
+  - quote: 欣等追蹑于强川口，大战，维败走
+    para: 三国志-p01750
+- name: 孔函谷
+  lon: 104.45
+  lat: 33.2
+  precision: 约略
+  basis: 传统考证置于今甘肃文县西北、武都方向山谷，位置有争议：https://www.cne3online.com/culture/view/12885408/128995842016963.shtml
+  evidence:
+  - quote: 从孔函谷入北道
+    para: 三国志-p01750
+- name: 三寸里
+  lon: 104.7
+  lat: 33.2
+  precision: 未核
+  basis: 原文仅作诸葛绪后撤地名，未找到可靠今地对应；坐标仅暂置阴平—武都通道示意，不能当作考定点
+  evidence:
+  - quote: 诸葛绪闻之，却还三寸里
+    para: 三国志-p01750
+- name: 骆谷
+  lon: 108.1
+  lat: 33.8
+  precision: 约略
+  basis: 今陕西周至县西南骆峪一带传统比定；依据：https://gansu.gscn.com.cn/system/2017/10/10/011820210.shtml
+  evidence:
+  - quote: 会统十余万众，分从斜谷、骆谷入
+    para: 三国志-p01759
+- name: 子午谷
+  lon: 108.9
+  lat: 33.7
+  precision: 约略
+  basis: 今西安南部秦岭谷道传统比定；依据：https://gansu.gscn.com.cn/system/2017/10/10/011820210.shtml
+  evidence:
+  - quote: 魏兴太守刘钦趣子午谷
+    para: 三国志-p01759
+- name: 汉城
+  lon: 106.1
+  lat: 33.05
+  precision: 未核
+  basis: 汉中防御城，精确遗址地望未核；置汉中盆地西缘示意
+  evidence:
+  - quote: 护军蒋斌守汉城
+    para: 三国志-p01759
+- name: 乐城
+  lon: 106.15
+  lat: 33.1
+  precision: 未核
+  basis: 汉中防御城，精确遗址地望未核；置汉中盆地西缘示意
+  evidence:
+  - quote: 监军王含守乐城
+    para: 三国志-p01759
+- name: 阳安口
+  lon: 106.05
+  lat: 32.95
+  precision: 约略
+  basis: 汉中西南出入口的概略区域点；口、关城、阳安关的具体关系需核
+  evidence:
+  - quote: 会径过，西出阳安口
+    para: 三国志-p01759
+- name: 阳安关口（关城）
+  lon: 106.0
+  lat: 32.95
+  precision: 约略
+  basis: 今宁强西北阳平关一带传统比定，古关地望沿革有不同说法；参考汉中市地方志办公室：https://hzdqw.hanzhong.gov.cn/hzdfz/zjsy/202608/ca8a0e6df08c465985a51202e338b581.shtml
+  evidence:
+  - quote: 攻破关城，得库藏积谷
+    para: 三国志-p01759
+- name: 汉德阳亭
+  lon: 105.0
+  lat: 31.9
+  precision: 未核
+  basis: 仅见史书作为邓艾拟经地名，未核古亭遗址；作江由北方路线示意
+  evidence:
+  - quote: 从阴平由邪径经汉德阳亭趣涪
+    para: 三国志-p01750
+- name: 景谷道
+  lon: 104.9
+  lat: 32.4
+  precision: 未核
+  basis: 《诸葛亮传》称由景谷道旁入，但其与阴平小道诸名的具体范围、线路关系未核，暂用路线代表点
+  evidence:
+  - quote: 自阴平由景谷道傍入
+    para: 三国志-p02126
+- name: 左儋道
+  lon: 104.95
+  lat: 32.35
+  precision: 未核
+  basis: 《邓艾传》称拟从江由左儋道赴绵竹；路径位置和是否实际走完未核
+  evidence:
+  - quote: 欲从汉德阳入江由左儋道诣绵竹
+    para: 三国志-p01762
+- name: 三造亭
+  lon: 104.25
+  lat: 31.25
+  precision: 未核
+  basis: 《晋书》仅记在绵竹袭杀邓艾，具体亭址未核，坐标暂以绵竹区域示意
+  evidence:
+  - quote: 夜袭艾于三造亭
+    para: 晋书-p03329
+open_questions:
+- 邓艾阴平行军原文分别出现“阴平道”“景谷道”“汉德阳亭”“江由左儋道”；这些名称是史书记录的路线标签，但精确线路、先后关系及是否全部为实际通行段尚未核，不宜直接画成摩天岭—景谷道单一确定路线。
+- “摩天岭”在本地所查《三国志》《晋书》《华阳国志》《资治通鉴》原文中未检得；是否为后世地名附会，以及毛毡滚下的具体崖岭位置，未核。
+- 魏纪、《三国志》记“冬十月”蜀主降，晋书记十一月；疆域.yaml现有日级日期明确是排序示意。应以哪个历法纪月作为地图变色月份，需统一口径；此账采用《三国志》263-10并保留异文说明。
+- 汉城、乐城、阳安口、关城的具体遗址位置及空间关系未核；取汉中郡还是仅标为堡关失守作为疆域变化节点，需Claude结合疆域检查器决定。
+- 刘禅出降后“巴蜀皆平”，蜀各郡县的逐个接收日期不见记载；本账只将成都及明载主要节点标为归魏，是否一拍全域变色需按检查器表达规则处理。
+- 姜维在阴平桥头周旋时，廖化驻阴平与诸葛绪控制桥头的关系、援军具体站位未能由本地原文完全复原。
+accepted: Claude 2026-10-25：引文 verify_quotes 全过；地名统一为 episode.yaml 的写法（雒县→雒、阴平桥头→桥头、白水→白水关、关中→长安）；新地名 骆谷/强川口/桥头/武街 已登记地点库（约略）

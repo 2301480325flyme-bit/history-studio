@@ -1,0 +1,289 @@
+# 快节奏版（2026-10-25）
+# 《三国到隋》第33集 · 两晋：长沙王之死（302–304 年正月）。大纲第 29 条前半（后半荡阴、刘渊李雄拆到第 34 集）。
+# 本地语料核对（晋书）：
+# 惠帝纪 p00099 太安元年"十二月丁卯，河间王颙表齐王冏窥伺神器…长沙王乂奉乘舆屯南止车门，攻冏，杀之"；天文志 p00630"冏、乂交战，攻焚宫阙，冏兵败，夷灭"；
+# 惠帝纪 p00100 太安二年"八月，河间王颙、成都王颖举兵讨长沙王乂…颙遣其将张方，颍遣其将陆机、牵秀、石超等来逼京师"；"遣将军皇甫商距方于宜阳"；"张方入京城，烧清明、开阳二门，死者万计"；"方决千金堨，水碓皆涸。乃发王公奴婢手舂给兵禀…公私穷踧，米石万钱"；"癸亥，东海王越执长沙王乂，幽于金墉城，寻为张方所害"；
+# 河间王颙传 p04636 张方"领精卒七万向洛"；"方初于駃水桥西为营，于是筑垒数重…乂复从天子出攻方，战辄不利"；
+# 陆机传 p04328"列军自朝歌至于河桥，鼓声闻数百里，汉、魏以来，出师之盛，未尝有也。长沙王乂奉天子与机战于鹿苑，机军大败，赴七里涧而死者如积焉，水为之不流"；
+# 长沙王乂传 p04621"乂前后破颖军，斩获六七万人。战久粮乏，城中大饥，虽曰疲弊，将士同心，皆愿效死…张方以为未可克，欲还长安。而东海王越虑事不济，潜与殿中将收乂送金墉城"；
+#   p04622"黄门郎潘滔劝越密告张方，方遣部将郅辅勒兵三千，就金墉收乂，至营，炙而杀之。乂冤痛之声达于左右，三军莫不为之垂涕。时年二十八"；
+# 成都王颖传 p04628"颖既入京师，复旋镇于鄴…立颖为皇太弟，丞相如故…乘舆服御皆迁于鄴"。
+# 不用：鹿苑、七里涧、駃水桥、西明门的精确地点（未定位，交战标在洛阳）；十三里桥—宣武—石楼—河桥—芒山—偃师—豆田—缑氏的惠帝行军全程（旁白不讲）；陆机被杀与"华亭鹤唳"（本集只一句带过陆机兵败）。
+
+id: s01e33-hunzhan
+title: 长沙王之死
+series: 两晋 · 第33集
+year: 302
+
+notes:
+  - 主线问题：长沙王守住了洛阳，几乎每一仗都赢了，为什么死得最惨？——敌人张方都打算撤回长安了，城里的东海王先怕了，把他抓起来，送进了敌营。
+  - 钩子候选：①"敌人都准备撤兵了，他却被自己人绑了，送进敌营"（反差3 具体2 悬念3 兑现3=11）②"他打赢了几乎每一仗，最后被活活烧死"（反差3 具体2 悬念2 兑现3=10）③"二十八岁的王爷，死在自己人手里"（反差2 具体2 悬念2 兑现3=9）→ 选①。
+  - 反差：陆机的大军"鼓声传出几百里"，一仗就溃；城里饿到米一万钱一石，将士却都愿拼命；张方准备撤了，东海王先投了降。
+  - 细节：南止车门、宫殿起火；七里涧尸体堵住河水；烧了清明、开阳两座城门；王公家的奴婢亲手舂米给士兵；三千人到金墉城押人；喊冤声三军落泪。
+  - 动机：东海王"虑事不济"，怕城破被清算；张方"以为未可克"。
+  - 演义对照卡：结尾卡"史书怎么写"（长沙王乂传：张方以为未可克，欲还长安）。
+
+map:
+  center: [113.0, 34.5]
+  scale: 5000
+  extent: [86.0, 12.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas
+  river_rank: 4
+  palette: warm
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 敌人都准备撤兵了，他却被自己人绑了，送进敌营
+  big: [长沙王, 自己人]
+  hero: 司马乂
+  at: 3
+  summary: |
+    302 年十二月，长沙王司马乂奉惠帝在洛阳宫门外攻杀骄横的齐王冏，接掌朝政。303 年八月，成都王颖、河间王颙联兵讨伐：河间王大将张方带七万精兵东来，成都王的陆机大军"鼓声闻数百里"。长沙王在鹿苑大破陆机，逃兵跳进七里涧，尸体堵得河水不流，前后斩获六七万人。
+    张方攻进城烧了两座城门，又在城西筑垒久围，城里米价涨到一万钱一石，将士仍愿死战。张方已打算撤回长安，东海王司马越却先怕了：304 年正月他暗中抓了长沙王送进金墉城，又密告张方。长沙王被押到张方营中活活烧死，年仅二十八岁，喊冤之声三军落泪。
+  tags: [西晋, 八王之乱, 长沙王司马乂, 张方, 东海王司马越, 陆机]
+  next: 荡阴之战
+
+sources_local:
+  - {id: js-04, work: 晋书, volume: 卷四·惠帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷004'}
+  - {id: js-12, work: 晋书, volume: 卷十二·天文志中, url: 'https://zh.wikisource.org/wiki/晉書/卷012'}
+  - {id: js-54, work: 晋书, volume: 卷五十四·陆机传, url: 'https://zh.wikisource.org/wiki/晉書/卷054'}
+  - {id: js-59, work: 晋书, volume: 卷五十九·长沙王乂传、成都王颖传、河间王颙传, url: 'https://zh.wikisource.org/wiki/晉書/卷059'}
+
+factions: {晋: '#2f5d3a', 成都王: '#3f8fc4', 河间王: '#8c7bb8', 东海王: '#a0522d'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    晋: {slot: jade, main: true, label_at: 洛阳}
+    成都王: {slot: sky, label_at: 邺}
+    河间王: {slot: lavender, label_at: 长安}
+
+people:
+  司马乂: {image: 03_素材/人物立绘/sima_yi2.png, title: 长沙王, role: 守洛阳, faction: 晋}
+  司马冏: {image: 03_素材/人物立绘/sima_jiong.png, title: 齐王, role: 骄横辅政, faction: 晋}
+  司马衷: {image: 03_素材/人物立绘/sima_zhong.png, title: 晋惠帝, role: 傻皇帝, faction: 晋}
+  司马颖: {image: 03_素材/人物立绘/sima_ying.png, title: 成都王, role: 坐镇邺城, faction: 成都王}
+  司马颙: {image: 03_素材/人物立绘/sima_yong.png, title: 河间王, role: 坐镇长安, faction: 河间王}
+  司马越: {image: 03_素材/人物立绘/sima_yue.png, title: 东海王, role: 出卖长沙王, faction: 东海王}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: right, tier: capital}
+  邺: {id: ye_city, label: right}
+  长安: {id: changan_han_city, label: below}
+  宜阳: {id: yiyang, label: below}
+  河桥: {id: mengjin, name: 河桥, label: above}
+  朝歌: {id: zhaoge, label: right}
+
+camera:
+  focus: [洛阳, 邺, 长安]
+  zoom: fit
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 敌人都准备撤兵了，他却被自己人绑了，送进敌营。
+    map: '301-06'
+    year: 304
+    phase: 围城
+    sources: [js-59]
+    camera: {focus: 洛阳, zoom: 6, move: 1.2}
+    show:
+      - sfx: 重拍转场
+      - act: {act: prop, at: 洛阳, item: 绳索, text: 收乂, cue: 绑了, size: 1.2, for: 3.4}
+
+  - say: 守住洛阳的人，几乎每一仗都打赢了，最后却死得最惨。
+    sources: [js-59]
+    show:
+      - sfx: {name: 悬疑, delay: 0.2}
+
+  - say: 他是长沙王，司马乂。
+    sources: [js-59]
+    show:
+      - enter: {who: 司马乂, side: right, cue: 司马乂, for: 3.6}
+      - sfx: {name: 帝王登场, cue: 司马乂}
+
+  # ---------------- 第一章 齐王之死 ----------------
+  - say: 先说上一集的齐王。他在洛阳辅政一年多，骄横得谁也管不了。
+    phase: 齐王
+    year: 302
+    sources: [js-04]
+    camera: {focus: [洛阳, 邺, 长安], zoom: fit, move: 1.4}
+    show:
+      - title_bar: {text: 长沙王之死, sub: 两晋 · 第33集, for: 3.2}
+      - sfx: 片头鼓
+      - enter: {who: 司马冏, side: left, cue: 齐王, for: 3.4}
+
+  - say: 关中的河间王上表：齐王想当皇帝。三零二年十二月，长沙王带着傻皇帝，在宫门外攻打齐王。
+    sources: [js-04]
+    camera: {focus: 洛阳, zoom: 8, move: 1.2}
+    tells: [e01]
+    show:
+      - act: {act: edict, at: 洛阳, text: 窥伺神器, sub: 河间王表, cue: 上表, for: 3}
+      - battle: {at: 洛阳, text: 南止车门, cue: 攻打齐王}
+      - sfx: {name: 刀剑交击, cue: 攻打}
+
+  - say: 两边在洛阳城里打了几天，宫殿都烧了起来。齐王兵败被杀。
+    sources: [js-04, js-12]
+    show:
+      - fire: {at: 洛阳, cue: 烧了起来, radius: 1.0, for: 3.6}
+      - exit: {who: 司马冏, at: 洛阳, verb: 诛, portrait: true, cue: 被杀}
+      - sfx: {name: 处斩, cue: 被杀}
+
+  - say: 长沙王掌了朝政。可邺城的成都王、长安的河间王，都盯着洛阳。
+    sources: [js-04]
+    camera: {focus: [洛阳, 邺, 长安], zoom: fit, move: 1.4}
+    show:
+      - flag: {at: 邺, name: 成都王, sub: 司马颖, faction: 成都王, cue: 成都王, until: beat+3}
+      - flag: {at: 长安, name: 河间王, sub: 司马颙, faction: 河间王, cue: 河间王, until: beat+3}
+
+  # ---------------- 第二章 围城 ----------------
+  - say: 三零三年八月，两个王联手讨伐长沙王。河间王的大将张方，带着七万精兵从关中东来。
+    phase: 围城
+    year: 303
+    sources: [js-04, js-59]
+    camera: {focus: [长安, 宜阳, 洛阳], zoom: fit, move: 1.4}
+    tells: [e03]
+    show:
+      - enter: {who: 司马颙, side: right, cue: 河间王, for: 3}
+      - army: {unit: 张方, from: 长安, via: [宜阳], to: 洛阳, faction: 河间王, banner: 张, troops: infantry, size: 3.0, cue: 七万精兵, grow: 2.6}
+      - sfx: {name: 步兵行军, cue: 东来}
+
+  - say: 成都王派陆机带兵南下，从朝歌一直排到黄河边的河桥，鼓声传出几百里。
+    sources: [js-54]
+    camera: {focus: [邺, 朝歌, 河桥, 洛阳], zoom: fit, move: 1.4}
+    tells: [e02]
+    show:
+      - enter: {who: 司马颖, side: right, cue: 成都王, for: 3}
+      - army: {unit: 陆机, from: 邺, via: [朝歌], to: 河桥, faction: 成都王, banner: 陆, troops: infantry, size: 3.2, cue: 南下, grow: 2.2}
+      - sfx: {name: 战鼓, cue: 鼓声}
+      - quote: {text: 列军自朝歌至于河桥，鼓声闻数百里, source: 晋书·陆机传, era: 太安二年, cue: 几百里, for: 4}
+
+  - say: 长沙王带着皇帝出城迎战，大破陆机。逃兵跳进七里涧，尸体堆得河水都不流了。
+    sources: [js-54]
+    camera: {focus: [河桥, 洛阳], zoom: fit, move: 1.2}
+    tells: [e18]
+    show:
+      - army: {head: 司马乂, from: 洛阳, to: 河桥, faction: 晋, banner: 乂, troops: infantry, size: 2.6, cue: 出城迎战, grow: 1.2, stop: approach, camp: false}
+      - battle: {at: 河桥, text: 鹿苑之战, cue: 大破陆机}
+      - vignette: {image: illus_qilijian, cue: 七里涧, for: 5, text: 七里涧 水为之不流}
+      - sfx: {name: 刀剑交击, cue: 大破}
+      - rout: {at: 河桥, to: 朝歌, faction: 成都王, unit: 陆机, cue: 逃兵}
+
+  - say: 前前后后，他杀伤成都王的兵六七万人。
+    sources: [js-59]
+    show:
+      - headline: {text: 斩获六七万, sub: 乂前后破颖军, cue: 六七万, for: 3}
+
+  - say: 可西边的张方，攻进了城，烧了两座城门，死了上万人。
+    audit_ok: [易手]
+    sources: [js-04]
+    camera: {focus: 洛阳, zoom: 9, move: 1.2}
+    tells: [e16]
+    show:
+      - battle: {at: 洛阳, text: 烧清明开阳二门, cue: 攻进了城}
+      - fire: {at: 洛阳, cue: 城门, radius: 0.8, for: 3.4}
+      - sfx: {name: 点火, cue: 城门}
+
+  - say: 张方在城西筑起好几重营垒，围着洛阳就是不走。
+    sources: [js-59]
+    tells: [e17]
+    show:
+      - act: {act: prop, at: 洛阳, item: 营寨, text: 筑垒数重, cue: 营垒, size: 1.2, for: 3.4}
+
+  - say: 城里断了粮，米涨到一万钱一石，连王公家的奴婢都拉去舂米。可将士们一条心，都愿意拼到底。
+    sources: [js-04, js-59]
+    show:
+      - act: {act: coins, at: 洛阳, text: 米石万钱, cue: 一万钱, for: 3}
+      - quote: {text: 虽曰疲弊，将士同心，皆愿效死, source: 晋书·长沙王乂传, cue: 一条心, for: 4}
+
+  # ---------------- 第三章 出卖 ----------------
+  - say: 拖到后来，张方自己也觉得打不下来，准备撤回长安了。
+    phase: 出卖
+    sources: [js-59]
+    camera: {focus: [洛阳, 长安], zoom: fit, move: 1.4}
+    show:
+      - quote: {text: 张方以为未可克，欲还长安, source: 晋书·长沙王乂传, cue: 打不下来, for: 4}
+      - sfx: {name: 转折渐强, cue: 撤回}
+
+  - say: 偏偏这时候，城里有人先撑不住了。东海王司马越，怕城破了自己跟着倒霉。
+    sources: [js-59]
+    camera: {focus: 洛阳, zoom: 8, move: 1.2}
+    show:
+      - enter: {who: 司马越, side: right, cue: 司马越, for: 3.6}
+      - sfx: {name: 不祥鼓, cue: 撑不住}
+
+  - say: 三零四年正月，他暗中勾结宫里的禁军将领，抓了长沙王，关进金墉城。
+    year: 304
+    sources: [js-04, js-59]
+    show:
+      - act: {act: prison, at: 洛阳, text: 金墉城, cue: 金墉城, for: 3.2}
+      - sfx: {name: 城门关闭, cue: 金墉城}
+
+  - say: 有人又给东海王出主意：干脆，告诉张方。
+    sources: [js-59]
+    show:
+      - spot: {at: 洛阳, text: 密告张方, cue: 告诉张方}
+
+  - say: 张方派了三千人，到金墉城把长沙王押回大营，用火活活烧死。
+    sources: [js-59]
+    tells: [e19]
+    show:
+      - vignette: {image: illus_changsha_escort, cue: 三千人, for: 5, text: 就金墉收乂}
+      - fire: {at: 洛阳, cue: 用火, radius: 0.6, for: 3}
+      - exit: {who: 司马乂, at: 洛阳, verb: 卒, portrait: true, cue: 烧死}
+      - sfx: {name: 退场钟, cue: 烧死}
+
+  - say: 他喊冤的声音，四周都听得见。三军将士，没有不掉泪的。他只有二十八岁。
+    sources: [js-59]
+    show:
+      - quote: {text: 乂冤痛之声达于左右，三军莫不为之垂涕。时年二十八, source: 晋书·长沙王乂传, era: 永兴元年正月, cue: 掉泪, for: 4.4}
+
+  - say: 洛阳的城门开了。成都王进京转了一圈，当上皇太弟，又回到邺城遥控朝廷。
+    sources: [js-59]
+    camera: {focus: [洛阳, 邺], zoom: fit, move: 1.4}
+    show:
+      - army: {head: 司马颖, from: 邺, to: 洛阳, faction: 成都王, banner: 成都, troops: cavalry, size: 2.4, cue: 进京, grow: 1.4, camp: false}
+      - act: {act: edict, at: 邺, text: 皇太弟, sub: 乘舆服御皆迁于邺, cue: 皇太弟, for: 3.2}
+      - sfx: {name: 册封, cue: 皇太弟}
+
+  # ---------------- 收 ----------------
+  - say: 长沙王为什么打赢了还会死？城外的敌人他打得过，城里的自己人，他防不住。
+    sources: [js-59]
+    camera: {focus: [洛阳, 邺, 长安], zoom: fit, move: 1.6}
+    show:
+      - versus: {left: 司马乂, right: 司马越, label: 防不住, cue: 自己人, for: 3.6}
+
+  - say: 八王之乱打到这一步，已经没人在乎谁对谁错，只在乎自己能不能活。
+    sources: [js-59]
+    show:
+      - headline: {text: 只求自己能活, sub: 八王之乱第三年, cue: 能不能活, for: 3.4}
+      - sfx: {name: 史诗冲击, cue: 能不能活}
+
+  - say: 如果你是东海王，城眼看守不住了，你会交出长沙王吗？
+    sources: [js-59]
+    show:
+      - card: {title: 史书怎么写, body: 长沙王乂传：张方以为未可克，欲还长安。而东海王越虑事不济…, cue: 交出, for: 3.6}
+
+  - say: 可东海王没想到，下一回，他要带着皇帝，亲自去打邺城。
+    sources: [js-04]
+    show:
+      - enter: {who: 司马越, side: right, cue: 东海王, for: 3.4}
+      - title_bar: {text: 下集, sub: 两晋 · 荡阴之战, cue: 邺城, delay: 0.4, for: 3.0}
+      - sfx: {name: 时代转折, cue: 邺城}

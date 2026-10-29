@@ -1,0 +1,420 @@
+# 《三国》合集 第2集：何进召董卓进京诛宦官，反被宦官所杀
+# 旁白定稿见 01_工作流/series/三国到隋/第02集-何进召董卓.md（台词逐字照抄，不在这里改）。
+
+id: s01e02-hejin
+title: 何进召董卓
+series: 三国 · 第2集
+year: 189
+
+map:
+  center: [114.0, 33.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  river_rank: 4
+
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  mode: mimo
+  provider: preset           # MiMo 内置音色（不克隆）：2026-10-09 用户选定白桦；克隆的 D6 分章合成会变声
+  voice: 白桦
+  unit: chapter              # 每章整段合成
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.3
+  tempo_target: 4.3          # 整集一个调速倍数（tempo_scope 默认 episode）
+  gap: 0.5
+  bed: none                  # 2026-10-12: the synthetic bed is replaced by the 底声 music track below
+  bed_db: -26
+
+# 底声（03_素材/音乐/底声，tools/make_beds.py）：全程铺底，说话时再压低；按章节换情绪
+music: {default: 底声·紧张, db: -14, duck_db: -6, fade: 3.0}
+
+publish:
+  hook: 何进请来的帮手，掀翻了整个东汉
+  big: [剑履上殿]
+  hero: 董卓
+  at: 190
+  summary: |
+    公元189年，汉灵帝驾崩，大将军何进想把宦官一网打尽，竟召西凉军阀董卓带兵进京。陈琳、卢植苦劝不听，何进先被宦官砍死在宫中。
+    董卓趁乱接住少帝，三千人马用疑兵计吓住洛阳，废少帝、立献帝，"剑履上殿"；袁绍挂节出走，曹操改名逃亡——讨董的大幕就此拉开。
+  tags: [董卓, 何进, 袁绍, 曹操]
+  next: 十几万大军讨董卓，为什么一仗都不敢打？
+
+sources_local:
+  - {id: hhs-69, work: 后汉书, volume: 卷六十九·何进传, url: 'https://zh.wikisource.org/wiki/後漢書/卷69'}
+  - {id: hhs-78, work: 后汉书, volume: 卷七十八·宦者列传, url: 'https://zh.wikisource.org/wiki/後漢書/卷78'}
+  - {id: hhs-08, work: 后汉书, volume: 卷八·孝灵帝纪, url: 'https://zh.wikisource.org/wiki/後漢書/卷8'}
+  - {id: hhs-64, work: 后汉书, volume: 卷六十四·卢植传, url: 'https://zh.wikisource.org/wiki/後漢書/卷64'}
+  - {id: hhs-74, work: 后汉书, volume: 卷七十四上·袁绍传, url: 'https://zh.wikisource.org/wiki/後漢書/卷74上'}
+  - {id: sgz-06, work: 三国志, volume: 卷六·董卓传（注引九州春秋）, url: 'https://zh.wikisource.org/wiki/三國志/卷06'}
+  - {id: sgz-01, work: 三国志, volume: 卷一·武帝纪（注引魏书、世语、孙盛杂记）, url: 'https://zh.wikisource.org/wiki/三國志/卷01'}
+  - {id: sgz-21, work: 三国志, volume: 卷二十一·陈琳传, url: 'https://zh.wikisource.org/wiki/三國志/卷21'}
+
+factions: {汉室: '#b8462f', 宦官: '#5a4a6a', 袁绍: '#27587e', 曹操: '#2f5d3a', 关东: '#27587e', 并州: '#8a6a1c'}
+
+territory:
+  cells: han-140
+  zhou_labels: true
+  jun_labels: false
+  polities:
+    汉室: {slot: salmon, main: true, label_at: 洛阳}
+    刘焉: {slot: lime, label_at: 绵竹}
+    董卓: {slot: violet, label_at: 安邑}
+
+people:
+  何进: {image: 03_素材/人物立绘/he_jin.png, title: 大将军, role: 召外兵, faction: 汉室}
+  何太后: {image: 03_素材/人物立绘/he_taihou.png, title: 皇太后, role: 临朝称制, faction: 汉室, voice: 三十岁左右的东汉皇太后，女声，嗓音端庄威严，说话不容置疑}
+  刘辩: {image: 03_素材/人物立绘/liu_bian.png, title: 少帝, role: 十四岁即位, faction: 汉室}
+  刘协: {image: 03_素材/人物立绘/liu_xie.png, title: 陈留王, role: 灵帝次子, faction: 汉室}
+  张让: {image: 03_素材/人物立绘/zhang_rang.png, title: 中常侍, role: 十常侍之首, faction: 宦官, voice: 六十岁左右的东汉老宦官，男声，嗓音尖细苍老、阴柔，城府很深}
+  袁绍: {image: 03_素材/人物立绘/yuan_shao.png, title: 司隶校尉, role: 劝诛宦官, faction: 袁绍, voice: 三十多岁的名门公子，男声，嗓音清朗洪亮，骄傲而有气节, voice_sample: 大丈夫立于天地之间，岂能受人胁迫！}
+  董卓: {image: 03_素材/人物立绘/dong_zhuo.png, title: 前将军, role: 西凉军阀, faction: 董卓, voice: 五十岁左右的西凉军阀，男声，嗓音粗哑洪亮，蛮横凶悍，说话像吼, voice_sample: 谁敢不从？我手里的刀可不认人！}
+  吕布: {image: 03_素材/人物立绘/lv_bu.png, title: 丁原部将, role: 杀丁原, faction: 董卓}
+  丁原: {image: 03_素材/人物立绘/ding_yuan.png, title: 执金吾, role: 并州兵, faction: 并州}
+  陈琳: {image: 03_素材/人物立绘/chen_lin.png, title: 主簿, role: 劝阻何进, faction: 汉室, voice: 三十多岁的东汉文士，男声，嗓音清朗，口才犀利，说话急切}
+  曹操: {image: 03_素材/人物立绘/cao_cao.png, title: 骁骑校尉, role: 陈留起兵, faction: 曹操, voice: 三十多岁的东汉男子，男声，嗓音低沉有磁性，冷静而城府深}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: left, tier: capital}
+  安邑: {id: anyi_han, label: left}
+  临洮: {id: lintao_han, label: below}
+  河内: {id: henei_approx, label: right}
+  小平津: {id: xiaopingjin, label: right}
+  北邙: {id: beimang, label: left}
+  南皮: {id: nanpi, label: right}
+  邺: {id: ye_city, label: right}
+  陈留: {id: chenliu_han, label: right}
+  酸枣: {id: suanzao_county, label: left}
+  绵竹: {id: mianzhu_old, label: right}
+
+camera:
+  focus: 洛阳
+  zoom: 0.62
+
+beats:
+  - say: 上回说到，汉灵帝驾崩。皇子刘辩即位，何太后临朝，她的哥哥、大将军何进掌握了兵权。
+    phase: 何进的昏招
+    sources: [hhs-69, hhs-08]
+    year: 189
+    camera: {focus: 洛阳, zoom: 2.6, move: 2.0}
+    map: '188-06'
+    show:
+      - title_bar: {text: 何进召董卓, sub: 三国 · 第2集, cue: 上回, for: 3.2}
+      - sfx: 片头鼓
+      - enter: {who: 刘辩, side: right, cue: 刘辩, for: 2.4}
+      - enter: {who: 何太后, side: left, cue: 何太后, for: 2.6}
+      - flag: {at: 洛阳, name: 何进, sub: 大将军, faction: 汉室, cue: 何进}
+
+  - say: 外戚和宦官斗了几十年，这一次，何进想把宦官一网打尽。
+    sources: [hhs-69]
+    show:
+      - versus: {left: 何进, right: 张让, label: 外戚对宦官, cue: 外戚, for: 3.6}
+      - sfx: {name: 对峙滚奏, cue: 外戚, len: 5}
+
+  - say: 可他没想到，自己请来的帮手，会把整个东汉掀翻。
+    sources: [hhs-69]
+    camera: {focus: [洛阳, 临洮], zoom: fit, move: 1.6}
+    show:
+      - spot: {at: 临洮, cue: 帮手}
+      - sfx: {name: 不祥鼓, cue: 帮手}
+
+  - say: 宦官蹇硕先动了手，想杀何进、改立皇子刘协，结果反被何进抢先除掉。
+    sources: [hhs-69, hhs-78]
+    camera: {focus: 洛阳, zoom: 3.0, move: 1.4}
+    show:
+      - flag: {at: 洛阳, name: 蹇硕, sub: 上军校尉, faction: 宦官, side: left, cue: 蹇硕, end_cue: 除掉, end_delay: 0.6}
+      - enter: {who: 刘协, side: right, cue: 刘协, for: 2.4}
+      - act: {act: execute, at: 洛阳, text: 诛, cue: 除掉, for: 2.6}
+      - sfx: {name: 处斩, cue: 除掉}
+
+  - say: 司隶校尉袁绍劝何进，趁势把宦官全杀了。何太后却一口回绝：
+    scene: 朝堂
+    sources: [hhs-69, hhs-74]
+    show:
+      - enter: {who: 袁绍, at: 洛阳, side: left, cue: 袁绍, settle: true, settle_sub: 司隶校尉}
+      - sfx: {name: 登场, cue: 袁绍}
+
+  - say: 宦官统领宫禁，从古到今都是汉家的规矩，不能废！
+    speaker: 何太后
+    style: 威严而不容置疑，带着太后的架子，一口回绝
+    scene: 朝堂
+    to: 何进
+    sources: [hhs-69]
+
+  - say: 何进犹豫不决，又听了袁绍的主意：召各地将领带兵进京，逼太后点头。
+    sources: [hhs-69]
+    camera: {focus: [洛阳, 安邑, 河内], zoom: fit, move: 1.4}
+    show:
+      - act: {act: courier, places: [洛阳, 安邑], text: 召, cue: 召各地, grow: 1.6, for: 3.4}
+      - act: {act: courier, places: [洛阳, 河内], text: 召, cue: 召各地, delay: 0.4, grow: 1.4, for: 3.0}
+      - sfx: {name: 快呼啸, cue: 召各地}
+
+  - say: 被召的人里，有一个手握西凉兵的军阀，名叫董卓。
+    sources: [sgz-06]
+    camera: {focus: 安邑, zoom: 2.6, move: 1.4}
+    show:
+      - enter: {who: 董卓, at: 安邑, side: right, cue: 董卓, settle: true, settle_sub: 前将军, guest: true}
+      - sfx: {name: 大军号角, cue: 董卓}
+
+  - say: 主簿陈琳急了，劝何进说：
+    sources: [hhs-69, sgz-21]
+
+  - say: 这叫倒持干戈，授人以柄！大兵一到，谁强谁说了算，到时候就全乱套了！
+    speaker: 陈琳
+    style: 焦急恳切，又急又快，苦口婆心
+    speed: 1.1
+    sources: [hhs-69, sgz-21]
+
+  - say: 尚书卢植也说，董卓这人凶悍难制。何进一概不听。
+    sources: [hhs-69, hhs-64]
+    show:
+      - card: {title: 引狼入室, body: 陈琳、卢植劝阻，何进不听, cue: 凶悍难制}
+
+  - say: 宦官们察觉了。八月，中常侍张让等人假传太后的旨意，把何进骗进宫里。张让当面质问他：
+    scene: 宫门
+    phase: 宫门血案
+    music: 底声·阴沉
+    sources: [hhs-69, hhs-08]
+    camera: {focus: 洛阳, zoom: 6, move: 1.4}
+    show:
+      - sfx: {name: 低音转场, delay: -0.3}
+      - enter: {who: 张让, side: right, cue: 张让, for: 2.6}
+      - act: {act: edict, at: 洛阳, text: 诏, sub: 假传太后旨意, side: left, cue: 假传, for: 2.6}
+
+  - say: 天下乱成这样，难道只是我们这些人的罪吗！
+    speaker: 张让
+    style: 又怨又狠，尖声质问，咬牙切齿
+    scene: 宫门
+    to: 何进
+    pause_cap: 0.15
+    sources: [hhs-69]
+
+  - say: 话音刚落，埋伏的宦官一拥而上，当场砍死了何进。
+    scene: 宫门
+    sources: [hhs-69, hhs-08]
+    show:
+      - exit: {who: 何进, at: 洛阳, verb: 诛, cue: 砍死, portrait: true}
+      - sfx: {name: 处斩, cue: 砍死}
+
+  - say: 袁绍、袁术立刻带兵攻进皇宫，见到宦官就杀，一共杀了两千多人，有人只因为没长胡子也被误杀。
+    sources: [hhs-78, hhs-69]
+    show:
+      - clash: {at: 洛阳, sides: [{faction: 袁绍, banner: 袁, troops: infantry}, {faction: 宦官, banner: 宦, troops: infantry}], loser: 宦官, cue: 攻进, title: 宫门之变}
+      - sfx: {name: 喊杀, cue: 攻进}
+      - sfx: {name: 溃败哭喊, cue: 两千多人}
+
+  - say: 张让等人挟持着少帝和陈留王刘协，连夜逃出洛阳，跑到黄河边的小平津。
+    sources: [hhs-08, hhs-78]
+    camera: {focus: [洛阳, 小平津], zoom: fit, move: 1.4}
+    show:
+      - army: {from: 洛阳, to: 小平津, faction: 宦官, banner: 张, troops: infantry, size: 1.5, cue: 逃出, grow: 2.4}
+      - sfx: {name: 快呼啸, cue: 逃出}
+
+  - say: 追兵赶到，张让走投无路，哭着向少帝辞别：
+    sources: [hhs-78]
+
+  - say: 臣等一死，天下就要大乱了。陛下，保重！
+    speaker: 张让
+    style: 悲凉绝望，带着哭腔，最后的诀别
+    gain_db: -5
+    pause_cap: 0.15
+    sources: [hhs-78]
+
+  - say: 说完，纵身跳进了黄河。兄弟俩在黑夜里，摸索着往洛阳方向走。
+    sources: [hhs-08, hhs-78]
+    camera: {focus: [小平津, 北邙], zoom: 28, move: 1.6}
+    show:
+      - act: {act: night, cue: 黑夜, for: 5}
+      - exit: {who: 张让, at: 小平津, verb: 亡, cue: 跳进}
+      - sfx: {name: 投水, cue: 跳进}
+      - march: {from: 小平津, to: 北邙, label: 少帝 · 陈留王, cue: 摸索, grow: 3.4, for: 4.5}
+
+  - say: 就在这时，董卓的大军到了。他在北邙山下接住了皇帝，跟着一起进了洛阳。
+    phase: 董卓进京
+    sources: [sgz-06]
+    camera: {focus: [安邑, 洛阳], zoom: fit, move: 1.4}
+    show:
+      - sfx: {name: 低音转场, delay: -0.3}
+      - army: {from: 安邑, to: 北邙, faction: 董卓, banner: 董, troops: cavalry, size: 3, cue: 大军, grow: 2.0}
+      - sfx: {name: 骑兵行军, cue: 大军, len: 6}
+      - march: {from: 北邙, to: 洛阳, faction: 董卓, cue: 进了洛阳, grow: 1.2}
+
+  - say: 董卓上前问话。十四岁的少帝吓得哭哭啼啼，话都说不清楚；
+    sources: [sgz-06]
+    camera: {focus: 北邙, zoom: 6, move: 1.2}
+    show:
+      - versus: {left: 刘辩, right: 刘协, label: 问话, cue: 少帝, for: 6.5}
+
+  - say: 九岁的陈留王，却把前因后果讲得明明白白。
+    sources: [sgz-06]
+
+  - say: 董卓心里，从此打起了废立的主意。
+    sources: [sgz-06]
+    show:
+      - enter: {who: 董卓, side: right, cue: 董卓, for: 3.0}
+
+  - say: 董卓是陇西人，年轻时在羌人中间闯荡，打了几十年仗，手下全是能骑善射的凉州兵。
+    sources: [sgz-06]
+    camera: {focus: [临洮, 洛阳], zoom: fit, move: 1.6}
+    show:
+      - spot: {at: 临洮, text: 陇西, cue: 陇西}
+      - replay: {path: [临洮, 安邑, 洛阳], faction: 董卓, label: 董卓, cue: 羌人}
+      - sfx: {name: 马嘶, cue: 能骑善射}
+
+  - say: 董卓只带了三千人。他让部队每隔几天夜里悄悄出城，第二天白天再大张旗鼓开进来，让人以为援兵不断。
+    sources: [sgz-06]
+    camera: {focus: 洛阳, zoom: 4, move: 1.4}
+    show:
+      - card: {title: 疑兵计, body: 步骑不过三千，夜出城、昼入城, cue: 三千人}
+      - act: {act: feint, at: 洛阳, text: 洛阳城, sub: 董, n: 2, color: '#6f4a8e', cue: 每隔几天, for: 7.5}
+      - sfx: {name: 战鼓, cue: 大张旗鼓}
+
+  - say: 何进兄弟的部下没了主人，全都归了董卓。
+    sources: [sgz-06]
+    show:
+      - defect: {who: 何进部曲, at: 洛阳, to: 董卓, from: 汉室, verb: 归, cue: 归了董卓}
+      - sfx: {name: 插旗, cue: 归了董卓}
+
+  - say: 他又收买吕布，杀了执金吾丁原，吞并了丁原的并州兵。短短几天，洛阳的兵权全到了他手里。
+    sources: [sgz-06]
+    map: '189-09'
+    owners_cue: 兵权
+    show:
+      - enter: {who: 吕布, side: right, cue: 吕布, for: 2.6}
+      - flag: {at: 洛阳, name: 丁原, sub: 执金吾, faction: 并州, side: left, cue: 收买}
+      - exit: {who: 丁原, at: 洛阳, verb: 诛, cue: 杀了}
+      - sfx: {name: 刀剑, cue: 杀了}
+      - takeover: {at: 洛阳, to: 董卓, from: 汉室, cue: 兵权, name: 董卓, sub: 掌控洛阳}
+      - sfx: {name: 疆域易手, cue: 兵权}
+
+  - say: 九月，董卓召集百官，宣布要废掉少帝，改立陈留王。满朝文武，没人敢吭声。
+    scene: 朝堂
+    phase: 废立
+    music: 底声·紧张
+    sources: [sgz-06]
+    camera: {focus: 洛阳, zoom: 3, move: 1.4}
+    show:
+      - sfx: {name: 低音转场, delay: -0.3}
+      - act: {act: edict, at: 洛阳, text: 废立, sub: 废少帝 · 立陈留王, cue: 废掉, for: 3.4}
+      - sfx: {name: 重大冲击, cue: 废掉}
+
+  - say: 只有袁绍站了出来。董卓按着剑，厉声呵斥：
+    scene: 朝堂
+    sources: [hhs-74]
+    show:
+      - versus: {left: 董卓, right: 袁绍, label: 对峙, cue: 袁绍, for: 9}
+      - sfx: {name: 对峙滚奏, cue: 袁绍, len: 6}
+
+  - say: 竖子敢然！天下之事，岂不在我？
+    speaker: 董卓
+    style: 暴怒，粗野凶狠，拍案怒吼
+    speed: 1.1
+    scene: 朝堂
+    sources: [hhs-74]
+    show:
+      - versus: {left: 董卓, right: 袁绍, label: 对峙, for: 3}
+
+  - say: 天下健者，岂惟董公！
+    speaker: 袁绍
+    style: 针锋相对，傲然不屈，掷地有声
+    scene: 朝堂
+    sources: [hhs-74]
+    show:
+      - versus: {left: 董卓, right: 袁绍, label: 对峙, for: 3}
+
+  - say: 袁绍横刀作揖，扬长而去，把符节挂在城门上，连夜出奔冀州。尚书卢植反对，也差点被杀。
+    sources: [hhs-74, hhs-64]
+    camera: {focus: [洛阳, 南皮], zoom: fit, move: 1.6}
+    show:
+      - army: {from: 洛阳, to: 南皮, faction: 袁绍, banner: 袁, troops: cavalry, size: 1.6, cue: 出奔冀州, grow: 2.2}
+      - act: {act: prop, at: 洛阳, item: 节, text: 悬节上东门, cue: 符节, size: 1.3, for: 3}
+      - sfx: {name: 快呼啸, cue: 出奔冀州}
+
+  - say: 少帝被废为弘农王，九岁的刘协即位，就是汉献帝。没过几天，何太后也被毒死。
+    sources: [sgz-06]
+    camera: {focus: 洛阳, zoom: 3, move: 1.4}
+    show:
+      - act: {act: enthrone, who: 刘协, title: 汉献帝, text: 九岁即位, side: right, cue: 汉献帝, for: 3.4}
+      - sfx: {name: 帝王登场, cue: 汉献帝}
+      - exit: {who: 何太后, at: 洛阳, verb: 鸩, cue: 毒死, portrait: true}
+      - sfx: {name: 退场钟, cue: 毒死}
+
+  - say: 董卓自封相国，还给了自己三样特权：赞拜不名，入朝不趋，剑履上殿。
+    sources: [sgz-06]
+    show:
+      - card: {title: 相国三特权, body: 赞拜不名 · 入朝不趋 · 剑履上殿, cue: 特权}
+      - enter: {who: 董卓, side: right, cue: 相国, for: 3.0}
+
+  - say: 也就是说：上朝时，司仪不念他的名字；别的大臣要小步快走，他可以慢慢踱步。
+    sources: [sgz-06]
+    camera: {focus: 洛阳, zoom: 6, move: 1.2}
+    show:
+      - act: {act: prop, at: 洛阳, item: 宫殿, text: 朝堂, cue: 司仪}
+
+  - say: 大臣上殿，要脱鞋、解剑；他却佩着剑、穿着鞋，大摇大摆地走上大殿。
+    sources: [sgz-06]
+    show:
+      - act: {act: jianlv, at: 洛阳, text: 剑履上殿, cue: 佩着剑, for: 5}
+
+  - say: 这样的待遇，整个西汉，只有开国功臣萧何享受过。
+    sources: [sgz-06]
+
+  - say: 他还纵容士兵冲进洛阳的富贵人家，抢钱财、掳妇女，还给这种勾当起了个名字，叫"搜牢"。
+    sources: [sgz-06]
+    show:
+      - act: {act: fall, at: 洛阳, text: 搜牢, cue: 冲进}
+      - sfx: {name: 溃败哭喊, cue: 抢钱财}
+
+  - say: 他也想拉拢士人，提拔了一批名士做地方官，连出逃的袁绍，都给了个渤海太守。
+    sources: [sgz-06]
+    camera: {focus: [洛阳, 南皮, 邺, 陈留], zoom: fit, move: 1.6}
+    show:
+      - flag: {at: 邺, name: 韩馥, sub: 冀州牧, faction: 关东, cue: 名士}
+      - flag: {at: 陈留, name: 张邈, sub: 陈留太守, faction: 关东, cue: 地方官}
+      - act: {act: courier, places: [洛阳, 南皮], text: 渤海太守, cue: 渤海太守, grow: 1.4, for: 3.0}
+      - sfx: {name: 诏书, cue: 提拔}
+
+  - say: 同一时间，骁骑校尉曹操也拒绝了董卓的任命，改名换姓，逃出洛阳。
+    sources: [sgz-01]
+    camera: {focus: [洛阳, 陈留], zoom: fit, move: 1.4}
+    show:
+      - army: {from: 洛阳, to: 陈留, faction: 曹操, troops: cavalry, size: 1.2, cue: 逃出洛阳, grow: 2.4}
+
+  - say: 逃亡路上，他借宿在老朋友吕伯奢家。这一夜发生了什么，史书有三种说法。
+    sources: [sgz-01]
+    show:
+      - card: {title: 吕伯奢之事, body: 《魏书》《世语》、孙盛《杂记》三种说法不一, cue: 三种说法}
+
+  - say: 其中一种说：曹操听见屋里碗碟碰响，以为有人要害他，连夜杀了人。事后，他叹了一句：
+    sources: [sgz-01]
+
+  - say: 宁我负人，毋人负我！
+    speaker: 曹操
+    style: 低沉阴冷，带着几分凄怆，像在自言自语
+    sources: [sgz-01]
+
+  - say: 这句话只见于裴松之注引的野史，真假至今有争议。曹操到了陈留，散尽家财，招兵买马。
+    sources: [sgz-01]
+    camera: {focus: [洛阳, 陈留], zoom: fit, move: 1.4}
+    show:
+      - flag: {at: 陈留, name: 曹操, sub: 散家财起兵, faction: 曹操, cue: 陈留}
+      - sfx: {name: 集结鼓, cue: 招兵买马}
+
+  - say: 董卓没想到，这些被他亲手提拔的人，转身就成了他最大的敌人。
+    music: 底声·舒展
+    sources: [sgz-06, sgz-01]
+    camera: {focus: [洛阳, 南皮, 邺, 陈留], zoom: fit, move: 1.4}
+    show:
+      - arrow: {from: 南皮, to: 洛阳, kind: relation, faction: 关东, cue: 敌人, grow: 1.2}
+      - arrow: {from: 邺, to: 洛阳, kind: relation, faction: 关东, cue: 敌人, delay: 0.2, grow: 1.2}
+      - arrow: {from: 陈留, to: 洛阳, kind: relation, faction: 关东, cue: 敌人, delay: 0.4, grow: 1.2}
+      - sfx: {name: 合唱紧张, cue: 转身}
+
+  - say: 第二年正月，关东各州郡同时起兵，打出了讨伐董卓的旗号。
+    sources: [sgz-01, sgz-06]
+    year: 190
+    camera: {focus: [洛阳, 南皮, 邺, 陈留, 酸枣], zoom: fit, move: 1.4}
+    show:
+      - act: {act: beacon, places: [南皮, 邺, 河内, 陈留, 酸枣], text: 讨董, cue: 起兵, step: 0.3, for: 4.0}
+      - sfx: {name: 战鼓, cue: 起兵}
+      - title_bar: {text: 下集, sub: 关东联军讨董卓, cue: 旗号, for: 3.0}

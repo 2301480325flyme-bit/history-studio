@@ -1,0 +1,71 @@
+# 动画组件库演示（第一批：人物出场 + 事件提示）。内部样例，不对外发布。
+id: zz-components
+title: 动画组件库 · 第一批
+series: History Studio · 组件演示
+year: 301
+captions: clause
+
+map:
+  center: [112.8, 34.6]
+  scale: 9000
+  extent: [100, 26, 125, 43]
+  basemap: dem
+  river_rank: 5
+  watermark: 西晋
+
+voice:
+  mode: placeholder
+
+factions:
+  赵王: purple
+  齐王: red
+  成都王: green
+
+people:
+  赵王伦: {person: sima_lun, display: 赵王伦, title: 宗室, role: 控制洛阳, faction: 赵王, base: 洛阳}
+  齐王冏: {person: sima_jiong, display: 齐王冏, title: 宗室, role: 镇许昌, faction: 齐王, base: 许昌}
+  成都王颖: {person: sima_ying, display: 成都王颖, title: 宗室, role: 镇邺城, faction: 成都王, base: 邺}
+
+places:
+  洛阳: {id: luoyang_han_wei, label: left}
+  许昌: {id: xuchang_approx, label: right}
+  邺: {id: ye_city, name: 邺城, label: right}
+
+camera:
+  focus: [洛阳, 许昌, 邺]
+  zoom: fit
+
+beats:
+  - say: 永宁元年，赵王伦在洛阳篡位称帝。
+    year: 301
+    sources: [jinshu-004]
+    show:
+      - title_bar: {text: 赵王伦篡位, sub: 永宁元年正月, for: 3.2}
+      - flag: {at: 洛阳, name: 赵王伦, faction: 赵王, until: end}
+
+  - say: 赵王伦，宗室出身，此时控制着都城洛阳。
+    sources: [jinshu-059]
+    show:
+      - enter: {who: 赵王伦, at: 洛阳, side: left, for: 4.2}
+
+  - say: 远在许昌的齐王冏，第一个举起了反旗。
+    sources: [jinshu-059]
+    show:
+      - person_card: {who: 齐王冏, for: 3.6}
+      - faction_bar: {text: 齐王冏起兵讨伦, faction: 齐王, cue: 举起, for: 3.0}
+      - faction_bar: {text: 成都王颖响应, faction: 成都王, delay: 1.0, for: 2.6}
+
+  - say: 一边是篡位的赵王，一边是讨逆的齐王。
+    sources: [jinshu-059]
+    show:
+      - versus: {left: 齐王冏, right: 赵王伦, label: 讨, text: 齐王冏起兵讨伐赵王伦, for: 3.8}
+
+  - say: 史书只用了一句话，记下他的结局。
+    sources: [jinshu-004]
+    show:
+      - quote: {text: 伦伏诛, source: 晋书·帝纪第四, era: 永宁元年, for: 3.4}
+
+  - say: 四月，赵王伦被诛，篡位只维持了一百多天。
+    sources: [jinshu-004]
+    show:
+      - exit: {who: 赵王伦, at: 洛阳, verb: 诛, portrait: true, cue: 被诛, for: 3.0}

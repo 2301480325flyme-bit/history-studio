@@ -1,0 +1,25 @@
+{
+ "mode": "placeholder",
+ "beats": [
+  {
+   "file_start": 0.3,
+   "file_end": 7.14,
+   "voice_onset": 0.45,
+   "voice_offset": 7.02
+  },
+  {
+   "file_start": 7.32,
+   "file_end": 13.4,
+   "voice_onset": 7.47,
+   "voice_offset": 13.28
+  },
+  {
+   "file_start": 13.58,
+   "file_end": 20.14,
+   "voice_onset": 13.73,
+   "voice_offset": 20.02
+  }
+ ],
+ "narration": null,
+ "measurement": "placeholder estimate: 0.24 s/char + 0.28 s/pause; NO AUDIO"
+}

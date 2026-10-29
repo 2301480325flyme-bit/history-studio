@@ -1,0 +1,176 @@
+episode: s01e38-dongjin
+title: 东晋建立，祖逖北伐（317–321）
+source_note: studio.py sources 对《资治通鉴》卷90–94未检出；只用本地《晋书》。引文均为 {quote, para}。
+sections:
+  events:
+    - date: 317–318（承接第37集；月未核）
+      event: 司马睿在江左延续晋统，王导居中辅政、王敦外镇；史书称当时有“王与马，共天下”之谚。本集不重复称晋王仪式。
+      people: [司马睿, 王导, 王敦]
+      place: 建康
+      evidence:
+        - {quote: "征南大将军、汉安侯王敦为大将军，右将军王导都督中外诸军事、骠骑将军", para: 晋书-p00130}
+        - {quote: "时人为之语曰：“王与马，共天下。”", para: 晋书-p06838}
+      second_source: 本地通鉴未命中；两处为《晋书》不同篇目。
+    - date: 318（具体月未核）
+      event: 祖逖在谯地争取坞主，诱谢浮杀张平；朝廷粮运不至，军中大饥，进据太丘。樊雅夜袭，董昭击退；陈川遣李头援助，祖逖克谯城。
+      people: [祖逖, 谢浮, 张平, 樊雅, 董昭, 陈川, 李头]
+      place: 太丘、谯城
+      evidence:
+        - {quote: "逖诱浮使取平，浮谲平与会，遂斩以献逖。帝嘉逖勋，使运粮给之，而道远不至，军中大饥。进据太丘。", para: 晋书-p04824}
+        - {quote: "樊雅遣众夜袭逖，遂入垒，拔戟大呼，直趣逖幕", para: 晋书-p04824}
+        - {quote: "督护董昭与贼战，走之。", para: 晋书-p04824}
+        - {quote: "蓬陂坞主陈川，自号宁朔将军、陈留太守。逖遣使求救于川，川遣将李头率众援之，逖遂克谯城。", para: 晋书-p04824}
+      second_source: 本地通鉴未命中，仅《晋书·祖逖传》。
+    - date: 318（月份未核）
+      event: 石季龙围谯；王含再遣桓宣援救，石季龙听说桓宣到来便退兵，桓宣留下协助祖逖讨伐未附坞堡。
+      people: [祖逖, 石季龙, 王含, 桓宣]
+      place: 谯城
+      evidence:
+        - {quote: "逖既克谯，宣等乃去。石季龙闻而引众围谯，含又遣宣救逖，季龙闻宣至而退。宣遂留，助逖讨诸屯坞未附者。", para: 晋书-p04825}
+        - {quote: "石勒将石季龙围谯城，平西将军祖逖击走之。", para: 晋书-p00135}
+      second_source: 《晋书》祖逖传、元帝纪互见；通鉴本地未命中。
+    - date: 319（太兴二年；具体月份未核）
+      event: 陈川杀有意归附祖逖的李头；李头亲党冯宠率四百人归祖逖。魏硕掠豫州，卫策在谷水截击并夺回被掠者。
+      people: [祖逖, 陈川, 李头, 冯宠, 魏硕, 卫策]
+      place: 谷水、豫州
+      evidence:
+        - {quote: "川闻而怒，遂杀头。头亲党冯宠率其属四百入归于逖，川益怒，遣将魏硕掠豫州诸郡，大获子女车马。", para: 晋书-p04826}
+        - {quote: "逖遣将军卫策邀击于谷水，尽获所掠者，皆令归本，军无私焉。", para: 晋书-p04826}
+      second_source: 谷水战只检出祖逖传；元帝纪另载卫策汴水战，不能作同战互证。
+    - date: 319（太兴二年，四月叛降、五月交战）
+      event: 陈川以浚仪叛降石勒。元帝纪称祖逖与石季龙战浚仪、晋军败绩；祖逖传则称石季龙救陈川时被祖逖设奇击败。可能是不同回合，或有史源张力。
+      people: [祖逖, 陈川, 石季龙, 石勒]
+      place: 浚仪
+      evidence:
+        - {quote: "夏四月，龙骧将军陈川以浚仪叛。降于石勒。", para: 晋书-p00137}
+        - {quote: "五月癸丑，太阳陵毁，帝素服哭三日。徐杨及江西诸郡蝗。吴郡大饥。平北将军祖逖及石勒将石季龙战于浚仪，王师败绩。", para: 晋书-p00137}
+        - {quote: "逖设奇以击之，季龙大败", para: 晋书-p04826}
+      second_source: 《晋书》本纪与传互见；通鉴本地未命中。
+    - date: 319（月份未核）
+      event: 陈川被迁襄国；桃豹等留守陈川故城西台，韩潜镇东台，双方隔同一大城相持四旬。
+      people: [祖逖, 陈川, 桃豹, 韩潜, 石季龙]
+      place: 陈川故城、襄国
+      evidence:
+        - {quote: "季龙大败，收兵掠豫州，徙陈川还襄国，留桃豹等守川故城，住西台。逖遣将韩潜等镇东台。同一大城", para: 晋书-p04826}
+        - {quote: "徙陈川部众五千余户于广宗。", para: 晋书-p07201}
+      second_source: 载记仅互证迁徙户数，不互证东西台细节；后者单源。
+    - date: 319–320（月份与先后未核）
+      event: 刘夜堂率千驴为桃豹运粮，韩潜、冯铁在汴水截获；桃豹夜退东燕城。韩潜屯封丘逼近，冯铁据二台，祖逖镇雍丘并截击石勒军；濮阳五百家归附，石勒遣万骑仍被击退。
+      people: [祖逖, 桃豹, 刘夜堂, 韩潜, 冯铁, 石勒]
+      place: 汴水、东燕城、封丘、二台、雍丘、濮阳
+      evidence:
+        - {quote: "石勒将刘夜堂以驴千头运粮以馈桃豹，逖遣韩潜、冯铁等追击于汴水，尽获之。豹宵遁，退据东燕城，逖使潜进屯封丘以逼之。冯铁据二台，逖镇雍丘", para: 晋书-p04826}
+        - {quote: "数遣军要截石勒，勒屯戍渐蹙。候骑常获濮阳人，逖厚待遣归。咸感逖恩德，率乡里五百家降逖。勒又遣精骑万人距逖，复为逖所破", para: 晋书-p04826}
+      second_source: 未找到第二书互证；两条同出祖逖传连续叙事。
+    - date: 320（太兴三年；月份未核）
+      event: 卫策在汴水大破石勒别军，祖逖加镇西将军。
+      people: [祖逖, 卫策, 石勒]
+      place: 汴水
+      evidence:
+        - {quote: "祖逖部将卫策大破石勒别军于汴水。加逖为镇西将军。", para: 晋书-p00138}
+        - {quote: "逖遣韩潜、冯铁等追击于汴水，尽获之。", para: 晋书-p04826}
+      second_source: 《晋书》有两处汴水战叙述，但不确定是同一战；通鉴本地未命中。
+    - date: 321（七月任命、九月卒）
+      event: 戴若思受命镇合肥、都督六州；祖逖不满其来统，忧王敦与刘隗构隙，发病，九月卒于雍丘，年五十六。
+      people: [祖逖, 戴若思, 司马睿, 王敦, 刘隗]
+      place: 合肥、雍丘、汝南大木山
+      evidence:
+        - {quote: "甲戌，以尚书戴若思为征西将军、都督司兗豫并冀雍六州诸军事、司州刺史，镇合肥", para: 晋书-p00139}
+        - {quote: "会朝廷将遣戴若思为都督，逖以若思是吴人，虽有才望，无弘致远识，且已翦荆棘，收河南地，而若思雍容，一旦来统之，意甚怏怏。且闻王敦与刘隗等构隙，虑有内难，大功不遂。感激发病", para: 晋书-p04827}
+        - {quote: "九月壬寅，镇西将军、豫州刺史祖逖卒。", para: 晋书-p00139}
+        - {quote: "俄卒于雍丘，时年五十六。", para: 晋书-p04827}
+      second_source: 元帝纪、祖逖传互证任命和死讯。
+    - date: 321年后（具体时间未核）
+      event: 祖逖死后王敦“始得肆意”，祖约继领其众。石勒载记另称桃豹到蓬关、祖逖退淮南，但不能确定与祖逖死讯的先后。
+      people: [祖逖, 王敦, 祖约, 桃豹]
+      place: 雍丘、蓬关、淮南
+      evidence:
+        - {quote: "王敦久怀逆乱，畏逖不敢发，至是始得肆意焉。寻以逖弟约代领其众。", para: 晋书-p04827}
+        - {quote: "桃豹至蓬关，祖逖退如淮南。", para: 晋书-p07201}
+      second_source: 均为《晋书》互见，但退淮南的年份与失地范围未核。
+    - date: 321背景（王敦起兵为后续）
+      event: 王敦据武昌拥重兵，朝廷对其威权有戒心；“司马睿已决定削权”没有找到本集时点的直接原文。
+      people: [王敦, 司马睿, 刘隗]
+      place: 武昌、建康
+      evidence:
+        - {quote: "加大将军王敦江州牧，进骠骑将军王导开府仪同三司。", para: 晋书-p00136}
+        - {quote: "初，刘隗以王敦威权太盛，终不可制，劝帝出诸心腹，以镇方隅。", para: 晋书-p03448}
+        - {quote: "戊辰，大将军王敦举兵于武昌，以诛刘隗为名", para: 晋书-p00140}
+      second_source: 《晋书》元帝纪、谯王承传；末条是后续起兵，不能提前到321年。
+  people:
+    - {name: 司马睿, birth_death: 276–323（生年本地未核）, age: 约42（按通行生年估算，未核）, age_method: 公元年相减, offices: 琅琊王/晋王/元帝, portrait: 有 sima_rui.png}
+    - {name: 王导, birth_death: 276–339（本地未核）, age: 未核, age_method: 生年未核, offices: 元帝腹心、都督中外诸军事、骠骑将军、司空, portrait: 无}
+    - {name: 王敦, birth_death: 266–324（本地未核）, age: 未核, age_method: 生年未核, offices: 大将军、江州牧、武昌外镇, portrait: 无}
+    - {name: 祖逖, birth_death: 约266–321, age: 卒时56（原文）；317年虚岁约52, age_method: 321−56+1，生日不详, offices: 奋威将军、豫州刺史、镇西将军, portrait: 有 zu_ti.png}
+    - {name: 戴若思（戴渊）, birth_death: 未核, age: 未核, age_method: 无可用生年, offices: 尚书、征西将军、都督六州、司州刺史镇合肥、后骠骑将军, portrait: 无}
+    - {name: 刘隗, birth_death: 未核, age: 未核, age_method: 无生年, offices: 丹阳尹、镇北将军、都督四州，镇淮阴, portrait: 无}
+    - {name: 石勒, birth_death: 274–333（本地未核）, age: 约44–48（通行年表估算，未核）, age_method: 公元年相减, offices: 石勒势力领袖, portrait: 有 shi_le.png}
+    - {name: 石季龙（石虎）, birth_death: 295–349（本地未核）, age: 约23–26（通行年表估算，未核）, age_method: 公元年相减, offices: 石勒部将、救陈川、围谯, portrait: 无}
+    - {name: 陈川, birth_death: 未核, age: 未核, age_method: 生年缺, offices: 蓬陂坞主、自号宁朔将军陈留太守，后附石勒, portrait: 无}
+    - {name: 桃豹, birth_death: 未核, age: 未核, age_method: 生年缺, offices: 石勒将、守陈川故城西台, portrait: 无}
+    - {name: 桓宣, birth_death: 未核, age: 未核, age_method: 生年缺, offices: 王含部将、援祖逖, portrait: 无}
+    - {name: 王含, birth_death: 未核, age: 未核, age_method: 生年缺, offices: 南中郎将、遣桓宣援祖逖, portrait: 无}
+    - {name: 刘夜堂, birth_death: 未核, age: 未核, age_method: 生年缺, offices: 石勒将、千驴运粮, portrait: 无}
+    - {name: 韩潜, birth_death: 未核, age: 未核, age_method: 生年缺, offices: 祖逖将、镇东台和汴水截粮, portrait: 无}
+    - {name: 冯铁, birth_death: 未核, age: 未核, age_method: 生年缺, offices: 祖逖将、据二台和汴水截粮, portrait: 无}
+    - {name: 卫策, birth_death: 未核, age: 未核, age_method: 生年缺, offices: 祖逖部将、谷水和汴水作战, portrait: 无}
+    - {name: 董昭, birth_death: 未核, age: 未核, age_method: 生年缺, offices: 祖逖督护、破樊雅夜袭, portrait: 无}
+    - {name: 祖约, birth_death: 未核, age: 未核, age_method: 生年缺, offices: 祖逖弟、继领其众, portrait: 无}
+    - {name: 樊雅, birth_death: 未核, age: 未核, age_method: 生年缺, offices: 自号谯郡太守、坞主, portrait: 无}
+    - {name: 张平, birth_death: 未核, age: 未核, age_method: 生年缺, offices: 自称豫州刺史的坞主, portrait: 无}
+  places:
+    - {name: 建康, ancient: 东晋都城, modern: 今南京中心区域, gazetteer: 有 nanjing_ancient_city 118.796389,32.058333, level: 都城点正确；仅古城近似点}
+    - {name: 江阴, ancient: 祖逖曾屯处（上集提过）, modern: 今江苏江阴附近, gazetteer: places无条目, level: 县城/渡江区域，古址未核}
+    - {name: 谯城, ancient: 谯县城/谯郡治附近需区别, modern: 今亳州一带传统比定, gazetteer: 无, level: 城级据点，未证全郡易手}
+    - {name: 太丘, ancient: 祖逖暂驻处, modern: 豫东古址未核, gazetteer: 无, level: 县/聚落级}
+    - {name: 浚仪, ancient: 浚仪县城, modern: 今开封一带传统比定, gazetteer: 无, level: 县城战场}
+    - {name: 谷水, ancient: 豫州水名及邀击处, modern: 具体水系未核, gazetteer: 无, level: 水系战场}
+    - {name: 蓬陂坞, ancient: 陈川坞堡, modern: 未核, gazetteer: 无, level: 坞堡点}
+    - {name: 汴水, ancient: 汴渠河道, modern: 河南东部古河道, gazetteer: 河段未查, level: 水系，战点非定点}
+    - {name: 东燕城, ancient: 桃豹退据城, modern: 濮阳一带仅候选, gazetteer: 无, level: 城址未核}
+    - {name: 封丘, ancient: 封丘县/韩潜屯点, modern: 今河南封丘县, gazetteer: 无, level: 县级}
+    - {name: 二台, ancient: 冯铁屯据点, modern: 未核, gazetteer: 无, level: 微地名/营垒}
+    - {name: 雍丘, ancient: 雍丘县、杞国故地, modern: 今杞县一带传统比定, gazetteer: 无, level: 县城/军镇}
+    - {name: 蓬关, ancient: 石勒载记所见关/地名, modern: 未核, gazetteer: 无, level: 关隘点、战事时序未核}
+    - {name: 合肥, ancient: 合肥县治、戴若思驻地, modern: 今合肥老城附近, gazetteer: 本次未查, level: 县城/刺史镇所}
+    - {name: 武昌, ancient: 武昌郡治/王敦镇所, modern: 今湖北鄂州, gazetteer: 有 wuchang_e 114.88418,30.39724, level: 镇所/郡治正确；现代市域近似点}
+  romance_and_debates:
+    - 演义差别：祖逖北伐是正史记载；中流击楫上一集讲过，本集不重复。“王与马，共天下”是史书追记时谚，勿写成确定当场对白。
+    - 史家争议：元帝纪记浚仪王师败绩；祖逖传称石季龙救援陈川被祖逖设奇击败。可能不同战次，也可能有史源张力。
+    - 史家争议：祖逖传称戴若思将来统军，祖逖怏怏，又忧王敦刘隗构隙而发病；不可改写成朝廷已明令夺兵权或“气死”。
+    - 北伐成果：祖逖死后王敦“始得肆意”；石勒载记另称桃豹至蓬关、祖逖退淮南，但日期和失去哪些郡县未核。
+    - 《资治通鉴》卷90–94本地未检出，未伪造互证。
+  pronunciation_risks:
+    - {word: 祖逖, reading: Zǔ Tì, risk: 逖读tì}
+    - {word: 戴若思/戴渊, reading: Dài Ruòsī/Dài Yuān, risk: 渊yuān；名与字勿混}
+    - {word: 王敦, reading: Wáng Dūn, risk: 敦dūn}
+    - {word: 王导, reading: Wáng Dǎo, risk: 导dǎo}
+    - {word: 谯城, reading: Qiáo chéng, risk: 谯qiáo}
+    - {word: 浚仪, reading: Xùn yí, risk: 浚此地名读xùn}
+    - {word: 雍丘, reading: Yōngqiū, risk: 雍yōng}
+    - {word: 蓬陂, reading: Péngbēi, risk: 陂地名读音待核}
+    - {word: 汴水, reading: Biàn shuǐ, risk: 汴biàn}
+    - {word: 樊雅, reading: Fán Yǎ, risk: 人名}
+    - {word: 桓宣, reading: Huán Xuān, risk: 桓huán}
+    - {word: 石季龙, reading: Shí Jìlóng, risk: 石虎字季龙}
+  visual_scenes:
+    - scene: 樊雅夜袭祖逖营、拔戟冲幕，董昭迎战击退。
+      evidence: [{quote: "樊雅遣众夜袭逖，遂入垒，拔戟大呼，直趣逖幕", para: 晋书-p04824}, {quote: "督护董昭与贼战，走之。", para: 晋书-p04824}]
+    - scene: 桃豹和祖逖隔城分据西台、东台，祖逖用布囊装土伪作米。
+      evidence: [{quote: "留桃豹等守川故城，住西台。逖遣将韩潜等镇东台。同一大城", para: 晋书-p04826}, {quote: "逖以布囊盛土如米状，使千余人运上台", para: 晋书-p04826}]
+    - scene: 千头驴运粮，韩潜冯铁在汴水截获，桃豹夜退东燕城。
+      evidence: [{quote: "石勒将刘夜堂以驴千头运粮以馈桃豹", para: 晋书-p04826}, {quote: "追击于汴水，尽获之。豹宵遁", para: 晋书-p04826}]
+    - scene: 封丘、二台、雍丘形成黄河以南据点网。
+      evidence: [{quote: "逖使潜进屯封丘以逼之。冯铁据二台，逖镇雍丘", para: 晋书-p04826}, {quote: "由是黄河以南尽为晋土。", para: 晋书-p04826}]
+    - scene: 王导居内、王敦据上游外镇，“王与马，共天下”。
+      evidence: [{quote: "王敦、王导、周顗、刁协并为腹心股肱", para: 晋书-p00129}, {quote: "时人为之语曰：“王与马，共天下。”", para: 晋书-p06838}]
+    - scene: 戴若思镇合肥，祖逖卒于雍丘，两地并置表现前线失帅。
+      evidence: [{quote: "都督司兗豫并冀雍六州诸军事、司州刺史，镇合肥", para: 晋书-p00139}, {quote: "俄卒于雍丘，时年五十六。", para: 晋书-p04827}]
+  open_questions:
+    - 疆域.yaml止于316年，缺317年晋在江左承统和318–321年陈川叛降、祖逖据点/黄河以南争夺；请Claude决定新增，单城不能直接记整郡易手。
+    - 任务钩子说司马睿想削王敦之权；只查到刘隗主张分镇方隅和王敦后来的起兵，未查到321年已决定削权的直接原文。
+    - places未命中江阴、谯城、太丘、浚仪、谷水、蓬陂坞、汴水、东燕城、封丘、二台、雍丘、蓬关；古址/路线需进一步校核。
+    - 戴若思与戴渊为同一人，人物称谓需统一。
+    - 赵固、上官巳、李矩、郭默受祖逖节度不等于辖地归晋；是否纳入疆域条目待定。
+    - 祖逖妻孥安置汝南大木山，地望未核，不可画成全军驻地。
+    - 任务写对照疆域.yaml“308–311年”，与317–321时段不符；本次按本集年份对照，请确认是否本意318–321。

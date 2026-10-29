@@ -1,0 +1,322 @@
+# 快节奏版（2026-10-25）
+# 《三国到隋》第34集 · 两晋：荡阴之战，刘渊李雄起兵（304）。大纲第 29 条后半（前半长沙王之死在第 33 集）。
+# 史料包：projects/s01e33-hunzhan/research/史料包.yaml（302–304）+ projects/s01e35-donghai/research/史料包.yaml（张方劫帝一条）。
+# 本地语料核对（晋书）：
+# 惠帝纪 p00101 永兴元年"秋七月丙申朔，右卫将军陈眕以诏召百僚入殿中，因勒兵讨成都王颖…东海王越…奉帝北征，至安阳，众十余万，颖遣其将石超距战。己未，六军败绩于荡阴，矢及乘舆，百官分散，侍中嵇绍死之。帝伤颊，中三矢，亡六玺。帝遂幸超军，馁甚，超进水，左右奉秋桃"；
+#   "安北将军王浚遣乌丸骑攻成都王颖于鄴，大败之。颖舆帝单车走洛阳…次获嘉，市粗米饭，盛以瓦盆，帝啖两盂。有老父献蒸鸡…至温，将谒陵，帝丧履，纳从者之履"；
+#   "冬十一月乙未，方请帝谒庙，因劫帝幸长安。方以所乘车入殿中，帝驰避后园竹中。方逼帝升车"；"李雄僭号成都王，刘元海僭号汉王"；
+# 成都王颖传 p04629"军次安阳，众十余万，鄴中震惧。颖欲走，其掾步熊有道术，曰：勿动！南军必败"；"遣奋武将军石超率众五万，次于荡阴。二弟匡、规自鄴赴王师，云：鄴中皆已离散。由是不甚设备。超众奄至…乃弃天子于藁中"；
+#   p04630"浚屯冀州不进，与腾及乌丸、羯硃袭颖…鄴中大震，百僚奔走，士卒分散。颖惧，将帐下数十骑，拥天子，与中书监卢志单车而走，五日至洛"；
+# 嵇绍传 p06256"唯绍俨然端冕，以身捍卫，兵交御辇，飞箭雨集，绍遂被害于帝侧，血溅御服…左右欲浣衣，帝曰：此嵇侍中血，勿去"；
+# 东海王越传 p04641"帝北征鄴，以越为大都督。六军败，越奔下邳…越径还东海"；
+# 刘元海载记 p07033"元海至左国城，刘宣等上大单于之号，二旬之间，众已五万，都于离石"；p07034"夫帝王岂有常哉，大禹出于西戎，文王生于东夷…吾又汉氏之甥，约为兄弟，兄亡弟绍，不亦可乎？且可称汉"。
+# 不用：王浚自幽州到邺的确切路线（史书只说屯冀州、袭颖；画成自蓟南下，示意）；司马腾自并州出兵的路线（画成自晋阳东来，示意）；李雄攻成都的过程（只讲称王）。
+
+id: s01e34-dangyin
+title: 荡阴之战
+series: 两晋 · 第34集
+year: 304
+
+notes:
+  - 主线问题：十几万大军护着皇帝出征，为什么一仗下来，皇帝身边只剩一个人？——谁都想把皇帝抢在手里当旗，可谁都没把他当回事；王爷们抢皇帝的这一年，匈奴人刘渊和巴氐人李雄看清了：晋朝，已经没人管了。
+  - 钩子候选：①"十几万人护着皇帝出征，一仗打完，皇帝身边只剩一个人"（反差3 具体3 悬念3 兑现3=12）②"这是嵇侍中的血，别洗"（反差2 具体3 悬念2 兑现3=10）③"一年里，皇帝被抢了三次"（反差2 具体2 悬念2 兑现3=9）→ 选①，②做高潮台词，③做收尾。
+  - 反差：十几万对五万，北征军却一触即溃；成都王抓到了皇帝，一个月后自己带着皇帝坐牛车逃；傻皇帝说"别洗"。
+  - 细节：中了三箭、丢了六枚玉玺；被扔在草丛里，石超送水、左右摘秋桃；获嘉买粗米饭盛在瓦盆里；老人献蒸鸡；鞋丢了穿随从的；躲进后园竹林被拖上车。
+  - 动机：成都王的两个弟弟谎报"邺城早散了"，北征军不设防；刘渊打"汉"的旗号，因为"晋人未必同我"。
+  - 演义对照卡：本集无演义，结尾卡"史书怎么写"（嵇绍传"此嵇侍中血，勿去"）。
+
+map:
+  center: [113.5, 35.0]
+  scale: 5000
+  extent: [86.0, 12.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas
+  river_rank: 4
+  palette: warm
+  raster_res: 2
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 十几万人护着皇帝出征，一仗打完，皇帝身边只剩一个人
+  big: [荡阴之战, 嵇侍中血]
+  hero: 嵇绍
+  at: 3
+  summary: |
+    304 年七月，东海王司马越等奉晋惠帝北征邺城的成都王颖，十几万人到了安阳。成都王的两个弟弟谎称"邺城早散了"，北征军不设防，被石超的五万人在荡阴一击即溃：箭射到御车上，皇帝脸上受伤、中了三箭、丢了六枚玉玺，百官逃散，只有侍中嵇绍挡在皇帝身前战死，血溅御服。事后皇帝说："这是嵇侍中的血，别洗。"
+    一个月后，幽州王浚、并州司马腾带鲜卑乌桓骑兵攻破邺城，成都王带着皇帝坐牛车逃回洛阳，路上买粗米饭盛在瓦盆里吃。十月，匈奴刘渊在左国城称汉王，李雄在成都称成都王；十一月，张方又把躲进竹林的皇帝拖上车，劫往长安。
+  tags: [西晋, 荡阴之战, 嵇绍, 晋惠帝, 刘渊, 八王之乱]
+  next: 东海王胜出
+
+sources_local:
+  - {id: js-04, work: 晋书, volume: 卷四·惠帝纪, url: 'https://zh.wikisource.org/wiki/晉書/卷004'}
+  - {id: js-59, work: 晋书, volume: 卷五十九·成都王颖传、东海王越传, url: 'https://zh.wikisource.org/wiki/晉書/卷059'}
+  - {id: js-89, work: 晋书, volume: 卷八十九·忠义传·嵇绍, url: 'https://zh.wikisource.org/wiki/晉書/卷089'}
+  - {id: js-101, work: 晋书, volume: 卷一百一·刘元海载记, url: 'https://zh.wikisource.org/wiki/晉書/卷101'}
+
+factions: {晋: '#2f5d3a', 成都王: '#3f8fc4', 河间王: '#8c7bb8', 东海王: '#a0522d', 幽州: '#5b6b7a', 汉赵: '#7a3b2e', 成汉: '#7da03c'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    晋: {slot: jade, main: true, label_at: 洛阳}
+    成都王: {slot: sky, label_at: 邺}
+    河间王: {slot: lavender, label_at: 长安}
+    汉赵: {slot: pink, label_at: 左国城}
+    成汉: {slot: lime, label_at: 成都}
+
+people:
+  司马衷: {image: 03_素材/人物立绘/sima_zhong.png, title: 晋惠帝, role: 被抢来抢去, faction: 晋}
+  嵇绍: {image: 03_素材/人物立绘/ji_shao.png, title: 侍中, role: 以身护帝, faction: 晋}
+  司马越: {image: 03_素材/人物立绘/sima_yue.png, title: 东海王, role: 奉帝北征, faction: 东海王}
+  司马颖: {image: 03_素材/人物立绘/sima_ying.png, title: 成都王, role: 皇太弟, faction: 成都王}
+  王浚: {image: 03_素材/人物立绘/wang_jun_you.png, title: 幽州都督, role: 鲜卑乌桓骑兵, faction: 幽州}
+  刘渊: {image: 03_素材/人物立绘/liu_yuan.png, title: 汉王, role: 匈奴起兵, faction: 汉赵}
+  李雄: {image: 03_素材/人物立绘/li_xiong.png, title: 成都王, role: 巴氐起兵, faction: 成汉}
+
+places:
+  东海: {id: tan, name: 东海, label: right}   # 东海国治郯
+  下邳: {id: xiapi, label: right}
+  洛阳: {id: luoyang_han_wei, label: right, tier: capital}
+  邺: {id: ye_city, label: right}
+  安阳: {id: anyang_jin, label: right}
+  荡阴: {id: dangyin, label: left}
+  长安: {id: changan_han_city, label: below}
+  蓟: {id: ji_yan, label: right}
+  晋阳: {id: jinyang_han, label: left}
+  左国城: {id: zuoguocheng, label: left}
+  成都: {id: chengdu_city, label: left}
+  温: {id: wenxian, label: left}
+
+camera:
+  focus: [洛阳, 邺]
+  zoom: fit
+
+beats:
+  # ---------------- 冷开场 ----------------
+  - say: 十几万人护着皇帝出征。一仗打完，皇帝身边只剩下一个人。
+    map: '301-06'
+    year: 304
+    phase: 北征
+    sources: [js-04, js-89]
+    camera: {focus: [洛阳, 邺], zoom: fit, move: 1.2}
+    show:
+      - sfx: 重拍转场
+      - spot: {at: 荡阴, text: 只剩一人, cue: 只剩下一个人}
+
+  - say: 这个人挡在箭雨前面，血溅了皇帝一身。
+    sources: [js-89]
+    show:
+      - sfx: {name: 中箭, cue: 箭雨}
+
+  - say: 他叫嵇绍，嵇康的儿子。
+    sources: [js-89]
+    show:
+      - enter: {who: 嵇绍, side: right, cue: 嵇绍, for: 3.6}
+      - sfx: {name: 登场, cue: 嵇绍}
+
+  # ---------------- 第一章 北征 ----------------
+  - say: 先说三零四年春天。成都王当上皇太弟，人在邺城，把皇帝的车马仪仗都搬了过去。
+    phase: 北征
+    sources: [js-59]
+    camera: {focus: [洛阳, 邺], zoom: fit, move: 1.4}
+    show:
+      - title_bar: {text: 荡阴之战, sub: 两晋 · 第34集, for: 3.2}
+      - sfx: 片头鼓
+      - flag: {at: 邺, name: 皇太弟, sub: 成都王司马颖, faction: 成都王, cue: 皇太弟, until: beat+4}
+
+  - say: 七月，洛阳有人起事。东海王带着傻皇帝，号召讨伐成都王。
+    sources: [js-04, js-59]
+    show:
+      - enter: {who: 司马越, side: right, cue: 东海王, for: 3.4}
+      - act: {act: edict, at: 洛阳, text: 北征, sub: 讨成都王, cue: 讨伐, for: 3}
+      - sfx: {name: 诏书, cue: 讨伐}
+
+  - say: 十几万大军一路北上，到了安阳。邺城里人心惶惶，成都王都想跑了。
+    sources: [js-04, js-59]
+    camera: {focus: [洛阳, 安阳, 邺], zoom: fit, move: 1.4}
+    tells: [e20]
+    show:
+      - army: {head: 司马越, from: 洛阳, via: [荡阴], to: 安阳, faction: 晋, banner: 晋, troops: infantry, size: 3.4, cue: 北上, grow: 2.4}
+      - sfx: {name: 大军号角, cue: 十几万}
+
+  - say: 手下一个懂占卜的人拦住他：别动，南边的军队必败。成都王就派石超带五万人迎战。
+    sources: [js-59]
+    tells: [e21]
+    show:
+      - quote: {text: 勿动！南军必败, source: 晋书·成都王颖传, cue: 别动, for: 3.4}
+      - army: {unit: 石超, from: 邺, to: 荡阴, faction: 成都王, banner: 石, troops: infantry, size: 2.8, cue: 五万人, grow: 1.4}
+
+  - say: 偏偏成都王的两个弟弟从邺城跑过来说：城里早散了。北征军一听，就没怎么设防。
+    sources: [js-59]
+    show:
+      - quote: {text: 鄴中皆已离散。由是不甚设备, source: 晋书·成都王颖传, cue: 早散了, for: 4}
+      - sfx: {name: 悬疑, cue: 没怎么设防}
+
+  # ---------------- 第二章 荡阴 ----------------
+  - say: 石超突然杀到荡阴，北征军大败。箭，一直射到了皇帝的车上。
+    phase: 荡阴
+    sources: [js-04, js-59]
+    camera: {focus: [荡阴, 安阳], zoom: fit, move: 1.2}
+    tells: [e22]
+    show:
+      - battle: {at: 荡阴, text: 六军败绩, cue: 大败}
+      - act: {act: arrows, at: 荡阴, cue: 箭, for: 3}
+      - sfx: {name: 箭雨, cue: 箭}
+
+  - say: 百官四散奔逃。皇帝脸上受了伤，身上中了三箭，六枚玉玺全丢了。
+    sources: [js-04]
+    show:
+      - quote: {text: 帝伤颊，中三矢，亡六玺, source: 晋书·惠帝纪, era: 永兴元年七月, cue: 三箭, for: 3.8}
+      - sfx: {name: 溃败哭喊, cue: 四散}
+
+  - say: 只有侍中嵇绍没跑。他整好衣冠，挡在皇帝身前，死在皇帝身边，血溅了皇帝一身。
+    sources: [js-89]
+    show:
+      - exit: {who: 嵇绍, at: 荡阴, verb: 卒, portrait: true, cue: 死在}
+      - vignette: {image: illus_jishao_guard, cue: 没跑, for: 6, text: 以身捍卫}
+      - sfx: {name: 退场钟, cue: 血溅}
+
+  - say: 后来，有人要把皇帝的衣服拿去洗，傻皇帝不让：
+    sources: [js-89]
+    scene: 军帐
+
+  - say: 这是嵇侍中的血，别洗掉！
+    speaker: 司马衷
+    style: 平时呆呆的，这一句却很认真，带着哽咽，护着衣服不肯撒手
+    scene: 军帐
+    quote: 此嵇侍中血，勿去
+    sources: [js-89]
+
+  - say: 皇帝被扔在草丛里，饿得发慌。石超送来水，左右摘了几个秋天的桃子给他。
+    sources: [js-04, js-59]
+    camera: {focus: [荡阴, 邺], zoom: fit, move: 1.2}
+    show:
+      - act: {act: prop, at: 荡阴, item: 粮草, text: 秋桃, cue: 桃子, size: 1.1, for: 3}
+
+  - say: 石超把皇帝送进了邺城。东海王，一个人逃回了老家东海。
+    sources: [js-04, js-59]
+    camera: {focus: [荡阴, 邺, 下邳, 东海], zoom: fit, move: 1.4}
+    tells: [e23]
+    show:
+      - army: {unit: 石超, from: 荡阴, to: 邺, faction: 成都王, banner: 石, troops: infantry, size: 2.2, camp: false, label: 奉帝幸邺, cue: 邺城, grow: 1.2}
+      - rout: {at: 安阳, via: [下邳], to: 东海, faction: 东海王, head: 司马越, cue: 逃回, size: 2.0}
+
+  # ---------------- 第三章 牛车 ----------------
+  - say: 成都王把皇帝抢到了手。可北边，幽州的王浚、并州的司马腾，带着鲜卑、乌桓的骑兵杀来了。
+    phase: 牛车
+    sources: [js-04, js-59]
+    camera: {focus: [蓟, 晋阳, 邺], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 王浚, side: right, cue: 王浚, for: 3.4}
+      - army: {head: 王浚, from: 蓟, to: 邺, faction: 幽州, banner: 王, troops: cavalry, size: 3.0, cue: 骑兵, grow: 2.2}
+      - army: {unit: 司马腾, from: 晋阳, to: 邺, faction: 晋, banner: 腾, troops: cavalry, size: 2.4, cue: 司马腾, grow: 2.0, camp: false}
+      - sfx: {name: 骑兵行军, cue: 骑兵}
+
+  - say: 八月，骑兵冲到邺城下。成都王的兵一触就垮，文武百官四散奔逃。
+    map: '304-08'
+    owners_cue: 一触就垮
+    sources: [js-04, js-59]
+    camera: {focus: 邺, zoom: 7, move: 1.2}
+    tells: [e25]
+    show:
+      - battle: {at: 邺, text: 乌丸骑破邺, cue: 冲到邺城}
+      - sfx: {name: 疆域易手, cue: 一触就垮}
+
+  - say: 成都王带着几十个骑兵，拉着皇帝坐一辆牛车往洛阳逃，五天才到。
+    sources: [js-04, js-59]
+    camera: {focus: [邺, 温, 洛阳], zoom: fit, move: 1.4}
+    tells: [e26]
+    show:
+      - flee: {from: 邺, to: 洛阳, label: 单车而走, cue: 牛车}
+      - act: {act: prop, at: 邺, item: 马车, text: 犊车, cue: 牛车, size: 1.1, for: 3}
+
+  - say: 路上，皇帝吃的是买来的粗米饭，盛在瓦盆里。有个老人，献了一只蒸鸡。
+    sources: [js-04]
+    show:
+      - quote: {text: 市粗米饭，盛以瓦盆，帝啖两盂。有老父献蒸鸡, source: 晋书·惠帝纪, cue: 瓦盆, for: 4}
+
+  - say: 到了温县，皇帝连鞋都丢了，只好穿随从的。
+    sources: [js-04]
+    show:
+      - act: {act: prop, at: 温, item: 朝履, text: 纳从者之履, cue: 鞋, size: 1.1, for: 3}
+
+  # ---------------- 第四章 胡人 ----------------
+  - say: 王爷们抢皇帝抢红了眼。有两个人，却看清了：晋朝，已经没人管了。
+    phase: 胡人
+    sources: [js-04]
+    camera: {focus: [洛阳, 左国城, 成都], zoom: fit, move: 1.6}
+    show:
+      - sfx: {name: 转折渐强, cue: 看清了}
+
+  - say: 十月，匈奴贵族刘渊在左国城被推为大单于，二十天聚起五万人，自称汉王。
+    map: '304-10'
+    owners_cue: 汉王
+    sources: [js-04, js-101]
+    camera: {focus: [左国城, 晋阳, 洛阳], zoom: fit, move: 1.4}
+    tells: [e27]
+    show:
+      - enter: {who: 刘渊, side: right, cue: 刘渊, for: 3.6}
+      - flag: {at: 左国城, name: 汉王, sub: 刘渊, faction: 汉赵, cue: 汉王, guest: true}
+      - sfx: {name: 称帝, cue: 汉王}
+
+  - say: 他说：我是汉朝皇帝的外甥，哥哥死了弟弟接班，有什么不行？国号，就叫汉。
+    sources: [js-101]
+    show:
+      - quote: {text: 吾又汉氏之甥，约为兄弟，兄亡弟绍，不亦可乎？且可称汉, source: 晋书·刘元海载记, cue: 外甥, for: 4.4}
+
+  - say: 西南，巴氐人李雄占了成都，自称成都王。
+    map: '304-10-20'   # 李雄称成都王（与刘渊称汉王同月，分开上色）
+    sources: [js-04]
+    camera: {focus: [成都, 长安, 洛阳], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 李雄, side: right, cue: 李雄, for: 3.4}
+      - flag: {at: 成都, name: 成都王, sub: 李雄, faction: 成汉, cue: 成都王, guest: true}
+
+  - say: 十一月，河间王的大将张方进了洛阳，要把皇帝拉去长安。皇帝躲进后园竹林，还是被拖上了车。
+    sources: [js-04]
+    camera: {focus: [洛阳, 长安], zoom: fit, move: 1.4}
+    tells: [e30]
+    show:
+      - vignette: {image: illus_bamboo_grove, cue: 竹林, for: 5, text: 帝驰避后园竹中}
+      - march: {from: 洛阳, to: 长安, faction: 河间王, label: 劫帝幸长安, cue: 拖上了车, grow: 2.2}
+
+  # ---------------- 收 ----------------
+  - say: 一年里，皇帝从洛阳被拉到邺城，又逃回洛阳，再被拖去长安。
+    sources: [js-04]
+    camera: {focus: [洛阳, 邺, 长安], zoom: fit, move: 1.6}
+    show:
+      - headline: {text: 一年三迁, sub: 洛阳 · 邺 · 洛阳 · 长安, cue: 长安, for: 3.4}
+
+  - say: 谁都想把皇帝抢在手里当旗，可谁都没把他当个人。
+    sources: [js-04]
+    show:
+      - headline: {text: 皇帝成了一面旗, sub: 谁抢到谁有理, cue: 当旗, for: 3.4}
+      - sfx: {name: 史诗冲击, cue: 当旗}
+
+  - say: 这是嵇侍中的血，别洗。说这话的皇帝，你觉得他真傻吗？
+    sources: [js-89]
+    show:
+      - card: {title: 史书怎么写, body: 嵇绍传：左右欲浣衣，帝曰：此嵇侍中血，勿去, cue: 真傻, for: 3.6}
+
+  - say: 王爷们还在抢皇帝。匈奴人的刀，已经磨好了。
+    sources: [js-101]
+    show:
+      - enter: {who: 刘渊, side: right, cue: 匈奴, for: 3.4}
+      - title_bar: {text: 下集, sub: 两晋 · 东海王胜出, cue: 磨好了, delay: 0.4, for: 3.0}
+      - sfx: {name: 时代转折, cue: 磨好了}

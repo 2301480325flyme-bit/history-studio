@@ -1,0 +1,308 @@
+# 快节奏版（2026-10-13，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第6集：汉献帝逃出长安，饿着肚子回到废墟洛阳；袁绍不接，曹操迎天子都许（195–196）
+# 2026-10-11 按故事稿写成旁白。关键原文均在本地语料核过：
+# "天子东迁，败于曹阳，渡河幸安邑"（武帝纪）；"宫室烧尽，街陌荒芜，百官披荆棘，依丘墙间…尚书郎以下，自出樵采，或饥死墙壁间"（董卓传注）；
+# 沮授"挟天子而令诸侯"、淳于琼"从之则权轻，违之则拒命"（袁绍传注引献帝传 / 后汉书袁绍传）；
+# 毛玠"奉天子以令不臣，修耕植，畜军资"（毛玠传）；荀彧"奉主上以从民望，大顺也"（荀彧传）；
+# "庚申，迁都许"（后汉书·献帝纪）；袁绍"耻班在公下"、"以大将军让绍"、"募民屯田许下，得谷百万斛"（武帝纪及注引魏书）。
+
+id: s01e06-xudu
+title: 曹操迎天子
+series: 三国 · 第6集
+year: 195
+
+notes:
+  - 主线问题：皇帝落难，人人都能接，为什么最后接走他的是曹操？
+  - 反差："挟天子而令诸侯"这句话，史书里本来是沮授说给袁绍听的。
+  - 沮授劝迎驾的年份各书不一，旁白说"早在之前"。许县此时叫"许"，旁白说"许县"。
+
+map:
+  center: [114.0, 33.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  river_rank: 4
+
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 挟天子以令诸侯，本来是说给袁绍听的
+  big: [挟天子, 令诸侯]
+  hero: 曹操
+  at: 40
+  summary: |
+    汉献帝从长安一路逃难，在曹阳被追兵杀得七零八落，回到洛阳时宫殿全成了废墟，百官拨开荆棘、靠着断墙栖身，有人就饿死在墙根下。
+    袁绍的谋士沮授早就劝他"挟天子而令诸侯"，袁绍嫌皇帝是累赘；曹操却听了毛玠、荀彧，把天子接到许县，又募民屯田，一年得谷百万斛。
+  tags: [曹操, 汉献帝, 挟天子以令诸侯, 袁绍, 屯田]
+  next: 吕布偷袭下邳
+
+sources_local:
+  - {id: sgz-01, work: 三国志, volume: 卷一·武帝纪（注引魏书）, url: 'https://zh.wikisource.org/wiki/三國志/卷01'}
+  - {id: sgz-06, work: 三国志, volume: 卷六·董卓传、袁绍传（注引献帝传）, url: 'https://zh.wikisource.org/wiki/三國志/卷06'}
+  - {id: sgz-10, work: 三国志, volume: 卷十·荀彧传, url: 'https://zh.wikisource.org/wiki/三國志/卷10'}
+  - {id: sgz-12, work: 三国志, volume: 卷十二·毛玠传, url: 'https://zh.wikisource.org/wiki/三國志/卷12'}
+  - {id: sgz-16, work: 三国志, volume: 卷十六·任峻传, url: 'https://zh.wikisource.org/wiki/三國志/卷16'}
+  - {id: hhs-09, work: 后汉书, volume: 卷九·孝献帝纪, url: 'https://zh.wikisource.org/wiki/後漢書/卷9'}
+  - {id: hhs-74, work: 后汉书, volume: 卷七十四上·袁绍传, url: 'https://zh.wikisource.org/wiki/後漢書/卷74上'}
+
+factions: {汉室: '#b8462f', 凉州军: '#5a4a6a', 曹操: '#2f5d3a', 袁绍: '#27587e', 刘备: '#5f8f3a', 袁术: '#7a5a8a', 吕布: '#8a3a2a'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    汉室: {slot: stone, main: true, label_at: 洛阳}
+    凉州军: {slot: lavender, label_at: 长安}
+    袁绍: {slot: sky, label_at: 邺}
+    公孙瓒: {slot: orange, label_at: 蓟}
+    曹操: {slot: jade, label_at: 鄄城}
+    刘备: {slot: pink, label_at: 下邳}
+    袁术: {slot: rose, label_at: 寿春}
+    刘表: {slot: olive, label_at: 襄阳}
+    刘璋: {slot: lime, label_at: 成都}
+
+people:
+  刘协: {image: 03_素材/人物立绘/liu_xie.png, title: 汉献帝, role: 东归洛阳, faction: 汉室}
+  李傕: {image: 03_素材/人物立绘/li_jue.png, title: 车骑将军, role: 劫天子, faction: 凉州军}
+  郭汜: {image: 03_素材/人物立绘/guo_si.png, title: 后将军, role: 劫公卿, faction: 凉州军}
+  董承: {image: 03_素材/人物立绘/dong_cheng.png, title: 卫将军, role: 护驾东归, faction: 汉室}
+  袁绍: {image: 03_素材/人物立绘/yuan_shao.png, title: 冀州牧, role: 不迎天子, faction: 袁绍}
+  沮授: {image: 03_素材/人物立绘/ju_shou.png, title: 袁绍监军, role: 劝迎天子, faction: 袁绍}
+  淳于琼: {image: 03_素材/人物立绘/chunyu_qiong.png, title: 袁绍部将, role: 反对迎驾, faction: 袁绍}
+  曹操: {image: 03_素材/人物立绘/cao_cao.png, title: 镇东将军, role: 奉迎天子, faction: 曹操}
+  毛玠: {image: 03_素材/人物立绘/mao_jie.png, title: 治中从事, role: 奉天子以令不臣, faction: 曹操}
+  荀彧: {image: 03_素材/人物立绘/xun_yu.png, title: 尚书令, role: 劝迎天子, faction: 曹操}
+  刘备: {image: 03_素材/人物立绘/liu_bei.png, title: 徐州牧, role: 拒袁术, faction: 刘备}
+  吕布: {image: 03_素材/人物立绘/lv_bu.png, title: 寄身小沛, role: 盯着下邳, faction: 吕布}
+
+places:
+  长安: {id: changan_han_city, label: below}
+  弘农: {id: hongnong, label: below}
+  曹阳: {id: caoyang, label: below}
+  陕: {id: shan, label: right}
+  安邑: {id: anyi_han, label: left}
+  洛阳: {id: luoyang_han_wei, label: left, tier: capital}
+  许: {id: xuchang_approx, name: 许, label: right}
+  邺: {id: ye_city, label: right}
+  鄄城: {id: juancheng, label: right}
+  下邳: {id: xiapi, label: right}
+  小沛: {id: xiaopei, label: left}
+  盱眙: {id: xuyi, label: right}
+  寿春: {id: shouchun, label: right}
+  蓟: {id: ji_yan, label: right}
+  襄阳: {id: xiangyang, label: right}
+  成都: {id: chengdu_city, label: right}
+
+camera:
+  focus: 长安
+  zoom: 3.0
+
+beats:
+  # ---------------- 第一章 天子东归 ----------------
+  - say: 挟天子以令诸侯。这句话，史书里本来是说给袁绍听的。
+    map: '195-09'
+    year: 195
+    phase: 挟天子
+    sources: [sgz-06]
+    show:
+      - card: {title: 挟天子而令诸侯, body: 出自沮授劝袁绍（三国志·袁绍传注引《献帝传》）, cue: 挟天子}
+      - sfx: 重拍转场
+
+  - say: 袁绍没听。后来捡走这位皇帝的，是曹操。
+    sources: [sgz-06]
+
+  - say: 先说皇帝怎么落难的。李傕、郭汜在长安反目，一个劫皇帝，一个扣公卿，城里死了上万人。
+    phase: 天子东归
+    sources: [sgz-06, hhs-09]
+    camera: {focus: 长安, zoom: 3.0, move: 2.0}
+    map: '195-09'
+    show:
+      - title_bar: {text: 曹操迎天子, sub: 三国 · 第6集, for: 3.2}
+      - sfx: 片头鼓
+      - versus: {left: 李傕, right: 郭汜, label: 相攻, cue: 反目, for: 4.6}
+      - sfx: {name: 刀剑交击}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 董承、杨奉护着汉献帝，逃出长安往东走。
+    sources: [sgz-01, hhs-09]
+    show:
+      - enter: {who: 刘协, side: right, cue: 汉献帝, for: 3}
+      - enter: {who: 董承, side: left, cue: 董承, for: 3}
+
+  - say: 李傕、郭汜又后悔了，居然和好，一起追了上来。
+    sources: [sgz-06]
+    camera: {focus: [长安, 曹阳], zoom: fit, move: 1.4}
+    show:
+      - march: {from: 长安, to: 曹阳, faction: 汉室, label: 天子东归, grow: 2.2}
+      - army: {from: 长安, to: 曹阳, faction: 凉州军, banner: 李, troops: cavalry, size: 2.6, cue: 追了上来, grow: 2.4}
+
+  - say: 在弘农曹阳，护驾军大败，百官宫女死伤无数。
+    sources: [sgz-01, sgz-06]
+    camera: {focus: [弘农, 曹阳, 陕], zoom: fit, move: 1.2}
+    show:
+      - battle: {at: 曹阳, text: 曹阳之败, cue: 大败}
+      - sfx: {name: 溃败哭喊, cue: 死伤}
+
+  - say: 皇帝一行趁着夜色偷渡黄河，逃到了安邑。
+    sources: [sgz-01]
+    camera: {focus: [陕, 安邑], zoom: fit, move: 1.2}
+    show:
+      - act: {act: night, cue: 夜色, for: 4}
+      - march: {from: 陕, to: 安邑, faction: 汉室, label: 渡河, grow: 1.8}
+
+  # ---------------- 第二章 废墟洛阳 ----------------
+
+  - say: 熬了大半年，汉献帝终于回到了洛阳。
+    map: '196-01'
+    phase: 废墟洛阳
+    sources: [sgz-01, hhs-09]
+    year: 196
+    camera: {focus: [安邑, 洛阳], zoom: fit, move: 1.4}
+    show:
+      - march: {from: 安邑, to: 洛阳, faction: 汉室, label: 还洛阳, cue: 回到了洛阳, grow: 2.0}
+
+  - say: 可洛阳早被董卓烧光了。百官拨开荆棘，靠着断墙栖身，没有一个州郡送粮来。
+    sources: [sgz-06]
+    camera: {focus: 洛阳, zoom: 4, move: 1.2}
+    show:
+      - act: {act: fall, at: 洛阳, text: 宫室烧尽, cue: 烧光, for: 4}
+      - sfx: {name: 凄凉风}
+      - quote: {text: 百官披荆棘，依丘墙间, source: 三国志·董卓传注, era: 建安元年, cue: 荆棘}
+
+  - say: 官员们自己出城砍柴、挖野菜，有人就饿死在墙根底下。
+    sources: [sgz-06]
+    show:
+      - act: {act: locusts, at: 洛阳, text: 饥馑, cue: 饿死, for: 3}
+
+  - say: 谁来接这位落难的皇帝？
+    sources: [sgz-06]
+    camera: {focus: [洛阳, 邺, 鄄城], zoom: fit, move: 1.4}
+    show:
+      - spot: {at: 洛阳, cue: 落难}
+
+  # ---------------- 第三章 谁来接皇帝 ----------------
+
+  - say: 袁绍的谋士沮授劝他：
+    scene: 朝堂
+    phase: 谁来接皇帝
+    sources: [sgz-06, hhs-74]
+    camera: {focus: [洛阳, 邺], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 袁绍, at: 邺, side: left, cue: 袁绍, for: 3}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 将军应当把天子接到邺城，挟天子而令诸侯，谁能挡得住您！
+    speaker: 沮授
+    style: 恳切急迫，目光长远，压低声音劝主公
+    scene: 朝堂
+    sources: [sgz-06, hhs-74]
+
+  - say: 部将淳于琼反对：
+    scene: 朝堂
+    sources: [hhs-74]
+
+  - say: 接来天子，什么事都得先上奏。听他的，权就轻了；不听，就是抗旨！
+    speaker: 淳于琼
+    style: 不以为然，粗声粗气，摆手反对
+    scene: 朝堂
+    sources: [hhs-74, sgz-06]
+    show:
+      - versus: {left: 沮授, right: 淳于琼, label: 迎不迎, for: 8}
+
+  - say: 袁绍终究没听。
+    scene: 朝堂
+    sources: [sgz-06]
+
+  - say: 曹操那边，谋士毛玠早就出过主意：
+    scene: 朝堂
+    sources: [sgz-12]
+    camera: {focus: [洛阳, 鄄城], zoom: fit, move: 1.4}
+    show:
+      - enter: {who: 曹操, at: 鄄城, side: right, cue: 曹操, for: 3}
+
+  - say: 应当尊奉天子去号令不服的人，再开荒种地、囤积军粮！
+    speaker: 毛玠
+    style: 朴实诚恳，条理清楚，语气笃定
+    scene: 朝堂
+    to: 曹操
+    sources: [sgz-12]
+
+  - say: 荀彧也劝他：
+    scene: 朝堂
+    sources: [sgz-10]
+
+  - say: 尊奉天子，顺从民心，这是大顺！若不早定，后悔就来不及了！
+    speaker: 荀彧
+    style: 从容笃定，语气坚决，催促决断
+    scene: 朝堂
+    to: 曹操
+    sources: [sgz-10]
+    show:
+      - versus: {left: 荀彧, right: 曹操, label: 迎驾, for: 7}
+
+  - say: 曹操不再犹豫，带兵进了洛阳。
+    sources: [sgz-01]
+    camera: {focus: [鄄城, 洛阳], zoom: fit, move: 1.4}
+    show:
+      - army: {from: 鄄城, to: 洛阳, faction: 曹操, banner: 曹, troops: cavalry, size: 2, grow: 2.4}
+
+  - say: 九月，他把天子迁到了自己地盘上的许县。
+    sources: [sgz-01, hhs-09]
+    camera: {focus: [洛阳, 许], zoom: fit, move: 1.4}
+    map: '196-05'
+    show:
+      - march: {from: 洛阳, to: 许, faction: 曹操, label: 迁都许, cue: 迁到, grow: 1.8}
+      - act: {act: enthrone, who: 刘协, title: 汉献帝, text: 都许, side: right, cue: 许县, for: 3.4}
+      - sfx: {name: 帝王登场, cue: 许县}
+
+  - say: 从此，曹操的每一道命令，都可以用皇帝的名义。
+    sources: [sgz-01]
+    show:
+      - act: {act: edict, at: 许, text: 诏, sub: 奉天子以令不臣, side: left, cue: 皇帝的名义, for: 3.4}
+      - headline: {text: 奉迎天子, sub: 建安元年 · 迁都许, for: 3.2}
+
+  - say: 袁绍嫌太尉排在曹操后面，不肯接受。曹操干脆把大将军让给了他。
+    sources: [sgz-01]
+    camera: {focus: [许, 邺], zoom: fit, move: 1.4}
+    show:
+      - versus: {left: 袁绍, right: 曹操, label: 争班, cue: 太尉, for: 5}
+      - act: {act: prop, at: 许, item: 印绶, text: 让大将军, cue: 让给了他, for: 3}
+
+  # ---------------- 第四章 屯田 ----------------
+
+  - say: 光有皇帝不够，还得有粮。曹操招募流民，在许县周围开荒种地，叫屯田。
+    phase: 屯田
+    sources: [sgz-01, sgz-16]
+    show:
+      - act: {act: farm, at: 许, text: 屯田许下, cue: 屯田, for: 5}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 当年就收了一百万斛粮。从此打仗，再也不愁粮草。
+    sources: [sgz-01, sgz-16]
+    show:
+      - act: {act: prop, at: 许, item: 粮仓, text: 得谷百万斛, cue: 一百万斛, size: 1.3, for: 3.6}
+
+  - say: 如果你是袁绍，这个皇帝，接，还是不接？
+    sources: [sgz-01]
+    camera: {focus: [许, 下邳, 寿春], zoom: fit, move: 1.4}
+
+  - say: 而东边，寄住在小沛的吕布，正盯着刘备空虚的老家：下邳。
+    sources: [sgz-01]
+    show:
+      - flag: {at: 小沛, name: 吕布, sub: 寄身小沛, faction: 吕布, cue: 吕布}
+      - arrow: {from: 小沛, to: 下邳, kind: direction, faction: 吕布, cue: 下邳, grow: 1.2}
+      - title_bar: {text: 下集, sub: 吕布夺徐州 · 袁术称帝, cue: 下邳, delay: 0.6, for: 3.0}
+

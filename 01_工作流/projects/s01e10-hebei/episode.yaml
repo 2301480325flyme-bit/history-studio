@@ -1,0 +1,298 @@
+# 快节奏版（2026-10-13，按抖音数据：冷开场、只讲有戏的、无背景音乐）
+# 《三国到隋》第10集：袁绍病死，二子相争，曹操水灌邺城、斩袁谭，平定河北（202–205）
+# 2026-10-11 按故事稿（第10集上半）写成旁白；原第10集按 86 集方案拆成两集，乌桓 + 隆中对见第11集。
+# 关键原文均在本地语料核过："绍自军破后，发病欧血，夏五月死"（武帝纪）；
+# 郭嘉"袁绍爱此二子，莫适立也…急之则相持，缓之而后争心生。不如南向荆州，若征刘表者，以待其变"（郭嘉传）；
+# "为堑，周四十里，初令浅，示若可越。配望而笑之…一夜掘之，广深二丈，决漳水以灌之，自五月至八月，城中饿死者过半"（袁绍传注）；
+# 审配"汝为降虏，审配为忠臣，虽死，岂若汝生邪""我君在北"（袁绍传注引先贤行状）；
+# "审配兄子荣夜开所守城东门…生禽配，斩之，邺定。公临祀绍墓，哭之流涕；慰劳绍妻，还其家人宝物"（武帝纪）。
+
+id: s01e10-hebei
+title: 平定河北
+series: 三国 · 第10集
+year: 202
+
+notes:
+  - 主线问题：官渡之后袁家还有大半个北方，为什么几年就垮了？——兄弟相争，曹操等他们自己打起来。
+  - 袁绍"发病欧血"，与第8集袁术"呕血"画面区分：袁绍只用 exit + 退场钟，不用蜜水那种特写。
+  - 用户未定：原第10集是否拆分——按"慢慢讲"默认拆成两集。
+
+map:
+  center: [114.0, 33.0]
+  scale: 5000
+  extent: [86.0, 10.0, 136.0, 50.0]
+  basemap: dem
+  look: atlas            # 2026-10-17 史图风
+  river_rank: 4
+
+music: {default: 主题, db: -14}
+voice:
+  caption_timing: word      # 2026-10-19 词级字幕定时（wordtime.py）
+  speaker_min_rate: 5.0
+  mode: mimo
+  provider: preset
+  voice: 白桦
+  unit: chapter
+  tag: "(讲述 平稳 连贯)"
+  pause_cap: 0.2
+  tempo_target: 5.0
+  gap: 0.3
+  bed: none
+  bed_db: -26
+
+publish:
+  hook: 毁掉袁家的，是袁绍的两个亲儿子
+  big: [兄弟相残]
+  hero: 审配
+  at: 40
+  summary: |
+    官渡大败后袁绍吐血而死，偏爱的小儿子袁尚和长子袁谭为了继承权反目。郭嘉一句"缓之而后争心生"，曹操佯装南征，兄弟俩果然打了起来。
+    曹操挖浅壕诱敌，一夜之间掘成两丈深，引漳水灌邺城，城中饿死过半；审配被擒不降，临刑喝令面朝北方："我君在北！"
+  tags: [曹操, 袁绍, 审配, 邺城, 郭嘉]
+  next: 千里奔袭：曹操北征乌桓
+
+sources_local:
+  - {id: sgz-01, work: 三国志, volume: 卷一·武帝纪, url: 'https://zh.wikisource.org/wiki/三國志/卷01'}
+  - {id: sgz-06, work: 三国志, volume: 卷六·袁绍传（注引先贤行状）, url: 'https://zh.wikisource.org/wiki/三國志/卷06'}
+  - {id: sgz-14, work: 三国志, volume: 卷十四·郭嘉传, url: 'https://zh.wikisource.org/wiki/三國志/卷14'}
+  - {id: hhs-74, work: 后汉书, volume: 卷七十四下·袁谭袁尚传, url: 'https://zh.wikisource.org/wiki/後漢書/卷74下'}
+
+factions: {曹操: '#2f5d3a', 袁绍: '#27587e', 袁谭: '#3f6f9f', 袁尚: '#1f4a6e'}
+
+territory:
+  cells: han-219
+  zhou_labels: true
+  jun_labels: always
+  polities:
+    汉室: {slot: stone, main: true, label_at: 洛阳}
+    凉州军: {slot: lavender, label_at: 长安}
+    袁绍: {slot: sky, label_at: 邺}
+    袁谭: {slot: aqua, label_at: 平原}
+    曹操: {slot: jade, label_at: 许}
+    孙权: {slot: lemon, label_at: 吴}
+    刘表: {slot: olive, label_at: 襄阳}
+    刘璋: {slot: lime, label_at: 成都}
+
+people:
+  袁绍: {image: 03_素材/人物立绘/yuan_shao.png, title: 大将军, role: 官渡败归, faction: 袁绍}
+  袁尚: {image: 03_素材/人物立绘/yuan_shang.png, title: 袁绍幼子, role: 继位冀州, faction: 袁尚}
+  袁谭: {image: 03_素材/人物立绘/yuan_tan.png, title: 袁绍长子, role: 自号车骑将军, faction: 袁谭}
+  曹操: {image: 03_素材/人物立绘/cao_cao.png, title: 司空, role: 平定河北, faction: 曹操}
+  郭嘉: {image: 03_素材/人物立绘/guo_jia.png, title: 军师祭酒, role: 坐观其变, faction: 曹操}
+  审配: {image: 03_素材/人物立绘/shen_pei.png, title: 冀州别驾, role: 死守邺城, faction: 袁尚}
+
+places:
+  邺: {id: ye_city, label: right, tier: capital}
+  黎阳: {id: liyang, label: left}
+  平原: {id: pingyuan, label: right}
+  南皮: {id: nanpi, label: right}
+  许: {id: xuchang_approx, name: 许, label: right}
+  蓟: {id: ji_yan, label: right}
+  柳城: {id: liucheng, label: right}
+  襄阳: {id: xiangyang, label: right}
+  洛阳: {id: luoyang_han_wei, label: left}
+  长安: {id: changan_han_city, label: below}
+  吴: {id: wu_city, label: right}
+  成都: {id: chengdu_city, label: right}
+
+camera:
+  focus: [邺, 黎阳]
+  zoom: 2.2
+
+beats:
+  # ---------------- 第一章 兄弟阋墙 ----------------
+  - say: 官渡之后，袁家还有大半个北方。不到五年，一寸都没剩下。
+    map: '200-04'
+    year: 201
+    phase: 兄弟阋墙
+    sources: [sgz-14]
+    camera: {focus: [邺, 许], zoom: fit, move: 1.4}
+    show:
+      - headline: {text: 河北平定, sub: 建安十年, for: 3.2}
+      - sfx: 重拍转场
+
+  - say: 毁掉袁家的，不是曹操，是袁绍的两个亲儿子。
+    sources: [sgz-14]
+    map: '201-09'
+    camera: {focus: [邺, 许], zoom: fit, move: 1.4}
+
+  - say: 官渡大败，袁绍逃回河北，两年后吐血而死。
+    sources: [sgz-06, hhs-74]
+    year: 202
+    camera: {focus: [邺, 黎阳], zoom: fit, move: 2.0}
+    show:
+      - title_bar: {text: 平定河北, sub: 三国 · 第10集, for: 3.2}
+      - sfx: 片头鼓
+      - flag: {at: 邺, name: 袁绍, sub: 大将军, faction: 袁绍, cue: 袁绍}
+      - exit: {who: 袁绍, at: 邺, verb: 卒, portrait: true}
+      - sfx: {name: 退场钟}
+
+  - say: 他偏爱小儿子袁尚，谋士审配抢先拥立了袁尚。
+    sources: [sgz-01, hhs-74]
+    map: '202-05'
+    owners_cue: 拥立
+    show:
+      - enter: {who: 袁尚, at: 邺, side: right, cue: 袁尚, settle: true, settle_sub: 继位冀州}
+
+  - say: 长子袁谭不服，自封车骑将军。
+    sources: [sgz-01]
+    camera: {focus: [邺, 黎阳], zoom: fit, move: 1.2}
+    show:
+      - enter: {who: 袁谭, at: 黎阳, side: left, cue: 袁谭, settle: true, settle_sub: 车骑将军, guest: true}
+
+  - say: 曹操北上，兄弟俩暂时联手，关起城门死守。
+    sources: [sgz-01, sgz-14]
+    camera: {focus: [许, 黎阳], zoom: fit, move: 1.4}
+    show:
+      - army: {from: 许, to: 黎阳, faction: 曹操, banner: 曹, troops: infantry, size: 2.4, cue: 北上, grow: 2.4}
+      - battle: {at: 黎阳, text: 连战数克}
+
+  - say: 将领们想猛攻，郭嘉却说：
+    scene: 军帐
+    sources: [sgz-14]
+    show:
+      - enter: {who: 郭嘉, side: left, cue: 郭嘉, for: 2.6}
+
+  - say: 逼得太急，他们就抱成一团；放一放，他们自己就会打起来！
+    speaker: 郭嘉
+    style: 轻快笃定，胸有成竹，带着几分狡黠
+    scene: 军帐
+    to: 曹操
+    sources: [sgz-14]
+
+  - say: 曹操带兵往南，假装去打荆州。
+    sources: [sgz-14]
+    camera: {focus: [黎阳, 许, 襄阳], zoom: fit, move: 1.4}
+    show:
+      - arrow: {from: 许, to: 襄阳, kind: direction, faction: 曹操, cue: 往南, grow: 1.6}
+
+  - say: 曹军刚走，兄弟俩果然打了起来。袁谭打不过弟弟，竟然向曹操求救。
+    sources: [sgz-14, sgz-01]
+    year: 203
+    camera: {focus: [邺, 黎阳, 平原], zoom: fit, move: 1.4}
+    map: '203-08'
+    show:
+      - versus: {left: 袁谭, right: 袁尚, label: 兄弟相攻, for: 4}
+      - sfx: {name: 对峙滚奏, len: 4}
+      - flee: {from: 黎阳, to: 平原, faction: 袁谭}
+      - act: {act: courier, places: [平原, 许], text: 乞援, cue: 求救, grow: 1.6, for: 3}
+
+  - say: 曹操等的，就是这一天。
+    sources: [sgz-14]
+    show:
+      - enter: {who: 曹操, side: right, cue: 曹操, for: 3}
+
+  # ---------------- 第二章 水灌邺城 ----------------
+
+  - say: 他趁机包围了袁家的老巢：邺城。
+    phase: 水灌邺城
+    sources: [sgz-01]
+    year: 204
+    camera: {focus: [许, 邺], zoom: fit, move: 1.4}
+    show:
+      - army: {from: 许, to: 邺, faction: 曹操, banner: 曹, troops: infantry, size: 2.8, cue: 包围, grow: 2.4}
+      - siege: {at: 邺, text: 围, faction: 曹操, cue: 邺城, for: 3}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 守城的，是审配。
+    sources: [sgz-06]
+    camera: {focus: 邺, zoom: 6, move: 1.2}
+    show:
+      - enter: {who: 审配, at: 邺, side: left, cue: 审配, for: 3.4}
+
+  - say: 曹操在城外挖了一圈又浅又窄的壕沟。审配在城头看着直笑。
+    sources: [sgz-06]
+
+  - say: 没想到一夜之间，壕沟挖成两丈宽、两丈深，漳水灌进了邺城。
+    sources: [sgz-06, sgz-01]
+    show:
+      - act: {act: flood, at: 邺, text: 决漳水灌城, cue: 灌进了邺城, for: 5}
+      - sfx: {name: 水淹}
+
+  - say: 从五月到八月，城里饿死了一大半人。
+    sources: [sgz-06]
+    show:
+      - quote: {text: 自五月至八月，城中饿死者过半, source: 三国志·袁绍传注, era: 建安九年, cue: 饿死}
+
+  - say: 袁尚回救大败，连印绶都丢了。曹操拿着印绶给城里人看，守军的心散了。
+    sources: [sgz-01]
+    show:
+      - battle: {at: 邺, text: 袁尚大败, cue: 大败}
+      - act: {act: prop, at: 邺, item: 印绶, text: 得尚印绶, cue: 印绶, for: 3.4}
+
+  - say: 审配的侄子半夜打开城门，审配被活捉。
+    sources: [sgz-01]
+    map: '204-08'
+    show:
+      - act: {act: night, cue: 半夜, for: 3}
+      - takeover: {at: 邺, from: 袁绍, to: 曹操, name: 曹操, sub: 入邺城, camera: false}
+      - sfx: {name: 疆域易手}
+
+  - say: 有个降将嘲笑他，审配厉声回答：
+    scene: 刑场
+    sources: [sgz-06]
+
+  - say: 你是投降的俘虏，我审配是忠臣！就算死了，也比你这样活着强！
+    speaker: 审配
+    style: 厉声怒斥，刚烈不屈，声如洪钟
+    scene: 刑场
+    to: 曹操
+    sources: [sgz-06]
+
+  - say: 临刑前，他喝令刽子手，让他面朝北方：
+    scene: 刑场
+    sources: [sgz-06]
+
+  - say: 我的主公，在北边！
+    speaker: 审配
+    style: 悲壮从容，一字一顿，昂首北望
+    scene: 刑场
+    to: 曹操
+    sources: [sgz-06]
+    show:
+      - exit: {who: 审配, at: 邺, verb: 死, cue: 北边, portrait: true}
+
+  - say: 曹操亲自到袁绍墓前祭拜，哭得泪流满面。
+    sources: [sgz-01]
+    show:
+      - act: {act: prop, at: 邺, item: 陵墓, text: 临祀绍墓, cue: 墓前, for: 4}
+      - quote: {text: 公临祀绍墓，哭之流涕, source: 三国志·武帝纪, era: 建安九年, cue: 泪流满面}
+
+  - say: 十几年前，他们是一起讨董的盟友。如今，一个躺在墓里，一个站在墓前。
+    sources: [sgz-01]
+    show:
+      - versus: {left: 袁绍, right: 曹操, label: 故友, cue: 盟友, for: 5}
+
+  # ---------------- 第三章 南皮 ----------------
+
+  - say: 第二年，曹操在南皮斩了袁谭。冀州、青州，全部平定。
+    phase: 南皮
+    sources: [sgz-01]
+    year: 205
+    camera: {focus: [邺, 南皮, 平原], zoom: fit, move: 1.4}
+    map: '205-01'
+    show:
+      - exit: {who: 袁谭, at: 南皮, verb: 斩, portrait: true}
+      - sfx: {name: 疆域易手, cue: 平定}
+      - sfx: {name: 低音转场, delay: -0.3}
+
+  - say: 袁尚、袁熙逃到了长城外的乌桓。
+    sources: [sgz-01]
+    camera: {focus: [邺, 蓟, 柳城], zoom: fit, move: 1.6}
+    map: '206-03'
+    show:
+      - flee: {from: 邺, to: 蓟, faction: 袁尚}
+      - flee: {from: 蓟, to: 柳城, faction: 袁尚}
+      - flag: {at: 柳城, name: 袁尚 · 袁熙, sub: 投奔乌桓, faction: 袁尚, cue: 乌桓, guest: true}
+
+  - say: 如果袁绍早定了继承人，曹操还打得下河北吗？
+    sources: [sgz-01]
+    camera: {focus: [邺, 柳城], zoom: fit, move: 1.4}
+
+  - say: 要不要追到塞外？那就是一场穿越荒原的远征。
+    sources: [sgz-01]
+    camera: {focus: [邺, 柳城], zoom: fit, move: 1.4}
+    show:
+      - spot: {at: 柳城}
+      - title_bar: {text: 下集, sub: 北征乌桓 · 隆中对, cue: 远征, delay: 0.6, for: 3.0}
+

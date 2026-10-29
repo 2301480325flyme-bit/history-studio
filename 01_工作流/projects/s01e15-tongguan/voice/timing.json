@@ -1,0 +1,490 @@
+{
+ "mode": "mimo",
+ "beats": [
+  {
+   "file_start": 0.3,
+   "file_end": 3.913,
+   "voice_onset": 0.46,
+   "voice_offset": 3.69
+  },
+  {
+   "file_start": 3.913,
+   "file_end": 7.575,
+   "voice_onset": 4.213,
+   "voice_offset": 7.543
+  },
+  {
+   "file_start": 7.875,
+   "file_end": 11.533,
+   "voice_onset": 7.985,
+   "voice_offset": 11.265
+  },
+  {
+   "file_start": 11.533,
+   "file_end": 15.951,
+   "voice_onset": 11.613,
+   "voice_offset": 15.693
+  },
+  {
+   "file_start": 15.951,
+   "file_end": 20.569,
+   "voice_onset": 16.241,
+   "voice_offset": 20.541
+  },
+  {
+   "file_start": 20.869,
+   "file_end": 25.827,
+   "voice_onset": 20.989,
+   "voice_offset": 25.479
+  },
+  {
+   "file_start": 26.127,
+   "file_end": 29.9,
+   "voice_onset": 26.177,
+   "voice_offset": 29.897
+  },
+  {
+   "file_start": 30.2,
+   "file_end": 37.047,
+   "voice_onset": 30.33,
+   "voice_offset": 36.92
+  },
+  {
+   "file_start": 37.047,
+   "file_end": 43.349,
+   "voice_onset": 37.207,
+   "voice_offset": 43.067
+  },
+  {
+   "file_start": 43.349,
+   "file_end": 50.811,
+   "voice_onset": 43.409,
+   "voice_offset": 50.549
+  },
+  {
+   "file_start": 50.811,
+   "file_end": 55.629,
+   "voice_onset": 51.101,
+   "voice_offset": 55.251
+  },
+  {
+   "file_start": 55.629,
+   "file_end": 61.605,
+   "voice_onset": 55.699,
+   "voice_offset": 61.329
+  },
+  {
+   "file_start": 61.605,
+   "file_end": 66.737,
+   "voice_onset": 61.885,
+   "voice_offset": 66.725
+  },
+  {
+   "file_start": 67.037,
+   "file_end": 71.347,
+   "voice_onset": 67.207,
+   "voice_offset": 71.067
+  },
+  {
+   "file_start": 71.347,
+   "file_end": 73.954,
+   "voice_onset": 71.637,
+   "voice_offset": 73.717
+  },
+  {
+   "file_start": 73.954,
+   "file_end": 79.423,
+   "voice_onset": 74.254,
+   "voice_offset": 79.164
+  },
+  {
+   "file_start": 79.423,
+   "file_end": 86.014,
+   "voice_onset": 79.723,
+   "voice_offset": 85.753
+  },
+  {
+   "file_start": 86.014,
+   "file_end": 92.533,
+   "voice_onset": 86.314,
+   "voice_offset": 92.494
+  },
+  {
+   "file_start": 92.833,
+   "file_end": 95.008,
+   "voice_onset": 92.973,
+   "voice_offset": 94.623
+  },
+  {
+   "file_start": 95.308,
+   "file_end": 99.319,
+   "voice_onset": 95.378,
+   "voice_offset": 99.038
+  },
+  {
+   "file_start": 99.319,
+   "file_end": 103.927,
+   "voice_onset": 99.609,
+   "voice_offset": 103.679
+  },
+  {
+   "file_start": 103.927,
+   "file_end": 109.677,
+   "voice_onset": 104.237,
+   "voice_offset": 109.437
+  },
+  {
+   "file_start": 109.677,
+   "file_end": 111.922,
+   "voice_onset": 109.977,
+   "voice_offset": 111.747
+  },
+  {
+   "file_start": 112.222,
+   "file_end": 118.598,
+   "voice_onset": 112.302,
+   "voice_offset": 118.282
+  },
+  {
+   "file_start": 118.598,
+   "file_end": 123.669,
+   "voice_onset": 118.678,
+   "voice_offset": 123.398
+  },
+  {
+   "file_start": 123.669,
+   "file_end": 128.305,
+   "voice_onset": 123.959,
+   "voice_offset": 128.109
+  },
+  {
+   "file_start": 128.305,
+   "file_end": 132.723,
+   "voice_onset": 128.655,
+   "voice_offset": 132.555
+  },
+  {
+   "file_start": 133.023,
+   "file_end": 141.646,
+   "voice_onset": 133.203,
+   "voice_offset": 141.243
+  },
+  {
+   "file_start": 141.946,
+   "file_end": 146.554,
+   "voice_onset": 141.996,
+   "voice_offset": 146.246
+  },
+  {
+   "file_start": 146.554,
+   "file_end": 150.022,
+   "voice_onset": 146.794,
+   "voice_offset": 149.804
+  },
+  {
+   "file_start": 150.022,
+   "file_end": 155.963,
+   "voice_onset": 150.292,
+   "voice_offset": 155.922
+  }
+ ],
+ "narration": "D:\\history\\codx_3 history studio\\01_工作流\\projects\\s01e15-tongguan\\voice\\narration.wav",
+ "asr": [
+  {
+   "beat": 1,
+   "chapter": 1,
+   "text": "敌人的援军，每来一支，曹操就高兴一次。关中十路兵马，十几万人，他到底在高兴什么？",
+   "heard": "敌人的援军每来一支，曹操就高兴一次。关中十路兵马十几万人，他到底在高兴什么？",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 3,
+   "chapter": 2,
+   "text": "公元二百一十一年，曹操派钟繇去打汉中的张鲁。去汉中，得穿过关中。马超、韩遂一听：这是冲我们来的吧？他们拉上杨秋、李堪、成宜，十路兵马，一起堵住了潼关。",
+   "heard": "公元二百一十一年，曹操派钟繇去打汉中的张鲁。去汉中得穿过关中，马超、韩遂一听，这是冲我们来的吧？他们拉上杨秋、李堪、成宜十路兵马，一起堵住了潼关。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 6,
+   "speaker": "曹操",
+   "text": "关西兵凶悍，坚守营垒，谁也不许跟他们硬拼！",
+   "heard": "关西兵凶悍，坚守营垒，谁也不许跟他们硬拼。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 7,
+   "chapter": 4,
+   "text": "七月，曹操亲自西征，和马超隔着潼关对峙。",
+   "heard": "七月，曹操亲自西征，和马超隔着潼关对峙。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 8,
+   "chapter": 5,
+   "text": "正面拖着，背地里，他派徐晃、朱灵趁夜从蒲阪津偷渡黄河，在河西扎下营。接着曹操自己北渡。兵快渡完了，马超带一万多步骑杀到，箭像下雨一样。许褚把曹操扶上船。船太重快沉了，他砍倒扒船的人，左手举起马鞍，替曹操挡箭。撑船的船工中箭死了，许褚就用右手撑船，这才渡了过去。校尉丁斐把牛马全放了出去。马超的兵忙着抢牛马，曹军才脱了身。曹军沿着黄河南下，夜里架起浮桥，渡过渭水，在渭南扎营。",
+   "heard": "正面拖着，背地里他派徐晃、朱灵趁夜从蒲坂津偷渡黄河，在河西扎下营。接着，曹操自己北渡，兵快渡完了，马超带一万多步骑杀到，箭像下雨一样。许褚把曹操扶上船，船太重快沉了，他砍倒扒船的人，左手举起马鞍替曹操挡箭。撑船的船工中箭死了，许褚就用右手撑船，这才渡了过去。校尉丁斐把牛马全放了出去，马超的兵忙着抢牛马，曹军才脱了身。曹军沿着黄河南下，夜里架起浮桥渡过渭水，在渭南扎营。",
+   "ratio": 0.994,
+   "diff": [
+    "「阪」→「坂」"
+   ]
+  },
+  {
+   "beat": 14,
+   "chapter": 6,
+   "text": "马超打不下来，提出割地讲和，还愿意送儿子做人质。贾诩出主意：假装答应他们。韩遂要见曹操。两人的父辈同一年举孝廉，他们年轻时就认识。两人骑着马聊了很久，一句不提打仗，只说京城的老朋友，说到高兴处，拍手大笑。马超也在场。他仗着力气大，想冲上去抓曹操，又疑心曹操身后那个骑兵是许褚，就问：",
+   "heard": "马超打不下来，提出割地讲和，还愿意送儿子做人质。贾诩出主意，假装答应他们。韩遂要见曹操，两人的父辈同一年举孝廉，他们年轻时就认识。两人骑着马聊了很久，一句不提打仗，只说京城的老朋友。说到高兴处，拍手大笑。马超也在场，他仗着力气大，想冲上去抓曹操，又疑心曹操身后那个骑兵是许褚，就问。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 19,
+   "speaker": "马超",
+   "text": "您那位虎侯，在哪儿？",
+   "heard": "您那位虎侯，在哪儿？",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 20,
+   "chapter": 8,
+   "text": "曹操回头一指。许褚瞪着眼睛盯住他，马超没敢动。回营以后，马超问韩遂：曹操说什么了？韩遂说：什么也没说。过了几天，曹操又给韩遂写信，故意涂涂改改，看着像韩遂自己改过的。马超越看越怀疑韩遂。",
+   "heard": "曹操回头一指，许褚瞪着眼睛盯住他，马超没敢动。回营以后，马超问韩遂：“曹操说什么了？”韩遂说：“什么也没说。”过了几天，曹操又给韩遂写信，故意涂涂改改，看着像韩遂自己改过的。马超越看越怀疑韩遂。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 24,
+   "chapter": 9,
+   "text": "曹操约好日子决战。先派轻兵挑战，打了很久，才放出虎豹骑，两面夹击。关中联军大败，成宜、李堪被杀，马超、韩遂逃回了凉州。十月，曹操北上安定，杨秋投降。关中，平定了。将领们这才问：敌人每来一支，您为什么反而高兴？曹操说：",
+   "heard": "曹操约好日子决战，先派轻兵挑战，打了很久才放出虎豹骑两面夹击，关中联军大败，成宜、李堪被杀，马超、韩遂逃回了凉州。十月，曹操北上安定，杨秋投降，关中平定了。将领们这才问：“敌人每来一支，您为什么反而高兴？”曹操说。",
+   "ratio": 1.0,
+   "diff": []
+  },
+  {
+   "beat": 28,
+   "speaker": "曹操",
+   "text": "关中路远，他们要是各守险要，一两年都打不完。如今全凑到一块，人虽多，谁也不服谁，一仗就能解决！",
+   "heard": "关中路远，他们要是各守险要，一两年都打不完。如今全凑到一块儿，人虽多，谁也不服谁，一仗就能解决。",
+   "ratio": 0.988,
+   "diff": [
+    "「」→「儿」"
+   ]
+  },
+  {
+   "beat": 29,
+   "chapter": 11,
+   "text": "十几万人，不是输给了曹操的刀，是输给了彼此的猜疑。如果马超没有怀疑韩遂，潼关守得住吗？关中一丢，汉中的张鲁、成都的刘璋都慌了。刘璋想到了一个人：刘备。",
+   "heard": "十几万人不是输给了曹操的刀，是输给了彼此的猜疑。如果马超没有怀疑韩遂，潼关守得住吗？关中一丢，汉中的张鲁、成都的刘璋都慌了。刘璋想到了一个人，刘备。",
+   "ratio": 1.0,
+   "diff": []
+  }
+ ],
+ "speaker_pace": [
+  {
+   "beat": 6,
+   "speaker": "曹操",
+   "rate_before": 3.02,
+   "speed": 1.35,
+   "rate": 4.07
+  },
+  {
+   "beat": 19,
+   "speaker": "马超",
+   "rate_before": 3.75,
+   "speed": 1.34,
+   "rate": 5.0
+  },
+  {
+   "beat": 28,
+   "speaker": "曹操",
+   "rate_before": 4.01,
+   "speed": 1.25,
+   "rate": 5.0
+  }
+ ],
+ "tempo": [
+  {
+   "chapter": 1,
+   "raw_rate": 4.42,
+   "factor": 1.104
+  },
+  {
+   "chapter": 2,
+   "raw_rate": 4.81,
+   "factor": 1.104
+  },
+  {
+   "chapter": 4,
+   "raw_rate": 4.09,
+   "factor": 1.104
+  },
+  {
+   "chapter": 5,
+   "raw_rate": 4.39,
+   "factor": 1.104
+  },
+  {
+   "chapter": 6,
+   "raw_rate": 4.69,
+   "factor": 1.104
+  },
+  {
+   "chapter": 8,
+   "raw_rate": 4.79,
+   "factor": 1.104
+  },
+  {
+   "chapter": 9,
+   "raw_rate": 4.29,
+   "factor": 1.104
+  },
+  {
+   "chapter": 11,
+   "raw_rate": 4.57,
+   "factor": 1.104
+  }
+ ],
+ "chapter_match": {
+  "eq_max_db": [
+   5.0,
+   4.6,
+   5.0,
+   3.0,
+   2.9,
+   2.6,
+   3.1,
+   5.0
+  ],
+  "level_before_db": [
+   -21.8,
+   -24.6,
+   -22.7,
+   -26.9,
+   -24.1,
+   -25.8,
+   -26.0,
+   -23.8
+  ],
+  "level_after_db": -24.5
+ },
+ "splits": [
+  {
+   "beat": 1,
+   "ratio": 1.0
+  },
+  {
+   "beat": 2,
+   "ratio": 1.0
+  },
+  {
+   "beat": 3,
+   "ratio": 1.0
+  },
+  {
+   "beat": 4,
+   "ratio": 1.0
+  },
+  {
+   "beat": 5,
+   "ratio": 0.905
+  },
+  {
+   "beat": 7,
+   "ratio": 1.0
+  },
+  {
+   "beat": 8,
+   "ratio": 0.966
+  },
+  {
+   "beat": 9,
+   "ratio": 1.0
+  },
+  {
+   "beat": 10,
+   "ratio": 1.0
+  },
+  {
+   "beat": 11,
+   "ratio": 1.0
+  },
+  {
+   "beat": 12,
+   "ratio": 1.0
+  },
+  {
+   "beat": 13,
+   "ratio": 1.0
+  },
+  {
+   "beat": 14,
+   "ratio": 1.0
+  },
+  {
+   "beat": 15,
+   "ratio": 1.0
+  },
+  {
+   "beat": 16,
+   "ratio": 1.0
+  },
+  {
+   "beat": 17,
+   "ratio": 1.0
+  },
+  {
+   "beat": 18,
+   "ratio": 1.0
+  },
+  {
+   "beat": 20,
+   "ratio": 1.0
+  },
+  {
+   "beat": 21,
+   "ratio": 1.0
+  },
+  {
+   "beat": 22,
+   "ratio": 1.0
+  },
+  {
+   "beat": 23,
+   "ratio": 1.0
+  },
+  {
+   "beat": 24,
+   "ratio": 1.0
+  },
+  {
+   "beat": 25,
+   "ratio": 0.905
+  },
+  {
+   "beat": 26,
+   "ratio": 1.0
+  },
+  {
+   "beat": 27,
+   "ratio": 1.0
+  },
+  {
+   "beat": 29,
+   "ratio": 1.0
+  },
+  {
+   "beat": 30,
+   "ratio": 1.0
+  },
+  {
+   "beat": 31,
+   "ratio": 1.0
+  }
+ ],
+ "measurement": "10ms RMS>.004 after peak normalisation; phrase-level, not forced syllable alignment",
+ "cleaned": "0 breath/noise islands gated out"
+}
